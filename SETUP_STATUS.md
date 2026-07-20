@@ -1,10 +1,10 @@
 # Guide setup status
 
-- Status: Provisional local guide built and validated
+- Status: Provisional guide built, validated and deployed
 - Current phase: Source-gap follow-up
-- Readiness: Core and Planning guide available for local use
+- Readiness: Core and Planning guide live on GitHub Pages
 - Last updated: 2026-07-20
-- Next step: Review the local guide, then obtain version-matched Sevii tables and final custom-form/item assets before deployment.
+- Next step: Obtain version-matched Sevii tables and final custom-form/item assets, then rebuild and redeploy through the existing workflow.
 
 ## Progress
 
@@ -18,7 +18,7 @@
 | Planning data | Imported and validated | 766 moves and 2,468 item records merged; workbook learnsets imported; 87 older/custom move definitions and 247 custom item records remain provisional |
 | Advanced data | Later / source available in part | Workbook trainer-team columns identified, but trainer battles, battle planner, maps and cloud sync remain deferred |
 | Local build | Complete | Baseline fetched and pinned; merge, schema validation, provenance audit, local-asset audit, desktop review and 375px mobile review pass |
-| Deployment | Deferred | Requires explicit approval |
+| Deployment | Complete | Public repository and GitHub Pages deployment verified on 2026-07-20 |
 
 ## Confirmed decisions
 
@@ -57,3 +57,4 @@
 - Added a repeatable workbook importer and generated the Core/Planning override layer.
 - Validated 596 Pokémon forms, 766 moves, 95 locations and 2,468 items; provenance and all 2,535 referenced local assets also pass audit.
 - Reviewed the local guide at desktop and 375px mobile widths, corrected the all-day encounter presentation, removed empty/deferred navigation, fixed horizontal overflow and confirmed no browser console errors.
+- Created `jimineybillybob1/pokemon-crystal-advance-redux`, enabled GitHub Pages through Actions, and verified the public page and guide-data asset return HTTP 200.

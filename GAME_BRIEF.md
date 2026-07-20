@@ -64,7 +64,7 @@ Mark each as `required`, `later`, or `disabled`.
 
 ## Deployment
 
-- GitHub owner:
-- Repository name:
-- GitHub Pages URL:
+- GitHub owner: jimineybillybob1
+- Repository name: pokemon-crystal-advance-redux
+- GitHub Pages URL: https://jimineybillybob1.github.io/pokemon-crystal-advance-redux/
 - Cloud sync endpoint, if already available:

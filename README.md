@@ -2,6 +2,10 @@
 
 A local, offline-friendly guide for Pokémon Crystal Advance Redux, build 2026-07-19. It combines a pinned PokeAPI baseline with the supplied community workbook and the official developer changelog through 2026-07-19.
 
+**Live guide:** https://jimineybillybob1.github.io/pokemon-crystal-advance-redux/
+
+**Repository:** https://github.com/jimineybillybob1/pokemon-crystal-advance-redux
+
 The current provisional build contains 596 Pokémon forms, 766 moves, 95 standard encounter locations, 167 other acquisition entries and 2,468 items. Standard encounters are presented as all-day tables; Seasonal Migration is a separate acquisition overlay.
 
 See `SETUP_STATUS.md` for completed work and known gaps, and `sources/source-inventory.md` for source authority and coverage.
