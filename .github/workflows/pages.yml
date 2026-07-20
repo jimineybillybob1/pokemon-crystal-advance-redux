@@ -31,6 +31,8 @@ jobs:
           npm run validate
           npm run audit:assets
       - uses: actions/configure-pages@v5
+        with:
+          enablement: true
       - name: Configure optional cloud sync endpoint
         env:
           GUIDE_SYNC_ENDPOINT: ${{ vars.GUIDE_SYNC_ENDPOINT }}
