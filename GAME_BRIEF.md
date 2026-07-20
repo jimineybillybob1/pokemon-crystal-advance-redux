@@ -55,12 +55,13 @@ Mark each as `required`, `later`, or `disabled`.
 
 ## Branding
 
-- Logo:
-- Hero/background artwork:
-- Browser/app icon:
-- Primary colour:
-- Accent colour:
-- Menu sprite preferences:
+- Logo: `assets/art/crystal-advance-redux-logo.png` — SteamGridDB asset 156975 by ALGAE.
+- Hero/background artwork: `assets/art/crystal-advance-redux-hero.png` — SteamGridDB asset 154634 by ALGAE.
+- Browser/app icon: `assets/art/crystal-advance-redux-icon.png` — SteamGridDB asset 112669 by BeardedSquirrel.
+- Primary colour: `#f13f57`
+- Accent colour: `#f2bb4b`
+- Menu sprite preferences: Pokémon item sprites already used by the guide.
+- Attribution and original asset links: `sources/art-attribution.md`.
 
 ## Deployment
 

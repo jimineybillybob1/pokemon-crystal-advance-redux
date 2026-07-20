@@ -8,16 +8,10 @@
   "theme_color": "#f13f57",
   "icons": [
     {
-      "src": "assets/art/placeholder-icon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml",
+      "src": "assets/art/crystal-advance-redux-icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
       "purpose": "any"
-    },
-    {
-      "src": "assets/art/placeholder-icon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml",
-      "purpose": "maskable"
     }
   ]
 }

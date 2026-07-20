@@ -3,7 +3,7 @@
 - Status: Provisional guide built, validated and deployed
 - Current phase: Source-gap follow-up
 - Readiness: Core and Planning guide live on GitHub Pages
-- Last updated: 2026-07-20
+- Last updated: 2026-07-21
 - Next step: Obtain version-matched Sevii tables and final custom-form/item assets, then rebuild and redeploy through the existing workflow.
 
 ## Progress
@@ -37,7 +37,7 @@
 | Wild encounters and other acquisition | Strong through 2026-07-01 | Workbook plus developer changelog screenshots | Seasonal pools are region-wide rather than route-specific; post-2026-07-01 Sevii tables absent |
 | Items and shops | Strong through 2026-07-01 | `sources/inbox/Crystal Advance Redux.xlsx` | Verify Route 31 Potion fix and later Sevii placements |
 | Trainer and boss battles | Structured workbook columns identified | Workbook plus official developer thread/changelog | Import deferred with Advanced features; post-workbook teams still need review |
-| Badges, maps and branding | Partial | Workbook level caps plus official developer thread | No reusable region maps or final branding assets supplied |
+| Badges, maps and branding | Partial | Workbook level caps, official developer thread and SteamGridDB | Selected hero, logo and app icon imported with attribution; reusable maps remain unavailable |
 
 ## Open questions
 
@@ -45,7 +45,7 @@
 - Confirm whether Seasonal Migration is intentionally region-wide or has an undisclosed eligible-route list.
 - Replace provisional older/custom move definitions, custom item details and 19 custom-form placeholder sprites with version-matched sources/assets.
 - Supply dedicated egg-source pools if the game has them; workbook egg moves are imported, but no hatch-source table was identified.
-- Supply final branding assets later; placeholders remain deliberate.
+- Review the selected community branding if official developer-supplied guide assets become available.
 
 ## Activity log
 
@@ -58,3 +58,4 @@
 - Validated 596 Pokémon forms, 766 moves, 95 locations and 2,468 items; provenance and all 2,535 referenced local assets also pass audit.
 - Reviewed the local guide at desktop and 375px mobile widths, corrected the all-day encounter presentation, removed empty/deferred navigation, fixed horizontal overflow and confirmed no browser console errors.
 - Created `jimineybillybob1/pokemon-crystal-advance-redux`, enabled GitHub Pages through Actions, and verified the public page and guide-data asset return HTTP 200.
+- Imported a SteamGridDB hero, official-labelled logo and cartridge icon on 2026-07-21; added creator/source attribution and connected them to the homepage, favicon, install manifest and social-preview metadata.

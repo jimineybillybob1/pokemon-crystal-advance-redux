@@ -7,9 +7,9 @@
   "saveFormat": "pokemon-crystal-advance-redux-field-guide-save",
   "description": "An offline-friendly field guide for Pokémon Crystal Advance Redux.",
   "branding": {
-    "logo": "assets/art/placeholder-logo.svg",
-    "hero": "assets/art/placeholder-hero.svg",
-    "icon": "assets/art/placeholder-icon.svg",
+    "logo": "assets/art/crystal-advance-redux-logo.png",
+    "hero": "assets/art/crystal-advance-redux-hero.png",
+    "icon": "assets/art/crystal-advance-redux-icon.png",
     "primary": "#f13f57",
     "accent": "#f2bb4b"
   },
