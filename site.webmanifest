@@ -1,0 +1,23 @@
+{
+  "name": "Pokémon Crystal Advance Redux Field Guide",
+  "short_name": "Pokémon Crystal Advance Redux",
+  "description": "An offline-friendly field guide for Pokémon Crystal Advance Redux.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#11070a",
+  "theme_color": "#f13f57",
+  "icons": [
+    {
+      "src": "assets/art/placeholder-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/art/placeholder-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}

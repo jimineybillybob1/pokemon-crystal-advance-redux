@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "baseline-config.schema.json",
+  "title": "Field-guide baseline configuration",
+  "type": "object",
+  "required": ["enabled", "provider", "versionGroup", "downloadSprites"],
+  "properties": {
+    "enabled": { "type": "boolean" },
+    "provider": { "const": "pokeapi" },
+    "apiDataRepository": { "type": "string", "minLength": 1 },
+    "apiDataCommit": { "type": "string", "minLength": 1 },
+    "spriteRepository": { "type": "string", "minLength": 1 },
+    "spriteCommit": { "type": "string", "minLength": 1 },
+    "versionGroup": { "type": "string", "minLength": 1 },
+    "maxNationalDex": { "type": ["integer", "null"], "minimum": 1 },
+    "includeNonDefaultForms": { "type": "boolean" },
+    "includeItems": { "type": "boolean" },
+    "maxItems": { "type": ["integer", "null"], "minimum": 1 },
+    "language": { "type": "string", "minLength": 2 },
+    "downloadSprites": { "type": "boolean" },
+    "includeShinySprites": { "type": "boolean" },
+    "concurrency": { "type": "integer", "minimum": 1, "maximum": 32 },
+    "warnOnInheritedFields": {
+      "type": "array",
+      "items": { "type": "string" },
+      "uniqueItems": true
+    }
+  },
+  "additionalProperties": false
+}

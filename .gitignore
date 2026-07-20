@@ -1,0 +1,7 @@
+node_modules/
+work/
+sources/private/
+data/provenance-report.json
+*.pyc
+__pycache__/
+.github-auth.log

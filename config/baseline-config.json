@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "provider": "pokeapi",
+  "apiDataRepository": "PokeAPI/api-data",
+  "apiDataCommit": "latest",
+  "spriteRepository": "PokeAPI/sprites",
+  "spriteCommit": "latest",
+  "versionGroup": "scarlet-violet",
+  "maxNationalDex": 1025,
+  "includeNonDefaultForms": true,
+  "includeItems": true,
+  "maxItems": null,
+  "language": "en",
+  "downloadSprites": true,
+  "includeShinySprites": true,
+  "concurrency": 12,
+  "warnOnInheritedFields": [
+    "types",
+    "stats",
+    "abilities",
+    "learnset",
+    "evolutions"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Trainer battle data",
+  "type": "object",
+  "required": ["meta", "battles"],
+  "properties": {
+    "meta": { "type": "object" },
+    "battles": { "type": "array", "items": { "type": "object", "required": ["id", "mode", "category", "trainer", "team"], "properties": { "team": { "type": "array", "items": { "type": "object", "required": ["name", "moves"] } } } } }
+  }
+}

@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#160609">
+  <meta name="description" content="An offline-friendly field guide for a Pokémon ROM hack.">
+  <title>Pokémon ROM Hack Field Guide</title>
+  <link rel="icon" type="image/svg+xml" href="assets/art/placeholder-icon.svg">
+  <link rel="apple-touch-icon" href="assets/art/placeholder-icon.svg">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="stylesheet" href="styles.css?v=20260720">
+  <link rel="stylesheet" href="refinements.css?v=20260720c">
+  <script src="config/game-config.js?v=20260720"></script>
+  <script src="config/game-overrides.js?v=20260720"></script>
+  <script src="sync-config.js?v=20260720"></script>
+</head>
+<body>
+  <header class="topbar">
+    <button class="brand" data-view="home" aria-label="Go to overview">
+      <img class="brand-logo" src="assets/art/placeholder-logo.svg" alt="">
+      <span><strong>Field Guide</strong></span>
+    </button>
+    <div class="global-search-wrap">
+      <label class="global-search"><span>⌕</span><input id="globalSearch" type="search" placeholder="Search the whole guide…" autocomplete="off" aria-controls="universalResults" aria-expanded="false"><kbd>/</kbd></label>
+      <div id="universalResults" class="universal-results" hidden></div>
+    </div>
+    <button class="progress-pill" data-view="progress"><span id="headerProgress">0%</span><b>My Dex</b></button>
+  </header>
+  <div class="shell">
+    <aside class="sidebar">
+      <nav>
+        <button class="active" data-view="home"><img class="nav-sprite" src="assets/items/exp-candy-xl.png" alt="">Overview</button>
+        <button data-view="pokedex"><img class="nav-sprite" src="assets/items/poke-radar.png" alt="">Pokédex</button>
+        <button data-view="moves"><img class="nav-sprite" src="assets/items/tm-case.png" alt="">Moves</button>
+        <button data-view="items"><img class="nav-sprite" src="assets/items/prop-case.png" alt="">Items</button>
+        <button data-view="locations"><img class="nav-sprite" src="assets/items/old-sea-map.png" alt="">Locations</button>
+        <button data-view="team"><img class="nav-sprite" src="assets/items/poke-ball.png" alt="">Team Builder</button>
+        <button data-view="future"><img class="nav-sprite" src="assets/item-dex/1.png" alt="">Future Team</button>
+        <button data-view="favorites"><img class="nav-sprite" src="assets/items/heart-scale.png" alt="">Favorites</button>
+        <button data-view="battle"><img class="nav-sprite" src="assets/items/vs-seeker.png" alt="">Battles</button>
+        <button data-view="progress"><img class="nav-sprite" src="assets/items/adventure-guide.png" alt="">Progress</button>
+        <button data-view="save"><img class="nav-sprite" src="assets/items/card-key.png" alt="">Save &amp; Sync</button>
+      </nav>
+      <div class="source-card"><small>DATA SOURCES</small><p>Community workbook data through 1 July 2026, reconciled with the developer changelog through 19 July. See <code>sources/source-inventory.md</code>.</p></div>
+    </aside>
+    <main id="mainContent" tabindex="-1"></main>
+  </div>
+  <nav class="mobile-nav"><button data-view="home"><img class="nav-sprite" src="assets/items/exp-candy-xl.png" alt=""><small>Home</small></button><button data-view="pokedex"><img class="nav-sprite" src="assets/items/poke-radar.png" alt=""><small>Dex</small></button><button data-view="moves"><img class="nav-sprite" src="assets/items/tm-case.png" alt=""><small>Moves</small></button><button data-view="items"><img class="nav-sprite" src="assets/items/prop-case.png" alt=""><small>Items</small></button><button data-view="locations"><img class="nav-sprite" src="assets/items/old-sea-map.png" alt=""><small>Places</small></button><button data-view="team"><img class="nav-sprite" src="assets/items/poke-ball.png" alt=""><small>Team</small></button><button data-view="future"><img class="nav-sprite" src="assets/item-dex/1.png" alt=""><small>Future</small></button><button data-view="favorites"><img class="nav-sprite" src="assets/items/heart-scale.png" alt=""><small>Saved</small></button><button data-view="battle"><img class="nav-sprite" src="assets/items/vs-seeker.png" alt=""><small>Battles</small></button><button data-view="progress"><img class="nav-sprite" src="assets/items/adventure-guide.png" alt=""><small>Progress</small></button><button data-view="save"><img class="nav-sprite" src="assets/items/card-key.png" alt=""><small>Sync</small></button></nav>
+  <dialog id="detailDialog"><div id="dialogContent"></div></dialog>
+  <button id="jumpTop" aria-label="Jump to top">↑</button>
+  <div id="toast" aria-live="polite"></div>
+  <script src="data/guide-data.js?v=20260720"></script>
+  <script src="data/items-data.js?v=20260720"></script>
+  <script src="data/legendary-data.js?v=20260720"></script>
+  <script src="data/acquisition-data.js?v=20260720"></script>
+  <script src="data/egg-data.js?v=20260720"></script>
+  <script src="data/battle-data.js?v=20260720"></script>
+  <script src="data/curated-builds.js?v=20260720"></script>
+  <script src="app.js?v=20260720"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Field guide core data",
+  "type": "object",
+  "required": ["meta", "pokemon", "moves", "locations"],
+  "properties": {
+    "meta": { "type": "object", "required": ["version"], "properties": { "version": { "type": "string" }, "source": { "type": "string" } } },
+    "pokemon": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "dexId", "key", "name", "types", "stats", "bst", "abilities", "learnset", "evolutions", "sprite"],
+        "properties": {
+          "id": { "type": "integer" }, "dexId": { "type": ["integer", "string"] }, "key": { "type": "string" }, "name": { "type": "string" },
+          "types": { "type": "array", "minItems": 1, "maxItems": 2, "items": { "type": "string" } },
+          "stats": { "type": "array", "minItems": 6, "maxItems": 6, "items": { "type": "number" } }, "bst": { "type": "number" },
+          "abilities": { "type": "array" }, "learnset": { "type": "object" }, "evolutions": { "type": "array" }, "sprite": { "type": "string" }, "shinySprite": { "type": "string" }
+        }
+      }
+    },
+    "moves": { "type": "array", "items": { "type": "object", "required": ["id", "name", "type", "category", "description"] } },
+    "locations": { "type": "array", "items": { "type": "object", "required": ["name", "day", "night"] } }
+  }
+}

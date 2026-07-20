@@ -1,0 +1,15 @@
+{
+  "name": "pokemon-crystal-advance-redux-field-guide",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "import:crystal": "python scripts/import-crystal-advance-redux.py \"sources/inbox/Crystal Advance Redux.xlsx\"",
+    "baseline:fetch": "node scripts/fetch-pokeapi-baseline.mjs",
+    "merge:data": "node scripts/merge-guide-data.mjs",
+    "build:data": "node scripts/merge-guide-data.mjs && node scripts/build-data-wrappers.mjs",
+    "validate": "node scripts/validate-data.mjs && node scripts/audit-provenance.mjs",
+    "audit:provenance": "node scripts/audit-provenance.mjs",
+    "audit:assets": "node scripts/audit-assets.mjs",
+    "serve": "python -m http.server 8892 --bind 127.0.0.1"
+  }
+}

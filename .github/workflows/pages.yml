@@ -1,0 +1,43 @@
+name: Deploy field guide to GitHub Pages
+
+on:
+  push:
+    branches: [master, main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Validate guide data
+        run: |
+          npm run build:data
+          npm run validate
+          npm run audit:assets
+      - uses: actions/configure-pages@v5
+      - name: Configure optional cloud sync endpoint
+        env:
+          GUIDE_SYNC_ENDPOINT: ${{ vars.GUIDE_SYNC_ENDPOINT }}
+        run: node -e "require('fs').writeFileSync('sync-config.js', 'window.GUIDE_SYNC_ENDPOINT = ' + JSON.stringify(process.env.GUIDE_SYNC_ENDPOINT || '') + ';\\n')"
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4

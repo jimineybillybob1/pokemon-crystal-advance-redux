@@ -1,0 +1,59 @@
+# Guide setup status
+
+- Status: Provisional local guide built and validated
+- Current phase: Source-gap follow-up
+- Readiness: Core and Planning guide available for local use
+- Last updated: 2026-07-20
+- Next step: Review the local guide, then obtain version-matched Sevii tables and final custom-form/item assets before deployment.
+
+## Progress
+
+| Area | Status | Notes |
+|---|---|---|
+| Identity | Complete | Pokémon Crystal Advance Redux 2026-07-19; Johto and Kanto; Pokémon FireRed v1.0 (GBA) |
+| Baseline profile | Complete | scarlet-violet; Dex 1025; local sprites yes |
+| Feature scope | Complete | Core required; Planning required; Advanced later |
+| Source inventory | Complete | Community workbook, official forum thread and official developer changelog screenshots inventoried |
+| Core data | Imported and validated | 596 Pokémon forms, 95 locations, 2,642 standard encounter rows and 167 other acquisition entries imported; Seasonal Migration is separate; later Sevii content remains a gap |
+| Planning data | Imported and validated | 766 moves and 2,468 item records merged; workbook learnsets imported; 87 older/custom move definitions and 247 custom item records remain provisional |
+| Advanced data | Later / source available in part | Workbook trainer-team columns identified, but trainer battles, battle planner, maps and cloud sync remain deferred |
+| Local build | Complete | Baseline fetched and pinned; merge, schema validation, provenance audit, local-asset audit, desktop review and 375px mobile review pass |
+| Deployment | Deferred | Requires explicit approval |
+
+## Confirmed decisions
+
+- Identity: Pokémon Crystal Advance Redux, version 2026-07-19, region Johto and Kanto, base ROM/platform Pokémon FireRed v1.0 (GBA).
+- Baseline: scarlet-violet, National Dex 1025, local normal/shiny sprites enabled.
+- Save namespace: `pokemon-crystal-advance-redux-field-guide`.
+- Feature scope: Core and Planning required; Advanced later.
+- Encounter modelling: standard encounters are all-day; Seasonal Migration is a separate seasonal acquisition method.
+
+## Source coverage
+
+| Category | Coverage | Best source | Gaps |
+|---|---|---|---|
+| Pokédex, forms, stats, abilities and evolutions | Strong through 2026-07-01 | `sources/inbox/Crystal Advance Redux.xlsx` | Verify changes through 2026-07-19 and distinct form assets |
+| Moves and learnsets | Strong through 2026-07-01 | `sources/inbox/Crystal Advance Redux.xlsx` | Verify post-2026-07-01 changes and move effects |
+| Wild encounters and other acquisition | Strong through 2026-07-01 | Workbook plus developer changelog screenshots | Seasonal pools are region-wide rather than route-specific; post-2026-07-01 Sevii tables absent |
+| Items and shops | Strong through 2026-07-01 | `sources/inbox/Crystal Advance Redux.xlsx` | Verify Route 31 Potion fix and later Sevii placements |
+| Trainer and boss battles | Structured workbook columns identified | Workbook plus official developer thread/changelog | Import deferred with Advanced features; post-workbook teams still need review |
+| Badges, maps and branding | Partial | Workbook level caps plus official developer thread | No reusable region maps or final branding assets supplied |
+
+## Open questions
+
+- Obtain post-2026-07-01 Sevii encounter, item and trainer tables when sources become available.
+- Confirm whether Seasonal Migration is intentionally region-wide or has an undisclosed eligible-route list.
+- Replace provisional older/custom move definitions, custom item details and 19 custom-form placeholder sprites with version-matched sources/assets.
+- Supply dedicated egg-source pools if the game has them; workbook egg moves are imported, but no hatch-source table was identified.
+- Supply final branding assets later; placeholders remain deliberate.
+
+## Activity log
+
+- Project scaffold created; identity and baseline profile recorded.
+- Feature scope set to Core and Planning required, Advanced later.
+- Preserved the community workbook and three official developer changelog screenshots in `sources/inbox/`.
+- Reconciled the 2026-07-01 workbook against developer changes through 2026-07-19; recorded seasonal migration and Sevii gaps.
+- Pinned the PokeAPI baseline to api-data commit `0fb5313cb77f46269502e987a53a0bf751ae883d` and sprites commit `bf4c47ac82c33b330e33d98b8882d1cedb2f53e7`.
+- Added a repeatable workbook importer and generated the Core/Planning override layer.
+- Validated 596 Pokémon forms, 766 moves, 95 locations and 2,468 items; provenance and all 2,535 referenced local assets also pass audit.
+- Reviewed the local guide at desktop and 375px mobile widths, corrected the all-day encounter presentation, removed empty/deferred navigation, fixed horizontal overflow and confirmed no browser console errors.

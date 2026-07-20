@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "override-data.schema.json",
+  "title": "Hack-specific baseline overrides",
+  "description": "Partial records merge into the pinned baseline. Arrays replace baseline arrays. A record with $delete true removes the matching record.",
+  "$defs": {
+    "patch": {
+      "type": "object",
+      "properties": { "$delete": { "type": "boolean" } },
+      "additionalProperties": true
+    }
+  },
+  "type": "object",
+  "required": ["pokemon", "moves", "locations"],
+  "properties": {
+    "meta": { "type": "object" },
+    "pokemon": { "type": "array", "items": { "$ref": "#/$defs/patch" } },
+    "moves": { "type": "array", "items": { "$ref": "#/$defs/patch" } },
+    "locations": { "type": "array", "items": { "type": "object" } }
+  },
+  "additionalProperties": true
+}

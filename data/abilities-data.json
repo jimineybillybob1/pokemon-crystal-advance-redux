@@ -1,0 +1,3434 @@
+[
+  {
+    "id": 1,
+    "key": "stench",
+    "name": "Stench",
+    "description": "Has a 10% chance of making target Pokémon flinch with each hit.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 2,
+    "key": "drizzle",
+    "name": "Drizzle",
+    "description": "Summons rain that lasts indefinitely upon entering battle.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 3,
+    "key": "speed-boost",
+    "name": "Speed Boost",
+    "description": "Raises Speed one stage after each turn.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 4,
+    "key": "battle-armor",
+    "name": "Battle Armor",
+    "description": "Protects against critical hits.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 5,
+    "key": "sturdy",
+    "name": "Sturdy",
+    "description": "Prevents being KOed from full HP, leaving 1 HP instead. Protects against the one-hit KO moves regardless of HP.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 6,
+    "key": "damp",
+    "name": "Damp",
+    "description": "Prevents Self-Destruct, Explosion, and Aftermath from working while the Pokémon is in battle.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 7,
+    "key": "limber",
+    "name": "Limber",
+    "description": "Prevents paralysis.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 8,
+    "key": "sand-veil",
+    "name": "Sand Veil",
+    "description": "Increases evasion to 1.25× during a sandstorm. Protects against sandstorm damage.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 9,
+    "key": "static",
+    "name": "Static",
+    "description": "Has a 30% chance of paralyzing attacking Pokémon on contact.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 10,
+    "key": "volt-absorb",
+    "name": "Volt Absorb",
+    "description": "Absorbs Electric moves, healing for 1/4 max HP.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 11,
+    "key": "water-absorb",
+    "name": "Water Absorb",
+    "description": "Absorbs Water moves, healing for 1/4 max HP.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 12,
+    "key": "oblivious",
+    "name": "Oblivious",
+    "description": "Prevents infatuation and protects against Captivate.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 13,
+    "key": "cloud-nine",
+    "name": "Cloud Nine",
+    "description": "Negates all effects of weather, but does not prevent the weather itself.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 14,
+    "key": "compound-eyes",
+    "name": "Compound Eyes",
+    "description": "Increases moves' accuracy to 1.3×.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 15,
+    "key": "insomnia",
+    "name": "Insomnia",
+    "description": "Prevents sleep.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 16,
+    "key": "color-change",
+    "name": "Color Change",
+    "description": "Changes type to match when hit by a damaging move.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 17,
+    "key": "immunity",
+    "name": "Immunity",
+    "description": "Prevents poison.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 18,
+    "key": "flash-fire",
+    "name": "Flash Fire",
+    "description": "Protects against Fire moves. Once one has been blocked, the Pokémon's own Fire moves inflict 1.5× damage until it leaves battle.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 19,
+    "key": "shield-dust",
+    "name": "Shield Dust",
+    "description": "Protects against incoming moves' extra effects.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 20,
+    "key": "own-tempo",
+    "name": "Own Tempo",
+    "description": "Prevents confusion.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 21,
+    "key": "suction-cups",
+    "name": "Suction Cups",
+    "description": "Prevents being forced out of battle by other Pokémon's moves.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 22,
+    "key": "intimidate",
+    "name": "Intimidate",
+    "description": "Lowers opponents' Attack one stage upon entering battle.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 23,
+    "key": "shadow-tag",
+    "name": "Shadow Tag",
+    "description": "Prevents opponents from fleeing or switching out.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 24,
+    "key": "rough-skin",
+    "name": "Rough Skin",
+    "description": "Damages attacking Pokémon for 1/8 their max HP on contact.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 25,
+    "key": "wonder-guard",
+    "name": "Wonder Guard",
+    "description": "Protects against damaging moves that are not super effective.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 26,
+    "key": "levitate",
+    "name": "Levitate",
+    "description": "Evades Ground moves.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 27,
+    "key": "effect-spore",
+    "name": "Effect Spore",
+    "description": "Has a 30% chance of inflcting either paralysis, poison, or sleep on attacking Pokémon on contact.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 28,
+    "key": "synchronize",
+    "name": "Synchronize",
+    "description": "Copies burns, paralysis, and poison received onto the Pokémon that inflicted them.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 29,
+    "key": "clear-body",
+    "name": "Clear Body",
+    "description": "Prevents stats from being lowered by other Pokémon.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 30,
+    "key": "natural-cure",
+    "name": "Natural Cure",
+    "description": "Cures any major status ailment upon switching out.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 31,
+    "key": "lightning-rod",
+    "name": "Lightning Rod",
+    "description": "Redirects single-target Electric moves to this Pokémon where possible. Absorbs Electric moves, raising Special Attack one stage.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 32,
+    "key": "serene-grace",
+    "name": "Serene Grace",
+    "description": "Doubles the chance of moves' extra effects occurring.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 33,
+    "key": "swift-swim",
+    "name": "Swift Swim",
+    "description": "Doubles Speed during rain.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 34,
+    "key": "chlorophyll",
+    "name": "Chlorophyll",
+    "description": "Doubles Speed during strong sunlight.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 35,
+    "key": "illuminate",
+    "name": "Illuminate",
+    "description": "Doubles the wild encounter rate.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 36,
+    "key": "trace",
+    "name": "Trace",
+    "description": "Copies an opponent's ability upon entering battle.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 37,
+    "key": "huge-power",
+    "name": "Huge Power",
+    "description": "Doubles Attack in battle.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 38,
+    "key": "poison-point",
+    "name": "Poison Point",
+    "description": "Has a 30% chance of poisoning attacking Pokémon on contact.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 39,
+    "key": "inner-focus",
+    "name": "Inner Focus",
+    "description": "Prevents flinching.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 40,
+    "key": "magma-armor",
+    "name": "Magma Armor",
+    "description": "Prevents freezing.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 41,
+    "key": "water-veil",
+    "name": "Water Veil",
+    "description": "Prevents burns.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 42,
+    "key": "magnet-pull",
+    "name": "Magnet Pull",
+    "description": "Prevents Steel opponents from fleeing or switching out.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 43,
+    "key": "soundproof",
+    "name": "Soundproof",
+    "description": "Protects against sound-based moves.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 44,
+    "key": "rain-dish",
+    "name": "Rain Dish",
+    "description": "Heals for 1/16 max HP after each turn during rain.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 45,
+    "key": "sand-stream",
+    "name": "Sand Stream",
+    "description": "Summons a sandstorm that lasts indefinitely upon entering battle.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 46,
+    "key": "pressure",
+    "name": "Pressure",
+    "description": "Increases the PP cost of moves targetting the Pokémon by one.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 47,
+    "key": "thick-fat",
+    "name": "Thick Fat",
+    "description": "Halves damage from Fire and Ice moves.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 48,
+    "key": "early-bird",
+    "name": "Early Bird",
+    "description": "Makes sleep pass twice as quickly.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 49,
+    "key": "flame-body",
+    "name": "Flame Body",
+    "description": "Has a 30% chance of burning attacking Pokémon on contact.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 50,
+    "key": "run-away",
+    "name": "Run Away",
+    "description": "Ensures success fleeing from wild battles.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 51,
+    "key": "keen-eye",
+    "name": "Keen Eye",
+    "description": "Prevents accuracy from being lowered.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 52,
+    "key": "hyper-cutter",
+    "name": "Hyper Cutter",
+    "description": "Prevents Attack from being lowered by other Pokémon.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 53,
+    "key": "pickup",
+    "name": "Pickup",
+    "description": "Picks up other Pokémon's used and Flung held items. May also pick up an item after battle.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 54,
+    "key": "truant",
+    "name": "Truant",
+    "description": "Skips every second turn.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 55,
+    "key": "hustle",
+    "name": "Hustle",
+    "description": "Strengthens physical moves to inflict 1.5× damage, but decreases their accuracy to 0.8×.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 56,
+    "key": "cute-charm",
+    "name": "Cute Charm",
+    "description": "Has a 30% chance of infatuating attacking Pokémon on contact.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 57,
+    "key": "plus",
+    "name": "Plus",
+    "description": "Increases Special Attack to 1.5× when a friendly Pokémon has Plus or Minus.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 58,
+    "key": "minus",
+    "name": "Minus",
+    "description": "Increases Special Attack to 1.5× when a friendly Pokémon has Plus or Minus.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 59,
+    "key": "forecast",
+    "name": "Forecast",
+    "description": "Changes Castform's type and form to match the weather.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 60,
+    "key": "sticky-hold",
+    "name": "Sticky Hold",
+    "description": "Prevents a held item from being removed by other Pokémon.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 61,
+    "key": "shed-skin",
+    "name": "Shed Skin",
+    "description": "Has a 33% chance of curing any major status ailment after each turn.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 62,
+    "key": "guts",
+    "name": "Guts",
+    "description": "Increases Attack to 1.5× with a major status ailment.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 63,
+    "key": "marvel-scale",
+    "name": "Marvel Scale",
+    "description": "Increases Defense to 1.5× with a major status ailment.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 64,
+    "key": "liquid-ooze",
+    "name": "Liquid Ooze",
+    "description": "Damages opponents using leeching moves for as much as they would heal.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 65,
+    "key": "overgrow",
+    "name": "Overgrow",
+    "description": "Strengthens Grass moves to inflict 1.5× damage at 1/3 max HP or less.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 66,
+    "key": "blaze",
+    "name": "Blaze",
+    "description": "Strengthens Fire moves to inflict 1.5× damage at 1/3 max HP or less.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 67,
+    "key": "torrent",
+    "name": "Torrent",
+    "description": "Strengthens Water moves to inflict 1.5× damage at 1/3 max HP or less.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 68,
+    "key": "swarm",
+    "name": "Swarm",
+    "description": "Strengthens Bug moves to inflict 1.5× damage at 1/3 max HP or less.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 69,
+    "key": "rock-head",
+    "name": "Rock Head",
+    "description": "Protects against recoil damage.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 70,
+    "key": "drought",
+    "name": "Drought",
+    "description": "Summons strong sunlight that lasts indefinitely upon entering battle.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 71,
+    "key": "arena-trap",
+    "name": "Arena Trap",
+    "description": "Prevents opponents from fleeing or switching out. Eluded by Flying-types and Pokémon in the air.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 72,
+    "key": "vital-spirit",
+    "name": "Vital Spirit",
+    "description": "Prevents sleep.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 73,
+    "key": "white-smoke",
+    "name": "White Smoke",
+    "description": "Prevents stats from being lowered by other Pokémon.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 74,
+    "key": "pure-power",
+    "name": "Pure Power",
+    "description": "Doubles Attack in battle.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 75,
+    "key": "shell-armor",
+    "name": "Shell Armor",
+    "description": "Protects against critical hits.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 76,
+    "key": "air-lock",
+    "name": "Air Lock",
+    "description": "Negates all effects of weather, but does not prevent the weather itself.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 77,
+    "key": "tangled-feet",
+    "name": "Tangled Feet",
+    "description": "Doubles evasion when confused.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 78,
+    "key": "motor-drive",
+    "name": "Motor Drive",
+    "description": "Absorbs Electric moves, raising Speed one stage.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 79,
+    "key": "rivalry",
+    "name": "Rivalry",
+    "description": "Increases damage inflicted to 1.25× against Pokémon of the same gender, but decreases damage to 0.75× against the opposite gender.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 80,
+    "key": "steadfast",
+    "name": "Steadfast",
+    "description": "Raises Speed one stage upon flinching.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 81,
+    "key": "snow-cloak",
+    "name": "Snow Cloak",
+    "description": "Increases evasion to 1.25× during hail. Protects against hail damage.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 82,
+    "key": "gluttony",
+    "name": "Gluttony",
+    "description": "Makes the Pokémon eat any held Berry triggered by low HP below 1/2 its max HP.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 83,
+    "key": "anger-point",
+    "name": "Anger Point",
+    "description": "Raises Attack to the maximum of six stages upon receiving a critical hit.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 84,
+    "key": "unburden",
+    "name": "Unburden",
+    "description": "Doubles Speed upon using or losing a held item.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 85,
+    "key": "heatproof",
+    "name": "Heatproof",
+    "description": "Halves damage from Fire moves and burns.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 86,
+    "key": "simple",
+    "name": "Simple",
+    "description": "Doubles the Pokémon's stat modifiers. These doubled modifiers are still capped at -6 or 6 stages.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 87,
+    "key": "dry-skin",
+    "name": "Dry Skin",
+    "description": "Causes 1/8 max HP in damage each turn during strong sunlight, but heals for 1/8 max HP during rain. Increases damage from Fire moves to 1.25×, but absorbs Water moves, healing for 1/4 max HP.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 88,
+    "key": "download",
+    "name": "Download",
+    "description": "Raises the attack stat corresponding to the opponents' weaker defense one stage upon entering battle.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 89,
+    "key": "iron-fist",
+    "name": "Iron Fist",
+    "description": "Strengthens punch-based moves to 1.2× their power.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 90,
+    "key": "poison-heal",
+    "name": "Poison Heal",
+    "description": "Heals for 1/8 max HP after each turn when poisoned in place of damage.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 91,
+    "key": "adaptability",
+    "name": "Adaptability",
+    "description": "Increases the same-type attack bonus from 1.5× to 2×.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 92,
+    "key": "skill-link",
+    "name": "Skill Link",
+    "description": "Extends two-to-five-hit moves and Triple Kick to their full length every time.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 93,
+    "key": "hydration",
+    "name": "Hydration",
+    "description": "Cures any major status ailment after each turn during rain.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 94,
+    "key": "solar-power",
+    "name": "Solar Power",
+    "description": "Increases Special Attack to 1.5× but costs 1/8 max HP after each turn during strong sunlight.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 95,
+    "key": "quick-feet",
+    "name": "Quick Feet",
+    "description": "Increases Speed to 1.5× with a major status ailment.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 96,
+    "key": "normalize",
+    "name": "Normalize",
+    "description": "Makes the Pokémon's moves all act Normal-type.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 97,
+    "key": "sniper",
+    "name": "Sniper",
+    "description": "Strengthens critical hits to inflict 3× damage rather than 2×.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 98,
+    "key": "magic-guard",
+    "name": "Magic Guard",
+    "description": "Protects against damage not directly caused by a move.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 99,
+    "key": "no-guard",
+    "name": "No Guard",
+    "description": "Ensures all moves used by and against the Pokémon hit.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 100,
+    "key": "stall",
+    "name": "Stall",
+    "description": "Makes the Pokémon move last within its move's priority bracket.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 101,
+    "key": "technician",
+    "name": "Technician",
+    "description": "Strengthens moves of 60 base power or less to 1.5× their power.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 102,
+    "key": "leaf-guard",
+    "name": "Leaf Guard",
+    "description": "Protects against major status ailments during strong sunlight.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 103,
+    "key": "klutz",
+    "name": "Klutz",
+    "description": "Prevents the Pokémon from using its held item in battle.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 104,
+    "key": "mold-breaker",
+    "name": "Mold Breaker",
+    "description": "Bypasses targets' abilities if they could hinder or prevent a move.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 105,
+    "key": "super-luck",
+    "name": "Super Luck",
+    "description": "Raises moves' critical hit rates one stage.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 106,
+    "key": "aftermath",
+    "name": "Aftermath",
+    "description": "Damages the attacker for 1/4 its max HP when knocked out by a contact move.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 107,
+    "key": "anticipation",
+    "name": "Anticipation",
+    "description": "Notifies all trainers upon entering battle if an opponent has a super-effective move, Self-Destruct, Explosion, or a one-hit KO move.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 108,
+    "key": "forewarn",
+    "name": "Forewarn",
+    "description": "Reveals the opponents' strongest move upon entering battle.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 109,
+    "key": "unaware",
+    "name": "Unaware",
+    "description": "Ignores other Pokémon's stat modifiers for damage and accuracy calculation.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 110,
+    "key": "tinted-lens",
+    "name": "Tinted Lens",
+    "description": "Doubles damage inflicted with not-very-effective moves.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 111,
+    "key": "filter",
+    "name": "Filter",
+    "description": "Decreases damage taken from super-effective moves by 1/4.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 112,
+    "key": "slow-start",
+    "name": "Slow Start",
+    "description": "Halves Attack and Speed for five turns upon entering battle.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 113,
+    "key": "scrappy",
+    "name": "Scrappy",
+    "description": "Lets the Pokémon's Normal and Fighting moves hit Ghost Pokémon.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 114,
+    "key": "storm-drain",
+    "name": "Storm Drain",
+    "description": "Redirects single-target Water moves to this Pokémon where possible. Absorbs Water moves, raising Special Attack one stage.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 115,
+    "key": "ice-body",
+    "name": "Ice Body",
+    "description": "Heals for 1/16 max HP after each turn during hail. Protects against hail damage.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 116,
+    "key": "solid-rock",
+    "name": "Solid Rock",
+    "description": "Decreases damage taken from super-effective moves by 1/4.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 117,
+    "key": "snow-warning",
+    "name": "Snow Warning",
+    "description": "Summons hail that lasts indefinitely upon entering battle.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 118,
+    "key": "honey-gather",
+    "name": "Honey Gather",
+    "description": "The Pokémon may pick up Honey after battle.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 119,
+    "key": "frisk",
+    "name": "Frisk",
+    "description": "Reveals an opponent's held item upon entering battle.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 120,
+    "key": "reckless",
+    "name": "Reckless",
+    "description": "Strengthens recoil moves to 1.2× their power.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 121,
+    "key": "multitype",
+    "name": "Multitype",
+    "description": "Changes Arceus's type and form to match its held Plate.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 122,
+    "key": "flower-gift",
+    "name": "Flower Gift",
+    "description": "Increases friendly Pokémon's Attack and Special Defense to 1.5× during strong sunlight.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 123,
+    "key": "bad-dreams",
+    "name": "Bad Dreams",
+    "description": "Damages sleeping opponents for 1/8 their max HP after each turn.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 124,
+    "key": "pickpocket",
+    "name": "Pickpocket",
+    "description": "Steals attacking Pokémon's held items on contact.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 125,
+    "key": "sheer-force",
+    "name": "Sheer Force",
+    "description": "Strengthens moves with extra effects to 1.3× their power, but prevents their extra effects.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 126,
+    "key": "contrary",
+    "name": "Contrary",
+    "description": "Inverts stat changes.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 127,
+    "key": "unnerve",
+    "name": "Unnerve",
+    "description": "Prevents opposing Pokémon from eating held Berries.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 128,
+    "key": "defiant",
+    "name": "Defiant",
+    "description": "Raises Attack two stages upon having any stat lowered.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 129,
+    "key": "defeatist",
+    "name": "Defeatist",
+    "description": "Halves Attack and Special Attack at 50% max HP or less.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 130,
+    "key": "cursed-body",
+    "name": "Cursed Body",
+    "description": "Has a 30% chance of Disabling any move that hits the Pokémon.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 131,
+    "key": "healer",
+    "name": "Healer",
+    "description": "Has a 30% chance of curing each adjacent ally of any major status ailment after each turn.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 132,
+    "key": "friend-guard",
+    "name": "Friend Guard",
+    "description": "Decreases all direct damage taken by friendly Pokémon to 0.75×.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 133,
+    "key": "weak-armor",
+    "name": "Weak Armor",
+    "description": "Raises Speed and lowers Defense by one stage each upon being hit by a physical move.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 134,
+    "key": "heavy-metal",
+    "name": "Heavy Metal",
+    "description": "Doubles the Pokémon's weight.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 135,
+    "key": "light-metal",
+    "name": "Light Metal",
+    "description": "Halves the Pokémon's weight.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 136,
+    "key": "multiscale",
+    "name": "Multiscale",
+    "description": "Halves damage taken from full HP.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 137,
+    "key": "toxic-boost",
+    "name": "Toxic Boost",
+    "description": "Increases Attack to 1.5× when poisoned.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 138,
+    "key": "flare-boost",
+    "name": "Flare Boost",
+    "description": "Increases Special Attack to 1.5× when burned.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 139,
+    "key": "harvest",
+    "name": "Harvest",
+    "description": "Has a 50% chance of restoring a used Berry after each turn if the Pokémon has held no items in the meantime.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 140,
+    "key": "telepathy",
+    "name": "Telepathy",
+    "description": "Protects against friendly Pokémon's damaging moves.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 141,
+    "key": "moody",
+    "name": "Moody",
+    "description": "Raises a random stat two stages and lowers another one stage after each turn.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 142,
+    "key": "overcoat",
+    "name": "Overcoat",
+    "description": "Protects against damage from weather.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 143,
+    "key": "poison-touch",
+    "name": "Poison Touch",
+    "description": "Has a 30% chance of poisoning target Pokémon upon contact.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 144,
+    "key": "regenerator",
+    "name": "Regenerator",
+    "description": "Heals for 1/3 max HP upon switching out.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 145,
+    "key": "big-pecks",
+    "name": "Big Pecks",
+    "description": "Protects against Defense drops.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 146,
+    "key": "sand-rush",
+    "name": "Sand Rush",
+    "description": "Doubles Speed during a sandstorm. Protects against sandstorm damage.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 147,
+    "key": "wonder-skin",
+    "name": "Wonder Skin",
+    "description": "Lowers incoming non-damaging moves' base accuracy to exactly 50%.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 148,
+    "key": "analytic",
+    "name": "Analytic",
+    "description": "Strengthens moves to 1.3× their power when moving last.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 149,
+    "key": "illusion",
+    "name": "Illusion",
+    "description": "Takes the appearance of the last conscious party Pokémon upon being sent out until hit by a damaging move.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 150,
+    "key": "imposter",
+    "name": "Imposter",
+    "description": "Transforms upon entering battle.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 151,
+    "key": "infiltrator",
+    "name": "Infiltrator",
+    "description": "Bypasses Light Screen, Reflect, and Safeguard.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 152,
+    "key": "mummy",
+    "name": "Mummy",
+    "description": "Changes attacking Pokémon's abilities to Mummy on contact.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 153,
+    "key": "moxie",
+    "name": "Moxie",
+    "description": "Raises Attack one stage upon KOing a Pokémon.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 154,
+    "key": "justified",
+    "name": "Justified",
+    "description": "Raises Attack one stage upon taking damage from a Dark move.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 155,
+    "key": "rattled",
+    "name": "Rattled",
+    "description": "Raises Speed one stage upon being hit by a Dark, Ghost, or Bug move.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 156,
+    "key": "magic-bounce",
+    "name": "Magic Bounce",
+    "description": "Reflects most non-damaging moves back at their user.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 157,
+    "key": "sap-sipper",
+    "name": "Sap Sipper",
+    "description": "Absorbs Grass moves, raising Attack one stage.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 158,
+    "key": "prankster",
+    "name": "Prankster",
+    "description": "Raises non-damaging moves' priority by one stage.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 159,
+    "key": "sand-force",
+    "name": "Sand Force",
+    "description": "Strengthens Rock, Ground, and Steel moves to 1.3× their power during a sandstorm. Protects against sandstorm damage.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 160,
+    "key": "iron-barbs",
+    "name": "Iron Barbs",
+    "description": "Damages attacking Pokémon for 1/8 their max HP on contact.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 161,
+    "key": "zen-mode",
+    "name": "Zen Mode",
+    "description": "Changes Darmanitan's form after each turn depending on its HP: Zen Mode below 50% max HP, and Standard Mode otherwise.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 162,
+    "key": "victory-star",
+    "name": "Victory Star",
+    "description": "Increases moves' accuracy to 1.1× for friendly Pokémon.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 163,
+    "key": "turboblaze",
+    "name": "Turboblaze",
+    "description": "Bypasses targets' abilities if they could hinder or prevent moves.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 164,
+    "key": "teravolt",
+    "name": "Teravolt",
+    "description": "Bypasses targets' abilities if they could hinder or prevent moves.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 165,
+    "key": "aroma-veil",
+    "name": "Aroma Veil",
+    "description": "Protects allies against moves that affect their mental state.",
+    "generation": "generation-vi",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 166,
+    "key": "flower-veil",
+    "name": "Flower Veil",
+    "description": "Protects friendly Grass Pokémon from having their stats lowered by other Pokémon.",
+    "generation": "generation-vi",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 167,
+    "key": "cheek-pouch",
+    "name": "Cheek Pouch",
+    "description": "Restores HP upon eating a Berry, in addition to the Berry's effect.",
+    "generation": "generation-vi",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 168,
+    "key": "protean",
+    "name": "Protean",
+    "description": "Changes the bearer's type to match each move it uses.",
+    "generation": "generation-vi",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 169,
+    "key": "fur-coat",
+    "name": "Fur Coat",
+    "description": "Halves damage from physical attacks.",
+    "generation": "generation-vi",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 170,
+    "key": "magician",
+    "name": "Magician",
+    "description": "Steals the target's held item when the bearer uses a damaging move.",
+    "generation": "generation-vi",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 171,
+    "key": "bulletproof",
+    "name": "Bulletproof",
+    "description": "Protects against bullet, ball, and bomb-based moves.",
+    "generation": "generation-vi",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 172,
+    "key": "competitive",
+    "name": "Competitive",
+    "description": "Raises Special Attack by two stages upon having any stat lowered.",
+    "generation": "generation-vi",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 173,
+    "key": "strong-jaw",
+    "name": "Strong Jaw",
+    "description": "Strengthens biting moves to 1.5× their power.",
+    "generation": "generation-vi",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 174,
+    "key": "refrigerate",
+    "name": "Refrigerate",
+    "description": "Turns the bearer's Normal moves into Ice moves and strengthens them to 1.3× their power.",
+    "generation": "generation-vi",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 175,
+    "key": "sweet-veil",
+    "name": "Sweet Veil",
+    "description": "Prevents friendly Pokémon from sleeping.",
+    "generation": "generation-vi",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 176,
+    "key": "stance-change",
+    "name": "Stance Change",
+    "description": "Changes Aegislash to Blade Forme before using a damaging move, or Shield Forme before using King’s Shield.",
+    "generation": "generation-vi",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 177,
+    "key": "gale-wings",
+    "name": "Gale Wings",
+    "description": "Raises Flying moves' priority by one stage.",
+    "generation": "generation-vi",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 178,
+    "key": "mega-launcher",
+    "name": "Mega Launcher",
+    "description": "Strengthens aura and pulse moves to 1.5× their power.",
+    "generation": "generation-vi",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 179,
+    "key": "grass-pelt",
+    "name": "Grass Pelt",
+    "description": "Boosts Defense while Grassy Terrain is in effect.",
+    "generation": "generation-vi",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 180,
+    "key": "symbiosis",
+    "name": "Symbiosis",
+    "description": "Passes the bearer's held item to an ally when the ally uses up its item.",
+    "generation": "generation-vi",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 181,
+    "key": "tough-claws",
+    "name": "Tough Claws",
+    "description": "Strengthens moves that make contact to 1.33× their power.",
+    "generation": "generation-vi",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 182,
+    "key": "pixilate",
+    "name": "Pixilate",
+    "description": "Turns the bearer's Normal moves into Fairy moves and strengthens them to 1.3× their power.",
+    "generation": "generation-vi",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 183,
+    "key": "gooey",
+    "name": "Gooey",
+    "description": "Lowers attacking Pokémon's Speed by one stage on contact.",
+    "generation": "generation-vi",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 184,
+    "key": "aerilate",
+    "name": "Aerilate",
+    "description": "Turns the bearer's Normal moves into Flying moves and strengthens them to 1.3× their power.",
+    "generation": "generation-vi",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 185,
+    "key": "parental-bond",
+    "name": "Parental Bond",
+    "description": "Lets the bearer hit twice with damaging moves. The second hit has half power.",
+    "generation": "generation-vi",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 186,
+    "key": "dark-aura",
+    "name": "Dark Aura",
+    "description": "Strengthens Dark moves to 1.33× their power for all friendly and opposing Pokémon.",
+    "generation": "generation-vi",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 187,
+    "key": "fairy-aura",
+    "name": "Fairy Aura",
+    "description": "Strengthens Fairy moves to 1.33× their power for all friendly and opposing Pokémon.",
+    "generation": "generation-vi",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 188,
+    "key": "aura-break",
+    "name": "Aura Break",
+    "description": "Makes Dark Aura and Fairy Aura weaken moves of their respective types.",
+    "generation": "generation-vi",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 189,
+    "key": "primordial-sea",
+    "name": "Primordial Sea",
+    "description": "Creates heavy rain, which has all the properties of Rain Dance, cannot be replaced, and causes damaging Fire moves to fail.",
+    "generation": "generation-vi",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 190,
+    "key": "desolate-land",
+    "name": "Desolate Land",
+    "description": "Creates extremely harsh sunlight, which has all the properties of Sunny Day, cannot be replaced, and causes damaging Water moves to fail.",
+    "generation": "generation-vi",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 191,
+    "key": "delta-stream",
+    "name": "Delta Stream",
+    "description": "Creates a mysterious air current, which cannot be replaced and causes moves to never be super effective against Flying Pokémon.",
+    "generation": "generation-vi",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 192,
+    "key": "stamina",
+    "name": "Stamina",
+    "description": "Raises this Pokémon's Defense by one stage when it takes damage from a move.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 193,
+    "key": "wimp-out",
+    "name": "Wimp Out",
+    "description": "This Pokémon automatically switches out when its HP drops below half.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 194,
+    "key": "emergency-exit",
+    "name": "Emergency Exit",
+    "description": "This Pokémon automatically switches out when its HP drops below half.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 195,
+    "key": "water-compaction",
+    "name": "Water Compaction",
+    "description": "Raises this Pokémon's Defense by two stages when it's hit by a Water move.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 196,
+    "key": "merciless",
+    "name": "Merciless",
+    "description": "This Pokémon's moves critical hit against poisoned targets.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 197,
+    "key": "shields-down",
+    "name": "Shields Down",
+    "description": "Transforms this Minior between Core Form and Meteor Form. Prevents major status ailments and drowsiness while in Meteor Form.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 198,
+    "key": "stakeout",
+    "name": "Stakeout",
+    "description": "This Pokémon's moves have double power against Pokémon that switched in this turn.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 199,
+    "key": "water-bubble",
+    "name": "Water Bubble",
+    "description": "Halves damage from Fire moves, doubles damage of Water moves, and prevents burns.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 200,
+    "key": "steelworker",
+    "name": "Steelworker",
+    "description": "This Pokémon's Steel moves have 1.5× power.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 201,
+    "key": "berserk",
+    "name": "Berserk",
+    "description": "Raises this Pokémon's Special Attack by one stage every time its HP drops below half.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 202,
+    "key": "slush-rush",
+    "name": "Slush Rush",
+    "description": "During Hail, this Pokémon has double Speed.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 203,
+    "key": "long-reach",
+    "name": "Long Reach",
+    "description": "This Pokémon's moves do not make contact.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 204,
+    "key": "liquid-voice",
+    "name": "Liquid Voice",
+    "description": "Sound-based moves become Water-type.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 205,
+    "key": "triage",
+    "name": "Triage",
+    "description": "This Pokémon's healing moves have their priority increased by 3.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 206,
+    "key": "galvanize",
+    "name": "Galvanize",
+    "description": "This Pokémon's Normal moves are Electric and have their power increased to 1.2×.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 207,
+    "key": "surge-surfer",
+    "name": "Surge Surfer",
+    "description": "Doubles this Pokémon's Speed on Electric Terrain.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 208,
+    "key": "schooling",
+    "name": "Schooling",
+    "description": "Wishiwashi becomes Schooling Form when its HP is 25% or higher.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 209,
+    "key": "disguise",
+    "name": "Disguise",
+    "description": "Prevents the first instance of battle damage.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 210,
+    "key": "battle-bond",
+    "name": "Battle Bond",
+    "description": "Transforms this Pokémon into Ash-Greninja after fainting an opponent. Water Shuriken's power is 20 and always hits three times.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 211,
+    "key": "power-construct",
+    "name": "Power Construct",
+    "description": "Transforms 10% or 50% Zygarde into Complete Forme when its HP is below 50%.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 212,
+    "key": "corrosion",
+    "name": "Corrosion",
+    "description": "This Pokémon can inflict poison on Poison and Steel Pokémon.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 213,
+    "key": "comatose",
+    "name": "Comatose",
+    "description": "This Pokémon always acts as though it were Asleep.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 214,
+    "key": "queenly-majesty",
+    "name": "Queenly Majesty",
+    "description": "Opposing Pokémon cannot use priority attacks.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 215,
+    "key": "innards-out",
+    "name": "Innards Out",
+    "description": "When this Pokémon faints from an opponent's move, that opponent takes damage equal to the HP this Pokémon had remaining.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 216,
+    "key": "dancer",
+    "name": "Dancer",
+    "description": "Whenever another Pokémon uses a dance move, this Pokémon will use the same move immediately afterwards.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 217,
+    "key": "battery",
+    "name": "Battery",
+    "description": "Ally Pokémon's moves have their power increased to 1.3×.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 218,
+    "key": "fluffy",
+    "name": "Fluffy",
+    "description": "Damage from contact moves is halved. Damage from Fire moves is doubled.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 219,
+    "key": "dazzling",
+    "name": "Dazzling",
+    "description": "Opposing Pokémon cannot use priority attacks.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 220,
+    "key": "soul-heart",
+    "name": "Soul-Heart",
+    "description": "This Pokémon's Special Attack rises by one stage every time any Pokémon faints.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 221,
+    "key": "tangling-hair",
+    "name": "Tangling Hair",
+    "description": "When this Pokémon takes regular damage from a contact move, the attacking Pokémon's Speed lowers by one stage.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 222,
+    "key": "receiver",
+    "name": "Receiver",
+    "description": "When an ally faints, this Pokémon gains its Ability.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 223,
+    "key": "power-of-alchemy",
+    "name": "Power of Alchemy",
+    "description": "When an ally faints, this Pokémon gains its Ability.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 224,
+    "key": "beast-boost",
+    "name": "Beast Boost",
+    "description": "Raises this Pokémon's highest stat by one stage when it faints another Pokémon.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 225,
+    "key": "rks-system",
+    "name": "RKS System",
+    "description": "Changes this Pokémon's type to match its held Memory.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 226,
+    "key": "electric-surge",
+    "name": "Electric Surge",
+    "description": "When this Pokémon enters battle, it changes the terrain to Electric Terrain.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 227,
+    "key": "psychic-surge",
+    "name": "Psychic Surge",
+    "description": "When this Pokémon enters battle, it changes the terrain to Psychic Terrain.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 228,
+    "key": "misty-surge",
+    "name": "Misty Surge",
+    "description": "When this Pokémon enters battle, it changes the terrain to Misty Terrain.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 229,
+    "key": "grassy-surge",
+    "name": "Grassy Surge",
+    "description": "When this Pokémon enters battle, it changes the terrain to Grassy Terrain.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 230,
+    "key": "full-metal-body",
+    "name": "Full Metal Body",
+    "description": "Other Pokémon cannot lower this Pokémon's stats.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 231,
+    "key": "shadow-shield",
+    "name": "Shadow Shield",
+    "description": "When this Pokémon has full HP, regular damage from moves is halved.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 232,
+    "key": "prism-armor",
+    "name": "Prism Armor",
+    "description": "Reduces super-effective damage to 0.75×.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 233,
+    "key": "neuroforce",
+    "name": "Neuroforce",
+    "description": "Increases super-effective damage dealt to 1.25×.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 234,
+    "key": "intrepid-sword",
+    "name": "Intrepid Sword",
+    "description": "Boosts Attack in battle.",
+    "generation": "generation-viii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 235,
+    "key": "dauntless-shield",
+    "name": "Dauntless Shield",
+    "description": "Boosts Defense in battle.",
+    "generation": "generation-viii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 236,
+    "key": "libero",
+    "name": "Libero",
+    "description": "Libero changes the Pokémon's type to that of its previously used attack.",
+    "generation": "generation-viii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 237,
+    "key": "ball-fetch",
+    "name": "Ball Fetch",
+    "description": "If the Pokémon is not holding an item, it will fetch the Poké Ball from the first failed throw of the battle.",
+    "generation": "generation-viii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 238,
+    "key": "cotton-down",
+    "name": "Cotton Down",
+    "description": "When Ignores moves and abilities that draw in moves.",
+    "generation": "generation-viii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 239,
+    "key": "propeller-tail",
+    "name": "Propeller Tail",
+    "description": "Ignores moves and abilities that draw in moves.",
+    "generation": "generation-viii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 240,
+    "key": "mirror-armor",
+    "name": "Mirror Armor",
+    "description": "Reflects any stat-lowering effects.",
+    "generation": "generation-viii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 241,
+    "key": "gulp-missile",
+    "name": "Gulp Missile",
+    "description": "If a Cramorant with Gulp Missile uses Surf or Dive, it catches prey and changes its form depending on its remaining HP.",
+    "generation": "generation-viii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 242,
+    "key": "stalwart",
+    "name": "Stalwart",
+    "description": "Ignores moves and abilities that draw in moves.",
+    "generation": "generation-viii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 243,
+    "key": "steam-engine",
+    "name": "Steam Engine",
+    "description": "Boosts the Speed stat drastically when the Pokémon is hit by a Fire- or Water-type move.",
+    "generation": "generation-viii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 244,
+    "key": "punk-rock",
+    "name": "Punk Rock",
+    "description": "Boosts sound-based moves and halves damage from the same moves.",
+    "generation": "generation-viii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 245,
+    "key": "sand-spit",
+    "name": "Sand Spit",
+    "description": "Creates a sandstorm when hit by an attack.",
+    "generation": "generation-viii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 246,
+    "key": "ice-scales",
+    "name": "Ice Scales",
+    "description": "Halves damage from Special moves.",
+    "generation": "generation-viii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 247,
+    "key": "ripen",
+    "name": "Ripen",
+    "description": "Doubles the effect of berries.",
+    "generation": "generation-viii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 248,
+    "key": "ice-face",
+    "name": "Ice Face",
+    "description": "The Pokémon’s ice head can take a physical attack as a substitute, but the attack also changes the Pokémon’s appearance. The ice will be restored when it snows.",
+    "generation": "generation-viii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 249,
+    "key": "power-spot",
+    "name": "Power Spot",
+    "description": "Just being next to the Pokémon powers up moves.",
+    "generation": "generation-viii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 250,
+    "key": "mimicry",
+    "name": "Mimicry",
+    "description": "Changes type depending on the terrain.",
+    "generation": "generation-viii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 251,
+    "key": "screen-cleaner",
+    "name": "Screen Cleaner",
+    "description": "Nullifies effects of Light Screen, Reflect, and Aurora Veil.",
+    "generation": "generation-viii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 252,
+    "key": "steely-spirit",
+    "name": "Steely Spirit",
+    "description": "Powers up ally Pokémon's Steel-type moves.",
+    "generation": "generation-viii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 253,
+    "key": "perish-body",
+    "name": "Perish Body",
+    "description": "When hit by a move that makes direct contact, the Pokémon and the attacker will faint after three turns unless they switch out of battle.",
+    "generation": "generation-viii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 254,
+    "key": "wandering-spirit",
+    "name": "Wandering Spirit",
+    "description": "Swaps abilities with opponents on contact.",
+    "generation": "generation-viii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 255,
+    "key": "gorilla-tactics",
+    "name": "Gorilla Tactics",
+    "description": "Boosts the Pokémon's Attack stat but only allows the use of the first selected move.",
+    "generation": "generation-viii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 256,
+    "key": "neutralizing-gas",
+    "name": "Neutralizing Gas",
+    "description": "Neutralizes abilities of all Pokémon in battle.",
+    "generation": "generation-viii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 257,
+    "key": "pastel-veil",
+    "name": "Pastel Veil",
+    "description": "Prevents the Pokémon and its allies from being poisoned.",
+    "generation": "generation-viii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 258,
+    "key": "hunger-switch",
+    "name": "Hunger Switch",
+    "description": "Causes Morpeko to change its form each turn, alternating between Full Belly Mode and Hangry Mode",
+    "generation": "generation-viii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 259,
+    "key": "quick-draw",
+    "name": "Quick Draw",
+    "description": "Enables the Pokémon to move first occasionally.",
+    "generation": "generation-viii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 260,
+    "key": "unseen-fist",
+    "name": "Unseen Fist",
+    "description": "Contact moves can strike through Protect/Detect.",
+    "generation": "generation-viii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 261,
+    "key": "curious-medicine",
+    "name": "Curious Medicine",
+    "description": "Resets all stat changes upon entering battlefield.",
+    "generation": "generation-viii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 262,
+    "key": "transistor",
+    "name": "Transistor",
+    "description": "Powers up Electric-type moves.",
+    "generation": "generation-viii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 263,
+    "key": "dragons-maw",
+    "name": "Dragon’s Maw",
+    "description": "Powers up Dragon-type moves.",
+    "generation": "generation-viii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 264,
+    "key": "chilling-neigh",
+    "name": "Chilling Neigh",
+    "description": "Boosts Attack after knocking out a Pokémon.",
+    "generation": "generation-viii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 265,
+    "key": "grim-neigh",
+    "name": "Grim Neigh",
+    "description": "Boosts Special Attack after knocking out a Pokémon.",
+    "generation": "generation-viii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 266,
+    "key": "as-one-glastrier",
+    "name": "As One",
+    "description": "This Ability combines the effects of both Calyrex’s Unnerve Ability and Glastrier’s Chilling Neigh Ability.",
+    "generation": "generation-viii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 267,
+    "key": "as-one-spectrier",
+    "name": "As One",
+    "description": "This Ability combines the effects of both Calyrex’s Unnerve Ability and Spectrier’s Grim Neigh Ability.",
+    "generation": "generation-viii",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 268,
+    "key": "lingering-aroma",
+    "name": "Lingering Aroma",
+    "description": "Contact changes the attacker's Ability to Lingering Aroma.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 269,
+    "key": "seed-sower",
+    "name": "Seed Sower",
+    "description": "Turns the ground into Grassy Terrain when the Pokémon is hit by an attack.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 270,
+    "key": "thermal-exchange",
+    "name": "Thermal Exchange",
+    "description": "Raises Attack when hit by a Fire-type move. Cannot be burned.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 271,
+    "key": "anger-shell",
+    "name": "Anger Shell",
+    "description": "When the Pokémon's HP drops below half, Anger Shell lowers its Defense and Special Defense but its Attack, Special Attack and Speed are raised.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 272,
+    "key": "purifying-salt",
+    "name": "Purifying Salt",
+    "description": "Protects from status conditions and halves damage from Ghost-type moves.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 273,
+    "key": "well-baked-body",
+    "name": "Well-Baked Body",
+    "description": "Immune to Fire-type moves, and Defense is sharply boosted.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 274,
+    "key": "wind-rider",
+    "name": "Wind Rider",
+    "description": "Gives immunity to wind moves, and causes the Pokémon's Attack to increase by one stage when hit by one.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 275,
+    "key": "guard-dog",
+    "name": "Guard Dog",
+    "description": "Boosts Attack if intimidated, and prevents being forced to switch out.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 276,
+    "key": "rocky-payload",
+    "name": "Rocky Payload",
+    "description": "Powers up Rock-type moves.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 277,
+    "key": "wind-power",
+    "name": "Wind Power",
+    "description": "When hit by a wind move, the power of the next Electric-type move it uses is doubled.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 278,
+    "key": "zero-to-hero",
+    "name": "Zero to Hero",
+    "description": "Transforms into its Hero Form when switching out.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 279,
+    "key": "commander",
+    "name": "Commander",
+    "description": "Goes inside the mouth of an ally Dondozo if one is on the field.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 280,
+    "key": "electromorphosis",
+    "name": "Electromorphosis",
+    "description": "When hit by an attack, the power of the next Electric-type move it uses is doubled.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 281,
+    "key": "protosynthesis",
+    "name": "Protosynthesis",
+    "description": "Raises highest stat in harsh sunlight, or if holding Booster Energy.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 282,
+    "key": "quark-drive",
+    "name": "Quark Drive",
+    "description": "Raises highest stat on Electric Terrain, or if holding Booster Energy.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 283,
+    "key": "good-as-gold",
+    "name": "Good as Gold",
+    "description": "Gives immunity to status moves.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 284,
+    "key": "vessel-of-ruin",
+    "name": "Vessel of Ruin",
+    "description": "Lowers Special Attack of all Pokémon except itself.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 285,
+    "key": "sword-of-ruin",
+    "name": "Sword of Ruin",
+    "description": "Lowers Defense of all Pokémon except itself.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 286,
+    "key": "tablets-of-ruin",
+    "name": "Tablets of Ruin",
+    "description": "Lowers Attack of all Pokémon except itself.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 287,
+    "key": "beads-of-ruin",
+    "name": "Beads of Ruin",
+    "description": "Lowers Special Defense of all Pokémon except itself.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 288,
+    "key": "orichalcum-pulse",
+    "name": "Orichalcum Pulse",
+    "description": "Turns the sunlight harsh when entering battle, and boosts Attack while active.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 289,
+    "key": "hadron-engine",
+    "name": "Hadron Engine",
+    "description": "Creates an Electric Terrain when entering battle, and boosts Special Attack while active.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 290,
+    "key": "opportunist",
+    "name": "Opportunist",
+    "description": "Copies stat boosts by the opponent.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 291,
+    "key": "cud-chew",
+    "name": "Cud Chew",
+    "description": "Causes the Pokémon to reuse an already consumed Berry at the end of the next turn.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 292,
+    "key": "sharpness",
+    "name": "Sharpness",
+    "description": "Powers up slicing moves.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 293,
+    "key": "supreme-overlord",
+    "name": "Supreme Overlord",
+    "description": "Attack and Special Attack are boosted for each party Pokémon that has been defeated.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 294,
+    "key": "costar",
+    "name": "Costar",
+    "description": "Copies ally's stat changes on entering battle.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 295,
+    "key": "toxic-debris",
+    "name": "Toxic Debris",
+    "description": "Scatters poison spikes at the feet of the opposing team when the Pokémon takes damage from physical moves.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 296,
+    "key": "armor-tail",
+    "name": "Armor Tail",
+    "description": "Prevents the opponent from using any moves that have priority, such as Quick Attack.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 297,
+    "key": "earth-eater",
+    "name": "Earth Eater",
+    "description": "Restores HP when hit by a Ground-type move.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 298,
+    "key": "mycelium-might",
+    "name": "Mycelium Might",
+    "description": "Status moves go last, but are not affected by the opponent's ability.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 299,
+    "key": "minds-eye",
+    "name": "Mind’s Eye",
+    "description": "The Pokémon ignores changes to opponents' evasiveness, its accuracy can't be lowered, and it can hit Ghost types with Normal- and Fighting-type moves.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 300,
+    "key": "supersweet-syrup",
+    "name": "Supersweet Syrup",
+    "description": "Once per battle, when a Pokémon with Supersweet Syrup enters the battle, it lowers the evasion stat of all adjacent opponents by one stage.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 301,
+    "key": "hospitality",
+    "name": "Hospitality",
+    "description": "When a Pokémon with Hospitality enters a battle, it restores HP for an ally by 25%.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 302,
+    "key": "toxic-chain",
+    "name": "Toxic Chain",
+    "description": "May cause bad poisoning when the Pokémon hits an opponent with a move.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 304,
+    "key": "tera-shift",
+    "name": "Tera Shift",
+    "description": "When Terapagos enters the battle, it turns into its Terastal Form until the end of the battle.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 305,
+    "key": "tera-shell",
+    "name": "Tera Shell",
+    "description": "All damage-dealing moves that hit the Pokémon when its HP is full will not be very effective.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 306,
+    "key": "teraform-zero",
+    "name": "Teraform Zero",
+    "description": "As soon as Terapagos assumes its Stellar Form, it will immediately neutralize weather and terrain effects.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 307,
+    "key": "poison-puppeteer",
+    "name": "Poison Puppeteer",
+    "description": "Pokémon poisoned by Pecharunt's moves will also become confused.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 308,
+    "key": "piercing-drill",
+    "name": "Piercing Drill",
+    "description": "When the Pokémon uses contact moves, it can hit even targets that are protecting themselves.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 309,
+    "key": "dragonize",
+    "name": "Dragonize",
+    "description": "The Pokémon's Normal-type moves become Dragon-type moves and their power is boosted by 20%.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 310,
+    "key": "mega-sol",
+    "name": "Mega Sol",
+    "description": "The Pokémon can use its moves as if the weather were harsh sunlight.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 311,
+    "key": "spicy-spray",
+    "name": "Spicy Spray",
+    "description": "When the Pokémon takes damage from a move, it burns the attacker.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 312,
+    "key": "eelevate",
+    "name": "Eelevate",
+    "description": "The Pokémon floats off the ground, making it immune to Ground-type moves, as well as the Spikes, Toxic Spikes, and Sticky Web statuses. When the Pokémon knocks out a target with an attack, its highest stat is boosted by 1 stage.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  },
+  {
+    "id": 313,
+    "key": "fire-mane",
+    "name": "Fire Mane",
+    "description": "Boosts the power of the Pokémon's Fire-type moves by 50%.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "baseline",
+      "overriddenFields": []
+    }
+  }
+]

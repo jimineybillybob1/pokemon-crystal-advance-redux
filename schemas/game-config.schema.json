@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Guide configuration",
+  "type": "object",
+  "required": ["name", "version", "storageNamespace", "saveFormat", "branding", "features"],
+  "properties": {
+    "name": { "type": "string", "minLength": 1 }, "version": { "type": "string" }, "storageNamespace": { "type": "string", "pattern": "^[a-z0-9-]+$" }, "saveFormat": { "type": "string" },
+    "branding": { "type": "object", "required": ["logo", "hero", "icon", "primary", "accent"] }, "features": { "type": "object" }, "badges": { "type": "array" }, "maps": { "type": "object" }, "sources": { "type": "array" }
+  }
+}

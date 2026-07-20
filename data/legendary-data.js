@@ -1,0 +1,1 @@
+window.LEGENDARY_GUIDE_DATA=[];

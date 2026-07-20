@@ -1,0 +1,5671 @@
+[
+  {
+    "id": 50000,
+    "key": "ability-pill",
+    "name": "Ability Pill",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Ecruteak City — Box under tree, Daily, 6.7% chance, Dec & Jan only; Source: Wild; Qty: 2",
+      "Battle Tower — NE, Middle Assistant - $20000; Source: Shop",
+      "Battle Tower — Victory Reward; Source: Person",
+      "Safari Zone — Area 1, C, Island in water; Source: Wild"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 139,
+    "name": "Aguav Berry",
+    "category": "Berries",
+    "locations": [
+      "Goldenrod City — Lady in Berry Shop - $100; Source: Shop",
+      "Cerulean City — Berry Emporium Girl - $100; Source: Shop"
+    ],
+    "costs": []
+  },
+  {
+    "id": 200,
+    "name": "Amulet Coin",
+    "category": "Held Items",
+    "locations": [
+      "Goldenrod City — Mall, B1F, from Basement, NE corner; Source: Wild",
+      "Wild Pokémon — Persian; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 18,
+    "name": "Antidote",
+    "category": "Medicine",
+    "locations": [
+      "Route 30 — S, just N of Berry Man's House; Source: Wild",
+      "Ilex Forest — Cut, E of water; Source: Wild",
+      "Goldenrod City — Underground, Plant S of Donald & W of Teru; Source: Hidden",
+      "Route 45 — N, rock just S of lampost in NE; Source: Hidden",
+      "Underground Path — R5 - R6, Down 4, turn left; Source: Hidden",
+      "Underground Path — R7 - R8, Right 7, down 1; Source: Hidden"
+    ],
+    "costs": []
+  },
+  {
+    "id": 182,
+    "name": "Apicot Berry",
+    "category": "Berries",
+    "locations": [
+      "Goldenrod City — Lady in Berry Shop - $200; Source: Shop",
+      "Cerulean City — Berry Emporium Girl - $200; Source: Shop"
+    ],
+    "costs": []
+  },
+  {
+    "id": 130,
+    "name": "Aspear Berry",
+    "category": "Berries",
+    "locations": [
+      "Route 44 — East, N of Phil; Source: Tree; Qty: 1 - 8",
+      "Wild Pokémon — Seel, Dewgong, Jynx, Swinub, Piloswine, Smoochum, Snorunt, Glalie, Spheal, Sealeo, Alolan Sandshrew, Alolan Sandslash, Alolan Vulpix, Alolan Ninetales; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 683,
+    "name": "Assault Vest",
+    "category": "Held Items",
+    "locations": [
+      "Route 34 — Surf, Defeat 3 sister gauntlet in South; Source: Person",
+      "Battle Tower — SE Corner - $10000; Source: Shop"
+    ],
+    "costs": []
+  },
+  {
+    "id": 21,
+    "name": "Awakening",
+    "category": "Medicine",
+    "locations": [
+      "Union Cave — 1F, SE, near entrance; Source: Wild",
+      "Underground Path — R5 - R6, Down 4; Source: Hidden",
+      "Underground Path — R7 - R8, Right 13; Source: Hidden"
+    ],
+    "costs": []
+  },
+  {
+    "id": 50001,
+    "key": "bagon-small-doll",
+    "name": "Bagon Small Doll",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Celadon City — Bazaar, Small Doll - $5000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 931,
+    "name": "Basement Key",
+    "category": "Key Items",
+    "locations": [
+      "Goldenrod City — Radio Tower 5F W, Executive; Source: Person"
+    ],
+    "costs": []
+  },
+  {
+    "id": 43,
+    "name": "Berry Juice",
+    "category": "Medicine",
+    "locations": [
+      "Cianwood City — Held by gifted Shuckle; Source: Held",
+      "Wild Pokémon — Shuckle; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 427,
+    "name": "Bicycle",
+    "category": "Key Items",
+    "locations": [
+      "Goldenrod City — Bike Shop; Source: Person"
+    ],
+    "costs": []
+  },
+  {
+    "id": 87,
+    "name": "Big Mushroom",
+    "category": "Valuables",
+    "locations": [
+      "Ilex Forest — Cut, SE of shrine, bush; Source: Hidden",
+      "Ilex Forest — Cut, N of Headbutt man in the Center; Source: Hidden",
+      "Lake of Rage — Dive, SW rock; Source: Hidden",
+      "Soul House Basement — B4F, N, NW of Jody in alcove; Source: Hidden",
+      "Wild Pokémon — Parasect, Breloom; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 622,
+    "name": "Big Nugget",
+    "category": "Valuables",
+    "locations": [
+      "Ruins of Alph — Surf, SW Chamber, Solve Riddle w/ Unown in party; Source: Wild",
+      "Mt. Mortar — 2F, Waterfall, Center; Source: Wild",
+      "Olivine City — NE of Lighthouse; Source: Wild",
+      "Battle Tower — West of entrance, outside; Source: Wild",
+      "Route 02 — N, Man in house just below Digletts Cave; Source: Person",
+      "Route 21 — Dive, NE rock; Source: Hidden"
+    ],
+    "costs": []
+  },
+  {
+    "id": 89,
+    "name": "Big Pearl",
+    "category": "Valuables",
+    "locations": [
+      "Cherrygrove City — Held by traded Mareep; Source: Held",
+      "Ecruteak City — Box under tree, Daily, 6.7% chance, Dec & Jan only; Source: Wild; Qty: 3",
+      "Hollow Tunnel — North, rock in path; Source: Hidden",
+      "Vermilion City — Dive, Rock E of West underwater Dive spot; Source: Hidden",
+      "Route 25 — North, Cut, Rock Climb, rock; Source: Hidden",
+      "Route 19 — Dive, NE Spot, North; Source: Wild",
+      "Wild Pokémon — Cloyster, Chinchou, Lanturn, Swalot, Clamperl; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 218,
+    "name": "Black Belt",
+    "category": "Held Items",
+    "locations": [
+      "Lake of Rage — Maze, NW corner, Wesley on Wednesday; Source: Person",
+      "Wild Pokémon — Riolu, Hitmonlee, Hitmonchan, Hitmontop, Sneasler; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 68,
+    "name": "Black Flute",
+    "category": "Other",
+    "locations": [
+      "Goldenrod City — Mall, 3F South counter - $450; Source: Shop"
+    ],
+    "costs": []
+  },
+  {
+    "id": 258,
+    "name": "Black Sludge",
+    "category": "Held Items",
+    "locations": [
+      "Wild Pokémon — Seviper, Croagunk, Toxicroak, Zubat, Grimer, Muk, Crobat, Alolan Grimer; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 217,
+    "name": "Blackglasses",
+    "category": "Held Items",
+    "locations": [
+      "Dark Cave — Blackthorn Side, NW, man in corner; Source: Person",
+      "Wild Pokémon — Murkrow, Sableye, Houndour, Absol, Darkrai; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 50002,
+    "key": "blk-apricorn",
+    "name": "Blk Apricorn",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Held Items",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Route 37 — Source: Tree"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50003,
+    "key": "blu-apricorn",
+    "name": "Blu Apricorn",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Held Items",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Route 37 — Source: Tree"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50004,
+    "key": "blue-carpet",
+    "name": "Blue Carpet",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Bazaar, Carpets - $10000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 65,
+    "name": "Blue Flute",
+    "category": "Other",
+    "locations": [
+      "Goldenrod City — Mall, 3F South counter - $150; Source: Shop"
+    ],
+    "costs": []
+  },
+  {
+    "id": 238,
+    "name": "Blue Scarf",
+    "category": "Scarves",
+    "locations": [
+      "Blackthorn City — Man in Move Deleter house - $100; Source: Shop",
+      "Fuchsia City — Man in Central house - $100; Source: Shop",
+      "Wild Pokémon — Feebas; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 50005,
+    "key": "blue-gold-carpet",
+    "name": "Blue&Gold Carpet",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Celadon City — Bazaar, Carpets - $20000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50006,
+    "key": "brick-piece",
+    "name": "Brick Piece",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Vermilion City — Machop outside Lighthouse; Source: Person"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50007,
+    "key": "bronze-cap",
+    "name": "Bronze Cap",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Valuables",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Underground, Herb Lady 12pm - 6pm - $20000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50008,
+    "key": "bulbasaur-small-doll",
+    "name": "Bulbasaur Small Doll",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Bazaar, Small Doll - $3000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50009,
+    "key": "burmy-small-doll",
+    "name": "Burmy Small Doll",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Celadon City — Bazaar, Small Doll - $5000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 19,
+    "name": "Burn Heal",
+    "category": "Medicine",
+    "locations": [
+      "Goldenrod City — Mall, B1F, Strength, NW corner; Source: Wild",
+      "Goldenrod City — Radio Tower 5F E, Defeat Team Rocket; Source: Wild",
+      "Route 09 — East, near grass; Source: Wild",
+      "Underground Path — R5 - R6, Down 3, turn right; Source: Hidden",
+      "Underground Path — R7 - R8, Right 15, turn up; Source: Hidden",
+      "Cinnabar Island — Mansion 1F, E area, via 2F NE staircase; Source: Wild"
+    ],
+    "costs": []
+  },
+  {
+    "id": 49,
+    "name": "Calcium",
+    "category": "Medicine",
+    "locations": [
+      "Goldenrod City — Mall, 4F Right counter - $2000; Source: Shop",
+      "Battle Tower — Victory Reward, only if no Pokemon received; Source: Person; Qty: 3",
+      "Hollow Tunnel — Center, East side; Source: Wild",
+      "Whirl Islands — B1F, SE area, any S island access; Source: Wild",
+      "Dragons Den — NE corner; Source: Wild",
+      "Celadon City — Mall, 5F North Assistant - $2000; Source: Shop",
+      "Route 13 — South, Right of central signpost in corner; Source: Hidden",
+      "Route 12 — Cut, SW; Source: Wild"
+    ],
+    "costs": []
+  },
+  {
+    "id": 48,
+    "name": "Carbos",
+    "category": "Medicine",
+    "locations": [
+      "Goldenrod City — Mall, 4F Right counter - $2000; Source: Shop",
+      "Mt. Mortar — B1F, Surf, W area from SW; Source: Wild",
+      "Battle Tower — Victory Reward, only if no Pokemon received; Source: Person; Qty: 3",
+      "Whirl Islands — B1F, W area, any N island access; Source: Wild",
+      "Whirl Islands — B1F, E area, any S island access, in alcove; Source: Hidden",
+      "Celadon City — Mall, 5F North Assistant - $2000; Source: Shop"
+    ],
+    "costs": []
+  },
+  {
+    "id": 1023,
+    "name": "Card Key",
+    "category": "Key Items",
+    "locations": [
+      "Goldenrod City — Basement, B2F, Center, Director; Source: Person"
+    ],
+    "costs": []
+  },
+  {
+    "id": 50010,
+    "key": "caterpie-small-doll",
+    "name": "Caterpie Small Doll",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Bazaar, Small Doll - $3000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 226,
+    "name": "Charcoal",
+    "category": "Held Items",
+    "locations": [
+      "Azalea Town — Charcoal House after Farfetch`d returned; Source: Person",
+      "Wild Pokémon — Moltres, Charmander, Cyndaquil, Slugma, Magcargo, Torchic, Chimchar; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 50011,
+    "key": "charmander-small-doll",
+    "name": "Charmander Small Doll",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Bazaar, Small Doll - $3000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50012,
+    "key": "checkered-blue-table",
+    "name": "Checkered Blue Table",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Celadon City — Bazaar, Tables - $25000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50013,
+    "key": "checkered-green-table",
+    "name": "Checkered Green Table",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Celadon City — Bazaar, Tables - $25000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50014,
+    "key": "checkered-red-table",
+    "name": "Checkered Red Table",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Celadon City — Bazaar, Tables - $25000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50015,
+    "key": "checkered-white-table",
+    "name": "Checkered White Table",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Celadon City — Bazaar, Tables - $25000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 126,
+    "name": "Cheri Berry",
+    "category": "Berries",
+    "locations": [
+      "Route 46 — N, available after Gym 6; Source: Tree; Qty: 1 - 8",
+      "Violet City — S Route out of Violet City; Source: Tree; Qty: 1 - 8",
+      "Route 08 — East; Source: Tree; Qty: 1 - 8",
+      "Wild Pokémon — Electabuzz, Elekid, Glameow, Purugly; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 127,
+    "name": "Chesto Berry",
+    "category": "Berries",
+    "locations": [
+      "Route 39 — Farm; Source: Tree; Qty: 1 - 8",
+      "Pewter City — NE; Source: Tree; Qty: 1 - 8",
+      "Wild Pokémon — Gastly, Haunter, Hypno, Yanma, Misdreavus, Stantler, Whismur, Loudred, Exploud, Chatot, Drowzee, Wooper, Quagsire, Spinda, Yanmega; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 50016,
+    "key": "chikorita-poster",
+    "name": "Chikorita Poster",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Bazaar, Posters - $5000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50017,
+    "key": "chimchar-small-doll",
+    "name": "Chimchar Small Doll",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Celadon City — Bazaar, Small Doll - $5000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 197,
+    "name": "Choice Band",
+    "category": "Held Items",
+    "locations": [
+      "Battle Tower — SE Corner - $10000; Source: Shop",
+      "Saffron City — Fighting Dojo; Source: Wild",
+      "Wild Pokémon — Noctowl; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 264,
+    "name": "Choice Scarf",
+    "category": "Held Items",
+    "locations": [
+      "Bug Catching Contest — S, next to bench; Source: Person",
+      "Battle Tower — SE Corner - $10000; Source: Shop"
+    ],
+    "costs": []
+  },
+  {
+    "id": 274,
+    "name": "Choice Specs",
+    "category": "Held Items",
+    "locations": [
+      "Dark Cave — Blackthorn Side, N; Source: Wild",
+      "Battle Tower — SE Corner - $10000; Source: Shop"
+    ],
+    "costs": []
+  },
+  {
+    "id": 201,
+    "name": "Cleanse Tag",
+    "category": "Held Items",
+    "locations": [
+      "Route 05 — Old Lady in house; Source: Person"
+    ],
+    "costs": []
+  },
+  {
+    "id": 474,
+    "name": "Clear Bell",
+    "category": "Key Items",
+    "locations": [
+      "Goldenrod City — Radio Tower 5F E, Defeat Team Rocket; Source: Person"
+    ],
+    "costs": []
+  },
+  {
+    "id": 421,
+    "name": "Coin Case",
+    "category": "Key Items",
+    "locations": [
+      "Goldenrod City — Underground; Source: Wild"
+    ],
+    "costs": []
+  },
+  {
+    "id": 50018,
+    "key": "coral-stalk",
+    "name": "Coral Stalk",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Valuables",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Vermilion City — Dive, Rock not against wall touching SE grass; Source: Hidden"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50019,
+    "key": "cyndaquil-poster",
+    "name": "Cyndaquil Poster",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Bazaar, Posters - $5000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 257,
+    "name": "Destiny Knot",
+    "category": "Held Items",
+    "locations": [
+      "Route 05 — Girl in house; Source: Person; Qty: 2"
+    ],
+    "costs": []
+  },
+  {
+    "id": 7,
+    "name": "Dive Ball",
+    "category": "Poké Balls",
+    "locations": [
+      "Goldenrod City — Mall, 5F Right Assistant - $1000; Source: Shop",
+      "Celadon City — Mall, 4F - $1000; Source: Shop",
+      "Pallet Town — Dive, SW rock; Source: Hidden"
+    ],
+    "costs": []
+  },
+  {
+    "id": 102,
+    "name": "Dome Fossil",
+    "category": "Other",
+    "locations": [
+      "Wild Pokémon — Kabuto; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 227,
+    "name": "Dragon Fang",
+    "category": "Held Items",
+    "locations": [
+      "Dragons Den — East; Source: Wild",
+      "Wild Pokémon — Gyarados, Dragonair, Dragonite, Bagon, Shelgon, Salamence, Gible; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 212,
+    "name": "Dragon Scale",
+    "category": "Evolution",
+    "locations": [
+      "Mt. Mortar — 2F, Waterfall, N, next to ladder; Source: Wild",
+      "Blackthorn City — Man in Move Deleter house - $2100; Source: Shop",
+      "Dragons Den — Dive, North; Source: Wild",
+      "Fuchsia City — Man in Central house - $2100; Source: Shop",
+      "Wild Pokémon — Seadra, Horsea, Dratini, Kingdra; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 301,
+    "name": "Dubious Disc",
+    "category": "Evolution",
+    "locations": [
+      "Soul House Basement — B4F, SW alcove; Source: Wild",
+      "Celadon City — Game Corner, SE corner, box in Giovanni room; Source: Hidden",
+      "Celadon City — Game Corner, Right Assistant - 1500 Coins; Source: Shop",
+      "Wild Pokémon — Porygon2; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 13,
+    "name": "Dusk Ball",
+    "category": "Poké Balls",
+    "locations": [
+      "Goldenrod City — Mall, 5F Right Assistant - $300; Source: Shop",
+      "Celadon City — Mall, 4F - $300; Source: Shop"
+    ],
+    "costs": []
+  },
+  {
+    "id": 108,
+    "name": "Dusk Stone",
+    "category": "Evolution",
+    "locations": [
+      "Bug Catching Contest — Tier 4 prize, Random 10% chance; Source: Person",
+      "Cianwood City — Pharmacy, Left assistant - $2100; Source: Shop",
+      "Soul House — 2F, Defeat Agatha; Source: Person",
+      "Soul House Basement — B2F, North; Source: Wild",
+      "Cinnabar Island — Mart - $2100; Source: Shop",
+      "Wild Pokémon — Murkrow, Misdreavus, Galarian Zigzagoon, Galarian Linoone; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 50020,
+    "key": "exp-all",
+    "name": "EXP. All",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Key Items",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Route 31 — W, Girl in Violet City Gatehouse; Source: Person"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50021,
+    "key": "eevee-cover",
+    "name": "Eevee Cover",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Celadon City — Bazaar, Bed Covers - $15000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50022,
+    "key": "eevee-small-doll",
+    "name": "Eevee Small Doll",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "New Bark Town — Mom after becoming Johto Champion; Source: Person"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 299,
+    "name": "Electirizer",
+    "category": "Evolution",
+    "locations": [
+      "Blackthorn City — Man in Move Deleter house - $2100; Source: Shop",
+      "Power Plant — Rear Room, NW area, middle of big machine; Source: Hidden",
+      "Fuchsia City — Man in Central house - $2100; Source: Shop",
+      "Wild Pokémon — Electabuzz, Elekid, Electivire; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 50023,
+    "key": "elekid-small-doll",
+    "name": "Elekid Small Doll",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Bazaar, Small Doll - $3000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 40,
+    "name": "Elixir",
+    "category": "Medicine",
+    "locations": [
+      "Ruins of Alph — Surf, SW Chamber, Solve Riddle w/ Unown in party; Source: Wild; Qty: 5",
+      "Union Cave — B2F, Surf, NE corner; Source: Wild",
+      "Ecruteak City — Box under tree, Daily, 6.7% chance, Dec & Jan only; Source: Wild",
+      "Mt. Mortar — 2F, Waterfall, NW; Source: Wild",
+      "Route 39 — Farm, E of Chesto Berry Tree; Source: Hidden",
+      "Lake of Rage — Maze, 2nd left fork; Source: Wild",
+      "Route 45 — NW, just below NW grass; Source: Wild",
+      "Route 27 — Rock Climb, NE rock on Tohjo Falls cave; Source: Hidden",
+      "Vermilion City — Dive, Center, middle rock of the 3 rocks; Source: Hidden",
+      "Soul House Basement — B3F, North; Source: Wild",
+      "Rock Tunnel — 1F, Center, access from South; Source: Wild",
+      "Power Plant — Rear Room, NE area; Source: Wild",
+      "Route 02 — SE corner; Source: Wild"
+    ],
+    "costs": []
+  },
+  {
+    "id": 35,
+    "name": "Energy Root",
+    "category": "Medicine",
+    "locations": [
+      "Goldenrod City — Underground, Herb Lady 12pm - 6pm - $800; Source: Shop",
+      "Ecruteak City — In pot outside Tin Tower; Source: Hidden"
+    ],
+    "costs": []
+  },
+  {
+    "id": 34,
+    "name": "Energypowder",
+    "category": "Medicine",
+    "locations": [
+      "Goldenrod City — Underground, Herb Lady 12pm - 6pm - $500; Source: Shop"
+    ],
+    "costs": []
+  },
+  {
+    "id": 78,
+    "name": "Escape Rope",
+    "category": "Other",
+    "locations": [
+      "Sprout Tower — 3F, North; Source: Wild",
+      "Tin Tower — 4F, SW corner; Source: Wild",
+      "Mt. Mortar — 1F, Strength, SE Corner; Source: Wild",
+      "Mt. Mortar — 2F, Waterfall, NE; Source: Wild",
+      "Mt. Mortar — B1F, Surf, S area, rock before ledge; Source: Hidden; Qty: 8",
+      "Whirl Islands — B1F, S area, any N & SW island access; Source: Wild",
+      "Cinnabar Island — Mansion 2F, SW corner; Source: Wild",
+      "Seafoam Islands — W B1F Rear Room, South; Source: Wild",
+      "Mt. Silver — 1F, SW; Source: Wild"
+    ],
+    "costs": []
+  },
+  {
+    "id": 38,
+    "name": "Ether",
+    "category": "Medicine",
+    "locations": [
+      "Ilex Forest — Cut, North East corner; Source: Wild",
+      "Goldenrod City — Mall, B1F, Strength, South; Source: Wild",
+      "Route 37 — N of Greg, W of Wildlife Board; Source: Hidden",
+      "Mt. Mortar — Entrance NW, take SW ladder in 1F; Source: Wild",
+      "Olivine City — 3F Lighthouse, Center, next to Terrell; Source: Wild",
+      "Route 09 — SE corner, East of Sidney; Source: Hidden",
+      "Underground Path — R5 - R6, Down 3; Source: Hidden",
+      "Underground Path — R7 - R8, Right 10, up 1; Source: Hidden",
+      "Viridian Forest — N, E of Abner; Source: Wild"
+    ],
+    "costs": []
+  },
+  {
+    "id": 206,
+    "name": "Everstone",
+    "category": "Held Items",
+    "locations": [
+      "New Bark Town — Prof. Elm after showing him Gift Togepi; Source: Person",
+      "Bug Catching Contest — Tier 3 prize; Source: Person",
+      "Route 25 — House, show Lickitung to Bill's Grandfather; Source: Person"
+    ],
+    "costs": []
+  },
+  {
+    "id": 581,
+    "name": "Eviolite",
+    "category": "Held Items",
+    "locations": [
+      "Battle Tower — SE Corner - $10000; Source: Shop"
+    ],
+    "costs": []
+  },
+  {
+    "id": 50024,
+    "key": "exeggutor-a-large-doll",
+    "name": "Exeggutor-A Large Doll",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Bazaar, Large Doll - $25000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 193,
+    "name": "Exp. Share",
+    "category": "Held Items",
+    "locations": [
+      "Route 30 — Mr. Pokemon, trade Red Scale; Source: Person"
+    ],
+    "costs": []
+  },
+  {
+    "id": 245,
+    "name": "Expert Belt",
+    "category": "Held Items",
+    "locations": [
+      "Battle Tower — SE Corner - $10000; Source: Shop"
+    ],
+    "costs": []
+  },
+  {
+    "id": 453,
+    "name": "Fast Ball",
+    "category": "Poké Balls",
+    "locations": [
+      "Azalea Town — Kurt after Slowpoke Well - $300; Source: Shop"
+    ],
+    "costs": []
+  },
+  {
+    "id": 136,
+    "name": "Figy Berry",
+    "category": "Berries",
+    "locations": [
+      "Goldenrod City — Lady in Berry Shop - $100; Source: Shop",
+      "Cerulean City — Berry Emporium Girl - $100; Source: Shop"
+    ],
+    "costs": []
+  },
+  {
+    "id": 50025,
+    "key": "fire-bed-cover",
+    "name": "Fire Bed Cover",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Bazaar, Bed Covers - $5000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50026,
+    "key": "fire-cushion",
+    "name": "Fire Cushion",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Bazaar, Cushions - $7500; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 82,
+    "name": "Fire Stone",
+    "category": "Evolution",
+    "locations": [
+      "New Bark Town — 11% chance to be held by gifted Eevee; Source: Held",
+      "Route 36 — West, Defeat Alan; Source: Person",
+      "Bug Catching Contest — Tier 4 prize, Random 10% chance; Source: Person",
+      "Cianwood City — Pharmacy, Left assistant - $2100; Source: Shop",
+      "Route 25 — House, show Growlithe to Bill's Grandfather; Source: Person",
+      "Cinnabar Island — Mart - $2100; Source: Shop",
+      "Cinnabar Island — Mansion 2F, W rock in central group of rocks; Source: Hidden",
+      "Wild Pokémon — Vulpix, Growlithe, Hisuian Growlithe; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 250,
+    "name": "Flame Orb",
+    "category": "Held Items",
+    "locations": [
+      "Battle Tower — SE Corner - $10000; Source: Shop"
+    ],
+    "costs": []
+  },
+  {
+    "id": 50027,
+    "key": "floral-pot-plant",
+    "name": "Floral Pot Plant",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Celadon City — Bazaar, Pot Plants - $20000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 64,
+    "name": "Fluffy Tail",
+    "category": "Held Items",
+    "locations": [
+      "Route 25 — North, Cut, Rock Climb, NE rock; Source: Hidden",
+      "Wild Pokémon — Ponyta, Rapidash, Azurill, Swablu, Sylveon; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 207,
+    "name": "Focus Band",
+    "category": "Held Items",
+    "locations": [
+      "Mt. Mortar — B1F, Waterfall, NW, held by gifted Riolu; Source: Held",
+      "Saffron City — Fighting Dojo; Source: Wild",
+      "Celadon City — Game Corner, Right Assistant - 800 Coins; Source: Shop",
+      "Wild Pokémon — Hitmonlee, Hitmonchan, Tyrogue, Hitmontop, Makuhita, Hariyama, Meditite, Machamp, Nincada; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 30,
+    "name": "Fresh Water",
+    "category": "Medicine",
+    "locations": [
+      "Goldenrod City — Mall, 2F/4F/6F Vending Machine - $200; Source: Shop",
+      "Celadon City — Mall, Roof Vending Machine - $200; Source: Shop",
+      "Mt. Moon — Square, Old Man in house - $200; Source: Shop"
+    ],
+    "costs": []
+  },
+  {
+    "id": 454,
+    "name": "Friend Ball",
+    "category": "Poké Balls",
+    "locations": [
+      "Route 29 — Chad after catching tutorial; Source: Person; Qty: 10",
+      "Azalea Town — Kurt after Slowpoke Well - $300; Source: Shop"
+    ],
+    "costs": []
+  },
+  {
+    "id": 27,
+    "name": "Full Heal",
+    "category": "Medicine",
+    "locations": [
+      "Dark Cave — Violet Side, Rock Smash, E; Source: Wild",
+      "Ilex Forest — Cut, NW of shrine, next to 3 headbutt trees; Source: Hidden",
+      "Goldenrod City — Basement, B1F, Center; Source: Wild",
+      "National Park — Cut, SE, through N fence hole, SE fork; Source: Hidden",
+      "Ecruteak City — Box under tree, Daily, 6.7% chance, Dec & Jan only; Source: Wild",
+      "Tin Tower — 3F, SW corner; Source: Wild",
+      "Rocket Hideout — B2F, E; Source: Wild",
+      "Ice Path — B2F, Mahogany side, Middle; Source: Wild",
+      "Victory Road — 1F, NE; Source: Wild",
+      "Power Plant — Rear Room, Center, go past NE area; Source: Wild",
+      "Viridian Forest — West, next to 4 red flowers; Source: Wild",
+      "Viridian Forest — N, SE corner of tree that is NE of Abner; Source: Hidden",
+      "Mt. Moon — 2F, South cave entrance from Square; Source: Wild"
+    ],
+    "costs": []
+  },
+  {
+    "id": 23,
+    "name": "Full Restore",
+    "category": "Medicine",
+    "locations": [
+      "Cherrygrove City — Dive, SW, go W from underwater SE Dive spot; Source: Hidden",
+      "Ruins of Alph — Surf, W Chamber, Solve Riddle w/ Unown in party; Source: Wild; Qty: 5",
+      "Tin Tower — 8F, NW, via W pad on 9F; Source: Wild",
+      "Mt. Mortar — B1F, Surf, SE area; Source: Wild",
+      "Whirl Islands — B1F, NW area, any N island access; Source: Wild",
+      "Whirl Islands — B2F, any N island access; Source: Wild",
+      "Lake of Rage — Maze, SW area in alcove E of 2 ledges; Source: Hidden",
+      "Victory Road — 2F, NE, access from 3F ladder; Source: Wild",
+      "Power Plant — SE corner of Generator room; Source: Wild",
+      "Viridian Forest — S, directly above S entrance, SW corner of tree; Source: Hidden",
+      "Pallet Town — Dive, NE rock; Source: Hidden",
+      "Mt. Silver — 2F, NE Cave, NE; Source: Wild",
+      "Cerulean Cave — 1F, SW; Source: Wild",
+      "Cerulean Cave — 2F, East, via 1F NE ladder; Source: Wild"
+    ],
+    "costs": []
+  },
+  {
+    "id": 484,
+    "name": "GB Sounds",
+    "category": "Key Items",
+    "locations": [
+      "New Bark Town — Mom; Source: Person"
+    ],
+    "costs": []
+  },
+  {
+    "id": 50028,
+    "key": "gs-ball",
+    "name": "GS Ball",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Key Items",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — PokéCenter, talk to Chansey after beating E4; Source: Person"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 179,
+    "name": "Ganlon Berry",
+    "category": "Berries",
+    "locations": [
+      "Goldenrod City — Lady in Berry Shop - $200; Source: Shop",
+      "Cerulean City — Berry Emporium Girl - $200; Source: Shop"
+    ],
+    "costs": []
+  },
+  {
+    "id": 50029,
+    "key": "gardevoir-large-doll",
+    "name": "Gardevoir Large Doll",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Bazaar, Large Doll - $25000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50030,
+    "key": "gold-cap",
+    "name": "Gold Cap",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Ruins of Alph — Collect 28 Unowns for Unown Report; Source: Person; Qty: 3",
+      "Ecruteak City — Box under tree, Daily, 6.7% chance, Dec & Jan only; Source: Wild",
+      "Mt. Silver — 2F, C Cave, Rocket Grunt - $65000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 423,
+    "name": "Good Rod",
+    "category": "Key Items",
+    "locations": [
+      "Olivine City — Fisherman, house N of PokeCentre; Source: Person"
+    ],
+    "costs": []
+  },
+  {
+    "id": 50031,
+    "key": "grass-bed-cover",
+    "name": "Grass Bed Cover",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Bazaar, Bed Covers - $5000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50032,
+    "key": "grass-cushion",
+    "name": "Grass Cushion",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Bazaar, Cushions - $7500; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 2221,
+    "name": "Great Ball",
+    "category": "Poké Balls",
+    "locations": [
+      "Route 32 — Center, N of Gordon, in grass; Source: Wild",
+      "Union Cave — 1F, Center, SE of Bill; Source: Wild",
+      "Route 34 — SE of Daycare Man, corner of pond; Source: Hidden"
+    ],
+    "costs": []
+  },
+  {
+    "id": 50033,
+    "key": "great-ball-cushion",
+    "name": "Great Ball Cushion",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Bazaar, Cushions - $7500; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50034,
+    "key": "green-carpet",
+    "name": "Green Carpet",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Bazaar, Carpets - $10000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50035,
+    "key": "grey-gold-carpet",
+    "name": "Grey&Gold Carpet",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Celadon City — Bazaar, Carpets - $20000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50036,
+    "key": "grn-apricorn",
+    "name": "Grn Apricorn",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Held Items",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Route 42 — Surf, Cut, Center; Source: Tree"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50037,
+    "key": "groudon-large-doll",
+    "name": "Groudon Large Doll",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Celadon City — Bazaar, Large Doll - $100000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50038,
+    "key": "hm01-cut",
+    "name": "HM01 - Cut",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Ilex Forest — S, Charcoal Man after Farfetch`d returned; Source: Person"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50039,
+    "key": "hm02-fly",
+    "name": "HM02 - Fly",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Key Items",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Cianwood City — Chuck's wife after defeating Chuck; Source: Person"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50040,
+    "key": "hm03-surf",
+    "name": "HM03 - Surf",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Ecruteak City — Theater, Defeat all the Kimono girls; Source: Person"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50041,
+    "key": "hm04-strength",
+    "name": "HM04 - Strength",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Olivine City — Sailor in restaurant; Source: Person"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50042,
+    "key": "hm05-flash",
+    "name": "HM05 - Flash",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Sprout Tower — 3F, Defeat Elder Li; Source: Person"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50043,
+    "key": "hm06-rock-smash",
+    "name": "HM06 - Rock Smash",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Route 36 — Remove Sudowoodo, man next to it; Source: Person"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50044,
+    "key": "hm07-whirlpool",
+    "name": "HM07 - Whirlpool",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Rocket Hideout — B1F, Centre, Defeat Electrode, Lance; Source: Person"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50045,
+    "key": "hm08-waterfall",
+    "name": "HM08 - Waterfall",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Ice Path — 1F, Mahogany side, NE Ice puzzle; Source: Wild"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 45,
+    "name": "HP Up",
+    "category": "Medicine",
+    "locations": [
+      "Goldenrod City — Mall, 4F Right counter - $2000; Source: Shop",
+      "Route 35 — S Gatehouse, Give Mail to Sleepy Man on R31; Source: Person",
+      "Burnt Tower — 1F, Rock Smash, NE corner; Source: Wild",
+      "Tin Tower — 9F, N, via S pad on 7F, then SW pad on 8F; Source: Wild",
+      "Battle Tower — Victory Reward, only if no Pokemon received; Source: Person; Qty: 3",
+      "Victory Road — 2F, S; Source: Wild",
+      "Power Plant — Rear Room, Center heading East; Source: Wild",
+      "Celadon City — Mall, 5F North Assistant - $2000; Source: Shop",
+      "Route 04 — NE area; Source: Wild"
+    ],
+    "costs": []
+  },
+  {
+    "id": 215,
+    "name": "Hard Stone",
+    "category": "Type Enhancement",
+    "locations": [
+      "Route 36 — East, Arthur on Thursday; Source: Person",
+      "Blackthorn City — Man in Move Deleter house - $2100; Source: Shop",
+      "Route 09 — NW rock, East of Sid (currently unavailable); Source: Hidden",
+      "Fuchsia City — Man in Central house - $2100; Source: Shop",
+      "Wild Pokémon — Aerodactyl, Regirock, Geodude, Graveler, Golem, Sudowoodo, Larvitar, Pupitar, Tyranitar, Nosepass, Aron, Lairon, Aggron, Relicanth, Probopass, Alolan Geodude, Alolan Graveler, Alolan Golem; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 14,
+    "name": "Heal Ball",
+    "category": "Poké Balls",
+    "locations": [
+      "Azalea Town — Kurt after Slowpoke Well - $300; Source: Shop"
+    ],
+    "costs": []
+  },
+  {
+    "id": 50046,
+    "key": "heal-orb",
+    "name": "Heal Orb",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Held Items",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Battle Tower — SE Corner - $10000; Source: Shop",
+      "Saffron City — Silph Co. 3F, held by traded Beldum; Source: Held",
+      "Wild Pokémon — Wobbuffet; Source: Held"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 36,
+    "name": "Heal Powder",
+    "category": "Medicine",
+    "locations": [
+      "Goldenrod City — Underground, Herb Lady 12pm - 6pm - $450; Source: Shop"
+    ],
+    "costs": []
+  },
+  {
+    "id": 93,
+    "name": "Heart Scale",
+    "category": "Valuables",
+    "locations": [
+      "Wild Pokémon — Luvdisc; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 2223,
+    "name": "Heavy Ball",
+    "category": "Poké Balls",
+    "locations": [
+      "Ruins of Alph — Surf, W Chamber, Solve Riddle w/ Unown in party; Source: Wild; Qty: 10",
+      "Azalea Town — Kurt after Slowpoke Well - $300; Source: Shop",
+      "Tohjo Falls — Rock Climb, NW corner; Source: Wild",
+      "Seafoam Islands — W B2F, Strength, Rock Smash; Source: Wild"
+    ],
+    "costs": []
+  },
+  {
+    "id": 101,
+    "name": "Helix Fossil",
+    "category": "Other",
+    "locations": [
+      "Wild Pokémon — Omanyte; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 50047,
+    "key": "ho-oh-large-doll",
+    "name": "Ho-Oh Large Doll",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Tin Tower — 1F, N, after receiving Rainbow Wing; Source: Person"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 25,
+    "name": "Hyper Potion",
+    "category": "Medicine",
+    "locations": [
+      "Dark Cave — Violet Side, Rock Smash, NE; Source: Wild",
+      "Violet City — Cut, N of PokeCentre; Source: Wild",
+      "Union Cave — B2F, Surf, E, next to Nick; Source: Wild",
+      "Route 34 — East of Daycare; Source: Wild",
+      "Ecruteak City — Box under tree, Daily, 6.7% chance, Dec & Jan only; Source: Wild",
+      "Mt. Mortar — 1F, Strength, West; Source: Wild",
+      "Mt. Mortar — B1F, Surf, E area; Source: Wild",
+      "Rocket Hideout — 1F, E; Source: Wild",
+      "Power Plant — Rear Room, SE from the Center; Source: Wild",
+      "Underground Path — R5 - R6, Down 6, left 1; Source: Hidden"
+    ],
+    "costs": []
+  },
+  {
+    "id": 140,
+    "name": "Iapapa Berry",
+    "category": "Berries",
+    "locations": [
+      "Goldenrod City — Lady in Berry Shop - $100; Source: Shop",
+      "Cerulean City — Berry Emporium Girl - $100; Source: Shop"
+    ],
+    "costs": []
+  },
+  {
+    "id": 20,
+    "name": "Ice Heal",
+    "category": "Medicine",
+    "locations": [
+      "Rocket Hideout — B2F, N; Source: Wild",
+      "Underground Path — R5 - R6, Down 7, turn right; Source: Hidden",
+      "Underground Path — R7 - R8, Right 8, turn up; Source: Hidden",
+      "Seafoam Islands — W B1F; Source: Wild",
+      "Mt. Silver — 1F, East, rock between 2 ledges; Source: Hidden"
+    ],
+    "costs": []
+  },
+  {
+    "id": 885,
+    "name": "Ice Stone",
+    "category": "Evolution",
+    "locations": [
+      "New Bark Town — 11% chance to be held by gifted Eevee; Source: Held",
+      "Bug Catching Contest — Tier 4 prize, Random 10% chance; Source: Person",
+      "Cianwood City — Pharmacy, Left assistant - $2100; Source: Shop",
+      "Ice Path — 1F, Mahogany side, W Ice puzzle against W wall; Source: Hidden",
+      "Ice Path — B1F, Mahogany side, SE, rock on its own; Source: Hidden",
+      "Cinnabar Island — Mart - $2100; Source: Shop",
+      "Seafoam Islands — E Cave, Defeat Lorelei; Source: Person",
+      "Wild Pokémon — Eevee, Alolan Sandshrew, Alolan Vulpix, Eevee-Partner; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 47,
+    "name": "Iron",
+    "category": "Medicine",
+    "locations": [
+      "Goldenrod City — Mall, 4F Right counter - $2000; Source: Shop",
+      "Mt. Mortar — 1F, Waterfall, W; Source: Wild",
+      "Battle Tower — Victory Reward, only if no Pokemon received; Source: Person; Qty: 3",
+      "Ice Path — B1F, Blackthorn side, SW corner; Source: Wild",
+      "Rock Tunnel — B1F, SW corner; Source: Wild",
+      "Celadon City — Mall, 5F North Assistant - $2000; Source: Shop"
+    ],
+    "costs": []
+  },
+  {
+    "id": 50048,
+    "key": "itemfinder",
+    "name": "Itemfinder",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Key Items",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Ecruteak City — Man in house E of Gym; Source: Person"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50049,
+    "key": "jigglypuff-cover",
+    "name": "Jigglypuff Cover",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Celadon City — Bazaar, Bed Covers - $15000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 198,
+    "name": "King`s Rock",
+    "category": "Held Items",
+    "locations": [
+      "Slowpoke Well — B1F, Surf, Strength, Man in NW corner; Source: Person",
+      "Blackthorn City — Man in Move Deleter house - $2100; Source: Shop",
+      "Fuchsia City — Man in Central house - $2100; Source: Shop",
+      "Wild Pokémon — Poliwhirl, Slowpoke, Slowbro, Politoed, Slowking, Hariyama, Galarian Slowpoke; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 50050,
+    "key": "kyogre-large-doll",
+    "name": "Kyogre Large Doll",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Celadon City — Bazaar, Large Doll - $100000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50051,
+    "key": "lapras-large-doll",
+    "name": "Lapras Large Doll",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Bazaar, Large Doll - $25000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50052,
+    "key": "large-cactus-pot-plant",
+    "name": "Large Cactus Pot Plant",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Celadon City — Bazaar, Pot Plants - $15000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50053,
+    "key": "large-leaf-pot-plant",
+    "name": "Large Leaf Pot Plant",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Celadon City — Bazaar, Pot Plants - $15000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50054,
+    "key": "large-shrub-pot-plant",
+    "name": "Large Shrub Pot Plant",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Celadon City — Bazaar, Pot Plants - $15000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 42,
+    "name": "Lava Cookie",
+    "category": "Medicine",
+    "locations": [
+      "Mahogany Town — Man E side, Pre Team Rocket Hideout - $300; Source: Shop",
+      "Mahogany Town — Souvenir Shop, Post Radio Tower - $200; Source: Shop"
+    ],
+    "costs": []
+  },
+  {
+    "id": 85,
+    "name": "Leaf Stone",
+    "category": "Evolution",
+    "locations": [
+      "New Bark Town — 11% chance to be held by gifted Eevee; Source: Held",
+      "Ilex Forest — Just above South Gatehouse, behind tree; Source: Hidden",
+      "Route 34 — Defeat Gina; Source: Person",
+      "Bug Catching Contest — Tier 4 prize, Random 10% chance; Source: Person",
+      "Cianwood City — Pharmacy, Left assistant - $2100; Source: Shop",
+      "Route 25 — House, show Oddish to Bill's Grandfather; Source: Person",
+      "Safari Zone — Area 1, NW, Rock next to Move Tutor; Source: Hidden",
+      "Cinnabar Island — Mart - $2100; Source: Shop",
+      "Wild Pokémon — Oddish, Bellsprout, Weepinbell, Exeggcute, Seedot, Nuzleaf; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 211,
+    "name": "Leftovers",
+    "category": "Held Items",
+    "locations": [
+      "Celadon City — Restaurant, Bin; Source: Hidden",
+      "Wild Pokémon — Snorlax, Mewtwo, Mew, Lugia, Munchlax, Armoured Mewtwo, XD001, Lickitung, Kangaskhan, Slakoth, Gulpin; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 32,
+    "name": "Lemonade",
+    "category": "Medicine",
+    "locations": [
+      "Goldenrod City — Mall, 2F/4F/6F Vending Machine - $350; Source: Shop",
+      "Celadon City — Mall, Roof Vending Machine - $350; Source: Shop",
+      "Mt. Moon — Square, Old Man in house - $350; Source: Shop"
+    ],
+    "costs": []
+  },
+  {
+    "id": 131,
+    "name": "Leppa Berry",
+    "category": "Berries",
+    "locations": [
+      "Goldenrod City — Held by Game Corner Wynaut; Source: Held",
+      "Goldenrod City — Lady in Berry Shop - $500; Source: Shop",
+      "Route 35 — Surf, SW; Source: Tree; Qty: 1 - 8",
+      "Bug Catching Contest — Tier 1 prize; Source: Person; Qty: 3",
+      "Route 39 — Next to Eugene; Source: Tree; Qty: 1 - 8",
+      "Route 45 — SE corner, SE of pond; Source: Tree; Qty: 1 - 8",
+      "Route 26 — Center, North of Healing house; Source: Tree; Qty: 1 - 8",
+      "Cerulean City — Berry Emporium Girl - $500; Source: Shop",
+      "Viridian Forest — NE corner; Source: Tree; Qty: 1 - 8",
+      "Pewter City — Held by traded Xatu; Source: Held",
+      "Wild Pokémon — Butterfree, Beedrill, Clefairy, Clefable, Doduo, Dodrio, Noctowl, Ariados, Cleffa, Heracross, Delibird, Ninjask, Shedinja, Skitty, Delcatty, Tropius, Staravia, Kricketot, Kricketune, Cherubi, Snover, Tangela, Mr. Mime, Hoppip, Skiploom; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 450,
+    "name": "Level Ball",
+    "category": "Poké Balls",
+    "locations": [
+      "Azalea Town — Kurt after Slowpoke Well - $300; Source: Shop"
+    ],
+    "costs": []
+  },
+  {
+    "id": 178,
+    "name": "Liechi Berry",
+    "category": "Berries",
+    "locations": [
+      "Goldenrod City — Lady in Berry Shop - $200; Source: Shop",
+      "Cerulean City — Berry Emporium Girl - $200; Source: Shop",
+      "Wild Pokémon — Tropius; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 213,
+    "name": "Light Ball",
+    "category": "Held Items",
+    "locations": [
+      "New Bark Town — Held by any of the gifted Pikachu; Source: Held",
+      "Power Plant — Table in Scientist Room; Source: Held",
+      "Celadon City — Held by Game Corner Pikachu; Source: Held",
+      "Wild Pokémon — Pikachu, Raichu, Pikachu-Partner, Pikachu-Surf, Pikachu-Fly; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 246,
+    "name": "Light Clay",
+    "category": "Held Items",
+    "locations": [
+      "Dark Cave — Blackthorn Side, SW; Source: Wild",
+      "Goldenrod City — Weather Institute, RH lady behind counter; Source: Person",
+      "Rock Tunnel — B2F, East; Source: Wild",
+      "Route 09 — Cut, North grass; Source: Wild",
+      "Wild Pokémon — Baltoy, Claydol; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 50055,
+    "key": "lightning-bed-cover",
+    "name": "Lightning Bed Cover",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Bazaar, Bed Covers - $5000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50056,
+    "key": "lightning-cushion",
+    "name": "Lightning Cushion",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Bazaar, Cushions - $7500; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 478,
+    "name": "Lost Item",
+    "category": "Key Items",
+    "locations": [
+      "Vermilion City — Man in Fan Club after Power Plant & Copycat girl; Source: Person"
+    ],
+    "costs": []
+  },
+  {
+    "id": 455,
+    "name": "Love Ball",
+    "category": "Poké Balls",
+    "locations": [
+      "Azalea Town — Kurt after Slowpoke Well - $300; Source: Shop"
+    ],
+    "costs": []
+  },
+  {
+    "id": 208,
+    "name": "Lucky Egg",
+    "category": "Held Items",
+    "locations": [
+      "Wild Pokémon — Exeggcute, Exeggutor, Chansey, Blissey, Happiny; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 233,
+    "name": "Lucky Punch",
+    "category": "Held Items",
+    "locations": [
+      "Wild Pokémon — Chansey, Blissey; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 50057,
+    "key": "lugia-large-doll",
+    "name": "Lugia Large Doll",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Pewter City — Old man by the East entrance; Source: Person"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 134,
+    "name": "Lum Berry",
+    "category": "Berries",
+    "locations": [
+      "Goldenrod City — Lady in Berry Shop - $500; Source: Shop",
+      "Cerulean City — Berry Emporium Girl - $500; Source: Shop",
+      "Fuchsia City — Cut, NW corner; Source: Tree; Qty: 1 - 8",
+      "Safari Zone — Area 3, SE, SE of grass; Source: Tree; Qty: 1 - 8",
+      "Wild Pokémon — Oddish, Gloom, Exeggutor, Tauros, Wingull, Volbeat, Illumise, Combee, Vespiquen, Cherrim, Bonsly, Carnivine, Cherrim Sunny, Heracross, Mightyena; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 449,
+    "name": "Lure Ball",
+    "category": "Poké Balls",
+    "locations": [
+      "Azalea Town — Kurt after Slowpoke Well; Source: Person; Qty: 3",
+      "Azalea Town — Kurt after Slowpoke Well - $300; Source: Shop"
+    ],
+    "costs": []
+  },
+  {
+    "id": 11,
+    "name": "Luxury Ball",
+    "category": "Poké Balls",
+    "locations": [
+      "Mt. Silver — 2F, C Cave, Rocket Grunt - $1000; Source: Shop"
+    ],
+    "costs": []
+  },
+  {
+    "id": 480,
+    "name": "Machine Part",
+    "category": "Key Items",
+    "locations": [
+      "Cerulean City — Gym, NW corner of mid square, after Grunt; Source: Hidden"
+    ],
+    "costs": []
+  },
+  {
+    "id": 192,
+    "name": "Macho Brace",
+    "category": "Effort Training",
+    "locations": [
+      "Ruins of Alph — Surf; Source: Wild",
+      "Goldenrod City — Mall, 5F, held by traded Machop; Source: Held",
+      "Hollow Tunnel — Center, West side; Source: Wild",
+      "Blackthorn City — Man in Move Deleter house - $2100; Source: Shop",
+      "Fuchsia City — Man in Central house - $2100; Source: Shop",
+      "Wild Pokémon — Machop, Machoke, Makuhita; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 50058,
+    "key": "magby-small-doll",
+    "name": "Magby Small Doll",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Bazaar, Small Doll - $3000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 300,
+    "name": "Magmarizer",
+    "category": "Evolution",
+    "locations": [
+      "Blackthorn City — Man in Move Deleter house - $2100; Source: Shop",
+      "Fuchsia City — Man in Central house - $2100; Source: Shop",
+      "Cinnabar Island — Mansion 1F, SE corner, via 2F SE staircase; Source: Wild",
+      "Wild Pokémon — Magmar, Magby, Magmortar; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 219,
+    "name": "Magnet",
+    "category": "Held Items",
+    "locations": [
+      "Route 37 — Sunny on Sunday, next to Berry trees; Source: Person",
+      "Olivine City — Held by traded Hisuian Voltorb; Source: Held",
+      "Wild Pokémon — Magneton, Zapdos, Voltorb, Electrode, Mareep, Flaaffy, Plusle, Minun, Shinx, Luxio; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 50059,
+    "key": "magnet-pass",
+    "name": "Magnet Pass",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Key Items",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Saffron City — Return Lost Item to Copycat girl; Source: Person"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 138,
+    "name": "Mago Berry",
+    "category": "Berries",
+    "locations": [
+      "Goldenrod City — Lady in Berry Shop - $100; Source: Shop",
+      "Cerulean City — Berry Emporium Girl - $100; Source: Shop"
+    ],
+    "costs": []
+  },
+  {
+    "id": 50060,
+    "key": "mail",
+    "name": "Mail",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Key Items",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Route 35 — Held by gifted Spearow; Source: Held"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50061,
+    "key": "mamoswine-large-doll",
+    "name": "Mamoswine Large Doll",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Celadon City — Bazaar, Large Doll - $25000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50062,
+    "key": "marill-poster",
+    "name": "Marill Poster",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Bazaar, Posters - $5000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 1,
+    "name": "Master Ball",
+    "category": "Poké Balls",
+    "locations": [
+      "New Bark Town — Prof. Elm after Dragons Den; Source: Person",
+      "New Bark Town — Mom after becoming Johto Champion; Source: Person; Qty: 3",
+      "Ecruteak City — Box under tree, Daily, 6.7% chance, Dec & Jan only; Source: Wild; Qty: 2",
+      "Celadon City — Game Corner, Right Assistant - 3500 Coins; Source: Shop",
+      "Mt. Silver — 2F, C Cave, Rocket Grunt - $25000; Source: Shop",
+      "Wild Pokémon — Delibird; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 50063,
+    "key": "master-ball-cushion",
+    "name": "Master Ball Cushion",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Mt. Silver — Summit, Defeat Red; Source: Person"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 41,
+    "name": "Max Elixir",
+    "category": "Medicine",
+    "locations": [
+      "Cherrygrove City — Dive, C, NW large rock, NW corner of it; Source: Hidden",
+      "Tin Tower — 8F, C, via W pad in C of 7F, then 1st S pad on 9F; Source: Wild",
+      "Olivine City — Dive, South East small rock; Source: Hidden",
+      "Whirl Islands — B2F, S area, access from B1F NW; Source: Wild",
+      "Dragons Den — W, below Lea & Pia; Source: Wild",
+      "Route 26 — N, West of Jake; Source: Wild",
+      "Power Plant — NE corner machine in Generator room; Source: Hidden",
+      "Power Plant — Rear Room, C, past HP Up, Gap in barrels; Source: Hidden",
+      "Mt. Silver — 1F, NW; Source: Wild",
+      "Mt. Silver — 2F, C Cave, Rocket Grunt - $10000; Source: Shop"
+    ],
+    "costs": []
+  },
+  {
+    "id": 39,
+    "name": "Max Ether",
+    "category": "Medicine",
+    "locations": [
+      "Dark Cave — Blackthorn Side, SE corner; Source: Wild",
+      "Goldenrod City — Basement, B2F, SE corner; Source: Wild",
+      "Mt. Mortar — B1F, Surf, NE area; Source: Wild",
+      "Route 43 — South, next to gatehouse; Source: Wild",
+      "Vermilion City — NW corner of beach; Source: Hidden",
+      "Route 09 — NW corner; Source: Wild",
+      "Viridian Forest — Center, directly S of Ether in corner of trees; Source: Hidden"
+    ],
+    "costs": []
+  },
+  {
+    "id": 24,
+    "name": "Max Potion",
+    "category": "Medicine",
+    "locations": [
+      "Ecruteak City — Pot next to house N of Gym; Source: Hidden",
+      "Tin Tower — 6F, Center; Source: Wild",
+      "Route 42 — Surf, SW corner of big rock; Source: Hidden",
+      "Mt. Mortar — 1F, Waterfall, C, SW of Max Repel; Source: Wild",
+      "Mt. Mortar — 2F, Waterfall, E; Source: Wild",
+      "Lake of Rage — NE, top corner of lake; Source: Hidden",
+      "Ice Path — B2F, Mahogany side, NW corner; Source: Wild",
+      "Dragons Den — NW corner of rock in the center of water; Source: Hidden",
+      "Route 45 — Center, C & E Paths, NE of Kelly; Source: Wild",
+      "Route 10 — Rock Climb, S area; Source: Wild",
+      "Route 25 — NW, SE corner of tree next to Move Tutor; Source: Hidden",
+      "Safari Zone — Area 3, E; Source: Wild",
+      "Viridian Forest — NE area; Source: Wild",
+      "Mt. Silver — 1F, NE, end of S path from NE exit; Source: Hidden"
+    ],
+    "costs": []
+  },
+  {
+    "id": 77,
+    "name": "Max Repel",
+    "category": "Other",
+    "locations": [
+      "Mt. Mortar — 1F, Waterfall, NE, rock on its own; Source: Hidden",
+      "Route 44 — East, E of Phil; Source: Wild",
+      "Power Plant — Rear Room, NW corner; Source: Wild",
+      "Safari Zone — Area 2, SE; Source: Wild",
+      "Viridian Forest — S, NE of S entrance in corner of trees; Source: Wild"
+    ],
+    "costs": []
+  },
+  {
+    "id": 29,
+    "name": "Max Revive",
+    "category": "Medicine",
+    "locations": [
+      "Tin Tower — 7F, NE; Source: Wild",
+      "Mt. Mortar — Entrance W, Rock Climb; Source: Wild",
+      "Mt. Mortar — 1F, Waterfall, N; Source: Wild",
+      "Mt. Mortar — B1F, Waterfall, NW, rock on its own, from 1F W; Source: Hidden",
+      "Whirl Islands — B2F, N area, access from B1F NW; Source: Wild",
+      "Route 44 — Surf, Central grass; Source: Wild",
+      "Victory Road — 1F, N; Source: Wild",
+      "Soul House Basement — B4F, Center; Source: Wild",
+      "Power Plant — Rear Room, S from the Center, SW corner; Source: Wild",
+      "Fuchsia City — Cut, East side; Source: Wild",
+      "Diglett`s Cave — Rock on its own in the North against wall; Source: Hidden",
+      "Mt. Silver — 2F, C Cave, NE; Source: Wild"
+    ],
+    "costs": []
+  },
+  {
+    "id": 196,
+    "name": "Mental Herb",
+    "category": "Held Items",
+    "locations": [
+      "Tin Tower — 4F, NW corner; Source: Wild",
+      "Wild Pokémon — Shaymin, Galarian Meowth; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 210,
+    "name": "Metal Coat",
+    "category": "Type Enhancement",
+    "locations": [
+      "Violet City — Held by traded Onix; Source: Held",
+      "Goldenrod City — Held by Game Corner Scyther; Source: Held",
+      "Blackthorn City — Man in Move Deleter house - $2100; Source: Shop",
+      "S.S. Aqua — Cabin 5, Grandpa after finding girl; Source: Person",
+      "Fuchsia City — Man in Central house - $2100; Source: Shop",
+      "Wild Pokémon — Forretress, Registeel, Onix, Scyther, Pineco, Steelix, Skarmory, Mawile, Beldum, Metang, Metagross, Bronzor, Bronzong, Magnezone, Onix-C, Steelix-C; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 234,
+    "name": "Metal Powder",
+    "category": "Held Items",
+    "locations": [
+      "Wild Pokémon — Ditto; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 216,
+    "name": "Miracle Seed",
+    "category": "Held Items",
+    "locations": [
+      "Route 32 — North; Source: Person",
+      "Wild Pokémon — Weepinbell, Bulbasaur, Victreebel, Chikorita, Treecko, Turtwig, Cherubi, Cherrim, Bonsly; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 33,
+    "name": "Moomoo Milk",
+    "category": "Medicine",
+    "locations": [
+      "Route 39 — Man after curing Miltank - $500; Source: Shop",
+      "Wild Pokémon — Miltank; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 451,
+    "name": "Moon Ball",
+    "category": "Poké Balls",
+    "locations": [
+      "Azalea Town — Kurt after Slowpoke Well - $300; Source: Shop"
+    ],
+    "costs": []
+  },
+  {
+    "id": 81,
+    "name": "Moon Stone",
+    "category": "Evolution",
+    "locations": [
+      "New Bark Town — 11% chance to be held by gifted Eevee; Source: Held",
+      "Dark Cave — Blackthorn Side, Surf, rock in SW corner; Source: Hidden",
+      "Bug Catching Contest — Tier 4 prize, Random 10% chance; Source: Person",
+      "Cianwood City — Pharmacy, Left assistant - $2100; Source: Shop",
+      "Tohjo Falls — SW corner; Source: Wild",
+      "Mt. Moon — Square, Rock Smash rock in the middle; Source: Hidden",
+      "Cinnabar Island — Mart - $2100; Source: Shop",
+      "Wild Pokémon — Lunatone, Nidoran♀, Nidorina, Nidoran♂, Nidorino, Clefairy, Clefable, Jigglypuff, Ursaring, Skitty; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 50064,
+    "key": "mudkip-poster",
+    "name": "Mudkip Poster",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Celadon City — Bazaar, Posters - $10000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50065,
+    "key": "mudkip-small-doll",
+    "name": "Mudkip Small Doll",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Celadon City — Bazaar, Small Doll - $5000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50066,
+    "key": "munchlax-small-doll",
+    "name": "Munchlax Small Doll",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Celadon City — Bazaar, Small Doll - $5000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 483,
+    "name": "Mystery Egg",
+    "category": "Key Items",
+    "locations": [
+      "Route 30 — Mr. Pokemon; Source: Person"
+    ],
+    "costs": []
+  },
+  {
+    "id": 220,
+    "name": "Mystic Water",
+    "category": "Held Items",
+    "locations": [
+      "Cherrygrove City — Man on platform in the water; Source: Person",
+      "Wild Pokémon — Lapras, Castform, Squirtle, Poliwrath, Magikarp, Totodile, Marill, Mantine, Mudkip, Wingull, Pelipper, Carvanha, Wailmer, Piplup, Buizel, Floatzel, Manaphy; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 50067,
+    "key": "natu-small-doll",
+    "name": "Natu Small Doll",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Bazaar, Small Doll - $3000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50068,
+    "key": "nature-mint",
+    "name": "Nature Mint",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Evolution",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Bug Catching Contest — Show caught Shiny Pokemon, Random; Source: Person",
+      "Celadon City — E House, Old Man, all Natures - $25000 each; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 8,
+    "name": "Nest Ball",
+    "category": "Poké Balls",
+    "locations": [
+      "Goldenrod City — Mall, 5F Right Assistant - $1000; Source: Shop",
+      "Celadon City — Mall, 4F - $1000; Source: Shop"
+    ],
+    "costs": []
+  },
+  {
+    "id": 6,
+    "name": "Net Ball",
+    "category": "Poké Balls",
+    "locations": [
+      "Goldenrod City — Mall, 5F Right Assistant - $1000; Source: Shop",
+      "Vermilion City — NE corner of fence, NE of lighthouse; Source: Hidden",
+      "Celadon City — Mall, 4F - $1000; Source: Shop"
+    ],
+    "costs": []
+  },
+  {
+    "id": 223,
+    "name": "Nevermeltice",
+    "category": "Held Items",
+    "locations": [
+      "Ice Path — B3F, S; Source: Wild",
+      "Wild Pokémon — Articuno, Regice, Seel, Dewgong, Jynx, Piloswine, Glalie, Sealeo, Snover, Abomasnow, Alolan Sandslash; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 50069,
+    "key": "nintendo-64-console",
+    "name": "Nintendo 64 Console",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Celadon City — Bazaar, Consoles - $20000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50070,
+    "key": "nintendo-gba-console",
+    "name": "Nintendo GBA Console",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Bazaar, Consoles - $15000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 92,
+    "name": "Nugget",
+    "category": "Valuables",
+    "locations": [
+      "New Bark Town — Mom, Returned Mystery Egg; Source: Person",
+      "Dark Cave — Violet Side, Surf/Rock Smash; Source: Wild",
+      "Route 34 — Surf, SW of Gina; Source: Wild",
+      "Route 35 — Surf, NW; Source: Wild",
+      "Ecruteak City — Box under tree, Daily, 6.7% chance, Dec & Jan only; Source: Wild; Qty: 2",
+      "Tin Tower — 8F, S, via W pad in C of 7F, then 2nd S pad on 9F; Source: Wild",
+      "Mt. Mortar — 1F, Strength, East; Source: Wild",
+      "Route 39 — Center of Miltank Field; Source: Hidden",
+      "Whirl Islands — B1F, N area, any N island access; Source: Wild",
+      "Rocket Hideout — 1F, S; Source: Wild",
+      "Dragons Den — SE corner, past front of shrine; Source: Wild",
+      "Route 45 — W, W Path, SW of Kenji; Source: Wild",
+      "Route 10 — W of Power Plant, via Power Plant; Source: Wild",
+      "Route 25 — Kevin after defeating Trainer Gauntlet; Source: Person",
+      "Route 25 — East side of bush directly East of Shannon; Source: Hidden",
+      "Safari Zone — Area 2, NW; Source: Wild",
+      "Route 12 — Cut, SW corner; Source: Wild",
+      "Route 20 — Dive, W, Small rock between wall & big rock; Source: Hidden",
+      "Cerulean Cave — 1F, NW; Source: Wild",
+      "Wild Pokémon — Meowth, Persian, Alolan Meowth; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 103,
+    "name": "Old Amber",
+    "category": "Other",
+    "locations": [
+      "Wild Pokémon — Aerodactyl; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 422,
+    "name": "Old Rod",
+    "category": "Key Items",
+    "locations": [
+      "Cherrygrove City — Fisherman on the Beach; Source: Person"
+    ],
+    "costs": []
+  },
+  {
+    "id": 132,
+    "name": "Oran Berry",
+    "category": "Berries",
+    "locations": [
+      "Route 29 — W, just before Cherrygrove City; Source: Tree; Qty: 1 - 8",
+      "Route 46 — N, available after Gym 6; Source: Tree; Qty: 1 - 8",
+      "Route 30 — S, outside Berry Man's House; Source: Tree; Qty: 1 - 8",
+      "Route 30 — S, Berry Man inside House; Source: Person",
+      "Bug Catching Contest — Participation prize; Source: Person; Qty: 5",
+      "Wild Pokémon — Bulbasaur, Charmander, Squirtle, Caterpie, Metapod, Weedle, Kakuna, Pidgey, Pidgeotto, Rattata, Raticate, Spearow, Ekans, Pikachu, Raichu, Sandshrew, Nidoran♀, Nidorina, Wigglytuff, Venonat, Diglett, Psyduck, Poliwag, Poliwhirl, Bellsprout, Grimer, Cubone, Magikarp, Chikorita, Cyndaquil, Totodile, Sentret, Furret, Hoothoot, Ledyba, Spinarak, Pichu, Igglybuff, Sudowoodo, Hoppip, Sunkern, Wooper, Dunsparce, Teddiursa, Ursaring, Phanpy, Treecko, Torchic, Mudkip, Zigzagoon, Linoone, Wurmple, Silcoon, Cascoon, Taillow, Ralts, Surskit, Slakoth, Nincada, Electrike, Turtwig, Chimchar, Piplup, Starly, Bibarel, Pachirisu, Shellos-West, Mime Jr., Happiny, Finneon, Mantyke, Shellos-East, Alolan Rattata, Alolan Raticate, Alolan Diglett, Galarian Zigzagoon, Paldean Wooper, Pikachu-Partner, Pikachu-Surf, Pikachu-Fly; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 50071,
+    "key": "p-d-a",
+    "name": "P.D.A",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Key Items",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Violet City — Earl in Academy after Defeating Falkner; Source: Person"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 53,
+    "name": "PP Max",
+    "category": "Medicine",
+    "locations": [
+      "Ruins of Alph — Surf, SE Chamber, Solve Riddle w/ Unown in party; Source: Wild",
+      "Olivine City — Dive, Center, Right rock of the 2 touching; Source: Hidden",
+      "Route 09 — NE rock, East of Tim; Source: Hidden",
+      "Route 19 — Dive, SW Spot, East; Source: Wild",
+      "Route 22 — Rock Climb, North; Source: Wild",
+      "Mt. Silver — 2F, C Cave, Rocket Grunt - $15000; Source: Shop",
+      "Wild Pokémon — Rayquaza; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 51,
+    "name": "PP Up",
+    "category": "Medicine",
+    "locations": [
+      "Violet City — Surf, NW corner; Source: Wild",
+      "Goldenrod City — Mall, 4F Right counter - $5000; Source: Shop",
+      "Tin Tower — 4F, SE corner; Source: Wild",
+      "Mt. Mortar — B1F, Surf, S area; Source: Wild",
+      "Rocket Hideout — B1F, Centre, Defeat Electrode, NE corner of room; Source: Hidden",
+      "Ice Path — 1F, Blackthorn side, SE; Source: Wild",
+      "Route 45 — SE corner, Center of pond; Source: Hidden",
+      "Rock Tunnel — B1F, West, near B2F ladder; Source: Wild",
+      "Celadon City — Mall, 5F North Assistant - $5000; Source: Shop",
+      "Celadon City — E, Tree at end of path, path starts SE corner; Source: Hidden",
+      "Route 15 — Cut, NW on ledge, access from Route 14; Source: Wild",
+      "Mt. Silver — 2F, West, outside W Cave; Source: Wild",
+      "Mt. Silver — 2F, NE; Source: Wild",
+      "Cerulean Cave — 2F, SW, via 1F SW ladder; Source: Wild"
+    ],
+    "costs": []
+  },
+  {
+    "id": 50072,
+    "key": "palm-pot-plant",
+    "name": "Palm Pot Plant",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Bazaar, Pot Plants - $10000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50073,
+    "key": "parlyz-heal",
+    "name": "Parlyz Heal",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Medicine",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Sprout Tower — 1F, East; Source: Wild",
+      "Goldenrod City — Underground, Plant opposite haircut brothers; Source: Hidden",
+      "Underground Path — R5 - R6, Down 4, turn left; Source: Hidden",
+      "Underground Path — R7 - R8, Right 10, turn down; Source: Hidden",
+      "Wild Pokémon — Kecleon; Source: Held"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50074,
+    "key": "partner-pikachu-doll",
+    "name": "Partner Pikachu Doll",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "New Bark Town — Mom after becoming Johto Champion; Source: Person"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 88,
+    "name": "Pearl",
+    "category": "Valuables",
+    "locations": [
+      "Wild Pokémon — Shellder, Cloyster, Omanyte, Kabuto, Chinchou, Lanturn, Mareep, Flaaffy, Gulpin, Swalot, Clamperl, Stantler; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 128,
+    "name": "Pecha Berry",
+    "category": "Berries",
+    "locations": [
+      "Route 30 — N, outside Mr. Pokemon's House; Source: Tree; Qty: 1 - 8",
+      "Route 33 — SE next to girl; Source: Tree; Qty: 1 - 8",
+      "Wild Pokémon — Tangela, Poochyena, Mightyena, Buneary, Skorupi, Alolan Grimer, Hisuian Qwilfish, Stunky, Skuntank; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 133,
+    "name": "Persim Berry",
+    "category": "Berries",
+    "locations": [
+      "Route 31 — S of central pond; Source: Tree; Qty: 1 - 8",
+      "Route 43 — West, W of Tiffany across water; Source: Tree; Qty: 1 - 8",
+      "Route 01 — NE; Source: Tree; Qty: 1 - 8",
+      "Wild Pokémon — Nidoran♂, Nidorino, Nidoking, Zubat, Golbat, Mankey, Primeape, Drowzee, Kangaskhan, Gyarados, Girafarig, Spoink, Grumpig, Spinda, Kecleon, Burmy-S, Wormadam-S; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 181,
+    "name": "Petaya Berry",
+    "category": "Berries",
+    "locations": [
+      "Goldenrod City — Lady in Berry Shop - $200; Source: Shop",
+      "Cerulean City — Berry Emporium Girl - $200; Source: Shop"
+    ],
+    "costs": []
+  },
+  {
+    "id": 50075,
+    "key": "pika-cushion",
+    "name": "Pika Cushion",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Celadon City — Bazaar, Cushions - $12500; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50076,
+    "key": "pikachu-cover",
+    "name": "Pikachu Cover",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Celadon City — Bazaar, Bed Covers - $15000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50077,
+    "key": "pikachu-poster",
+    "name": "Pikachu Poster",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Bazaar, Posters - $5000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50078,
+    "key": "pineco-small-doll",
+    "name": "Pineco Small Doll",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Bazaar, Small Doll - $3000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50079,
+    "key": "pink-bow",
+    "name": "Pink Bow",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Held Items",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — E of Flower Shop, behind Weather Institute; Source: Hidden"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50080,
+    "key": "piplup-small-doll",
+    "name": "Piplup Small Doll",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Celadon City — Bazaar, Small Doll - $5000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50081,
+    "key": "pnk-apricorn",
+    "name": "Pnk Apricorn",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Held Items",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Route 42 — Surf, Cut, Center; Source: Tree"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 222,
+    "name": "Poison Barb",
+    "category": "Held Items",
+    "locations": [
+      "Route 32 — S, Freida on Friday, N of PokeCentre; Source: Person",
+      "Wild Pokémon — Beedrill, Ekans, Arbok, Tentacool, Tentacruel, Spinarak, Ariados, Qwilfish, Cacnea, Cacturne, Roserade, Vespiquen, Skorupi, Drapion, Hisuian Qwilfish, Paldean Wooper, Clodsire; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 2220,
+    "name": "Poke Ball",
+    "category": "Poké Balls",
+    "locations": [
+      "New Bark Town — Aide in Elm`s Lab, Returned Mystery Egg; Source: Person; Qty: 10",
+      "Route 31 — S, SW of Wade; Source: Wild"
+    ],
+    "costs": []
+  },
+  {
+    "id": 50082,
+    "key": "pokedex",
+    "name": "PokeDex",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Key Items",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Route 30 — Prof. Oak; Source: Person"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 63,
+    "name": "Poké Doll",
+    "category": "Other",
+    "locations": [
+      "Mt. Moon — Square, Old Man in house - $1000; Source: Shop"
+    ],
+    "costs": []
+  },
+  {
+    "id": 50083,
+    "key": "poke-ride",
+    "name": "Poké Ride",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Key Items",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Saffron City — Silph Co. 4F, front room, after seeing President; Source: Person"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50084,
+    "key": "pokemap",
+    "name": "PokéMap",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Key Items",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Cherrygrove City — Old man who gives you a tour; Source: Person"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50085,
+    "key": "poketar",
+    "name": "PokéTar",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Key Items",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Soul House — 1F, Mr. Fuji; Source: Person"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50086,
+    "key": "pokeball-cover",
+    "name": "Pokéball Cover",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Celadon City — Bazaar, Bed Covers - $15000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50087,
+    "key": "poli-cushion",
+    "name": "Poli Cushion",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Celadon City — Bazaar, Cushions - $12500; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50088,
+    "key": "poliwag-small-doll",
+    "name": "Poliwag Small Doll",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Bazaar, Small Doll - $3000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 17,
+    "name": "Potion",
+    "category": "Medicine",
+    "locations": [
+      "New Bark Town — Your PC; Source: Person",
+      "New Bark Town — Aide in Elm`s Lab after receiving Starter; Source: Person; Qty: 3",
+      "Route 29 — NE; Source: Wild",
+      "Route 30 — N, Mid S flower outside Mr. Pokemon's House; Source: Hidden",
+      "Dark Cave — Violet Side; Source: Wild",
+      "Route 31 — E, next to Dark Cave sign; Source: Wild",
+      "Sprout Tower — 3F, South; Source: Wild",
+      "Union Cave — 1F, Center, W of Bill; Source: Wild",
+      "Underground Path — R7 - R8, Right 4, turn up; Source: Hidden"
+    ],
+    "costs": []
+  },
+  {
+    "id": 270,
+    "name": "Power Anklet",
+    "category": "Held Items",
+    "locations": [
+      "Battle Tower — NE, Middle Assistant - $10000; Source: Shop"
+    ],
+    "costs": []
+  },
+  {
+    "id": 269,
+    "name": "Power Band",
+    "category": "Held Items",
+    "locations": [
+      "Battle Tower — NE, Middle Assistant - $10000; Source: Shop"
+    ],
+    "costs": []
+  },
+  {
+    "id": 267,
+    "name": "Power Belt",
+    "category": "Held Items",
+    "locations": [
+      "Battle Tower — NE, Middle Assistant - $10000; Source: Shop"
+    ],
+    "costs": []
+  },
+  {
+    "id": 266,
+    "name": "Power Bracer",
+    "category": "Held Items",
+    "locations": [
+      "Battle Tower — NE, Middle Assistant - $10000; Source: Shop"
+    ],
+    "costs": []
+  },
+  {
+    "id": 268,
+    "name": "Power Lens",
+    "category": "Held Items",
+    "locations": [
+      "Battle Tower — NE, Middle Assistant - $10000; Source: Shop"
+    ],
+    "costs": []
+  },
+  {
+    "id": 271,
+    "name": "Power Weight",
+    "category": "Held Items",
+    "locations": [
+      "Battle Tower — NE, Middle Assistant - $10000; Source: Shop"
+    ],
+    "costs": []
+  },
+  {
+    "id": 50089,
+    "key": "program",
+    "name": "Program",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Key Items",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Lavender Town — Radio Tower, Director after Power Plant fix; Source: Person"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 298,
+    "name": "Protector",
+    "category": "Evolution",
+    "locations": [
+      "Blackthorn City — Held by traded Rhydon; Source: Held",
+      "Blackthorn City — Man in Move Deleter house - $2100; Source: Shop",
+      "Fuchsia City — Man in Central house - $2100; Source: Shop",
+      "Safari Zone — Area 3, S, SW of grass; Source: Wild",
+      "Wild Pokémon — Rhyhorn, Rhydon; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 46,
+    "name": "Protein",
+    "category": "Medicine",
+    "locations": [
+      "Goldenrod City — Mall, 4F Right counter - $2000; Source: Shop",
+      "Mt. Mortar — Entrance E, Rock Climb, rock on left; Source: Hidden",
+      "Battle Tower — Victory Reward, only if no Pokemon received; Source: Person; Qty: 3",
+      "Rocket Hideout — B2F, SW; Source: Wild",
+      "Ice Path — 1F, Blackthorn side, NE; Source: Wild",
+      "Route 25 — North, Cut; Source: Wild",
+      "Celadon City — Mall, 5F North Assistant - $2000; Source: Shop",
+      "Mt. Moon — 1F, take SE ladder up to 2F from X Accuracy; Source: Wild",
+      "Mt. Silver — 1F, SE platform; Source: Wild"
+    ],
+    "costs": []
+  },
+  {
+    "id": 50090,
+    "key": "psychic-cushion",
+    "name": "Psychic Cushion",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Bazaar, Cushions - $7500; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 15,
+    "name": "Quick Ball",
+    "category": "Poké Balls",
+    "locations": [
+      "Goldenrod City — Mall, 5F Right Assistant - $1000; Source: Shop",
+      "Goldenrod City — Radio Tower, 1F, Male Receptionist; Source: Person; Qty: 5",
+      "Soul House Basement — B3F, South; Source: Wild",
+      "Celadon City — Mall, 4F - $1000; Source: Shop",
+      "Mt. Silver — 2F, C Cave, Rocket Grunt - $1000; Source: Shop"
+    ],
+    "costs": []
+  },
+  {
+    "id": 194,
+    "name": "Quick Claw",
+    "category": "Held Items",
+    "locations": [
+      "National Park — S, Lady next to Persian; Source: Person",
+      "Wild Pokémon — Meowth, Sneasel, Zangoose, Pidgey, Sandslash, Weavile; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 466,
+    "name": "RageCandyBar",
+    "category": "Other",
+    "locations": [
+      "Mt. Silver — 2F, C Cave, Rocket Grunt - $25000; Source: Shop"
+    ],
+    "costs": []
+  },
+  {
+    "id": 482,
+    "name": "Rainbow Wing",
+    "category": "Key Items",
+    "locations": [
+      "Tin Tower — 1F, N middle Sage, after Dragons Den; Source: Person"
+    ],
+    "costs": []
+  },
+  {
+    "id": 50091,
+    "key": "ralts-small-doll",
+    "name": "Ralts Small Doll",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Celadon City — Bazaar, Small Doll - $5000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50,
+    "name": "Rare Candy",
+    "category": "Other",
+    "locations": [
+      "Cherrygrove City — Dive, NW, small rock in NW corner; Source: Hidden",
+      "Violet City — Surf, NE corner; Source: Wild",
+      "Ruins of Alph — Surf, SE Chamber, Solve Riddle w/ Unown in party; Source: Wild; Qty: 3",
+      "Route 32 — South, S of Justin; Source: Wild",
+      "Route 34 — Surf, SE of Nugget on corner of tree; Source: Hidden",
+      "Ecruteak City — Box under tree, Daily, 6.7% chance, Dec & Jan only; Source: Wild",
+      "Ecruteak City — Left side of big rock N of Mart; Source: Hidden",
+      "Tin Tower — 5F, Center; Source: Wild",
+      "Mt. Mortar — 2F, Waterfall, SW corner; Source: Wild",
+      "Olivine City — 5F Lighthouse, SE corner; Source: Wild",
+      "Whirl Islands — B1F, NE area, any N island access; Source: Hidden",
+      "Lake of Rage — Maze, NW corner, same spot as Wesley; Source: Hidden",
+      "Lake of Rage — Maze, 1st right fork; Source: Wild",
+      "Route 44 — West, SE corner of big tree NW of Phil; Source: Hidden; Qty: 32",
+      "Route 27 — S, Center, next to Dive spot; Source: Wild",
+      "Vermilion City — Pokémon Fan Club, Listen to Chairman; Source: Person",
+      "Saffron City — Silph Co. 3F, back room; Source: Wild",
+      "Soul House Basement — B5F, SW alcove; Source: Wild",
+      "Celadon City — Game Corner, Right Assistant - 2000 Coins; Source: Shop",
+      "Safari Zone — Area 3, W, Rock next to water; Source: Hidden",
+      "Route 04 — Rock Climb, NE rock; Source: Hidden",
+      "Cinnabar Island — NW corner on the grass; Source: Hidden",
+      "Route 20 — Dive, E, Small rock, corner touching wall; Source: Hidden",
+      "Route 28 — NE bush, past house. Access from Mt. Silver; Source: Hidden",
+      "Mt. Silver — 2F, C Cave, Rocket Grunt - $25000; Source: Shop"
+    ],
+    "costs": []
+  },
+  {
+    "id": 129,
+    "name": "Rawst Berry",
+    "category": "Berries",
+    "locations": [
+      "Route 36 — NW, near National Park Gatehouse; Source: Tree; Qty: 1 - 8",
+      "Wild Pokémon — Vulpix, Ninetales, Growlithe, Arcanine, Ponyta, Rapidash, Magmar, Houndour, Magby, Numel, Camerupt, Burmy-T, Wormadam-T, Hisuian Growlithe, Hisuian Arcanine; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 303,
+    "name": "Razor Claw",
+    "category": "Held Items",
+    "locations": [
+      "Blackthorn City — Man in Move Deleter house - $2100; Source: Shop",
+      "Fuchsia City — Man in Central house - $2100; Source: Shop",
+      "Wild Pokémon — Tyranitar, Pidgeotto, Krabby, Kingler, Sneasel, Zangoose, Corphish, Perrserker, Hisuian Sneasel; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 304,
+    "name": "Razor Fang",
+    "category": "Held Items",
+    "locations": [
+      "Goldenrod City — Held by Game Corner Bagon; Source: Held",
+      "Blackthorn City — Man in Move Deleter house - $2100; Source: Shop",
+      "Fuchsia City — Man in Central house - $2100; Source: Shop",
+      "Wild Pokémon — Mawile, Rattata, Gligar, Snubbull, Granbull, Seviper, Gliscor; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 302,
+    "name": "Reaper Cloth",
+    "category": "Evolution",
+    "locations": [
+      "Ecruteak City — Tin Tower entrance, W, in alcove; Source: Hidden",
+      "Blackthorn City — Man in Move Deleter house - $2100; Source: Shop",
+      "Fuchsia City — Man in Central house - $2100; Source: Shop",
+      "Wild Pokémon — Corsola, Duskull; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 458,
+    "name": "Red Apricorn",
+    "category": "Held Items",
+    "locations": [
+      "Route 37 — Source: Tree"
+    ],
+    "costs": []
+  },
+  {
+    "id": 50092,
+    "key": "red-carpet",
+    "name": "Red Carpet",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Bazaar, Carpets - $10000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50093,
+    "key": "red-flower-plant-pot",
+    "name": "Red Flower Plant Pot",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Flower Shop, Defeat Whitney; Source: Person"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 67,
+    "name": "Red Flute",
+    "category": "Other",
+    "locations": [
+      "Goldenrod City — Mall, 3F South counter - $300; Source: Shop"
+    ],
+    "costs": []
+  },
+  {
+    "id": 477,
+    "name": "Red Scale",
+    "category": "Key Items",
+    "locations": [
+      "Lake of Rage — Defeat/Capture overworld Gyarados; Source: Person"
+    ],
+    "costs": []
+  },
+  {
+    "id": 50094,
+    "key": "red-gold-carpet",
+    "name": "Red&Gold Carpet",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Celadon City — Bazaar, Carpets - $20000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50095,
+    "key": "relicanth-poster",
+    "name": "Relicanth Poster",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Celadon City — Bazaar, Posters - $10000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 9,
+    "name": "Repeat Ball",
+    "category": "Poké Balls",
+    "locations": [
+      "Goldenrod City — Mall, 5F Right Assistant - $1000; Source: Shop",
+      "Celadon City — Mall, 4F - $1000; Source: Shop",
+      "Mt. Silver — 2F, C Cave, Rocket Grunt - $1000; Source: Shop"
+    ],
+    "costs": []
+  },
+  {
+    "id": 79,
+    "name": "Repel",
+    "category": "Other",
+    "locations": [
+      "Route 32 — North, W of Liz; Source: Wild"
+    ],
+    "costs": []
+  },
+  {
+    "id": 50096,
+    "key": "reset-button",
+    "name": "Reset Button",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Key Items",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "New Bark Town — Kathy, Kathy`s House; Source: Person"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 37,
+    "name": "Revival Herb",
+    "category": "Medicine",
+    "locations": [
+      "Goldenrod City — Underground, Herb Lady 12pm - 6pm - $2800; Source: Shop"
+    ],
+    "costs": []
+  },
+  {
+    "id": 28,
+    "name": "Revive",
+    "category": "Medicine",
+    "locations": [
+      "Dark Cave — Blackthorn Side, SE; Source: Wild",
+      "Ilex Forest — South Area, East side; Source: Wild",
+      "Ecruteak City — Pot next to Pokemon Center; Source: Hidden",
+      "Ecruteak City — Box under tree, Daily, 6.7% chance, Dec & Jan only; Source: Wild",
+      "Mt. Mortar — Entrance NE, take SE ladder in 1F; Source: Wild",
+      "Olivine City — Dive, West rock not touching anything; Source: Hidden",
+      "Rocket Hideout — B1F, NE, infront of stairs & against wall; Source: Hidden",
+      "Dragons Den — SE, on SW corner of rock on E ground area; Source: Hidden",
+      "Route 45 — SW, W Path, N of Quentin; Source: Wild",
+      "Safari Zone — Area 2, N; Source: Wild",
+      "Viridian Forest — SE corner, 1 step up from corner of trees; Source: Hidden"
+    ],
+    "costs": []
+  },
+  {
+    "id": 50097,
+    "key": "riolu-small-doll",
+    "name": "Riolu Small Doll",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Celadon City — Bazaar, Small Doll - $5000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50098,
+    "key": "rounded-glass-table",
+    "name": "Rounded Glass Table",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Celadon City — Bazaar, Tables - $50000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 1021,
+    "name": "S.S. Ticket",
+    "category": "Key Items",
+    "locations": [
+      "New Bark Town — Prof. Elm after becoming Johto Champion; Source: Person"
+    ],
+    "costs": []
+  },
+  {
+    "id": 44,
+    "name": "Sacred Ash",
+    "category": "Medicine",
+    "locations": [
+      "Tin Tower — Roof, on Ho-Oh spot after Defeat/Capture; Source: Hidden",
+      "Route 42 — Surf, Rock Climb, Center; Source: Wild",
+      "Vermilion City — Dive, Rock W of cave entrance in N; Source: Hidden",
+      "Cinnabar Volcano — NE corner, just above rock; Source: Hidden",
+      "Wild Pokémon — Groudon; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 180,
+    "name": "Salac Berry",
+    "category": "Berries",
+    "locations": [
+      "Goldenrod City — Lady in Berry Shop - $200; Source: Shop",
+      "Cerulean City — Berry Emporium Girl - $200; Source: Shop"
+    ],
+    "costs": []
+  },
+  {
+    "id": 50099,
+    "key": "salamence-large-doll",
+    "name": "Salamence Large Doll",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Celadon City — Bazaar, Large Doll - $25000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 209,
+    "name": "Scope Lens",
+    "category": "Held Items",
+    "locations": [
+      "Dark Cave — Violet Side, Rock Smash, N; Source: Wild"
+    ],
+    "costs": []
+  },
+  {
+    "id": 231,
+    "name": "Sea Incense",
+    "category": "Held Items",
+    "locations": [
+      "Route 21 — Dive, SW rock; Source: Hidden"
+    ],
+    "costs": []
+  },
+  {
+    "id": 1020,
+    "name": "Secret Key",
+    "category": "Key Items",
+    "locations": [
+      "Cinnabar Island — Mansion 1F, SW area, via 2F NW staircase; Source: Wild"
+    ],
+    "costs": []
+  },
+  {
+    "id": 441,
+    "name": "SecretPotion",
+    "category": "Key Items",
+    "locations": [
+      "Cianwood City — Pharmacy, Right assistant; Source: Person"
+    ],
+    "costs": []
+  },
+  {
+    "id": 50100,
+    "key": "sega-genesis-console",
+    "name": "Sega Genesis Console",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Bazaar, Consoles - $10000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50101,
+    "key": "seviper-poster",
+    "name": "Seviper Poster",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Celadon City — Bazaar, Posters - $10000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 221,
+    "name": "Sharp Beak",
+    "category": "Held Items",
+    "locations": [
+      "Route 40 — Beach, Monica on Monday; Source: Person",
+      "Wild Pokémon — Pidgeot, Spearow, Fearow, Doduo, Dodrio, Goldeen, Seaking, Hoothoot, Natu, Taillow, Swellow, Starly, Staravia, Staraptor, Chatot; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 230,
+    "name": "Shell Bell",
+    "category": "Held Items",
+    "locations": [
+      "Lake of Rage — Dive, SE; Source: Wild",
+      "Wild Pokémon — Celebi, Chimecho, Chingling, Lileep, Anorith; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 107,
+    "name": "Shiny Stone",
+    "category": "Evolution",
+    "locations": [
+      "New Bark Town — 11% chance to be held by gifted Eevee; Source: Held",
+      "Ilex Forest — South Area, NE side, rock surrounded by ledge; Source: Hidden",
+      "Bug Catching Contest — Tier 4 prize, Random 10% chance; Source: Person",
+      "Cianwood City — Pharmacy, Left assistant - $2100; Source: Shop",
+      "Dragons Den — Dive, rock in NE, not touching wall; Source: Hidden",
+      "Safari Zone — Area 1, NE, Grass; Source: Wild",
+      "Cinnabar Island — Mart - $2100; Source: Shop",
+      "Wild Pokémon — Togepi, Roselia; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 228,
+    "name": "Silk Scarf",
+    "category": "Held Items",
+    "locations": [
+      "New Bark Town — Held by gifted Eevee-Partner; Source: Held",
+      "Goldenrod City — Radio Tower 4F E, Mary, Defeat Team Rocket; Source: Person",
+      "Celadon City — Held by Game Corner Eevee; Source: Held",
+      "Wild Pokémon — Jigglypuff, Lickitung, Smeargle, Wigglytuff, Tauros; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 548,
+    "name": "Silph Scope",
+    "category": "Key Items",
+    "locations": [
+      "Saffron City — Silph Co. 4F, Boardroom, President; Source: Person"
+    ],
+    "costs": []
+  },
+  {
+    "id": 50102,
+    "key": "silver-cap",
+    "name": "Silver Cap",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Ecruteak City — Box under tree, Daily, 6.7% chance, Dec & Jan only; Source: Wild",
+      "Battle Tower — Victory Reward, only if Johto & Kanto Champion; Source: Person",
+      "Vermilion City — Dive, surface from SE underwater Dive spot; Source: Wild",
+      "Mt. Silver — 2F, C Cave, Rocket Grunt - $65000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 481,
+    "name": "Silver Wing",
+    "category": "Key Items",
+    "locations": [
+      "Pewter City — Old man by the East entrance; Source: Person"
+    ],
+    "costs": []
+  },
+  {
+    "id": 199,
+    "name": "SilverPowder",
+    "category": "Held Items",
+    "locations": [
+      "Route 33 — SE on cliff; Source: Wild",
+      "Wild Pokémon — Pineco, Butterfree, Venonat, Venomoth, Pinsir, Ledyba, Ledian, Beautifly, Dustox, Surskit, Masquerain, Volbeat, Illumise, Kricketot, Kricketune, Wormadam-P, Mothim, Wormadam-S, Wormadam-T; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 135,
+    "name": "Sitrus Berry",
+    "category": "Berries",
+    "locations": [
+      "Goldenrod City — Lady in Berry Shop - $500; Source: Shop",
+      "Bug Catching Contest — Tier 2 prize; Source: Person; Qty: 3",
+      "Route 38 — W of Valerie; Source: Tree; Qty: 1 - 8",
+      "Route 39 — Listen to Edd`s Presentation; Source: Person; Qty: 15",
+      "Lake of Rage — Maze, NW house, held by traded Rapidash; Source: Held",
+      "Dragons Den — Held by gifted Dratini; Source: Held",
+      "Cerulean City — Berry Emporium Girl - $500; Source: Shop",
+      "Route 14 — Held by traded Aerodactyl; Source: Held",
+      "Route 11 — East; Source: Tree; Qty: 1 - 8",
+      "Pewter City — Held by gifted Aerodactyl; Source: Held",
+      "Wild Pokémon — Sandslash, Dugtrio, Golduck, Muk, Ledian, Skiploom, Jumpluff, Aipom, Quagsire, Donphan, Raikou, Entei, Suicune, Swellow, Kirlia, Manectric, Gastrodon-West, Lumineon, Gastrodon-East, Alolan Dugtrio, Galarian Linoone, Obstagoon, Raticate, Furret, Teddiursa, Linoone, Bibarel, Carnivine, Alolan Rattata, Alolan Raticate, Hisuian Arcanine; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 50103,
+    "key": "small-cactus-pot-plant",
+    "name": "Small Cactus Pot Plant",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Bazaar, Pot Plants - $5000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50104,
+    "key": "small-leaf-pot-plant",
+    "name": "Small Leaf Pot Plant",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Bazaar, Pot Plants - $5000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 205,
+    "name": "Smoke Ball",
+    "category": "Held Items",
+    "locations": [
+      "Goldenrod City — Basement, B1F, SW corner; Source: Wild",
+      "Burnt Tower — B1F, Strength, NE corner; Source: Wild",
+      "Celadon City — Game Corner, Right Assistant - 1000 Coins; Source: Shop",
+      "Wild Pokémon — Voltorb, Electrode, Koffing, Weezing, Galarian Weezing, Torkoal, Hisuian Voltorb; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 50105,
+    "key": "smoochum-small-doll",
+    "name": "Smoochum Small Doll",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Bazaar, Small Doll - $3000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50106,
+    "key": "snorlax-large-doll",
+    "name": "Snorlax Large Doll",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Bazaar, Large Doll - $25000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 31,
+    "name": "Soda Pop",
+    "category": "Medicine",
+    "locations": [
+      "Goldenrod City — Mall, 2F/4F/6F Vending Machine - $300; Source: Shop",
+      "Celadon City — Mall, Roof Vending Machine - $300; Source: Shop",
+      "Mt. Moon — Square, Old Man in house - $300; Source: Shop"
+    ],
+    "costs": []
+  },
+  {
+    "id": 214,
+    "name": "Soft Sand",
+    "category": "Held Items",
+    "locations": [
+      "Wild Pokémon — Trapinch, Sandshrew, Diglett, Dugtrio, Phanpy, Donphan, Vibrava, Shellos-West, Gastrodon-West, Hippopotas, Shellos-East, Gastrodon-East; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 50107,
+    "key": "sony-ps1-console",
+    "name": "Sony PS1 Console",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Celadon City — Bazaar, Consoles - $20000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50108,
+    "key": "sony-psp-console",
+    "name": "Sony PSP Console",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Celadon City — Bazaar, Consoles - $25000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 195,
+    "name": "Soothe Bell",
+    "category": "Training",
+    "locations": [
+      "National Park — Cut, NE, through N fence hole; Source: Wild",
+      "Blackthorn City — Man in Move Deleter house - $2100; Source: Shop",
+      "Soul House — 2F, Gravestone infront of Mr. Fuji; Source: Hidden",
+      "Soul House Basement — B3F, Center, slightly West; Source: Wild",
+      "Cerulean City — NE corner of sand outside Cerulean Cave; Source: Hidden",
+      "Fuchsia City — Man in Central house - $1000; Source: Shop",
+      "Wild Pokémon — Golbat, Pichu, Cleffa, Igglybuff, Wynaut, Budew, Chingling, Riolu; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 202,
+    "name": "Soul Dew",
+    "category": "Held Items",
+    "locations": [
+      "Wild Pokémon — Latias, Latios; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 224,
+    "name": "Spell Tag",
+    "category": "Type Enhancement",
+    "locations": [
+      "Blackthorn City — Man in Move Deleter house - $2100; Source: Shop",
+      "Blackthorn City — Santos on Saturday, ledge SE of Gym; Source: Person",
+      "Soul House Basement — B5F, NE alcove; Source: Wild",
+      "Fuchsia City — Man in Central house - $2100; Source: Shop",
+      "Wild Pokémon — Gastly, Haunter, Gengar, Sableye, Shuppet, Banette, Dusclops, Mismagius, Spiritomb; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 457,
+    "name": "Sport Ball",
+    "category": "Poké Balls",
+    "locations": [
+      "Bug Catching Contest — Every contest; Source: Person; Qty: 20",
+      "Fuchsia City — Safari Zone entrance, repeatable - $500; Source: Person; Qty: 30"
+    ],
+    "costs": []
+  },
+  {
+    "id": 448,
+    "name": "Squirtbottle",
+    "category": "Key Items",
+    "locations": [
+      "Goldenrod City — Flower Shop, Defeat Whitney; Source: Person"
+    ],
+    "costs": []
+  },
+  {
+    "id": 50109,
+    "key": "squirtle-small-doll",
+    "name": "Squirtle Small Doll",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Bazaar, Small Doll - $3000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 91,
+    "name": "Star Piece",
+    "category": "Valuables",
+    "locations": [
+      "Wild Pokémon — Staryu, Starmie, Jirachi; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 90,
+    "name": "Stardust",
+    "category": "Valuables",
+    "locations": [
+      "Goldenrod City — Science Center, held by traded Ditto; Source: Held",
+      "Wild Pokémon — Jirachi, Starmie; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 50110,
+    "key": "steelix-large-doll",
+    "name": "Steelix Large Doll",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Bazaar, Large Doll - $25000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50111,
+    "key": "stick",
+    "name": "Stick",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Held Items",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Wild Pokémon — Farfetch`d, Galarian Farfetch`d, Sirfetch`d; Source: Held"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50112,
+    "key": "stone-blue-table",
+    "name": "Stone Blue Table",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Bazaar, Tables - $15000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50113,
+    "key": "stone-green-table",
+    "name": "Stone Green Table",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Bazaar, Tables - $15000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50114,
+    "key": "stone-red-table",
+    "name": "Stone Red Table",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Bazaar, Tables - $15000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50115,
+    "key": "suicune-cushion",
+    "name": "Suicune Cushion",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Tin Tower — 1F, Eusine, after Suicune battle; Source: Person"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 80,
+    "name": "Sun Stone",
+    "category": "Evolution",
+    "locations": [
+      "New Bark Town — 11% chance to be held by gifted Eevee; Source: Held",
+      "Bug Catching Contest — Tier 4 prize, Random 10% chance; Source: Person",
+      "Ecruteak City — Pot next to Burnt Tower entrance; Source: Hidden",
+      "Cianwood City — Pharmacy, Left assistant - $2100; Source: Shop",
+      "Cinnabar Island — Mart - $2100; Source: Shop",
+      "Wild Pokémon — Solrock, Gloom, Sunkern, Sunflora; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 50116,
+    "key": "sunflower-pot-plant",
+    "name": "Sunflower Pot Plant",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Celadon City — Bazaar, Pot Plants - $20000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50117,
+    "key": "super-nes-console",
+    "name": "Super Nes Console",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Bazaar, Consoles - $10000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 26,
+    "name": "Super Potion",
+    "category": "Medicine",
+    "locations": [
+      "Route 32 — Center, E of Roland next to water; Source: Hidden",
+      "Route 32 — Cut, North; Source: Wild",
+      "Slowpoke Well — 1F, N; Source: Wild",
+      "Route 42 — Surf, Center, NE corner; Source: Wild",
+      "Olivine City — 6F Lighthouse, NW corner; Source: Wild"
+    ],
+    "costs": []
+  },
+  {
+    "id": 76,
+    "name": "Super Repel",
+    "category": "Other",
+    "locations": [
+      "Olivine City — 5F Lighthouse, Center, SW of Ernest; Source: Wild",
+      "Mt. Moon — Square, Old Man in house - $500; Source: Shop"
+    ],
+    "costs": []
+  },
+  {
+    "id": 424,
+    "name": "Super Rod",
+    "category": "Key Items",
+    "locations": [
+      "Route 12 — Fisherman in the house in the Center; Source: Person"
+    ],
+    "costs": []
+  },
+  {
+    "id": 50118,
+    "key": "td01-amnesia",
+    "name": "TD01 - Amnesia",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Mall, 5F Left Assistant - $1500; Source: Shop",
+      "Route 27 — Dive, NW corner rock, via SW grass; Source: Hidden"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50119,
+    "key": "td02-baton-pass",
+    "name": "TD02 - Baton Pass",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Mall, 5F Left Assistant - $1500; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50120,
+    "key": "td03-facade",
+    "name": "TD03 - Facade",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Mall, 5F Left Assistant - $3000; Source: Shop",
+      "Ice Path — 1F, Mahogany side, W Ice puzzle, SE rock; Source: Hidden"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50121,
+    "key": "td04-nasty-plot",
+    "name": "TD04 - Nasty Plot",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Mall, 5F Left Assistant - $1500; Source: Shop",
+      "Route 10 — Rock Climb, S area, SE rock; Source: Hidden"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50122,
+    "key": "td05-mimic",
+    "name": "TD05 - Mimic",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Mall, 5F Left Assistant - $3000; Source: Shop",
+      "Saffron City — Copycat Girls Room, NW corner of desk; Source: Hidden"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50123,
+    "key": "td06-body-slam",
+    "name": "TD06 - Body Slam",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Battle Tower — NE, Left Assistant - $3000; Source: Shop",
+      "Route 25 — North, West of Bill's house fence; Source: Wild"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50124,
+    "key": "td07-leaf-blade",
+    "name": "TD07 - Leaf Blade",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Battle Tower — NE, Left Assistant - $3000; Source: Shop",
+      "Safari Zone — Area 2, SE, SE of stairs in corner by the fence; Source: Hidden"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50125,
+    "key": "td08-superpower",
+    "name": "TD08 - Superpower",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Celadon City — Mall, 3F - $3000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50126,
+    "key": "td09-bulldoze",
+    "name": "TD09 - Bulldoze",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Mall, 5F Left Assistant - $3000; Source: Shop",
+      "Hollow Tunnel — North; Source: Wild"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50127,
+    "key": "td10-brave-bird",
+    "name": "TD10 - Brave Bird",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Celadon City — Mall, 3F - $3000; Source: Shop",
+      "Route 21 — Dive, C, gap between large rock and N wall; Source: Hidden"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50128,
+    "key": "td11-metronome",
+    "name": "TD11 - Metronome",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Mall, 5F Left Assistant - $3000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50129,
+    "key": "td12-moonblast",
+    "name": "TD12 - Moonblast",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Celadon City — Mall, 3F - $3000; Source: Shop",
+      "Route 19 — Dive, NE Spot, SW rock; Source: Hidden"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50130,
+    "key": "td13-hydro-pump",
+    "name": "TD13 - Hydro Pump",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Whirl Islands — B2F, S area, access from B1F NW; Source: Wild",
+      "Celadon City — Mall, 3F - $3000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50131,
+    "key": "td14-leech-life",
+    "name": "TD14 - Leech Life",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Celadon City — Mall, 3F - $3000; Source: Shop",
+      "Viridian Forest — NE area, tree trunk on tree SE of Max Potion; Source: Hidden"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50132,
+    "key": "td15-outrage",
+    "name": "TD15 - Outrage",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Celadon City — Mall, 3F - $3000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50133,
+    "key": "td16-thunder-wave",
+    "name": "TD16 - Thunder Wave",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Mall, 5F Left Assistant - $1500; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50134,
+    "key": "td17-thunder-fang",
+    "name": "TD17 - Thunder Fang",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Ecruteak City — Box under tree, Daily, 6.7% chance, Dec & Jan only; Source: Wild; Qty: 3",
+      "Battle Tower — NE, Left Assistant - $3000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50135,
+    "key": "td18-fire-fang",
+    "name": "TD18 - Fire Fang",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Ecruteak City — Box under tree, Daily, 6.7% chance, Dec & Jan only; Source: Wild; Qty: 3",
+      "Battle Tower — NE, Left Assistant - $3000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50136,
+    "key": "td19-ice-fang",
+    "name": "TD19 - Ice Fang",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Ecruteak City — Box under tree, Daily, 6.7% chance, Dec & Jan only; Source: Wild; Qty: 3",
+      "Battle Tower — NE, Left Assistant - $3000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50137,
+    "key": "td20-ancientpower",
+    "name": "TD20 - Ancientpower",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Ruins of Alph — SW statue in big room after solving first puzzle; Source: Hidden",
+      "Goldenrod City — Mall, 5F Left Assistant - $3000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50138,
+    "key": "td21-rock-climb",
+    "name": "TD21 - Rock Climb",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Battle Tower — Outside, Girl; Source: Person",
+      "Celadon City — Mall, 3F - $3000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50139,
+    "key": "td22-frost-breath",
+    "name": "TD22 - Frost Breath",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Mall, 5F Left Assistant - $3000; Source: Shop",
+      "Mt. Mortar — Entrance SE, rock on its own near entrance (check); Source: Wild"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50140,
+    "key": "td23-smart-strike",
+    "name": "TD23 - Smart Strike",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Celadon City — Mall, 3F - $3000; Source: Shop",
+      "Mt. Moon — 2F, W, alcove NW of exit, via E ladder on 1F; Source: Hidden"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50141,
+    "key": "td24-defog",
+    "name": "TD24 - Defog",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Slowpoke Well — 1F, SE, Rock on NE of 1st body of water; Source: Hidden",
+      "Battle Tower — NE, Left Assistant - $1500; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50142,
+    "key": "td25-swords-dance",
+    "name": "TD25 - Swords Dance",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Battle Tower — NE, Left Assistant - $1500; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50143,
+    "key": "td26-dark-pulse",
+    "name": "TD26 - Dark Pulse",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Battle Tower — NE, Left Assistant - $3000; Source: Shop",
+      "Victory Road — 2F, NW, access from 3F NW hole; Source: Wild"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50144,
+    "key": "td27-close-combat",
+    "name": "TD27 - Close Combat",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Celadon City — Mall, 3F - $3000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50145,
+    "key": "td28-skill-swap",
+    "name": "TD28 - Skill Swap",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Mall, 5F Left Assistant - $1500; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50146,
+    "key": "td29-switcheroo",
+    "name": "TD29 - Switcheroo",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Mall, 5F Left Assistant - $1500; Source: Shop",
+      "Rocket Hideout — B2F, Centre, Admin Desk; Source: Wild"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50147,
+    "key": "td30-magical-leaf",
+    "name": "TD30 - Magical Leaf",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Bug Catching Contest — NE, through N fence hole, Gatehouse wall; Source: Hidden",
+      "Battle Tower — NE, Left Assistant - $3000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50148,
+    "key": "td31-crunch",
+    "name": "TD31 - Crunch",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Blackthorn City — Mart, Top Assistant - $3000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50149,
+    "key": "td32-agility",
+    "name": "TD32 - Agility",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Blackthorn City — Mart, Top Assistant - $1500; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50150,
+    "key": "td33-wild-charge",
+    "name": "TD33 - Wild Charge",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Blackthorn City — Mart, Top Assistant - $3000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50151,
+    "key": "td34-flare-blitz",
+    "name": "TD34 - Flare Blitz",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Blackthorn City — Mart, Top Assistant - $3000; Source: Shop",
+      "Cinnabar Island — Mansion 3F, E, 2nd plant up from the bottom; Source: Hidden"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50152,
+    "key": "td35-tri-attack",
+    "name": "TD35 - Tri Attack",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Blackthorn City — Mart, Top Assistant - $3000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50153,
+    "key": "td36-volt-switch",
+    "name": "TD36 - Volt Switch",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Battle Tower — NE, Left Assistant - $3000; Source: Shop",
+      "Power Plant — Rear Room, S from the Center, SW of S generator; Source: Wild"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50154,
+    "key": "td37-u-turn",
+    "name": "TD37 - U-Turn",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Underground, infront of Basement door; Source: Wild",
+      "Battle Tower — NE, Left Assistant - $3000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50155,
+    "key": "td38-faint-attack",
+    "name": "TD38 - Faint Attack",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Mall, 5F Left Assistant - $3000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50156,
+    "key": "td39-dragon-dance",
+    "name": "TD39 - Dragon Dance",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Blackthorn City — Mart, Top Assistant - $1500; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50157,
+    "key": "td40-ominous-wind",
+    "name": "TD40 - Ominous Wind",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Mall, 5F Left Assistant - $3000; Source: Shop",
+      "Burnt Tower — B1F, NW corner; Source: Hidden"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50158,
+    "key": "td41-psychic-fangs",
+    "name": "TD41 - Psychic Fangs",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Blackthorn City — Mart, Top Assistant - $3000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50159,
+    "key": "td42-icicle-crash",
+    "name": "TD42 - Icicle Crash",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Cherrygrove City — Dive, C, Grass, between big rock and small rocks; Source: Hidden",
+      "Blackthorn City — Mart, Top Assistant - $3000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50160,
+    "key": "td43-iron-head",
+    "name": "TD43 - Iron Head",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Blackthorn City — Mart, Top Assistant - $3000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50161,
+    "key": "td44-charm",
+    "name": "TD44 - Charm",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Mall, 5F Left Assistant - $1500; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50162,
+    "key": "td45-pay-day",
+    "name": "TD45 - Pay Day",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Route 36 — East, fence E of Ruins of Alph Gatehouse; Source: Hidden",
+      "Goldenrod City — Mall, 5F Left Assistant - $3000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50163,
+    "key": "td46-rapid-spin",
+    "name": "TD46 - Rapid Spin",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Mall, 5F Left Assistant - $3000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50164,
+    "key": "td47-megahorn",
+    "name": "TD47 - Megahorn",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Celadon City — Mall, 3F - $3000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50165,
+    "key": "td48-taunt",
+    "name": "TD48 - Taunt",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Battle Tower — NE, Left Assistant - $1500; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50166,
+    "key": "td49-encore",
+    "name": "TD49 - Encore",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Mall, 5F Left Assistant - $1500; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50167,
+    "key": "td50-trick-room",
+    "name": "TD50 - Trick Room",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Medicine",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Tin Tower — 9F, C, behind column, via N pad on 8F; Source: Wild",
+      "Battle Tower — NE, Left Assistant - $1500; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50168,
+    "key": "td51-hone-claws",
+    "name": "TD51 - Hone Claws",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Battle Tower — NE, Left Assistant - $1500; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50169,
+    "key": "tm01-dynamicpunch",
+    "name": "TM01 - Dynamicpunch",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Cianwood City — Defeat Chuck; Source: Person"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50170,
+    "key": "tm02-headbutt",
+    "name": "TM02 - Headbutt",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Ilex Forest — Cut, Headbutt man in the Center; Source: Person"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50171,
+    "key": "tm03-curse",
+    "name": "TM03 - Curse",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Celadon City — Celadon Mansion, Roof, N entrance; Source: Person"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50172,
+    "key": "tm04-rollout",
+    "name": "TM04 - Rollout",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Route 35 — N of Bryan, behind fence; Source: Wild"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50173,
+    "key": "tm05-roar",
+    "name": "TM05 - Roar",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Route 32 — Cut, North, Roar man; Source: Person"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50174,
+    "key": "tm06-toxic",
+    "name": "TM06 - Toxic",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Fuchsia City — Defeat Janine; Source: Person"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50175,
+    "key": "tm07-zap-cannon",
+    "name": "TM07 - Zap Cannon",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Power Plant — Manager, Generator Room, Return Part; Source: Person"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50176,
+    "key": "tm08-rock-slide",
+    "name": "TM08 - Rock Slide",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Pewter City — Defeat Brock; Source: Person"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50177,
+    "key": "tm09-calm-mind",
+    "name": "TM09 - Calm Mind",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Saffron City — Defeat Sabrina; Source: Person"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50178,
+    "key": "tm10-hidden-power",
+    "name": "TM10 - Hidden Power",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Lake of Rage — Maze, NW house; Source: Person"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50179,
+    "key": "tm11-sunny-day",
+    "name": "TM11 - Sunny Day",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Ecruteak City — Outside Tin Tower; Source: Wild"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50180,
+    "key": "tm12-sweet-scent",
+    "name": "TM12 - Sweet Scent",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Route 34 — Lady w/ Butterfree in South gatehouse; Source: Person"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50181,
+    "key": "tm13-avalanche",
+    "name": "TM13 - Avalanche",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Mahogany Town — Defeat Pryce; Source: Person"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50182,
+    "key": "tm14-blizzard",
+    "name": "TM14 - Blizzard",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Game Corner, NE Assistant - 2500 Coins; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50183,
+    "key": "tm15-hyper-beam",
+    "name": "TM15 - Hyper Beam",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Game Corner, NE Assistant - 2500 Coins; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50184,
+    "key": "tm16-snowscape",
+    "name": "TM16 - Snowscape",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Ice Path — B3F, Center; Source: Wild"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50185,
+    "key": "tm17-protect",
+    "name": "TM17 - Protect",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Route 44 — North; Source: Wild"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50186,
+    "key": "tm18-rain-dance",
+    "name": "TM18 - Rain Dance",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Slowpoke Well — B1F, Surf, Strength, NE; Source: Wild"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50187,
+    "key": "tm19-giga-drain",
+    "name": "TM19 - Giga Drain",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Celadon City — Defeat Erika; Source: Person"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50188,
+    "key": "tm20-dive",
+    "name": "TM20 - Dive",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "S.S. Aqua — Table in Captain's room; Source: Wild"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50189,
+    "key": "tm21-play-rough",
+    "name": "TM21 - Play Rough",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Basement, B2F, Center, next to Director; Source: Wild"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50190,
+    "key": "tm22-solarbeam",
+    "name": "TM22 - Solarbeam",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Route 27 — S, Center, Whirlpool; Source: Wild"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50191,
+    "key": "tm23-iron-tail",
+    "name": "TM23 - Iron Tail",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Olivine City — Defeat Jasmine; Source: Person"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50192,
+    "key": "tm24-dragon-claw",
+    "name": "TM24 - Dragon Claw",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Dragons Den — Clair, after picking up Dragon Fang; Source: Person"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50193,
+    "key": "tm25-thunder",
+    "name": "TM25 - Thunder",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Game Corner, NE Assistant - 2500 Coins; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50194,
+    "key": "tm26-earthquake",
+    "name": "TM26 - Earthquake",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Victory Road — 2F, NW, access from 3F NW hole; Source: Wild"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50195,
+    "key": "tm27-return",
+    "name": "TM27 - Return",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Mall, 5F Left Assistant, only on Sunday; Source: Person"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50196,
+    "key": "tm28-dig",
+    "name": "TM28 - Dig",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "National Park — Cut, SE, through N fence hole, S fork; Source: Wild"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50197,
+    "key": "tm29-psychic",
+    "name": "TM29 - Psychic",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Saffron City — SE House, Mr. Psychic; Source: Person"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50198,
+    "key": "tm30-shadow-ball",
+    "name": "TM30 - Shadow Ball",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Ecruteak City — Defeat Morty; Source: Person"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50199,
+    "key": "tm31-roost",
+    "name": "TM31 - Roost",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Violet City — Defeat Falkner; Source: Person"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50200,
+    "key": "tm32-double-team",
+    "name": "TM32 - Double Team",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Viridian City — Defeat Blue; Source: Person"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50201,
+    "key": "tm33-water-pulse",
+    "name": "TM33 - Water Pulse",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Cerulean City — Defeat Misty; Source: Person"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50202,
+    "key": "tm34-swagger",
+    "name": "TM34 - Swagger",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Olivine City — 5F Lighthouse, SW corner; Source: Wild"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50203,
+    "key": "tm35-drain-punch",
+    "name": "TM35 - Drain Punch",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Route 39 — SW of Miltank Field; Source: Person"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50204,
+    "key": "tm36-sludge-bomb",
+    "name": "TM36 - Sludge Bomb",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Route 43 — Man in gatehouse after Team Rocket Hideout; Source: Person"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50205,
+    "key": "tm37-sandstorm",
+    "name": "TM37 - Sandstorm",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Route 27 — Waterfall, Old lady in West House; Source: Person"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50206,
+    "key": "tm38-fire-blast",
+    "name": "TM38 - Fire Blast",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Game Corner, NE Assistant - 2500 Coins; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50207,
+    "key": "tm39-swift",
+    "name": "TM39 - Swift",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Union Cave — B1F, Center, SW; Source: Wild"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50208,
+    "key": "tm40-defense-curl",
+    "name": "TM40 - Defense Curl",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Route 39 — Lady after giving sick Miltank x7 Oran Berry; Source: Person"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50209,
+    "key": "tm41-shock-wave",
+    "name": "TM41 - Shock Wave",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Vermilion City — Defeat Lt. Surge; Source: Person"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50210,
+    "key": "tm42-dream-eater",
+    "name": "TM42 - Dream Eater",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Viridian City — SW area, Sleepy man; Source: Person"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50211,
+    "key": "tm43-detect",
+    "name": "TM43 - Detect",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Lake of Rage — Maze, NE corner, 3rd right fork; Source: Wild"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50212,
+    "key": "tm44-rest",
+    "name": "TM44 - Rest",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Ice Path — B2F, Blackthorn side, SE corner; Source: Wild"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50213,
+    "key": "tm45-drain-kiss",
+    "name": "TM45 - Drain Kiss",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Defeat Whitney; Source: Person"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50214,
+    "key": "tm46-thief",
+    "name": "TM46 - Thief",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Rocket Hideout — B1F, W; Source: Wild"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50215,
+    "key": "tm47-steel-wing",
+    "name": "TM47 - Steel Wing",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Rock Tunnel — 1F, SW corner; Source: Wild"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50216,
+    "key": "tm48-overheat",
+    "name": "TM48 - Overheat",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Cinnabar Island — B1F, Defeat Blaine; Source: Person"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50217,
+    "key": "tm49-fury-cutter",
+    "name": "TM49 - Fury Cutter",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Azalea Town — Defeat Bugsy; Source: Person"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50218,
+    "key": "tm50-freezy-frost",
+    "name": "TM50 - Freezy Frost",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "TM & HM",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Route 31 — Give Mail to Sleepy Man next to Berry Tree; Source: Person"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50219,
+    "key": "teal-gold-carpet",
+    "name": "Teal&Gold Carpet",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Celadon City — Bazaar, Carpets - $20000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 235,
+    "name": "Thick Club",
+    "category": "Held Items",
+    "locations": [
+      "Goldenrod City — Held by Game Corner Cubone; Source: Held",
+      "Wild Pokémon — Marowak, Cubone, Alolan Marowak; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 83,
+    "name": "Thunderstone",
+    "category": "Evolution",
+    "locations": [
+      "New Bark Town — 11% chance to be held by gifted Eevee; Source: Held",
+      "Route 35 — SE of Irwin on the other side of fence; Source: Hidden",
+      "Bug Catching Contest — Tier 4 prize, Random 10% chance; Source: Person",
+      "Route 38 — Defeat Dana; Source: Person",
+      "Cianwood City — Pharmacy, Left assistant - $2100; Source: Shop",
+      "Power Plant — Held by traded Magneton; Source: Held",
+      "Power Plant — NE corner of Scientist Room, by the sofa; Source: Hidden",
+      "Route 25 — House, show Pichu to Bill's Grandfather; Source: Person",
+      "Cinnabar Island — Mart - $2100; Source: Shop",
+      "Wild Pokémon — Magnemite, Magneton; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 10,
+    "name": "Timer Ball",
+    "category": "Poké Balls",
+    "locations": [
+      "Goldenrod City — Mall, 5F Right Assistant - $1000; Source: Shop",
+      "Celadon City — Mall, 4F - $1000; Source: Shop",
+      "Mt. Silver — 2F, C Cave, Rocket Grunt - $1000; Source: Shop"
+    ],
+    "costs": []
+  },
+  {
+    "id": 86,
+    "name": "Tinymushroom",
+    "category": "Valuables",
+    "locations": [
+      "Ilex Forest — NW of South Gatehouse, bush; Source: Hidden; Qty: 2",
+      "Ilex Forest — Cut, W of shrine, bush; Source: Hidden; Qty: 2",
+      "Goldenrod City — Underground, Herb Lady 12pm - 6pm - $500; Source: Shop",
+      "Hollow Tunnel — SW, rock in corner; Source: Hidden",
+      "Mahogany Town — Shop, Pre Team Rocket Hideout - $500; Source: Shop",
+      "Lake of Rage — Dive, West rock, North of Western grass; Source: Hidden",
+      "Wild Pokémon — Paras, Shroomish; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 50220,
+    "key": "togepi-small-doll",
+    "name": "Togepi Small Doll",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "New Bark Town — Prof. Elm after showing him Gift Togepi; Source: Person"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50221,
+    "key": "torchic-poster",
+    "name": "Torchic Poster",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Celadon City — Bazaar, Posters - $10000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50222,
+    "key": "torchic-small-doll",
+    "name": "Torchic Small Doll",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Celadon City — Bazaar, Small Doll - $5000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50223,
+    "key": "totodile-poster",
+    "name": "Totodile Poster",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Bazaar, Posters - $5000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50224,
+    "key": "toxic-cushion",
+    "name": "Toxic Cushion",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Celadon City — Bazaar, Cushions - $12500; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 249,
+    "name": "Toxic Orb",
+    "category": "Held Items",
+    "locations": [
+      "Battle Tower — SE Corner - $10000; Source: Shop"
+    ],
+    "costs": []
+  },
+  {
+    "id": 50225,
+    "key": "treecko-poster",
+    "name": "Treecko Poster",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Celadon City — Bazaar, Posters - $10000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50226,
+    "key": "treecko-small-doll",
+    "name": "Treecko Small Doll",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Celadon City — Bazaar, Small Doll - $5000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50227,
+    "key": "tropical-pot-plant",
+    "name": "Tropical Pot Plant",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Bazaar, Pot Plants - $10000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50228,
+    "key": "turtwig-small-doll",
+    "name": "Turtwig Small Doll",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Celadon City — Bazaar, Small Doll - $5000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 225,
+    "name": "Twistedspoon",
+    "category": "Type Enhancement",
+    "locations": [
+      "Route 29 — Tuscany on Tuesday, S of gatehouse; Source: Person",
+      "Goldenrod City — Held by Game Corner Ralts; Source: Held",
+      "Blackthorn City — Man in Move Deleter house - $2100; Source: Shop",
+      "Fuchsia City — Man in Central house - $2100; Source: Shop",
+      "Wild Pokémon — Psyduck, Golduck, Abra, Kadabra, Alakazam, Ralts, Kirlia; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 50229,
+    "key": "tyranitar-large-doll",
+    "name": "Tyranitar Large Doll",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Bazaar, Large Doll - $25000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 2222,
+    "name": "Ultra Ball",
+    "category": "Poké Balls",
+    "locations": [
+      "Route 46 — N, available after Gym 6, S of Bailey; Source: Wild",
+      "Goldenrod City — Mall, B1F, Strength, SE corner; Source: Wild",
+      "Goldenrod City — Basement, B2F, NW corner; Source: Wild",
+      "Ecruteak City — Box under tree, Daily, 6.7% chance, Dec & Jan only; Source: Wild",
+      "Burnt Tower — 1F, Rock Smash, NE corner, Statue; Source: Hidden",
+      "Tin Tower — 4F, East; Source: Wild",
+      "Route 42 — West, near Mt. Mortar entrance; Source: Wild",
+      "Mt. Mortar — 1F, Strength, Center; Source: Wild",
+      "Mt. Mortar — 2F, Waterfall, N, right fork on the way to ladder; Source: Wild",
+      "Olivine City — Dive, North; Source: Wild",
+      "Whirl Islands — 1F, NE island; Source: Wild",
+      "Whirl Islands — 1F, SW island; Source: Wild",
+      "Cianwood City — Rock Climb, NE corner; Source: Wild",
+      "Rocket Hideout — B2F, Centre, East of locked door; Source: Wild",
+      "Route 44 — East, SE of Zach; Source: Wild",
+      "Saffron City — Silph Co. 2F, back room; Source: Wild",
+      "Route 08 — Cut, SW red flower in Central area; Source: Hidden",
+      "Route 10 — Rock Climb, W of Power Plant, via Power Plant; Source: Wild",
+      "Power Plant — Rear Room, Center; Source: Wild",
+      "Safari Zone — Area 3, SW; Source: Wild",
+      "Viridian Forest — SW corner; Source: Wild",
+      "Mt. Silver — 1F, Center; Source: Wild",
+      "Mt. Silver — 2F, E, East of 3 stairs; Source: Wild",
+      "Cerulean Cave — 1F, Center, rock on its own; Source: Hidden",
+      "Cerulean Cave — 2F, SE, via 1F E ladder; Source: Wild",
+      "Cerulean Cave — B1F, Center, slightly East on raised area; Source: Wild"
+    ],
+    "costs": []
+  },
+  {
+    "id": 50230,
+    "key": "ultra-ball-cushion",
+    "name": "Ultra Ball Cushion",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Celadon City — Bazaar, Cushions - $12500; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 471,
+    "name": "Unown Report",
+    "category": "Key Items",
+    "locations": [
+      "Ruins of Alph — Scientist in NE corner of main building; Source: Person"
+    ],
+    "costs": []
+  },
+  {
+    "id": 229,
+    "name": "Up-Grade",
+    "category": "Evolution",
+    "locations": [
+      "Saffron City — Silph Co. 2F, back room, Scientist; Source: Person",
+      "Celadon City — Held by Game Corner Porygon; Source: Held",
+      "Wild Pokémon — Porygon; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 50231,
+    "key": "voltorb-small-doll",
+    "name": "Voltorb Small Doll",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Bazaar, Small Doll - $3000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 420,
+    "name": "Vs Seeker",
+    "category": "Key Items",
+    "locations": [
+      "Ilex Forest — Cut, Old Lady in the North East; Source: Person"
+    ],
+    "costs": []
+  },
+  {
+    "id": 50232,
+    "key": "wailord-large-doll",
+    "name": "Wailord Large Doll",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Celadon City — Bazaar, Large Doll - $25000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50233,
+    "key": "walrein-large-doll",
+    "name": "Walrein Large Doll",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Celadon City — Bazaar, Large Doll - $25000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50234,
+    "key": "water-bed-cover",
+    "name": "Water Bed Cover",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Bazaar, Bed Covers - $5000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50235,
+    "key": "water-cushion",
+    "name": "Water Cushion",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Bazaar, Cushions - $7500; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 84,
+    "name": "Water Stone",
+    "category": "Evolution",
+    "locations": [
+      "New Bark Town — 11% chance to be held by gifted Eevee; Source: Held",
+      "Bug Catching Contest — Tier 4 prize, Random 10% chance; Source: Person",
+      "Route 42 — Surf, Defeat Tully; Source: Person",
+      "Olivine City — Fence next to houses in NE; Source: Hidden",
+      "Cianwood City — Pharmacy, Left assistant - $2100; Source: Shop",
+      "Route 25 — House, show Staryu to Bill's Grandfather; Source: Person",
+      "Cinnabar Island — Mart - $2100; Source: Shop",
+      "Seafoam Islands — W B1F Rear Room, NE corner next to rocks; Source: Wild",
+      "Wild Pokémon — Poliwag, Shellder, Staryu, Lotad, Lombre; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 50236,
+    "key": "weedle-small-doll",
+    "name": "Weedle Small Doll",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Bazaar, Small Doll - $3000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 69,
+    "name": "White Flute",
+    "category": "Other",
+    "locations": [
+      "Goldenrod City — Mall, 3F South counter - $450; Source: Shop"
+    ],
+    "costs": []
+  },
+  {
+    "id": 191,
+    "name": "White Herb",
+    "category": "Held Items",
+    "locations": [
+      "Mt. Mortar — Entrance E, Rock Climb; Source: Wild",
+      "Celadon City — Game Corner, Right Assistant - 1000 Coins; Source: Shop",
+      "Route 20 — Dive, N; Source: Wild",
+      "Wild Pokémon — Kyogre; Source: Held"
+    ],
+    "costs": []
+  },
+  {
+    "id": 50237,
+    "key": "wht-apricorn",
+    "name": "Wht Apricorn",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Held Items",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Azalea Town — Next to Kurt's House; Source: Tree"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 242,
+    "name": "Wide Lens",
+    "category": "Held Items",
+    "locations": [
+      "Battle Tower — SE Corner - $10000; Source: Shop",
+      "Soul House Basement — B5F, NW alcove; Source: Wild"
+    ],
+    "costs": []
+  },
+  {
+    "id": 137,
+    "name": "Wiki Berry",
+    "category": "Berries",
+    "locations": [
+      "Goldenrod City — Lady in Berry Shop - $100; Source: Shop",
+      "Cerulean City — Berry Emporium Girl - $100; Source: Shop"
+    ],
+    "costs": []
+  },
+  {
+    "id": 50238,
+    "key": "wingull-poster",
+    "name": "Wingull Poster",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Celadon City — Bazaar, Posters - $10000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50239,
+    "key": "wurmple-small-doll",
+    "name": "Wurmple Small Doll",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Celadon City — Bazaar, Small Doll - $5000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 60,
+    "name": "X Accuracy",
+    "category": "Battle Items",
+    "locations": [
+      "Sprout Tower — 2F, NW; Source: Wild",
+      "Goldenrod City — Mall, 3F North counter - $950; Source: Shop",
+      "Celadon City — Mall, 5F South Assistant - $950; Source: Shop",
+      "Mt. Moon — 1F, South cave entrance from Square; Source: Wild"
+    ],
+    "costs": []
+  },
+  {
+    "id": 57,
+    "name": "X Attack",
+    "category": "Battle Items",
+    "locations": [
+      "Union Cave — 1F, NW; Source: Wild",
+      "Ilex Forest — Cut, S of water; Source: Wild",
+      "Goldenrod City — Mall, 3F North counter - $500; Source: Shop",
+      "Celadon City — Mall, 5F South Assistant - $500; Source: Shop"
+    ],
+    "costs": []
+  },
+  {
+    "id": 50240,
+    "key": "x-defend",
+    "name": "X Defend",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Battle Items",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Union Cave — B1F, Center, SE; Source: Wild",
+      "Goldenrod City — Mall, 3F North counter - $550; Source: Shop",
+      "Celadon City — Mall, 5F South Assistant - $550; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50241,
+    "key": "x-dire-hit",
+    "name": "X Dire Hit",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Battle Items",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Dark Cave — Violet Side, Rock Smash, SE; Source: Wild",
+      "Goldenrod City — Mall, 3F North counter - $650; Source: Shop",
+      "Celadon City — Mall, 5F South Assistant - $650; Source: Shop",
+      "Route 02 — NE corner; Source: Wild"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50242,
+    "key": "x-guard",
+    "name": "X Guard",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Battle Items",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Mall, 3F North counter - $700; Source: Shop",
+      "Rocket Hideout — 1F, Next to Jed & Secret Switch; Source: Wild",
+      "Celadon City — Mall, 5F South Assistant - $700; Source: Shop",
+      "Cerulean Cave — 1F, East, next to E ladder; Source: Wild"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50243,
+    "key": "x-sp-attack",
+    "name": "X Sp. Attack",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Battle Items",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Mall, 3F North counter - $350; Source: Shop",
+      "Ecruteak City — Pot next to Tin Tower entrance; Source: Hidden",
+      "Rocket Hideout — B2F, SW; Source: Wild",
+      "Celadon City — Mall, 5F South Assistant - $350; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 59,
+    "name": "X Speed",
+    "category": "Battle Items",
+    "locations": [
+      "Route 46 — N, available after Gym 6, SW of Erin & Ted; Source: Wild",
+      "Goldenrod City — Mall, 3F North counter - $350; Source: Shop",
+      "Celadon City — Mall, 5F South Assistant - $350; Source: Shop",
+      "Safari Zone — Area 3, N; Source: Wild"
+    ],
+    "costs": []
+  },
+  {
+    "id": 50244,
+    "key": "yellow-carpet",
+    "name": "Yellow Carpet",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Goldenrod City — Bazaar, Carpets - $10000; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 66,
+    "name": "Yellow Flute",
+    "category": "Other",
+    "locations": [
+      "Goldenrod City — Mall, 3F South counter - $300; Source: Shop"
+    ],
+    "costs": []
+  },
+  {
+    "id": 50245,
+    "key": "ylw-apricorn",
+    "name": "Ylw Apricorn",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Held Items",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Route 42 — Surf, Cut, Center; Source: Tree"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 50246,
+    "key": "zigzag-cushion",
+    "name": "Zigzag Cushion",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Other",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Celadon City — Bazaar, Cushions - $12500; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  },
+  {
+    "id": 52,
+    "name": "Zinc",
+    "category": "Medicine",
+    "locations": [
+      "Goldenrod City — Mall, 4F Right counter - $2000; Source: Shop",
+      "Battle Tower — Victory Reward, only if no Pokemon received; Source: Person; Qty: 3",
+      "Celadon City — Mall, 5F North Assistant - $2000; Source: Shop"
+    ],
+    "costs": []
+  },
+  {
+    "id": 50247,
+    "key": "zonal-stone",
+    "name": "Zonal Stone",
+    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "category": "Evolution",
+    "sprite": "assets/art/placeholder-icon.svg",
+    "locations": [
+      "Bug Catching Contest — Tier 4 prize, Random 10% chance; Source: Person",
+      "Cianwood City — Pharmacy, Left assistant - $2100; Source: Shop",
+      "Cianwood City — Rock Climb, Rock above Hollow Tunnel entrance; Source: Hidden",
+      "Cinnabar Island — Mart - $2100; Source: Shop"
+    ],
+    "costs": [],
+    "move": null
+  }
+]
