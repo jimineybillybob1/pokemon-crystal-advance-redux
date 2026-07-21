@@ -245,6 +245,17 @@ TYPE_COLOURS = {
     "steel": "#B7B7CE", "fairy": "#D685AD",
 }
 
+# Provisional form-accurate sprites from the public Radical Red Pokédex data
+# repository, whose Pikachu form keys match the workbook entries. Crystal
+# Advance Redux-specific shiny sprites have not been located, so those remain
+# explicitly unavailable instead of reusing or recolouring another form.
+# Source revision: https://github.com/JwowSquared/Radical-Red-Pokedex/tree/488a0918194d567b5f7b02c396118d51fb9c81ce/graphics/frontspr
+CUSTOM_FORM_SPRITES = {
+    "pikachu-partner": "assets/pokemon/pikachu-partner.png",
+    "pikachu-surf": "assets/pokemon/pikachu-surf.png",
+    "pikachu-fly": "assets/pokemon/pikachu-fly.png",
+}
+
 
 def baseline_form_aliases(entry: dict) -> set[str]:
     aliases = {normalise(entry.get("key")), normalise(entry.get("sourceKey")), normalise(entry.get("name"))}
@@ -544,8 +555,9 @@ def pokemon_overrides(
         if entry["baseline"]:
             matched_baseline_ids.add(int(entry["baseline"]["id"]))
         else:
-            patch["sprite"] = "assets/art/placeholder-icon.svg"
-            patch["shinySprite"] = "assets/art/placeholder-icon.svg"
+            custom_sprite = CUSTOM_FORM_SPRITES.get(entry["sourceKey"])
+            patch["sprite"] = custom_sprite or "assets/art/placeholder-icon.svg"
+            patch["shinySprite"] = "" if custom_sprite else "assets/art/placeholder-icon.svg"
         imported.append(patch)
 
     for baseline_entry in baseline.get("pokemon", []):

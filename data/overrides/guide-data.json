@@ -109488,8 +109488,8 @@
       ],
       "catchRate": 190,
       "growthRate": "Medium Fast",
-      "sprite": "assets/art/placeholder-icon.svg",
-      "shinySprite": "assets/art/placeholder-icon.svg"
+      "sprite": "assets/pokemon/pikachu-partner.png",
+      "shinySprite": ""
     },
     {
       "id": 200573,
@@ -109709,8 +109709,8 @@
       ],
       "catchRate": 190,
       "growthRate": "Medium Fast",
-      "sprite": "assets/art/placeholder-icon.svg",
-      "shinySprite": "assets/art/placeholder-icon.svg"
+      "sprite": "assets/pokemon/pikachu-surf.png",
+      "shinySprite": ""
     },
     {
       "id": 200574,
@@ -109928,8 +109928,8 @@
       ],
       "catchRate": 190,
       "growthRate": "Medium Fast",
-      "sprite": "assets/art/placeholder-icon.svg",
-      "shinySprite": "assets/art/placeholder-icon.svg"
+      "sprite": "assets/pokemon/pikachu-fly.png",
+      "shinySprite": ""
     },
     {
       "id": 200575,
