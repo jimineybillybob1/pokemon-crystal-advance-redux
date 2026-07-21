@@ -3,7 +3,7 @@
 - Status: Provisional guide built, validated and deployed
 - Current phase: Source-gap follow-up
 - Readiness: Core and Planning guide live; encrypted cloud sync configured
-- Last updated: 2026-07-21
+- Last updated: 2026-07-22
 - Next step: Obtain version-matched Sevii tables and final custom-form/item assets, then rebuild and redeploy through the existing workflow.
 
 ## Progress
@@ -66,3 +66,4 @@
 - Confirmed Pikachu, Pikachu-Partner, Pikachu-Surf and Pikachu-Fly share Dex ID 25, so their caught state and Pokédex card are species-wide. Replaced the three placeholders with provisional form-accurate Radical Red front sprites, kept unverified shiny sprites unavailable, and verified carousel/caught-state behaviour at desktop and 375px mobile widths.
 - Audited all workbook encounter methods and separated location cards into Wild, Tree, Surf, Dive, Fish and Rock Smash subsections. The requested five use that exact priority order, with Rock Smash retained as the sixth documented method and future unknown methods shown afterwards rather than dropped.
 - Converted the three provisional Pikachu form sprites' uniform pale-green background to hard-edged alpha with zero non-background RGB changes. Recovered pinned normal/shiny sprites for Sandy/Trash Burmy, East Sea Shellos/Gastrodon, Sunshine Cherrim and the three Paldean Tauros breeds, reducing placeholders from 16 to eight. Extended the asset audit to reject referenced Pokémon PNGs without transparency metadata.
+- Preserved the female/male meaning of the Nidoran gender symbols during interface normalization, added explicit display names and aliases for Dex 29/32, and verified their separate workbook sprites, evolutions and learnsets. This prevents Team Builder and Pokédex detail controls from resolving Nidoran male to the female record.

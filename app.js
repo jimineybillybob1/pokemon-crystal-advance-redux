@@ -65,7 +65,7 @@
   state.openBattleGuides=(()=>{try{const saved=JSON.parse(sessionStorage.getItem(storageKey('open-battle-guides-v1'))||'[]');return new Set(Array.isArray(saved)?saved.map(String):[])}catch{return new Set()}})();
   const esc = value => String(value ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
   if(!guideConfig.features?.battles)document.querySelectorAll('[data-view="battle"]').forEach(button=>button.hidden=true);
-  function norm(value){ return String(value || '').toLowerCase().replace(/[éè]/g,'e').replace(/[^a-z0-9]/g,''); }
+  function norm(value){ return String(value || '').toLowerCase().replaceAll('♀',' female ').replaceAll('♂',' male ').replace(/[éè]/g,'e').replace(/[^a-z0-9]/g,''); }
   function locationOrder(a,b){ const ar=a.name.match(/^Route\s+(\d+)(.*)$/i),br=b.name.match(/^Route\s+(\d+)(.*)$/i);if(ar&&br)return Number(ar[1])-Number(br[1])||ar[2].localeCompare(br[2]);if(ar)return -1;if(br)return 1;return a.name.localeCompare(b.name); }
   function persist(){ localStorage.setItem(storageKey('caught-v1'), JSON.stringify([...state.caught]));state.saveMeta.revision++;state.saveMeta.modifiedAt=new Date().toISOString();localStorage.setItem(syncKeys.meta,JSON.stringify(state.saveMeta));state.syncSnapshot=null;state.syncStatus=state.syncCode&&syncEndpoint?'local-newer':'unchecked';updateProgress(); }
   function updateProgress(){ const pct=Math.round(state.caught.size/Math.max(groups.length,1)*100); document.querySelector('#headerProgress').textContent=`${pct}%`; }
