@@ -1,0 +1,14 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "crystal-advance-redux-field-guide-sync",
+  "main": "src/index.js",
+  "compatibility_date": "2026-07-21",
+  "vars": {
+    "ALLOWED_ORIGINS": "https://jimineybillybob1.github.io"
+  },
+  "kv_namespaces": [
+    {
+      "binding": "SAVES"
+    }
+  ]
+}

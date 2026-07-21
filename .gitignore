@@ -1,4 +1,5 @@
 node_modules/
+.wrangler/
 work/
 sources/private/
 data/provenance-report.json

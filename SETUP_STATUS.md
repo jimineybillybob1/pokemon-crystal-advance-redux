@@ -2,7 +2,7 @@
 
 - Status: Provisional guide built, validated and deployed
 - Current phase: Source-gap follow-up
-- Readiness: Core and Planning guide live on GitHub Pages
+- Readiness: Core and Planning guide live; encrypted cloud sync configured
 - Last updated: 2026-07-21
 - Next step: Obtain version-matched Sevii tables and final custom-form/item assets, then rebuild and redeploy through the existing workflow.
 
@@ -12,13 +12,13 @@
 |---|---|---|
 | Identity | Complete | Pokémon Crystal Advance Redux 2026-07-19; Johto and Kanto; Pokémon FireRed v1.0 (GBA) |
 | Baseline profile | Complete | scarlet-violet; Dex 1025; local sprites yes |
-| Feature scope | Complete | Core required; Planning required; Advanced later |
+| Feature scope | Complete | Core and Planning required; Cloud save/sync promoted to required; remaining Advanced features later |
 | Source inventory | Complete | Community workbook, official forum thread and official developer changelog screenshots inventoried |
 | Core data | Imported and validated | 596 Pokémon forms, 95 locations, 2,642 standard encounter rows and 167 other acquisition entries imported; Seasonal Migration is separate; later Sevii content remains a gap |
 | Planning data | Imported and validated | 766 moves and 2,468 item records merged; workbook learnsets imported; 87 older/custom move definitions and 247 custom item records remain provisional |
-| Advanced data | Later / source available in part | Workbook trainer-team columns identified, but trainer battles, battle planner, maps and cloud sync remain deferred |
-| Local build | Complete | Baseline fetched and pinned; merge, schema validation, provenance audit, local-asset audit, desktop review and 375px mobile review pass |
-| Deployment | Complete | Public repository and GitHub Pages deployment verified on 2026-07-20 |
+| Advanced data | Partial / cloud sync complete | Encrypted Cloudflare Worker/KV sync is configured; workbook trainer-team columns identified, while trainer battles, battle planner and maps remain deferred |
+| Local build | Complete | Baseline fetched and pinned; merge, schema validation, provenance audit, local-asset audit, sync-worker tests, desktop review and 375px mobile review pass |
+| Deployment | Complete | Public repository, GitHub Pages and Cloudflare Worker/KV deployment verified through 2026-07-21 |
 
 ## Confirmed decisions
 
@@ -27,6 +27,7 @@
 - Save namespace: `pokemon-crystal-advance-redux-field-guide`.
 - Feature scope: Core and Planning required; Advanced later.
 - Encounter modelling: standard encounters are all-day; Seasonal Migration is a separate seasonal acquisition method.
+- Cloud sync: required; use browser-side AES-GCM encryption with a Cloudflare Worker and KV storage. Cloudflare must receive ciphertext only.
 
 ## Source coverage
 
@@ -59,3 +60,5 @@
 - Reviewed the local guide at desktop and 375px mobile widths, corrected the all-day encounter presentation, removed empty/deferred navigation, fixed horizontal overflow and confirmed no browser console errors.
 - Created `jimineybillybob1/pokemon-crystal-advance-redux`, enabled GitHub Pages through Actions, and verified the public page and guide-data asset return HTTP 200.
 - Imported a SteamGridDB hero, official-labelled logo and cartridge icon on 2026-07-21; added creator/source attribution and connected them to the homepage, favicon, install manifest and social-preview metadata.
+- Cloud save/sync promoted from later to required and configured on 2026-07-21. Deployed a versioned Cloudflare Worker with automatically provisioned KV storage, production-origin CORS, browser-side AES-GCM encryption, 64 KiB payload validation, revision conflicts and eight-version recovery history.
+- Verified the live Worker health, write/read, stale-write rejection, history and blocked-origin contracts; removed the disposable KV test fixture afterwards. Reviewed the connected Save & Sync UI at desktop and 375px mobile widths with no browser console errors or horizontal overflow.

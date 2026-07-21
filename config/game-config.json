@@ -25,7 +25,7 @@
     "battles": false,
     "badges": false,
     "maps": false,
-    "cloudSync": false
+    "cloudSync": true
   },
   "badges": [],
   "maps": {

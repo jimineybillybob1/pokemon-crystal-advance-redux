@@ -1,0 +1,9 @@
+{
+  "name": "crystal-advance-redux-field-guide-sync-worker",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node test/worker.test.mjs",
+    "deploy": "npx wrangler@4.112.0 deploy"
+  }
+}

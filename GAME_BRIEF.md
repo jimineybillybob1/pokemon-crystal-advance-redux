@@ -42,7 +42,7 @@ Mark each as `required`, `later`, or `disabled`.
 - Battle Planner: later
 - Badges and progress: required
 - Region maps: later
-- Cloud save and sync: later
+- Cloud save and sync: required; encrypted Cloudflare Worker/KV service requested 2026-07-21
 
 ## Special mechanics
 
@@ -68,4 +68,4 @@ Mark each as `required`, `later`, or `disabled`.
 - GitHub owner: jimineybillybob1
 - Repository name: pokemon-crystal-advance-redux
 - GitHub Pages URL: https://jimineybillybob1.github.io/pokemon-crystal-advance-redux/
-- Cloud sync endpoint, if already available:
+- Cloud sync endpoint, if already available: https://crystal-advance-redux-field-guide-sync.james-stewart1992.workers.dev
