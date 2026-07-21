@@ -94523,8 +94523,8 @@
       ],
       "catchRate": 120,
       "growthRate": "Medium Fast",
-      "sprite": "assets/art/placeholder-icon.svg",
-      "shinySprite": "assets/art/placeholder-icon.svg"
+      "sprite": "assets/pokemon/burmy-sandy.png",
+      "shinySprite": "assets/pokemon/shiny/burmy-sandy.png"
     },
     {
       "id": 10004,
@@ -94808,8 +94808,8 @@
       ],
       "catchRate": 120,
       "growthRate": "Medium Fast",
-      "sprite": "assets/art/placeholder-icon.svg",
-      "shinySprite": "assets/art/placeholder-icon.svg"
+      "sprite": "assets/pokemon/burmy-trash.png",
+      "shinySprite": "assets/pokemon/shiny/burmy-trash.png"
     },
     {
       "id": 10005,
@@ -95177,8 +95177,8 @@
       ],
       "catchRate": 190,
       "growthRate": "Medium Fast",
-      "sprite": "assets/art/placeholder-icon.svg",
-      "shinySprite": "assets/art/placeholder-icon.svg"
+      "sprite": "assets/pokemon/shellos-east.png",
+      "shinySprite": "assets/pokemon/shiny/shellos-east.png"
     },
     {
       "id": 250501,
@@ -95378,8 +95378,8 @@
       ],
       "catchRate": 75,
       "growthRate": "Medium Fast",
-      "sprite": "assets/art/placeholder-icon.svg",
-      "shinySprite": "assets/art/placeholder-icon.svg"
+      "sprite": "assets/pokemon/gastrodon-east.png",
+      "shinySprite": "assets/pokemon/shiny/gastrodon-east.png"
     },
     {
       "id": 250502,
@@ -95557,8 +95557,8 @@
       ],
       "catchRate": 75,
       "growthRate": "Medium Fast",
-      "sprite": "assets/art/placeholder-icon.svg",
-      "shinySprite": "assets/art/placeholder-icon.svg"
+      "sprite": "assets/pokemon/cherrim-sunshine.png",
+      "shinySprite": "assets/pokemon/shiny/cherrim-sunshine.png"
     },
     {
       "id": 10006,
@@ -108883,8 +108883,8 @@
       ],
       "catchRate": 45,
       "growthRate": "Slow",
-      "sprite": "assets/art/placeholder-icon.svg",
-      "shinySprite": "assets/art/placeholder-icon.svg"
+      "sprite": "assets/pokemon/tauros-paldea-aqua-breed.png",
+      "shinySprite": "assets/pokemon/shiny/tauros-paldea-aqua-breed.png"
     },
     {
       "id": 200570,
@@ -109081,8 +109081,8 @@
       ],
       "catchRate": 45,
       "growthRate": "Slow",
-      "sprite": "assets/art/placeholder-icon.svg",
-      "shinySprite": "assets/art/placeholder-icon.svg"
+      "sprite": "assets/pokemon/tauros-paldea-blaze-breed.png",
+      "shinySprite": "assets/pokemon/shiny/tauros-paldea-blaze-breed.png"
     },
     {
       "id": 200571,
@@ -109271,8 +109271,8 @@
       ],
       "catchRate": 45,
       "growthRate": "Slow",
-      "sprite": "assets/art/placeholder-icon.svg",
-      "shinySprite": "assets/art/placeholder-icon.svg"
+      "sprite": "assets/pokemon/tauros-paldea-combat-breed.png",
+      "shinySprite": "assets/pokemon/shiny/tauros-paldea-combat-breed.png"
     },
     {
       "id": 200572,

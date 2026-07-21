@@ -19,4 +19,27 @@ if (missing.length) {
   missing.forEach(([label, file]) => console.error(`MISSING: ${label} -> ${file}`));
   process.exit(1);
 }
-console.log(`Verified ${localReferences.length} local assets; ${references.length - localReferences.length} remote/data assets were recorded but not treated as local files.`);
+
+function pngSupportsTransparency(file) {
+  const buffer = fs.readFileSync(path.join(root, file));
+  const pngSignature = '89504e470d0a1a0a';
+  if (buffer.length < 33 || buffer.subarray(0, 8).toString('hex') !== pngSignature) return false;
+  const colourType = buffer[25];
+  if (colourType === 4 || colourType === 6) return true;
+  for (let offset = 8; offset + 12 <= buffer.length;) {
+    const length = buffer.readUInt32BE(offset);
+    const type = buffer.subarray(offset + 4, offset + 8).toString('ascii');
+    if (type === 'tRNS') return true;
+    offset += length + 12;
+  }
+  return false;
+}
+
+const pokemonPngs = [...new Set(guide.pokemon.flatMap(p => [p.sprite, p.shinySprite]).filter(file => file && /^assets\/pokemon\/.*\.png$/i.test(file)))];
+const opaquePokemonPngs = pokemonPngs.filter(file => !pngSupportsTransparency(file));
+if (opaquePokemonPngs.length) {
+  opaquePokemonPngs.forEach(file => console.error(`OPAQUE POKEMON SPRITE: ${file}`));
+  process.exit(1);
+}
+
+console.log(`Verified ${localReferences.length} local assets; ${references.length - localReferences.length} remote/data assets were recorded but not treated as local files. Checked transparency metadata for ${pokemonPngs.length} Pokemon PNG sprites.`);

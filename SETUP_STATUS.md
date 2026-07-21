@@ -14,7 +14,7 @@
 | Baseline profile | Complete | scarlet-violet; Dex 1025; local sprites yes |
 | Feature scope | Complete | Core and Planning required; Cloud save/sync promoted to required; remaining Advanced features later |
 | Source inventory | Complete | Community workbook, official forum thread and official developer changelog screenshots inventoried |
-| Core data | Imported and validated | 596 Pokémon forms, including shared Dex tracking for four Pikachu forms and provisional Surf/Fly/Partner sprites; 95 locations, 2,642 standard encounter rows and 167 other acquisition entries imported; Seasonal Migration is separate; later Sevii content remains a gap |
+| Core data | Imported and validated | 596 Pokémon forms, including shared Dex tracking for four Pikachu forms, transparent Surf/Fly/Partner sprites and recovered normal/shiny artwork for eight standard alternate forms; 95 locations, 2,642 standard encounter rows and 167 other acquisition entries imported; Seasonal Migration is separate; later Sevii content remains a gap |
 | Planning data | Imported and validated | 766 moves and 2,468 item records merged; workbook learnsets imported; 87 older/custom move definitions and 247 custom item records remain provisional |
 | Advanced data | Partial / cloud sync complete | Encrypted Cloudflare Worker/KV sync is configured; workbook trainer-team columns identified, while trainer battles, battle planner and maps remain deferred |
 | Local build | Complete | Baseline fetched and pinned; merge, schema validation, provenance audit, local-asset audit, sync-worker tests, desktop review and 375px mobile review pass |
@@ -44,7 +44,7 @@
 
 - Obtain post-2026-07-01 Sevii encounter, item and trainer tables when sources become available.
 - Confirm whether Seasonal Migration is intentionally region-wide or has an undisclosed eligible-route list.
-- Replace provisional older/custom move definitions, custom item details and 16 remaining custom-form placeholder sprites with version-matched sources/assets; replace the three provisional Pikachu form sprites if Crystal Advance Redux developer assets become available.
+- Replace provisional older/custom move definitions, custom item details and eight remaining custom-form placeholder sprites with version-matched sources/assets; replace the three provisional Pikachu form sprites if Crystal Advance Redux developer assets become available.
 - Supply dedicated egg-source pools if the game has them; workbook egg moves are imported, but no hatch-source table was identified.
 - Review the selected community branding if official developer-supplied guide assets become available.
 
@@ -65,3 +65,4 @@
 - Corrected battle recommendations so Team Builder Pokemon are scored only with selected damaging moves; blank and status-only move slots no longer trigger full-learnset fallbacks. Verified the zero-move and one-selected-move cases locally at desktop and 375px mobile widths.
 - Confirmed Pikachu, Pikachu-Partner, Pikachu-Surf and Pikachu-Fly share Dex ID 25, so their caught state and Pokédex card are species-wide. Replaced the three placeholders with provisional form-accurate Radical Red front sprites, kept unverified shiny sprites unavailable, and verified carousel/caught-state behaviour at desktop and 375px mobile widths.
 - Audited all workbook encounter methods and separated location cards into Wild, Tree, Surf, Dive, Fish and Rock Smash subsections. The requested five use that exact priority order, with Rock Smash retained as the sixth documented method and future unknown methods shown afterwards rather than dropped.
+- Converted the three provisional Pikachu form sprites' uniform pale-green background to hard-edged alpha with zero non-background RGB changes. Recovered pinned normal/shiny sprites for Sandy/Trash Burmy, East Sea Shellos/Gastrodon, Sunshine Cherrim and the three Paldean Tauros breeds, reducing placeholders from 16 to eight. Extended the asset audit to reject referenced Pokémon PNGs without transparency metadata.

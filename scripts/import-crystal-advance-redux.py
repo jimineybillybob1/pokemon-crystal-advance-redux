@@ -245,15 +245,25 @@ TYPE_COLOURS = {
     "steel": "#B7B7CE", "fairy": "#D685AD",
 }
 
-# Provisional form-accurate sprites from the public Radical Red Pokédex data
-# repository, whose Pikachu form keys match the workbook entries. Crystal
-# Advance Redux-specific shiny sprites have not been located, so those remain
-# explicitly unavailable instead of reusing or recolouring another form.
-# Source revision: https://github.com/JwowSquared/Radical-Red-Pokedex/tree/488a0918194d567b5f7b02c396118d51fb9c81ce/graphics/frontspr
+# Standard alternate forms use the project's pinned PokeAPI sprite revision;
+# the workbook's A/B/C Paldean Tauros labels are matched by documented types.
+# Pikachu forms use provisional form-accurate sprites from the public Radical
+# Red Pokédex data repository. Crystal Advance Redux-specific shiny Pikachu
+# sprites have not been located, so those remain explicitly unavailable.
+# PokeAPI revision: baseline.lock.json
+# Pikachu source revision: https://github.com/JwowSquared/Radical-Red-Pokedex/tree/488a0918194d567b5f7b02c396118d51fb9c81ce/graphics/frontspr
 CUSTOM_FORM_SPRITES = {
-    "pikachu-partner": "assets/pokemon/pikachu-partner.png",
-    "pikachu-surf": "assets/pokemon/pikachu-surf.png",
-    "pikachu-fly": "assets/pokemon/pikachu-fly.png",
+    "burmy-s": {"sprite": "assets/pokemon/burmy-sandy.png", "shinySprite": "assets/pokemon/shiny/burmy-sandy.png"},
+    "burmy-t": {"sprite": "assets/pokemon/burmy-trash.png", "shinySprite": "assets/pokemon/shiny/burmy-trash.png"},
+    "shellos-east": {"sprite": "assets/pokemon/shellos-east.png", "shinySprite": "assets/pokemon/shiny/shellos-east.png"},
+    "gastrodon-east": {"sprite": "assets/pokemon/gastrodon-east.png", "shinySprite": "assets/pokemon/shiny/gastrodon-east.png"},
+    "cherrim-sunny": {"sprite": "assets/pokemon/cherrim-sunshine.png", "shinySprite": "assets/pokemon/shiny/cherrim-sunshine.png"},
+    "paldean-tauros-a": {"sprite": "assets/pokemon/tauros-paldea-aqua-breed.png", "shinySprite": "assets/pokemon/shiny/tauros-paldea-aqua-breed.png"},
+    "paldean-tauros-b": {"sprite": "assets/pokemon/tauros-paldea-blaze-breed.png", "shinySprite": "assets/pokemon/shiny/tauros-paldea-blaze-breed.png"},
+    "paldean-tauros-c": {"sprite": "assets/pokemon/tauros-paldea-combat-breed.png", "shinySprite": "assets/pokemon/shiny/tauros-paldea-combat-breed.png"},
+    "pikachu-partner": {"sprite": "assets/pokemon/pikachu-partner.png", "shinySprite": ""},
+    "pikachu-surf": {"sprite": "assets/pokemon/pikachu-surf.png", "shinySprite": ""},
+    "pikachu-fly": {"sprite": "assets/pokemon/pikachu-fly.png", "shinySprite": ""},
 }
 
 
@@ -555,9 +565,9 @@ def pokemon_overrides(
         if entry["baseline"]:
             matched_baseline_ids.add(int(entry["baseline"]["id"]))
         else:
-            custom_sprite = CUSTOM_FORM_SPRITES.get(entry["sourceKey"])
-            patch["sprite"] = custom_sprite or "assets/art/placeholder-icon.svg"
-            patch["shinySprite"] = "" if custom_sprite else "assets/art/placeholder-icon.svg"
+            custom_sprites = CUSTOM_FORM_SPRITES.get(entry["sourceKey"])
+            patch["sprite"] = custom_sprites["sprite"] if custom_sprites else "assets/art/placeholder-icon.svg"
+            patch["shinySprite"] = custom_sprites["shinySprite"] if custom_sprites else "assets/art/placeholder-icon.svg"
         imported.append(patch)
 
     for baseline_entry in baseline.get("pokemon", []):
