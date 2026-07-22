@@ -46,6 +46,13 @@ unique(guide.pokemon, 'key', 'Pokémon');
 unique(guide.moves, 'id', 'move');
 unique(items, 'id', 'item');
 unique(battles.battles || [], 'id', 'battle');
+unique(config.badges || [], 'id', 'badge');
+
+if (config.features?.badges) requireValue(Array.isArray(config.badges) && config.badges.length > 0, 'Badge tracking is enabled but no badges are configured.');
+for (const badge of config.badges || []) {
+  requireValue(badge.id && badge.name && badge.region && badge.image, `Badge requires id, name, region and image: ${JSON.stringify(badge)}`);
+  if (badge.code != null) requireValue(/^82003884 [0-9A-F]{4}$/.test(badge.code), `${badge.name || badge.id}: invalid documented badge code ${badge.code}.`);
+}
 
 const pokemonIds = new Set(guide.pokemon.map(p => Number(p.id)));
 const pokemonKeys = new Set(guide.pokemon.map(p => norm(p.key)));

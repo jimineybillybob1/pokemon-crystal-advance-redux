@@ -53,6 +53,7 @@ Mark each as `required`, `later`, or `disabled`.
 - The game uses altered Stat EXP/EV rules, optional level caps, soft Nuzlocke and No EXP modes.
 - The workbook contains standard Johto/Kanto acquisition data through 2026-07-01. Post-workbook Sevii Island content needs structured encounter, item and trainer evidence.
 - Encounter `More Info` values define distinct subareas/floors within a parent location and must remain separate. Trainer rows in `Location Data` supply location, subarea, trainer, VS marker, up to six Pokémon and optional levels; blank VS levels scale to the player's team, while other blanks remain undocumented.
+- The Overview badge tracker contains eight Johto city-labelled badges followed by eight Kanto city-labelled badges. The user-supplied memory identifiers run consecutively from `82003884 018B` through `82003884 019A`; `Eceuteak` and `Celedon` are normalized to the canonical spellings Ecruteak and Celadon.
 
 ## Branding
 
