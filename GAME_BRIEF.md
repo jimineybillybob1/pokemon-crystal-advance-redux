@@ -48,7 +48,7 @@ Mark each as `required`, `later`, or `disabled`.
 ## Special mechanics
 
 - Standard encounters use one all-day table rather than morning/day/night variants.
-- `Location Data` Method values are the primary wild-encounter subsections in this order: Wild, Tree, Rock, Surf, Fish, Dive. Column D `More Info` remains available as a nested label beneath its method, so floors and distinct areas are preserved without displacing the encounter method.
+- `Location Data` Method values are the primary wild-encounter subsections in this order: Wild, Tree, Rock, Surf, Fish, Dive. Every method uses the same subsection presentation as a documented sub-location. Column D `More Info` remains available as a nested label beneath its method, so floors and distinct areas are preserved without displacing the encounter method.
 - Fishing encounters retain the rod named in `Location Data` column G (`More Info / Evo Method`). Within every Fish subsection they display in acquisition order: Old Rod, Good Rod, then Super Rod.
 - Seasonal Migration is a separate encounter overlay. The workbook supplies Johto/Kanto seasonal species pools and rates: general seasonal pools 4.5%, April baby Pokémon 3%, and July summer migrations 1% after the developer correction. The source describes region-wide outdoor grass rather than individual routes.
 - Fairy type and later-generation moves, evolutions, regional variants and forms are present.
