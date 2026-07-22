@@ -45,6 +45,7 @@ unique(guide.pokemon, 'id', 'Pokémon');
 unique(guide.pokemon, 'key', 'Pokémon');
 unique(guide.moves, 'id', 'move');
 unique(items, 'id', 'item');
+unique(battles.battles || [], 'id', 'battle');
 
 const pokemonIds = new Set(guide.pokemon.map(p => Number(p.id)));
 const pokemonKeys = new Set(guide.pokemon.map(p => norm(p.key)));
@@ -59,7 +60,10 @@ for (const pokemon of guide.pokemon) {
 
 for (const location of guide.locations) {
   requireValue(location.name && Array.isArray(location.day) && Array.isArray(location.night), `Location requires name, day and night arrays: ${JSON.stringify(location)}`);
-  for (const encounter of [...(location.day || []), ...(location.night || [])]) if (!pokemonKeys.has(norm(encounter.pokemon))) errors.push(`${location.name}: unresolved encounter ${encounter.pokemon}.`);
+  for (const encounter of [...(location.day || []), ...(location.night || [])]) {
+    if (!pokemonKeys.has(norm(encounter.pokemon))) errors.push(`${location.name}: unresolved encounter ${encounter.pokemon}.`);
+    requireValue(encounter.subarea == null || typeof encounter.subarea === 'string', `${location.name}: encounter subarea must be a string.`);
+  }
 }
 
 for (const [section, entries] of Object.entries(acquisition)) {
@@ -68,7 +72,15 @@ for (const [section, entries] of Object.entries(acquisition)) {
 }
 
 for (const source of eggs) for (const name of source.pokemon || []) if (!pokemonKeys.has(norm(name))) errors.push(`${source.title || source.id}: unresolved egg Pokémon ${name}.`);
-for (const battle of battles.battles || []) requireValue(Array.isArray(battle.team), `${battle.id}: battle team must be an array.`);
+for (const battle of battles.battles || []) {
+  requireValue(battle.id && battle.trainer && battle.location && battle.category, `${battle.id || 'Unknown battle'}: battle requires id, trainer, location and category.`);
+  requireValue(Array.isArray(battle.team) && battle.team.length > 0, `${battle.id}: battle team must be a non-empty array.`);
+  for (const member of battle.team || []) {
+    requireValue(member.name && Array.isArray(member.moves), `${battle.id}: every team member requires a name and moves array.`);
+    requireValue(typeof member.level === 'number' || typeof member.level === 'string', `${battle.id}: ${member.name} requires a numeric or explicit text level.`);
+    if (!member.conditional && !pokemonKeys.has(norm(member.name))) errors.push(`${battle.id}: unresolved battle Pokémon ${member.name}.`);
+  }
+}
 
 if (!guide.pokemon.length) warnings.push('No Pokémon have been imported yet.');
 if (!guide.locations.length) warnings.push('No wild encounter locations have been imported yet.');

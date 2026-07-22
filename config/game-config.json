@@ -22,7 +22,7 @@
     "teamBuilder": true,
     "futureTeam": true,
     "favorites": true,
-    "battles": false,
+    "battles": true,
     "badges": false,
     "maps": false,
     "cloudSync": true

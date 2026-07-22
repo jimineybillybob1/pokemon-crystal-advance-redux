@@ -2,7 +2,7 @@
 
 - Status: Provisional guide built, validated and deployed
 - Current phase: Source-gap follow-up
-- Readiness: Core and Planning guide live; encrypted cloud sync configured
+- Readiness: Core and Planning guide live; location subareas, trainer battles and encrypted cloud sync configured
 - Last updated: 2026-07-22
 - Next step: Obtain version-matched Sevii tables and final custom-form/item assets, then rebuild and redeploy through the existing workflow.
 
@@ -16,7 +16,7 @@
 | Source inventory | Complete | Community workbook, official forum thread and official developer changelog screenshots inventoried |
 | Core data | Imported and validated | 596 Pokémon forms, including shared Dex tracking for four Pikachu forms, transparent Surf/Fly/Partner sprites and recovered normal/shiny artwork for eight standard alternate forms; 95 locations, 2,642 standard encounter rows and 167 other acquisition entries imported; Seasonal Migration is separate; later Sevii content remains a gap |
 | Planning data | Imported and validated | 766 moves and 2,468 item records merged; workbook learnsets imported; 87 older/custom move definitions and 247 custom item records remain provisional |
-| Advanced data | Partial / cloud sync complete | Encrypted Cloudflare Worker/KV sync is configured; workbook trainer-team columns identified, while trainer battles, battle planner and maps remain deferred |
+| Advanced data | Partial / battles and cloud sync complete | Encrypted Cloudflare Worker/KV sync is configured; 668 workbook trainer battles, including 229 VS Seeker rematches, are imported into the active Battle Guide and planner; maps remain deferred |
 | Local build | Complete | Baseline fetched and pinned; merge, schema validation, provenance audit, local-asset audit, sync-worker tests, desktop review and 375px mobile review pass |
 | Deployment | Complete | Public repository, GitHub Pages and Cloudflare Worker/KV deployment verified through 2026-07-21 |
 
@@ -37,7 +37,7 @@
 | Moves and learnsets | Strong through 2026-07-01 | `sources/inbox/Crystal Advance Redux.xlsx` | Verify post-2026-07-01 changes and move effects |
 | Wild encounters and other acquisition | Strong through 2026-07-01 | Workbook plus developer changelog screenshots | Seasonal pools are region-wide rather than route-specific; post-2026-07-01 Sevii tables absent |
 | Items and shops | Strong through 2026-07-01 | `sources/inbox/Crystal Advance Redux.xlsx` | Verify Route 31 Potion fix and later Sevii placements |
-| Trainer and boss battles | Structured workbook columns identified | Workbook plus official developer thread/changelog | Import deferred with Advanced features; post-workbook teams still need review |
+| Trainer and boss battles | Strong through 2026-07-01 | Workbook plus official developer thread/changelog | Imported 668 location-based trainer teams, including 229 VS Seeker rematches; moves, abilities, items and natures are absent, and post-workbook teams still need review |
 | Badges, maps and branding | Partial | Workbook level caps, official developer thread and SteamGridDB | Selected hero, logo and app icon imported with attribution; reusable maps remain unavailable |
 
 ## Open questions
@@ -63,7 +63,9 @@
 - Cloud save/sync promoted from later to required and configured on 2026-07-21. Deployed a versioned Cloudflare Worker with automatically provisioned KV storage, production-origin CORS, browser-side AES-GCM encryption, 64 KiB payload validation, revision conflicts and eight-version recovery history.
 - Verified the live Worker health, write/read, stale-write rejection, history and blocked-origin contracts; removed the disposable KV test fixture afterwards. Reviewed the connected Save & Sync UI at desktop and 375px mobile widths with no browser console errors or horizontal overflow.
 - Corrected battle recommendations so Team Builder Pokemon are scored only with selected damaging moves; blank and status-only move slots no longer trigger full-learnset fallbacks. Verified the zero-move and one-selected-move cases locally at desktop and 375px mobile widths.
+- Added a generated RetroArch/mGBA cheat file from the PokeCoders list updated 2026-07-11, then audited all 34 visible comments on 2026-07-22. Replaced the broken Item PC group with the corroborated bag-slot address and tested item table, removed wild/shiny codes with newer failure reports, rejected obsolete/unverified suggestions, filtered unsafe item choices, kept master/lead codes separate and defaulted every entry off.
 - Confirmed Pikachu, Pikachu-Partner, Pikachu-Surf and Pikachu-Fly share Dex ID 25, so their caught state and Pokédex card are species-wide. Replaced the three placeholders with provisional form-accurate Radical Red front sprites, kept unverified shiny sprites unavailable, and verified carousel/caught-state behaviour at desktop and 375px mobile widths.
 - Audited all workbook encounter methods and separated location cards into Wild, Tree, Surf, Dive, Fish and Rock Smash subsections. The requested five use that exact priority order, with Rock Smash retained as the sixth documented method and future unknown methods shown afterwards rather than dropped.
+- Imported every wild-encounter `More Info` value as a structured subarea, preserving 81 location/subarea combinations across 38 parent locations; Sprout Tower now displays separate 1F, 2F and 3F encounter tables. Imported 668 trainer-team rows from `Location Data` into the Battle Guide, including 229 VS Seeker rematches. Blank VS levels are labelled team-scaled, while other blank levels remain explicitly undocumented.
 - Converted the three provisional Pikachu form sprites' uniform pale-green background to hard-edged alpha with zero non-background RGB changes. Recovered pinned normal/shiny sprites for Sandy/Trash Burmy, East Sea Shellos/Gastrodon, Sunshine Cherrim and the three Paldean Tauros breeds, reducing placeholders from 16 to eight. Extended the asset audit to reject referenced Pokémon PNGs without transparency metadata.
 - Preserved the female/male meaning of the Nidoran gender symbols during interface normalization, added explicit display names and aliases for Dex 29/32, and verified their separate workbook sprites, evolutions and learnsets. This prevents Team Builder and Pokédex detail controls from resolving Nidoran male to the female record.

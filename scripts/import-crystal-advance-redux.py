@@ -235,7 +235,12 @@ MOVE_ALIASES = {
 }
 
 ABILITY_ALIASES = {"download2": "download"}
-POKEMON_ALIASES = {"goldusk": "golduck"}
+POKEMON_ALIASES = {
+    "goldusk": "golduck",
+    # Location Data trainer-team typos in the 2026-07-01 community workbook.
+    "poygon2": "porygon2",
+    "magneeton": "magneton",
+}
 
 TYPE_COLOURS = {
     "normal": "#A8A77A", "fire": "#EE8130", "water": "#6390F0", "electric": "#F7D02C",
@@ -596,6 +601,7 @@ def import_locations(rows: dict[int, dict[int, object]], aliases: dict[str, dict
     for row_number, row in sorted(rows.items()):
         pokemon_name = str(row.get(2, "")).strip()
         location = str(row.get(3, "")).strip()
+        subarea = str(row.get(4, "")).strip()
         method = str(row.get(5, "")).strip()
         if row_number < 2 or not pokemon_name or not location or not method or method == "Method":
             continue
@@ -612,7 +618,8 @@ def import_locations(rows: dict[int, dict[int, object]], aliases: dict[str, dict
                 "method": method,
                 "level": level,
                 "rarity": rarity,
-                "details": details,
+                "subarea": subarea,
+                "details": str(row.get(7, "")).strip(),
                 "period": "all-day",
             }
             grouped.setdefault(location, []).append(encounter)
@@ -638,6 +645,92 @@ def import_locations(rows: dict[int, dict[int, object]], aliases: dict[str, dict
     for section in acquisition:
         acquisition[section] = ordered_unique(acquisition[section])
     return locations, acquisition, unresolved
+
+
+def import_battles(rows: dict[int, dict[int, object]], aliases: dict[str, dict]) -> tuple[dict, list[dict]]:
+    slot_columns = (("AI", "AJ"), ("AK", "AL"), ("AM", "AN"), ("AO", "AP"), ("AQ", "AR"), ("AS", "AT"))
+    battles = []
+    unresolved = []
+    for row_number, row in sorted(rows.items()):
+        location = str(row.get(column_number("AD"), "") or row.get(column_number("AE"), "")).strip()
+        trainer = str(row.get(column_number("AG"), "")).strip()
+        if row_number < 2 or not location or not trainer or trainer == "Trainer":
+            continue
+        is_vs = str(row.get(column_number("AH"), "")).strip().lower() == "vs"
+        team = []
+        for pokemon_column, level_column in slot_columns:
+            source_name = str(row.get(column_number(pokemon_column), "")).strip()
+            if not source_name:
+                continue
+            pokemon = resolve_pokemon(source_name, aliases)
+            raw_level = str(row.get(column_number(level_column), "")).strip()
+            parsed_level = number(raw_level)
+            if parsed_level is not None:
+                level: int | float | str = parsed_level
+            elif is_vs:
+                level = "Team-scaled"
+            else:
+                level = raw_level or "Not documented"
+            member = {
+                "name": pokemon["key"] if pokemon else source_name,
+                "level": level,
+                "ability": "",
+                "item": "",
+                "nature": "",
+                "moves": [],
+            }
+            if not pokemon:
+                if re.fullmatch(r"SE Starter(?: [23])?", source_name, flags=re.I):
+                    member["conditional"] = True
+                    member["condition"] = "Species depends on the player's starter choice."
+                else:
+                    unresolved.append({"row": row_number, "trainer": trainer, "pokemon": source_name})
+            team.append(member)
+        if not team:
+            continue
+        numeric_levels = [member["level"] for member in team if isinstance(member["level"], (int, float))]
+        notes = []
+        if is_vs:
+            notes.append("VS Seeker rematch")
+            if any(member["level"] == "Team-scaled" for member in team):
+                notes.append("Unset levels scale to the player's team")
+        if any(member["level"] == "Not documented" for member in team):
+            notes.append("One or more levels are not documented in the workbook")
+        if any(member.get("conditional") for member in team):
+            notes.append("Conditional starter slot retained from the workbook")
+        battle = {
+            "id": f"location-data-{row_number}-{slug(location)}-{slug(trainer)}",
+            "mode": "default",
+            "category": "VS Seeker Rematch" if is_vs else "Trainer Battle",
+            "trainer": trainer,
+            "location": location,
+            "subarea": str(row.get(column_number("AF"), "")).strip(),
+            "rematch": is_vs,
+            "team": team,
+            "notes": notes,
+            "source": {
+                "file": "sources/inbox/Crystal Advance Redux.xlsx",
+                "sheet": "Location Data",
+                "row": row_number,
+            },
+        }
+        if len(numeric_levels) == len(team):
+            battle["levelMin"] = min(numeric_levels)
+            battle["levelMax"] = max(numeric_levels)
+        battles.append(battle)
+    return {
+        "meta": {
+            "version": "2026-07-01",
+            "title": "Crystal Advance Redux community workbook trainer data",
+            "sourceNote": "Trainer, location, subarea, VS marker, species and documented levels are imported from Location Data columns AD:AT.",
+            "limitations": [
+                "The workbook does not document trainer moves, abilities, held items or natures.",
+                "Blank VS Seeker levels are explicitly shown as team-scaled; other blank levels remain not documented.",
+                "Post-2026-07-01 Sevii trainer data is absent.",
+            ],
+        },
+        "battles": battles,
+    }, unresolved
 
 
 def import_seasonal(rows: dict[int, dict[int, object]], aliases: dict[str, dict], acquisition: dict[str, list[dict]]) -> list[dict]:
@@ -753,6 +846,7 @@ def import_workbook(workbook: OpenXmlWorkbook, project_root: Path) -> dict:
     move_resolver = MoveResolver(baseline, move_id_index(project_root, lock))
     pokemon_patches, custom_abilities = pokemon_overrides(roster, evolution_edges, move_resolver, baseline, baseline_abilities)
     locations, acquisition, unresolved_acquisition = import_locations(location_rows, aliases)
+    battles, unresolved_battle_pokemon = import_battles(location_rows, aliases)
     unresolved_seasonal = import_seasonal(misc_rows, aliases, acquisition)
     item_patches, custom_items = import_items(location_rows, baseline_items)
 
@@ -762,6 +856,7 @@ def import_workbook(workbook: OpenXmlWorkbook, project_root: Path) -> dict:
             "source": "Crystal Advance Redux community workbook (data current through 2026-07-01), reconciled with official developer changelog through 2026-07-19",
             "limitations": [
                 "Post-2026-07-01 Sevii encounter, item and trainer details are not present in the workbook.",
+                "Location Data More Info values are retained as encounter subareas rather than merged into a parent-location table.",
                 "July Seasonal Migration uses the official 2026-07-01 changelog correction of a 1% pool trigger.",
                 "Move stubs retain identity where the Scarlet/Violet baseline lacks an older or custom move definition.",
             ],
@@ -774,6 +869,7 @@ def import_workbook(workbook: OpenXmlWorkbook, project_root: Path) -> dict:
     write_json(project_root / "data/overrides/abilities-data.json", custom_abilities)
     write_json(project_root / "data/overrides/items-data.json", item_patches)
     write_json(project_root / "data/acquisition-data.json", acquisition)
+    write_json(project_root / "data/battle-data.json", battles)
 
     report = {
         "source": str(workbook.path),
@@ -786,7 +882,10 @@ def import_workbook(workbook: OpenXmlWorkbook, project_root: Path) -> dict:
             "customAbilityStubs": len(custom_abilities),
             "locations": len(locations),
             "wildEncounterRows": sum(len(location["day"]) for location in locations),
+            "wildEncounterSubareas": len({(location["name"], encounter.get("subarea")) for location in locations for encounter in location["day"] if encounter.get("subarea")}),
             "acquisitionRows": sum(len(values) for values in acquisition.values()),
+            "trainerBattles": len(battles["battles"]),
+            "vsSeekerRematches": sum(1 for battle in battles["battles"] if battle["rematch"]),
             "itemOverrides": len(item_patches),
             "customItems": len(custom_items),
         },
@@ -795,6 +894,7 @@ def import_workbook(workbook: OpenXmlWorkbook, project_root: Path) -> dict:
         "customItems": custom_items,
         "unresolvedEvolutionMethods": unresolved_evolutions,
         "unresolvedAcquisitionRows": unresolved_acquisition,
+        "unresolvedBattlePokemon": unresolved_battle_pokemon,
         "unresolvedSeasonalRows": unresolved_seasonal,
     }
     write_json(project_root / "sources/reports/crystal-advance-redux-import-report.json", report)

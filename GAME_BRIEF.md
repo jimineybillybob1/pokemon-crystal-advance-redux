@@ -38,8 +38,8 @@ Mark each as `required`, `later`, or `disabled`.
 - Moves and learnsets: required
 - Team Builder: required
 - Future Team and Favorites: required
-- Trainer battle guide: later
-- Battle Planner: later
+- Trainer battle guide: required; workbook location trainers and VS Seeker rematches imported 2026-07-22
+- Battle Planner: required
 - Badges and progress: required
 - Region maps: later
 - Cloud save and sync: required; encrypted Cloudflare Worker/KV service requested 2026-07-21
@@ -52,6 +52,7 @@ Mark each as `required`, `later`, or `disabled`.
 - Trade evolutions are generally replaced by held-item-plus-level methods; Eevee uses stones.
 - The game uses altered Stat EXP/EV rules, optional level caps, soft Nuzlocke and No EXP modes.
 - The workbook contains standard Johto/Kanto acquisition data through 2026-07-01. Post-workbook Sevii Island content needs structured encounter, item and trainer evidence.
+- Encounter `More Info` values define distinct subareas/floors within a parent location and must remain separate. Trainer rows in `Location Data` supply location, subarea, trainer, VS marker, up to six Pokémon and optional levels; blank VS levels scale to the player's team, while other blanks remain undocumented.
 
 ## Branding
 

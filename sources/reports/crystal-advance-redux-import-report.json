@@ -9,7 +9,10 @@
     "customAbilityStubs": 0,
     "locations": 95,
     "wildEncounterRows": 2642,
+    "wildEncounterSubareas": 81,
     "acquisitionRows": 167,
+    "trainerBattles": 668,
+    "vsSeekerRematches": 229,
     "itemOverrides": 451,
     "customItems": 248
   },
@@ -496,5 +499,6 @@
   ],
   "unresolvedEvolutionMethods": [],
   "unresolvedAcquisitionRows": [],
+  "unresolvedBattlePokemon": [],
   "unresolvedSeasonalRows": []
 }

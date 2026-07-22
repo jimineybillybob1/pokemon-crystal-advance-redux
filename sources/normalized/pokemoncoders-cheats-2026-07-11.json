@@ -1,0 +1,10309 @@
+{
+  "schemaVersion": 1,
+  "game": "Pokémon Crystal Advance Redux",
+  "guideGameVersion": "2026-07-19",
+  "source": {
+    "url": "https://www.pokemoncoders.com/pokemon-crystal-advance-redux-cheats/",
+    "pageUpdated": "2026-07-11",
+    "wildModifierTestedVersion": "2026-04-05",
+    "communityMartTestedThrough": "2026-06-25",
+    "authority": "Community cheat compilation; not official",
+    "extracted": "2026-07-22"
+  },
+  "warnings": [
+    "The source predates the guide's 2026-07-19 game build, so every code is provisional for that build.",
+    "The page says its wild modifier was tested on the 2026-04-05 build, but its closing text also says the Pokémon modifier is not working.",
+    "Item PC IDs may yield a different item or no item according to the source.",
+    "Poké Mart modifiers directly alter memory; enable one at a time and avoid badges, key items, story items and unknown IDs.",
+    "The page describes 416 Poké Mart items and later says about 415 mapped entries, but its table exposes 381 rows and 376 unique concrete IDs; the unique published IDs are preserved without inventing missing entries."
+  ],
+  "fixedCheats": [
+    {
+      "category": "Battle",
+      "name": "Catch Trainer Pokémon (press L+R before throwing a ball)",
+      "codes": [
+        "4D83B1BF E0F5F507",
+        "8E883EFF 92E9660D",
+        "B6C5368A 08BE8FF4",
+        "90B4977C C0151DC2"
+      ]
+    },
+    {
+      "category": "Battle",
+      "name": "Instant knockout",
+      "codes": [
+        "95EDFBBA A5A72A78",
+        "C833D1A0 02FA7205"
+      ]
+    },
+    {
+      "category": "Battle",
+      "name": "Large EXP gain",
+      "codes": [
+        "74000130027D",
+        "7300218C0001",
+        "82023D501388"
+      ]
+    },
+    {
+      "category": "Battle",
+      "name": "Unlimited PP",
+      "codes": [
+        "42023C08 6363",
+        "00000002 0002"
+      ]
+    },
+    {
+      "category": "Encounter",
+      "name": "Force female encounters",
+      "codes": [
+        "EB34F751 A96B854D",
+        "78DA95DF 44018CB4"
+      ]
+    },
+    {
+      "category": "Encounter",
+      "name": "Force male encounters",
+      "codes": [
+        "EB34F751 A96B854D",
+        "141BB87C 83D7018F"
+      ]
+    },
+    {
+      "category": "Encounter",
+      "name": "No wild encounters",
+      "codes": [
+        "D41DD0CA 33A629E5",
+        "8E883EFF 92E9660D"
+      ]
+    },
+    {
+      "category": "Encounter",
+      "name": "Shiny encounters (disable before catching to avoid name glitch)",
+      "codes": [
+        "1670047D 04815C68",
+        "18452A7D DDE55BCC"
+      ]
+    },
+    {
+      "category": "Shop",
+      "name": "Poké Mart items cost 1",
+      "codes": [
+        "3C25A344 FD8F451C",
+        "AD86124F 2823D8DA"
+      ]
+    },
+    {
+      "category": "Movement",
+      "name": "Walk through walls (save first; avoid getting stuck)",
+      "codes": [
+        "509197D3 542975F4",
+        "78DA95DF 44018CB4"
+      ]
+    },
+    {
+      "category": "Party",
+      "name": "Party slot 1 max stats",
+      "codes": [
+        "420242DA03E7",
+        "000000070002"
+      ]
+    },
+    {
+      "category": "Party",
+      "name": "Party slot 2 max stats",
+      "codes": [
+        "4202433E03E7",
+        "000000070002"
+      ]
+    },
+    {
+      "category": "Party",
+      "name": "Party slot 3 max stats",
+      "codes": [
+        "420243A203E7",
+        "000000070002"
+      ]
+    },
+    {
+      "category": "Party",
+      "name": "Party slot 4 max stats",
+      "codes": [
+        "4202440603E7",
+        "000000070002"
+      ]
+    },
+    {
+      "category": "Party",
+      "name": "Party slot 5 max stats",
+      "codes": [
+        "4202446A03E7",
+        "000000070002"
+      ]
+    },
+    {
+      "category": "Party",
+      "name": "Party slot 6 max stats",
+      "codes": [
+        "420244CE03E7",
+        "000000070002"
+      ]
+    },
+    {
+      "category": "Master",
+      "name": "Perfect IV master code",
+      "codes": [
+        "000014D1 000A",
+        "1003DAE6 0007"
+      ]
+    },
+    {
+      "category": "Party",
+      "name": "Perfect IV stats (requires Perfect IV master)",
+      "codes": [
+        "33007CF1 001F"
+      ]
+    },
+    {
+      "category": "Master",
+      "name": "Unlimited money master code",
+      "codes": [
+        "3AF85ACA C4D18CEC",
+        "8E883EFF 92E9660D"
+      ]
+    },
+    {
+      "category": "Money",
+      "name": "Unlimited money (requires money master)",
+      "codes": [
+        "29C78059 96542194"
+      ]
+    },
+    {
+      "category": "Master",
+      "name": "Fast egg hatch master code",
+      "codes": [
+        "97726CAE9184",
+        "8F7AAA5C15FE",
+        "B85E5A770386"
+      ]
+    },
+    {
+      "category": "Party",
+      "name": "Fast egg hatch (requires egg master)",
+      "codes": [
+        "AFFCC14D D7FA"
+      ]
+    }
+  ],
+  "modifiers": {
+    "levelLead": {
+      "name": "Wild level modifier lead code",
+      "codes": [
+        "754ED27A 8B1BEFEE"
+      ]
+    },
+    "levels": [
+      {
+        "level": 1,
+        "codes": [
+          "8BB602F7 8CEB681A"
+        ]
+      },
+      {
+        "level": 2,
+        "codes": [
+          "00939804 4086FF3B"
+        ]
+      },
+      {
+        "level": 3,
+        "codes": [
+          "2BD38F05 D5A578B1"
+        ]
+      },
+      {
+        "level": 4,
+        "codes": [
+          "5685B807 3787DACB"
+        ]
+      },
+      {
+        "level": 5,
+        "codes": [
+          "A9E4EA45 3651CADD"
+        ]
+      },
+      {
+        "level": 6,
+        "codes": [
+          "E37D365E D7EAB6AB"
+        ]
+      },
+      {
+        "level": 7,
+        "codes": [
+          "51374592 F7A27768"
+        ]
+      },
+      {
+        "level": 8,
+        "codes": [
+          "A08DD229 10D187E3"
+        ]
+      },
+      {
+        "level": 9,
+        "codes": [
+          "D84D4738 70F68A80"
+        ]
+      },
+      {
+        "level": 10,
+        "codes": [
+          "4C6C2B8C CD0528EB"
+        ]
+      },
+      {
+        "level": 11,
+        "codes": [
+          "1F1785AC 433A6DC2"
+        ]
+      },
+      {
+        "level": 12,
+        "codes": [
+          "B4F6F07D 8F56BA40"
+        ]
+      },
+      {
+        "level": 13,
+        "codes": [
+          "E32BCCB1 07782CD6"
+        ]
+      },
+      {
+        "level": 14,
+        "codes": [
+          "D4ABF236 D713B4E0"
+        ]
+      },
+      {
+        "level": 15,
+        "codes": [
+          "3CD3295F 921F1D1C"
+        ]
+      },
+      {
+        "level": 16,
+        "codes": [
+          "B9C51F47 95395496"
+        ]
+      },
+      {
+        "level": 17,
+        "codes": [
+          "784E8A1B 83A3E0EF"
+        ]
+      },
+      {
+        "level": 18,
+        "codes": [
+          "902D754C 80AFE55F"
+        ]
+      },
+      {
+        "level": 19,
+        "codes": [
+          "9D362B43 96A4D044"
+        ]
+      },
+      {
+        "level": 20,
+        "codes": [
+          "8C434E48 F703A9E1"
+        ]
+      },
+      {
+        "level": 21,
+        "codes": [
+          "CC449941 F0BBB13A"
+        ]
+      },
+      {
+        "level": 22,
+        "codes": [
+          "CEDDB323 FFA50BB1"
+        ]
+      },
+      {
+        "level": 23,
+        "codes": [
+          "4688F12F FF9DBE10"
+        ]
+      },
+      {
+        "level": 24,
+        "codes": [
+          "F6DA2242 E2EDA644"
+        ]
+      },
+      {
+        "level": 25,
+        "codes": [
+          "2D02A8EA 9B748C49"
+        ]
+      },
+      {
+        "level": 26,
+        "codes": [
+          "9D2895EF 6A2BEE59"
+        ]
+      },
+      {
+        "level": 27,
+        "codes": [
+          "1BB7262E 80989B57"
+        ]
+      },
+      {
+        "level": 28,
+        "codes": [
+          "79693C0B A82C5A23"
+        ]
+      },
+      {
+        "level": 29,
+        "codes": [
+          "B98E773A D6E0D6AD"
+        ]
+      },
+      {
+        "level": 30,
+        "codes": [
+          "A457FA67 BCD9C478"
+        ]
+      },
+      {
+        "level": 31,
+        "codes": [
+          "881976CC 20B658FF"
+        ]
+      },
+      {
+        "level": 32,
+        "codes": [
+          "0073F88A 0A4E81B6"
+        ]
+      },
+      {
+        "level": 33,
+        "codes": [
+          "792E7A0F F4BF8DDB"
+        ]
+      },
+      {
+        "level": 34,
+        "codes": [
+          "0965B686 64E170F2"
+        ]
+      },
+      {
+        "level": 35,
+        "codes": [
+          "C70600E8 789A0DAC"
+        ]
+      },
+      {
+        "level": 36,
+        "codes": [
+          "0CF8B98B 706A26BE"
+        ]
+      },
+      {
+        "level": 37,
+        "codes": [
+          "2E7A201E 5EDBDEE3"
+        ]
+      },
+      {
+        "level": 38,
+        "codes": [
+          "9B169FF5 CBABA5A6"
+        ]
+      },
+      {
+        "level": 39,
+        "codes": [
+          "7928BBA3 C55BBEAB"
+        ]
+      },
+      {
+        "level": 40,
+        "codes": [
+          "155D7103 D66B8A15"
+        ]
+      },
+      {
+        "level": 41,
+        "codes": [
+          "7B9DFCEF 830C6BDA"
+        ]
+      },
+      {
+        "level": 42,
+        "codes": [
+          "BA697C16 93D76910"
+        ]
+      },
+      {
+        "level": 43,
+        "codes": [
+          "CCED8F7A 8EC0F43C"
+        ]
+      },
+      {
+        "level": 44,
+        "codes": [
+          "58EAABBC FC3CA9C2"
+        ]
+      },
+      {
+        "level": 45,
+        "codes": [
+          "710D8A2D 45E999F3"
+        ]
+      },
+      {
+        "level": 46,
+        "codes": [
+          "2EC0F0EC 6B1A061F"
+        ]
+      },
+      {
+        "level": 47,
+        "codes": [
+          "E951E67F BFD89E41"
+        ]
+      },
+      {
+        "level": 48,
+        "codes": [
+          "B743EDBF B82BB83A"
+        ]
+      },
+      {
+        "level": 49,
+        "codes": [
+          "4BF9418B EFC87C19"
+        ]
+      },
+      {
+        "level": 50,
+        "codes": [
+          "CBEB73A3 90A08906"
+        ]
+      },
+      {
+        "level": 51,
+        "codes": [
+          "9818C0C6 E03F8431"
+        ]
+      },
+      {
+        "level": 52,
+        "codes": [
+          "8A448A37 583B581C"
+        ]
+      },
+      {
+        "level": 53,
+        "codes": [
+          "1855C5A3 70B67919"
+        ]
+      },
+      {
+        "level": 54,
+        "codes": [
+          "72898F14 3F2CD864"
+        ]
+      },
+      {
+        "level": 55,
+        "codes": [
+          "3E7B9D1E 5CE7F0DC"
+        ]
+      },
+      {
+        "level": 56,
+        "codes": [
+          "B62795CF CEAE6A48"
+        ]
+      },
+      {
+        "level": 57,
+        "codes": [
+          "05858D31 D4449EFE"
+        ]
+      },
+      {
+        "level": 58,
+        "codes": [
+          "314DD562 05A14AD1"
+        ]
+      },
+      {
+        "level": 59,
+        "codes": [
+          "1DE20256 C4AB72E6"
+        ]
+      },
+      {
+        "level": 60,
+        "codes": [
+          "202ABE52 BDC4E314"
+        ]
+      },
+      {
+        "level": 61,
+        "codes": [
+          "8AA97E8E D5A80225"
+        ]
+      },
+      {
+        "level": 62,
+        "codes": [
+          "8655EB8B 26823B03"
+        ]
+      },
+      {
+        "level": 63,
+        "codes": [
+          "ACFA01BA 15A282DC"
+        ]
+      },
+      {
+        "level": 64,
+        "codes": [
+          "AFD8D98B 21E6E4D4"
+        ]
+      },
+      {
+        "level": 65,
+        "codes": [
+          "1C2D3029 63D27E35"
+        ]
+      },
+      {
+        "level": 66,
+        "codes": [
+          "23D312F1 77111159"
+        ]
+      },
+      {
+        "level": 67,
+        "codes": [
+          "20999F30 F1874934"
+        ]
+      },
+      {
+        "level": 68,
+        "codes": [
+          "51CF1F27 2E270374"
+        ]
+      },
+      {
+        "level": 69,
+        "codes": [
+          "845807DF 2140D018"
+        ]
+      },
+      {
+        "level": 70,
+        "codes": [
+          "628E474E E708D501"
+        ]
+      },
+      {
+        "level": 71,
+        "codes": [
+          "DF5B6268 4EC6A43E"
+        ]
+      },
+      {
+        "level": 72,
+        "codes": [
+          "7781E696 7D4D1BAB"
+        ]
+      },
+      {
+        "level": 73,
+        "codes": [
+          "2390ED5B F7A08F55"
+        ]
+      },
+      {
+        "level": 74,
+        "codes": [
+          "FD22366B 83B5DB98"
+        ]
+      },
+      {
+        "level": 75,
+        "codes": [
+          "39E224D9 232864F2"
+        ]
+      },
+      {
+        "level": 76,
+        "codes": [
+          "2056B422 AB6E09BD"
+        ]
+      },
+      {
+        "level": 77,
+        "codes": [
+          "600E909B 524CA077"
+        ]
+      },
+      {
+        "level": 78,
+        "codes": [
+          "2E14F003 6BE9DAB3"
+        ]
+      },
+      {
+        "level": 79,
+        "codes": [
+          "287541CA 8951C140"
+        ]
+      },
+      {
+        "level": 80,
+        "codes": [
+          "9675F502 DB139F05"
+        ]
+      },
+      {
+        "level": 81,
+        "codes": [
+          "BB099C03 1B03F256"
+        ]
+      },
+      {
+        "level": 82,
+        "codes": [
+          "6DC87BB5 6FE8ACDD"
+        ]
+      },
+      {
+        "level": 83,
+        "codes": [
+          "D82A82B0 CAB7DFD4"
+        ]
+      },
+      {
+        "level": 84,
+        "codes": [
+          "F738C6D5 A33DF2E1"
+        ]
+      },
+      {
+        "level": 85,
+        "codes": [
+          "FB80C720 E028C27A"
+        ]
+      },
+      {
+        "level": 86,
+        "codes": [
+          "1906A7C9 D7EBAA39"
+        ]
+      },
+      {
+        "level": 87,
+        "codes": [
+          "D31623FE 50011104"
+        ]
+      },
+      {
+        "level": 88,
+        "codes": [
+          "D052E037 C6886109"
+        ]
+      },
+      {
+        "level": 89,
+        "codes": [
+          "A4E99E04 BB9B2A8F"
+        ]
+      },
+      {
+        "level": 90,
+        "codes": [
+          "750CEC25 D42EAE36"
+        ]
+      },
+      {
+        "level": 91,
+        "codes": [
+          "1CAC5FD6 92679660"
+        ]
+      },
+      {
+        "level": 92,
+        "codes": [
+          "A5CCA03B 7FED218A"
+        ]
+      },
+      {
+        "level": 93,
+        "codes": [
+          "08CBA806 AE4A2260"
+        ]
+      },
+      {
+        "level": 94,
+        "codes": [
+          "722C0931 68DA1B05"
+        ]
+      },
+      {
+        "level": 95,
+        "codes": [
+          "32DCE4F7 2ABBC366"
+        ]
+      },
+      {
+        "level": 96,
+        "codes": [
+          "9F6EE1B2 D14F1E6F"
+        ]
+      },
+      {
+        "level": 97,
+        "codes": [
+          "095F268D 77B7D906"
+        ]
+      },
+      {
+        "level": 98,
+        "codes": [
+          "C2955A45 B3CBC610"
+        ]
+      },
+      {
+        "level": 99,
+        "codes": [
+          "FCEFE173 1DCCEB51"
+        ]
+      },
+      {
+        "level": 100,
+        "codes": [
+          "56307399 25DF4466"
+        ]
+      }
+    ],
+    "natureLead": {
+      "name": "Wild nature modifier lead code",
+      "codes": [
+        "AA3BB0ED 41CD5D95"
+      ]
+    },
+    "natures": [
+      {
+        "name": "Hardy",
+        "codes": [
+          "D0E34D66 5796A7D3"
+        ]
+      },
+      {
+        "name": "Lonely",
+        "codes": [
+          "D73BC50A 5F47AA0E"
+        ]
+      },
+      {
+        "name": "Brave",
+        "codes": [
+          "E485844D 2F24038C"
+        ]
+      },
+      {
+        "name": "Adamant",
+        "codes": [
+          "5EB8DEEE 692ED298"
+        ]
+      },
+      {
+        "name": "Naughty",
+        "codes": [
+          "83286B46 6479AA98"
+        ]
+      },
+      {
+        "name": "Bold",
+        "codes": [
+          "35EB915F 08F33974"
+        ]
+      },
+      {
+        "name": "Docile",
+        "codes": [
+          "A58F6F1B BFB13FEF"
+        ]
+      },
+      {
+        "name": "Relaxed",
+        "codes": [
+          "34027F23 7E7E1599"
+        ]
+      },
+      {
+        "name": "Impish",
+        "codes": [
+          "CDA2AB99 F89D5BB9"
+        ]
+      },
+      {
+        "name": "Lax",
+        "codes": [
+          "D593BF29 E18AAAE5"
+        ]
+      },
+      {
+        "name": "Timid",
+        "codes": [
+          "1BC372C9 06B4D17F"
+        ]
+      },
+      {
+        "name": "Hasty",
+        "codes": [
+          "D4950A99 D729D80A"
+        ]
+      },
+      {
+        "name": "Serious",
+        "codes": [
+          "93F04759 F95753D9"
+        ]
+      },
+      {
+        "name": "Jolly",
+        "codes": [
+          "E9EC2CBF A7EDD4A7"
+        ]
+      },
+      {
+        "name": "Naive",
+        "codes": [
+          "56F744B0 37E16732"
+        ]
+      },
+      {
+        "name": "Modest",
+        "codes": [
+          "E1EB2109 4480C28D"
+        ]
+      },
+      {
+        "name": "Mild",
+        "codes": [
+          "A2461E51 304137B6"
+        ]
+      },
+      {
+        "name": "Quiet",
+        "codes": [
+          "0456554B 66D3AAF9"
+        ]
+      },
+      {
+        "name": "Bashful",
+        "codes": [
+          "B05B4CCD A0A1505B"
+        ]
+      },
+      {
+        "name": "Rash",
+        "codes": [
+          "909149AB 2DE8726A"
+        ]
+      },
+      {
+        "name": "Calm",
+        "codes": [
+          "31F62F82 D9A0C100"
+        ]
+      },
+      {
+        "name": "Gentle",
+        "codes": [
+          "9A41D845 41B93FE6"
+        ]
+      },
+      {
+        "name": "Sassy",
+        "codes": [
+          "D47DA721 6C3B9FFC"
+        ]
+      },
+      {
+        "name": "Careful",
+        "codes": [
+          "1A15BF1E E72650E4"
+        ]
+      },
+      {
+        "name": "Quirky",
+        "codes": [
+          "5A7B2626 21ECD183"
+        ]
+      }
+    ]
+  },
+  "wildPokemon": [
+    {
+      "generation": 1,
+      "id": "0001",
+      "name": "Bulbasaur",
+      "codes": [
+        "8202404C 0001"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0002",
+      "name": "Ivysaur",
+      "codes": [
+        "8202404C 0002"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0003",
+      "name": "Venusaur",
+      "codes": [
+        "8202404C 0003"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0004",
+      "name": "Charmander",
+      "codes": [
+        "8202404C 0004"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0005",
+      "name": "Charmeleon",
+      "codes": [
+        "8202404C 0005"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0006",
+      "name": "Charizard",
+      "codes": [
+        "8202404C 0006"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0007",
+      "name": "Squirtle",
+      "codes": [
+        "8202404C 0007"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0008",
+      "name": "Wartortle",
+      "codes": [
+        "8202404C 0008"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0009",
+      "name": "Blastoise",
+      "codes": [
+        "8202404C 0009"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "000A",
+      "name": "Caterpie",
+      "codes": [
+        "8202404C 000A"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "000B",
+      "name": "Metapod",
+      "codes": [
+        "8202404C 000B"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "000C",
+      "name": "Butterfree",
+      "codes": [
+        "8202404C 000C"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "000D",
+      "name": "Weedle",
+      "codes": [
+        "8202404C 000D"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "000E",
+      "name": "Kakuna",
+      "codes": [
+        "8202404C 000E"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "000F",
+      "name": "Beedrill",
+      "codes": [
+        "8202404C 000F"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0010",
+      "name": "Pidgey",
+      "codes": [
+        "8202404C 0010"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0011",
+      "name": "Pidgeotto",
+      "codes": [
+        "8202404C 0011"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0012",
+      "name": "Pidgeot",
+      "codes": [
+        "8202404C 0012"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0013",
+      "name": "Rattata",
+      "codes": [
+        "8202404C 0013"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0014",
+      "name": "Raticate",
+      "codes": [
+        "8202404C 0014"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0015",
+      "name": "Spearow",
+      "codes": [
+        "8202404C 0015"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0016",
+      "name": "Fearow",
+      "codes": [
+        "8202404C 0016"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0017",
+      "name": "Ekans",
+      "codes": [
+        "8202404C 0017"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0018",
+      "name": "Arbok",
+      "codes": [
+        "8202404C 0018"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0019",
+      "name": "Pikachu",
+      "codes": [
+        "8202404C 0019"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "001A",
+      "name": "Raichu",
+      "codes": [
+        "8202404C 001A"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "001B",
+      "name": "Sandshrew",
+      "codes": [
+        "8202404C 001B"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "001C",
+      "name": "Sandslash",
+      "codes": [
+        "8202404C 001C"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "001D",
+      "name": "Nidoran♀",
+      "codes": [
+        "8202404C 001D"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "001E",
+      "name": "Nidorina",
+      "codes": [
+        "8202404C 001E"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "001F",
+      "name": "Nidoqueen",
+      "codes": [
+        "8202404C 001F"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0020",
+      "name": "Nidoran♂",
+      "codes": [
+        "8202404C 0020"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0021",
+      "name": "Nidorino",
+      "codes": [
+        "8202404C 0021"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0022",
+      "name": "Nidoking",
+      "codes": [
+        "8202404C 0022"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0023",
+      "name": "Clefairy",
+      "codes": [
+        "8202404C 0023"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0024",
+      "name": "Clefable",
+      "codes": [
+        "8202404C 0024"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0025",
+      "name": "Vulpix",
+      "codes": [
+        "8202404C 0025"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0026",
+      "name": "Ninetales",
+      "codes": [
+        "8202404C 0026"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0027",
+      "name": "Jigglypuff",
+      "codes": [
+        "8202404C 0027"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0028",
+      "name": "Wigglytuff",
+      "codes": [
+        "8202404C 0028"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0029",
+      "name": "Zubat",
+      "codes": [
+        "8202404C 0029"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "002A",
+      "name": "Golbat",
+      "codes": [
+        "8202404C 002A"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "002B",
+      "name": "Oddish",
+      "codes": [
+        "8202404C 002B"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "002C",
+      "name": "Gloom",
+      "codes": [
+        "8202404C 002C"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "002D",
+      "name": "Vileplume",
+      "codes": [
+        "8202404C 002D"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "002E",
+      "name": "Paras",
+      "codes": [
+        "8202404C 002E"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "002F",
+      "name": "Parasect",
+      "codes": [
+        "8202404C 002F"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0030",
+      "name": "Parasect",
+      "codes": [
+        "8202404C 0030"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0031",
+      "name": "Venomoth",
+      "codes": [
+        "8202404C 0031"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0032",
+      "name": "Diglett",
+      "codes": [
+        "8202404C 0032"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0033",
+      "name": "Dugtrio",
+      "codes": [
+        "8202404C 0033"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0034",
+      "name": "Meowth",
+      "codes": [
+        "8202404C 0034"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0035",
+      "name": "Persian",
+      "codes": [
+        "8202404C 0035"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0036",
+      "name": "Psyduck",
+      "codes": [
+        "8202404C 0036"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0037",
+      "name": "Golduck",
+      "codes": [
+        "8202404C 0037"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0038",
+      "name": "Mankey",
+      "codes": [
+        "8202404C 0038"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0039",
+      "name": "Primeape",
+      "codes": [
+        "8202404C 0039"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "003A",
+      "name": "Growlithe",
+      "codes": [
+        "8202404C 003A"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "003B",
+      "name": "Arcanine",
+      "codes": [
+        "8202404C 003B"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "003C",
+      "name": "Poliwag",
+      "codes": [
+        "8202404C 003C"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "003D",
+      "name": "Poliwhirl",
+      "codes": [
+        "8202404C 003D"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "003E",
+      "name": "Poliwrath",
+      "codes": [
+        "8202404C 003E"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "003F",
+      "name": "Abra",
+      "codes": [
+        "8202404C 003F"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0040",
+      "name": "Kadabra",
+      "codes": [
+        "8202404C 0040"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0041",
+      "name": "Alakazam",
+      "codes": [
+        "8202404C 0041"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0042",
+      "name": "Machop",
+      "codes": [
+        "8202404C 0042"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0043",
+      "name": "Machoke",
+      "codes": [
+        "8202404C 0043"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0044",
+      "name": "Machamp",
+      "codes": [
+        "8202404C 0044"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0045",
+      "name": "Bellsprout",
+      "codes": [
+        "8202404C 0045"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0046",
+      "name": "Weepinbell",
+      "codes": [
+        "8202404C 0046"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0047",
+      "name": "Victreebel",
+      "codes": [
+        "8202404C 0047"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0048",
+      "name": "Tentacool",
+      "codes": [
+        "8202404C 0048"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0049",
+      "name": "Tentacruel",
+      "codes": [
+        "8202404C 0049"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "004A",
+      "name": "Geodude",
+      "codes": [
+        "8202404C 004A"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "004B",
+      "name": "Graveler",
+      "codes": [
+        "8202404C 004B"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "004C",
+      "name": "Golem",
+      "codes": [
+        "8202404C 004C"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "004D",
+      "name": "Ponyta",
+      "codes": [
+        "8202404C 004D"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "004E",
+      "name": "Rapidash",
+      "codes": [
+        "8202404C 004E"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "004F",
+      "name": "Slowpoke",
+      "codes": [
+        "8202404C 004F"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0050",
+      "name": "Slowbro",
+      "codes": [
+        "8202404C 0050"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0051",
+      "name": "Magnemite",
+      "codes": [
+        "8202404C 0051"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0052",
+      "name": "Magneton",
+      "codes": [
+        "8202404C 0052"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0053",
+      "name": "Farfetch’d",
+      "codes": [
+        "8202404C 0053"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0054",
+      "name": "Doduo",
+      "codes": [
+        "8202404C 0054"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0055",
+      "name": "Dodrio",
+      "codes": [
+        "8202404C 0055"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0056",
+      "name": "Seel",
+      "codes": [
+        "8202404C 0056"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0057",
+      "name": "Dewgong",
+      "codes": [
+        "8202404C 0057"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0058",
+      "name": "Grimer",
+      "codes": [
+        "8202404C 0058"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0059",
+      "name": "Muk",
+      "codes": [
+        "8202404C 0059"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "005A",
+      "name": "Shellder",
+      "codes": [
+        "8202404C 005A"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "005B",
+      "name": "Cloyster",
+      "codes": [
+        "8202404C 005B"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "005C",
+      "name": "Gastly",
+      "codes": [
+        "8202404C 005C"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "005D",
+      "name": "Haunter",
+      "codes": [
+        "8202404C 005D"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "005E",
+      "name": "Gengar",
+      "codes": [
+        "8202404C 005E"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "005F",
+      "name": "Onix",
+      "codes": [
+        "8202404C 005F"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0060",
+      "name": "Drowzee",
+      "codes": [
+        "8202404C 0060"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0061",
+      "name": "Hypno",
+      "codes": [
+        "8202404C 0061"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0062",
+      "name": "Krabby",
+      "codes": [
+        "8202404C 0062"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0063",
+      "name": "Kingler",
+      "codes": [
+        "8202404C 0063"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0064",
+      "name": "Voltorb",
+      "codes": [
+        "8202404C 0064"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0065",
+      "name": "Electrode",
+      "codes": [
+        "8202404C 0065"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0066",
+      "name": "Exeggcute",
+      "codes": [
+        "8202404C 0066"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0067",
+      "name": "Exeggutor",
+      "codes": [
+        "8202404C 0067"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0068",
+      "name": "Cubone",
+      "codes": [
+        "8202404C 0068"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0069",
+      "name": "Marowak",
+      "codes": [
+        "8202404C 0069"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "006A",
+      "name": "Hitmonlee",
+      "codes": [
+        "8202404C 006A"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "006B",
+      "name": "Hitmonchan",
+      "codes": [
+        "8202404C 006B"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "006C",
+      "name": "Lickitung",
+      "codes": [
+        "8202404C 006C"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "006D",
+      "name": "Koffing",
+      "codes": [
+        "8202404C 006D"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "006E",
+      "name": "Weezing",
+      "codes": [
+        "8202404C 006E"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "006F",
+      "name": "Rhyhorn",
+      "codes": [
+        "8202404C 006F"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0070",
+      "name": "Rhydon",
+      "codes": [
+        "8202404C 0070"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0071",
+      "name": "Chansey",
+      "codes": [
+        "8202404C 0071"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0072",
+      "name": "Tangela",
+      "codes": [
+        "8202404C 0072"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0073",
+      "name": "Kangaskhan",
+      "codes": [
+        "8202404C 0073"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0074",
+      "name": "Horsea",
+      "codes": [
+        "8202404C 0074"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0075",
+      "name": "Seadra",
+      "codes": [
+        "8202404C 0075"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0076",
+      "name": "Goldeen",
+      "codes": [
+        "8202404C 0076"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0077",
+      "name": "Seaking",
+      "codes": [
+        "8202404C 0077"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0078",
+      "name": "Staryu",
+      "codes": [
+        "8202404C 0078"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0079",
+      "name": "Starmie",
+      "codes": [
+        "8202404C 0079"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "007A",
+      "name": "Mr. Mime",
+      "codes": [
+        "8202404C 007A"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "007B",
+      "name": "Scyther",
+      "codes": [
+        "8202404C 007B"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "007C",
+      "name": "Jynx",
+      "codes": [
+        "8202404C 007C"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "007D",
+      "name": "Electabuzz",
+      "codes": [
+        "8202404C 007D"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "007E",
+      "name": "Magmar",
+      "codes": [
+        "8202404C 007E"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "007F",
+      "name": "Pinsir",
+      "codes": [
+        "8202404C 007F"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0080",
+      "name": "Tauros",
+      "codes": [
+        "8202404C 0080"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0081",
+      "name": "Magikarp",
+      "codes": [
+        "8202404C 0081"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0082",
+      "name": "Gyarados",
+      "codes": [
+        "8202404C 0082"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0083",
+      "name": "Lapras",
+      "codes": [
+        "8202404C 0083"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0084",
+      "name": "Ditto",
+      "codes": [
+        "8202404C 0084"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0085",
+      "name": "Eevee",
+      "codes": [
+        "8202404C 0085"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0086",
+      "name": "Vaporeon",
+      "codes": [
+        "8202404C 0086"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0087",
+      "name": "Jolteon",
+      "codes": [
+        "8202404C 0087"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0088",
+      "name": "Flareon",
+      "codes": [
+        "8202404C 0088"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0089",
+      "name": "Porygon",
+      "codes": [
+        "8202404C 0089"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "008A",
+      "name": "Omanyte",
+      "codes": [
+        "8202404C 008A"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "008B",
+      "name": "Omastar",
+      "codes": [
+        "8202404C 008B"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "008C",
+      "name": "Kabuto",
+      "codes": [
+        "8202404C 008C"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "008D",
+      "name": "Kabutops",
+      "codes": [
+        "8202404C 008D"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "008E",
+      "name": "Aerodactyl",
+      "codes": [
+        "8202404C 008E"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "008F",
+      "name": "Snorlax",
+      "codes": [
+        "8202404C 008F"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0090",
+      "name": "Articuno",
+      "codes": [
+        "8202404C 0090"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0091",
+      "name": "Zapdos",
+      "codes": [
+        "8202404C 0091"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0092",
+      "name": "Moltres",
+      "codes": [
+        "8202404C 0092"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0093",
+      "name": "Dratini",
+      "codes": [
+        "8202404C 0093"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0094",
+      "name": "Dragonair",
+      "codes": [
+        "8202404C 0094"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0095",
+      "name": "Dragonite",
+      "codes": [
+        "8202404C 0095"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0096",
+      "name": "Mewtwo",
+      "codes": [
+        "8202404C 0096"
+      ]
+    },
+    {
+      "generation": 1,
+      "id": "0097",
+      "name": "Mew",
+      "codes": [
+        "8202404C 0097"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "0098",
+      "name": "Chikorita",
+      "codes": [
+        "8202404C 0098"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "0099",
+      "name": "Bayleef",
+      "codes": [
+        "8202404C 0099"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "009A",
+      "name": "Meganium",
+      "codes": [
+        "8202404C 009A"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "009B",
+      "name": "Cyndaquil",
+      "codes": [
+        "8202404C 009B"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "009C",
+      "name": "Quilava",
+      "codes": [
+        "8202404C 009C"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "009D",
+      "name": "Typhlosion",
+      "codes": [
+        "8202404C 009D"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "009E",
+      "name": "Totodile",
+      "codes": [
+        "8202404C 009E"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "009F",
+      "name": "Croconaw",
+      "codes": [
+        "8202404C 009F"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "00A0",
+      "name": "Feraligatr",
+      "codes": [
+        "8202404C 00A0"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "00A1",
+      "name": "Sentret",
+      "codes": [
+        "8202404C 00A1"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "00A2",
+      "name": "Furret",
+      "codes": [
+        "8202404C 00A2"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "00A3",
+      "name": "Hoothoot",
+      "codes": [
+        "8202404C 00A3"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "00A4",
+      "name": "Noctowl",
+      "codes": [
+        "8202404C 00A4"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "00A5",
+      "name": "Ledyba",
+      "codes": [
+        "8202404C 00A5"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "00A6",
+      "name": "Ledian",
+      "codes": [
+        "8202404C 00A6"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "00A7",
+      "name": "Spinarak",
+      "codes": [
+        "8202404C 00A7"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "00A8",
+      "name": "Ariados",
+      "codes": [
+        "8202404C 00A8"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "00A9",
+      "name": "Crobat",
+      "codes": [
+        "8202404C 00A9"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "00B0",
+      "name": "Togetic",
+      "codes": [
+        "8202404C 00B0"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "00B1",
+      "name": "Natu",
+      "codes": [
+        "8202404C 00B1"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "00B2",
+      "name": "Xatu",
+      "codes": [
+        "8202404C 00B2"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "00B3",
+      "name": "Mareep",
+      "codes": [
+        "8202404C 00B3"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "00B4",
+      "name": "Flaaffy",
+      "codes": [
+        "8202404C 00B4"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "00B5",
+      "name": "Ampharos",
+      "codes": [
+        "8202404C 00B5"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "00B6",
+      "name": "Bellossom",
+      "codes": [
+        "8202404C 00B6"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "00B7",
+      "name": "Marill",
+      "codes": [
+        "8202404C 00B7"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "00B8",
+      "name": "Azumarill",
+      "codes": [
+        "8202404C 00B8"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "00B9",
+      "name": "Sudowoodo",
+      "codes": [
+        "8202404C 00B9"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "00C0",
+      "name": "Sunflora",
+      "codes": [
+        "8202404C 00C0"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "00C1",
+      "name": "Yanma",
+      "codes": [
+        "8202404C 00C1"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "00C2",
+      "name": "Wooper",
+      "codes": [
+        "8202404C 00C2"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "00C3",
+      "name": "Quagsire",
+      "codes": [
+        "8202404C 00C3"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "00C4",
+      "name": "Espeon",
+      "codes": [
+        "8202404C 00C4"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "00C5",
+      "name": "Umbreon",
+      "codes": [
+        "8202404C 00C5"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "00C6",
+      "name": "Murkrow",
+      "codes": [
+        "8202404C 00C6"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "00C7",
+      "name": "Slowking",
+      "codes": [
+        "8202404C 00C7"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "00C8",
+      "name": "Misdreavus",
+      "codes": [
+        "8202404C 00C8"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "00C9",
+      "name": "Unown A",
+      "codes": [
+        "8202404C 00C9"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "00D0",
+      "name": "Steelix",
+      "codes": [
+        "8202404C 00D0"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "00D1",
+      "name": "Snubbull",
+      "codes": [
+        "8202404C 00D1"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "00D2",
+      "name": "Granbull",
+      "codes": [
+        "8202404C 00D2"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "00D3",
+      "name": "Qwilfish",
+      "codes": [
+        "8202404C 00D3"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "00D4",
+      "name": "Scizor",
+      "codes": [
+        "8202404C 00D4"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "00D5",
+      "name": "Shuckle",
+      "codes": [
+        "8202404C 00D5"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "00D6",
+      "name": "Heracross",
+      "codes": [
+        "8202404C 00D6"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "00D7",
+      "name": "Sneasel",
+      "codes": [
+        "8202404C 00D7"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "00D8",
+      "name": "Teddiursa",
+      "codes": [
+        "8202404C 00D8"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "00D9",
+      "name": "Ursaring",
+      "codes": [
+        "8202404C 00D9"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "00E0",
+      "name": "Octillery",
+      "codes": [
+        "8202404C 00E0"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "00E1",
+      "name": "Delibird",
+      "codes": [
+        "8202404C 00E1"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "00E2",
+      "name": "Mantine",
+      "codes": [
+        "8202404C 00E2"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "00E3",
+      "name": "Skarmory",
+      "codes": [
+        "8202404C 00E3"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "00E4",
+      "name": "Houndour",
+      "codes": [
+        "8202404C 00E4"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "00E5",
+      "name": "Houndoom",
+      "codes": [
+        "8202404C 00E5"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "00E6",
+      "name": "Seadra",
+      "codes": [
+        "8202404C 00E6"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "00E7",
+      "name": "Phanpy",
+      "codes": [
+        "8202404C 00E7"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "00E8",
+      "name": "Donphan",
+      "codes": [
+        "8202404C 00E8"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "00E9",
+      "name": "Porygon2",
+      "codes": [
+        "8202404C 00E9"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "00F0",
+      "name": "Magby",
+      "codes": [
+        "8202404C 00F0"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "00F1",
+      "name": "Miltank",
+      "codes": [
+        "8202404C 00F1"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "00F2",
+      "name": "Blissey",
+      "codes": [
+        "8202404C 00F2"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "00F3",
+      "name": "Raikou",
+      "codes": [
+        "8202404C 00F3"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "00F4",
+      "name": "Entei",
+      "codes": [
+        "8202404C 00F4"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "00F5",
+      "name": "Suicune",
+      "codes": [
+        "8202404C 00F5"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "00F6",
+      "name": "Larvitar",
+      "codes": [
+        "8202404C 00F6"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "00F7",
+      "name": "Pupitar",
+      "codes": [
+        "8202404C 00F7"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "00F8",
+      "name": "Tyranitar",
+      "codes": [
+        "8202404C 00F8"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "00F9",
+      "name": "Lugia",
+      "codes": [
+        "8202404C 00F9"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "00FA",
+      "name": "Ho-Oh",
+      "codes": [
+        "8202404C 00FA"
+      ]
+    },
+    {
+      "generation": 2,
+      "id": "00FB",
+      "name": "Celebi",
+      "codes": [
+        "8202404C 00FB"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0115",
+      "name": "Treecko",
+      "codes": [
+        "8202404C 0115"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0116",
+      "name": "Grovyle",
+      "codes": [
+        "8202404C 0116"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0117",
+      "name": "Sceptile",
+      "codes": [
+        "8202404C 0117"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0118",
+      "name": "Torchic",
+      "codes": [
+        "8202404C 0118"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0119",
+      "name": "Combusken",
+      "codes": [
+        "8202404C 0119"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "011A",
+      "name": "Blaziken",
+      "codes": [
+        "8202404C 011A"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "011B",
+      "name": "Mudkip",
+      "codes": [
+        "8202404C 011B"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "011C",
+      "name": "Marshtomp",
+      "codes": [
+        "8202404C 011C"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "011D",
+      "name": "Swampert",
+      "codes": [
+        "8202404C 011D"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "011E",
+      "name": "Poochyena",
+      "codes": [
+        "8202404C 011E"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "011F",
+      "name": "Mightyena",
+      "codes": [
+        "8202404C 011F"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0120",
+      "name": "Zigzagoon",
+      "codes": [
+        "8202404C 0120"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0121",
+      "name": "Linoone",
+      "codes": [
+        "8202404C 0121"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0122",
+      "name": "Wurmple",
+      "codes": [
+        "8202404C 0122"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0123",
+      "name": "Silcoon",
+      "codes": [
+        "8202404C 0123"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0124",
+      "name": "Beautifly",
+      "codes": [
+        "8202404C 0124"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0125",
+      "name": "Cascoon",
+      "codes": [
+        "8202404C 0125"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0126",
+      "name": "Dustox",
+      "codes": [
+        "8202404C 0126"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0127",
+      "name": "Lotad",
+      "codes": [
+        "8202404C 0127"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0128",
+      "name": "Lombre",
+      "codes": [
+        "8202404C 0128"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0129",
+      "name": "Ludicolo",
+      "codes": [
+        "8202404C 0129"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "012A",
+      "name": "Seedot",
+      "codes": [
+        "8202404C 012A"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "012B",
+      "name": "Nuzleaf",
+      "codes": [
+        "8202404C 012B"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "012C",
+      "name": "Shiftry",
+      "codes": [
+        "8202404C 012C"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "012D",
+      "name": "Nincada",
+      "codes": [
+        "8202404C 012D"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "012E",
+      "name": "Ninjask",
+      "codes": [
+        "8202404C 012E"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "012F",
+      "name": "Shedinja",
+      "codes": [
+        "8202404C 012F"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0130",
+      "name": "Taillow",
+      "codes": [
+        "8202404C 0130"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0131",
+      "name": "Swellow",
+      "codes": [
+        "8202404C 0131"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0132",
+      "name": "Shroomish",
+      "codes": [
+        "8202404C 0132"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0133",
+      "name": "Breloom",
+      "codes": [
+        "8202404C 0133"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0134",
+      "name": "Spinda",
+      "codes": [
+        "8202404C 0134"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0135",
+      "name": "Wingull",
+      "codes": [
+        "8202404C 0135"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0136",
+      "name": "Pelipper",
+      "codes": [
+        "8202404C 0136"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0137",
+      "name": "Surskit",
+      "codes": [
+        "8202404C 0137"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0138",
+      "name": "Masquerain",
+      "codes": [
+        "8202404C 0138"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0139",
+      "name": "Wailmer",
+      "codes": [
+        "8202404C 0139"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "013A",
+      "name": "Wailord",
+      "codes": [
+        "8202404C 013A"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "013B",
+      "name": "Skitty",
+      "codes": [
+        "8202404C 013B"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "013C",
+      "name": "Delcatty",
+      "codes": [
+        "8202404C 013C"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "013D",
+      "name": "Kecleon",
+      "codes": [
+        "8202404C 013D"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "013E",
+      "name": "Baltoy",
+      "codes": [
+        "8202404C 013E"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "013F",
+      "name": "Claydol",
+      "codes": [
+        "8202404C 013F"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0140",
+      "name": "Nosepass",
+      "codes": [
+        "8202404C 0140"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0141",
+      "name": "Torkoal",
+      "codes": [
+        "8202404C 0141"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0142",
+      "name": "Sableye",
+      "codes": [
+        "8202404C 0142"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0143",
+      "name": "Barboach",
+      "codes": [
+        "8202404C 0143"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0144",
+      "name": "Whiscash",
+      "codes": [
+        "8202404C 0144"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0145",
+      "name": "Luvdisc",
+      "codes": [
+        "8202404C 0145"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0146",
+      "name": "Corphish",
+      "codes": [
+        "8202404C 0146"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0147",
+      "name": "Crawdaunt",
+      "codes": [
+        "8202404C 0147"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0148",
+      "name": "Feebas",
+      "codes": [
+        "8202404C 0148"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0149",
+      "name": "Milotic",
+      "codes": [
+        "8202404C 0149"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "014A",
+      "name": "Carvanha",
+      "codes": [
+        "8202404C 014A"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "014B",
+      "name": "Sharpedo",
+      "codes": [
+        "8202404C 014B"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "014C",
+      "name": "Trapinch",
+      "codes": [
+        "8202404C 014C"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "014D",
+      "name": "Vibrava",
+      "codes": [
+        "8202404C 014D"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "014E",
+      "name": "Flygon",
+      "codes": [
+        "8202404C 014E"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "014F",
+      "name": "Makuhita",
+      "codes": [
+        "8202404C 014F"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0150",
+      "name": "Hariyama",
+      "codes": [
+        "8202404C 0150"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0151",
+      "name": "Electrike",
+      "codes": [
+        "8202404C 0151"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0152",
+      "name": "Manectric",
+      "codes": [
+        "8202404C 0152"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0153",
+      "name": "Numel",
+      "codes": [
+        "8202404C 0153"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0154",
+      "name": "Camerupt",
+      "codes": [
+        "8202404C 0154"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0155",
+      "name": "Spheal",
+      "codes": [
+        "8202404C 0155"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0156",
+      "name": "Sealeo",
+      "codes": [
+        "8202404C 0156"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0157",
+      "name": "Walrein",
+      "codes": [
+        "8202404C 0157"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0158",
+      "name": "Cacnea",
+      "codes": [
+        "8202404C 0158"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0159",
+      "name": "Cacturne",
+      "codes": [
+        "8202404C 0159"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "015A",
+      "name": "Snorunt",
+      "codes": [
+        "8202404C 015A"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "015B",
+      "name": "Glalie",
+      "codes": [
+        "8202404C 015B"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "015C",
+      "name": "Lunatone",
+      "codes": [
+        "8202404C 015C"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "015D",
+      "name": "Solrock",
+      "codes": [
+        "8202404C 015D"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "015E",
+      "name": "Azurill",
+      "codes": [
+        "8202404C 015E"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "015F",
+      "name": "Spoink",
+      "codes": [
+        "8202404C 015F"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0160",
+      "name": "Grumpig",
+      "codes": [
+        "8202404C 0160"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0161",
+      "name": "Plusle",
+      "codes": [
+        "8202404C 0161"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0162",
+      "name": "Minun",
+      "codes": [
+        "8202404C 0162"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0163",
+      "name": "Mawile",
+      "codes": [
+        "8202404C 0163"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0164",
+      "name": "Meditite",
+      "codes": [
+        "8202404C 0164"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0165",
+      "name": "Medicham",
+      "codes": [
+        "8202404C 0165"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0166",
+      "name": "Swablu",
+      "codes": [
+        "8202404C 0166"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0167",
+      "name": "Altaria",
+      "codes": [
+        "8202404C 0167"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0168",
+      "name": "Wynaut",
+      "codes": [
+        "8202404C 0168"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0169",
+      "name": "Duskull",
+      "codes": [
+        "8202404C 0169"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "016A",
+      "name": "Dusclops",
+      "codes": [
+        "8202404C 016A"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "016B",
+      "name": "Roselia",
+      "codes": [
+        "8202404C 016B"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "016C",
+      "name": "Slakoth",
+      "codes": [
+        "8202404C 016C"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "016D",
+      "name": "Vigoroth",
+      "codes": [
+        "8202404C 016D"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "016E",
+      "name": "Slaking",
+      "codes": [
+        "8202404C 016E"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "016F",
+      "name": "Gulpin",
+      "codes": [
+        "8202404C 016F"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0170",
+      "name": "Swalot",
+      "codes": [
+        "8202404C 0170"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0171",
+      "name": "Tropius",
+      "codes": [
+        "8202404C 0171"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0172",
+      "name": "Whismur",
+      "codes": [
+        "8202404C 0172"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0173",
+      "name": "Loudred",
+      "codes": [
+        "8202404C 0173"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0174",
+      "name": "Exploud",
+      "codes": [
+        "8202404C 0174"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0175",
+      "name": "Clamperl",
+      "codes": [
+        "8202404C 0175"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0176",
+      "name": "Huntail",
+      "codes": [
+        "8202404C 0176"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0177",
+      "name": "Gorebyss",
+      "codes": [
+        "8202404C 0177"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0178",
+      "name": "Absol",
+      "codes": [
+        "8202404C 0178"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0179",
+      "name": "Shuppet",
+      "codes": [
+        "8202404C 0179"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "017A",
+      "name": "Banette",
+      "codes": [
+        "8202404C 017A"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "017B",
+      "name": "Seviper",
+      "codes": [
+        "8202404C 017B"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "017C",
+      "name": "Zangoose",
+      "codes": [
+        "8202404C 017C"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "017D",
+      "name": "Relicanth",
+      "codes": [
+        "8202404C 017D"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "017E",
+      "name": "Aron",
+      "codes": [
+        "8202404C 017E"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "017F",
+      "name": "Lairon",
+      "codes": [
+        "8202404C 017F"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0180",
+      "name": "Aggron",
+      "codes": [
+        "8202404C 0180"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0181",
+      "name": "Castform",
+      "codes": [
+        "8202404C 0181"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0182",
+      "name": "Volbeat",
+      "codes": [
+        "8202404C 0182"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0183",
+      "name": "Illumise",
+      "codes": [
+        "8202404C 0183"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0184",
+      "name": "Lileep",
+      "codes": [
+        "8202404C 0184"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0185",
+      "name": "Cradily",
+      "codes": [
+        "8202404C 0185"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0186",
+      "name": "Anorith",
+      "codes": [
+        "8202404C 0186"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0187",
+      "name": "Armaldo",
+      "codes": [
+        "8202404C 0187"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0188",
+      "name": "Ralts",
+      "codes": [
+        "8202404C 0188"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0189",
+      "name": "Kirlia",
+      "codes": [
+        "8202404C 0189"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "018A",
+      "name": "Gardevoir",
+      "codes": [
+        "8202404C 018A"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "018B",
+      "name": "Bagon",
+      "codes": [
+        "8202404C 018B"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "018C",
+      "name": "Shelgon",
+      "codes": [
+        "8202404C 018C"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "018D",
+      "name": "Salamence",
+      "codes": [
+        "8202404C 018D"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "018E",
+      "name": "Beldum",
+      "codes": [
+        "8202404C 018E"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "018F",
+      "name": "Metang",
+      "codes": [
+        "8202404C 018F"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0190",
+      "name": "Metagross",
+      "codes": [
+        "8202404C 0190"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0191",
+      "name": "Regirock",
+      "codes": [
+        "8202404C 0191"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0192",
+      "name": "Regice",
+      "codes": [
+        "8202404C 0192"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0193",
+      "name": "Registeel",
+      "codes": [
+        "8202404C 0193"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0194",
+      "name": "Kyogre",
+      "codes": [
+        "8202404C 0194"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0195",
+      "name": "Groudon",
+      "codes": [
+        "8202404C 0195"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0196",
+      "name": "Rayquaza",
+      "codes": [
+        "8202404C 0196"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0197",
+      "name": "Latias",
+      "codes": [
+        "8202404C 0197"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0198",
+      "name": "Latios",
+      "codes": [
+        "8202404C 0198"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "0199",
+      "name": "Jirachi",
+      "codes": [
+        "8202404C 0199"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "019A",
+      "name": "Deoxys",
+      "codes": [
+        "8202404C 019A"
+      ]
+    },
+    {
+      "generation": 3,
+      "id": "019B",
+      "name": "Chimecho",
+      "codes": [
+        "8202404C 019B"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01B8",
+      "name": "Turtwig",
+      "codes": [
+        "8202404C 01B8"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01B9",
+      "name": "Grotle",
+      "codes": [
+        "8202404C 01B9"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01BA",
+      "name": "Torterra",
+      "codes": [
+        "8202404C 01BA"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01BB",
+      "name": "Chimchar",
+      "codes": [
+        "8202404C 01BB"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01BC",
+      "name": "Monferno",
+      "codes": [
+        "8202404C 01BC"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01BD",
+      "name": "Infernape",
+      "codes": [
+        "8202404C 01BD"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01BE",
+      "name": "Piplup",
+      "codes": [
+        "8202404C 01BE"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01BF",
+      "name": "Prinplup",
+      "codes": [
+        "8202404C 01BF"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01C0",
+      "name": "Empoleon",
+      "codes": [
+        "8202404C 01C0"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01C1",
+      "name": "Starly",
+      "codes": [
+        "8202404C 01C1"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01C2",
+      "name": "Staravia",
+      "codes": [
+        "8202404C 01C2"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01C3",
+      "name": "Staraptor",
+      "codes": [
+        "8202404C 01C3"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01C4",
+      "name": "Bidoof",
+      "codes": [
+        "8202404C 01C4"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01C5",
+      "name": "Bibarel",
+      "codes": [
+        "8202404C 01C5"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01C6",
+      "name": "Kricketot",
+      "codes": [
+        "8202404C 01C6"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01C7",
+      "name": "Kricketune",
+      "codes": [
+        "8202404C 01C7"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01C8",
+      "name": "Shinx",
+      "codes": [
+        "8202404C 01C8"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01C9",
+      "name": "Luxio",
+      "codes": [
+        "8202404C 01C9"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01CA",
+      "name": "Luxray",
+      "codes": [
+        "8202404C 01CA"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01CB",
+      "name": "Budew",
+      "codes": [
+        "8202404C 01CB"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01CC",
+      "name": "Roserade",
+      "codes": [
+        "8202404C 01CC"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01CD",
+      "name": "Cranidos",
+      "codes": [
+        "8202404C 01CD"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01CE",
+      "name": "Rampardos",
+      "codes": [
+        "8202404C 01CE"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01CF",
+      "name": "Shieldon",
+      "codes": [
+        "8202404C 01CF"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01D0",
+      "name": "Bastiodon",
+      "codes": [
+        "8202404C 01D0"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01D1",
+      "name": "Burmy",
+      "codes": [
+        "8202404C 01D1"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01D2",
+      "name": "Wormadam",
+      "codes": [
+        "8202404C 01D2"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01D3",
+      "name": "Mothim",
+      "codes": [
+        "8202404C 01D3"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01D4",
+      "name": "Combee",
+      "codes": [
+        "8202404C 01D4"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01D5",
+      "name": "Vespiquen",
+      "codes": [
+        "8202404C 01D5"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01D6",
+      "name": "Pachirisu",
+      "codes": [
+        "8202404C 01D6"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01D7",
+      "name": "Buizel",
+      "codes": [
+        "8202404C 01D7"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01D8",
+      "name": "Floatzel",
+      "codes": [
+        "8202404C 01D8"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01D9",
+      "name": "Cherubi",
+      "codes": [
+        "8202404C 01D9"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01DA",
+      "name": "Cherrim",
+      "codes": [
+        "8202404C 01DA"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01DB",
+      "name": "Shellos",
+      "codes": [
+        "8202404C 01DB"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01DC",
+      "name": "Gastrodon",
+      "codes": [
+        "8202404C 01DC"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01DD",
+      "name": "Ambipom",
+      "codes": [
+        "8202404C 01DD"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01DE",
+      "name": "Drifloon",
+      "codes": [
+        "8202404C 01DE"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01DF",
+      "name": "Drifblim",
+      "codes": [
+        "8202404C 01DF"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01E0",
+      "name": "Buneary",
+      "codes": [
+        "8202404C 01E0"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01E1",
+      "name": "Lopunny",
+      "codes": [
+        "8202404C 01E1"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01E2",
+      "name": "Mismagius",
+      "codes": [
+        "8202404C 01E2"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01E3",
+      "name": "Honchkrow",
+      "codes": [
+        "8202404C 01E3"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01E4",
+      "name": "Glameow",
+      "codes": [
+        "8202404C 01E4"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01E5",
+      "name": "Purugly",
+      "codes": [
+        "8202404C 01E5"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01E6",
+      "name": "Chingling",
+      "codes": [
+        "8202404C 01E6"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01E7",
+      "name": "Stunky",
+      "codes": [
+        "8202404C 01E7"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01E8",
+      "name": "Skuntank",
+      "codes": [
+        "8202404C 01E8"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01E9",
+      "name": "Bronzor",
+      "codes": [
+        "8202404C 01E9"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01EA",
+      "name": "Bronzong",
+      "codes": [
+        "8202404C 01EA"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01EB",
+      "name": "Bonsly",
+      "codes": [
+        "8202404C 01EB"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01EC",
+      "name": "Mime Jr.",
+      "codes": [
+        "8202404C 01EC"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01ED",
+      "name": "Happiny",
+      "codes": [
+        "8202404C 01ED"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01EE",
+      "name": "Chatot",
+      "codes": [
+        "8202404C 01EE"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01EF",
+      "name": "Spiritomb",
+      "codes": [
+        "8202404C 01EF"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01F0",
+      "name": "Gible",
+      "codes": [
+        "8202404C 01F0"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01F1",
+      "name": "Gabite",
+      "codes": [
+        "8202404C 01F1"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01F2",
+      "name": "Garchomp",
+      "codes": [
+        "8202404C 01F2"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01F3",
+      "name": "Munchlax",
+      "codes": [
+        "8202404C 01F3"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01F4",
+      "name": "Riolu",
+      "codes": [
+        "8202404C 01F4"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01F5",
+      "name": "Lucario",
+      "codes": [
+        "8202404C 01F5"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01F6",
+      "name": "Hippopotas",
+      "codes": [
+        "8202404C 01F6"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01F7",
+      "name": "Hippowdon",
+      "codes": [
+        "8202404C 01F7"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01F8",
+      "name": "Skorupi",
+      "codes": [
+        "8202404C 01F8"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01F9",
+      "name": "Drapion",
+      "codes": [
+        "8202404C 01F9"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01FA",
+      "name": "Croagunk",
+      "codes": [
+        "8202404C 01FA"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01FB",
+      "name": "Toxicroak",
+      "codes": [
+        "8202404C 01FB"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01FC",
+      "name": "Carnivine",
+      "codes": [
+        "8202404C 01FC"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01FD",
+      "name": "Finneon",
+      "codes": [
+        "8202404C 01FD"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01FE",
+      "name": "Lumineon",
+      "codes": [
+        "8202404C 01FE"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "01FF",
+      "name": "Mantyke",
+      "codes": [
+        "8202404C 01FF"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "0200",
+      "name": "Snover",
+      "codes": [
+        "8202404C 0200"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "0201",
+      "name": "Abomasnow",
+      "codes": [
+        "8202404C 0201"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "0202",
+      "name": "Weavile",
+      "codes": [
+        "8202404C 0202"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "0203",
+      "name": "Magnezone",
+      "codes": [
+        "8202404C 0203"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "0204",
+      "name": "Lickilicky",
+      "codes": [
+        "8202404C 0204"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "0205",
+      "name": "Rhyperior",
+      "codes": [
+        "8202404C 0205"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "0206",
+      "name": "Tangrowth",
+      "codes": [
+        "8202404C 0206"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "0207",
+      "name": "Electivire",
+      "codes": [
+        "8202404C 0207"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "0208",
+      "name": "Magmortar",
+      "codes": [
+        "8202404C 0208"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "0209",
+      "name": "Togekiss",
+      "codes": [
+        "8202404C 0209"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "020A",
+      "name": "Yanmega",
+      "codes": [
+        "8202404C 020A"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "020B",
+      "name": "Leafeon",
+      "codes": [
+        "8202404C 020B"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "020C",
+      "name": "Glaceon",
+      "codes": [
+        "8202404C 020C"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "020D",
+      "name": "Gliscor",
+      "codes": [
+        "8202404C 020D"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "020E",
+      "name": "Mamoswine",
+      "codes": [
+        "8202404C 020E"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "020F",
+      "name": "Porygon-Z",
+      "codes": [
+        "8202404C 020F"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "0210",
+      "name": "Gallade",
+      "codes": [
+        "8202404C 0210"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "0211",
+      "name": "Probopass",
+      "codes": [
+        "8202404C 0211"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "0212",
+      "name": "Dusknoir",
+      "codes": [
+        "8202404C 0212"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "0213",
+      "name": "Froslass",
+      "codes": [
+        "8202404C 0213"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "0214",
+      "name": "Rotom",
+      "codes": [
+        "8202404C 0214"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "0215",
+      "name": "Uxie",
+      "codes": [
+        "8202404C 0215"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "0216",
+      "name": "Mesprit",
+      "codes": [
+        "8202404C 0216"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "0217",
+      "name": "Azelf",
+      "codes": [
+        "8202404C 0217"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "0218",
+      "name": "Dialga",
+      "codes": [
+        "8202404C 0218"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "0219",
+      "name": "Palkia",
+      "codes": [
+        "8202404C 0219"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "021A",
+      "name": "Heatran",
+      "codes": [
+        "8202404C 021A"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "021B",
+      "name": "Regigigas",
+      "codes": [
+        "8202404C 021B"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "021C",
+      "name": "Giratina",
+      "codes": [
+        "8202404C 021C"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "021D",
+      "name": "Cresselia",
+      "codes": [
+        "8202404C 021D"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "021E",
+      "name": "Phione",
+      "codes": [
+        "8202404C 021E"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "021F",
+      "name": "Manaphy",
+      "codes": [
+        "8202404C 021F"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "0220",
+      "name": "Darkrai",
+      "codes": [
+        "8202404C 0220"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "0221",
+      "name": "Shaymin",
+      "codes": [
+        "8202404C 0221"
+      ]
+    },
+    {
+      "generation": 4,
+      "id": "0222",
+      "name": "Arceus",
+      "codes": [
+        "8202404C 0222"
+      ]
+    }
+  ],
+  "pcItems": [
+    {
+      "category": "Rare Candy",
+      "id": "0044",
+      "name": "Rare Candy",
+      "codes": [
+        "82025840 0044"
+      ]
+    },
+    {
+      "category": "Master Ball",
+      "id": "0001",
+      "name": "Master Ball",
+      "codes": [
+        "82025840 0001"
+      ]
+    },
+    {
+      "category": "Poke Ball",
+      "id": "0002",
+      "name": "Ultra Ball",
+      "codes": [
+        "82025840 0002"
+      ]
+    },
+    {
+      "category": "Poke Ball",
+      "id": "0003",
+      "name": "Great Ball",
+      "codes": [
+        "82025840 0003"
+      ]
+    },
+    {
+      "category": "Poke Ball",
+      "id": "0004",
+      "name": "Poke Ball",
+      "codes": [
+        "82025840 0004"
+      ]
+    },
+    {
+      "category": "Poke Ball",
+      "id": "0005",
+      "name": "Safari Ball",
+      "codes": [
+        "82025840 0005"
+      ]
+    },
+    {
+      "category": "Poke Ball",
+      "id": "0006",
+      "name": "Net Ball",
+      "codes": [
+        "82025840 0006"
+      ]
+    },
+    {
+      "category": "Poke Ball",
+      "id": "0007",
+      "name": "Dive Ball",
+      "codes": [
+        "82025840 0007"
+      ]
+    },
+    {
+      "category": "Poke Ball",
+      "id": "0008",
+      "name": "Nest Ball",
+      "codes": [
+        "82025840 0008"
+      ]
+    },
+    {
+      "category": "Poke Ball",
+      "id": "0009",
+      "name": "Repeat Ball",
+      "codes": [
+        "82025840 0009"
+      ]
+    },
+    {
+      "category": "Poke Ball",
+      "id": "000A",
+      "name": "Timer Ball",
+      "codes": [
+        "82025840 000A"
+      ]
+    },
+    {
+      "category": "Poke Ball",
+      "id": "000B",
+      "name": "Luxury Ball",
+      "codes": [
+        "82025840 000B"
+      ]
+    },
+    {
+      "category": "Poke Ball",
+      "id": "000C",
+      "name": "Premier Ball",
+      "codes": [
+        "82025840 000C"
+      ]
+    },
+    {
+      "category": "Berries",
+      "id": "0085",
+      "name": "Cheri Berry",
+      "codes": [
+        "82025840 0085"
+      ]
+    },
+    {
+      "category": "Berries",
+      "id": "0086",
+      "name": "Chesto Berry",
+      "codes": [
+        "82025840 0086"
+      ]
+    },
+    {
+      "category": "Berries",
+      "id": "0087",
+      "name": "Pecha Berry",
+      "codes": [
+        "82025840 0087"
+      ]
+    },
+    {
+      "category": "Berries",
+      "id": "0088",
+      "name": "Rawst Berry",
+      "codes": [
+        "82025840 0088"
+      ]
+    },
+    {
+      "category": "Berries",
+      "id": "0089",
+      "name": "Aspear Berry",
+      "codes": [
+        "82025840 0089"
+      ]
+    },
+    {
+      "category": "Berries",
+      "id": "008A",
+      "name": "Leppa Berry",
+      "codes": [
+        "82025840 008A"
+      ]
+    },
+    {
+      "category": "Berries",
+      "id": "008B",
+      "name": "Oran Berry",
+      "codes": [
+        "82025840 008B"
+      ]
+    },
+    {
+      "category": "Berries",
+      "id": "008C",
+      "name": "Persim Berry",
+      "codes": [
+        "82025840 008C"
+      ]
+    },
+    {
+      "category": "Berries",
+      "id": "008D",
+      "name": "Lum Berry",
+      "codes": [
+        "82025840 008D"
+      ]
+    },
+    {
+      "category": "Berries",
+      "id": "008E",
+      "name": "Sitrus Berry",
+      "codes": [
+        "82025840 008E"
+      ]
+    },
+    {
+      "category": "Berries",
+      "id": "008F",
+      "name": "Figy Berry",
+      "codes": [
+        "82025840 008F"
+      ]
+    },
+    {
+      "category": "Berries",
+      "id": "0090",
+      "name": "Wiki Berry",
+      "codes": [
+        "82025840 0090"
+      ]
+    },
+    {
+      "category": "Berries",
+      "id": "0091",
+      "name": "Mago Berry",
+      "codes": [
+        "82025840 0091"
+      ]
+    },
+    {
+      "category": "Berries",
+      "id": "0092",
+      "name": "Aguav Berry",
+      "codes": [
+        "82025840 0092"
+      ]
+    },
+    {
+      "category": "Berries",
+      "id": "0093",
+      "name": "Iapapa Berry",
+      "codes": [
+        "82025840 0093"
+      ]
+    },
+    {
+      "category": "Berries",
+      "id": "0094",
+      "name": "Razz Berry",
+      "codes": [
+        "82025840 0094"
+      ]
+    },
+    {
+      "category": "Berries",
+      "id": "0095",
+      "name": "Bluk Berry",
+      "codes": [
+        "82025840 0095"
+      ]
+    },
+    {
+      "category": "Berries",
+      "id": "0096",
+      "name": "Nanab Berry",
+      "codes": [
+        "82025840 0096"
+      ]
+    },
+    {
+      "category": "Berries",
+      "id": "0097",
+      "name": "Wepear Berry",
+      "codes": [
+        "82025840 0097"
+      ]
+    },
+    {
+      "category": "Berries",
+      "id": "0098",
+      "name": "Pinap Berry",
+      "codes": [
+        "82025840 0098"
+      ]
+    },
+    {
+      "category": "Berries",
+      "id": "0099",
+      "name": "Pomeg Berry",
+      "codes": [
+        "82025840 0099"
+      ]
+    },
+    {
+      "category": "Berries",
+      "id": "009A",
+      "name": "Kelpsy Berry",
+      "codes": [
+        "82025840 009A"
+      ]
+    },
+    {
+      "category": "Berries",
+      "id": "009B",
+      "name": "Qualot Berry",
+      "codes": [
+        "82025840 009B"
+      ]
+    },
+    {
+      "category": "Berries",
+      "id": "009C",
+      "name": "Hondew Berry",
+      "codes": [
+        "82025840 009C"
+      ]
+    },
+    {
+      "category": "Berries",
+      "id": "009D",
+      "name": "Grepa Berry",
+      "codes": [
+        "82025840 009D"
+      ]
+    },
+    {
+      "category": "Berries",
+      "id": "009E",
+      "name": "Tamato Berry",
+      "codes": [
+        "82025840 009E"
+      ]
+    },
+    {
+      "category": "Berries",
+      "id": "009F",
+      "name": "Cornn Berry",
+      "codes": [
+        "82025840 009F"
+      ]
+    },
+    {
+      "category": "Berries",
+      "id": "00A0",
+      "name": "Magost Berry",
+      "codes": [
+        "82025840 00A0"
+      ]
+    },
+    {
+      "category": "Berries",
+      "id": "00A1",
+      "name": "Rabuta Berry",
+      "codes": [
+        "82025840 00A1"
+      ]
+    },
+    {
+      "category": "Berries",
+      "id": "00A2",
+      "name": "Nomel Berry",
+      "codes": [
+        "82025840 00A2"
+      ]
+    },
+    {
+      "category": "Berries",
+      "id": "00A3",
+      "name": "Spelon Berry",
+      "codes": [
+        "82025840 00A3"
+      ]
+    },
+    {
+      "category": "Berries",
+      "id": "00A4",
+      "name": "Pamtre Berry",
+      "codes": [
+        "82025840 00A4"
+      ]
+    },
+    {
+      "category": "Berries",
+      "id": "00A5",
+      "name": "Watmel Berry",
+      "codes": [
+        "82025840 00A5"
+      ]
+    },
+    {
+      "category": "Berries",
+      "id": "00A6",
+      "name": "Durin Berry",
+      "codes": [
+        "82025840 00A6"
+      ]
+    },
+    {
+      "category": "Berries",
+      "id": "00A7",
+      "name": "Belue Berry",
+      "codes": [
+        "82025840 00A7"
+      ]
+    },
+    {
+      "category": "Berries",
+      "id": "00A8",
+      "name": "Liechi Berry",
+      "codes": [
+        "82025840 00A8"
+      ]
+    },
+    {
+      "category": "Berries",
+      "id": "00A9",
+      "name": "Ganlon Berry",
+      "codes": [
+        "82025840 00A9"
+      ]
+    },
+    {
+      "category": "Berries",
+      "id": "00AA",
+      "name": "Salac Berry",
+      "codes": [
+        "82025840 00AA"
+      ]
+    },
+    {
+      "category": "Berries",
+      "id": "00AB",
+      "name": "Petaya Berry",
+      "codes": [
+        "82025840 00AB"
+      ]
+    },
+    {
+      "category": "Berries",
+      "id": "00AC",
+      "name": "Apicot Berry",
+      "codes": [
+        "82025840 00AC"
+      ]
+    },
+    {
+      "category": "Berries",
+      "id": "00AD",
+      "name": "Lansat Berry",
+      "codes": [
+        "82025840 00AD"
+      ]
+    },
+    {
+      "category": "Berries",
+      "id": "00AE",
+      "name": "Starf Berry",
+      "codes": [
+        "82025840 00AE"
+      ]
+    },
+    {
+      "category": "Berries",
+      "id": "00AF",
+      "name": "Enigma Berry",
+      "codes": [
+        "82025840 00AF"
+      ]
+    },
+    {
+      "category": "TM and HM",
+      "id": "0121",
+      "name": "TM01 Focus Punch",
+      "codes": [
+        "82025840 0121"
+      ]
+    },
+    {
+      "category": "TM and HM",
+      "id": "0122",
+      "name": "TM02 Dragon Claw",
+      "codes": [
+        "82025840 0122"
+      ]
+    },
+    {
+      "category": "TM and HM",
+      "id": "0123",
+      "name": "TM03 Water Pulse",
+      "codes": [
+        "82025840 0123"
+      ]
+    },
+    {
+      "category": "TM and HM",
+      "id": "0124",
+      "name": "TM04 Calm Mind",
+      "codes": [
+        "82025840 0124"
+      ]
+    },
+    {
+      "category": "TM and HM",
+      "id": "0125",
+      "name": "TM05 Roar",
+      "codes": [
+        "82025840 0125"
+      ]
+    },
+    {
+      "category": "TM and HM",
+      "id": "0126",
+      "name": "TM06 Toxic",
+      "codes": [
+        "82025840 0126"
+      ]
+    },
+    {
+      "category": "TM and HM",
+      "id": "0127",
+      "name": "TM07 Hail",
+      "codes": [
+        "82025840 0127"
+      ]
+    },
+    {
+      "category": "TM and HM",
+      "id": "0128",
+      "name": "TM08 Bulk Up",
+      "codes": [
+        "82025840 0128"
+      ]
+    },
+    {
+      "category": "TM and HM",
+      "id": "0129",
+      "name": "TM09 Bullet Seed",
+      "codes": [
+        "82025840 0129"
+      ]
+    },
+    {
+      "category": "TM and HM",
+      "id": "012A",
+      "name": "TM10 Hidden Power",
+      "codes": [
+        "82025840 012A"
+      ]
+    },
+    {
+      "category": "TM and HM",
+      "id": "012B",
+      "name": "TM11 Sunny Day",
+      "codes": [
+        "82025840 012B"
+      ]
+    },
+    {
+      "category": "TM and HM",
+      "id": "012C",
+      "name": "TM12 Taunt",
+      "codes": [
+        "82025840 012C"
+      ]
+    },
+    {
+      "category": "TM and HM",
+      "id": "012D",
+      "name": "TM13 Ice Beam",
+      "codes": [
+        "82025840 012D"
+      ]
+    },
+    {
+      "category": "TM and HM",
+      "id": "012E",
+      "name": "TM14 Blizzard",
+      "codes": [
+        "82025840 012E"
+      ]
+    },
+    {
+      "category": "TM and HM",
+      "id": "012F",
+      "name": "TM15 Hyper Beam",
+      "codes": [
+        "82025840 012F"
+      ]
+    },
+    {
+      "category": "TM and HM",
+      "id": "0130",
+      "name": "TM16 Light Screen",
+      "codes": [
+        "82025840 0130"
+      ]
+    },
+    {
+      "category": "TM and HM",
+      "id": "0131",
+      "name": "TM17 Protect",
+      "codes": [
+        "82025840 0131"
+      ]
+    },
+    {
+      "category": "TM and HM",
+      "id": "0132",
+      "name": "TM18 Rain Dance",
+      "codes": [
+        "82025840 0132"
+      ]
+    },
+    {
+      "category": "TM and HM",
+      "id": "0133",
+      "name": "TM19 Giga Drain",
+      "codes": [
+        "82025840 0133"
+      ]
+    },
+    {
+      "category": "TM and HM",
+      "id": "0134",
+      "name": "TM20 Safeguard",
+      "codes": [
+        "82025840 0134"
+      ]
+    },
+    {
+      "category": "TM and HM",
+      "id": "0135",
+      "name": "TM21 Frustration",
+      "codes": [
+        "82025840 0135"
+      ]
+    },
+    {
+      "category": "TM and HM",
+      "id": "0136",
+      "name": "TM22 Solar Beam",
+      "codes": [
+        "82025840 0136"
+      ]
+    },
+    {
+      "category": "TM and HM",
+      "id": "0137",
+      "name": "TM23 Iron Tail",
+      "codes": [
+        "82025840 0137"
+      ]
+    },
+    {
+      "category": "TM and HM",
+      "id": "0138",
+      "name": "TM24 Thunderbolt",
+      "codes": [
+        "82025840 0138"
+      ]
+    },
+    {
+      "category": "TM and HM",
+      "id": "0139",
+      "name": "TM25 Thunder",
+      "codes": [
+        "82025840 0139"
+      ]
+    },
+    {
+      "category": "TM and HM",
+      "id": "013A",
+      "name": "TM26 Earthquake",
+      "codes": [
+        "82025840 013A"
+      ]
+    },
+    {
+      "category": "TM and HM",
+      "id": "013B",
+      "name": "TM27 Return",
+      "codes": [
+        "82025840 013B"
+      ]
+    },
+    {
+      "category": "TM and HM",
+      "id": "013C",
+      "name": "TM28 Dig",
+      "codes": [
+        "82025840 013C"
+      ]
+    },
+    {
+      "category": "TM and HM",
+      "id": "013D",
+      "name": "TM29 Psychic",
+      "codes": [
+        "82025840 013D"
+      ]
+    },
+    {
+      "category": "TM and HM",
+      "id": "013E",
+      "name": "TM30 Shadow Ball",
+      "codes": [
+        "82025840 013E"
+      ]
+    },
+    {
+      "category": "TM and HM",
+      "id": "013F",
+      "name": "TM31 Brick Break",
+      "codes": [
+        "82025840 013F"
+      ]
+    },
+    {
+      "category": "TM and HM",
+      "id": "0140",
+      "name": "TM32 Double Team",
+      "codes": [
+        "82025840 0140"
+      ]
+    },
+    {
+      "category": "TM and HM",
+      "id": "0141",
+      "name": "TM33 Reflect",
+      "codes": [
+        "82025840 0141"
+      ]
+    },
+    {
+      "category": "TM and HM",
+      "id": "0142",
+      "name": "TM34 Shock Wave",
+      "codes": [
+        "82025840 0142"
+      ]
+    },
+    {
+      "category": "TM and HM",
+      "id": "0143",
+      "name": "TM35 Flamethrower",
+      "codes": [
+        "82025840 0143"
+      ]
+    },
+    {
+      "category": "TM and HM",
+      "id": "0144",
+      "name": "TM36 Sludge Bomb",
+      "codes": [
+        "82025840 0144"
+      ]
+    },
+    {
+      "category": "TM and HM",
+      "id": "0145",
+      "name": "TM37 Sandstorm",
+      "codes": [
+        "82025840 0145"
+      ]
+    },
+    {
+      "category": "TM and HM",
+      "id": "0146",
+      "name": "TM38 Fire Blast",
+      "codes": [
+        "82025840 0146"
+      ]
+    },
+    {
+      "category": "TM and HM",
+      "id": "0147",
+      "name": "TM39 Rock Tomb",
+      "codes": [
+        "82025840 0147"
+      ]
+    },
+    {
+      "category": "TM and HM",
+      "id": "0148",
+      "name": "TM40 Aerial Ace",
+      "codes": [
+        "82025840 0148"
+      ]
+    },
+    {
+      "category": "TM and HM",
+      "id": "0149",
+      "name": "TM41 Torment",
+      "codes": [
+        "82025840 0149"
+      ]
+    },
+    {
+      "category": "TM and HM",
+      "id": "014A",
+      "name": "TM42 Facade",
+      "codes": [
+        "82025840 014A"
+      ]
+    },
+    {
+      "category": "TM and HM",
+      "id": "014B",
+      "name": "TM43 Secret Power",
+      "codes": [
+        "82025840 014B"
+      ]
+    },
+    {
+      "category": "TM and HM",
+      "id": "014C",
+      "name": "TM44 Rest",
+      "codes": [
+        "82025840 014C"
+      ]
+    },
+    {
+      "category": "TM and HM",
+      "id": "014D",
+      "name": "TM45 Attract",
+      "codes": [
+        "82025840 014D"
+      ]
+    },
+    {
+      "category": "TM and HM",
+      "id": "014E",
+      "name": "TM46 Thief",
+      "codes": [
+        "82025840 014E"
+      ]
+    },
+    {
+      "category": "TM and HM",
+      "id": "014F",
+      "name": "TM47 Steel Wing",
+      "codes": [
+        "82025840 014F"
+      ]
+    },
+    {
+      "category": "TM and HM",
+      "id": "0150",
+      "name": "TM48 Skill Swap",
+      "codes": [
+        "82025840 0150"
+      ]
+    },
+    {
+      "category": "TM and HM",
+      "id": "0151",
+      "name": "TM49 Snatch",
+      "codes": [
+        "82025840 0151"
+      ]
+    },
+    {
+      "category": "TM and HM",
+      "id": "0152",
+      "name": "TM50 Overheat",
+      "codes": [
+        "82025840 0152"
+      ]
+    },
+    {
+      "category": "TM and HM",
+      "id": "0153",
+      "name": "HM01 Cut",
+      "codes": [
+        "82025840 0153"
+      ]
+    },
+    {
+      "category": "TM and HM",
+      "id": "0154",
+      "name": "HM02 Fly",
+      "codes": [
+        "82025840 0154"
+      ]
+    },
+    {
+      "category": "TM and HM",
+      "id": "0155",
+      "name": "HM03 Surf",
+      "codes": [
+        "82025840 0155"
+      ]
+    },
+    {
+      "category": "TM and HM",
+      "id": "0156",
+      "name": "HM04 Strength",
+      "codes": [
+        "82025840 0156"
+      ]
+    },
+    {
+      "category": "TM and HM",
+      "id": "0157",
+      "name": "HM05 Flash",
+      "codes": [
+        "82025840 0157"
+      ]
+    },
+    {
+      "category": "TM and HM",
+      "id": "0158",
+      "name": "HM06 Rock Smash",
+      "codes": [
+        "82025840 0158"
+      ]
+    },
+    {
+      "category": "TM and HM",
+      "id": "0159",
+      "name": "HM07 Waterfall",
+      "codes": [
+        "82025840 0159"
+      ]
+    },
+    {
+      "category": "TM and HM",
+      "id": "015A",
+      "name": "HM08 Dive",
+      "codes": [
+        "82025840 015A"
+      ]
+    },
+    {
+      "category": "Healing Items",
+      "id": "000D",
+      "name": "Potion",
+      "codes": [
+        "82025840 000D"
+      ]
+    },
+    {
+      "category": "Healing Items",
+      "id": "000E",
+      "name": "Antidote",
+      "codes": [
+        "82025840 000E"
+      ]
+    },
+    {
+      "category": "Healing Items",
+      "id": "000F",
+      "name": "Burn Heal",
+      "codes": [
+        "82025840 000F"
+      ]
+    },
+    {
+      "category": "Healing Items",
+      "id": "0010",
+      "name": "Ice Heal",
+      "codes": [
+        "82025840 0010"
+      ]
+    },
+    {
+      "category": "Healing Items",
+      "id": "0011",
+      "name": "Awakening",
+      "codes": [
+        "82025840 0011"
+      ]
+    },
+    {
+      "category": "Healing Items",
+      "id": "0012",
+      "name": "Paralyze Heal",
+      "codes": [
+        "82025840 0012"
+      ]
+    },
+    {
+      "category": "Healing Items",
+      "id": "0013",
+      "name": "Full Restore",
+      "codes": [
+        "82025840 0013"
+      ]
+    },
+    {
+      "category": "Healing Items",
+      "id": "0014",
+      "name": "Max Potion",
+      "codes": [
+        "82025840 0014"
+      ]
+    },
+    {
+      "category": "Healing Items",
+      "id": "0015",
+      "name": "Hyper Potion",
+      "codes": [
+        "82025840 0015"
+      ]
+    },
+    {
+      "category": "Healing Items",
+      "id": "0016",
+      "name": "Super Potion",
+      "codes": [
+        "82025840 0016"
+      ]
+    },
+    {
+      "category": "Healing Items",
+      "id": "0017",
+      "name": "Full Heal",
+      "codes": [
+        "82025840 0017"
+      ]
+    },
+    {
+      "category": "Healing Items",
+      "id": "0018",
+      "name": "Revive",
+      "codes": [
+        "82025840 0018"
+      ]
+    },
+    {
+      "category": "Healing Items",
+      "id": "0019",
+      "name": "Max Revive",
+      "codes": [
+        "82025840 0019"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "00B3",
+      "name": "Bright Powder",
+      "codes": [
+        "82025840 00B3"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "00B4",
+      "name": "White Herb",
+      "codes": [
+        "82025840 00B4"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "00B5",
+      "name": "Macho Brace",
+      "codes": [
+        "82025840 00B5"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "00B6",
+      "name": "Exp Share",
+      "codes": [
+        "82025840 00B6"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "00B7",
+      "name": "Quick Claw",
+      "codes": [
+        "82025840 00B7"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "00B8",
+      "name": "Soothe Bell",
+      "codes": [
+        "82025840 00B8"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "00B9",
+      "name": "Mental Herb",
+      "codes": [
+        "82025840 00B9"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "00BA",
+      "name": "Choice Band",
+      "codes": [
+        "82025840 00BA"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "00BB",
+      "name": "King’s Rock",
+      "codes": [
+        "82025840 00BB"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "00BC",
+      "name": "Silver Powder",
+      "codes": [
+        "82025840 00BC"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "00BD",
+      "name": "Amulet Coin",
+      "codes": [
+        "82025840 00BD"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "00BE",
+      "name": "Cleanse Tag",
+      "codes": [
+        "82025840 00BE"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "00BF",
+      "name": "Soul Dew",
+      "codes": [
+        "82025840 00BF"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "00C0",
+      "name": "Deep Sea Tooth",
+      "codes": [
+        "82025840 00C0"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "00C1",
+      "name": "Deep Sea Scale",
+      "codes": [
+        "82025840 00C1"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "00C2",
+      "name": "Smoke Ball",
+      "codes": [
+        "82025840 00C2"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "00C3",
+      "name": "Everstone",
+      "codes": [
+        "82025840 00C3"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "00C4",
+      "name": "Focus Band",
+      "codes": [
+        "82025840 00C4"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "00C5",
+      "name": "Lucky Egg",
+      "codes": [
+        "82025840 00C5"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "00C6",
+      "name": "Scope Lens",
+      "codes": [
+        "82025840 00C6"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "00C7",
+      "name": "Metal Coat",
+      "codes": [
+        "82025840 00C7"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "00C8",
+      "name": "Leftovers",
+      "codes": [
+        "82025840 00C8"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "00C9",
+      "name": "Dragon Scale",
+      "codes": [
+        "82025840 00C9"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "00CA",
+      "name": "Light Ball",
+      "codes": [
+        "82025840 00CA"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "00CB",
+      "name": "Soft Sand",
+      "codes": [
+        "82025840 00CB"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "00CC",
+      "name": "Hard Stone",
+      "codes": [
+        "82025840 00CC"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "00CD",
+      "name": "Miracle Seed",
+      "codes": [
+        "82025840 00CD"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "00CE",
+      "name": "Black Glasses",
+      "codes": [
+        "82025840 00CE"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "00CF",
+      "name": "Black Belt",
+      "codes": [
+        "82025840 00CF"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "00D0",
+      "name": "Magnet",
+      "codes": [
+        "82025840 00D0"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "00D1",
+      "name": "Mystic Water",
+      "codes": [
+        "82025840 00D1"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "00D2",
+      "name": "Sharp Beak",
+      "codes": [
+        "82025840 00D2"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "00D3",
+      "name": "Poison Barb",
+      "codes": [
+        "82025840 00D3"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "00D4",
+      "name": "Nevermelt Ice",
+      "codes": [
+        "82025840 00D4"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "00D5",
+      "name": "Spell Tag",
+      "codes": [
+        "82025840 00D5"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "00D6",
+      "name": "Twisted Spoon",
+      "codes": [
+        "82025840 00D6"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "00D7",
+      "name": "Charcoal",
+      "codes": [
+        "82025840 00D7"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "00D8",
+      "name": "Dragon Fang",
+      "codes": [
+        "82025840 00D8"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "00D9",
+      "name": "Silk Scarf",
+      "codes": [
+        "82025840 00D9"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "00DA",
+      "name": "Up-Grade",
+      "codes": [
+        "82025840 00DA"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "00DB",
+      "name": "Shell Bell",
+      "codes": [
+        "82025840 00DB"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "00DC",
+      "name": "Sea Incense",
+      "codes": [
+        "82025840 00DC"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "00DD",
+      "name": "Lax Incense",
+      "codes": [
+        "82025840 00DD"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "00DE",
+      "name": "Lucky Punch",
+      "codes": [
+        "82025840 00DE"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "00DF",
+      "name": "Metal Powder",
+      "codes": [
+        "82025840 00DF"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "00E0",
+      "name": "Thick Club",
+      "codes": [
+        "82025840 00E0"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "00E1",
+      "name": "Stick",
+      "codes": [
+        "82025840 00E1"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "00FE",
+      "name": "Red Scarf",
+      "codes": [
+        "82025840 00FE"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "00FF",
+      "name": "Blue Scarf",
+      "codes": [
+        "82025840 00FF"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "0100",
+      "name": "Pink Scarf",
+      "codes": [
+        "82025840 0100"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "0101",
+      "name": "Green Scarf",
+      "codes": [
+        "82025840 0101"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "0102",
+      "name": "Yellow Scarf",
+      "codes": [
+        "82025840 0102"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "0103",
+      "name": "Mach Bike",
+      "codes": [
+        "82025840 0103"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "0104",
+      "name": "Coin Case",
+      "codes": [
+        "82025840 0104"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "0105",
+      "name": "Item Finder",
+      "codes": [
+        "82025840 0105"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "0106",
+      "name": "Old Rod",
+      "codes": [
+        "82025840 0106"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "0107",
+      "name": "Good Rod",
+      "codes": [
+        "82025840 0107"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "0108",
+      "name": "Super Rod",
+      "codes": [
+        "82025840 0108"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "0109",
+      "name": "S.S. Ticket",
+      "codes": [
+        "82025840 0109"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "010A",
+      "name": "Contest Pass",
+      "codes": [
+        "82025840 010A"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "010C",
+      "name": "Wailmer Pail",
+      "codes": [
+        "82025840 010C"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "010D",
+      "name": "Devon’s Goods",
+      "codes": [
+        "82025840 010D"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "010E",
+      "name": "Soot Sack",
+      "codes": [
+        "82025840 010E"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "010F",
+      "name": "Basement Key",
+      "codes": [
+        "82025840 010F"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "0110",
+      "name": "Acro Bike",
+      "codes": [
+        "82025840 0110"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "0111",
+      "name": "Poke Block Case",
+      "codes": [
+        "82025840 0111"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "0112",
+      "name": "Letter",
+      "codes": [
+        "82025840 0112"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "0113",
+      "name": "Eon Ticket",
+      "codes": [
+        "82025840 0113"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "0114",
+      "name": "Red Orb",
+      "codes": [
+        "82025840 0114"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "0115",
+      "name": "Blue Orb",
+      "codes": [
+        "82025840 0115"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "0116",
+      "name": "Scanner",
+      "codes": [
+        "82025840 0116"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "0117",
+      "name": "Go-Goggles",
+      "codes": [
+        "82025840 0117"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "0118",
+      "name": "Meteorite",
+      "codes": [
+        "82025840 0118"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "0119",
+      "name": "Rm.1 Key",
+      "codes": [
+        "82025840 0119"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "011A",
+      "name": "Rm.2 Key",
+      "codes": [
+        "82025840 011A"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "011B",
+      "name": "Rm.4 Key",
+      "codes": [
+        "82025840 011B"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "011C",
+      "name": "Rm.6 Key",
+      "codes": [
+        "82025840 011C"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "011D",
+      "name": "Storage Key",
+      "codes": [
+        "82025840 011D"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "011E",
+      "name": "Root Fossil",
+      "codes": [
+        "82025840 011E"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "011F",
+      "name": "Claw Fossil",
+      "codes": [
+        "82025840 011F"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "0120",
+      "name": "Devon Scope",
+      "codes": [
+        "82025840 0120"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "001A",
+      "name": "Fresh Water",
+      "codes": [
+        "82025840 001A"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "001B",
+      "name": "Soda Pop",
+      "codes": [
+        "82025840 001B"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "001C",
+      "name": "Lemonade",
+      "codes": [
+        "82025840 001C"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "001D",
+      "name": "MooMoo Milk",
+      "codes": [
+        "82025840 001D"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "001E",
+      "name": "Energy Powder",
+      "codes": [
+        "82025840 001E"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "001F",
+      "name": "Energy Root",
+      "codes": [
+        "82025840 001F"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "0020",
+      "name": "Heal Powder",
+      "codes": [
+        "82025840 0020"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "0021",
+      "name": "Revival Herb",
+      "codes": [
+        "82025840 0021"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "0022",
+      "name": "Ether",
+      "codes": [
+        "82025840 0022"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "0023",
+      "name": "Max Ether",
+      "codes": [
+        "82025840 0023"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "0024",
+      "name": "Elixer",
+      "codes": [
+        "82025840 0024"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "0025",
+      "name": "Max Elixer",
+      "codes": [
+        "82025840 0025"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "0026",
+      "name": "Lava Cookie",
+      "codes": [
+        "82025840 0026"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "0027",
+      "name": "Blue Flute",
+      "codes": [
+        "82025840 0027"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "0028",
+      "name": "Yellow Flute",
+      "codes": [
+        "82025840 0028"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "0029",
+      "name": "Red Flute",
+      "codes": [
+        "82025840 0029"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "002A",
+      "name": "Black Flute",
+      "codes": [
+        "82025840 002A"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "002B",
+      "name": "White Flute",
+      "codes": [
+        "82025840 002B"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "002C",
+      "name": "Berry Juice",
+      "codes": [
+        "82025840 002C"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "002D",
+      "name": "Sacred Ash",
+      "codes": [
+        "82025840 002D"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "002E",
+      "name": "Shoal Salt",
+      "codes": [
+        "82025840 002E"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "002F",
+      "name": "Shoal Shell",
+      "codes": [
+        "82025840 002F"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "0030",
+      "name": "Red Shard",
+      "codes": [
+        "82025840 0030"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "0031",
+      "name": "Blue Shard",
+      "codes": [
+        "82025840 0031"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "0032",
+      "name": "Yellow Shard",
+      "codes": [
+        "82025840 0032"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "0033",
+      "name": "Green Shard",
+      "codes": [
+        "82025840 0033"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "003F",
+      "name": "HP Up",
+      "codes": [
+        "82025840 003F"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "0040",
+      "name": "Protein",
+      "codes": [
+        "82025840 0040"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "0041",
+      "name": "Iron",
+      "codes": [
+        "82025840 0041"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "0042",
+      "name": "Carbos",
+      "codes": [
+        "82025840 0042"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "0043",
+      "name": "Calcium",
+      "codes": [
+        "82025840 0043"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "0045",
+      "name": "PP Up",
+      "codes": [
+        "82025840 0045"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "0046",
+      "name": "Zinc",
+      "codes": [
+        "82025840 0046"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "0047",
+      "name": "PP Max",
+      "codes": [
+        "82025840 0047"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "0049",
+      "name": "Guard Spec",
+      "codes": [
+        "82025840 0049"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "004A",
+      "name": "Dire Hit",
+      "codes": [
+        "82025840 004A"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "004B",
+      "name": "X Attack",
+      "codes": [
+        "82025840 004B"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "004C",
+      "name": "X Defend",
+      "codes": [
+        "82025840 004C"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "004D",
+      "name": "X Speed",
+      "codes": [
+        "82025840 004D"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "004E",
+      "name": "X Accuracy",
+      "codes": [
+        "82025840 004E"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "004F",
+      "name": "X Special",
+      "codes": [
+        "82025840 004F"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "0050",
+      "name": "Poke Doll",
+      "codes": [
+        "82025840 0050"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "0051",
+      "name": "Fluffy Tail",
+      "codes": [
+        "82025840 0051"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "0053",
+      "name": "Super Repel",
+      "codes": [
+        "82025840 0053"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "0054",
+      "name": "Max Repel",
+      "codes": [
+        "82025840 0054"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "0055",
+      "name": "Escape Rope",
+      "codes": [
+        "82025840 0055"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "0056",
+      "name": "Repel",
+      "codes": [
+        "82025840 0056"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "005D",
+      "name": "Sun Stone",
+      "codes": [
+        "82025840 005D"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "005E",
+      "name": "Moon Stone",
+      "codes": [
+        "82025840 005E"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "005F",
+      "name": "Fire Stone",
+      "codes": [
+        "82025840 005F"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "0060",
+      "name": "Thunder Stone",
+      "codes": [
+        "82025840 0060"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "0061",
+      "name": "Water Stone",
+      "codes": [
+        "82025840 0061"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "0062",
+      "name": "Leaf Stone",
+      "codes": [
+        "82025840 0062"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "0067",
+      "name": "Tiny Mushroom",
+      "codes": [
+        "82025840 0067"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "0068",
+      "name": "Big Mushroom",
+      "codes": [
+        "82025840 0068"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "006A",
+      "name": "Pearl",
+      "codes": [
+        "82025840 006A"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "006B",
+      "name": "Big Pearl",
+      "codes": [
+        "82025840 006B"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "006C",
+      "name": "Stardust",
+      "codes": [
+        "82025840 006C"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "006D",
+      "name": "Star Piece",
+      "codes": [
+        "82025840 006D"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "006E",
+      "name": "Nugget",
+      "codes": [
+        "82025840 006E"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "006F",
+      "name": "Heart Scale",
+      "codes": [
+        "82025840 006F"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "0079",
+      "name": "Orange Mail",
+      "codes": [
+        "82025840 0079"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "007A",
+      "name": "Harbor Mail",
+      "codes": [
+        "82025840 007A"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "007B",
+      "name": "Glitter Mail",
+      "codes": [
+        "82025840 007B"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "007C",
+      "name": "Mech Mail",
+      "codes": [
+        "82025840 007C"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "007D",
+      "name": "Wood Mail",
+      "codes": [
+        "82025840 007D"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "007E",
+      "name": "Wave Mail",
+      "codes": [
+        "82025840 007E"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "007F",
+      "name": "Bead Mail",
+      "codes": [
+        "82025840 007F"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "0080",
+      "name": "Shadow Mail",
+      "codes": [
+        "82025840 0080"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "0081",
+      "name": "Tropic Mail",
+      "codes": [
+        "82025840 0081"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "0082",
+      "name": "Dream Mail",
+      "codes": [
+        "82025840 0082"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "0083",
+      "name": "Fab Mail",
+      "codes": [
+        "82025840 0083"
+      ]
+    },
+    {
+      "category": "Misc Items",
+      "id": "0084",
+      "name": "Retro Mail",
+      "codes": [
+        "82025840 0084"
+      ]
+    }
+  ],
+  "martItems": [
+    {
+      "category": "Apricorns",
+      "id": "009F",
+      "name": "Blk Apricorn",
+      "risk": null,
+      "codes": [
+        "82003884 009F"
+      ]
+    },
+    {
+      "category": "Apricorns",
+      "id": "0099",
+      "name": "Blu Apricorn",
+      "risk": null,
+      "codes": [
+        "82003884 0099"
+      ]
+    },
+    {
+      "category": "Apricorns",
+      "id": "009A",
+      "name": "Grn Apricorn",
+      "risk": null,
+      "codes": [
+        "82003884 009A"
+      ]
+    },
+    {
+      "category": "Apricorns",
+      "id": "009D",
+      "name": "Pnk Apricorn",
+      "risk": null,
+      "codes": [
+        "82003884 009D"
+      ]
+    },
+    {
+      "category": "Apricorns",
+      "id": "009C",
+      "name": "Red Apricorn",
+      "risk": null,
+      "codes": [
+        "82003884 009C"
+      ]
+    },
+    {
+      "category": "Apricorns",
+      "id": "009E",
+      "name": "Wht Apricorn",
+      "risk": null,
+      "codes": [
+        "82003884 009E"
+      ]
+    },
+    {
+      "category": "Apricorns",
+      "id": "009B",
+      "name": "Ylw Apricorn",
+      "risk": null,
+      "codes": [
+        "82003884 009B"
+      ]
+    },
+    {
+      "category": "Badges",
+      "id": "018C",
+      "name": "Azalea Badge",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 018C"
+      ]
+    },
+    {
+      "category": "Badges",
+      "id": "0192",
+      "name": "Blackthorn Badge",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 0192"
+      ]
+    },
+    {
+      "category": "Badges",
+      "id": "0194",
+      "name": "Cerulean Badge",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 0194"
+      ]
+    },
+    {
+      "category": "Badges",
+      "id": "0196",
+      "name": "Celedon Badge",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 0196"
+      ]
+    },
+    {
+      "category": "Badges",
+      "id": "0199",
+      "name": "Cinnabar Badge",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 0199"
+      ]
+    },
+    {
+      "category": "Badges",
+      "id": "018F",
+      "name": "Cianwood Badge",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 018F"
+      ]
+    },
+    {
+      "category": "Badges",
+      "id": "018E",
+      "name": "Eceuteak Badge",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 018E"
+      ]
+    },
+    {
+      "category": "Badges",
+      "id": "0197",
+      "name": "Fuchsia Badge",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 0197"
+      ]
+    },
+    {
+      "category": "Badges",
+      "id": "018D",
+      "name": "Goldenrod Badge",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 018D"
+      ]
+    },
+    {
+      "category": "Badges",
+      "id": "0191",
+      "name": "Mahogany Badge",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 0191"
+      ]
+    },
+    {
+      "category": "Badges",
+      "id": "0190",
+      "name": "Olivine Badge",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 0190"
+      ]
+    },
+    {
+      "category": "Badges",
+      "id": "0193",
+      "name": "Pewter Badge",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 0193"
+      ]
+    },
+    {
+      "category": "Badges",
+      "id": "0198",
+      "name": "Saffron Badge",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 0198"
+      ]
+    },
+    {
+      "category": "Badges",
+      "id": "0195",
+      "name": "Vermilion Badge",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 0195"
+      ]
+    },
+    {
+      "category": "Badges",
+      "id": "018B",
+      "name": "Violet Badge",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 018B"
+      ]
+    },
+    {
+      "category": "Badges",
+      "id": "019A",
+      "name": "Viridian Badge",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 019A"
+      ]
+    },
+    {
+      "category": "Balls",
+      "id": "00FA",
+      "name": "Dusk Ball",
+      "risk": null,
+      "codes": [
+        "82003884 00FA"
+      ]
+    },
+    {
+      "category": "Balls",
+      "id": "00F7",
+      "name": "Fast Ball",
+      "risk": null,
+      "codes": [
+        "82003884 00F7"
+      ]
+    },
+    {
+      "category": "Balls",
+      "id": "00F4",
+      "name": "Friend Ball",
+      "risk": null,
+      "codes": [
+        "82003884 00F4"
+      ]
+    },
+    {
+      "category": "Balls",
+      "id": "00F8",
+      "name": "Heal Ball",
+      "risk": null,
+      "codes": [
+        "82003884 00F8"
+      ]
+    },
+    {
+      "category": "Balls",
+      "id": "00F6",
+      "name": "Heavy Ball",
+      "risk": null,
+      "codes": [
+        "82003884 00F6"
+      ]
+    },
+    {
+      "category": "Balls",
+      "id": "0003",
+      "name": "Great Ball",
+      "risk": null,
+      "codes": [
+        "82003884 0003"
+      ]
+    },
+    {
+      "category": "Balls",
+      "id": "00F5",
+      "name": "Love Ball",
+      "risk": null,
+      "codes": [
+        "82003884 00F5"
+      ]
+    },
+    {
+      "category": "Balls",
+      "id": "00F1",
+      "name": "Level Ball",
+      "risk": null,
+      "codes": [
+        "82003884 00F1"
+      ]
+    },
+    {
+      "category": "Balls",
+      "id": "000B",
+      "name": "Luxury Ball",
+      "risk": null,
+      "codes": [
+        "82003884 000B"
+      ]
+    },
+    {
+      "category": "Balls",
+      "id": "0001",
+      "name": "Master Ball",
+      "risk": null,
+      "codes": [
+        "82003884 0001"
+      ]
+    },
+    {
+      "category": "Balls",
+      "id": "00F3",
+      "name": "Moon Ball",
+      "risk": null,
+      "codes": [
+        "82003884 00F3"
+      ]
+    },
+    {
+      "category": "Balls",
+      "id": "0006",
+      "name": "Net Ball",
+      "risk": null,
+      "codes": [
+        "82003884 0006"
+      ]
+    },
+    {
+      "category": "Balls",
+      "id": "0008",
+      "name": "Nest Ball",
+      "risk": null,
+      "codes": [
+        "82003884 0008"
+      ]
+    },
+    {
+      "category": "Balls",
+      "id": "0004",
+      "name": "Poké Ball",
+      "risk": null,
+      "codes": [
+        "82003884 0004"
+      ]
+    },
+    {
+      "category": "Balls",
+      "id": "000C",
+      "name": "Premier Ball",
+      "risk": null,
+      "codes": [
+        "82003884 000C"
+      ]
+    },
+    {
+      "category": "Balls",
+      "id": "00F9",
+      "name": "Quick Ball",
+      "risk": null,
+      "codes": [
+        "82003884 00F9"
+      ]
+    },
+    {
+      "category": "Balls",
+      "id": "00FB",
+      "name": "Rocket Ball",
+      "risk": null,
+      "codes": [
+        "82003884 00FB"
+      ]
+    },
+    {
+      "category": "Balls",
+      "id": "0005",
+      "name": "Safari Ball",
+      "risk": null,
+      "codes": [
+        "82003884 0005"
+      ]
+    },
+    {
+      "category": "Balls",
+      "id": "00FC",
+      "name": "Sport Ball",
+      "risk": null,
+      "codes": [
+        "82003884 00FC"
+      ]
+    },
+    {
+      "category": "Balls",
+      "id": "000A",
+      "name": "Timer Ball",
+      "risk": null,
+      "codes": [
+        "82003884 000A"
+      ]
+    },
+    {
+      "category": "Balls",
+      "id": "0002",
+      "name": "Ultra Ball",
+      "risk": null,
+      "codes": [
+        "82003884 0002"
+      ]
+    },
+    {
+      "category": "Berries",
+      "id": "0092",
+      "name": "Aguav Berry",
+      "risk": null,
+      "codes": [
+        "82003884 0092"
+      ]
+    },
+    {
+      "category": "Berries",
+      "id": "0098",
+      "name": "Apicot Berry",
+      "risk": null,
+      "codes": [
+        "82003884 0098"
+      ]
+    },
+    {
+      "category": "Berries",
+      "id": "0089",
+      "name": "Aspear Berry",
+      "risk": null,
+      "codes": [
+        "82003884 0089"
+      ]
+    },
+    {
+      "category": "Berries",
+      "id": "0085",
+      "name": "Cherri Berry",
+      "risk": null,
+      "codes": [
+        "82003884 0085"
+      ]
+    },
+    {
+      "category": "Berries",
+      "id": "0086",
+      "name": "Chesto Berry",
+      "risk": null,
+      "codes": [
+        "82003884 0086"
+      ]
+    },
+    {
+      "category": "Berries",
+      "id": "008F",
+      "name": "Figy Berry",
+      "risk": null,
+      "codes": [
+        "82003884 008F"
+      ]
+    },
+    {
+      "category": "Berries",
+      "id": "0095",
+      "name": "Ganlon Berry",
+      "risk": null,
+      "codes": [
+        "82003884 0095"
+      ]
+    },
+    {
+      "category": "Berries",
+      "id": "0093",
+      "name": "Iapapa Berry",
+      "risk": null,
+      "codes": [
+        "82003884 0093"
+      ]
+    },
+    {
+      "category": "Berries",
+      "id": "008A",
+      "name": "Leppa Berry",
+      "risk": null,
+      "codes": [
+        "82003884 008A"
+      ]
+    },
+    {
+      "category": "Berries",
+      "id": "0094",
+      "name": "Liechi Berry",
+      "risk": null,
+      "codes": [
+        "82003884 0094"
+      ]
+    },
+    {
+      "category": "Berries",
+      "id": "008D",
+      "name": "Lum Berry",
+      "risk": null,
+      "codes": [
+        "82003884 008D"
+      ]
+    },
+    {
+      "category": "Berries",
+      "id": "0091",
+      "name": "Mago Berry",
+      "risk": null,
+      "codes": [
+        "82003884 0091"
+      ]
+    },
+    {
+      "category": "Berries",
+      "id": "008B",
+      "name": "Orange Berry",
+      "risk": null,
+      "codes": [
+        "82003884 008B"
+      ]
+    },
+    {
+      "category": "Berries",
+      "id": "0087",
+      "name": "Pecha Berry",
+      "risk": null,
+      "codes": [
+        "82003884 0087"
+      ]
+    },
+    {
+      "category": "Berries",
+      "id": "0097",
+      "name": "Petaya Berry",
+      "risk": null,
+      "codes": [
+        "82003884 0097"
+      ]
+    },
+    {
+      "category": "Berries",
+      "id": "008C",
+      "name": "Persim Berry",
+      "risk": null,
+      "codes": [
+        "82003884 008C"
+      ]
+    },
+    {
+      "category": "Berries",
+      "id": "0088",
+      "name": "Rawst Berry",
+      "risk": null,
+      "codes": [
+        "82003884 0088"
+      ]
+    },
+    {
+      "category": "Berries",
+      "id": "0096",
+      "name": "Salac Berry",
+      "risk": null,
+      "codes": [
+        "82003884 0096"
+      ]
+    },
+    {
+      "category": "Berries",
+      "id": "008E",
+      "name": "Sitrus Berry",
+      "risk": null,
+      "codes": [
+        "82003884 008E"
+      ]
+    },
+    {
+      "category": "Berries",
+      "id": "0090",
+      "name": "Wiki Berry",
+      "risk": null,
+      "codes": [
+        "82003884 0090"
+      ]
+    },
+    {
+      "category": "Evolution Items / Stones",
+      "id": "0063",
+      "name": "Dusk Stone",
+      "risk": null,
+      "codes": [
+        "82003884 0063"
+      ]
+    },
+    {
+      "category": "Evolution Items / Stones",
+      "id": "0069",
+      "name": "Eviolite",
+      "risk": null,
+      "codes": [
+        "82003884 0069"
+      ]
+    },
+    {
+      "category": "Evolution Items / Stones",
+      "id": "005F",
+      "name": "Fire Stone",
+      "risk": null,
+      "codes": [
+        "82003884 005F"
+      ]
+    },
+    {
+      "category": "Evolution Items / Stones",
+      "id": "0065",
+      "name": "Ice Stone",
+      "risk": null,
+      "codes": [
+        "82003884 0065"
+      ]
+    },
+    {
+      "category": "Evolution Items / Stones",
+      "id": "0062",
+      "name": "Leaf Stone",
+      "risk": null,
+      "codes": [
+        "82003884 0062"
+      ]
+    },
+    {
+      "category": "Evolution Items / Stones",
+      "id": "005E",
+      "name": "Moon Stone",
+      "risk": null,
+      "codes": [
+        "82003884 005E"
+      ]
+    },
+    {
+      "category": "Evolution Items / Stones",
+      "id": "00A7",
+      "name": "Oval Stone",
+      "risk": null,
+      "codes": [
+        "82003884 00A7"
+      ]
+    },
+    {
+      "category": "Evolution Items / Stones",
+      "id": "0064",
+      "name": "Shiny Stone",
+      "risk": null,
+      "codes": [
+        "82003884 0064"
+      ]
+    },
+    {
+      "category": "Evolution Items / Stones",
+      "id": "005D",
+      "name": "Sun Stone",
+      "risk": null,
+      "codes": [
+        "82003884 005D"
+      ]
+    },
+    {
+      "category": "Evolution Items / Stones",
+      "id": "0060",
+      "name": "Thunder Stone",
+      "risk": null,
+      "codes": [
+        "82003884 0060"
+      ]
+    },
+    {
+      "category": "Evolution Items / Stones",
+      "id": "0061",
+      "name": "Water Stone",
+      "risk": null,
+      "codes": [
+        "82003884 0061"
+      ]
+    },
+    {
+      "category": "Fossils",
+      "id": "011F",
+      "name": "Claw Fossil",
+      "risk": null,
+      "codes": [
+        "82003884 011F"
+      ]
+    },
+    {
+      "category": "Fossils",
+      "id": "0166",
+      "name": "Dome Fossil",
+      "risk": null,
+      "codes": [
+        "82003884 0166"
+      ]
+    },
+    {
+      "category": "Fossils",
+      "id": "0165",
+      "name": "Helix Fossil",
+      "risk": null,
+      "codes": [
+        "82003884 0165"
+      ]
+    },
+    {
+      "category": "Fossils",
+      "id": "0162",
+      "name": "Old Amber",
+      "risk": null,
+      "codes": [
+        "82003884 0162"
+      ]
+    },
+    {
+      "category": "Fossils",
+      "id": "011E",
+      "name": "Root Fossil",
+      "risk": null,
+      "codes": [
+        "82003884 011E"
+      ]
+    },
+    {
+      "category": "Healing Items",
+      "id": "000E",
+      "name": "Antidote",
+      "risk": null,
+      "codes": [
+        "82003884 000E"
+      ]
+    },
+    {
+      "category": "Healing Items",
+      "id": "0011",
+      "name": "Awakening",
+      "risk": null,
+      "codes": [
+        "82003884 0011"
+      ]
+    },
+    {
+      "category": "Healing Items",
+      "id": "002C",
+      "name": "Berry Juice",
+      "risk": null,
+      "codes": [
+        "82003884 002C"
+      ]
+    },
+    {
+      "category": "Healing Items",
+      "id": "000F",
+      "name": "Burn Heal",
+      "risk": null,
+      "codes": [
+        "82003884 000F"
+      ]
+    },
+    {
+      "category": "Healing Items",
+      "id": "0022",
+      "name": "Ether",
+      "risk": null,
+      "codes": [
+        "82003884 0022"
+      ]
+    },
+    {
+      "category": "Healing Items",
+      "id": "0024",
+      "name": "Elixir",
+      "risk": null,
+      "codes": [
+        "82003884 0024"
+      ]
+    },
+    {
+      "category": "Healing Items",
+      "id": "001E",
+      "name": "Energypowder",
+      "risk": null,
+      "codes": [
+        "82003884 001E"
+      ]
+    },
+    {
+      "category": "Healing Items",
+      "id": "001F",
+      "name": "Energy Root",
+      "risk": null,
+      "codes": [
+        "82003884 001F"
+      ]
+    },
+    {
+      "category": "Healing Items",
+      "id": "001A",
+      "name": "Fresh Water",
+      "risk": null,
+      "codes": [
+        "82003884 001A"
+      ]
+    },
+    {
+      "category": "Healing Items",
+      "id": "0017",
+      "name": "Full Heal",
+      "risk": null,
+      "codes": [
+        "82003884 0017"
+      ]
+    },
+    {
+      "category": "Healing Items",
+      "id": "0013",
+      "name": "Full Restore",
+      "risk": null,
+      "codes": [
+        "82003884 0013"
+      ]
+    },
+    {
+      "category": "Healing Items",
+      "id": "0020",
+      "name": "Heal Powder",
+      "risk": null,
+      "codes": [
+        "82003884 0020"
+      ]
+    },
+    {
+      "category": "Healing Items",
+      "id": "0015",
+      "name": "Hyper Potion",
+      "risk": null,
+      "codes": [
+        "82003884 0015"
+      ]
+    },
+    {
+      "category": "Healing Items",
+      "id": "0010",
+      "name": "Ice Heal",
+      "risk": null,
+      "codes": [
+        "82003884 0010"
+      ]
+    },
+    {
+      "category": "Healing Items",
+      "id": "001C",
+      "name": "Lemonade",
+      "risk": null,
+      "codes": [
+        "82003884 001C"
+      ]
+    },
+    {
+      "category": "Healing Items",
+      "id": "0026",
+      "name": "Lava Cookie",
+      "risk": null,
+      "codes": [
+        "82003884 0026"
+      ]
+    },
+    {
+      "category": "Healing Items",
+      "id": "0014",
+      "name": "Max Potion",
+      "risk": null,
+      "codes": [
+        "82003884 0014"
+      ]
+    },
+    {
+      "category": "Healing Items",
+      "id": "0023",
+      "name": "Max Ether",
+      "risk": null,
+      "codes": [
+        "82003884 0023"
+      ]
+    },
+    {
+      "category": "Healing Items",
+      "id": "0025",
+      "name": "Max Elixir",
+      "risk": null,
+      "codes": [
+        "82003884 0025"
+      ]
+    },
+    {
+      "category": "Healing Items",
+      "id": "0019",
+      "name": "Max Revive",
+      "risk": null,
+      "codes": [
+        "82003884 0019"
+      ]
+    },
+    {
+      "category": "Healing Items",
+      "id": "001D",
+      "name": "Moomoo Milk",
+      "risk": null,
+      "codes": [
+        "82003884 001D"
+      ]
+    },
+    {
+      "category": "Healing Items",
+      "id": "0012",
+      "name": "Parlyz Heal",
+      "risk": null,
+      "codes": [
+        "82003884 0012"
+      ]
+    },
+    {
+      "category": "Healing Items",
+      "id": "000D",
+      "name": "Potion",
+      "risk": null,
+      "codes": [
+        "82003884 000D"
+      ]
+    },
+    {
+      "category": "Healing Items",
+      "id": "007B",
+      "name": "Rage Candy Bar",
+      "risk": null,
+      "codes": [
+        "82003884 007B"
+      ]
+    },
+    {
+      "category": "Healing Items",
+      "id": "0018",
+      "name": "Revive",
+      "risk": null,
+      "codes": [
+        "82003884 0018"
+      ]
+    },
+    {
+      "category": "Healing Items",
+      "id": "0021",
+      "name": "Revival Herb",
+      "risk": null,
+      "codes": [
+        "82003884 0021"
+      ]
+    },
+    {
+      "category": "Healing Items",
+      "id": "002D",
+      "name": "Sacred Ash",
+      "risk": null,
+      "codes": [
+        "82003884 002D"
+      ]
+    },
+    {
+      "category": "Healing Items",
+      "id": "0016",
+      "name": "Super Potion",
+      "risk": null,
+      "codes": [
+        "82003884 0016"
+      ]
+    },
+    {
+      "category": "Healing Items",
+      "id": "001B",
+      "name": "Soda Pop",
+      "risk": null,
+      "codes": [
+        "82003884 001B"
+      ]
+    },
+    {
+      "category": "Held Items",
+      "id": "00BD",
+      "name": "Amulet Coin",
+      "risk": null,
+      "codes": [
+        "82003884 00BD"
+      ]
+    },
+    {
+      "category": "Held Items",
+      "id": "0075",
+      "name": "Assault Vest",
+      "risk": null,
+      "codes": [
+        "82003884 0075"
+      ]
+    },
+    {
+      "category": "Held Items",
+      "id": "00CF",
+      "name": "Black Belt",
+      "risk": null,
+      "codes": [
+        "82003884 00CF"
+      ]
+    },
+    {
+      "category": "Held Items",
+      "id": "00CE",
+      "name": "Blackglasses",
+      "risk": null,
+      "codes": [
+        "82003884 00CE"
+      ]
+    },
+    {
+      "category": "Held Items",
+      "id": "0052",
+      "name": "Black Sludge",
+      "risk": null,
+      "codes": [
+        "82003884 0052"
+      ]
+    },
+    {
+      "category": "Held Items",
+      "id": "00BA",
+      "name": "Choice Band",
+      "risk": null,
+      "codes": [
+        "82003884 00BA"
+      ]
+    },
+    {
+      "category": "Held Items",
+      "id": "0077",
+      "name": "Choice Specs",
+      "risk": null,
+      "codes": [
+        "82003884 0077"
+      ]
+    },
+    {
+      "category": "Held Items",
+      "id": "0076",
+      "name": "Choice Scarf",
+      "risk": null,
+      "codes": [
+        "82003884 0076"
+      ]
+    },
+    {
+      "category": "Held Items",
+      "id": "00BE",
+      "name": "Cleanse Tag",
+      "risk": null,
+      "codes": [
+        "82003884 00BE"
+      ]
+    },
+    {
+      "category": "Held Items",
+      "id": "00C7",
+      "name": "Metal Coat",
+      "risk": null,
+      "codes": [
+        "82003884 00C7"
+      ]
+    },
+    {
+      "category": "Held Items",
+      "id": "00C0",
+      "name": "Deep Sea Tooth",
+      "risk": null,
+      "codes": [
+        "82003884 00C0"
+      ]
+    },
+    {
+      "category": "Held Items",
+      "id": "00C1",
+      "name": "Deep Sea Scale",
+      "risk": null,
+      "codes": [
+        "82003884 00C1"
+      ]
+    },
+    {
+      "category": "Held Items",
+      "id": "00E2",
+      "name": "Destiny Knot",
+      "risk": null,
+      "codes": [
+        "82003884 00E2"
+      ]
+    },
+    {
+      "category": "Held Items",
+      "id": "00D8",
+      "name": "Dragon Fang",
+      "risk": null,
+      "codes": [
+        "82003884 00D8"
+      ]
+    },
+    {
+      "category": "Held Items",
+      "id": "00C9",
+      "name": "Dragon Scale",
+      "risk": null,
+      "codes": [
+        "82003884 00C9"
+      ]
+    },
+    {
+      "category": "Held Items",
+      "id": "00AE",
+      "name": "Dubious Disc",
+      "risk": null,
+      "codes": [
+        "82003884 00AE"
+      ]
+    },
+    {
+      "category": "Held Items",
+      "id": "00C3",
+      "name": "Everstone",
+      "risk": null,
+      "codes": [
+        "82003884 00C3"
+      ]
+    },
+    {
+      "category": "Held Items",
+      "id": "0066",
+      "name": "Expert Belt",
+      "risk": null,
+      "codes": [
+        "82003884 0066"
+      ]
+    },
+    {
+      "category": "Held Items",
+      "id": "00B6",
+      "name": "Exp. Share",
+      "risk": null,
+      "codes": [
+        "82003884 00B6"
+      ]
+    },
+    {
+      "category": "Held Items",
+      "id": "0072",
+      "name": "Flame Orb",
+      "risk": null,
+      "codes": [
+        "82003884 0072"
+      ]
+    },
+    {
+      "category": "Held Items",
+      "id": "00C4",
+      "name": "Focus Band",
+      "risk": null,
+      "codes": [
+        "82003884 00C4"
+      ]
+    },
+    {
+      "category": "Held Items",
+      "id": "00BB",
+      "name": "King’s Rock",
+      "risk": null,
+      "codes": [
+        "82003884 00BB"
+      ]
+    },
+    {
+      "category": "Held Items",
+      "id": "00C8",
+      "name": "Leftovers",
+      "risk": null,
+      "codes": [
+        "82003884 00C8"
+      ]
+    },
+    {
+      "category": "Held Items",
+      "id": "00CA",
+      "name": "Light Ball",
+      "risk": null,
+      "codes": [
+        "82003884 00CA"
+      ]
+    },
+    {
+      "category": "Held Items",
+      "id": "00E3",
+      "name": "Light Clay",
+      "risk": null,
+      "codes": [
+        "82003884 00E3"
+      ]
+    },
+    {
+      "category": "Held Items",
+      "id": "00DE",
+      "name": "Lucky Punch",
+      "risk": null,
+      "codes": [
+        "82003884 00DE"
+      ]
+    },
+    {
+      "category": "Held Items",
+      "id": "00C5",
+      "name": "Lucky Egg",
+      "risk": null,
+      "codes": [
+        "82003884 00C5"
+      ]
+    },
+    {
+      "category": "Held Items",
+      "id": "00B5",
+      "name": "Mach Brace",
+      "risk": null,
+      "codes": [
+        "82003884 00B5"
+      ]
+    },
+    {
+      "category": "Held Items",
+      "id": "00DF",
+      "name": "Metal Powder",
+      "risk": null,
+      "codes": [
+        "82003884 00DF"
+      ]
+    },
+    {
+      "category": "Held Items",
+      "id": "00B9",
+      "name": "Mental Herb",
+      "risk": null,
+      "codes": [
+        "82003884 00B9"
+      ]
+    },
+    {
+      "category": "Held Items",
+      "id": "00CD",
+      "name": "Miracle Seed",
+      "risk": null,
+      "codes": [
+        "82003884 00CD"
+      ]
+    },
+    {
+      "category": "Held Items",
+      "id": "00D0",
+      "name": "Magnet",
+      "risk": null,
+      "codes": [
+        "82003884 00D0"
+      ]
+    },
+    {
+      "category": "Held Items",
+      "id": "00D1",
+      "name": "Mystic Water",
+      "risk": null,
+      "codes": [
+        "82003884 00D1"
+      ]
+    },
+    {
+      "category": "Held Items",
+      "id": "00D4",
+      "name": "NeverMeltIce",
+      "risk": null,
+      "codes": [
+        "82003884 00D4"
+      ]
+    },
+    {
+      "category": "Held Items",
+      "id": "00E4",
+      "name": "Pink Bow",
+      "risk": null,
+      "codes": [
+        "82003884 00E4"
+      ]
+    },
+    {
+      "category": "Held Items",
+      "id": "00D3",
+      "name": "Poison Barb",
+      "risk": null,
+      "codes": [
+        "82003884 00D3"
+      ]
+    },
+    {
+      "category": "Held Items",
+      "id": "00E5",
+      "name": "Power Anklet",
+      "risk": null,
+      "codes": [
+        "82003884 00E5"
+      ]
+    },
+    {
+      "category": "Held Items",
+      "id": "00EA",
+      "name": "Power Band",
+      "risk": null,
+      "codes": [
+        "82003884 00EA"
+      ]
+    },
+    {
+      "category": "Held Items",
+      "id": "00E7",
+      "name": "Power Belt",
+      "risk": null,
+      "codes": [
+        "82003884 00E7"
+      ]
+    },
+    {
+      "category": "Held Items",
+      "id": "00E6",
+      "name": "Power Bracer",
+      "risk": null,
+      "codes": [
+        "82003884 00E6"
+      ]
+    },
+    {
+      "category": "Held Items",
+      "id": "00E9",
+      "name": "Power Lens",
+      "risk": null,
+      "codes": [
+        "82003884 00E9"
+      ]
+    },
+    {
+      "category": "Held Items",
+      "id": "00E8",
+      "name": "Power Weight",
+      "risk": null,
+      "codes": [
+        "82003884 00E8"
+      ]
+    },
+    {
+      "category": "Held Items",
+      "id": "00B7",
+      "name": "Quick Claw",
+      "risk": null,
+      "codes": [
+        "82003884 00B7"
+      ]
+    },
+    {
+      "category": "Held Items",
+      "id": "00AA",
+      "name": "Reaper Cloth",
+      "risk": null,
+      "codes": [
+        "82003884 00AA"
+      ]
+    },
+    {
+      "category": "Held Items",
+      "id": "00DB",
+      "name": "Shell Bell",
+      "risk": null,
+      "codes": [
+        "82003884 00DB"
+      ]
+    },
+    {
+      "category": "Held Items",
+      "id": "00D9",
+      "name": "Silk Scarf",
+      "risk": null,
+      "codes": [
+        "82003884 00D9"
+      ]
+    },
+    {
+      "category": "Held Items",
+      "id": "00BC",
+      "name": "Silver Powder",
+      "risk": null,
+      "codes": [
+        "82003884 00BC"
+      ]
+    },
+    {
+      "category": "Held Items",
+      "id": "00C2",
+      "name": "Smoke Ball",
+      "risk": null,
+      "codes": [
+        "82003884 00C2"
+      ]
+    },
+    {
+      "category": "Held Items",
+      "id": "00CB",
+      "name": "Soft Sand",
+      "risk": null,
+      "codes": [
+        "82003884 00CB"
+      ]
+    },
+    {
+      "category": "Held Items",
+      "id": "00BF",
+      "name": "Soul Dew",
+      "risk": null,
+      "codes": [
+        "82003884 00BF"
+      ]
+    },
+    {
+      "category": "Held Items",
+      "id": "00B8",
+      "name": "Soothe Bell",
+      "risk": null,
+      "codes": [
+        "82003884 00B8"
+      ]
+    },
+    {
+      "category": "Held Items",
+      "id": "00C6",
+      "name": "Scope Lens",
+      "risk": null,
+      "codes": [
+        "82003884 00C6"
+      ]
+    },
+    {
+      "category": "Held Items",
+      "id": "00D2",
+      "name": "Sharp Beak",
+      "risk": null,
+      "codes": [
+        "82003884 00D2"
+      ]
+    },
+    {
+      "category": "Held Items",
+      "id": "00D5",
+      "name": "Spell Tag",
+      "risk": null,
+      "codes": [
+        "82003884 00D5"
+      ]
+    },
+    {
+      "category": "Held Items",
+      "id": "00E1",
+      "name": "Stick",
+      "risk": null,
+      "codes": [
+        "82003884 00E1"
+      ]
+    },
+    {
+      "category": "Held Items",
+      "id": "00E0",
+      "name": "Thick Club",
+      "risk": null,
+      "codes": [
+        "82003884 00E0"
+      ]
+    },
+    {
+      "category": "Held Items",
+      "id": "00D6",
+      "name": "Twisted Spoon",
+      "risk": null,
+      "codes": [
+        "82003884 00D6"
+      ]
+    },
+    {
+      "category": "Held Items",
+      "id": "00DA",
+      "name": "Up-Grade",
+      "risk": null,
+      "codes": [
+        "82003884 00DA"
+      ]
+    },
+    {
+      "category": "Held Items",
+      "id": "00B4",
+      "name": "White Herb",
+      "risk": null,
+      "codes": [
+        "82003884 00B4"
+      ]
+    },
+    {
+      "category": "Key Items",
+      "id": "0110",
+      "name": "Acro Bike",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 0110"
+      ]
+    },
+    {
+      "category": "Key Items",
+      "id": "0172",
+      "name": "Basement Key",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 0172"
+      ]
+    },
+    {
+      "category": "Key Items",
+      "id": "0168",
+      "name": "Bicycle",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 0168"
+      ]
+    },
+    {
+      "category": "Key Items",
+      "id": "016D",
+      "name": "Berry Pouch",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 016D"
+      ]
+    },
+    {
+      "category": "Key Items",
+      "id": "0163",
+      "name": "Card Key",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 0163"
+      ]
+    },
+    {
+      "category": "Key Items",
+      "id": "0117",
+      "name": "Clear Bell",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 0117"
+      ]
+    },
+    {
+      "category": "Key Items",
+      "id": "0104",
+      "name": "Coin Case",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 0104"
+      ]
+    },
+    {
+      "category": "Key Items",
+      "id": "0113",
+      "name": "DNA Sample",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 0113"
+      ]
+    },
+    {
+      "category": "Key Items",
+      "id": "016F",
+      "name": "Eon Ticket",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 016F"
+      ]
+    },
+    {
+      "category": "Key Items",
+      "id": "007C",
+      "name": "EXP. All",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 007C"
+      ]
+    },
+    {
+      "category": "Key Items",
+      "id": "010A",
+      "name": "Gateon Pass",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 010A"
+      ]
+    },
+    {
+      "category": "Key Items",
+      "id": "0079",
+      "name": "GB Sounds",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 0079"
+      ]
+    },
+    {
+      "category": "Key Items",
+      "id": "0115",
+      "name": "GS Ball",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 0115"
+      ]
+    },
+    {
+      "category": "Key Items",
+      "id": "0107",
+      "name": "Good Rod",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 0107"
+      ]
+    },
+    {
+      "category": "Key Items",
+      "id": "011B",
+      "name": "Magnet Pass",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 011B"
+      ]
+    },
+    {
+      "category": "Key Items",
+      "id": "0173",
+      "name": "Machine Part",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 0173"
+      ]
+    },
+    {
+      "category": "Key Items",
+      "id": "0078",
+      "name": "Mail",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 0078"
+      ]
+    },
+    {
+      "category": "Key Items",
+      "id": "011A",
+      "name": "Lost Item",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 011A"
+      ]
+    },
+    {
+      "category": "Key Items",
+      "id": "0112",
+      "name": "Letter",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 0112"
+      ]
+    },
+    {
+      "category": "Key Items",
+      "id": "0118",
+      "name": "Meteorite",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 0118"
+      ]
+    },
+    {
+      "category": "Key Items",
+      "id": "015D",
+      "name": "Mystery Egg",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 015D"
+      ]
+    },
+    {
+      "category": "Key Items",
+      "id": "0106",
+      "name": "Old Rod",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 0106"
+      ]
+    },
+    {
+      "category": "Key Items",
+      "id": "015C",
+      "name": "P.D.A.",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 015C"
+      ]
+    },
+    {
+      "category": "Key Items",
+      "id": "00FD",
+      "name": "Pokédex",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 00FD"
+      ]
+    },
+    {
+      "category": "Key Items",
+      "id": "016E",
+      "name": "PokéMap",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 016E"
+      ]
+    },
+    {
+      "category": "Key Items",
+      "id": "0111",
+      "name": "Pokéblock Case",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 0111"
+      ]
+    },
+    {
+      "category": "Key Items",
+      "id": "016B",
+      "name": "Poké Ride",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 016B"
+      ]
+    },
+    {
+      "category": "Key Items",
+      "id": "015E",
+      "name": "PokéTar",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 015E"
+      ]
+    },
+    {
+      "category": "Key Items",
+      "id": "0119",
+      "name": "Program",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 0119"
+      ]
+    },
+    {
+      "category": "Key Items",
+      "id": "011D",
+      "name": "Rainbow Wing",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 011D"
+      ]
+    },
+    {
+      "category": "Key Items",
+      "id": "0114",
+      "name": "Red Orb",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 0114"
+      ]
+    },
+    {
+      "category": "Key Items",
+      "id": "0161",
+      "name": "Red Scale",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 0161"
+      ]
+    },
+    {
+      "category": "Key Items",
+      "id": "0175",
+      "name": "Reset Button",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 0175"
+      ]
+    },
+    {
+      "category": "Key Items",
+      "id": "011C",
+      "name": "Room 6 Key",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 011C"
+      ]
+    },
+    {
+      "category": "Key Items",
+      "id": "015F",
+      "name": "Secret Key",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 015F"
+      ]
+    },
+    {
+      "category": "Key Items",
+      "id": "0170",
+      "name": "Secret Potion",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 0170"
+      ]
+    },
+    {
+      "category": "Key Items",
+      "id": "0120",
+      "name": "Silver Wing",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 0120"
+      ]
+    },
+    {
+      "category": "Key Items",
+      "id": "0167",
+      "name": "Silph Scope",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 0167"
+      ]
+    },
+    {
+      "category": "Key Items",
+      "id": "0109",
+      "name": "S.S. Ticket",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 0109"
+      ]
+    },
+    {
+      "category": "Key Items",
+      "id": "0160",
+      "name": "Squirtbottle",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 0160"
+      ]
+    },
+    {
+      "category": "Key Items",
+      "id": "0171",
+      "name": "Tea",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 0171"
+      ]
+    },
+    {
+      "category": "Key Items",
+      "id": "016C",
+      "name": "TM Case",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 016C"
+      ]
+    },
+    {
+      "category": "Key Items",
+      "id": "0105",
+      "name": "Itemfinder",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 0105"
+      ]
+    },
+    {
+      "category": "Key Items",
+      "id": "016A",
+      "name": "Vs Seeker",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 016A"
+      ]
+    },
+    {
+      "category": "Key Items",
+      "id": "0176",
+      "name": "Unknown Report",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 0176"
+      ]
+    },
+    {
+      "category": "Key Items",
+      "id": "0164",
+      "name": "Unlock Code",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 0164"
+      ]
+    },
+    {
+      "category": "Mints",
+      "id": "0034",
+      "name": "Adamant Mint",
+      "risk": null,
+      "codes": [
+        "82003884 0034"
+      ]
+    },
+    {
+      "category": "Mints",
+      "id": "0048",
+      "name": "Bold Mint",
+      "risk": null,
+      "codes": [
+        "82003884 0048"
+      ]
+    },
+    {
+      "category": "Mints",
+      "id": "003D",
+      "name": "Brave Mint",
+      "risk": null,
+      "codes": [
+        "82003884 003D"
+      ]
+    },
+    {
+      "category": "Mints",
+      "id": "00A8",
+      "name": "Calm Mint",
+      "risk": null,
+      "codes": [
+        "82003884 00A8"
+      ]
+    },
+    {
+      "category": "Mints",
+      "id": "00AB",
+      "name": "Careful Mint",
+      "risk": null,
+      "codes": [
+        "82003884 00AB"
+      ]
+    },
+    {
+      "category": "Mints",
+      "id": "00A9",
+      "name": "Gentle Mint",
+      "risk": null,
+      "codes": [
+        "82003884 00A9"
+      ]
+    },
+    {
+      "category": "Mints",
+      "id": "005B",
+      "name": "Hasty Mint",
+      "risk": null,
+      "codes": [
+        "82003884 005B"
+      ]
+    },
+    {
+      "category": "Mints",
+      "id": "0058",
+      "name": "Impish Mint",
+      "risk": null,
+      "codes": [
+        "82003884 0058"
+      ]
+    },
+    {
+      "category": "Mints",
+      "id": "005C",
+      "name": "Jolly Mint",
+      "risk": null,
+      "codes": [
+        "82003884 005C"
+      ]
+    },
+    {
+      "category": "Mints",
+      "id": "0059",
+      "name": "Lax Mint",
+      "risk": null,
+      "codes": [
+        "82003884 0059"
+      ]
+    },
+    {
+      "category": "Mints",
+      "id": "003C",
+      "name": "Lonely Mint",
+      "risk": null,
+      "codes": [
+        "82003884 003C"
+      ]
+    },
+    {
+      "category": "Mints",
+      "id": "00A3",
+      "name": "Modest Mint",
+      "risk": null,
+      "codes": [
+        "82003884 00A3"
+      ]
+    },
+    {
+      "category": "Mints",
+      "id": "00A4",
+      "name": "Mild Mint",
+      "risk": null,
+      "codes": [
+        "82003884 00A4"
+      ]
+    },
+    {
+      "category": "Mints",
+      "id": "00A1",
+      "name": "Naive Mint",
+      "risk": null,
+      "codes": [
+        "82003884 00A1"
+      ]
+    },
+    {
+      "category": "Mints",
+      "id": "003E",
+      "name": "Naughty Mint",
+      "risk": null,
+      "codes": [
+        "82003884 003E"
+      ]
+    },
+    {
+      "category": "Mints",
+      "id": "00A5",
+      "name": "Quiet Mint",
+      "risk": null,
+      "codes": [
+        "82003884 00A5"
+      ]
+    },
+    {
+      "category": "Mints",
+      "id": "00A6",
+      "name": "Rash Mint",
+      "risk": null,
+      "codes": [
+        "82003884 00A6"
+      ]
+    },
+    {
+      "category": "Mints",
+      "id": "0057",
+      "name": "Relaxed Mint",
+      "risk": null,
+      "codes": [
+        "82003884 0057"
+      ]
+    },
+    {
+      "category": "Mints",
+      "id": "00AC",
+      "name": "Sassy Mint",
+      "risk": null,
+      "codes": [
+        "82003884 00AC"
+      ]
+    },
+    {
+      "category": "Mints",
+      "id": "00A2",
+      "name": "Serious Mint",
+      "risk": null,
+      "codes": [
+        "82003884 00A2"
+      ]
+    },
+    {
+      "category": "Mints",
+      "id": "005A",
+      "name": "Timid Mint",
+      "risk": null,
+      "codes": [
+        "82003884 005A"
+      ]
+    },
+    {
+      "category": "Miscellaneous",
+      "id": "0071",
+      "name": "Ability Pill",
+      "risk": null,
+      "codes": [
+        "82003884 0071"
+      ]
+    },
+    {
+      "category": "Miscellaneous",
+      "id": "0068",
+      "name": "Big Mushroom",
+      "risk": null,
+      "codes": [
+        "82003884 0068"
+      ]
+    },
+    {
+      "category": "Miscellaneous",
+      "id": "006B",
+      "name": "Big Pearl",
+      "risk": null,
+      "codes": [
+        "82003884 006B"
+      ]
+    },
+    {
+      "category": "Miscellaneous",
+      "id": "0070",
+      "name": "Big Nugget",
+      "risk": null,
+      "codes": [
+        "82003884 0070"
+      ]
+    },
+    {
+      "category": "Miscellaneous",
+      "id": "00FF",
+      "name": "Blue Scarf",
+      "risk": null,
+      "codes": [
+        "82003884 00FF"
+      ]
+    },
+    {
+      "category": "Miscellaneous",
+      "id": "00FE",
+      "name": "Bronze Cap",
+      "risk": null,
+      "codes": [
+        "82003884 00FE"
+      ]
+    },
+    {
+      "category": "Miscellaneous",
+      "id": "002E",
+      "name": "Coral Stalk",
+      "risk": null,
+      "codes": [
+        "82003884 002E"
+      ]
+    },
+    {
+      "category": "Miscellaneous",
+      "id": "00AD",
+      "name": "Gold Cap",
+      "risk": null,
+      "codes": [
+        "82003884 00AD"
+      ]
+    },
+    {
+      "category": "Miscellaneous",
+      "id": "0101",
+      "name": "Green Scarf",
+      "risk": null,
+      "codes": [
+        "82003884 0101"
+      ]
+    },
+    {
+      "category": "Miscellaneous",
+      "id": "006F",
+      "name": "Heart Scale",
+      "risk": null,
+      "codes": [
+        "82003884 006F"
+      ]
+    },
+    {
+      "category": "Miscellaneous",
+      "id": "006E",
+      "name": "Nugget",
+      "risk": null,
+      "codes": [
+        "82003884 006E"
+      ]
+    },
+    {
+      "category": "Miscellaneous",
+      "id": "006A",
+      "name": "Pearl",
+      "risk": null,
+      "codes": [
+        "82003884 006A"
+      ]
+    },
+    {
+      "category": "Miscellaneous",
+      "id": "00B2",
+      "name": "Silver Cap",
+      "risk": null,
+      "codes": [
+        "82003884 00B2"
+      ]
+    },
+    {
+      "category": "Miscellaneous",
+      "id": "0033",
+      "name": "Slowpoketail",
+      "risk": null,
+      "codes": [
+        "82003884 0033"
+      ]
+    },
+    {
+      "category": "Miscellaneous",
+      "id": "006C",
+      "name": "Star Dust",
+      "risk": null,
+      "codes": [
+        "82003884 006C"
+      ]
+    },
+    {
+      "category": "Miscellaneous",
+      "id": "006D",
+      "name": "Star Piece",
+      "risk": null,
+      "codes": [
+        "82003884 006D"
+      ]
+    },
+    {
+      "category": "Miscellaneous",
+      "id": "0067",
+      "name": "Tiny Mushroom",
+      "risk": null,
+      "codes": [
+        "82003884 0067"
+      ]
+    },
+    {
+      "category": "Miscellaneous",
+      "id": "0102",
+      "name": "Yellow Scarf",
+      "risk": null,
+      "codes": [
+        "82003884 0102"
+      ]
+    },
+    {
+      "category": "Stat Boosters / Vitamins",
+      "id": "0043",
+      "name": "Calcium",
+      "risk": null,
+      "codes": [
+        "82003884 0043"
+      ]
+    },
+    {
+      "category": "Stat Boosters / Vitamins",
+      "id": "0042",
+      "name": "Carbos",
+      "risk": null,
+      "codes": [
+        "82003884 0042"
+      ]
+    },
+    {
+      "category": "Stat Boosters / Vitamins",
+      "id": "0041",
+      "name": "Iron",
+      "risk": null,
+      "codes": [
+        "82003884 0041"
+      ]
+    },
+    {
+      "category": "Stat Boosters / Vitamins",
+      "id": "003F",
+      "name": "HP Up",
+      "risk": null,
+      "codes": [
+        "82003884 003F"
+      ]
+    },
+    {
+      "category": "Stat Boosters / Vitamins",
+      "id": "0044",
+      "name": "Rare Candy",
+      "risk": null,
+      "codes": [
+        "82003884 0044"
+      ]
+    },
+    {
+      "category": "Stat Boosters / Vitamins",
+      "id": "0040",
+      "name": "Protein",
+      "risk": null,
+      "codes": [
+        "82003884 0040"
+      ]
+    },
+    {
+      "category": "Stat Boosters / Vitamins",
+      "id": "0047",
+      "name": "PP Max",
+      "risk": null,
+      "codes": [
+        "82003884 0047"
+      ]
+    },
+    {
+      "category": "Stat Boosters / Vitamins",
+      "id": "0045",
+      "name": "PP Up",
+      "risk": null,
+      "codes": [
+        "82003884 0045"
+      ]
+    },
+    {
+      "category": "Stat Boosters / Vitamins",
+      "id": "0046",
+      "name": "Zinc",
+      "risk": null,
+      "codes": [
+        "82003884 0046"
+      ]
+    },
+    {
+      "category": "Stat Boosters / Vitamins",
+      "id": "0049",
+      "name": "X Guard",
+      "risk": null,
+      "codes": [
+        "82003884 0049"
+      ]
+    },
+    {
+      "category": "Stat Boosters / Vitamins",
+      "id": "004A",
+      "name": "X Dire Hit",
+      "risk": null,
+      "codes": [
+        "82003884 004A"
+      ]
+    },
+    {
+      "category": "Stat Boosters / Vitamins",
+      "id": "004B",
+      "name": "X Attack",
+      "risk": null,
+      "codes": [
+        "82003884 004B"
+      ]
+    },
+    {
+      "category": "Stat Boosters / Vitamins",
+      "id": "004C",
+      "name": "X Defend",
+      "risk": null,
+      "codes": [
+        "82003884 004C"
+      ]
+    },
+    {
+      "category": "Stat Boosters / Vitamins",
+      "id": "004E",
+      "name": "X Accuracy",
+      "risk": null,
+      "codes": [
+        "82003884 004E"
+      ]
+    },
+    {
+      "category": "Stat Boosters / Vitamins",
+      "id": "004F",
+      "name": "X Special Attack",
+      "risk": null,
+      "codes": [
+        "82003884 004F"
+      ]
+    },
+    {
+      "category": "Stat Boosters / Vitamins",
+      "id": "004D",
+      "name": "X Speed",
+      "risk": null,
+      "codes": [
+        "82003884 004D"
+      ]
+    },
+    {
+      "category": "Tech Disks",
+      "id": "018A",
+      "name": "Tech Disk: Ancientpower",
+      "risk": null,
+      "codes": [
+        "82003884 018A"
+      ]
+    },
+    {
+      "category": "Tech Disks",
+      "id": "015B",
+      "name": "Tech Disk: Amnesia",
+      "risk": null,
+      "codes": [
+        "82003884 015B"
+      ]
+    },
+    {
+      "category": "Tech Disks",
+      "id": "0178",
+      "name": "Tech Disk: Baton Pass",
+      "risk": null,
+      "codes": [
+        "82003884 0178"
+      ]
+    },
+    {
+      "category": "Tech Disks",
+      "id": "017C",
+      "name": "Tech Disk: Body Slam",
+      "risk": null,
+      "codes": [
+        "82003884 017C"
+      ]
+    },
+    {
+      "category": "Tech Disks",
+      "id": "0180",
+      "name": "Tech Disk: Brave Bird",
+      "risk": null,
+      "codes": [
+        "82003884 0180"
+      ]
+    },
+    {
+      "category": "Tech Disks",
+      "id": "017F",
+      "name": "Tech Disk: Bulldoze",
+      "risk": null,
+      "codes": [
+        "82003884 017F"
+      ]
+    },
+    {
+      "category": "Tech Disks",
+      "id": "010C",
+      "name": "Tech Disk: Charm",
+      "risk": null,
+      "codes": [
+        "82003884 010C"
+      ]
+    },
+    {
+      "category": "Tech Disks",
+      "id": "0081",
+      "name": "Tech Disk: Close Combat",
+      "risk": null,
+      "codes": [
+        "82003884 0081"
+      ]
+    },
+    {
+      "category": "Tech Disks",
+      "id": "00A0",
+      "name": "Tech Disk: Crunch",
+      "risk": null,
+      "codes": [
+        "82003884 00A0"
+      ]
+    },
+    {
+      "category": "Tech Disks",
+      "id": "0080",
+      "name": "Tech Disk: Dark Pulse",
+      "risk": null,
+      "codes": [
+        "82003884 0080"
+      ]
+    },
+    {
+      "category": "Tech Disks",
+      "id": "007E",
+      "name": "Tech Disk: Defog",
+      "risk": null,
+      "codes": [
+        "82003884 007E"
+      ]
+    },
+    {
+      "category": "Tech Disks",
+      "id": "0179",
+      "name": "Tech Disk: Facade",
+      "risk": null,
+      "codes": [
+        "82003884 0179"
+      ]
+    },
+    {
+      "category": "Tech Disks",
+      "id": "00B1",
+      "name": "Tech Disk: Flare Blitz",
+      "risk": null,
+      "codes": [
+        "82003884 00B1"
+      ]
+    },
+    {
+      "category": "Tech Disks",
+      "id": "0174",
+      "name": "Tech Disk: Frost Breath",
+      "risk": null,
+      "codes": [
+        "82003884 0174"
+      ]
+    },
+    {
+      "category": "Tech Disks",
+      "id": "00EE",
+      "name": "Tech Disk: Dragon Dance",
+      "risk": null,
+      "codes": [
+        "82003884 00EE"
+      ]
+    },
+    {
+      "category": "Tech Disks",
+      "id": "0030",
+      "name": "Tech Disk: Encore",
+      "risk": null,
+      "codes": [
+        "82003884 0030"
+      ]
+    },
+    {
+      "category": "Tech Disks",
+      "id": "00ED",
+      "name": "Tech Disk: Faint Attack",
+      "risk": null,
+      "codes": [
+        "82003884 00ED"
+      ]
+    },
+    {
+      "category": "Tech Disks",
+      "id": "0183",
+      "name": "Tech Disk: Hydro Pump",
+      "risk": null,
+      "codes": [
+        "82003884 0183"
+      ]
+    },
+    {
+      "category": "Tech Disks",
+      "id": "0032",
+      "name": "Tech Disk: Hone Claws",
+      "risk": null,
+      "codes": [
+        "82003884 0032"
+      ]
+    },
+    {
+      "category": "Tech Disks",
+      "id": "010B",
+      "name": "Tech Disk: Iron Head",
+      "risk": null,
+      "codes": [
+        "82003884 010B"
+      ]
+    },
+    {
+      "category": "Tech Disks",
+      "id": "017D",
+      "name": "Tech Disk: Leaf Blade",
+      "risk": null,
+      "codes": [
+        "82003884 017D"
+      ]
+    },
+    {
+      "category": "Tech Disks",
+      "id": "0184",
+      "name": "Tech Disk: Leech Life",
+      "risk": null,
+      "codes": [
+        "82003884 0184"
+      ]
+    },
+    {
+      "category": "Tech Disks",
+      "id": "0084",
+      "name": "Tech Disk: Magical Leaf",
+      "risk": null,
+      "codes": [
+        "82003884 0084"
+      ]
+    },
+    {
+      "category": "Tech Disks",
+      "id": "017B",
+      "name": "Tech Disk: Mimic",
+      "risk": null,
+      "codes": [
+        "82003884 017B"
+      ]
+    },
+    {
+      "category": "Tech Disks",
+      "id": "0181",
+      "name": "Tech Disk: Metronome",
+      "risk": null,
+      "codes": [
+        "82003884 0181"
+      ]
+    },
+    {
+      "category": "Tech Disks",
+      "id": "0182",
+      "name": "Tech Disk: Moonblast",
+      "risk": null,
+      "codes": [
+        "82003884 0182"
+      ]
+    },
+    {
+      "category": "Tech Disks",
+      "id": "017A",
+      "name": "Tech Disk: Nasty Plot",
+      "risk": null,
+      "codes": [
+        "82003884 017A"
+      ]
+    },
+    {
+      "category": "Tech Disks",
+      "id": "0185",
+      "name": "Tech Disk: Outrage",
+      "risk": null,
+      "codes": [
+        "82003884 0185"
+      ]
+    },
+    {
+      "category": "Tech Disks",
+      "id": "010D",
+      "name": "Tech Disk: Pay Day",
+      "risk": null,
+      "codes": [
+        "82003884 010D"
+      ]
+    },
+    {
+      "category": "Tech Disks",
+      "id": "00F0",
+      "name": "Tech Disk: Psychic Fangs",
+      "risk": null,
+      "codes": [
+        "82003884 00F0"
+      ]
+    },
+    {
+      "category": "Tech Disks",
+      "id": "010E",
+      "name": "Tech Disk: Rapid Spin",
+      "risk": null,
+      "codes": [
+        "82003884 010E"
+      ]
+    },
+    {
+      "category": "Tech Disks",
+      "id": "007D",
+      "name": "Tech Disk: Rock Climb",
+      "risk": null,
+      "codes": [
+        "82003884 007D"
+      ]
+    },
+    {
+      "category": "Tech Disks",
+      "id": "0082",
+      "name": "Tech Disk: Skill Swap",
+      "risk": null,
+      "codes": [
+        "82003884 0082"
+      ]
+    },
+    {
+      "category": "Tech Disks",
+      "id": "0169",
+      "name": "Tech Disk: Smart Strike",
+      "risk": null,
+      "codes": [
+        "82003884 0169"
+      ]
+    },
+    {
+      "category": "Tech Disks",
+      "id": "017E",
+      "name": "Tech Disk: Superpower",
+      "risk": null,
+      "codes": [
+        "82003884 017E"
+      ]
+    },
+    {
+      "category": "Tech Disks",
+      "id": "007F",
+      "name": "Tech Disk: Swords Dance",
+      "risk": null,
+      "codes": [
+        "82003884 007F"
+      ]
+    },
+    {
+      "category": "Tech Disks",
+      "id": "007A",
+      "name": "Tech Disk: Taunt",
+      "risk": null,
+      "codes": [
+        "82003884 007A"
+      ]
+    },
+    {
+      "category": "Tech Disks",
+      "id": "002F",
+      "name": "Tech Disk: Tri Attack",
+      "risk": null,
+      "codes": [
+        "82003884 002F"
+      ]
+    },
+    {
+      "category": "Tech Disks",
+      "id": "0031",
+      "name": "Tech Disk: Trick Room",
+      "risk": null,
+      "codes": [
+        "82003884 0031"
+      ]
+    },
+    {
+      "category": "Tech Disks",
+      "id": "00EC",
+      "name": "Tech Disk: U-Turn",
+      "risk": null,
+      "codes": [
+        "82003884 00EC"
+      ]
+    },
+    {
+      "category": "Tech Disks",
+      "id": "00EB",
+      "name": "Tech Disk: Volt Switch",
+      "risk": null,
+      "codes": [
+        "82003884 00EB"
+      ]
+    },
+    {
+      "category": "Tech Disks",
+      "id": "00B0",
+      "name": "Tech Disk: Wild Charge",
+      "risk": null,
+      "codes": [
+        "82003884 00B0"
+      ]
+    },
+    {
+      "category": "TMs (Numerical Order)",
+      "id": "0121",
+      "name": "TM01: Dynamicpunch",
+      "risk": null,
+      "codes": [
+        "82003884 0121"
+      ]
+    },
+    {
+      "category": "TMs (Numerical Order)",
+      "id": "0122",
+      "name": "TM02: Headbutt",
+      "risk": null,
+      "codes": [
+        "82003884 0122"
+      ]
+    },
+    {
+      "category": "TMs (Numerical Order)",
+      "id": "0123",
+      "name": "TM03: Curse",
+      "risk": null,
+      "codes": [
+        "82003884 0123"
+      ]
+    },
+    {
+      "category": "TMs (Numerical Order)",
+      "id": "0124",
+      "name": "TM04: Rollout",
+      "risk": null,
+      "codes": [
+        "82003884 0124"
+      ]
+    },
+    {
+      "category": "TMs (Numerical Order)",
+      "id": "0125",
+      "name": "TM05: Roar",
+      "risk": null,
+      "codes": [
+        "82003884 0125"
+      ]
+    },
+    {
+      "category": "TMs (Numerical Order)",
+      "id": "0126",
+      "name": "TM06: Toxic",
+      "risk": null,
+      "codes": [
+        "82003884 0126"
+      ]
+    },
+    {
+      "category": "TMs (Numerical Order)",
+      "id": "0127",
+      "name": "TM07: Zap Cannon",
+      "risk": null,
+      "codes": [
+        "82003884 0127"
+      ]
+    },
+    {
+      "category": "TMs (Numerical Order)",
+      "id": "0128",
+      "name": "TM08: Rock Slide",
+      "risk": null,
+      "codes": [
+        "82003884 0128"
+      ]
+    },
+    {
+      "category": "TMs (Numerical Order)",
+      "id": "0129",
+      "name": "TM09: Calm Mind",
+      "risk": null,
+      "codes": [
+        "82003884 0129"
+      ]
+    },
+    {
+      "category": "TMs (Numerical Order)",
+      "id": "012A",
+      "name": "TM10: Hidden Power",
+      "risk": null,
+      "codes": [
+        "82003884 012A"
+      ]
+    },
+    {
+      "category": "TMs (Numerical Order)",
+      "id": "012B",
+      "name": "TM11: Sunny Day",
+      "risk": null,
+      "codes": [
+        "82003884 012B"
+      ]
+    },
+    {
+      "category": "TMs (Numerical Order)",
+      "id": "012C",
+      "name": "TM12: Sweet Scent",
+      "risk": null,
+      "codes": [
+        "82003884 012C"
+      ]
+    },
+    {
+      "category": "TMs (Numerical Order)",
+      "id": "012D",
+      "name": "TM13: Avalanche",
+      "risk": null,
+      "codes": [
+        "82003884 012D"
+      ]
+    },
+    {
+      "category": "TMs (Numerical Order)",
+      "id": "012E",
+      "name": "TM14: Blizzard",
+      "risk": null,
+      "codes": [
+        "82003884 012E"
+      ]
+    },
+    {
+      "category": "TMs (Numerical Order)",
+      "id": "012F",
+      "name": "TM15: Hyoer Beam",
+      "risk": null,
+      "codes": [
+        "82003884 012F"
+      ]
+    },
+    {
+      "category": "TMs (Numerical Order)",
+      "id": "0130",
+      "name": "TM16: Snowscape",
+      "risk": null,
+      "codes": [
+        "82003884 0130"
+      ]
+    },
+    {
+      "category": "TMs (Numerical Order)",
+      "id": "0131",
+      "name": "TM17: Protect",
+      "risk": null,
+      "codes": [
+        "82003884 0131"
+      ]
+    },
+    {
+      "category": "TMs (Numerical Order)",
+      "id": "0132",
+      "name": "TM18: Rain Dance",
+      "risk": null,
+      "codes": [
+        "82003884 0132"
+      ]
+    },
+    {
+      "category": "TMs (Numerical Order)",
+      "id": "0133",
+      "name": "TM19: Giga Drain",
+      "risk": null,
+      "codes": [
+        "82003884 0133"
+      ]
+    },
+    {
+      "category": "TMs (Numerical Order)",
+      "id": "0134",
+      "name": "TM20: Dive",
+      "risk": null,
+      "codes": [
+        "82003884 0134"
+      ]
+    },
+    {
+      "category": "TMs (Numerical Order)",
+      "id": "0135",
+      "name": "TM21: Play Rough",
+      "risk": null,
+      "codes": [
+        "82003884 0135"
+      ]
+    },
+    {
+      "category": "TMs (Numerical Order)",
+      "id": "0136",
+      "name": "TM22: Solarbeam",
+      "risk": null,
+      "codes": [
+        "82003884 0136"
+      ]
+    },
+    {
+      "category": "TMs (Numerical Order)",
+      "id": "0137",
+      "name": "TM23: Iron Tail",
+      "risk": null,
+      "codes": [
+        "82003884 0137"
+      ]
+    },
+    {
+      "category": "TMs (Numerical Order)",
+      "id": "0138",
+      "name": "TM24: Dragon Claw",
+      "risk": null,
+      "codes": [
+        "82003884 0138"
+      ]
+    },
+    {
+      "category": "TMs (Numerical Order)",
+      "id": "0139",
+      "name": "TM25: Thunder",
+      "risk": null,
+      "codes": [
+        "82003884 0139"
+      ]
+    },
+    {
+      "category": "TMs (Numerical Order)",
+      "id": "013A",
+      "name": "TM26: Earthquake",
+      "risk": null,
+      "codes": [
+        "82003884 013A"
+      ]
+    },
+    {
+      "category": "TMs (Numerical Order)",
+      "id": "013B",
+      "name": "TM27: Return",
+      "risk": null,
+      "codes": [
+        "82003884 013B"
+      ]
+    },
+    {
+      "category": "TMs (Numerical Order)",
+      "id": "013C",
+      "name": "TM28: Dig",
+      "risk": null,
+      "codes": [
+        "82003884 013C"
+      ]
+    },
+    {
+      "category": "TMs (Numerical Order)",
+      "id": "013D",
+      "name": "TM29: Psychic",
+      "risk": null,
+      "codes": [
+        "82003884 013D"
+      ]
+    },
+    {
+      "category": "TMs (Numerical Order)",
+      "id": "013E",
+      "name": "TM30: Shadow Ball",
+      "risk": null,
+      "codes": [
+        "82003884 013E"
+      ]
+    },
+    {
+      "category": "TMs (Numerical Order)",
+      "id": "013F",
+      "name": "TM31: Roost",
+      "risk": null,
+      "codes": [
+        "82003884 013F"
+      ]
+    },
+    {
+      "category": "TMs (Numerical Order)",
+      "id": "0140",
+      "name": "TM32: Double Team",
+      "risk": null,
+      "codes": [
+        "82003884 0140"
+      ]
+    },
+    {
+      "category": "TMs (Numerical Order)",
+      "id": "0141",
+      "name": "TM33: Water Pulse",
+      "risk": null,
+      "codes": [
+        "82003884 0141"
+      ]
+    },
+    {
+      "category": "TMs (Numerical Order)",
+      "id": "0142",
+      "name": "TM34: Swagger",
+      "risk": null,
+      "codes": [
+        "82003884 0142"
+      ]
+    },
+    {
+      "category": "TMs (Numerical Order)",
+      "id": "0143",
+      "name": "TM35: Drain Punch",
+      "risk": null,
+      "codes": [
+        "82003884 0143"
+      ]
+    },
+    {
+      "category": "TMs (Numerical Order)",
+      "id": "0144",
+      "name": "TM36: Sludge Bomb",
+      "risk": null,
+      "codes": [
+        "82003884 0144"
+      ]
+    },
+    {
+      "category": "TMs (Numerical Order)",
+      "id": "0145",
+      "name": "TM37: Sandstorm",
+      "risk": null,
+      "codes": [
+        "82003884 0145"
+      ]
+    },
+    {
+      "category": "TMs (Numerical Order)",
+      "id": "0146",
+      "name": "TM38: Fire Blast",
+      "risk": null,
+      "codes": [
+        "82003884 0146"
+      ]
+    },
+    {
+      "category": "TMs (Numerical Order)",
+      "id": "0147",
+      "name": "TM39: Swift",
+      "risk": null,
+      "codes": [
+        "82003884 0147"
+      ]
+    },
+    {
+      "category": "TMs (Numerical Order)",
+      "id": "0148",
+      "name": "TM40: Defense Curl",
+      "risk": null,
+      "codes": [
+        "82003884 0148"
+      ]
+    },
+    {
+      "category": "TMs (Numerical Order)",
+      "id": "0149",
+      "name": "TM41: Shock Wave",
+      "risk": null,
+      "codes": [
+        "82003884 0149"
+      ]
+    },
+    {
+      "category": "TMs (Numerical Order)",
+      "id": "014A",
+      "name": "TM42: Dream Eater",
+      "risk": null,
+      "codes": [
+        "82003884 014A"
+      ]
+    },
+    {
+      "category": "TMs (Numerical Order)",
+      "id": "014B",
+      "name": "TM43: Detect",
+      "risk": null,
+      "codes": [
+        "82003884 014B"
+      ]
+    },
+    {
+      "category": "TMs (Numerical Order)",
+      "id": "014C",
+      "name": "TM44: Rest",
+      "risk": null,
+      "codes": [
+        "82003884 014C"
+      ]
+    },
+    {
+      "category": "TMs (Numerical Order)",
+      "id": "014D",
+      "name": "TM45: Draining Kiss",
+      "risk": null,
+      "codes": [
+        "82003884 014D"
+      ]
+    },
+    {
+      "category": "TMs (Numerical Order)",
+      "id": "014E",
+      "name": "TM46: Thief",
+      "risk": null,
+      "codes": [
+        "82003884 014E"
+      ]
+    },
+    {
+      "category": "TMs (Numerical Order)",
+      "id": "014F",
+      "name": "TM47: Steel Wing",
+      "risk": null,
+      "codes": [
+        "82003884 014F"
+      ]
+    },
+    {
+      "category": "TMs (Numerical Order)",
+      "id": "0150",
+      "name": "TM48: Overheat",
+      "risk": null,
+      "codes": [
+        "82003884 0150"
+      ]
+    },
+    {
+      "category": "TMs (Numerical Order)",
+      "id": "0151",
+      "name": "TM49: Fury Cutter",
+      "risk": null,
+      "codes": [
+        "82003884 0151"
+      ]
+    },
+    {
+      "category": "TMs (Numerical Order)",
+      "id": "0152",
+      "name": "TM50: Freezy Frost",
+      "risk": null,
+      "codes": [
+        "82003884 0152"
+      ]
+    },
+    {
+      "category": "HMs (Numerical Order)",
+      "id": "0153",
+      "name": "HM01: Cut",
+      "risk": null,
+      "codes": [
+        "82003884 0153"
+      ]
+    },
+    {
+      "category": "HMs (Numerical Order)",
+      "id": "0154",
+      "name": "HM02: Fly",
+      "risk": null,
+      "codes": [
+        "82003884 0154"
+      ]
+    },
+    {
+      "category": "HMs (Numerical Order)",
+      "id": "0155",
+      "name": "HM03: Surf",
+      "risk": null,
+      "codes": [
+        "82003884 0155"
+      ]
+    },
+    {
+      "category": "HMs (Numerical Order)",
+      "id": "0156",
+      "name": "HM04: Stregth",
+      "risk": null,
+      "codes": [
+        "82003884 0156"
+      ]
+    },
+    {
+      "category": "HMs (Numerical Order)",
+      "id": "0157",
+      "name": "HM05: Flash",
+      "risk": null,
+      "codes": [
+        "82003884 0157"
+      ]
+    },
+    {
+      "category": "HMs (Numerical Order)",
+      "id": "0158",
+      "name": "HM06: Rock Smash",
+      "risk": null,
+      "codes": [
+        "82003884 0158"
+      ]
+    },
+    {
+      "category": "HMs (Numerical Order)",
+      "id": "0159",
+      "name": "HM07: Whirlpool",
+      "risk": null,
+      "codes": [
+        "82003884 0159"
+      ]
+    },
+    {
+      "category": "HMs (Numerical Order)",
+      "id": "015A",
+      "name": "HM08: Waterfall",
+      "risk": null,
+      "codes": [
+        "82003884 015A"
+      ]
+    },
+    {
+      "category": "Unknown / Unused / Placeholders",
+      "id": "00AF",
+      "name": "(Null)",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 00AF"
+      ]
+    },
+    {
+      "category": "Unknown / Unused / Placeholders",
+      "id": "0177",
+      "name": "(Unused)",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 0177"
+      ]
+    },
+    {
+      "category": "Unknown / Unused / Placeholders",
+      "id": "019B",
+      "name": "(?)",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 019B"
+      ]
+    },
+    {
+      "category": "Unknown / Unused / Placeholders",
+      "id": "019C",
+      "name": "(?)",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 019C"
+      ]
+    },
+    {
+      "category": "Unknown / Unused / Placeholders",
+      "id": "019D",
+      "name": "(?)",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 019D"
+      ]
+    },
+    {
+      "category": "Unknown / Unused / Placeholders",
+      "id": "019E",
+      "name": "(?)",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 019E"
+      ]
+    },
+    {
+      "category": "Unknown / Unused / Placeholders",
+      "id": "019F",
+      "name": "(?)",
+      "risk": "story-or-unknown",
+      "codes": [
+        "82003884 019F"
+      ]
+    }
+  ]
+}

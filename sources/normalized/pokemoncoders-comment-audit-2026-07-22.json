@@ -1,0 +1,5004 @@
+{
+  "schemaVersion": 1,
+  "game": "Pokémon Crystal Advance Redux",
+  "guideGameVersion": "2026-07-19",
+  "source": {
+    "url": "https://www.pokemoncoders.com/pokemon-crystal-advance-redux-cheats/#comments",
+    "reviewed": "2026-07-22",
+    "visibleThreadHeading": "34 thoughts on “Pokemon Crystal Advance Redux Cheats”",
+    "visibleComments": 34,
+    "authority": "Public reader comments; lower authority than the maintained article and official hack sources"
+  },
+  "decisions": [
+    {
+      "id": "replace-item-pc-modifier",
+      "action": "replace",
+      "oldCode": "82025840 YYYY",
+      "newCode": "820257C4 AAAA",
+      "outcome": "Generate bag slot 2 item choices from the 343-row tested comment table plus the later mint corrections/additions; exclude key, story and unknown entries from the main file.",
+      "evidenceComments": [
+        "61718",
+        "62161",
+        "62197",
+        "62390",
+        "58190",
+        "63319"
+      ],
+      "confidence": "medium",
+      "reason": "Three replies report the replacement address working; an older report says the result appears in bag slot 2 with quantity 99. The newest complaint checked the PC, which is consistent with the replacement being a bag modifier rather than a PC modifier."
+    },
+    {
+      "id": "remove-wild-modifier",
+      "action": "remove-from-main",
+      "code": "8202404C AAAA",
+      "outcome": "Remove all 463 concrete wild encounter choices from the main RetroArch file.",
+      "evidenceComments": [
+        "62160",
+        "62194",
+        "62854"
+      ],
+      "confidence": "high",
+      "reason": "The code was reported working on the April 2 build, but a newer May report says it produces Bad Eggs and the article's closing text says Pokémon modifiers are not working."
+    },
+    {
+      "id": "remove-shiny-modifier",
+      "action": "remove-from-main",
+      "code": "1670047D 04815C68 / 18452A7D DDE55BCC",
+      "outcome": "Remove the shiny encounter entry from the main RetroArch file.",
+      "evidenceComments": [
+        "62514",
+        "62869",
+        "62870",
+        "62876"
+      ],
+      "confidence": "high",
+      "reason": "Two users report failure on recent 2026 builds, including a direct newest-update retry after the site maintainer suggested the published code."
+    },
+    {
+      "id": "reject-obsolete-or-unverified-codes",
+      "action": "do-not-add",
+      "outcome": "Do not add the vague Pokémon code, March 2025 starter/gift modifier or March 2025 wild modifier sequences.",
+      "evidenceComments": [
+        "58464",
+        "56625",
+        "57685",
+        "56623",
+        "58403",
+        "60075"
+      ],
+      "confidence": "high",
+      "reason": "The suggestions are vague, explicitly unverified, reported not working, or only claimed for the March 2025 build."
+    },
+    {
+      "id": "retain-pokemart-table-with-safety-filter",
+      "action": "retain-safe-only",
+      "outcome": "Keep the later June 25 Poké Mart table, but omit badges, key/story items and unknown/unused entries from the main file.",
+      "evidenceComments": [
+        "63115",
+        "63251",
+        "63319"
+      ],
+      "confidence": "medium",
+      "reason": "The June table was promoted into the article and described as tested; its own warning advises avoiding story/key items. The newest PC complaint does not test the Poké Mart address."
+    }
+  ],
+  "bagModifier": {
+    "code": "820257C4",
+    "destination": "Bag slot 2 (reported as quantity 99)",
+    "evidenceComments": [
+      "62161",
+      "62197",
+      "62390",
+      "58190"
+    ],
+    "items": [
+      {
+        "id": "0001",
+        "name": "Master Ball",
+        "category": "Poké Ball",
+        "notes": "The ultimate Poké Ball that catches any wild Pokémon without fail.",
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0001"
+        ]
+      },
+      {
+        "id": "0002",
+        "name": "Ultra Ball",
+        "category": "Poké Ball",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0002"
+        ]
+      },
+      {
+        "id": "0003",
+        "name": "Great Ball",
+        "category": "Poké Ball",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0003"
+        ]
+      },
+      {
+        "id": "0004",
+        "name": "Poké Ball",
+        "category": "Poké Ball",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0004"
+        ]
+      },
+      {
+        "id": "0005",
+        "name": "Safari Ball",
+        "category": "Poké Ball",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0005"
+        ]
+      },
+      {
+        "id": "0006",
+        "name": "Net Ball",
+        "category": "Poké Ball",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0006"
+        ]
+      },
+      {
+        "id": "0007",
+        "name": "Dive Ball",
+        "category": "Poké Ball",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0007"
+        ]
+      },
+      {
+        "id": "0008",
+        "name": "Nest Ball",
+        "category": "Poké Ball",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0008"
+        ]
+      },
+      {
+        "id": "0009",
+        "name": "Repeat Ball",
+        "category": "Poké Ball",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0009"
+        ]
+      },
+      {
+        "id": "000A",
+        "name": "Timer Ball",
+        "category": "Poké Ball",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 000A"
+        ]
+      },
+      {
+        "id": "000B",
+        "name": "Luxury Ball",
+        "category": "Poké Ball",
+        "notes": "Originally noted as “Friendship Ball”, official name is Luxury Ball.",
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 000B"
+        ]
+      },
+      {
+        "id": "000C",
+        "name": "Premier Ball",
+        "category": "Poké Ball",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 000C"
+        ]
+      },
+      {
+        "id": "000D",
+        "name": "Potion",
+        "category": "Recovery",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 000D"
+        ]
+      },
+      {
+        "id": "000E",
+        "name": "Antidote",
+        "category": "Recovery",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 000E"
+        ]
+      },
+      {
+        "id": "000F",
+        "name": "Burn Heal",
+        "category": "Recovery",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 000F"
+        ]
+      },
+      {
+        "id": "0010",
+        "name": "Ice Heal",
+        "category": "Recovery",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0010"
+        ]
+      },
+      {
+        "id": "0011",
+        "name": "Awakening",
+        "category": "Recovery",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0011"
+        ]
+      },
+      {
+        "id": "0012",
+        "name": "Paralyze Heal",
+        "category": "Recovery",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0012"
+        ]
+      },
+      {
+        "id": "0013",
+        "name": "Max Potion",
+        "category": "Recovery",
+        "notes": "Original text called it “Full Restore”.",
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0013"
+        ]
+      },
+      {
+        "id": "0014",
+        "name": "Hyper Potion",
+        "category": "Recovery",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0014"
+        ]
+      },
+      {
+        "id": "0015",
+        "name": "Super Potion",
+        "category": "Recovery",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0015"
+        ]
+      },
+      {
+        "id": "0016",
+        "name": "Potion",
+        "category": "Recovery",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0016"
+        ]
+      },
+      {
+        "id": "0017",
+        "name": "Full Heal",
+        "category": "Recovery",
+        "notes": "Original text called it “Universal Potion”.",
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0017"
+        ]
+      },
+      {
+        "id": "0018",
+        "name": "Revive",
+        "category": "Recovery",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0018"
+        ]
+      },
+      {
+        "id": "0019",
+        "name": "Max Revive",
+        "category": "Recovery",
+        "notes": "Original text called it “Mental Herb”.",
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0019"
+        ]
+      },
+      {
+        "id": "001A",
+        "name": "Fresh Water",
+        "category": "Recovery",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 001A"
+        ]
+      },
+      {
+        "id": "001B",
+        "name": "Soda Pop",
+        "category": "Recovery",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 001B"
+        ]
+      },
+      {
+        "id": "001C",
+        "name": "Lemonade",
+        "category": "Recovery",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 001C"
+        ]
+      },
+      {
+        "id": "001D",
+        "name": "Moomoo Milk",
+        "category": "Recovery",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 001D"
+        ]
+      },
+      {
+        "id": "001E",
+        "name": "Energy Powder",
+        "category": "Recovery",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 001E"
+        ]
+      },
+      {
+        "id": "001F",
+        "name": "Energy Root",
+        "category": "Recovery",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 001F"
+        ]
+      },
+      {
+        "id": "0020",
+        "name": "Heal Powder",
+        "category": "Recovery",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0020"
+        ]
+      },
+      {
+        "id": "0021",
+        "name": "Revival Herb",
+        "category": "Recovery",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0021"
+        ]
+      },
+      {
+        "id": "0022",
+        "name": "Ether",
+        "category": "Recovery",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0022"
+        ]
+      },
+      {
+        "id": "0023",
+        "name": "Max Ether",
+        "category": "Recovery",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0023"
+        ]
+      },
+      {
+        "id": "0024",
+        "name": "Elixir",
+        "category": "Recovery",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0024"
+        ]
+      },
+      {
+        "id": "0025",
+        "name": "Max Elixir",
+        "category": "Recovery",
+        "notes": "Original text called it “Full PP Restore”.",
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0025"
+        ]
+      },
+      {
+        "id": "0026",
+        "name": "Lava Cookie",
+        "category": "Recovery",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0026"
+        ]
+      },
+      {
+        "id": "0027",
+        "name": "Blue Flute",
+        "category": "Consumable",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0027"
+        ]
+      },
+      {
+        "id": "0028",
+        "name": "Yellow Flute",
+        "category": "Consumable",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0028"
+        ]
+      },
+      {
+        "id": "0029",
+        "name": "Red Flute",
+        "category": "Consumable",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0029"
+        ]
+      },
+      {
+        "id": "002A",
+        "name": "Black Flute",
+        "category": "Consumable",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 002A"
+        ]
+      },
+      {
+        "id": "002B",
+        "name": "White Flute",
+        "category": "Consumable",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 002B"
+        ]
+      },
+      {
+        "id": "002C",
+        "name": "Berry Juice",
+        "category": "Recovery",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 002C"
+        ]
+      },
+      {
+        "id": "002D",
+        "name": "Sacred Ash",
+        "category": "Recovery",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 002D"
+        ]
+      },
+      {
+        "id": "002E",
+        "name": "Shoal Salt",
+        "category": "Collectible",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 002E"
+        ]
+      },
+      {
+        "id": "002F",
+        "name": "Shoal Shell",
+        "category": "Collectible",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 002F"
+        ]
+      },
+      {
+        "id": "0030",
+        "name": "Red Shard",
+        "category": "Collectible",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0030"
+        ]
+      },
+      {
+        "id": "0031",
+        "name": "Blue Shard",
+        "category": "Collectible",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0031"
+        ]
+      },
+      {
+        "id": "0032",
+        "name": "Yellow Shard",
+        "category": "Collectible",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0032"
+        ]
+      },
+      {
+        "id": "0033",
+        "name": "Green Shard",
+        "category": "Collectible",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0033"
+        ]
+      },
+      {
+        "id": "003F",
+        "name": "HP Up",
+        "category": "Vitamin",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 003F"
+        ]
+      },
+      {
+        "id": "0040",
+        "name": "Protein",
+        "category": "Vitamin",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0040"
+        ]
+      },
+      {
+        "id": "0041",
+        "name": "Iron",
+        "category": "Vitamin",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0041"
+        ]
+      },
+      {
+        "id": "0042",
+        "name": "Carbos",
+        "category": "Vitamin",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0042"
+        ]
+      },
+      {
+        "id": "0043",
+        "name": "Calcium",
+        "category": "Vitamin",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0043"
+        ]
+      },
+      {
+        "id": "0044",
+        "name": "Rare Candy",
+        "category": "Consumable",
+        "notes": "Increases level by 1.",
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0044"
+        ]
+      },
+      {
+        "id": "0045",
+        "name": "PP Up",
+        "category": "Vitamin",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0045"
+        ]
+      },
+      {
+        "id": "0046",
+        "name": "Zinc",
+        "category": "Vitamin",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0046"
+        ]
+      },
+      {
+        "id": "0047",
+        "name": "PP Max",
+        "category": "Vitamin",
+        "notes": "Original text called it “PP raised to maximum”.",
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0047"
+        ]
+      },
+      {
+        "id": "0049",
+        "name": "Guard Spec.",
+        "category": "Battle Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0049"
+        ]
+      },
+      {
+        "id": "004A",
+        "name": "Dire Hit",
+        "category": "Battle Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 004A"
+        ]
+      },
+      {
+        "id": "004B",
+        "name": "X Attack",
+        "category": "Battle Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 004B"
+        ]
+      },
+      {
+        "id": "004C",
+        "name": "X Defense",
+        "category": "Battle Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 004C"
+        ]
+      },
+      {
+        "id": "004D",
+        "name": "X Speed",
+        "category": "Battle Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 004D"
+        ]
+      },
+      {
+        "id": "004E",
+        "name": "X Accuracy",
+        "category": "Battle Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 004E"
+        ]
+      },
+      {
+        "id": "004F",
+        "name": "X Sp. Atk",
+        "category": "Battle Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 004F"
+        ]
+      },
+      {
+        "id": "0050",
+        "name": "Poké Doll",
+        "category": "Consumable",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0050"
+        ]
+      },
+      {
+        "id": "0051",
+        "name": "Fluffy Tail",
+        "category": "Consumable",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0051"
+        ]
+      },
+      {
+        "id": "0053",
+        "name": "Silver Repel",
+        "category": "Consumable",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0053"
+        ]
+      },
+      {
+        "id": "0054",
+        "name": "Max Repel",
+        "category": "Consumable",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0054"
+        ]
+      },
+      {
+        "id": "0055",
+        "name": "Escape Rope",
+        "category": "Consumable",
+        "notes": "Original text has a typo.",
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0055"
+        ]
+      },
+      {
+        "id": "0056",
+        "name": "Repel",
+        "category": "Consumable",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0056"
+        ]
+      },
+      {
+        "id": "005D",
+        "name": "Sun Stone",
+        "category": "Evolution Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 005D"
+        ]
+      },
+      {
+        "id": "005E",
+        "name": "Moon Stone",
+        "category": "Evolution Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 005E"
+        ]
+      },
+      {
+        "id": "005F",
+        "name": "Fire Stone",
+        "category": "Evolution Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 005F"
+        ]
+      },
+      {
+        "id": "0060",
+        "name": "Thunder Stone",
+        "category": "Evolution Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0060"
+        ]
+      },
+      {
+        "id": "0061",
+        "name": "Water Stone",
+        "category": "Evolution Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0061"
+        ]
+      },
+      {
+        "id": "0062",
+        "name": "Leaf Stone",
+        "category": "Evolution Item",
+        "notes": "Original text called it “Coral Stone”, corrected based on code.",
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0062"
+        ]
+      },
+      {
+        "id": "0067",
+        "name": "Tiny Mushroom",
+        "category": "Valuable Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0067"
+        ]
+      },
+      {
+        "id": "0068",
+        "name": "Big Mushroom",
+        "category": "Valuable Item",
+        "notes": "Original note: Can be used to remember moves on Island 2.",
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0068"
+        ]
+      },
+      {
+        "id": "006A",
+        "name": "Pearl",
+        "category": "Valuable Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 006A"
+        ]
+      },
+      {
+        "id": "006B",
+        "name": "Big Pearl",
+        "category": "Valuable Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 006B"
+        ]
+      },
+      {
+        "id": "006C",
+        "name": "Stardust",
+        "category": "Valuable Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 006C"
+        ]
+      },
+      {
+        "id": "006D",
+        "name": "Star Piece",
+        "category": "Valuable Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 006D"
+        ]
+      },
+      {
+        "id": "006E",
+        "name": "Nugget",
+        "category": "Valuable Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 006E"
+        ]
+      },
+      {
+        "id": "006F",
+        "name": "Heart Scale",
+        "category": "Collectible",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 006F"
+        ]
+      },
+      {
+        "id": "0070",
+        "name": "Big Nugget",
+        "category": "Valuable Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0070"
+        ]
+      },
+      {
+        "id": "0071",
+        "name": "Ability Capsule",
+        "category": "Consumable",
+        "notes": "Conflicts with web version’s Mail code, actual test prevails.",
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0071"
+        ]
+      },
+      {
+        "id": "0072",
+        "name": "Flame Orb",
+        "category": "Held Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0072"
+        ]
+      },
+      {
+        "id": "0073",
+        "name": "Toxic Orb",
+        "category": "Held Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0073"
+        ]
+      },
+      {
+        "id": "0074",
+        "name": "Heal Orb",
+        "category": "Held Item",
+        "notes": "Restores HP at the end of the turn. Custom sprite resembles Leftovers.",
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0074"
+        ]
+      },
+      {
+        "id": "0075",
+        "name": "Assault Vest",
+        "category": "Held Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0075"
+        ]
+      },
+      {
+        "id": "0076",
+        "name": "Choice Scarf",
+        "category": "Held Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0076"
+        ]
+      },
+      {
+        "id": "0077",
+        "name": "Choice Specs",
+        "category": "Held Item",
+        "notes": "Original text has a typo.",
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0077"
+        ]
+      },
+      {
+        "id": "0078",
+        "name": "Envelope",
+        "category": "Story Item",
+        "notes": null,
+        "excludedFromMain": true,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0078"
+        ]
+      },
+      {
+        "id": "0079",
+        "name": "GB Sounds",
+        "category": "Custom Item",
+        "notes": "No practical use.",
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0079"
+        ]
+      },
+      {
+        "id": "007A",
+        "name": "Stat Scanner",
+        "category": "Key Item",
+        "notes": "Checks IVs/EVs/Friendship/Hatch steps.",
+        "excludedFromMain": true,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 007A"
+        ]
+      },
+      {
+        "id": "007B",
+        "name": "Sour Candy",
+        "category": "Consumable",
+        "notes": "Drops Pokémon level by 1.",
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 007B"
+        ]
+      },
+      {
+        "id": "007C",
+        "name": "Exp. Share",
+        "category": "Held Item",
+        "notes": "Also see code 00B6.",
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 007C"
+        ]
+      },
+      {
+        "id": "007D",
+        "name": "TM21 (Rock Climb)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 007D"
+        ]
+      },
+      {
+        "id": "007E",
+        "name": "TM24 (Defog)",
+        "category": "TM",
+        "notes": "Original text has a typo.",
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 007E"
+        ]
+      },
+      {
+        "id": "0080",
+        "name": "TM26 (Dark Pulse)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0080"
+        ]
+      },
+      {
+        "id": "0081",
+        "name": "TM27 (Close Combat)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0081"
+        ]
+      },
+      {
+        "id": "0082",
+        "name": "Dream Mail",
+        "category": "Mail",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0082"
+        ]
+      },
+      {
+        "id": "0083",
+        "name": "Fab Mail",
+        "category": "Mail",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0083"
+        ]
+      },
+      {
+        "id": "0084",
+        "name": "Retro Mail",
+        "category": "Mail",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0084"
+        ]
+      },
+      {
+        "id": "0085",
+        "name": "Cheri Berry",
+        "category": "Berry",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0085"
+        ]
+      },
+      {
+        "id": "0086",
+        "name": "Chesto Berry",
+        "category": "Berry",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0086"
+        ]
+      },
+      {
+        "id": "0087",
+        "name": "Pecha Berry",
+        "category": "Berry",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0087"
+        ]
+      },
+      {
+        "id": "0088",
+        "name": "Rawst Berry",
+        "category": "Berry",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0088"
+        ]
+      },
+      {
+        "id": "0089",
+        "name": "Aspear Berry",
+        "category": "Berry",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0089"
+        ]
+      },
+      {
+        "id": "008A",
+        "name": "Leppa Berry",
+        "category": "Berry",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 008A"
+        ]
+      },
+      {
+        "id": "008B",
+        "name": "Oran Berry",
+        "category": "Berry",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 008B"
+        ]
+      },
+      {
+        "id": "008C",
+        "name": "Persim Berry",
+        "category": "Berry",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 008C"
+        ]
+      },
+      {
+        "id": "008D",
+        "name": "Lum Berry",
+        "category": "Berry",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 008D"
+        ]
+      },
+      {
+        "id": "008E",
+        "name": "Sitrus Berry",
+        "category": "Berry",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 008E"
+        ]
+      },
+      {
+        "id": "008F",
+        "name": "Figy Berry",
+        "category": "Berry",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 008F"
+        ]
+      },
+      {
+        "id": "0090",
+        "name": "Wiki Berry",
+        "category": "Berry",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0090"
+        ]
+      },
+      {
+        "id": "0091",
+        "name": "Mago Berry",
+        "category": "Berry",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0091"
+        ]
+      },
+      {
+        "id": "0092",
+        "name": "Aguav Berry",
+        "category": "Berry",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0092"
+        ]
+      },
+      {
+        "id": "0093",
+        "name": "Iapapa Berry",
+        "category": "Berry",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0093"
+        ]
+      },
+      {
+        "id": "0094",
+        "name": "Razz Berry",
+        "category": "Berry",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0094"
+        ]
+      },
+      {
+        "id": "0095",
+        "name": "Bluk Berry",
+        "category": "Berry",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0095"
+        ]
+      },
+      {
+        "id": "0096",
+        "name": "Nanab Berry",
+        "category": "Berry",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0096"
+        ]
+      },
+      {
+        "id": "0097",
+        "name": "Wepear Berry",
+        "category": "Berry",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0097"
+        ]
+      },
+      {
+        "id": "0098",
+        "name": "Pinap Berry",
+        "category": "Berry",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0098"
+        ]
+      },
+      {
+        "id": "0099",
+        "name": "Blu Apricorn",
+        "category": "Apricorn",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0099"
+        ]
+      },
+      {
+        "id": "009A",
+        "name": "Grn Apricorn",
+        "category": "Apricorn",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 009A"
+        ]
+      },
+      {
+        "id": "009B",
+        "name": "Ylw Apricorn",
+        "category": "Apricorn",
+        "notes": "Conflicts with web version’s Qualot Berry, actual test prevails.",
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 009B"
+        ]
+      },
+      {
+        "id": "009C",
+        "name": "Red Apricorn",
+        "category": "Apricorn",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 009C"
+        ]
+      },
+      {
+        "id": "009D",
+        "name": "Pnk Apricorn",
+        "category": "Apricorn",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 009D"
+        ]
+      },
+      {
+        "id": "009E",
+        "name": "Wht Apricorn",
+        "category": "Apricorn",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 009E"
+        ]
+      },
+      {
+        "id": "009F",
+        "name": "Cornn Berry",
+        "category": "Berry",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 009F"
+        ]
+      },
+      {
+        "id": "00A0",
+        "name": "TM31 (Crunch)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00A0"
+        ]
+      },
+      {
+        "id": "00A1",
+        "name": "Naive Mint",
+        "category": "Mint",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718",
+          "62377"
+        ],
+        "codes": [
+          "820257C4 00A1"
+        ]
+      },
+      {
+        "id": "00A2",
+        "name": "Serious Mint",
+        "category": "Mint",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718",
+          "62377"
+        ],
+        "codes": [
+          "820257C4 00A2"
+        ]
+      },
+      {
+        "id": "00A3",
+        "name": "Modest Mint",
+        "category": "Mint",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718",
+          "62377"
+        ],
+        "codes": [
+          "820257C4 00A3"
+        ]
+      },
+      {
+        "id": "00A4",
+        "name": "Mild Mint",
+        "category": "Mint",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718",
+          "62377"
+        ],
+        "codes": [
+          "820257C4 00A4"
+        ]
+      },
+      {
+        "id": "00A5",
+        "name": "Quiet Mint",
+        "category": "Mint",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718",
+          "62377"
+        ],
+        "codes": [
+          "820257C4 00A5"
+        ]
+      },
+      {
+        "id": "00A6",
+        "name": "Rash Mint",
+        "category": "Mint",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718",
+          "62377"
+        ],
+        "codes": [
+          "820257C4 00A6"
+        ]
+      },
+      {
+        "id": "00A7",
+        "name": "Oval Stone",
+        "category": "Evolution Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00A7"
+        ]
+      },
+      {
+        "id": "00A8",
+        "name": "Calm Mint",
+        "category": "Mint",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718",
+          "62377"
+        ],
+        "codes": [
+          "820257C4 00A8"
+        ]
+      },
+      {
+        "id": "00A9",
+        "name": "Gentle Mint",
+        "category": "Mint",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718",
+          "62377"
+        ],
+        "codes": [
+          "820257C4 00A9"
+        ]
+      },
+      {
+        "id": "00AA",
+        "name": "Reaper Cloth",
+        "category": "Evolution Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00AA"
+        ]
+      },
+      {
+        "id": "00AB",
+        "name": "Careful Mint",
+        "category": "Mint",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718",
+          "62377"
+        ],
+        "codes": [
+          "820257C4 00AB"
+        ]
+      },
+      {
+        "id": "00AC",
+        "name": "Sassy Mint",
+        "category": "Mint",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718",
+          "62377"
+        ],
+        "codes": [
+          "820257C4 00AC"
+        ]
+      },
+      {
+        "id": "00AD",
+        "name": "Gold Bottle Cap",
+        "category": "Consumable",
+        "notes": "Corrected to official translation.",
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00AD"
+        ]
+      },
+      {
+        "id": "00AE",
+        "name": "Dubious Disc",
+        "category": "Evolution Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00AE"
+        ]
+      },
+      {
+        "id": "00AF",
+        "name": "TM32 (Agility)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00AF"
+        ]
+      },
+      {
+        "id": "00B0",
+        "name": "TM33 (Wild Charge)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00B0"
+        ]
+      },
+      {
+        "id": "00B1",
+        "name": "TM34 (Flare Blitz)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00B1"
+        ]
+      },
+      {
+        "id": "00B2",
+        "name": "Bottle Cap",
+        "category": "Consumable",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00B2"
+        ]
+      },
+      {
+        "id": "00B3",
+        "name": "Bright Powder",
+        "category": "Held Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00B3"
+        ]
+      },
+      {
+        "id": "00B4",
+        "name": "White Herb",
+        "category": "Held Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00B4"
+        ]
+      },
+      {
+        "id": "00B5",
+        "name": "Macho Brace",
+        "category": "Held Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00B5"
+        ]
+      },
+      {
+        "id": "00B6",
+        "name": "Exp. Share",
+        "category": "Held Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00B6"
+        ]
+      },
+      {
+        "id": "00B7",
+        "name": "Quick Claw",
+        "category": "Held Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00B7"
+        ]
+      },
+      {
+        "id": "00B8",
+        "name": "Soothe Bell",
+        "category": "Held Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00B8"
+        ]
+      },
+      {
+        "id": "00B9",
+        "name": "Mental Herb",
+        "category": "Held Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00B9"
+        ]
+      },
+      {
+        "id": "00BA",
+        "name": "Choice Band",
+        "category": "Held Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00BA"
+        ]
+      },
+      {
+        "id": "00BB",
+        "name": "King’s Rock",
+        "category": "Held Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00BB"
+        ]
+      },
+      {
+        "id": "00BC",
+        "name": "Silver Powder",
+        "category": "Held Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00BC"
+        ]
+      },
+      {
+        "id": "00BD",
+        "name": "Amulet Coin",
+        "category": "Held Item",
+        "notes": "Original text had a typo.",
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00BD"
+        ]
+      },
+      {
+        "id": "00BE",
+        "name": "Cleanse Tag",
+        "category": "Held Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00BE"
+        ]
+      },
+      {
+        "id": "00BF",
+        "name": "Soul Dew",
+        "category": "Held Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00BF"
+        ]
+      },
+      {
+        "id": "00C0",
+        "name": "Deep Sea Tooth",
+        "category": "Held/Evolution",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00C0"
+        ]
+      },
+      {
+        "id": "00C1",
+        "name": "Deep Sea Scale",
+        "category": "Held/Evolution",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00C1"
+        ]
+      },
+      {
+        "id": "00C2",
+        "name": "Smoke Ball",
+        "category": "Held Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00C2"
+        ]
+      },
+      {
+        "id": "00C3",
+        "name": "Everstone",
+        "category": "Held Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00C3"
+        ]
+      },
+      {
+        "id": "00C4",
+        "name": "Focus Band",
+        "category": "Held Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00C4"
+        ]
+      },
+      {
+        "id": "00C5",
+        "name": "Lucky Egg",
+        "category": "Held Item",
+        "notes": "Corrected to official translation.",
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00C5"
+        ]
+      },
+      {
+        "id": "00C6",
+        "name": "Scope Lens",
+        "category": "Held Item",
+        "notes": "Increases critical hit ratio.",
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00C6"
+        ]
+      },
+      {
+        "id": "00C7",
+        "name": "Metal Coat",
+        "category": "Held/Evolution",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00C7"
+        ]
+      },
+      {
+        "id": "00C8",
+        "name": "Leftovers",
+        "category": "Held Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00C8"
+        ]
+      },
+      {
+        "id": "00C9",
+        "name": "Dragon Scale",
+        "category": "Evolution Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00C9"
+        ]
+      },
+      {
+        "id": "00CA",
+        "name": "Light Ball",
+        "category": "Held Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00CA"
+        ]
+      },
+      {
+        "id": "00CB",
+        "name": "Soft Sand",
+        "category": "Held Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00CB"
+        ]
+      },
+      {
+        "id": "00CC",
+        "name": "Hard Stone",
+        "category": "Held Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00CC"
+        ]
+      },
+      {
+        "id": "00CD",
+        "name": "Miracle Seed",
+        "category": "Held Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00CD"
+        ]
+      },
+      {
+        "id": "00CE",
+        "name": "Black Glasses",
+        "category": "Held Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00CE"
+        ]
+      },
+      {
+        "id": "00CF",
+        "name": "Black Belt",
+        "category": "Held Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00CF"
+        ]
+      },
+      {
+        "id": "00D0",
+        "name": "Magnet",
+        "category": "Held Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00D0"
+        ]
+      },
+      {
+        "id": "00D1",
+        "name": "Mystic Water",
+        "category": "Held Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00D1"
+        ]
+      },
+      {
+        "id": "00D2",
+        "name": "Sharp Beak",
+        "category": "Held Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00D2"
+        ]
+      },
+      {
+        "id": "00D3",
+        "name": "Poison Barb",
+        "category": "Held Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00D3"
+        ]
+      },
+      {
+        "id": "00D4",
+        "name": "Never-Melt Ice",
+        "category": "Held Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00D4"
+        ]
+      },
+      {
+        "id": "00D5",
+        "name": "Spell Tag",
+        "category": "Held Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00D5"
+        ]
+      },
+      {
+        "id": "00D6",
+        "name": "Twisted Spoon",
+        "category": "Held Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00D6"
+        ]
+      },
+      {
+        "id": "00D7",
+        "name": "Charcoal",
+        "category": "Held Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00D7"
+        ]
+      },
+      {
+        "id": "00D8",
+        "name": "Dragon Fang",
+        "category": "Held Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00D8"
+        ]
+      },
+      {
+        "id": "00D9",
+        "name": "Silk Scarf",
+        "category": "Held Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00D9"
+        ]
+      },
+      {
+        "id": "00DA",
+        "name": "Up-Grade",
+        "category": "Evolution Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00DA"
+        ]
+      },
+      {
+        "id": "00DB",
+        "name": "Shell Bell",
+        "category": "Held Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00DB"
+        ]
+      },
+      {
+        "id": "00DC",
+        "name": "Sea Incense",
+        "category": "Held Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00DC"
+        ]
+      },
+      {
+        "id": "00DD",
+        "name": "Lax Incense",
+        "category": "Held Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00DD"
+        ]
+      },
+      {
+        "id": "00DE",
+        "name": "Lucky Punch",
+        "category": "Held Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00DE"
+        ]
+      },
+      {
+        "id": "00DF",
+        "name": "Metal Powder",
+        "category": "Held Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00DF"
+        ]
+      },
+      {
+        "id": "00E0",
+        "name": "Thick Club",
+        "category": "Held Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00E0"
+        ]
+      },
+      {
+        "id": "00E1",
+        "name": "Leek",
+        "category": "Held Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00E1"
+        ]
+      },
+      {
+        "id": "00F0",
+        "name": "? (Glitch)",
+        "category": "Unknown",
+        "notes": "Placeholder/Invalid Item.",
+        "excludedFromMain": true,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00F0"
+        ]
+      },
+      {
+        "id": "00F1",
+        "name": "Level Ball",
+        "category": "Poké Ball",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00F1"
+        ]
+      },
+      {
+        "id": "00F2",
+        "name": "Lure Ball",
+        "category": "Poké Ball",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00F2"
+        ]
+      },
+      {
+        "id": "00F3",
+        "name": "Moon Ball",
+        "category": "Poké Ball",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00F3"
+        ]
+      },
+      {
+        "id": "00F4",
+        "name": "Friend Ball",
+        "category": "Poké Ball",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00F4"
+        ]
+      },
+      {
+        "id": "00F5",
+        "name": "Love Ball",
+        "category": "Poké Ball",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00F5"
+        ]
+      },
+      {
+        "id": "00F6",
+        "name": "Heavy Ball",
+        "category": "Poké Ball",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00F6"
+        ]
+      },
+      {
+        "id": "00F7",
+        "name": "Fast Ball",
+        "category": "Poké Ball",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00F7"
+        ]
+      },
+      {
+        "id": "00F8",
+        "name": "Heal Ball",
+        "category": "Poké Ball",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00F8"
+        ]
+      },
+      {
+        "id": "00F9",
+        "name": "Quick Ball",
+        "category": "Poké Ball",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00F9"
+        ]
+      },
+      {
+        "id": "00FA",
+        "name": "Dusk Ball",
+        "category": "Poké Ball",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00FA"
+        ]
+      },
+      {
+        "id": "00FB",
+        "name": "Rocket Ball",
+        "category": "Poké Ball",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00FB"
+        ]
+      },
+      {
+        "id": "00FC",
+        "name": "Sport Ball",
+        "category": "Poké Ball",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00FC"
+        ]
+      },
+      {
+        "id": "00FD",
+        "name": "National Pokédex",
+        "category": "Key Item",
+        "notes": null,
+        "excludedFromMain": true,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00FD"
+        ]
+      },
+      {
+        "id": "00FE",
+        "name": "Red Scarf",
+        "category": "Held Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00FE"
+        ]
+      },
+      {
+        "id": "00FF",
+        "name": "Blue Scarf",
+        "category": "Held Item",
+        "notes": "Feebas evolution item.",
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 00FF"
+        ]
+      },
+      {
+        "id": "0100",
+        "name": "Pink Scarf",
+        "category": "Held Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0100"
+        ]
+      },
+      {
+        "id": "0101",
+        "name": "Green Scarf",
+        "category": "Held Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0101"
+        ]
+      },
+      {
+        "id": "0102",
+        "name": "Yellow Scarf",
+        "category": "Held Item",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0102"
+        ]
+      },
+      {
+        "id": "0103",
+        "name": "Mach Bike",
+        "category": "Key Item",
+        "notes": null,
+        "excludedFromMain": true,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0103"
+        ]
+      },
+      {
+        "id": "0104",
+        "name": "Coin Case",
+        "category": "Key Item",
+        "notes": null,
+        "excludedFromMain": true,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0104"
+        ]
+      },
+      {
+        "id": "0105",
+        "name": "Dowsing Machine",
+        "category": "Key Item",
+        "notes": null,
+        "excludedFromMain": true,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0105"
+        ]
+      },
+      {
+        "id": "0106",
+        "name": "Old Rod",
+        "category": "Key Item",
+        "notes": null,
+        "excludedFromMain": true,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0106"
+        ]
+      },
+      {
+        "id": "0107",
+        "name": "Good Rod",
+        "category": "Key Item",
+        "notes": null,
+        "excludedFromMain": true,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0107"
+        ]
+      },
+      {
+        "id": "0108",
+        "name": "Super Rod",
+        "category": "Key Item",
+        "notes": null,
+        "excludedFromMain": true,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0108"
+        ]
+      },
+      {
+        "id": "0109",
+        "name": "S.S. Ticket",
+        "category": "Key Item",
+        "notes": null,
+        "excludedFromMain": true,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0109"
+        ]
+      },
+      {
+        "id": "010A",
+        "name": "Contest Pass",
+        "category": "Key Item",
+        "notes": null,
+        "excludedFromMain": true,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 010A"
+        ]
+      },
+      {
+        "id": "010C",
+        "name": "Wailmer Pail",
+        "category": "Key Item",
+        "notes": null,
+        "excludedFromMain": true,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 010C"
+        ]
+      },
+      {
+        "id": "010D",
+        "name": "Devon Parts",
+        "category": "Key Item",
+        "notes": null,
+        "excludedFromMain": true,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 010D"
+        ]
+      },
+      {
+        "id": "010E",
+        "name": "Soot Sack",
+        "category": "Key Item",
+        "notes": null,
+        "excludedFromMain": true,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 010E"
+        ]
+      },
+      {
+        "id": "010F",
+        "name": "Basement Key",
+        "category": "Key Item",
+        "notes": null,
+        "excludedFromMain": true,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 010F"
+        ]
+      },
+      {
+        "id": "0110",
+        "name": "Acro Bike",
+        "category": "Key Item",
+        "notes": null,
+        "excludedFromMain": true,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0110"
+        ]
+      },
+      {
+        "id": "0111",
+        "name": "Pokéblock Case",
+        "category": "Key Item",
+        "notes": null,
+        "excludedFromMain": true,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0111"
+        ]
+      },
+      {
+        "id": "0112",
+        "name": "Letter",
+        "category": "Key Item",
+        "notes": null,
+        "excludedFromMain": true,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0112"
+        ]
+      },
+      {
+        "id": "0113",
+        "name": "Eon Ticket",
+        "category": "Key Item",
+        "notes": null,
+        "excludedFromMain": true,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0113"
+        ]
+      },
+      {
+        "id": "0114",
+        "name": "Red Orb",
+        "category": "Key Item",
+        "notes": null,
+        "excludedFromMain": true,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0114"
+        ]
+      },
+      {
+        "id": "0115",
+        "name": "Blue Orb",
+        "category": "Key Item",
+        "notes": null,
+        "excludedFromMain": true,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0115"
+        ]
+      },
+      {
+        "id": "0116",
+        "name": "Scanner",
+        "category": "Key Item",
+        "notes": null,
+        "excludedFromMain": true,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0116"
+        ]
+      },
+      {
+        "id": "0117",
+        "name": "Go-Goggles",
+        "category": "Key Item",
+        "notes": null,
+        "excludedFromMain": true,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0117"
+        ]
+      },
+      {
+        "id": "0118",
+        "name": "Meteorite",
+        "category": "Key Item",
+        "notes": null,
+        "excludedFromMain": true,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0118"
+        ]
+      },
+      {
+        "id": "0119",
+        "name": "Program",
+        "category": "Story Item",
+        "notes": "Web version lists this as Rm. 1 Key, actual test prevails.",
+        "excludedFromMain": true,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0119"
+        ]
+      },
+      {
+        "id": "011A",
+        "name": "Lost Item",
+        "category": "Story Item",
+        "notes": "Web version lists this as Rm. 2 Key, actual test prevails.",
+        "excludedFromMain": true,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 011A"
+        ]
+      },
+      {
+        "id": "011B",
+        "name": "Rm. 4 Key",
+        "category": "Key Item",
+        "notes": null,
+        "excludedFromMain": true,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 011B"
+        ]
+      },
+      {
+        "id": "011C",
+        "name": "Rm. 6 Key",
+        "category": "Key Item",
+        "notes": null,
+        "excludedFromMain": true,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 011C"
+        ]
+      },
+      {
+        "id": "011D",
+        "name": "Storage Key",
+        "category": "Key Item",
+        "notes": null,
+        "excludedFromMain": true,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 011D"
+        ]
+      },
+      {
+        "id": "011E",
+        "name": "Root Fossil",
+        "category": "Key Item",
+        "notes": null,
+        "excludedFromMain": true,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 011E"
+        ]
+      },
+      {
+        "id": "011F",
+        "name": "Claw Fossil",
+        "category": "Key Item",
+        "notes": null,
+        "excludedFromMain": true,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 011F"
+        ]
+      },
+      {
+        "id": "0120",
+        "name": "Devon Scope",
+        "category": "Key Item",
+        "notes": null,
+        "excludedFromMain": true,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0120"
+        ]
+      },
+      {
+        "id": "0121",
+        "name": "TM01 (Dynamic Punch)",
+        "category": "TM",
+        "notes": "Web version lists as Focus Punch, actual test prevails.",
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0121"
+        ]
+      },
+      {
+        "id": "0122",
+        "name": "TM02 (Dragon Claw)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0122"
+        ]
+      },
+      {
+        "id": "0123",
+        "name": "TM03 (Water Pulse)",
+        "category": "TM",
+        "notes": "Tested as TM03, confirmed as Water Pulse via web.",
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0123"
+        ]
+      },
+      {
+        "id": "0124",
+        "name": "TM04 (Calm Mind)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0124"
+        ]
+      },
+      {
+        "id": "0125",
+        "name": "TM05 (Roar)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0125"
+        ]
+      },
+      {
+        "id": "0126",
+        "name": "TM06 (Toxic)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0126"
+        ]
+      },
+      {
+        "id": "0127",
+        "name": "TM07 (Hail)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0127"
+        ]
+      },
+      {
+        "id": "0128",
+        "name": "TM08 (Bulk Up)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0128"
+        ]
+      },
+      {
+        "id": "0129",
+        "name": "TM09 (Bullet Seed)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0129"
+        ]
+      },
+      {
+        "id": "012A",
+        "name": "TM10 (Hidden Power)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 012A"
+        ]
+      },
+      {
+        "id": "012B",
+        "name": "TM11 (Sunny Day)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 012B"
+        ]
+      },
+      {
+        "id": "012C",
+        "name": "TM12 (Taunt)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 012C"
+        ]
+      },
+      {
+        "id": "012D",
+        "name": "TM13 (Ice Beam)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 012D"
+        ]
+      },
+      {
+        "id": "012E",
+        "name": "TM14 (Blizzard)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 012E"
+        ]
+      },
+      {
+        "id": "012F",
+        "name": "TM15 (Hyper Beam)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 012F"
+        ]
+      },
+      {
+        "id": "0130",
+        "name": "TM16 (Light Screen)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0130"
+        ]
+      },
+      {
+        "id": "0131",
+        "name": "TM17 (Protect)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0131"
+        ]
+      },
+      {
+        "id": "0132",
+        "name": "TM18 (Rain Dance)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0132"
+        ]
+      },
+      {
+        "id": "0133",
+        "name": "TM19 (Giga Drain)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0133"
+        ]
+      },
+      {
+        "id": "0134",
+        "name": "TM20 (Safeguard)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0134"
+        ]
+      },
+      {
+        "id": "0135",
+        "name": "TM21 (Frustration)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0135"
+        ]
+      },
+      {
+        "id": "0136",
+        "name": "TM22 (Solar Beam)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0136"
+        ]
+      },
+      {
+        "id": "0137",
+        "name": "TM23 (Iron Tail)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0137"
+        ]
+      },
+      {
+        "id": "0138",
+        "name": "TM24 (Thunderbolt)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0138"
+        ]
+      },
+      {
+        "id": "0139",
+        "name": "TM25 (Thunder)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0139"
+        ]
+      },
+      {
+        "id": "013A",
+        "name": "TM26 (Earthquake)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 013A"
+        ]
+      },
+      {
+        "id": "013B",
+        "name": "TM27 (Return)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 013B"
+        ]
+      },
+      {
+        "id": "013C",
+        "name": "TM28 (Dig)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 013C"
+        ]
+      },
+      {
+        "id": "013D",
+        "name": "TM29 (Psychic)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 013D"
+        ]
+      },
+      {
+        "id": "013E",
+        "name": "TM30 (Shadow Ball)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 013E"
+        ]
+      },
+      {
+        "id": "013F",
+        "name": "TM31 (Brick Break)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 013F"
+        ]
+      },
+      {
+        "id": "0140",
+        "name": "TM32 (Double Team)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0140"
+        ]
+      },
+      {
+        "id": "0141",
+        "name": "TM33 (Reflect)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0141"
+        ]
+      },
+      {
+        "id": "0142",
+        "name": "TM34 (Shock Wave)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0142"
+        ]
+      },
+      {
+        "id": "0143",
+        "name": "TM35 (Flamethrower)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0143"
+        ]
+      },
+      {
+        "id": "0144",
+        "name": "TM36 (Sludge Bomb)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0144"
+        ]
+      },
+      {
+        "id": "0145",
+        "name": "TM37 (Sandstorm)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0145"
+        ]
+      },
+      {
+        "id": "0146",
+        "name": "TM38 (Fire Blast)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0146"
+        ]
+      },
+      {
+        "id": "0147",
+        "name": "TM39 (Rock Tomb)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0147"
+        ]
+      },
+      {
+        "id": "0148",
+        "name": "TM40 (Aerial Ace)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0148"
+        ]
+      },
+      {
+        "id": "0149",
+        "name": "TM41 (Torment)",
+        "category": "TM",
+        "notes": "Noted as “Taunt” originally, corrected to official translation.",
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0149"
+        ]
+      },
+      {
+        "id": "014A",
+        "name": "TM42 (Facade)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 014A"
+        ]
+      },
+      {
+        "id": "014B",
+        "name": "TM43 (Secret Power)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 014B"
+        ]
+      },
+      {
+        "id": "014C",
+        "name": "TM44 (Rest)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 014C"
+        ]
+      },
+      {
+        "id": "014D",
+        "name": "TM45 (Attract)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 014D"
+        ]
+      },
+      {
+        "id": "014E",
+        "name": "TM46 (Thief)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 014E"
+        ]
+      },
+      {
+        "id": "014F",
+        "name": "TM47 (Steel Wing)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 014F"
+        ]
+      },
+      {
+        "id": "0150",
+        "name": "TM48 (Skill Swap)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0150"
+        ]
+      },
+      {
+        "id": "0151",
+        "name": "TM49 (Snatch)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0151"
+        ]
+      },
+      {
+        "id": "0152",
+        "name": "TM50 (Overheat)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0152"
+        ]
+      },
+      {
+        "id": "0153",
+        "name": "HM01 (Cut)",
+        "category": "HM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0153"
+        ]
+      },
+      {
+        "id": "0154",
+        "name": "HM02 (Fly)",
+        "category": "HM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0154"
+        ]
+      },
+      {
+        "id": "0155",
+        "name": "HM03 (Surf)",
+        "category": "HM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0155"
+        ]
+      },
+      {
+        "id": "0156",
+        "name": "HM04 (Strength)",
+        "category": "HM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0156"
+        ]
+      },
+      {
+        "id": "0157",
+        "name": "HM05 (Flash)",
+        "category": "HM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0157"
+        ]
+      },
+      {
+        "id": "0158",
+        "name": "HM06 (Rock Smash)",
+        "category": "HM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0158"
+        ]
+      },
+      {
+        "id": "0159",
+        "name": "HM07 (Waterfall)",
+        "category": "HM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0159"
+        ]
+      },
+      {
+        "id": "015A",
+        "name": "HM08 (Dive)",
+        "category": "HM",
+        "notes": "Original code; moved to 015B in this hack.",
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 015A"
+        ]
+      },
+      {
+        "id": "015B",
+        "name": "HM09 (Dive)",
+        "category": "HM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 015B"
+        ]
+      },
+      {
+        "id": "015C",
+        "name": "P.D.A.",
+        "category": "Key Item",
+        "notes": "Custom item; opens PC anywhere.",
+        "excludedFromMain": true,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 015C"
+        ]
+      },
+      {
+        "id": "015D",
+        "name": "Mystery Egg",
+        "category": "Story Item",
+        "notes": "Quest item.",
+        "excludedFromMain": true,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 015D"
+        ]
+      },
+      {
+        "id": "015E",
+        "name": "Poké Flute",
+        "category": "Key Item",
+        "notes": null,
+        "excludedFromMain": true,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 015E"
+        ]
+      },
+      {
+        "id": "015F",
+        "name": "Secret Key",
+        "category": "Key Item",
+        "notes": null,
+        "excludedFromMain": true,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 015F"
+        ]
+      },
+      {
+        "id": "0160",
+        "name": "Squirtbottle",
+        "category": "Key Item",
+        "notes": null,
+        "excludedFromMain": true,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0160"
+        ]
+      },
+      {
+        "id": "0161",
+        "name": "Red Scale",
+        "category": "Key Item",
+        "notes": null,
+        "excludedFromMain": true,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0161"
+        ]
+      },
+      {
+        "id": "0162",
+        "name": "Old Amber",
+        "category": "Key Item",
+        "notes": null,
+        "excludedFromMain": true,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0162"
+        ]
+      },
+      {
+        "id": "0163",
+        "name": "Card Key",
+        "category": "Key Item",
+        "notes": null,
+        "excludedFromMain": true,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0163"
+        ]
+      },
+      {
+        "id": "0164",
+        "name": "Unlock Password",
+        "category": "Story Item",
+        "notes": null,
+        "excludedFromMain": true,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0164"
+        ]
+      },
+      {
+        "id": "0165",
+        "name": "Helix Fossil",
+        "category": "Key Item",
+        "notes": null,
+        "excludedFromMain": true,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0165"
+        ]
+      },
+      {
+        "id": "0174",
+        "name": "TM22 (Frost Breath)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0174"
+        ]
+      },
+      {
+        "id": "0177",
+        "name": "TM01 (Amnesia)",
+        "category": "TM",
+        "notes": "Overlaps with old vanilla ID, depends on hack settings.",
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0177"
+        ]
+      },
+      {
+        "id": "0178",
+        "name": "TM02 (Baton Pass)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0178"
+        ]
+      },
+      {
+        "id": "0179",
+        "name": "TM03 (Facade)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0179"
+        ]
+      },
+      {
+        "id": "017A",
+        "name": "TM04 (Nasty Plot)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 017A"
+        ]
+      },
+      {
+        "id": "017B",
+        "name": "TM05 (Mimic)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 017B"
+        ]
+      },
+      {
+        "id": "017C",
+        "name": "TM06 (Body Slam)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 017C"
+        ]
+      },
+      {
+        "id": "017D",
+        "name": "TM07 (Leaf Blade)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 017D"
+        ]
+      },
+      {
+        "id": "017E",
+        "name": "TM08 (Superpower)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 017E"
+        ]
+      },
+      {
+        "id": "017F",
+        "name": "TM09 (Substitute)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 017F"
+        ]
+      },
+      {
+        "id": "0180",
+        "name": "TM10 (Brave Bird)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0180"
+        ]
+      },
+      {
+        "id": "0181",
+        "name": "TM11 (Metronome)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0181"
+        ]
+      },
+      {
+        "id": "0182",
+        "name": "TM12 (Moonblast)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0182"
+        ]
+      },
+      {
+        "id": "0183",
+        "name": "TM13 (Hydro Pump)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0183"
+        ]
+      },
+      {
+        "id": "0184",
+        "name": "TM14 (Leech Life)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0184"
+        ]
+      },
+      {
+        "id": "0185",
+        "name": "TM15 (Outrage)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0185"
+        ]
+      },
+      {
+        "id": "0186",
+        "name": "TM16 (Thunder Wave)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0186"
+        ]
+      },
+      {
+        "id": "0187",
+        "name": "TM17 (Thunder Fang)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0187"
+        ]
+      },
+      {
+        "id": "0188",
+        "name": "TM18 (Fire Fang)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0188"
+        ]
+      },
+      {
+        "id": "0189",
+        "name": "TM19 (Ice Fang)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0189"
+        ]
+      },
+      {
+        "id": "018A",
+        "name": "TM20 (Ancient Power)",
+        "category": "TM",
+        "notes": null,
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 018A"
+        ]
+      },
+      {
+        "id": "018B",
+        "name": "Zephyr Badge",
+        "category": "Key Item",
+        "notes": null,
+        "excludedFromMain": true,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 018B"
+        ]
+      },
+      {
+        "id": "0190",
+        "name": "Mineral Badge",
+        "category": "Key Item",
+        "notes": null,
+        "excludedFromMain": true,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0190"
+        ]
+      },
+      {
+        "id": "0193",
+        "name": "Boulder Badge",
+        "category": "Key Item",
+        "notes": "Assuming remaining badges belong to Kanto.",
+        "excludedFromMain": true,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 0193"
+        ]
+      },
+      {
+        "id": "01AB",
+        "name": "Glitch",
+        "category": "Unknown",
+        "notes": "Game bug/Item without sprite.",
+        "excludedFromMain": true,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 01AB"
+        ]
+      },
+      {
+        "id": "01B9",
+        "name": "Glitch",
+        "category": "Unknown",
+        "notes": "Game bug/Item without sprite.",
+        "excludedFromMain": true,
+        "evidenceComments": [
+          "61718"
+        ],
+        "codes": [
+          "820257C4 01B9"
+        ]
+      },
+      {
+        "id": "0034",
+        "name": "Adamant Mint",
+        "category": "Mint",
+        "notes": "Added by the later hack-specific mint confirmation.",
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "62377"
+        ],
+        "codes": [
+          "820257C4 0034"
+        ]
+      },
+      {
+        "id": "003C",
+        "name": "Lonely Mint",
+        "category": "Mint",
+        "notes": "Added by the later hack-specific mint confirmation.",
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "62377"
+        ],
+        "codes": [
+          "820257C4 003C"
+        ]
+      },
+      {
+        "id": "003D",
+        "name": "Brave Mint",
+        "category": "Mint",
+        "notes": "Added by the later hack-specific mint confirmation.",
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "62377"
+        ],
+        "codes": [
+          "820257C4 003D"
+        ]
+      },
+      {
+        "id": "003E",
+        "name": "Naughty Mint",
+        "category": "Mint",
+        "notes": "Added by the later hack-specific mint confirmation.",
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "62377"
+        ],
+        "codes": [
+          "820257C4 003E"
+        ]
+      },
+      {
+        "id": "0048",
+        "name": "Bold Mint",
+        "category": "Mint",
+        "notes": "Added by the later hack-specific mint confirmation.",
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "62377"
+        ],
+        "codes": [
+          "820257C4 0048"
+        ]
+      },
+      {
+        "id": "0057",
+        "name": "Relaxed Mint",
+        "category": "Mint",
+        "notes": "Added by the later hack-specific mint confirmation.",
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "62377"
+        ],
+        "codes": [
+          "820257C4 0057"
+        ]
+      },
+      {
+        "id": "0058",
+        "name": "Impish Mint",
+        "category": "Mint",
+        "notes": "Added by the later hack-specific mint confirmation.",
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "62377"
+        ],
+        "codes": [
+          "820257C4 0058"
+        ]
+      },
+      {
+        "id": "0059",
+        "name": "Lax Mint",
+        "category": "Mint",
+        "notes": "Added by the later hack-specific mint confirmation.",
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "62377"
+        ],
+        "codes": [
+          "820257C4 0059"
+        ]
+      },
+      {
+        "id": "005A",
+        "name": "Timid Mint",
+        "category": "Mint",
+        "notes": "Added by the later hack-specific mint confirmation.",
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "62377"
+        ],
+        "codes": [
+          "820257C4 005A"
+        ]
+      },
+      {
+        "id": "005B",
+        "name": "Hasty Mint",
+        "category": "Mint",
+        "notes": "Added by the later hack-specific mint confirmation.",
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "62377"
+        ],
+        "codes": [
+          "820257C4 005B"
+        ]
+      },
+      {
+        "id": "005C",
+        "name": "Jolly Mint",
+        "category": "Mint",
+        "notes": "Added by the later hack-specific mint confirmation.",
+        "excludedFromMain": false,
+        "evidenceComments": [
+          "62377"
+        ],
+        "codes": [
+          "820257C4 005C"
+        ]
+      }
+    ]
+  },
+  "mintConfirmation": {
+    "evidenceComment": "62377",
+    "items": [
+      {
+        "name": "Adamant Mint",
+        "id": "0034"
+      },
+      {
+        "name": "Lonely Mint",
+        "id": "003C"
+      },
+      {
+        "name": "Brave Mint",
+        "id": "003D"
+      },
+      {
+        "name": "Naughty Mint",
+        "id": "003E"
+      },
+      {
+        "name": "Bold Mint",
+        "id": "0048"
+      },
+      {
+        "name": "Relaxed Mint",
+        "id": "0057"
+      },
+      {
+        "name": "Impish Mint",
+        "id": "0058"
+      },
+      {
+        "name": "Lax Mint",
+        "id": "0059"
+      },
+      {
+        "name": "Timid Mint",
+        "id": "005A"
+      },
+      {
+        "name": "Hasty Mint",
+        "id": "005B"
+      },
+      {
+        "name": "Jolly Mint",
+        "id": "005C"
+      },
+      {
+        "name": "Naive Mint",
+        "id": "00A1"
+      },
+      {
+        "name": "Serious Mint",
+        "id": "00A2"
+      },
+      {
+        "name": "Modest Mint",
+        "id": "00A3"
+      },
+      {
+        "name": "Mild Mint",
+        "id": "00A4"
+      },
+      {
+        "name": "Quiet Mint",
+        "id": "00A5"
+      },
+      {
+        "name": "Rash Mint",
+        "id": "00A6"
+      },
+      {
+        "name": "Calm Mint",
+        "id": "00A8"
+      },
+      {
+        "name": "Gentle Mint",
+        "id": "00A9"
+      },
+      {
+        "name": "Careful Mint",
+        "id": "00AB"
+      },
+      {
+        "name": "Sassy Mint",
+        "id": "00AC"
+      }
+    ]
+  },
+  "commentEvidence": [
+    {
+      "id": "63115",
+      "author": "Justin The Butt",
+      "dateText": "June 25, 2026 at 4:23 PM",
+      "url": "https://www.pokemoncoders.com/pokemon-crystal-advance-redux-cheats/#comment-63115"
+    },
+    {
+      "id": "63251",
+      "author": "Jeiboy",
+      "dateText": "July 11, 2026 at 10:28 AM",
+      "url": "https://www.pokemoncoders.com/pokemon-crystal-advance-redux-cheats/#comment-63251"
+    },
+    {
+      "id": "63319",
+      "author": "Nori",
+      "dateText": "July 21, 2026 at 11:38 AM",
+      "url": "https://www.pokemoncoders.com/pokemon-crystal-advance-redux-cheats/#comment-63319"
+    },
+    {
+      "id": "62869",
+      "author": "Matt",
+      "dateText": "May 29, 2026 at 10:20 PM",
+      "url": "https://www.pokemoncoders.com/pokemon-crystal-advance-redux-cheats/#comment-62869"
+    },
+    {
+      "id": "62870",
+      "author": "Jeiboy",
+      "dateText": "May 29, 2026 at 11:12 PM",
+      "url": "https://www.pokemoncoders.com/pokemon-crystal-advance-redux-cheats/#comment-62870"
+    },
+    {
+      "id": "62876",
+      "author": "Matt",
+      "dateText": "May 30, 2026 at 9:40 PM",
+      "url": "https://www.pokemoncoders.com/pokemon-crystal-advance-redux-cheats/#comment-62876"
+    },
+    {
+      "id": "62854",
+      "author": "Three",
+      "dateText": "May 28, 2026 at 4:23 PM",
+      "url": "https://www.pokemoncoders.com/pokemon-crystal-advance-redux-cheats/#comment-62854"
+    },
+    {
+      "id": "62520",
+      "author": "Sylvonte",
+      "dateText": "April 29, 2026 at 11:53 PM",
+      "url": "https://www.pokemoncoders.com/pokemon-crystal-advance-redux-cheats/#comment-62520"
+    },
+    {
+      "id": "62514",
+      "author": "Chris",
+      "dateText": "April 29, 2026 at 6:00 AM",
+      "url": "https://www.pokemoncoders.com/pokemon-crystal-advance-redux-cheats/#comment-62514"
+    },
+    {
+      "id": "62335",
+      "author": "Roberto",
+      "dateText": "April 14, 2026 at 3:38 PM",
+      "url": "https://www.pokemoncoders.com/pokemon-crystal-advance-redux-cheats/#comment-62335"
+    },
+    {
+      "id": "62160",
+      "author": "Jonathan Snyder",
+      "dateText": "April 3, 2026 at 8:41 PM",
+      "url": "https://www.pokemoncoders.com/pokemon-crystal-advance-redux-cheats/#comment-62160"
+    },
+    {
+      "id": "62193",
+      "author": "Jeiboy",
+      "dateText": "April 6, 2026 at 7:49 AM",
+      "url": "https://www.pokemoncoders.com/pokemon-crystal-advance-redux-cheats/#comment-62193"
+    },
+    {
+      "id": "62194",
+      "author": "Jeiboy",
+      "dateText": "April 6, 2026 at 8:32 AM",
+      "url": "https://www.pokemoncoders.com/pokemon-crystal-advance-redux-cheats/#comment-62194"
+    },
+    {
+      "id": "61718",
+      "author": "Suringware",
+      "dateText": "March 13, 2026 at 7:30 PM",
+      "url": "https://www.pokemoncoders.com/pokemon-crystal-advance-redux-cheats/#comment-61718"
+    },
+    {
+      "id": "61950",
+      "author": "Jeiboy",
+      "dateText": "March 23, 2026 at 3:24 PM",
+      "url": "https://www.pokemoncoders.com/pokemon-crystal-advance-redux-cheats/#comment-61950"
+    },
+    {
+      "id": "62161",
+      "author": "jonathan",
+      "dateText": "April 3, 2026 at 8:42 PM",
+      "url": "https://www.pokemoncoders.com/pokemon-crystal-advance-redux-cheats/#comment-62161"
+    },
+    {
+      "id": "62179",
+      "author": "Legerity",
+      "dateText": "April 5, 2026 at 6:40 AM",
+      "url": "https://www.pokemoncoders.com/pokemon-crystal-advance-redux-cheats/#comment-62179"
+    },
+    {
+      "id": "62191",
+      "author": "Jeiboy",
+      "dateText": "April 6, 2026 at 7:45 AM",
+      "url": "https://www.pokemoncoders.com/pokemon-crystal-advance-redux-cheats/#comment-62191"
+    },
+    {
+      "id": "62197",
+      "author": "Legerity",
+      "dateText": "April 6, 2026 at 10:06 AM",
+      "url": "https://www.pokemoncoders.com/pokemon-crystal-advance-redux-cheats/#comment-62197"
+    },
+    {
+      "id": "62242",
+      "author": "Jeiboy",
+      "dateText": "April 9, 2026 at 10:03 PM",
+      "url": "https://www.pokemoncoders.com/pokemon-crystal-advance-redux-cheats/#comment-62242"
+    },
+    {
+      "id": "62347",
+      "author": "Jham",
+      "dateText": "April 15, 2026 at 4:32 PM",
+      "url": "https://www.pokemoncoders.com/pokemon-crystal-advance-redux-cheats/#comment-62347"
+    },
+    {
+      "id": "62346",
+      "author": "Jham",
+      "dateText": "April 15, 2026 at 4:23 PM",
+      "url": "https://www.pokemoncoders.com/pokemon-crystal-advance-redux-cheats/#comment-62346"
+    },
+    {
+      "id": "62377",
+      "author": "Beedril",
+      "dateText": "April 18, 2026 at 3:00 PM",
+      "url": "https://www.pokemoncoders.com/pokemon-crystal-advance-redux-cheats/#comment-62377"
+    },
+    {
+      "id": "62390",
+      "author": "MonkeyPrince",
+      "dateText": "April 19, 2026 at 3:58 PM",
+      "url": "https://www.pokemoncoders.com/pokemon-crystal-advance-redux-cheats/#comment-62390"
+    },
+    {
+      "id": "61608",
+      "author": "Ring",
+      "dateText": "March 5, 2026 at 3:13 PM",
+      "url": "https://www.pokemoncoders.com/pokemon-crystal-advance-redux-cheats/#comment-61608"
+    },
+    {
+      "id": "61109",
+      "author": "Matt",
+      "dateText": "January 27, 2026 at 11:22 AM",
+      "url": "https://www.pokemoncoders.com/pokemon-crystal-advance-redux-cheats/#comment-61109"
+    },
+    {
+      "id": "61961",
+      "author": "Beedril",
+      "dateText": "March 23, 2026 at 9:31 PM",
+      "url": "https://www.pokemoncoders.com/pokemon-crystal-advance-redux-cheats/#comment-61961"
+    },
+    {
+      "id": "58464",
+      "author": "Pcd",
+      "dateText": "July 27, 2025 at 3:02 AM",
+      "url": "https://www.pokemoncoders.com/pokemon-crystal-advance-redux-cheats/#comment-58464"
+    },
+    {
+      "id": "58190",
+      "author": "CG",
+      "dateText": "July 5, 2025 at 3:48 AM",
+      "url": "https://www.pokemoncoders.com/pokemon-crystal-advance-redux-cheats/#comment-58190"
+    },
+    {
+      "id": "56625",
+      "author": "SR.",
+      "dateText": "March 23, 2025 at 9:54 PM",
+      "url": "https://www.pokemoncoders.com/pokemon-crystal-advance-redux-cheats/#comment-56625"
+    },
+    {
+      "id": "57685",
+      "author": "Jeiboy",
+      "dateText": "May 27, 2025 at 9:14 PM",
+      "url": "https://www.pokemoncoders.com/pokemon-crystal-advance-redux-cheats/#comment-57685"
+    },
+    {
+      "id": "56623",
+      "author": "SR.",
+      "dateText": "March 23, 2025 at 8:57 PM",
+      "url": "https://www.pokemoncoders.com/pokemon-crystal-advance-redux-cheats/#comment-56623"
+    },
+    {
+      "id": "58403",
+      "author": "Rasheedz",
+      "dateText": "July 20, 2025 at 3:15 PM",
+      "url": "https://www.pokemoncoders.com/pokemon-crystal-advance-redux-cheats/#comment-58403"
+    },
+    {
+      "id": "60075",
+      "author": "Cam",
+      "dateText": "November 21, 2025 at 9:45 PM",
+      "url": "https://www.pokemoncoders.com/pokemon-crystal-advance-redux-cheats/#comment-60075"
+    }
+  ]
+}

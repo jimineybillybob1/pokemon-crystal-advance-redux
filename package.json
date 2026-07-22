@@ -10,6 +10,7 @@
     "validate": "node scripts/validate-data.mjs && node scripts/audit-provenance.mjs",
     "audit:provenance": "node scripts/audit-provenance.mjs",
     "audit:assets": "node scripts/audit-assets.mjs",
+    "cheats:build": "node scripts/build-retroarch-cheats.mjs",
     "sync:test": "node sync-worker/test/worker.test.mjs",
     "sync:deploy": "npx wrangler@4.112.0 deploy --cwd sync-worker",
     "serve": "python -m http.server 8892 --bind 127.0.0.1"
