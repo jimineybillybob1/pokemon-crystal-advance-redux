@@ -60,15 +60,16 @@ Mark each as `required`, `later`, or `disabled`.
 - The Overview badge tracker contains eight Johto city-labelled badges followed by eight Kanto city-labelled badges. The user-supplied memory identifiers run consecutively from `82003884 018B` through `82003884 019A`; `Eceuteak` and `Celedon` are normalized to the canonical spellings Ecruteak and Celadon.
 - Workbook trainer-name asterisks are treated as major-battle markers and removed from the displayed name. Silver is replaced by the player's configured rival name throughout the guide. Its five staged `SE Starter` slots resolve from the configured starter: Chikorita → Cyndaquil's line, Cyndaquil → Totodile's line, and Totodile → Chikorita's line.
 - Trainer Battle cards show each Pokémon's six species base stats and BST alongside its documented workbook level. Empty ability, held-item, nature and move placeholders are hidden because the workbook supplies none of those trainer-specific fields.
-- The dedicated Trainer page replaces the visible Progress tab for now. It shows trainer details, starter, current team, Pokédex completion and badge tracking; choosing a starter marks that species caught without removing any previously caught starter.
+- The dedicated Trainer page replaces the visible Progress tab for now. Its GBA-style Trainer Card is driven by the saved trainer name and character sprite, shows the live Pokédex count, and reveals obtained badges in two eight-slot Johto/Kanto rows. Pokédex completion is also shown as a progress bar below the card/profile area; choosing a starter marks that species caught without removing any previously caught starter.
 
 ## Branding
 
 - Logo: `assets/art/crystal-advance-redux-logo.png` — SteamGridDB asset 156975 by ALGAE.
 - Hero/background artwork: `assets/art/crystal-advance-redux-hero.png` — SteamGridDB asset 154634 by ALGAE.
 - Browser/app icon: `assets/art/crystal-advance-redux-icon.png` — SteamGridDB asset 112669 by BeardedSquirrel.
-- Primary colour: `#f13f57`
-- Accent colour: `#f2bb4b`
+- Primary colour: logo blue `#316BB4`
+- Accent colour: logo yellow `#FFCA02`
+- Supporting palette: Suicune cyan `#3FB7F3`, aurora aqua `#52E4D8`, forest teal `#2FC4AF`, violet `#6C61A1`, and lake navy `#03387C`, sampled from the attributed SteamGridDB hero, logo and cartridge artwork.
 - Menu sprite preferences: Pokémon item sprites already used by the guide.
 - Trainer profile artwork: unedited Pokémon Showdown character sprites; the former Progress tab's Adventure Guide sprite is reused for Trainer navigation. The Bulbagarden FRLG Trainer Card reference remains attributed but is no longer rendered as the profile-card background; see `sources/trainer-profile-art-attribution.md`.
 - Attribution and original asset links: `sources/art-attribution.md`.

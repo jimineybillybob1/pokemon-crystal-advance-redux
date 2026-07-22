@@ -10,8 +10,8 @@
     "logo": "assets/art/crystal-advance-redux-logo.png",
     "hero": "assets/art/crystal-advance-redux-hero.png",
     "icon": "assets/art/crystal-advance-redux-icon.png",
-    "primary": "#f13f57",
-    "accent": "#f2bb4b"
+    "primary": "#316bb4",
+    "accent": "#ffca02"
   },
   "features": {
     "moves": true,
