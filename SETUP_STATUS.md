@@ -18,7 +18,7 @@
 | Planning data | Imported and validated | 766 moves and 2,468 item records merged; workbook learnsets imported; 87 older/custom move definitions and 247 custom item records remain provisional |
 | Advanced data | Partial / battles and cloud sync complete | Encrypted Cloudflare Worker/KV sync is configured; 668 workbook trainer battles, including 229 VS Seeker rematches, are imported into the active Battle Guide and planner; maps remain deferred |
 | Local build | Complete | Baseline fetched and pinned; merge, schema validation, provenance audit, local-asset audit, sync-worker tests, desktop review and 375px mobile review pass |
-| Deployment | Complete | Public repository, GitHub Pages and Cloudflare Worker/KV deployment verified through 2026-07-21 |
+| Deployment | Complete | Public repository, GitHub Pages and Cloudflare Worker/KV deployment verified through 2026-07-22 |
 
 ## Confirmed decisions
 
@@ -67,5 +67,6 @@
 - Confirmed Pikachu, Pikachu-Partner, Pikachu-Surf and Pikachu-Fly share Dex ID 25, so their caught state and Pokédex card are species-wide. Replaced the three placeholders with provisional form-accurate Radical Red front sprites, kept unverified shiny sprites unavailable, and verified carousel/caught-state behaviour at desktop and 375px mobile widths.
 - Audited all workbook encounter methods and separated location cards into Wild, Tree, Surf, Dive, Fish and Rock Smash subsections. The requested five use that exact priority order, with Rock Smash retained as the sixth documented method and future unknown methods shown afterwards rather than dropped.
 - Imported every wild-encounter `More Info` value as a structured subarea, preserving 81 location/subarea combinations across 38 parent locations; Sprout Tower now displays separate 1F, 2F and 3F encounter tables. Imported 668 trainer-team rows from `Location Data` into the Battle Guide, including 229 VS Seeker rematches. Blank VS levels are labelled team-scaled, while other blank levels remain explicitly undocumented.
+- Added Battle Guide quick filters for all 76 trainer locations and sorted both those filters and the trainer cards with the same route-first ordering used by the Locations tab.
 - Converted the three provisional Pikachu form sprites' uniform pale-green background to hard-edged alpha with zero non-background RGB changes. Recovered pinned normal/shiny sprites for Sandy/Trash Burmy, East Sea Shellos/Gastrodon, Sunshine Cherrim and the three Paldean Tauros breeds, reducing placeholders from 16 to eight. Extended the asset audit to reject referenced Pokémon PNGs without transparency metadata.
 - Preserved the female/male meaning of the Nidoran gender symbols during interface normalization, added explicit display names and aliases for Dex 29/32, and verified their separate workbook sprites, evolutions and learnsets. This prevents Team Builder and Pokédex detail controls from resolving Nidoran male to the female record.
