@@ -8,6 +8,8 @@ final guide = pinned mainline baseline + hack overrides + hack additions - expli
 
 The baseline supplies ordinary Pokémon identity, National Dex numbers, forms, types, stats, abilities, evolution chains, moves, learnsets, items, and normal/shiny sprites. ROM-hack documentation remains authoritative for anything the hack changes.
 
+`dexId` remains the National Dex species identity used for evolution/form relationships. A hack may additionally supply `gameDexId` for its own visible Pokédex ordering and caught-state identity. Numbered forms with the same `dexId` are separate entries; an unnumbered form can share the primary numbered entry for that species.
+
 ## Choose the mechanics profile
 
 Set `versionGroup` in `config/baseline-config.json` to the closest supported mainline mechanics version group. This controls mainline learnset assumptions; it is not simply the base ROM name. Also set `maxNationalDex` if the hack stops at a particular generation. Leave it `null` for all available species.

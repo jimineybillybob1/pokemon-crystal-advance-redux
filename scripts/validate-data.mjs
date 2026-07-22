@@ -43,6 +43,8 @@ unique(pokemonOverrides.moves.filter(entry => !entry?.$delete), 'id', 'move over
 unique(itemOverrides.filter(entry => !entry?.$delete), 'id', 'item override');
 unique(guide.pokemon, 'id', 'Pokémon');
 unique(guide.pokemon, 'key', 'Pokémon');
+const numberedGameDex = guide.pokemon.filter(pokemon => pokemon.gameDexId != null);
+unique(numberedGameDex, 'gameDexId', 'in-game Pokedex entry');
 unique(guide.moves, 'id', 'move');
 unique(items, 'id', 'item');
 unique(battles.battles || [], 'id', 'battle');
@@ -59,10 +61,16 @@ const pokemonKeys = new Set(guide.pokemon.map(p => norm(p.key)));
 const moveIds = new Set(guide.moves.map(move => Number(move.id)));
 
 for (const pokemon of guide.pokemon) {
+  requireValue(pokemon.gameDexId == null || (Number.isInteger(Number(pokemon.gameDexId)) && Number(pokemon.gameDexId) > 0), `${pokemon.key}: gameDexId must be a positive integer or null.`);
   requireValue(Array.isArray(pokemon.stats) && pokemon.stats.length === 6, `${pokemon.key}: stats must contain six values.`);
   if (Array.isArray(pokemon.stats) && Number(pokemon.bst) !== pokemon.stats.reduce((sum, value) => sum + Number(value || 0), 0)) warnings.push(`${pokemon.key}: BST does not equal the six displayed base stats.`);
   for (const edge of pokemon.evolutions || []) if (!pokemonIds.has(Number(edge.targetId))) errors.push(`${pokemon.key}: missing evolution target ${edge.targetId}.`);
   for (const moveId of [...(pokemon.learnset?.level || []).map(entry => entry.moveId), ...(pokemon.learnset?.tm || []), ...(pokemon.learnset?.tutor || [])]) if (!moveIds.has(Number(moveId))) errors.push(`${pokemon.key}: missing move ${moveId}.`);
+}
+
+if (numberedGameDex.length) {
+  const gameDexNumbers = numberedGameDex.map(pokemon => Number(pokemon.gameDexId)).sort((a, b) => a - b);
+  requireValue(gameDexNumbers.every((value, index) => value === index + 1), `In-game Pokedex numbers must be continuous from 1; found ${gameDexNumbers.length} entries ending at ${gameDexNumbers.at(-1)}.`);
 }
 
 for (const location of guide.locations) {

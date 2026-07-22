@@ -304,6 +304,7 @@ def workbook_roster(rows: dict[int, dict[int, object]], baseline: dict) -> tuple
     for row_number, row in sorted(rows.items()):
         name = str(row.get(1, "")).strip()
         dex_id = integer(row.get(2))
+        game_dex_id = integer(row.get(3))
         if row_number < 3 or not name or dex_id is None:
             continue
         wanted = normalise(name)
@@ -348,6 +349,7 @@ def workbook_roster(rows: dict[int, dict[int, object]], baseline: dict) -> tuple
             "workbookName": name,
             "id": record_id,
             "dexId": dex_id,
+            "gameDexId": game_dex_id,
             "key": key,
             "sourceKey": source_key,
             "isDefaultForm": is_default,
@@ -553,6 +555,7 @@ def pokemon_overrides(
         patch = {
             "id": entry["id"],
             "dexId": entry["dexId"],
+            "gameDexId": entry["gameDexId"],
             "key": entry["key"],
             "sourceKey": entry["sourceKey"],
             "name": entry["workbookName"],
@@ -910,6 +913,9 @@ def import_workbook(workbook: OpenXmlWorkbook, project_root: Path) -> dict:
         "sourceVersion": "2026-07-01",
         "counts": {
             "workbookPokemon": len(roster),
+            "numberedGameDexEntries": sum(1 for entry in roster if entry["gameDexId"] is not None),
+            "unnumberedForms": sum(1 for entry in roster if entry["gameDexId"] is None),
+            "uniqueGameDexNumbers": len({entry["gameDexId"] for entry in roster if entry["gameDexId"] is not None}),
             "pokemonOverrideRecordsIncludingDeletions": len(pokemon_patches),
             "customOrUnmatchedForms": len(custom_forms),
             "customMoveStubs": len(move_resolver.custom_moves),

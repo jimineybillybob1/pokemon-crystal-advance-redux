@@ -3,6 +3,9 @@
   "sourceVersion": "2026-07-01",
   "counts": {
     "workbookPokemon": 596,
+    "numberedGameDexEntries": 553,
+    "unnumberedForms": 43,
+    "uniqueGameDexNumbers": 553,
     "pokemonOverrideRecordsIncludingDeletions": 1370,
     "customOrUnmatchedForms": 19,
     "customMoveStubs": 87,

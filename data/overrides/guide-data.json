@@ -13,6 +13,7 @@
     {
       "id": 1,
       "dexId": 1,
+      "gameDexId": 1,
       "key": "Bulbasaur",
       "sourceKey": "bulbasaur",
       "name": "Bulbasaur",
@@ -199,6 +200,7 @@
     {
       "id": 2,
       "dexId": 2,
+      "gameDexId": 2,
       "key": "Ivysaur",
       "sourceKey": "ivysaur",
       "name": "Ivysaur",
@@ -381,6 +383,7 @@
     {
       "id": 3,
       "dexId": 3,
+      "gameDexId": 3,
       "key": "Venusaur",
       "sourceKey": "venusaur",
       "name": "Venusaur",
@@ -586,6 +589,7 @@
     {
       "id": 4,
       "dexId": 4,
+      "gameDexId": 4,
       "key": "Charmander",
       "sourceKey": "charmander",
       "name": "Charmander",
@@ -776,6 +780,7 @@
     {
       "id": 5,
       "dexId": 5,
+      "gameDexId": 5,
       "key": "Charmeleon",
       "sourceKey": "charmeleon",
       "name": "Charmeleon",
@@ -966,6 +971,7 @@
     {
       "id": 6,
       "dexId": 6,
+      "gameDexId": 6,
       "key": "Charizard",
       "sourceKey": "charizard",
       "name": "Charizard",
@@ -1186,6 +1192,7 @@
     {
       "id": 7,
       "dexId": 7,
+      "gameDexId": 7,
       "key": "Squirtle",
       "sourceKey": "squirtle",
       "name": "Squirtle",
@@ -1378,6 +1385,7 @@
     {
       "id": 8,
       "dexId": 8,
+      "gameDexId": 8,
       "key": "Wartortle",
       "sourceKey": "wartortle",
       "name": "Wartortle",
@@ -1565,6 +1573,7 @@
     {
       "id": 9,
       "dexId": 9,
+      "gameDexId": 9,
       "key": "Blastoise",
       "sourceKey": "blastoise",
       "name": "Blastoise",
@@ -1778,6 +1787,7 @@
     {
       "id": 10,
       "dexId": 10,
+      "gameDexId": 10,
       "key": "Caterpie",
       "sourceKey": "caterpie",
       "name": "Caterpie",
@@ -1867,6 +1877,7 @@
     {
       "id": 11,
       "dexId": 11,
+      "gameDexId": 11,
       "key": "Metapod",
       "sourceKey": "metapod",
       "name": "Metapod",
@@ -1968,6 +1979,7 @@
     {
       "id": 12,
       "dexId": 12,
+      "gameDexId": 12,
       "key": "Butterfree",
       "sourceKey": "butterfree",
       "name": "Butterfree",
@@ -2157,6 +2169,7 @@
     {
       "id": 13,
       "dexId": 13,
+      "gameDexId": 13,
       "key": "Weedle",
       "sourceKey": "weedle",
       "name": "Weedle",
@@ -2248,6 +2261,7 @@
     {
       "id": 14,
       "dexId": 14,
+      "gameDexId": 14,
       "key": "Kakuna",
       "sourceKey": "kakuna",
       "name": "Kakuna",
@@ -2351,6 +2365,7 @@
     {
       "id": 15,
       "dexId": 15,
+      "gameDexId": 15,
       "key": "Beedrill",
       "sourceKey": "beedrill",
       "name": "Beedrill",
@@ -2535,6 +2550,7 @@
     {
       "id": 16,
       "dexId": 16,
+      "gameDexId": 16,
       "key": "Pidgey",
       "sourceKey": "pidgey",
       "name": "Pidgey",
@@ -2710,6 +2726,7 @@
     {
       "id": 17,
       "dexId": 17,
+      "gameDexId": 17,
       "key": "Pidgeotto",
       "sourceKey": "pidgeotto",
       "name": "Pidgeotto",
@@ -2889,6 +2906,7 @@
     {
       "id": 18,
       "dexId": 18,
+      "gameDexId": 18,
       "key": "Pidgeot",
       "sourceKey": "pidgeot",
       "name": "Pidgeot",
@@ -3076,6 +3094,7 @@
     {
       "id": 19,
       "dexId": 19,
+      "gameDexId": 19,
       "key": "Rattata",
       "sourceKey": "rattata",
       "name": "Rattata",
@@ -3261,6 +3280,7 @@
     {
       "id": 20,
       "dexId": 20,
+      "gameDexId": 20,
       "key": "Raticate",
       "sourceKey": "raticate",
       "name": "Raticate",
@@ -3463,6 +3483,7 @@
     {
       "id": 21,
       "dexId": 21,
+      "gameDexId": 21,
       "key": "Spearow",
       "sourceKey": "spearow",
       "name": "Spearow",
@@ -3639,6 +3660,7 @@
     {
       "id": 22,
       "dexId": 22,
+      "gameDexId": 22,
       "key": "Fearow",
       "sourceKey": "fearow",
       "name": "Fearow",
@@ -3823,6 +3845,7 @@
     {
       "id": 23,
       "dexId": 23,
+      "gameDexId": 23,
       "key": "Ekans",
       "sourceKey": "ekans",
       "name": "Ekans",
@@ -4009,6 +4032,7 @@
     {
       "id": 24,
       "dexId": 24,
+      "gameDexId": 24,
       "key": "Arbok",
       "sourceKey": "arbok",
       "name": "Arbok",
@@ -4215,6 +4239,7 @@
     {
       "id": 25,
       "dexId": 25,
+      "gameDexId": 25,
       "key": "Pikachu",
       "sourceKey": "pikachu",
       "name": "Pikachu",
@@ -4433,6 +4458,7 @@
     {
       "id": 26,
       "dexId": 26,
+      "gameDexId": 26,
       "key": "Raichu",
       "sourceKey": "raichu",
       "name": "Raichu",
@@ -4657,6 +4683,7 @@
     {
       "id": 27,
       "dexId": 27,
+      "gameDexId": 27,
       "key": "Sandshrew",
       "sourceKey": "sandshrew",
       "name": "Sandshrew",
@@ -4852,6 +4879,7 @@
     {
       "id": 28,
       "dexId": 28,
+      "gameDexId": 28,
       "key": "Sandslash",
       "sourceKey": "sandslash",
       "name": "Sandslash",
@@ -5063,6 +5091,7 @@
     {
       "id": 29,
       "dexId": 29,
+      "gameDexId": 29,
       "key": "Nidoran♀",
       "sourceKey": "nidoran-f",
       "name": "Nidoran♀",
@@ -5246,6 +5275,7 @@
     {
       "id": 30,
       "dexId": 30,
+      "gameDexId": 30,
       "key": "Nidorina",
       "sourceKey": "nidorina",
       "name": "Nidorina",
@@ -5446,6 +5476,7 @@
     {
       "id": 31,
       "dexId": 31,
+      "gameDexId": 31,
       "key": "Nidoqueen",
       "sourceKey": "nidoqueen",
       "name": "Nidoqueen",
@@ -5666,6 +5697,7 @@
     {
       "id": 32,
       "dexId": 32,
+      "gameDexId": 32,
       "key": "Nidoran♂",
       "sourceKey": "nidoran-m",
       "name": "Nidoran♂",
@@ -5851,6 +5883,7 @@
     {
       "id": 33,
       "dexId": 33,
+      "gameDexId": 33,
       "key": "Nidorino",
       "sourceKey": "nidorino",
       "name": "Nidorino",
@@ -6053,6 +6086,7 @@
     {
       "id": 34,
       "dexId": 34,
+      "gameDexId": 34,
       "key": "Nidoking",
       "sourceKey": "nidoking",
       "name": "Nidoking",
@@ -6258,6 +6292,7 @@
     {
       "id": 35,
       "dexId": 35,
+      "gameDexId": 35,
       "key": "Clefairy",
       "sourceKey": "clefairy",
       "name": "Clefairy",
@@ -6487,6 +6522,7 @@
     {
       "id": 36,
       "dexId": 36,
+      "gameDexId": 36,
       "key": "Clefable",
       "sourceKey": "clefable",
       "name": "Clefable",
@@ -6717,6 +6753,7 @@
     {
       "id": 37,
       "dexId": 37,
+      "gameDexId": 37,
       "key": "Vulpix",
       "sourceKey": "vulpix",
       "name": "Vulpix",
@@ -6924,6 +6961,7 @@
     {
       "id": 38,
       "dexId": 38,
+      "gameDexId": 38,
       "key": "Ninetales",
       "sourceKey": "ninetales",
       "name": "Ninetales",
@@ -7136,6 +7174,7 @@
     {
       "id": 39,
       "dexId": 39,
+      "gameDexId": 39,
       "key": "Jigglypuff",
       "sourceKey": "jigglypuff",
       "name": "Jigglypuff",
@@ -7363,6 +7402,7 @@
     {
       "id": 40,
       "dexId": 40,
+      "gameDexId": 40,
       "key": "Wigglytuff",
       "sourceKey": "wigglytuff",
       "name": "Wigglytuff",
@@ -7591,6 +7631,7 @@
     {
       "id": 41,
       "dexId": 41,
+      "gameDexId": 41,
       "key": "Zubat",
       "sourceKey": "zubat",
       "name": "Zubat",
@@ -7770,6 +7811,7 @@
     {
       "id": 42,
       "dexId": 42,
+      "gameDexId": 42,
       "key": "Golbat",
       "sourceKey": "golbat",
       "name": "Golbat",
@@ -7970,6 +8012,7 @@
     {
       "id": 43,
       "dexId": 43,
+      "gameDexId": 43,
       "key": "Oddish",
       "sourceKey": "oddish",
       "name": "Oddish",
@@ -8145,6 +8188,7 @@
     {
       "id": 44,
       "dexId": 44,
+      "gameDexId": 44,
       "key": "Gloom",
       "sourceKey": "gloom",
       "name": "Gloom",
@@ -8338,6 +8382,7 @@
     {
       "id": 45,
       "dexId": 45,
+      "gameDexId": 45,
       "key": "Vileplume",
       "sourceKey": "vileplume",
       "name": "Vileplume",
@@ -8531,6 +8576,7 @@
     {
       "id": 46,
       "dexId": 46,
+      "gameDexId": 46,
       "key": "Paras",
       "sourceKey": "paras",
       "name": "Paras",
@@ -8717,6 +8763,7 @@
     {
       "id": 47,
       "dexId": 47,
+      "gameDexId": 47,
       "key": "Parasect",
       "sourceKey": "parasect",
       "name": "Parasect",
@@ -8911,6 +8958,7 @@
     {
       "id": 48,
       "dexId": 48,
+      "gameDexId": 48,
       "key": "Venonat",
       "sourceKey": "venonat",
       "name": "Venonat",
@@ -9090,6 +9138,7 @@
     {
       "id": 49,
       "dexId": 49,
+      "gameDexId": 49,
       "key": "Venomoth",
       "sourceKey": "venomoth",
       "name": "Venomoth",
@@ -9285,6 +9334,7 @@
     {
       "id": 50,
       "dexId": 50,
+      "gameDexId": 50,
       "key": "Diglett",
       "sourceKey": "diglett",
       "name": "Diglett",
@@ -9463,6 +9513,7 @@
     {
       "id": 51,
       "dexId": 51,
+      "gameDexId": 51,
       "key": "Dugtrio",
       "sourceKey": "dugtrio",
       "name": "Dugtrio",
@@ -9650,6 +9701,7 @@
     {
       "id": 52,
       "dexId": 52,
+      "gameDexId": 52,
       "key": "Meowth",
       "sourceKey": "meowth",
       "name": "Meowth",
@@ -9867,6 +9919,7 @@
     {
       "id": 53,
       "dexId": 53,
+      "gameDexId": 53,
       "key": "Persian",
       "sourceKey": "persian",
       "name": "Persian",
@@ -10087,6 +10140,7 @@
     {
       "id": 54,
       "dexId": 54,
+      "gameDexId": 54,
       "key": "Psyduck",
       "sourceKey": "psyduck",
       "name": "Psyduck",
@@ -10292,6 +10346,7 @@
     {
       "id": 55,
       "dexId": 55,
+      "gameDexId": 55,
       "key": "Golduck",
       "sourceKey": "golduck",
       "name": "Golduck",
@@ -10507,6 +10562,7 @@
     {
       "id": 56,
       "dexId": 56,
+      "gameDexId": 56,
       "key": "Mankey",
       "sourceKey": "mankey",
       "name": "Mankey",
@@ -10702,6 +10758,7 @@
     {
       "id": 57,
       "dexId": 57,
+      "gameDexId": 57,
       "key": "Primeape",
       "sourceKey": "primeape",
       "name": "Primeape",
@@ -10915,6 +10972,7 @@
     {
       "id": 58,
       "dexId": 58,
+      "gameDexId": 58,
       "key": "Growlithe",
       "sourceKey": "growlithe",
       "name": "Growlithe",
@@ -11111,6 +11169,7 @@
     {
       "id": 59,
       "dexId": 59,
+      "gameDexId": 59,
       "key": "Arcanine",
       "sourceKey": "arcanine",
       "name": "Arcanine",
@@ -11329,6 +11388,7 @@
     {
       "id": 60,
       "dexId": 60,
+      "gameDexId": 60,
       "key": "Poliwag",
       "sourceKey": "poliwag",
       "name": "Poliwag",
@@ -11508,6 +11568,7 @@
     {
       "id": 61,
       "dexId": 61,
+      "gameDexId": 61,
       "key": "Poliwhirl",
       "sourceKey": "poliwhirl",
       "name": "Poliwhirl",
@@ -11708,6 +11769,7 @@
     {
       "id": 62,
       "dexId": 62,
+      "gameDexId": 62,
       "key": "Poliwrath",
       "sourceKey": "poliwrath",
       "name": "Poliwrath",
@@ -11939,6 +12001,7 @@
     {
       "id": 63,
       "dexId": 63,
+      "gameDexId": 63,
       "key": "Abra",
       "sourceKey": "abra",
       "name": "Abra",
@@ -12079,6 +12142,7 @@
     {
       "id": 64,
       "dexId": 64,
+      "gameDexId": 64,
       "key": "Kadabra",
       "sourceKey": "kadabra",
       "name": "Kadabra",
@@ -12284,6 +12348,7 @@
     {
       "id": 65,
       "dexId": 65,
+      "gameDexId": 65,
       "key": "Alakazam",
       "sourceKey": "alakazam",
       "name": "Alakazam",
@@ -12490,6 +12555,7 @@
     {
       "id": 66,
       "dexId": 66,
+      "gameDexId": 66,
       "key": "Machop",
       "sourceKey": "machop",
       "name": "Machop",
@@ -12674,6 +12740,7 @@
     {
       "id": 67,
       "dexId": 67,
+      "gameDexId": 67,
       "key": "Machoke",
       "sourceKey": "machoke",
       "name": "Machoke",
@@ -12878,6 +12945,7 @@
     {
       "id": 68,
       "dexId": 68,
+      "gameDexId": 68,
       "key": "Machamp",
       "sourceKey": "machamp",
       "name": "Machamp",
@@ -13083,6 +13151,7 @@
     {
       "id": 69,
       "dexId": 69,
+      "gameDexId": 69,
       "key": "Bellsprout",
       "sourceKey": "bellsprout",
       "name": "Bellsprout",
@@ -13265,6 +13334,7 @@
     {
       "id": 70,
       "dexId": 70,
+      "gameDexId": 70,
       "key": "Weepinbell",
       "sourceKey": "weepinbell",
       "name": "Weepinbell",
@@ -13460,6 +13530,7 @@
     {
       "id": 71,
       "dexId": 71,
+      "gameDexId": 71,
       "key": "Victreebel",
       "sourceKey": "victreebel",
       "name": "Victreebel",
@@ -13651,6 +13722,7 @@
     {
       "id": 72,
       "dexId": 72,
+      "gameDexId": 72,
       "key": "Tentacool",
       "sourceKey": "tentacool",
       "name": "Tentacool",
@@ -13830,6 +13902,7 @@
     {
       "id": 73,
       "dexId": 73,
+      "gameDexId": 73,
       "key": "Tentacruel",
       "sourceKey": "tentacruel",
       "name": "Tentacruel",
@@ -14017,6 +14090,7 @@
     {
       "id": 74,
       "dexId": 74,
+      "gameDexId": 74,
       "key": "Geodude",
       "sourceKey": "geodude",
       "name": "Geodude",
@@ -14199,6 +14273,7 @@
     {
       "id": 75,
       "dexId": 75,
+      "gameDexId": 75,
       "key": "Graveler",
       "sourceKey": "graveler",
       "name": "Graveler",
@@ -14397,6 +14472,7 @@
     {
       "id": 76,
       "dexId": 76,
+      "gameDexId": 76,
       "key": "Golem",
       "sourceKey": "golem",
       "name": "Golem",
@@ -14598,6 +14674,7 @@
     {
       "id": 77,
       "dexId": 77,
+      "gameDexId": 77,
       "key": "Ponyta",
       "sourceKey": "ponyta",
       "name": "Ponyta",
@@ -14775,6 +14852,7 @@
     {
       "id": 78,
       "dexId": 78,
+      "gameDexId": 78,
       "key": "Rapidash",
       "sourceKey": "rapidash",
       "name": "Rapidash",
@@ -14966,6 +15044,7 @@
     {
       "id": 79,
       "dexId": 79,
+      "gameDexId": 79,
       "key": "Slowpoke",
       "sourceKey": "slowpoke",
       "name": "Slowpoke",
@@ -15172,6 +15251,7 @@
     {
       "id": 80,
       "dexId": 80,
+      "gameDexId": 80,
       "key": "Slowbro",
       "sourceKey": "slowbro",
       "name": "Slowbro",
@@ -15398,6 +15478,7 @@
     {
       "id": 81,
       "dexId": 81,
+      "gameDexId": 81,
       "key": "Magnemite",
       "sourceKey": "magnemite",
       "name": "Magnemite",
@@ -15567,6 +15648,7 @@
     {
       "id": 82,
       "dexId": 82,
+      "gameDexId": 82,
       "key": "Magneton",
       "sourceKey": "magneton",
       "name": "Magneton",
@@ -15753,6 +15835,7 @@
     {
       "id": 83,
       "dexId": 83,
+      "gameDexId": 83,
       "key": "Farfetch’d",
       "sourceKey": "farfetchd",
       "name": "Farfetch`d",
@@ -15948,6 +16031,7 @@
     {
       "id": 84,
       "dexId": 84,
+      "gameDexId": 84,
       "key": "Doduo",
       "sourceKey": "doduo",
       "name": "Doduo",
@@ -16118,6 +16202,7 @@
     {
       "id": 85,
       "dexId": 85,
+      "gameDexId": 85,
       "key": "Dodrio",
       "sourceKey": "dodrio",
       "name": "Dodrio",
@@ -16297,6 +16382,7 @@
     {
       "id": 86,
       "dexId": 86,
+      "gameDexId": 86,
       "key": "Seel",
       "sourceKey": "seel",
       "name": "Seel",
@@ -16487,6 +16573,7 @@
     {
       "id": 87,
       "dexId": 87,
+      "gameDexId": 87,
       "key": "Dewgong",
       "sourceKey": "dewgong",
       "name": "Dewgong",
@@ -16695,6 +16782,7 @@
     {
       "id": 88,
       "dexId": 88,
+      "gameDexId": 88,
       "key": "Grimer",
       "sourceKey": "grimer",
       "name": "Grimer",
@@ -16879,6 +16967,7 @@
     {
       "id": 89,
       "dexId": 89,
+      "gameDexId": 89,
       "key": "Muk",
       "sourceKey": "muk",
       "name": "Muk",
@@ -17073,6 +17162,7 @@
     {
       "id": 90,
       "dexId": 90,
+      "gameDexId": 90,
       "key": "Shellder",
       "sourceKey": "shellder",
       "name": "Shellder",
@@ -17253,6 +17343,7 @@
     {
       "id": 91,
       "dexId": 91,
+      "gameDexId": 91,
       "key": "Cloyster",
       "sourceKey": "cloyster",
       "name": "Cloyster",
@@ -17443,6 +17534,7 @@
     {
       "id": 92,
       "dexId": 92,
+      "gameDexId": 92,
       "key": "Gastly",
       "sourceKey": "gastly",
       "name": "Gastly",
@@ -17633,6 +17725,7 @@
     {
       "id": 93,
       "dexId": 93,
+      "gameDexId": 93,
       "key": "Haunter",
       "sourceKey": "haunter",
       "name": "Haunter",
@@ -17846,6 +17939,7 @@
     {
       "id": 94,
       "dexId": 94,
+      "gameDexId": 94,
       "key": "Gengar",
       "sourceKey": "gengar",
       "name": "Gengar",
@@ -18062,6 +18156,7 @@
     {
       "id": 95,
       "dexId": 95,
+      "gameDexId": 95,
       "key": "Onix",
       "sourceKey": "onix",
       "name": "Onix",
@@ -18275,6 +18370,7 @@
     {
       "id": 96,
       "dexId": 96,
+      "gameDexId": 96,
       "key": "Drowzee",
       "sourceKey": "drowzee",
       "name": "Drowzee",
@@ -18464,6 +18560,7 @@
     {
       "id": 97,
       "dexId": 97,
+      "gameDexId": 97,
       "key": "Hypno",
       "sourceKey": "hypno",
       "name": "Hypno",
@@ -18663,6 +18760,7 @@
     {
       "id": 98,
       "dexId": 98,
+      "gameDexId": 98,
       "key": "Krabby",
       "sourceKey": "krabby",
       "name": "Krabby",
@@ -18845,6 +18943,7 @@
     {
       "id": 99,
       "dexId": 99,
+      "gameDexId": 99,
       "key": "Kingler",
       "sourceKey": "kingler",
       "name": "Kingler",
@@ -19039,6 +19138,7 @@
     {
       "id": 100,
       "dexId": 100,
+      "gameDexId": 100,
       "key": "Voltorb",
       "sourceKey": "voltorb",
       "name": "Voltorb",
@@ -19215,6 +19315,7 @@
     {
       "id": 101,
       "dexId": 101,
+      "gameDexId": 101,
       "key": "Electrode",
       "sourceKey": "electrode",
       "name": "Electrode",
@@ -19403,6 +19504,7 @@
     {
       "id": 102,
       "dexId": 102,
+      "gameDexId": 102,
       "key": "Exeggcute",
       "sourceKey": "exeggcute",
       "name": "Exeggcute",
@@ -19592,6 +19694,7 @@
     {
       "id": 103,
       "dexId": 103,
+      "gameDexId": 103,
       "key": "Exeggutor",
       "sourceKey": "exeggutor",
       "name": "Exeggutor",
@@ -19811,6 +19914,7 @@
     {
       "id": 104,
       "dexId": 104,
+      "gameDexId": 104,
       "key": "Cubone",
       "sourceKey": "cubone",
       "name": "Cubone",
@@ -20005,6 +20109,7 @@
     {
       "id": 105,
       "dexId": 105,
+      "gameDexId": 105,
       "key": "Marowak",
       "sourceKey": "marowak",
       "name": "Marowak",
@@ -20214,6 +20319,7 @@
     {
       "id": 106,
       "dexId": 106,
+      "gameDexId": 106,
       "key": "Hitmonlee",
       "sourceKey": "hitmonlee",
       "name": "Hitmonlee",
@@ -20421,6 +20527,7 @@
     {
       "id": 107,
       "dexId": 107,
+      "gameDexId": 107,
       "key": "Hitmonchan",
       "sourceKey": "hitmonchan",
       "name": "Hitmonchan",
@@ -20632,6 +20739,7 @@
     {
       "id": 108,
       "dexId": 108,
+      "gameDexId": 108,
       "key": "Lickitung",
       "sourceKey": "lickitung",
       "name": "Lickitung",
@@ -20848,6 +20956,7 @@
     {
       "id": 109,
       "dexId": 109,
+      "gameDexId": 109,
       "key": "Koffing",
       "sourceKey": "koffing",
       "name": "Koffing",
@@ -21023,6 +21132,7 @@
     {
       "id": 110,
       "dexId": 110,
+      "gameDexId": 110,
       "key": "Weezing",
       "sourceKey": "weezing",
       "name": "Weezing",
@@ -21212,6 +21322,7 @@
     {
       "id": 111,
       "dexId": 111,
+      "gameDexId": 111,
       "key": "Rhyhorn",
       "sourceKey": "rhyhorn",
       "name": "Rhyhorn",
@@ -21418,6 +21529,7 @@
     {
       "id": 112,
       "dexId": 112,
+      "gameDexId": 112,
       "key": "Rhydon",
       "sourceKey": "rhydon",
       "name": "Rhydon",
@@ -21662,6 +21774,7 @@
     {
       "id": 113,
       "dexId": 113,
+      "gameDexId": 113,
       "key": "Chansey",
       "sourceKey": "chansey",
       "name": "Chansey",
@@ -21889,6 +22002,7 @@
     {
       "id": 114,
       "dexId": 114,
+      "gameDexId": 114,
       "key": "Tangela",
       "sourceKey": "tangela",
       "name": "Tangela",
@@ -22089,6 +22203,7 @@
     {
       "id": 115,
       "dexId": 115,
+      "gameDexId": 115,
       "key": "Kangaskhan",
       "sourceKey": "kangaskhan",
       "name": "Kangaskhan",
@@ -22295,6 +22410,7 @@
     {
       "id": 116,
       "dexId": 116,
+      "gameDexId": 116,
       "key": "Horsea",
       "sourceKey": "horsea",
       "name": "Horsea",
@@ -22466,6 +22582,7 @@
     {
       "id": 117,
       "dexId": 117,
+      "gameDexId": 117,
       "key": "Seadra",
       "sourceKey": "seadra",
       "name": "Seadra",
@@ -22662,6 +22779,7 @@
     {
       "id": 118,
       "dexId": 118,
+      "gameDexId": 118,
       "key": "Goldeen",
       "sourceKey": "goldeen",
       "name": "Goldeen",
@@ -22832,6 +22950,7 @@
     {
       "id": 119,
       "dexId": 119,
+      "gameDexId": 119,
       "key": "Seaking",
       "sourceKey": "seaking",
       "name": "Seaking",
@@ -23014,6 +23133,7 @@
     {
       "id": 120,
       "dexId": 120,
+      "gameDexId": 120,
       "key": "Staryu",
       "sourceKey": "staryu",
       "name": "Staryu",
@@ -23207,6 +23327,7 @@
     {
       "id": 121,
       "dexId": 121,
+      "gameDexId": 121,
       "key": "Starmie",
       "sourceKey": "starmie",
       "name": "Starmie",
@@ -23405,6 +23526,7 @@
     {
       "id": 122,
       "dexId": 122,
+      "gameDexId": 122,
       "key": "Mr.-Mime",
       "sourceKey": "mr-mime",
       "name": "Mr. Mime",
@@ -23640,6 +23762,7 @@
     {
       "id": 123,
       "dexId": 123,
+      "gameDexId": 123,
       "key": "Scyther",
       "sourceKey": "scyther",
       "name": "Scyther",
@@ -23834,6 +23957,7 @@
     {
       "id": 124,
       "dexId": 124,
+      "gameDexId": 124,
       "key": "Jynx",
       "sourceKey": "jynx",
       "name": "Jynx",
@@ -24045,6 +24169,7 @@
     {
       "id": 125,
       "dexId": 125,
+      "gameDexId": 125,
       "key": "Electabuzz",
       "sourceKey": "electabuzz",
       "name": "Electabuzz",
@@ -24258,6 +24383,7 @@
     {
       "id": 126,
       "dexId": 126,
+      "gameDexId": 126,
       "key": "Magmar",
       "sourceKey": "magmar",
       "name": "Magmar",
@@ -24457,6 +24583,7 @@
     {
       "id": 127,
       "dexId": 127,
+      "gameDexId": 127,
       "key": "Pinsir",
       "sourceKey": "pinsir",
       "name": "Pinsir",
@@ -24653,6 +24780,7 @@
     {
       "id": 128,
       "dexId": 128,
+      "gameDexId": 128,
       "key": "Tauros",
       "sourceKey": "tauros",
       "name": "Tauros",
@@ -24852,6 +24980,7 @@
     {
       "id": 129,
       "dexId": 129,
+      "gameDexId": 129,
       "key": "Magikarp",
       "sourceKey": "magikarp",
       "name": "Magikarp",
@@ -24959,6 +25088,7 @@
     {
       "id": 130,
       "dexId": 130,
+      "gameDexId": 130,
       "key": "Gyarados",
       "sourceKey": "gyarados",
       "name": "Gyarados",
@@ -25182,6 +25312,7 @@
     {
       "id": 131,
       "dexId": 131,
+      "gameDexId": 131,
       "key": "Lapras",
       "sourceKey": "lapras",
       "name": "Lapras",
@@ -25409,6 +25540,7 @@
     {
       "id": 132,
       "dexId": 132,
+      "gameDexId": 132,
       "key": "Ditto",
       "sourceKey": "ditto",
       "name": "Ditto",
@@ -25471,6 +25603,7 @@
     {
       "id": 133,
       "dexId": 133,
+      "gameDexId": 133,
       "key": "Eevee",
       "sourceKey": "eevee",
       "name": "Eevee",
@@ -25662,6 +25795,7 @@
     {
       "id": 134,
       "dexId": 134,
+      "gameDexId": 134,
       "key": "Vaporeon",
       "sourceKey": "vaporeon",
       "name": "Vaporeon",
@@ -25869,6 +26003,7 @@
     {
       "id": 135,
       "dexId": 135,
+      "gameDexId": 135,
       "key": "Jolteon",
       "sourceKey": "jolteon",
       "name": "Jolteon",
@@ -26070,6 +26205,7 @@
     {
       "id": 136,
       "dexId": 136,
+      "gameDexId": 136,
       "key": "Flareon",
       "sourceKey": "flareon",
       "name": "Flareon",
@@ -26268,6 +26404,7 @@
     {
       "id": 137,
       "dexId": 137,
+      "gameDexId": 137,
       "key": "Porygon",
       "sourceKey": "porygon",
       "name": "Porygon",
@@ -26466,6 +26603,7 @@
     {
       "id": 138,
       "dexId": 138,
+      "gameDexId": 138,
       "key": "Omanyte",
       "sourceKey": "omanyte",
       "name": "Omanyte",
@@ -26673,6 +26811,7 @@
     {
       "id": 139,
       "dexId": 139,
+      "gameDexId": 139,
       "key": "Omastar",
       "sourceKey": "omastar",
       "name": "Omastar",
@@ -26880,6 +27019,7 @@
     {
       "id": 140,
       "dexId": 140,
+      "gameDexId": 140,
       "key": "Kabuto",
       "sourceKey": "kabuto",
       "name": "Kabuto",
@@ -27077,6 +27217,7 @@
     {
       "id": 141,
       "dexId": 141,
+      "gameDexId": 141,
       "key": "Kabutops",
       "sourceKey": "kabutops",
       "name": "Kabutops",
@@ -27277,6 +27418,7 @@
     {
       "id": 142,
       "dexId": 142,
+      "gameDexId": 142,
       "key": "Aerodactyl",
       "sourceKey": "aerodactyl",
       "name": "Aerodactyl",
@@ -27488,6 +27630,7 @@
     {
       "id": 143,
       "dexId": 143,
+      "gameDexId": 143,
       "key": "Snorlax",
       "sourceKey": "snorlax",
       "name": "Snorlax",
@@ -27736,6 +27879,7 @@
     {
       "id": 144,
       "dexId": 144,
+      "gameDexId": 144,
       "key": "Articuno",
       "sourceKey": "articuno",
       "name": "Articuno",
@@ -27926,6 +28070,7 @@
     {
       "id": 145,
       "dexId": 145,
+      "gameDexId": 145,
       "key": "Zapdos",
       "sourceKey": "zapdos",
       "name": "Zapdos",
@@ -28115,6 +28260,7 @@
     {
       "id": 146,
       "dexId": 146,
+      "gameDexId": 146,
       "key": "Moltres",
       "sourceKey": "moltres",
       "name": "Moltres",
@@ -28303,6 +28449,7 @@
     {
       "id": 147,
       "dexId": 147,
+      "gameDexId": 147,
       "key": "Dratini",
       "sourceKey": "dratini",
       "name": "Dratini",
@@ -28492,6 +28639,7 @@
     {
       "id": 148,
       "dexId": 148,
+      "gameDexId": 148,
       "key": "Dragonair",
       "sourceKey": "dragonair",
       "name": "Dragonair",
@@ -28693,6 +28841,7 @@
     {
       "id": 149,
       "dexId": 149,
+      "gameDexId": 149,
       "key": "Dragonite",
       "sourceKey": "dragonite",
       "name": "Dragonite",
@@ -28941,6 +29090,7 @@
     {
       "id": 150,
       "dexId": 150,
+      "gameDexId": 150,
       "key": "Mewtwo",
       "sourceKey": "mewtwo",
       "name": "Mewtwo",
@@ -29149,6 +29299,7 @@
     {
       "id": 151,
       "dexId": 151,
+      "gameDexId": 151,
       "key": "Mew",
       "sourceKey": "mew",
       "name": "Mew",
@@ -29404,6 +29555,7 @@
     {
       "id": 152,
       "dexId": 152,
+      "gameDexId": 152,
       "key": "Chikorita",
       "sourceKey": "chikorita",
       "name": "Chikorita",
@@ -29586,6 +29738,7 @@
     {
       "id": 153,
       "dexId": 153,
+      "gameDexId": 153,
       "key": "Bayleef",
       "sourceKey": "bayleef",
       "name": "Bayleef",
@@ -29775,6 +29928,7 @@
     {
       "id": 154,
       "dexId": 154,
+      "gameDexId": 154,
       "key": "Meganium",
       "sourceKey": "meganium",
       "name": "Meganium",
@@ -29987,6 +30141,7 @@
     {
       "id": 155,
       "dexId": 155,
+      "gameDexId": 155,
       "key": "Cyndaquil",
       "sourceKey": "cyndaquil",
       "name": "Cyndaquil",
@@ -30168,6 +30323,7 @@
     {
       "id": 156,
       "dexId": 156,
+      "gameDexId": 156,
       "key": "Quilava",
       "sourceKey": "quilava",
       "name": "Quilava",
@@ -30357,6 +30513,7 @@
     {
       "id": 157,
       "dexId": 157,
+      "gameDexId": 157,
       "key": "Typhlosion",
       "sourceKey": "typhlosion",
       "name": "Typhlosion",
@@ -30577,6 +30734,7 @@
     {
       "id": 158,
       "dexId": 158,
+      "gameDexId": 158,
       "key": "Totodile",
       "sourceKey": "totodile",
       "name": "Totodile",
@@ -30771,6 +30929,7 @@
     {
       "id": 159,
       "dexId": 159,
+      "gameDexId": 159,
       "key": "Croconaw",
       "sourceKey": "croconaw",
       "name": "Croconaw",
@@ -30972,6 +31131,7 @@
     {
       "id": 160,
       "dexId": 160,
+      "gameDexId": 160,
       "key": "Feraligatr",
       "sourceKey": "feraligatr",
       "name": "Feraligatr",
@@ -31185,6 +31345,7 @@
     {
       "id": 161,
       "dexId": 161,
+      "gameDexId": 161,
       "key": "Sentret",
       "sourceKey": "sentret",
       "name": "Sentret",
@@ -31387,6 +31548,7 @@
     {
       "id": 162,
       "dexId": 162,
+      "gameDexId": 162,
       "key": "Furret",
       "sourceKey": "furret",
       "name": "Furret",
@@ -31609,6 +31771,7 @@
     {
       "id": 163,
       "dexId": 163,
+      "gameDexId": 163,
       "key": "Hoothoot",
       "sourceKey": "hoothoot",
       "name": "Hoothoot",
@@ -31798,6 +31961,7 @@
     {
       "id": 164,
       "dexId": 164,
+      "gameDexId": 164,
       "key": "Noctowl",
       "sourceKey": "noctowl",
       "name": "Noctowl",
@@ -32004,6 +32168,7 @@
     {
       "id": 165,
       "dexId": 165,
+      "gameDexId": 165,
       "key": "Ledyba",
       "sourceKey": "ledyba",
       "name": "Ledyba",
@@ -32198,6 +32363,7 @@
     {
       "id": 166,
       "dexId": 166,
+      "gameDexId": 166,
       "key": "Ledian",
       "sourceKey": "ledian",
       "name": "Ledian",
@@ -32420,6 +32586,7 @@
     {
       "id": 167,
       "dexId": 167,
+      "gameDexId": 167,
       "key": "Spinarak",
       "sourceKey": "spinarak",
       "name": "Spinarak",
@@ -32600,6 +32767,7 @@
     {
       "id": 168,
       "dexId": 168,
+      "gameDexId": 168,
       "key": "Ariados",
       "sourceKey": "ariados",
       "name": "Ariados",
@@ -32805,6 +32973,7 @@
     {
       "id": 169,
       "dexId": 169,
+      "gameDexId": 169,
       "key": "Crobat",
       "sourceKey": "crobat",
       "name": "Crobat",
@@ -33002,6 +33171,7 @@
     {
       "id": 170,
       "dexId": 170,
+      "gameDexId": 170,
       "key": "Chinchou",
       "sourceKey": "chinchou",
       "name": "Chinchou",
@@ -33187,6 +33357,7 @@
     {
       "id": 171,
       "dexId": 171,
+      "gameDexId": 171,
       "key": "Lanturn",
       "sourceKey": "lanturn",
       "name": "Lanturn",
@@ -33385,6 +33556,7 @@
     {
       "id": 172,
       "dexId": 172,
+      "gameDexId": 172,
       "key": "Pichu",
       "sourceKey": "pichu",
       "name": "Pichu",
@@ -33536,6 +33708,7 @@
     {
       "id": 173,
       "dexId": 173,
+      "gameDexId": 173,
       "key": "Cleffa",
       "sourceKey": "cleffa",
       "name": "Cleffa",
@@ -33697,6 +33870,7 @@
     {
       "id": 174,
       "dexId": 174,
+      "gameDexId": 174,
       "key": "Igglybuff",
       "sourceKey": "igglybuff",
       "name": "Igglybuff",
@@ -33856,6 +34030,7 @@
     {
       "id": 175,
       "dexId": 175,
+      "gameDexId": 175,
       "key": "Togepi",
       "sourceKey": "togepi",
       "name": "Togepi",
@@ -34053,6 +34228,7 @@
     {
       "id": 176,
       "dexId": 176,
+      "gameDexId": 176,
       "key": "Togetic",
       "sourceKey": "togetic",
       "name": "Togetic",
@@ -34271,6 +34447,7 @@
     {
       "id": 177,
       "dexId": 177,
+      "gameDexId": 177,
       "key": "Natu",
       "sourceKey": "natu",
       "name": "Natu",
@@ -34465,6 +34642,7 @@
     {
       "id": 178,
       "dexId": 178,
+      "gameDexId": 178,
       "key": "Xatu",
       "sourceKey": "xatu",
       "name": "Xatu",
@@ -34671,6 +34849,7 @@
     {
       "id": 179,
       "dexId": 179,
+      "gameDexId": 179,
       "key": "Mareep",
       "sourceKey": "mareep",
       "name": "Mareep",
@@ -34851,6 +35030,7 @@
     {
       "id": 180,
       "dexId": 180,
+      "gameDexId": 180,
       "key": "Flaaffy",
       "sourceKey": "flaaffy",
       "name": "Flaaffy",
@@ -35051,6 +35231,7 @@
     {
       "id": 181,
       "dexId": 181,
+      "gameDexId": 181,
       "key": "Ampharos",
       "sourceKey": "ampharos",
       "name": "Ampharos",
@@ -35257,6 +35438,7 @@
     {
       "id": 182,
       "dexId": 182,
+      "gameDexId": 182,
       "key": "Bellossom",
       "sourceKey": "bellossom",
       "name": "Bellossom",
@@ -35445,6 +35627,7 @@
     {
       "id": 183,
       "dexId": 183,
+      "gameDexId": 183,
       "key": "Marill",
       "sourceKey": "marill",
       "name": "Marill",
@@ -35632,6 +35815,7 @@
     {
       "id": 184,
       "dexId": 184,
+      "gameDexId": 184,
       "key": "Azumarill",
       "sourceKey": "azumarill",
       "name": "Azumarill",
@@ -35828,6 +36012,7 @@
     {
       "id": 185,
       "dexId": 185,
+      "gameDexId": 185,
       "key": "Sudowoodo",
       "sourceKey": "sudowoodo",
       "name": "Sudowoodo",
@@ -36013,6 +36198,7 @@
     {
       "id": 186,
       "dexId": 186,
+      "gameDexId": 186,
       "key": "Politoed",
       "sourceKey": "politoed",
       "name": "Politoed",
@@ -36219,6 +36405,7 @@
     {
       "id": 187,
       "dexId": 187,
+      "gameDexId": 187,
       "key": "Hoppip",
       "sourceKey": "hoppip",
       "name": "Hoppip",
@@ -36414,6 +36601,7 @@
     {
       "id": 188,
       "dexId": 188,
+      "gameDexId": 188,
       "key": "Skiploom",
       "sourceKey": "skiploom",
       "name": "Skiploom",
@@ -36617,6 +36805,7 @@
     {
       "id": 189,
       "dexId": 189,
+      "gameDexId": 189,
       "key": "Jumpluff",
       "sourceKey": "jumpluff",
       "name": "Jumpluff",
@@ -36832,6 +37021,7 @@
     {
       "id": 190,
       "dexId": 190,
+      "gameDexId": 190,
       "key": "Aipom",
       "sourceKey": "aipom",
       "name": "Aipom",
@@ -37042,6 +37232,7 @@
     {
       "id": 191,
       "dexId": 191,
+      "gameDexId": 191,
       "key": "Sunkern",
       "sourceKey": "sunkern",
       "name": "Sunkern",
@@ -37234,6 +37425,7 @@
     {
       "id": 192,
       "dexId": 192,
+      "gameDexId": 192,
       "key": "Sunflora",
       "sourceKey": "sunflora",
       "name": "Sunflora",
@@ -37434,6 +37626,7 @@
     {
       "id": 193,
       "dexId": 193,
+      "gameDexId": 193,
       "key": "Yanma",
       "sourceKey": "yanma",
       "name": "Yanma",
@@ -37629,6 +37822,7 @@
     {
       "id": 194,
       "dexId": 194,
+      "gameDexId": 194,
       "key": "Wooper",
       "sourceKey": "wooper",
       "name": "Wooper",
@@ -37824,6 +38018,7 @@
     {
       "id": 195,
       "dexId": 195,
+      "gameDexId": 195,
       "key": "Quagsire",
       "sourceKey": "quagsire",
       "name": "Quagsire",
@@ -38033,6 +38228,7 @@
     {
       "id": 196,
       "dexId": 196,
+      "gameDexId": 196,
       "key": "Espeon",
       "sourceKey": "espeon",
       "name": "Espeon",
@@ -38229,6 +38425,7 @@
     {
       "id": 197,
       "dexId": 197,
+      "gameDexId": 197,
       "key": "Umbreon",
       "sourceKey": "umbreon",
       "name": "Umbreon",
@@ -38426,6 +38623,7 @@
     {
       "id": 198,
       "dexId": 198,
+      "gameDexId": 198,
       "key": "Murkrow",
       "sourceKey": "murkrow",
       "name": "Murkrow",
@@ -38629,6 +38827,7 @@
     {
       "id": 199,
       "dexId": 199,
+      "gameDexId": 199,
       "key": "Slowking",
       "sourceKey": "slowking",
       "name": "Slowking",
@@ -38851,6 +39050,7 @@
     {
       "id": 200,
       "dexId": 200,
+      "gameDexId": 200,
       "key": "Misdreavus",
       "sourceKey": "misdreavus",
       "name": "Misdreavus",
@@ -39059,6 +39259,7 @@
     {
       "id": 201,
       "dexId": 201,
+      "gameDexId": 201,
       "key": "Unown",
       "sourceKey": "unown",
       "name": "Unown",
@@ -39114,6 +39315,7 @@
     {
       "id": 202,
       "dexId": 202,
+      "gameDexId": 202,
       "key": "Wobbuffet",
       "sourceKey": "wobbuffet",
       "name": "Wobbuffet",
@@ -39235,6 +39437,7 @@
     {
       "id": 203,
       "dexId": 203,
+      "gameDexId": 203,
       "key": "Girafarig",
       "sourceKey": "girafarig",
       "name": "Girafarig",
@@ -39454,6 +39657,7 @@
     {
       "id": 204,
       "dexId": 204,
+      "gameDexId": 204,
       "key": "Pineco",
       "sourceKey": "pineco",
       "name": "Pineco",
@@ -39629,6 +39833,7 @@
     {
       "id": 205,
       "dexId": 205,
+      "gameDexId": 205,
       "key": "Forretress",
       "sourceKey": "forretress",
       "name": "Forretress",
@@ -39826,6 +40031,7 @@
     {
       "id": 206,
       "dexId": 206,
+      "gameDexId": 206,
       "key": "Dunsparce",
       "sourceKey": "dunsparce",
       "name": "Dunsparce",
@@ -40016,6 +40222,7 @@
     {
       "id": 207,
       "dexId": 207,
+      "gameDexId": 207,
       "key": "Gligar",
       "sourceKey": "gligar",
       "name": "Gligar",
@@ -40232,6 +40439,7 @@
     {
       "id": 208,
       "dexId": 208,
+      "gameDexId": 208,
       "key": "Steelix",
       "sourceKey": "steelix",
       "name": "Steelix",
@@ -40454,6 +40662,7 @@
     {
       "id": 209,
       "dexId": 209,
+      "gameDexId": 209,
       "key": "Snubbull",
       "sourceKey": "snubbull",
       "name": "Snubbull",
@@ -40669,6 +40878,7 @@
     {
       "id": 210,
       "dexId": 210,
+      "gameDexId": 210,
       "key": "Granbull",
       "sourceKey": "granbull",
       "name": "Granbull",
@@ -40896,6 +41106,7 @@
     {
       "id": 211,
       "dexId": 211,
+      "gameDexId": 211,
       "key": "Qwilfish",
       "sourceKey": "qwilfish",
       "name": "Qwilfish",
@@ -41086,6 +41297,7 @@
     {
       "id": 212,
       "dexId": 212,
+      "gameDexId": 212,
       "key": "Scizor",
       "sourceKey": "scizor",
       "name": "Scizor",
@@ -41282,6 +41494,7 @@
     {
       "id": 213,
       "dexId": 213,
+      "gameDexId": 213,
       "key": "Shuckle",
       "sourceKey": "shuckle",
       "name": "Shuckle",
@@ -41464,6 +41677,7 @@
     {
       "id": 214,
       "dexId": 214,
+      "gameDexId": 214,
       "key": "Heracross",
       "sourceKey": "heracross",
       "name": "Heracross",
@@ -41656,6 +41870,7 @@
     {
       "id": 215,
       "dexId": 215,
+      "gameDexId": 215,
       "key": "Sneasel",
       "sourceKey": "sneasel",
       "name": "Sneasel",
@@ -41868,6 +42083,7 @@
     {
       "id": 216,
       "dexId": 216,
+      "gameDexId": 216,
       "key": "Teddiursa",
       "sourceKey": "teddiursa",
       "name": "Teddiursa",
@@ -42081,6 +42297,7 @@
     {
       "id": 217,
       "dexId": 217,
+      "gameDexId": 217,
       "key": "Ursaring",
       "sourceKey": "ursaring",
       "name": "Ursaring",
@@ -42324,6 +42541,7 @@
     {
       "id": 218,
       "dexId": 218,
+      "gameDexId": 218,
       "key": "Slugma",
       "sourceKey": "slugma",
       "name": "Slugma",
@@ -42498,6 +42716,7 @@
     {
       "id": 219,
       "dexId": 219,
+      "gameDexId": 219,
       "key": "Magcargo",
       "sourceKey": "magcargo",
       "name": "Magcargo",
@@ -42688,6 +42907,7 @@
     {
       "id": 220,
       "dexId": 220,
+      "gameDexId": 220,
       "key": "Swinub",
       "sourceKey": "swinub",
       "name": "Swinub",
@@ -42871,6 +43091,7 @@
     {
       "id": 221,
       "dexId": 221,
+      "gameDexId": 221,
       "key": "Piloswine",
       "sourceKey": "piloswine",
       "name": "Piloswine",
@@ -43086,6 +43307,7 @@
     {
       "id": 222,
       "dexId": 222,
+      "gameDexId": 222,
       "key": "Corsola",
       "sourceKey": "corsola",
       "name": "Corsola",
@@ -43277,6 +43499,7 @@
     {
       "id": 223,
       "dexId": 223,
+      "gameDexId": 223,
       "key": "Remoraid",
       "sourceKey": "remoraid",
       "name": "Remoraid",
@@ -43436,6 +43659,7 @@
     {
       "id": 224,
       "dexId": 224,
+      "gameDexId": 224,
       "key": "Octillery",
       "sourceKey": "octillery",
       "name": "Octillery",
@@ -43613,6 +43837,7 @@
     {
       "id": 225,
       "dexId": 225,
+      "gameDexId": 225,
       "key": "Delibird",
       "sourceKey": "delibird",
       "name": "Delibird",
@@ -43801,6 +44026,7 @@
     {
       "id": 226,
       "dexId": 226,
+      "gameDexId": 226,
       "key": "Mantine",
       "sourceKey": "mantine",
       "name": "Mantine",
@@ -44014,6 +44240,7 @@
     {
       "id": 227,
       "dexId": 227,
+      "gameDexId": 227,
       "key": "Skarmory",
       "sourceKey": "skarmory",
       "name": "Skarmory",
@@ -44207,6 +44434,7 @@
     {
       "id": 228,
       "dexId": 228,
+      "gameDexId": 228,
       "key": "Houndour",
       "sourceKey": "houndour",
       "name": "Houndour",
@@ -44414,6 +44642,7 @@
     {
       "id": 229,
       "dexId": 229,
+      "gameDexId": 229,
       "key": "Houndoom",
       "sourceKey": "houndoom",
       "name": "Houndoom",
@@ -44629,6 +44858,7 @@
     {
       "id": 230,
       "dexId": 230,
+      "gameDexId": 230,
       "key": "Kingdra",
       "sourceKey": "kingdra",
       "name": "Kingdra",
@@ -44823,6 +45053,7 @@
     {
       "id": 231,
       "dexId": 231,
+      "gameDexId": 231,
       "key": "Phanpy",
       "sourceKey": "phanpy",
       "name": "Phanpy",
@@ -45008,6 +45239,7 @@
     {
       "id": 232,
       "dexId": 232,
+      "gameDexId": 232,
       "key": "Donphan",
       "sourceKey": "donphan",
       "name": "Donphan",
@@ -45219,6 +45451,7 @@
     {
       "id": 233,
       "dexId": 233,
+      "gameDexId": 233,
       "key": "Porygon2",
       "sourceKey": "porygon2",
       "name": "Porygon2",
@@ -45425,6 +45658,7 @@
     {
       "id": 234,
       "dexId": 234,
+      "gameDexId": 234,
       "key": "Stantler",
       "sourceKey": "stantler",
       "name": "Stantler",
@@ -45635,6 +45869,7 @@
     {
       "id": 235,
       "dexId": 235,
+      "gameDexId": 235,
       "key": "Smeargle",
       "sourceKey": "smeargle",
       "name": "Smeargle",
@@ -45753,6 +45988,7 @@
     {
       "id": 236,
       "dexId": 236,
+      "gameDexId": 236,
       "key": "Tyrogue",
       "sourceKey": "tyrogue",
       "name": "Tyrogue",
@@ -45899,6 +46135,7 @@
     {
       "id": 237,
       "dexId": 237,
+      "gameDexId": 237,
       "key": "Hitmontop",
       "sourceKey": "hitmontop",
       "name": "Hitmontop",
@@ -46097,6 +46334,7 @@
     {
       "id": 238,
       "dexId": 238,
+      "gameDexId": 238,
       "key": "Smoochum",
       "sourceKey": "smoochum",
       "name": "Smoochum",
@@ -46282,6 +46520,7 @@
     {
       "id": 239,
       "dexId": 239,
+      "gameDexId": 239,
       "key": "Elekid",
       "sourceKey": "elekid",
       "name": "Elekid",
@@ -46472,6 +46711,7 @@
     {
       "id": 240,
       "dexId": 240,
+      "gameDexId": 240,
       "key": "Magby",
       "sourceKey": "magby",
       "name": "Magby",
@@ -46646,6 +46886,7 @@
     {
       "id": 241,
       "dexId": 241,
+      "gameDexId": 241,
       "key": "Miltank",
       "sourceKey": "miltank",
       "name": "Miltank",
@@ -46849,6 +47090,7 @@
     {
       "id": 242,
       "dexId": 242,
+      "gameDexId": 242,
       "key": "Blissey",
       "sourceKey": "blissey",
       "name": "Blissey",
@@ -47076,6 +47318,7 @@
     {
       "id": 243,
       "dexId": 243,
+      "gameDexId": 243,
       "key": "Raikou",
       "sourceKey": "raikou",
       "name": "Raikou",
@@ -47278,6 +47521,7 @@
     {
       "id": 244,
       "dexId": 244,
+      "gameDexId": 244,
       "key": "Entei",
       "sourceKey": "entei",
       "name": "Entei",
@@ -47478,6 +47722,7 @@
     {
       "id": 245,
       "dexId": 245,
+      "gameDexId": 245,
       "key": "Suicune",
       "sourceKey": "suicune",
       "name": "Suicune",
@@ -47685,6 +47930,7 @@
     {
       "id": 246,
       "dexId": 246,
+      "gameDexId": 246,
       "key": "Larvitar",
       "sourceKey": "larvitar",
       "name": "Larvitar",
@@ -47868,6 +48114,7 @@
     {
       "id": 247,
       "dexId": 247,
+      "gameDexId": 247,
       "key": "Pupitar",
       "sourceKey": "pupitar",
       "name": "Pupitar",
@@ -48063,6 +48310,7 @@
     {
       "id": 248,
       "dexId": 248,
+      "gameDexId": 248,
       "key": "Tyranitar",
       "sourceKey": "tyranitar",
       "name": "Tyranitar",
@@ -48314,6 +48562,7 @@
     {
       "id": 249,
       "dexId": 249,
+      "gameDexId": 249,
       "key": "Lugia",
       "sourceKey": "lugia",
       "name": "Lugia",
@@ -48526,6 +48775,7 @@
     {
       "id": 250,
       "dexId": 250,
+      "gameDexId": 250,
       "key": "Ho-Oh",
       "sourceKey": "ho-oh",
       "name": "Ho-Oh",
@@ -48723,6 +48973,7 @@
     {
       "id": 251,
       "dexId": 251,
+      "gameDexId": 251,
       "key": "Celebi",
       "sourceKey": "celebi",
       "name": "Celebi",
@@ -48919,6 +49170,7 @@
     {
       "id": 252,
       "dexId": 252,
+      "gameDexId": 252,
       "key": "Treecko",
       "sourceKey": "treecko",
       "name": "Treecko",
@@ -49107,6 +49359,7 @@
     {
       "id": 253,
       "dexId": 253,
+      "gameDexId": 253,
       "key": "Grovyle",
       "sourceKey": "grovyle",
       "name": "Grovyle",
@@ -49308,6 +49561,7 @@
     {
       "id": 254,
       "dexId": 254,
+      "gameDexId": 254,
       "key": "Sceptile",
       "sourceKey": "sceptile",
       "name": "Sceptile",
@@ -49535,6 +49789,7 @@
     {
       "id": 255,
       "dexId": 255,
+      "gameDexId": 255,
       "key": "Torchic",
       "sourceKey": "torchic",
       "name": "Torchic",
@@ -49714,6 +49969,7 @@
     {
       "id": 256,
       "dexId": 256,
+      "gameDexId": 256,
       "key": "Combusken",
       "sourceKey": "combusken",
       "name": "Combusken",
@@ -49906,6 +50162,7 @@
     {
       "id": 257,
       "dexId": 257,
+      "gameDexId": 257,
       "key": "Blaziken",
       "sourceKey": "blaziken",
       "name": "Blaziken",
@@ -50125,6 +50382,7 @@
     {
       "id": 258,
       "dexId": 258,
+      "gameDexId": 258,
       "key": "Mudkip",
       "sourceKey": "mudkip",
       "name": "Mudkip",
@@ -50323,6 +50581,7 @@
     {
       "id": 259,
       "dexId": 259,
+      "gameDexId": 259,
       "key": "Marshtomp",
       "sourceKey": "marshtomp",
       "name": "Marshtomp",
@@ -50525,6 +50784,7 @@
     {
       "id": 260,
       "dexId": 260,
+      "gameDexId": 260,
       "key": "Swampert",
       "sourceKey": "swampert",
       "name": "Swampert",
@@ -50746,6 +51006,7 @@
     {
       "id": 261,
       "dexId": 261,
+      "gameDexId": 261,
       "key": "Poochyena",
       "sourceKey": "poochyena",
       "name": "Poochyena",
@@ -50949,6 +51210,7 @@
     {
       "id": 262,
       "dexId": 262,
+      "gameDexId": 262,
       "key": "Mightyena",
       "sourceKey": "mightyena",
       "name": "Mightyena",
@@ -51157,6 +51419,7 @@
     {
       "id": 263,
       "dexId": 263,
+      "gameDexId": 263,
       "key": "Zigzagoon",
       "sourceKey": "zigzagoon",
       "name": "Zigzagoon",
@@ -51350,6 +51613,7 @@
     {
       "id": 264,
       "dexId": 264,
+      "gameDexId": 264,
       "key": "Linoone",
       "sourceKey": "linoone",
       "name": "Linoone",
@@ -51571,6 +51835,7 @@
     {
       "id": 265,
       "dexId": 265,
+      "gameDexId": 265,
       "key": "Wurmple",
       "sourceKey": "wurmple",
       "name": "Wurmple",
@@ -51660,6 +51925,7 @@
     {
       "id": 266,
       "dexId": 266,
+      "gameDexId": 266,
       "key": "Silcoon",
       "sourceKey": "silcoon",
       "name": "Silcoon",
@@ -51755,6 +52021,7 @@
     {
       "id": 267,
       "dexId": 267,
+      "gameDexId": 267,
       "key": "Beautifly",
       "sourceKey": "beautifly",
       "name": "Beautifly",
@@ -51946,6 +52213,7 @@
     {
       "id": 268,
       "dexId": 268,
+      "gameDexId": 268,
       "key": "Cascoon",
       "sourceKey": "cascoon",
       "name": "Cascoon",
@@ -52041,6 +52309,7 @@
     {
       "id": 269,
       "dexId": 269,
+      "gameDexId": 269,
       "key": "Dustox",
       "sourceKey": "dustox",
       "name": "Dustox",
@@ -52227,6 +52496,7 @@
     {
       "id": 270,
       "dexId": 270,
+      "gameDexId": 270,
       "key": "Lotad",
       "sourceKey": "lotad",
       "name": "Lotad",
@@ -52403,6 +52673,7 @@
     {
       "id": 271,
       "dexId": 271,
+      "gameDexId": 271,
       "key": "Lombre",
       "sourceKey": "lombre",
       "name": "Lombre",
@@ -52610,6 +52881,7 @@
     {
       "id": 272,
       "dexId": 272,
+      "gameDexId": 272,
       "key": "Ludicolo",
       "sourceKey": "ludicolo",
       "name": "Ludicolo",
@@ -52815,6 +53087,7 @@
     {
       "id": 273,
       "dexId": 273,
+      "gameDexId": 273,
       "key": "Seedot",
       "sourceKey": "seedot",
       "name": "Seedot",
@@ -52996,6 +53269,7 @@
     {
       "id": 274,
       "dexId": 274,
+      "gameDexId": 274,
       "key": "Nuzleaf",
       "sourceKey": "nuzleaf",
       "name": "Nuzleaf",
@@ -53212,6 +53486,7 @@
     {
       "id": 275,
       "dexId": 275,
+      "gameDexId": 275,
       "key": "Shiftry",
       "sourceKey": "shiftry",
       "name": "Shiftry",
@@ -53432,6 +53707,7 @@
     {
       "id": 276,
       "dexId": 276,
+      "gameDexId": 276,
       "key": "Taillow",
       "sourceKey": "taillow",
       "name": "Taillow",
@@ -53600,6 +53876,7 @@
     {
       "id": 277,
       "dexId": 277,
+      "gameDexId": 277,
       "key": "Swellow",
       "sourceKey": "swellow",
       "name": "Swellow",
@@ -53780,6 +54057,7 @@
     {
       "id": 278,
       "dexId": 278,
+      "gameDexId": 278,
       "key": "Wingull",
       "sourceKey": "wingull",
       "name": "Wingull",
@@ -53955,6 +54233,7 @@
     {
       "id": 279,
       "dexId": 279,
+      "gameDexId": 279,
       "key": "Pelipper",
       "sourceKey": "pelipper",
       "name": "Pelipper",
@@ -54140,6 +54419,7 @@
     {
       "id": 280,
       "dexId": 280,
+      "gameDexId": 280,
       "key": "Ralts",
       "sourceKey": "ralts",
       "name": "Ralts",
@@ -54340,6 +54620,7 @@
     {
       "id": 281,
       "dexId": 281,
+      "gameDexId": 281,
       "key": "Kirlia",
       "sourceKey": "kirlia",
       "name": "Kirlia",
@@ -54548,6 +54829,7 @@
     {
       "id": 282,
       "dexId": 282,
+      "gameDexId": 282,
       "key": "Gardevoir",
       "sourceKey": "gardevoir",
       "name": "Gardevoir",
@@ -54770,6 +55052,7 @@
     {
       "id": 283,
       "dexId": 283,
+      "gameDexId": 283,
       "key": "Surskit",
       "sourceKey": "surskit",
       "name": "Surskit",
@@ -54953,6 +55236,7 @@
     {
       "id": 284,
       "dexId": 284,
+      "gameDexId": 284,
       "key": "Masquerain",
       "sourceKey": "masquerain",
       "name": "Masquerain",
@@ -55152,6 +55436,7 @@
     {
       "id": 285,
       "dexId": 285,
+      "gameDexId": 285,
       "key": "Shroomish",
       "sourceKey": "shroomish",
       "name": "Shroomish",
@@ -55320,6 +55605,7 @@
     {
       "id": 286,
       "dexId": 286,
+      "gameDexId": 286,
       "key": "Breloom",
       "sourceKey": "breloom",
       "name": "Breloom",
@@ -55533,6 +55819,7 @@
     {
       "id": 287,
       "dexId": 287,
+      "gameDexId": 287,
       "key": "Slakoth",
       "sourceKey": "slakoth",
       "name": "Slakoth",
@@ -55711,6 +55998,7 @@
     {
       "id": 288,
       "dexId": 288,
+      "gameDexId": 288,
       "key": "Vigoroth",
       "sourceKey": "vigoroth",
       "name": "Vigoroth",
@@ -55916,6 +56204,7 @@
     {
       "id": 289,
       "dexId": 289,
+      "gameDexId": 289,
       "key": "Slaking",
       "sourceKey": "slaking",
       "name": "Slaking",
@@ -56121,6 +56410,7 @@
     {
       "id": 290,
       "dexId": 290,
+      "gameDexId": 290,
       "key": "Nincada",
       "sourceKey": "nincada",
       "name": "Nincada",
@@ -56281,6 +56571,7 @@
     {
       "id": 291,
       "dexId": 291,
+      "gameDexId": 291,
       "key": "Ninjask",
       "sourceKey": "ninjask",
       "name": "Ninjask",
@@ -56483,6 +56774,7 @@
     {
       "id": 292,
       "dexId": 292,
+      "gameDexId": 292,
       "key": "Shedinja",
       "sourceKey": "shedinja",
       "name": "Shedinja",
@@ -56677,6 +56969,7 @@
     {
       "id": 293,
       "dexId": 293,
+      "gameDexId": 293,
       "key": "Whismur",
       "sourceKey": "whismur",
       "name": "Whismur",
@@ -56855,6 +57148,7 @@
     {
       "id": 294,
       "dexId": 294,
+      "gameDexId": 294,
       "key": "Loudred",
       "sourceKey": "loudred",
       "name": "Loudred",
@@ -57059,6 +57353,7 @@
     {
       "id": 295,
       "dexId": 295,
+      "gameDexId": 295,
       "key": "Exploud",
       "sourceKey": "exploud",
       "name": "Exploud",
@@ -57277,6 +57572,7 @@
     {
       "id": 296,
       "dexId": 296,
+      "gameDexId": 296,
       "key": "Makuhita",
       "sourceKey": "makuhita",
       "name": "Makuhita",
@@ -57476,6 +57772,7 @@
     {
       "id": 297,
       "dexId": 297,
+      "gameDexId": 297,
       "key": "Hariyama",
       "sourceKey": "hariyama",
       "name": "Hariyama",
@@ -57697,6 +57994,7 @@
     {
       "id": 298,
       "dexId": 298,
+      "gameDexId": 298,
       "key": "Azurill",
       "sourceKey": "azurill",
       "name": "Azurill",
@@ -57840,6 +58138,7 @@
     {
       "id": 299,
       "dexId": 299,
+      "gameDexId": 299,
       "key": "Nosepass",
       "sourceKey": "nosepass",
       "name": "Nosepass",
@@ -58031,6 +58330,7 @@
     {
       "id": 300,
       "dexId": 300,
+      "gameDexId": 300,
       "key": "Skitty",
       "sourceKey": "skitty",
       "name": "Skitty",
@@ -58246,6 +58546,7 @@
     {
       "id": 301,
       "dexId": 301,
+      "gameDexId": 301,
       "key": "Delcatty",
       "sourceKey": "delcatty",
       "name": "Delcatty",
@@ -58471,6 +58772,7 @@
     {
       "id": 302,
       "dexId": 302,
+      "gameDexId": 302,
       "key": "Sableye",
       "sourceKey": "sableye",
       "name": "Sableye",
@@ -58683,6 +58985,7 @@
     {
       "id": 303,
       "dexId": 303,
+      "gameDexId": 303,
       "key": "Mawile",
       "sourceKey": "mawile",
       "name": "Mawile",
@@ -58888,6 +59191,7 @@
     {
       "id": 304,
       "dexId": 304,
+      "gameDexId": 304,
       "key": "Aron",
       "sourceKey": "aron",
       "name": "Aron",
@@ -59069,6 +59373,7 @@
     {
       "id": 305,
       "dexId": 305,
+      "gameDexId": 305,
       "key": "Lairon",
       "sourceKey": "lairon",
       "name": "Lairon",
@@ -59265,6 +59570,7 @@
     {
       "id": 306,
       "dexId": 306,
+      "gameDexId": 306,
       "key": "Aggron",
       "sourceKey": "aggron",
       "name": "Aggron",
@@ -59491,6 +59797,7 @@
     {
       "id": 307,
       "dexId": 307,
+      "gameDexId": 307,
       "key": "Meditite",
       "sourceKey": "meditite",
       "name": "Meditite",
@@ -59681,6 +59988,7 @@
     {
       "id": 308,
       "dexId": 308,
+      "gameDexId": 308,
       "key": "Medicham",
       "sourceKey": "medicham",
       "name": "Medicham",
@@ -59883,6 +60191,7 @@
     {
       "id": 309,
       "dexId": 309,
+      "gameDexId": 309,
       "key": "Electrike",
       "sourceKey": "electrike",
       "name": "Electrike",
@@ -60062,6 +60371,7 @@
     {
       "id": 310,
       "dexId": 310,
+      "gameDexId": 310,
       "key": "Manectric",
       "sourceKey": "manectric",
       "name": "Manectric",
@@ -60262,6 +60572,7 @@
     {
       "id": 311,
       "dexId": 311,
+      "gameDexId": 311,
       "key": "Plusle",
       "sourceKey": "plusle",
       "name": "Plusle",
@@ -60468,6 +60779,7 @@
     {
       "id": 312,
       "dexId": 312,
+      "gameDexId": 312,
       "key": "Minun",
       "sourceKey": "minun",
       "name": "Minun",
@@ -60673,6 +60985,7 @@
     {
       "id": 313,
       "dexId": 313,
+      "gameDexId": 313,
       "key": "Volbeat",
       "sourceKey": "volbeat",
       "name": "Volbeat",
@@ -60858,6 +61171,7 @@
     {
       "id": 314,
       "dexId": 314,
+      "gameDexId": 314,
       "key": "Illumise",
       "sourceKey": "illumise",
       "name": "Illumise",
@@ -61040,6 +61354,7 @@
     {
       "id": 315,
       "dexId": 315,
+      "gameDexId": 315,
       "key": "Roselia",
       "sourceKey": "roselia",
       "name": "Roselia",
@@ -61246,6 +61561,7 @@
     {
       "id": 316,
       "dexId": 316,
+      "gameDexId": 316,
       "key": "Gulpin",
       "sourceKey": "gulpin",
       "name": "Gulpin",
@@ -61426,6 +61742,7 @@
     {
       "id": 317,
       "dexId": 317,
+      "gameDexId": 317,
       "key": "Swalot",
       "sourceKey": "swalot",
       "name": "Swalot",
@@ -61625,6 +61942,7 @@
     {
       "id": 318,
       "dexId": 318,
+      "gameDexId": 318,
       "key": "Carvanha",
       "sourceKey": "carvanha",
       "name": "Carvanha",
@@ -61807,6 +62125,7 @@
     {
       "id": 319,
       "dexId": 319,
+      "gameDexId": 319,
       "key": "Sharpedo",
       "sourceKey": "sharpedo",
       "name": "Sharpedo",
@@ -62015,6 +62334,7 @@
     {
       "id": 320,
       "dexId": 320,
+      "gameDexId": 320,
       "key": "Wailmer",
       "sourceKey": "wailmer",
       "name": "Wailmer",
@@ -62193,6 +62513,7 @@
     {
       "id": 321,
       "dexId": 321,
+      "gameDexId": 321,
       "key": "Wailord",
       "sourceKey": "wailord",
       "name": "Wailord",
@@ -62378,6 +62699,7 @@
     {
       "id": 322,
       "dexId": 322,
+      "gameDexId": 322,
       "key": "Numel",
       "sourceKey": "numel",
       "name": "Numel",
@@ -62561,6 +62883,7 @@
     {
       "id": 323,
       "dexId": 323,
+      "gameDexId": 323,
       "key": "Camerupt",
       "sourceKey": "camerupt",
       "name": "Camerupt",
@@ -62766,6 +63089,7 @@
     {
       "id": 324,
       "dexId": 324,
+      "gameDexId": 324,
       "key": "Torkoal",
       "sourceKey": "torkoal",
       "name": "Torkoal",
@@ -62948,6 +63272,7 @@
     {
       "id": 325,
       "dexId": 325,
+      "gameDexId": 325,
       "key": "Spoink",
       "sourceKey": "spoink",
       "name": "Spoink",
@@ -63127,6 +63452,7 @@
     {
       "id": 326,
       "dexId": 326,
+      "gameDexId": 326,
       "key": "Grumpig",
       "sourceKey": "grumpig",
       "name": "Grumpig",
@@ -63329,6 +63655,7 @@
     {
       "id": 327,
       "dexId": 327,
+      "gameDexId": 327,
       "key": "Spinda",
       "sourceKey": "spinda",
       "name": "Spinda",
@@ -63540,6 +63867,7 @@
     {
       "id": 328,
       "dexId": 328,
+      "gameDexId": 328,
       "key": "Trapinch",
       "sourceKey": "trapinch",
       "name": "Trapinch",
@@ -63716,6 +64044,7 @@
     {
       "id": 329,
       "dexId": 329,
+      "gameDexId": 329,
       "key": "Vibrava",
       "sourceKey": "vibrava",
       "name": "Vibrava",
@@ -63918,6 +64247,7 @@
     {
       "id": 330,
       "dexId": 330,
+      "gameDexId": 330,
       "key": "Flygon",
       "sourceKey": "flygon",
       "name": "Flygon",
@@ -64143,6 +64473,7 @@
     {
       "id": 331,
       "dexId": 331,
+      "gameDexId": 331,
       "key": "Cacnea",
       "sourceKey": "cacnea",
       "name": "Cacnea",
@@ -64330,6 +64661,7 @@
     {
       "id": 332,
       "dexId": 332,
+      "gameDexId": 332,
       "key": "Cacturne",
       "sourceKey": "cacturne",
       "name": "Cacturne",
@@ -64534,6 +64866,7 @@
     {
       "id": 333,
       "dexId": 333,
+      "gameDexId": 333,
       "key": "Swablu",
       "sourceKey": "swablu",
       "name": "Swablu",
@@ -64720,6 +65053,7 @@
     {
       "id": 334,
       "dexId": 334,
+      "gameDexId": 334,
       "key": "Altaria",
       "sourceKey": "altaria",
       "name": "Altaria",
@@ -64925,6 +65259,7 @@
     {
       "id": 335,
       "dexId": 335,
+      "gameDexId": 335,
       "key": "Zangoose",
       "sourceKey": "zangoose",
       "name": "Zangoose",
@@ -65148,6 +65483,7 @@
     {
       "id": 336,
       "dexId": 336,
+      "gameDexId": 336,
       "key": "Seviper",
       "sourceKey": "seviper",
       "name": "Seviper",
@@ -65351,6 +65687,7 @@
     {
       "id": 337,
       "dexId": 337,
+      "gameDexId": 337,
       "key": "Lunatone",
       "sourceKey": "lunatone",
       "name": "Lunatone",
@@ -65547,6 +65884,7 @@
     {
       "id": 338,
       "dexId": 338,
+      "gameDexId": 338,
       "key": "Solrock",
       "sourceKey": "solrock",
       "name": "Solrock",
@@ -65743,6 +66081,7 @@
     {
       "id": 339,
       "dexId": 339,
+      "gameDexId": 339,
       "key": "Barboach",
       "sourceKey": "barboach",
       "name": "Barboach",
@@ -65908,6 +66247,7 @@
     {
       "id": 340,
       "dexId": 340,
+      "gameDexId": 340,
       "key": "Whiscash",
       "sourceKey": "whiscash",
       "name": "Whiscash",
@@ -66091,6 +66431,7 @@
     {
       "id": 341,
       "dexId": 341,
+      "gameDexId": 341,
       "key": "Corphish",
       "sourceKey": "corphish",
       "name": "Corphish",
@@ -66276,6 +66617,7 @@
     {
       "id": 342,
       "dexId": 342,
+      "gameDexId": 342,
       "key": "Crawdaunt",
       "sourceKey": "crawdaunt",
       "name": "Crawdaunt",
@@ -66464,6 +66806,7 @@
     {
       "id": 343,
       "dexId": 343,
+      "gameDexId": 343,
       "key": "Baltoy",
       "sourceKey": "baltoy",
       "name": "Baltoy",
@@ -66642,6 +66985,7 @@
     {
       "id": 344,
       "dexId": 344,
+      "gameDexId": 344,
       "key": "Claydol",
       "sourceKey": "claydol",
       "name": "Claydol",
@@ -66830,6 +67174,7 @@
     {
       "id": 345,
       "dexId": 345,
+      "gameDexId": 345,
       "key": "Lileep",
       "sourceKey": "lileep",
       "name": "Lileep",
@@ -67004,6 +67349,7 @@
     {
       "id": 346,
       "dexId": 346,
+      "gameDexId": 346,
       "key": "Cradily",
       "sourceKey": "cradily",
       "name": "Cradily",
@@ -67190,6 +67536,7 @@
     {
       "id": 347,
       "dexId": 347,
+      "gameDexId": 347,
       "key": "Anorith",
       "sourceKey": "anorith",
       "name": "Anorith",
@@ -67368,6 +67715,7 @@
     {
       "id": 348,
       "dexId": 348,
+      "gameDexId": 348,
       "key": "Armaldo",
       "sourceKey": "armaldo",
       "name": "Armaldo",
@@ -67559,6 +67907,7 @@
     {
       "id": 349,
       "dexId": 349,
+      "gameDexId": 349,
       "key": "Feebas",
       "sourceKey": "feebas",
       "name": "Feebas",
@@ -67746,6 +68095,7 @@
     {
       "id": 350,
       "dexId": 350,
+      "gameDexId": 350,
       "key": "Milotic",
       "sourceKey": "milotic",
       "name": "Milotic",
@@ -67928,6 +68278,7 @@
     {
       "id": 351,
       "dexId": 351,
+      "gameDexId": 351,
       "key": "Castform",
       "sourceKey": "castform",
       "name": "Castform",
@@ -68102,6 +68453,7 @@
     {
       "id": 352,
       "dexId": 352,
+      "gameDexId": 352,
       "key": "Kecleon",
       "sourceKey": "kecleon",
       "name": "Kecleon",
@@ -68306,6 +68658,7 @@
     {
       "id": 353,
       "dexId": 353,
+      "gameDexId": 353,
       "key": "Shuppet",
       "sourceKey": "shuppet",
       "name": "Shuppet",
@@ -68503,6 +68856,7 @@
     {
       "id": 354,
       "dexId": 354,
+      "gameDexId": 354,
       "key": "Banette",
       "sourceKey": "banette",
       "name": "Banette",
@@ -68714,6 +69068,7 @@
     {
       "id": 355,
       "dexId": 355,
+      "gameDexId": 355,
       "key": "Duskull",
       "sourceKey": "duskull",
       "name": "Duskull",
@@ -68891,6 +69246,7 @@
     {
       "id": 356,
       "dexId": 356,
+      "gameDexId": 356,
       "key": "Dusclops",
       "sourceKey": "dusclops",
       "name": "Dusclops",
@@ -69107,6 +69463,7 @@
     {
       "id": 357,
       "dexId": 357,
+      "gameDexId": 357,
       "key": "Tropius",
       "sourceKey": "tropius",
       "name": "Tropius",
@@ -69307,6 +69664,7 @@
     {
       "id": 358,
       "dexId": 358,
+      "gameDexId": 358,
       "key": "Chimecho",
       "sourceKey": "chimecho",
       "name": "Chimecho",
@@ -69495,6 +69853,7 @@
     {
       "id": 359,
       "dexId": 359,
+      "gameDexId": 359,
       "key": "Absol",
       "sourceKey": "absol",
       "name": "Absol",
@@ -69726,6 +70085,7 @@
     {
       "id": 360,
       "dexId": 360,
+      "gameDexId": 360,
       "key": "Wynaut",
       "sourceKey": "wynaut",
       "name": "Wynaut",
@@ -69838,6 +70198,7 @@
     {
       "id": 361,
       "dexId": 361,
+      "gameDexId": 361,
       "key": "Snorunt",
       "sourceKey": "snorunt",
       "name": "Snorunt",
@@ -70010,6 +70371,7 @@
     {
       "id": 362,
       "dexId": 362,
+      "gameDexId": 362,
       "key": "Glalie",
       "sourceKey": "glalie",
       "name": "Glalie",
@@ -70212,6 +70574,7 @@
     {
       "id": 363,
       "dexId": 363,
+      "gameDexId": 363,
       "key": "Spheal",
       "sourceKey": "spheal",
       "name": "Spheal",
@@ -70411,6 +70774,7 @@
     {
       "id": 364,
       "dexId": 364,
+      "gameDexId": 364,
       "key": "Sealeo",
       "sourceKey": "sealeo",
       "name": "Sealeo",
@@ -70624,6 +70988,7 @@
     {
       "id": 365,
       "dexId": 365,
+      "gameDexId": 365,
       "key": "Walrein",
       "sourceKey": "walrein",
       "name": "Walrein",
@@ -70837,6 +71202,7 @@
     {
       "id": 366,
       "dexId": 366,
+      "gameDexId": 366,
       "key": "Clamperl",
       "sourceKey": "clamperl",
       "name": "Clamperl",
@@ -70976,6 +71342,7 @@
     {
       "id": 367,
       "dexId": 367,
+      "gameDexId": 367,
       "key": "Huntail",
       "sourceKey": "huntail",
       "name": "Huntail",
@@ -71166,6 +71533,7 @@
     {
       "id": 368,
       "dexId": 368,
+      "gameDexId": 368,
       "key": "Gorebyss",
       "sourceKey": "gorebyss",
       "name": "Gorebyss",
@@ -71354,6 +71722,7 @@
     {
       "id": 369,
       "dexId": 369,
+      "gameDexId": 369,
       "key": "Relicanth",
       "sourceKey": "relicanth",
       "name": "Relicanth",
@@ -71548,6 +71917,7 @@
     {
       "id": 370,
       "dexId": 370,
+      "gameDexId": 370,
       "key": "Luvdisc",
       "sourceKey": "luvdisc",
       "name": "Luvdisc",
@@ -71720,6 +72090,7 @@
     {
       "id": 371,
       "dexId": 371,
+      "gameDexId": 371,
       "key": "Bagon",
       "sourceKey": "bagon",
       "name": "Bagon",
@@ -71895,6 +72266,7 @@
     {
       "id": 372,
       "dexId": 372,
+      "gameDexId": 372,
       "key": "Shelgon",
       "sourceKey": "shelgon",
       "name": "Shelgon",
@@ -72080,6 +72452,7 @@
     {
       "id": 373,
       "dexId": 373,
+      "gameDexId": 373,
       "key": "Salamence",
       "sourceKey": "salamence",
       "name": "Salamence",
@@ -72302,6 +72675,7 @@
     {
       "id": 374,
       "dexId": 374,
+      "gameDexId": 374,
       "key": "Beldum",
       "sourceKey": "beldum",
       "name": "Beldum",
@@ -72391,6 +72765,7 @@
     {
       "id": 375,
       "dexId": 375,
+      "gameDexId": 375,
       "key": "Metang",
       "sourceKey": "metang",
       "name": "Metang",
@@ -72574,6 +72949,7 @@
     {
       "id": 376,
       "dexId": 376,
+      "gameDexId": 376,
       "key": "Metagross",
       "sourceKey": "metagross",
       "name": "Metagross",
@@ -72762,6 +73138,7 @@
     {
       "id": 377,
       "dexId": 377,
+      "gameDexId": 377,
       "key": "Regirock",
       "sourceKey": "regirock",
       "name": "Regirock",
@@ -72931,6 +73308,7 @@
     {
       "id": 378,
       "dexId": 378,
+      "gameDexId": 378,
       "key": "Regice",
       "sourceKey": "regice",
       "name": "Regice",
@@ -73101,6 +73479,7 @@
     {
       "id": 379,
       "dexId": 379,
+      "gameDexId": 379,
       "key": "Registeel",
       "sourceKey": "registeel",
       "name": "Registeel",
@@ -73269,6 +73648,7 @@
     {
       "id": 380,
       "dexId": 380,
+      "gameDexId": 380,
       "key": "Latias",
       "sourceKey": "latias",
       "name": "Latias",
@@ -73446,6 +73826,7 @@
     {
       "id": 381,
       "dexId": 381,
+      "gameDexId": 381,
       "key": "Latios",
       "sourceKey": "latios",
       "name": "Latios",
@@ -73622,6 +74003,7 @@
     {
       "id": 382,
       "dexId": 382,
+      "gameDexId": 382,
       "key": "Kyogre",
       "sourceKey": "kyogre",
       "name": "Kyogre",
@@ -73778,6 +74160,7 @@
     {
       "id": 383,
       "dexId": 383,
+      "gameDexId": 383,
       "key": "Groudon",
       "sourceKey": "groudon",
       "name": "Groudon",
@@ -73942,6 +74325,7 @@
     {
       "id": 384,
       "dexId": 384,
+      "gameDexId": 384,
       "key": "Rayquaza",
       "sourceKey": "rayquaza",
       "name": "Rayquaza",
@@ -74117,6 +74501,7 @@
     {
       "id": 385,
       "dexId": 385,
+      "gameDexId": 385,
       "key": "Jirachi",
       "sourceKey": "jirachi",
       "name": "Jirachi",
@@ -74296,6 +74681,7 @@
     {
       "id": 386,
       "dexId": 386,
+      "gameDexId": 386,
       "key": "Deoxys",
       "sourceKey": "deoxys-normal",
       "name": "Deoxys",
@@ -74467,6 +74853,7 @@
     {
       "id": 387,
       "dexId": 387,
+      "gameDexId": 387,
       "key": "Turtwig",
       "sourceKey": "turtwig",
       "name": "Turtwig",
@@ -74651,6 +75038,7 @@
     {
       "id": 388,
       "dexId": 388,
+      "gameDexId": 388,
       "key": "Grotle",
       "sourceKey": "grotle",
       "name": "Grotle",
@@ -74834,6 +75222,7 @@
     {
       "id": 389,
       "dexId": 389,
+      "gameDexId": 389,
       "key": "Torterra",
       "sourceKey": "torterra",
       "name": "Torterra",
@@ -75032,6 +75421,7 @@
     {
       "id": 390,
       "dexId": 390,
+      "gameDexId": 390,
       "key": "Chimchar",
       "sourceKey": "chimchar",
       "name": "Chimchar",
@@ -75222,6 +75612,7 @@
     {
       "id": 391,
       "dexId": 391,
+      "gameDexId": 391,
       "key": "Monferno",
       "sourceKey": "monferno",
       "name": "Monferno",
@@ -75417,6 +75808,7 @@
     {
       "id": 392,
       "dexId": 392,
+      "gameDexId": 392,
       "key": "Infernape",
       "sourceKey": "infernape",
       "name": "Infernape",
@@ -75627,6 +76019,7 @@
     {
       "id": 393,
       "dexId": 393,
+      "gameDexId": 393,
       "key": "Piplup",
       "sourceKey": "piplup",
       "name": "Piplup",
@@ -75820,6 +76213,7 @@
     {
       "id": 394,
       "dexId": 394,
+      "gameDexId": 394,
       "key": "Prinplup",
       "sourceKey": "prinplup",
       "name": "Prinplup",
@@ -76014,6 +76408,7 @@
     {
       "id": 395,
       "dexId": 395,
+      "gameDexId": 395,
       "key": "Empoleon",
       "sourceKey": "empoleon",
       "name": "Empoleon",
@@ -76230,6 +76625,7 @@
     {
       "id": 396,
       "dexId": 396,
+      "gameDexId": 396,
       "key": "Starly",
       "sourceKey": "starly",
       "name": "Starly",
@@ -76405,6 +76801,7 @@
     {
       "id": 397,
       "dexId": 397,
+      "gameDexId": 397,
       "key": "Staravia",
       "sourceKey": "staravia",
       "name": "Staravia",
@@ -76588,6 +76985,7 @@
     {
       "id": 398,
       "dexId": 398,
+      "gameDexId": 398,
       "key": "Staraptor",
       "sourceKey": "staraptor",
       "name": "Staraptor",
@@ -76781,6 +77179,7 @@
     {
       "id": 399,
       "dexId": 399,
+      "gameDexId": 399,
       "key": "Bidoof",
       "sourceKey": "bidoof",
       "name": "Bidoof",
@@ -76962,6 +77361,7 @@
     {
       "id": 400,
       "dexId": 400,
+      "gameDexId": 400,
       "key": "Bibarel",
       "sourceKey": "bibarel",
       "name": "Bibarel",
@@ -77170,6 +77570,7 @@
     {
       "id": 401,
       "dexId": 401,
+      "gameDexId": 401,
       "key": "Kricketot",
       "sourceKey": "kricketot",
       "name": "Kricketot",
@@ -77284,6 +77685,7 @@
     {
       "id": 402,
       "dexId": 402,
+      "gameDexId": 402,
       "key": "Kricketune",
       "sourceKey": "kricketune",
       "name": "Kricketune",
@@ -77477,6 +77879,7 @@
     {
       "id": 403,
       "dexId": 403,
+      "gameDexId": 403,
       "key": "Shinx",
       "sourceKey": "shinx",
       "name": "Shinx",
@@ -77663,6 +78066,7 @@
     {
       "id": 404,
       "dexId": 404,
+      "gameDexId": 404,
       "key": "Luxio",
       "sourceKey": "luxio",
       "name": "Luxio",
@@ -77861,6 +78265,7 @@
     {
       "id": 405,
       "dexId": 405,
+      "gameDexId": 405,
       "key": "Luxray",
       "sourceKey": "luxray",
       "name": "Luxray",
@@ -78062,6 +78467,7 @@
     {
       "id": 406,
       "dexId": 406,
+      "gameDexId": 406,
       "key": "Budew",
       "sourceKey": "budew",
       "name": "Budew",
@@ -78200,6 +78606,7 @@
     {
       "id": 407,
       "dexId": 407,
+      "gameDexId": 407,
       "key": "Roserade",
       "sourceKey": "roserade",
       "name": "Roserade",
@@ -78406,6 +78813,7 @@
     {
       "id": 408,
       "dexId": 408,
+      "gameDexId": 408,
       "key": "Cranidos",
       "sourceKey": "cranidos",
       "name": "Cranidos",
@@ -78582,6 +78990,7 @@
     {
       "id": 409,
       "dexId": 409,
+      "gameDexId": 409,
       "key": "Rampardos",
       "sourceKey": "rampardos",
       "name": "Rampardos",
@@ -78779,6 +79188,7 @@
     {
       "id": 410,
       "dexId": 410,
+      "gameDexId": 410,
       "key": "Shieldon",
       "sourceKey": "shieldon",
       "name": "Shieldon",
@@ -78956,6 +79366,7 @@
     {
       "id": 411,
       "dexId": 411,
+      "gameDexId": 411,
       "key": "Bastiodon",
       "sourceKey": "bastiodon",
       "name": "Bastiodon",
@@ -79150,6 +79561,7 @@
     {
       "id": 412,
       "dexId": 412,
+      "gameDexId": 412,
       "key": "Burmy",
       "sourceKey": "burmy",
       "name": "Burmy-P",
@@ -79251,6 +79663,7 @@
     {
       "id": 413,
       "dexId": 413,
+      "gameDexId": 413,
       "key": "Wormadam",
       "sourceKey": "wormadam-plant",
       "name": "Wormadam-P",
@@ -79426,6 +79839,7 @@
     {
       "id": 414,
       "dexId": 414,
+      "gameDexId": 414,
       "key": "Mothim",
       "sourceKey": "mothim",
       "name": "Mothim",
@@ -79610,6 +80024,7 @@
     {
       "id": 415,
       "dexId": 415,
+      "gameDexId": 415,
       "key": "Combee",
       "sourceKey": "combee",
       "name": "Combee",
@@ -79728,6 +80143,7 @@
     {
       "id": 416,
       "dexId": 416,
+      "gameDexId": 416,
       "key": "Vespiquen",
       "sourceKey": "vespiquen",
       "name": "Vespiquen",
@@ -79924,6 +80340,7 @@
     {
       "id": 417,
       "dexId": 417,
+      "gameDexId": 417,
       "key": "Pachirisu",
       "sourceKey": "pachirisu",
       "name": "Pachirisu",
@@ -80117,6 +80534,7 @@
     {
       "id": 418,
       "dexId": 418,
+      "gameDexId": 418,
       "key": "Buizel",
       "sourceKey": "buizel",
       "name": "Buizel",
@@ -80306,6 +80724,7 @@
     {
       "id": 419,
       "dexId": 419,
+      "gameDexId": 419,
       "key": "Floatzel",
       "sourceKey": "floatzel",
       "name": "Floatzel",
@@ -80515,6 +80934,7 @@
     {
       "id": 420,
       "dexId": 420,
+      "gameDexId": 420,
       "key": "Cherubi",
       "sourceKey": "cherubi",
       "name": "Cherubi",
@@ -80683,6 +81103,7 @@
     {
       "id": 421,
       "dexId": 421,
+      "gameDexId": 421,
       "key": "Cherrim",
       "sourceKey": "cherrim",
       "name": "Cherrim",
@@ -80864,6 +81285,7 @@
     {
       "id": 422,
       "dexId": 422,
+      "gameDexId": 422,
       "key": "Shellos",
       "sourceKey": "shellos",
       "name": "Shellos-West",
@@ -81047,6 +81469,7 @@
     {
       "id": 423,
       "dexId": 423,
+      "gameDexId": 423,
       "key": "Gastrodon",
       "sourceKey": "gastrodon",
       "name": "Gastrodon-West",
@@ -81246,6 +81669,7 @@
     {
       "id": 424,
       "dexId": 424,
+      "gameDexId": 424,
       "key": "Ambipom",
       "sourceKey": "ambipom",
       "name": "Ambipom",
@@ -81447,6 +81871,7 @@
     {
       "id": 425,
       "dexId": 425,
+      "gameDexId": 425,
       "key": "Drifloon",
       "sourceKey": "drifloon",
       "name": "Drifloon",
@@ -81639,6 +82064,7 @@
     {
       "id": 426,
       "dexId": 426,
+      "gameDexId": 426,
       "key": "Drifblim",
       "sourceKey": "drifblim",
       "name": "Drifblim",
@@ -81843,6 +82269,7 @@
     {
       "id": 427,
       "dexId": 427,
+      "gameDexId": 427,
       "key": "Buneary",
       "sourceKey": "buneary",
       "name": "Buneary",
@@ -82062,6 +82489,7 @@
     {
       "id": 428,
       "dexId": 428,
+      "gameDexId": 428,
       "key": "Lopunny",
       "sourceKey": "lopunny",
       "name": "Lopunny",
@@ -82285,6 +82713,7 @@
     {
       "id": 429,
       "dexId": 429,
+      "gameDexId": 429,
       "key": "Mismagius",
       "sourceKey": "mismagius",
       "name": "Mismagius",
@@ -82497,6 +82926,7 @@
     {
       "id": 430,
       "dexId": 430,
+      "gameDexId": 430,
       "key": "Honchkrow",
       "sourceKey": "honchkrow",
       "name": "Honchkrow",
@@ -82697,6 +83127,7 @@
     {
       "id": 431,
       "dexId": 431,
+      "gameDexId": 431,
       "key": "Glameow",
       "sourceKey": "glameow",
       "name": "Glameow",
@@ -82874,6 +83305,7 @@
     {
       "id": 432,
       "dexId": 432,
+      "gameDexId": 432,
       "key": "Purugly",
       "sourceKey": "purugly",
       "name": "Purugly",
@@ -83066,6 +83498,7 @@
     {
       "id": 433,
       "dexId": 433,
+      "gameDexId": 433,
       "key": "Chingling",
       "sourceKey": "chingling",
       "name": "Chingling",
@@ -83207,6 +83640,7 @@
     {
       "id": 434,
       "dexId": 434,
+      "gameDexId": 434,
       "key": "Stunky",
       "sourceKey": "stunky",
       "name": "Stunky",
@@ -83388,6 +83822,7 @@
     {
       "id": 435,
       "dexId": 435,
+      "gameDexId": 435,
       "key": "Skuntank",
       "sourceKey": "skuntank",
       "name": "Skuntank",
@@ -83582,6 +84017,7 @@
     {
       "id": 436,
       "dexId": 436,
+      "gameDexId": 436,
       "key": "Bronzor",
       "sourceKey": "bronzor",
       "name": "Bronzor",
@@ -83750,6 +84186,7 @@
     {
       "id": 437,
       "dexId": 437,
+      "gameDexId": 437,
       "key": "Bronzong",
       "sourceKey": "bronzong",
       "name": "Bronzong",
@@ -83941,6 +84378,7 @@
     {
       "id": 438,
       "dexId": 438,
+      "gameDexId": 438,
       "key": "Bonsly",
       "sourceKey": "bonsly",
       "name": "Bonsly",
@@ -84073,6 +84511,7 @@
     {
       "id": 439,
       "dexId": 439,
+      "gameDexId": 439,
       "key": "Mime-Jr.",
       "sourceKey": "mime-jr",
       "name": "Mime Jr.",
@@ -84237,6 +84676,7 @@
     {
       "id": 440,
       "dexId": 440,
+      "gameDexId": 440,
       "key": "Happiny",
       "sourceKey": "happiny",
       "name": "Happiny",
@@ -84382,6 +84822,7 @@
     {
       "id": 441,
       "dexId": 441,
+      "gameDexId": 441,
       "key": "Chatot",
       "sourceKey": "chatot",
       "name": "Chatot",
@@ -84543,6 +84984,7 @@
     {
       "id": 442,
       "dexId": 442,
+      "gameDexId": 442,
       "key": "Spiritomb",
       "sourceKey": "spiritomb",
       "name": "Spiritomb",
@@ -84718,6 +85160,7 @@
     {
       "id": 443,
       "dexId": 443,
+      "gameDexId": 443,
       "key": "Gible",
       "sourceKey": "gible",
       "name": "Gible",
@@ -84896,6 +85339,7 @@
     {
       "id": 444,
       "dexId": 444,
+      "gameDexId": 444,
       "key": "Gabite",
       "sourceKey": "gabite",
       "name": "Gabite",
@@ -85077,6 +85521,7 @@
     {
       "id": 445,
       "dexId": 445,
+      "gameDexId": 445,
       "key": "Garchomp",
       "sourceKey": "garchomp",
       "name": "Garchomp",
@@ -85274,6 +85719,7 @@
     {
       "id": 446,
       "dexId": 446,
+      "gameDexId": 446,
       "key": "Munchlax",
       "sourceKey": "munchlax",
       "name": "Munchlax",
@@ -85436,6 +85882,7 @@
     {
       "id": 447,
       "dexId": 447,
+      "gameDexId": 447,
       "key": "Riolu",
       "sourceKey": "riolu",
       "name": "Riolu",
@@ -85632,6 +86079,7 @@
     {
       "id": 448,
       "dexId": 448,
+      "gameDexId": 448,
       "key": "Lucario",
       "sourceKey": "lucario",
       "name": "Lucario",
@@ -85843,6 +86291,7 @@
     {
       "id": 449,
       "dexId": 449,
+      "gameDexId": 449,
       "key": "Hippopotas",
       "sourceKey": "hippopotas",
       "name": "Hippopotas",
@@ -86013,6 +86462,7 @@
     {
       "id": 450,
       "dexId": 450,
+      "gameDexId": 450,
       "key": "Hippowdon",
       "sourceKey": "hippowdon",
       "name": "Hippowdon",
@@ -86199,6 +86649,7 @@
     {
       "id": 451,
       "dexId": 451,
+      "gameDexId": 451,
       "key": "Skorupi",
       "sourceKey": "skorupi",
       "name": "Skorupi",
@@ -86390,6 +86841,7 @@
     {
       "id": 452,
       "dexId": 452,
+      "gameDexId": 452,
       "key": "Drapion",
       "sourceKey": "drapion",
       "name": "Drapion",
@@ -86599,6 +87051,7 @@
     {
       "id": 453,
       "dexId": 453,
+      "gameDexId": 453,
       "key": "Croagunk",
       "sourceKey": "croagunk",
       "name": "Croagunk",
@@ -86800,6 +87253,7 @@
     {
       "id": 454,
       "dexId": 454,
+      "gameDexId": 454,
       "key": "Toxicroak",
       "sourceKey": "toxicroak",
       "name": "Toxicroak",
@@ -87020,6 +87474,7 @@
     {
       "id": 455,
       "dexId": 455,
+      "gameDexId": 455,
       "key": "Carnivine",
       "sourceKey": "carnivine",
       "name": "Carnivine",
@@ -87193,6 +87648,7 @@
     {
       "id": 456,
       "dexId": 456,
+      "gameDexId": 456,
       "key": "Finneon",
       "sourceKey": "finneon",
       "name": "Finneon",
@@ -87375,6 +87831,7 @@
     {
       "id": 457,
       "dexId": 457,
+      "gameDexId": 457,
       "key": "Lumineon",
       "sourceKey": "lumineon",
       "name": "Lumineon",
@@ -87565,6 +88022,7 @@
     {
       "id": 458,
       "dexId": 458,
+      "gameDexId": 458,
       "key": "Mantyke",
       "sourceKey": "mantyke",
       "name": "Mantyke",
@@ -87764,6 +88222,7 @@
     {
       "id": 459,
       "dexId": 459,
+      "gameDexId": 459,
       "key": "Snover",
       "sourceKey": "snover",
       "name": "Snover",
@@ -87940,6 +88399,7 @@
     {
       "id": 460,
       "dexId": 460,
+      "gameDexId": 460,
       "key": "Abomasnow",
       "sourceKey": "abomasnow",
       "name": "Abomasnow",
@@ -88138,6 +88598,7 @@
     {
       "id": 461,
       "dexId": 461,
+      "gameDexId": 461,
       "key": "Weavile",
       "sourceKey": "weavile",
       "name": "Weavile",
@@ -88352,6 +88813,7 @@
     {
       "id": 462,
       "dexId": 462,
+      "gameDexId": 462,
       "key": "Magnezone",
       "sourceKey": "magnezone",
       "name": "Magnezone",
@@ -88536,6 +88998,7 @@
     {
       "id": 463,
       "dexId": 463,
+      "gameDexId": 463,
       "key": "Lickilicky",
       "sourceKey": "lickilicky",
       "name": "Lickilicky",
@@ -88743,6 +89206,7 @@
     {
       "id": 464,
       "dexId": 464,
+      "gameDexId": 464,
       "key": "Rhyperior",
       "sourceKey": "rhyperior",
       "name": "Rhyperior",
@@ -88978,6 +89442,7 @@
     {
       "id": 465,
       "dexId": 465,
+      "gameDexId": 465,
       "key": "Tangrowth",
       "sourceKey": "tangrowth",
       "name": "Tangrowth",
@@ -89171,6 +89636,7 @@
     {
       "id": 466,
       "dexId": 466,
+      "gameDexId": 466,
       "key": "Electivire",
       "sourceKey": "electivire",
       "name": "Electivire",
@@ -89384,6 +89850,7 @@
     {
       "id": 467,
       "dexId": 467,
+      "gameDexId": 467,
       "key": "Magmortar",
       "sourceKey": "magmortar",
       "name": "Magmortar",
@@ -89583,6 +90050,7 @@
     {
       "id": 468,
       "dexId": 468,
+      "gameDexId": 468,
       "key": "Togekiss",
       "sourceKey": "togekiss",
       "name": "Togekiss",
@@ -89799,6 +90267,7 @@
     {
       "id": 469,
       "dexId": 469,
+      "gameDexId": 469,
       "key": "Yanmega",
       "sourceKey": "yanmega",
       "name": "Yanmega",
@@ -89996,6 +90465,7 @@
     {
       "id": 470,
       "dexId": 470,
+      "gameDexId": 470,
       "key": "Leafeon",
       "sourceKey": "leafeon",
       "name": "Leafeon",
@@ -90201,6 +90671,7 @@
     {
       "id": 471,
       "dexId": 471,
+      "gameDexId": 471,
       "key": "Glaceon",
       "sourceKey": "glaceon",
       "name": "Glaceon",
@@ -90401,6 +90872,7 @@
     {
       "id": 472,
       "dexId": 472,
+      "gameDexId": 472,
       "key": "Gliscor",
       "sourceKey": "gliscor",
       "name": "Gliscor",
@@ -90617,6 +91089,7 @@
     {
       "id": 473,
       "dexId": 473,
+      "gameDexId": 473,
       "key": "Mamoswine",
       "sourceKey": "mamoswine",
       "name": "Mamoswine",
@@ -90827,6 +91300,7 @@
     {
       "id": 474,
       "dexId": 474,
+      "gameDexId": 474,
       "key": "Porygon-Z",
       "sourceKey": "porygon-z",
       "name": "Porygon-Z",
@@ -91022,6 +91496,7 @@
     {
       "id": 475,
       "dexId": 475,
+      "gameDexId": 475,
       "key": "Gallade",
       "sourceKey": "gallade",
       "name": "Gallade",
@@ -91258,6 +91733,7 @@
     {
       "id": 476,
       "dexId": 476,
+      "gameDexId": 476,
       "key": "Probopass",
       "sourceKey": "probopass",
       "name": "Probopass",
@@ -91451,6 +91927,7 @@
     {
       "id": 477,
       "dexId": 477,
+      "gameDexId": 477,
       "key": "Dusknoir",
       "sourceKey": "dusknoir",
       "name": "Dusknoir",
@@ -91658,6 +92135,7 @@
     {
       "id": 478,
       "dexId": 478,
+      "gameDexId": 478,
       "key": "Froslass",
       "sourceKey": "froslass",
       "name": "Froslass",
@@ -91857,6 +92335,7 @@
     {
       "id": 479,
       "dexId": 479,
+      "gameDexId": 479,
       "key": "Rotom",
       "sourceKey": "rotom",
       "name": "Rotom",
@@ -92015,6 +92494,7 @@
     {
       "id": 480,
       "dexId": 480,
+      "gameDexId": 480,
       "key": "Uxie",
       "sourceKey": "uxie",
       "name": "Uxie",
@@ -92180,6 +92660,7 @@
     {
       "id": 481,
       "dexId": 481,
+      "gameDexId": 481,
       "key": "Mesprit",
       "sourceKey": "mesprit",
       "name": "Mesprit",
@@ -92343,6 +92824,7 @@
     {
       "id": 482,
       "dexId": 482,
+      "gameDexId": 482,
       "key": "Azelf",
       "sourceKey": "azelf",
       "name": "Azelf",
@@ -92506,6 +92988,7 @@
     {
       "id": 483,
       "dexId": 483,
+      "gameDexId": 483,
       "key": "Dialga",
       "sourceKey": "dialga",
       "name": "Dialga",
@@ -92675,6 +93158,7 @@
     {
       "id": 484,
       "dexId": 484,
+      "gameDexId": 484,
       "key": "Palkia",
       "sourceKey": "palkia",
       "name": "Palkia",
@@ -92855,6 +93339,7 @@
     {
       "id": 485,
       "dexId": 485,
+      "gameDexId": 485,
       "key": "Heatran",
       "sourceKey": "heatran",
       "name": "Heatran",
@@ -93006,6 +93491,7 @@
     {
       "id": 486,
       "dexId": 486,
+      "gameDexId": 486,
       "key": "Regigigas",
       "sourceKey": "regigigas",
       "name": "Regigigas",
@@ -93166,6 +93652,7 @@
     {
       "id": 487,
       "dexId": 487,
+      "gameDexId": 487,
       "key": "Giratina",
       "sourceKey": "giratina-altered",
       "name": "Giratina",
@@ -93342,6 +93829,7 @@
     {
       "id": 488,
       "dexId": 488,
+      "gameDexId": 488,
       "key": "Cresselia",
       "sourceKey": "cresselia",
       "name": "Cresselia",
@@ -93486,6 +93974,7 @@
     {
       "id": 489,
       "dexId": 489,
+      "gameDexId": 489,
       "key": "Phione",
       "sourceKey": "phione",
       "name": "Phione",
@@ -93666,6 +94155,7 @@
     {
       "id": 490,
       "dexId": 490,
+      "gameDexId": 490,
       "key": "Manaphy",
       "sourceKey": "manaphy",
       "name": "Manaphy",
@@ -93856,6 +94346,7 @@
     {
       "id": 491,
       "dexId": 491,
+      "gameDexId": 491,
       "key": "Darkrai",
       "sourceKey": "darkrai",
       "name": "Darkrai",
@@ -94031,6 +94522,7 @@
     {
       "id": 492,
       "dexId": 492,
+      "gameDexId": 492,
       "key": "Shaymin",
       "sourceKey": "shaymin-land",
       "name": "Shaymin",
@@ -94205,6 +94697,7 @@
     {
       "id": 493,
       "dexId": 493,
+      "gameDexId": 493,
       "key": "Arceus",
       "sourceKey": "arceus",
       "name": "Arceus",
@@ -94422,6 +94915,7 @@
     {
       "id": 250496,
       "dexId": 412,
+      "gameDexId": 494,
       "key": "Burmy-S",
       "sourceKey": "burmy-s",
       "name": "Burmy-S",
@@ -94530,6 +95024,7 @@
     {
       "id": 10004,
       "dexId": 413,
+      "gameDexId": 495,
       "key": "Wormadam-Sandy",
       "sourceKey": "wormadam-sandy",
       "name": "Wormadam-S",
@@ -94707,6 +95202,7 @@
     {
       "id": 250498,
       "dexId": 412,
+      "gameDexId": 496,
       "key": "Burmy-T",
       "sourceKey": "burmy-t",
       "name": "Burmy-T",
@@ -94815,6 +95311,7 @@
     {
       "id": 10005,
       "dexId": 413,
+      "gameDexId": 497,
       "key": "Wormadam-Trash",
       "sourceKey": "wormadam-trash",
       "name": "Wormadam-T",
@@ -94999,6 +95496,7 @@
     {
       "id": 250500,
       "dexId": 422,
+      "gameDexId": 498,
       "key": "Shellos-East",
       "sourceKey": "shellos-east",
       "name": "Shellos-East",
@@ -95184,6 +95682,7 @@
     {
       "id": 250501,
       "dexId": 423,
+      "gameDexId": 499,
       "key": "Gastrodon-East",
       "sourceKey": "gastrodon-east",
       "name": "Gastrodon-East",
@@ -95385,6 +95884,7 @@
     {
       "id": 250502,
       "dexId": 421,
+      "gameDexId": null,
       "key": "Cherrim-Sunny",
       "sourceKey": "cherrim-sunny",
       "name": "Cherrim Sunny",
@@ -95564,6 +96064,7 @@
     {
       "id": 10006,
       "dexId": 492,
+      "gameDexId": null,
       "key": "Shaymin-Sky",
       "sourceKey": "shaymin-sky",
       "name": "Shaymin Sky",
@@ -95727,6 +96228,7 @@
     {
       "id": 700,
       "dexId": 700,
+      "gameDexId": 500,
       "key": "Sylveon",
       "sourceKey": "sylveon",
       "name": "Sylveon",
@@ -95924,6 +96426,7 @@
     {
       "id": 899,
       "dexId": 899,
+      "gameDexId": 502,
       "key": "Wyrdeer",
       "sourceKey": "wyrdeer",
       "name": "Wyrdeer",
@@ -96128,6 +96631,7 @@
     {
       "id": 901,
       "dexId": 901,
+      "gameDexId": 503,
       "key": "Ursaluna",
       "sourceKey": "ursaluna",
       "name": "Ursaluna",
@@ -96357,6 +96861,7 @@
     {
       "id": 900,
       "dexId": 900,
+      "gameDexId": 504,
       "key": "Kleavor",
       "sourceKey": "kleavor",
       "name": "Kleavor",
@@ -96549,6 +97054,7 @@
     {
       "id": 979,
       "dexId": 979,
+      "gameDexId": 505,
       "key": "Annihilape",
       "sourceKey": "annihilape",
       "name": "Annihilape",
@@ -96767,6 +97273,7 @@
     {
       "id": 982,
       "dexId": 982,
+      "gameDexId": 506,
       "key": "Dudunsparce",
       "sourceKey": "dudunsparce-two-segment",
       "name": "Dudunsparce",
@@ -96955,6 +97462,7 @@
     {
       "id": 981,
       "dexId": 981,
+      "gameDexId": 507,
       "key": "Farigiraf",
       "sourceKey": "farigiraf",
       "name": "Farigiraf",
@@ -97165,6 +97673,7 @@
     {
       "id": 10100,
       "dexId": 26,
+      "gameDexId": 508,
       "key": "Raichu-Alola",
       "sourceKey": "raichu-alola",
       "name": "Alolan Raichu",
@@ -97384,6 +97893,7 @@
     {
       "id": 10115,
       "dexId": 105,
+      "gameDexId": 509,
       "key": "Marowak-Alola",
       "sourceKey": "marowak-alola",
       "name": "Alolan Marowak",
@@ -97598,6 +98108,7 @@
     {
       "id": 10114,
       "dexId": 103,
+      "gameDexId": 510,
       "key": "Exeggutor-Alola",
       "sourceKey": "exeggutor-alola",
       "name": "Alolan Exeggutor",
@@ -97805,6 +98316,7 @@
     {
       "id": 10167,
       "dexId": 110,
+      "gameDexId": 511,
       "key": "Weezing-Galar",
       "sourceKey": "weezing-galar",
       "name": "Galarian Weezing",
@@ -97998,6 +98510,7 @@
     {
       "id": 10233,
       "dexId": 157,
+      "gameDexId": 512,
       "key": "Typhlosion-Hisui",
       "sourceKey": "typhlosion-hisui",
       "name": "Hisuian Typhlosion",
@@ -98219,6 +98732,7 @@
     {
       "id": 10101,
       "dexId": 27,
+      "gameDexId": 513,
       "key": "Sandshrew-Alola",
       "sourceKey": "sandshrew-alola",
       "name": "Alolan Sandshrew",
@@ -98420,6 +98934,7 @@
     {
       "id": 10102,
       "dexId": 28,
+      "gameDexId": 514,
       "key": "Sandslash-Alola",
       "sourceKey": "sandslash-alola",
       "name": "Alolan Sandslash",
@@ -98633,6 +99148,7 @@
     {
       "id": 10103,
       "dexId": 37,
+      "gameDexId": 515,
       "key": "Vulpix-Alola",
       "sourceKey": "vulpix-alola",
       "name": "Alolan Vulpix",
@@ -98842,6 +99358,7 @@
     {
       "id": 10104,
       "dexId": 38,
+      "gameDexId": 516,
       "key": "Ninetales-Alola",
       "sourceKey": "ninetales-alola",
       "name": "Alolan Ninetales",
@@ -99049,6 +99566,7 @@
     {
       "id": 10091,
       "dexId": 19,
+      "gameDexId": 517,
       "key": "Rattata-Alola",
       "sourceKey": "rattata-alola",
       "name": "Alolan Rattata",
@@ -99237,6 +99755,7 @@
     {
       "id": 10092,
       "dexId": 20,
+      "gameDexId": 518,
       "key": "Raticate-Alola",
       "sourceKey": "raticate-alola",
       "name": "Alolan Raticate",
@@ -99442,6 +99961,7 @@
     {
       "id": 10107,
       "dexId": 52,
+      "gameDexId": 519,
       "key": "Meowth-Alola",
       "sourceKey": "meowth-alola",
       "name": "Alolan Meowth",
@@ -99652,6 +100172,7 @@
     {
       "id": 10108,
       "dexId": 53,
+      "gameDexId": 520,
       "key": "Persian-Alola",
       "sourceKey": "persian-alola",
       "name": "Alolan Persian",
@@ -99856,6 +100377,7 @@
     {
       "id": 10105,
       "dexId": 50,
+      "gameDexId": 521,
       "key": "Diglett-Alola",
       "sourceKey": "diglett-alola",
       "name": "Alolan Diglett",
@@ -100035,6 +100557,7 @@
     {
       "id": 10106,
       "dexId": 51,
+      "gameDexId": 522,
       "key": "Dugtrio-Alola",
       "sourceKey": "dugtrio-alola",
       "name": "Alolan Dugtrio",
@@ -100223,6 +100746,7 @@
     {
       "id": 10109,
       "dexId": 74,
+      "gameDexId": 523,
       "key": "Geodude-Alola",
       "sourceKey": "geodude-alola",
       "name": "Alolan Geodude",
@@ -100422,6 +100946,7 @@
     {
       "id": 10110,
       "dexId": 75,
+      "gameDexId": 524,
       "key": "Graveler-Alola",
       "sourceKey": "graveler-alola",
       "name": "Alolan Graveler",
@@ -100633,6 +101158,7 @@
     {
       "id": 10111,
       "dexId": 76,
+      "gameDexId": 525,
       "key": "Golem-Alola",
       "sourceKey": "golem-alola",
       "name": "Alolan Golem",
@@ -100851,6 +101377,7 @@
     {
       "id": 10112,
       "dexId": 88,
+      "gameDexId": 526,
       "key": "Grimer-Alola",
       "sourceKey": "grimer-alola",
       "name": "Alolan Grimer",
@@ -101039,6 +101566,7 @@
     {
       "id": 10113,
       "dexId": 89,
+      "gameDexId": 527,
       "key": "Muk-Alola",
       "sourceKey": "muk-alola",
       "name": "Alolan Muk",
@@ -101228,6 +101756,7 @@
     {
       "id": 10162,
       "dexId": 77,
+      "gameDexId": 528,
       "key": "Ponyta-Galar",
       "sourceKey": "ponyta-galar",
       "name": "Galarian Ponyta",
@@ -101399,6 +101928,7 @@
     {
       "id": 10163,
       "dexId": 78,
+      "gameDexId": 529,
       "key": "Rapidash-Galar",
       "sourceKey": "rapidash-galar",
       "name": "Galarian Rapidash",
@@ -101587,6 +102117,7 @@
     {
       "id": 10166,
       "dexId": 83,
+      "gameDexId": 530,
       "key": "Farfetchd-Galar",
       "sourceKey": "farfetchd-galar",
       "name": "Galarian Farfetch`d",
@@ -101772,6 +102303,7 @@
     {
       "id": 865,
       "dexId": 865,
+      "gameDexId": 531,
       "key": "Sirfetch’d",
       "sourceKey": "sirfetchd",
       "name": "Sirfetch`d",
@@ -101966,6 +102498,7 @@
     {
       "id": 10229,
       "dexId": 58,
+      "gameDexId": 532,
       "key": "Growlithe-Hisui",
       "sourceKey": "growlithe-hisui",
       "name": "Hisuian Growlithe",
@@ -102164,6 +102697,7 @@
     {
       "id": 10230,
       "dexId": 59,
+      "gameDexId": 533,
       "key": "Arcanine-Hisui",
       "sourceKey": "arcanine-hisui",
       "name": "Hisuian Arcanine",
@@ -102383,6 +102917,7 @@
     {
       "id": 10168,
       "dexId": 122,
+      "gameDexId": 534,
       "key": "Mr-Mime-Galar",
       "sourceKey": "mr-mime-galar",
       "name": "Galarian Mr. Mime",
@@ -102619,6 +103154,7 @@
     {
       "id": 866,
       "dexId": 866,
+      "gameDexId": 535,
       "key": "Mr.-Rime",
       "sourceKey": "mr-rime",
       "name": "Mr. Rime",
@@ -102859,6 +103395,7 @@
     {
       "id": 10174,
       "dexId": 263,
+      "gameDexId": 536,
       "key": "Zigzagoon-Galar",
       "sourceKey": "zigzagoon-galar",
       "name": "Galarian Zigzagoon",
@@ -103054,6 +103591,7 @@
     {
       "id": 10175,
       "dexId": 264,
+      "gameDexId": 537,
       "key": "Linoone-Galar",
       "sourceKey": "linoone-galar",
       "name": "Galarian Linoone",
@@ -103277,6 +103815,7 @@
     {
       "id": 862,
       "dexId": 862,
+      "gameDexId": 538,
       "key": "Obstagoon",
       "sourceKey": "obstagoon",
       "name": "Obstagoon",
@@ -103494,6 +104033,7 @@
     {
       "id": 10173,
       "dexId": 222,
+      "gameDexId": 539,
       "key": "Corsola-Galar",
       "sourceKey": "corsola-galar",
       "name": "Galarian Corsola",
@@ -103683,6 +104223,7 @@
     {
       "id": 864,
       "dexId": 864,
+      "gameDexId": 540,
       "key": "Cursola",
       "sourceKey": "cursola",
       "name": "Cursola",
@@ -103877,6 +104418,7 @@
     {
       "id": 10161,
       "dexId": 52,
+      "gameDexId": 541,
       "key": "Meowth-Galar",
       "sourceKey": "meowth-galar",
       "name": "Galarian Meowth",
@@ -104082,6 +104624,7 @@
     {
       "id": 863,
       "dexId": 863,
+      "gameDexId": 542,
       "key": "Perrserker",
       "sourceKey": "perrserker",
       "name": "Perrserker",
@@ -104305,6 +104848,7 @@
     {
       "id": 10234,
       "dexId": 211,
+      "gameDexId": 543,
       "key": "Qwilfish-Hisui",
       "sourceKey": "qwilfish-hisui",
       "name": "Hisuian Qwilfish",
@@ -104503,6 +105047,7 @@
     {
       "id": 904,
       "dexId": 904,
+      "gameDexId": 544,
       "key": "Overqwil",
       "sourceKey": "overqwil",
       "name": "Overqwil",
@@ -104705,6 +105250,7 @@
     {
       "id": 10164,
       "dexId": 79,
+      "gameDexId": 545,
       "key": "Slowpoke-Galar",
       "sourceKey": "slowpoke-galar",
       "name": "Galarian Slowpoke",
@@ -104908,6 +105454,7 @@
     {
       "id": 10165,
       "dexId": 80,
+      "gameDexId": 546,
       "key": "Slowbro-Galar",
       "sourceKey": "slowbro-galar",
       "name": "Galarian Slowbro",
@@ -105137,6 +105684,7 @@
     {
       "id": 10172,
       "dexId": 199,
+      "gameDexId": 547,
       "key": "Slowking-Galar",
       "sourceKey": "slowking-galar",
       "name": "Galarian Slowking",
@@ -105363,6 +105911,7 @@
     {
       "id": 10231,
       "dexId": 100,
+      "gameDexId": 548,
       "key": "Voltorb-Hisui",
       "sourceKey": "voltorb-hisui",
       "name": "Hisuian Voltorb",
@@ -105547,6 +106096,7 @@
     {
       "id": 10232,
       "dexId": 101,
+      "gameDexId": 549,
       "key": "Electrode-Hisui",
       "sourceKey": "electrode-hisui",
       "name": "Hisuian Electrode",
@@ -105734,6 +106284,7 @@
     {
       "id": 10253,
       "dexId": 194,
+      "gameDexId": 550,
       "key": "Wooper-Paldea",
       "sourceKey": "wooper-paldea",
       "name": "Paldean Wooper",
@@ -105935,6 +106486,7 @@
     {
       "id": 980,
       "dexId": 980,
+      "gameDexId": 551,
       "key": "Clodsire",
       "sourceKey": "clodsire",
       "name": "Clodsire",
@@ -106153,6 +106705,7 @@
     {
       "id": 10235,
       "dexId": 215,
+      "gameDexId": 552,
       "key": "Sneasel-Hisui",
       "sourceKey": "sneasel-hisui",
       "name": "Hisuian Sneasel",
@@ -106368,6 +106921,7 @@
     {
       "id": 903,
       "dexId": 903,
+      "gameDexId": 553,
       "key": "Sneasler",
       "sourceKey": "sneasler",
       "name": "Sneasler",
@@ -106583,6 +107137,7 @@
     {
       "id": 200557,
       "dexId": 150,
+      "gameDexId": null,
       "key": "Armoured-Mewtwo",
       "sourceKey": "armoured-mewtwo",
       "name": "Armoured Mewtwo",
@@ -106799,6 +107354,7 @@
     {
       "id": 10169,
       "dexId": 144,
+      "gameDexId": null,
       "key": "Articuno-Galar",
       "sourceKey": "articuno-galar",
       "name": "Galarian Articuno",
@@ -106974,6 +107530,7 @@
     {
       "id": 10170,
       "dexId": 145,
+      "gameDexId": null,
       "key": "Zapdos-Galar",
       "sourceKey": "zapdos-galar",
       "name": "Galarian Zapdos",
@@ -107150,6 +107707,7 @@
     {
       "id": 10171,
       "dexId": 146,
+      "gameDexId": null,
       "key": "Moltres-Galar",
       "sourceKey": "moltres-galar",
       "name": "Galarian Moltres",
@@ -107324,6 +107882,7 @@
     {
       "id": 10007,
       "dexId": 487,
+      "gameDexId": null,
       "key": "Giratina-Origin",
       "sourceKey": "giratina-origin",
       "name": "Giratina Origin",
@@ -107500,6 +108059,7 @@
     {
       "id": 10246,
       "dexId": 484,
+      "gameDexId": null,
       "key": "Palkia-Origin",
       "sourceKey": "palkia-origin",
       "name": "Palkia Origin",
@@ -107675,6 +108235,7 @@
     {
       "id": 10245,
       "dexId": 483,
+      "gameDexId": null,
       "key": "Dialga-Origin",
       "sourceKey": "dialga-origin",
       "name": "Dialga Origin",
@@ -107839,6 +108400,7 @@
     {
       "id": 10010,
       "dexId": 479,
+      "gameDexId": null,
       "key": "Rotom-Frost",
       "sourceKey": "rotom-frost",
       "name": "Rotom-Frost",
@@ -108009,6 +108571,7 @@
     {
       "id": 10008,
       "dexId": 479,
+      "gameDexId": null,
       "key": "Rotom-Heat",
       "sourceKey": "rotom-heat",
       "name": "Rotom-Heat",
@@ -108178,6 +108741,7 @@
     {
       "id": 10009,
       "dexId": 479,
+      "gameDexId": null,
       "key": "Rotom-Wash",
       "sourceKey": "rotom-wash",
       "name": "Rotom-Wash",
@@ -108355,6 +108919,7 @@
     {
       "id": 10012,
       "dexId": 479,
+      "gameDexId": null,
       "key": "Rotom-Mow",
       "sourceKey": "rotom-mow",
       "name": "Rotom-Mow",
@@ -108520,6 +109085,7 @@
     {
       "id": 10011,
       "dexId": 479,
+      "gameDexId": null,
       "key": "Rotom-Fan",
       "sourceKey": "rotom-fan",
       "name": "Rotom-Fan",
@@ -108685,6 +109251,7 @@
     {
       "id": 200569,
       "dexId": 128,
+      "gameDexId": null,
       "key": "Paldean-Tauros-A",
       "sourceKey": "paldean-tauros-a",
       "name": "Paldean Tauros-A",
@@ -108890,6 +109457,7 @@
     {
       "id": 200570,
       "dexId": 128,
+      "gameDexId": null,
       "key": "Paldean-Tauros-B",
       "sourceKey": "paldean-tauros-b",
       "name": "Paldean Tauros-B",
@@ -109088,6 +109656,7 @@
     {
       "id": 200571,
       "dexId": 128,
+      "gameDexId": null,
       "key": "Paldean-Tauros-C",
       "sourceKey": "paldean-tauros-c",
       "name": "Paldean Tauros-C",
@@ -109278,6 +109847,7 @@
     {
       "id": 200572,
       "dexId": 25,
+      "gameDexId": null,
       "key": "Pikachu-Partner",
       "sourceKey": "pikachu-partner",
       "name": "Pikachu-Partner",
@@ -109495,6 +110065,7 @@
     {
       "id": 200573,
       "dexId": 25,
+      "gameDexId": null,
       "key": "Pikachu-Surf",
       "sourceKey": "pikachu-surf",
       "name": "Pikachu-Surf",
@@ -109716,6 +110287,7 @@
     {
       "id": 200574,
       "dexId": 25,
+      "gameDexId": null,
       "key": "Pikachu-Fly",
       "sourceKey": "pikachu-fly",
       "name": "Pikachu-Fly",
@@ -109935,6 +110507,7 @@
     {
       "id": 200575,
       "dexId": 133,
+      "gameDexId": null,
       "key": "Eevee-Partner",
       "sourceKey": "eevee-partner",
       "name": "Eevee-Partner",
@@ -110130,6 +110703,7 @@
     {
       "id": 10001,
       "dexId": 386,
+      "gameDexId": null,
       "key": "Deoxys-Attack",
       "sourceKey": "deoxys-attack",
       "name": "Deoxys A",
@@ -110305,6 +110879,7 @@
     {
       "id": 10002,
       "dexId": 386,
+      "gameDexId": null,
       "key": "Deoxys-Defense",
       "sourceKey": "deoxys-defense",
       "name": "Deoxys D",
@@ -110481,6 +111056,7 @@
     {
       "id": 10003,
       "dexId": 386,
+      "gameDexId": null,
       "key": "Deoxys-Speed",
       "sourceKey": "deoxys-speed",
       "name": "Deoxys S",
@@ -110650,6 +111226,7 @@
     {
       "id": 200579,
       "dexId": 3,
+      "gameDexId": null,
       "key": "Venusaur-Clone",
       "sourceKey": "venusaur-clone",
       "name": "Venusaur Clone",
@@ -110852,6 +111429,7 @@
     {
       "id": 200580,
       "dexId": 6,
+      "gameDexId": null,
       "key": "Charizard-Clone",
       "sourceKey": "charizard-clone",
       "name": "Charizard Clone",
@@ -111069,6 +111647,7 @@
     {
       "id": 200581,
       "dexId": 9,
+      "gameDexId": null,
       "key": "Blastoise-Clone",
       "sourceKey": "blastoise-clone",
       "name": "Blastoise Clone",
@@ -111278,6 +111857,7 @@
     {
       "id": 250582,
       "dexId": 95,
+      "gameDexId": null,
       "key": "Onix-C",
       "sourceKey": "onix-c",
       "name": "Onix-C",
@@ -111500,6 +112080,7 @@
     {
       "id": 200583,
       "dexId": 208,
+      "gameDexId": null,
       "key": "Steelix-C",
       "sourceKey": "steelix-c",
       "name": "Steelix-C",
@@ -111724,6 +112305,7 @@
     {
       "id": 10272,
       "dexId": 901,
+      "gameDexId": null,
       "key": "Ursaluna-Bloodmoon",
       "sourceKey": "ursaluna-bloodmoon",
       "name": "Bloodmoon Ursaluna",
@@ -111950,6 +112532,7 @@
     {
       "id": 250585,
       "dexId": 249,
+      "gameDexId": 501,
       "key": "XD001",
       "sourceKey": "xd001",
       "name": "XD001",
@@ -112166,6 +112749,7 @@
     {
       "id": 984,
       "dexId": 984,
+      "gameDexId": null,
       "key": "Great-Tusk",
       "sourceKey": "great-tusk",
       "name": "Great Tusk",
@@ -112377,6 +112961,7 @@
     {
       "id": 990,
       "dexId": 990,
+      "gameDexId": null,
       "key": "Iron-Treads",
       "sourceKey": "iron-treads",
       "name": "Iron Treads",
@@ -112586,6 +113171,7 @@
     {
       "id": 985,
       "dexId": 985,
+      "gameDexId": null,
       "key": "Scream-Tail",
       "sourceKey": "scream-tail",
       "name": "Scream Tail",
@@ -112807,6 +113393,7 @@
     {
       "id": 987,
       "dexId": 987,
+      "gameDexId": null,
       "key": "Flutter-Mane",
       "sourceKey": "flutter-mane",
       "name": "Flutter Mane",
@@ -113020,6 +113607,7 @@
     {
       "id": 989,
       "dexId": 989,
+      "gameDexId": null,
       "key": "Sandy-Shocks",
       "sourceKey": "sandy-shocks",
       "name": "Sandy Shocks",
@@ -113204,6 +113792,7 @@
     {
       "id": 1005,
       "dexId": 1005,
+      "gameDexId": null,
       "key": "Roaring-Moon",
       "sourceKey": "roaring-moon",
       "name": "Roaring Moon",
@@ -113423,6 +114012,7 @@
     {
       "id": 1009,
       "dexId": 1009,
+      "gameDexId": null,
       "key": "Walking-Wake",
       "sourceKey": "walking-wake",
       "name": "Walking Wake",
@@ -113628,6 +114218,7 @@
     {
       "id": 1020,
       "dexId": 1020,
+      "gameDexId": null,
       "key": "Gouging-Fire",
       "sourceKey": "gouging-fire",
       "name": "Gouging Fire",
@@ -113824,6 +114415,7 @@
     {
       "id": 1021,
       "dexId": 1021,
+      "gameDexId": null,
       "key": "Raging-Bolt",
       "sourceKey": "raging-bolt",
       "name": "Raging Bolt",
@@ -114023,6 +114615,7 @@
     {
       "id": 991,
       "dexId": 991,
+      "gameDexId": null,
       "key": "Iron-Bundle",
       "sourceKey": "iron-bundle",
       "name": "Iron Bundle",
@@ -114201,6 +114794,7 @@
     {
       "id": 992,
       "dexId": 992,
+      "gameDexId": null,
       "key": "Iron-Hands",
       "sourceKey": "iron-hands",
       "name": "Iron Hands",
@@ -114420,6 +115014,7 @@
     {
       "id": 995,
       "dexId": 995,
+      "gameDexId": null,
       "key": "Iron-Thorns",
       "sourceKey": "iron-thorns",
       "name": "Iron Thorns",
@@ -114664,6 +115259,7 @@
     {
       "id": 1006,
       "dexId": 1006,
+      "gameDexId": null,
       "key": "Iron-Valiant",
       "sourceKey": "iron-valiant",
       "name": "Iron Valiant",
