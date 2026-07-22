@@ -40,6 +40,7 @@ Mark each as `required`, `later`, or `disabled`.
 - Future Team and Favorites: required
 - Trainer battle guide: required; workbook location trainers and VS Seeker rematches imported 2026-07-22
 - Battle Planner: required
+- Trainer profile: required; first-open setup records trainer/rival names, gender, character and starter, and is included in local/export/cloud saves
 - Badges and progress: required
 - Region maps: later
 - Cloud save and sync: required; encrypted Cloudflare Worker/KV service requested 2026-07-21
@@ -47,13 +48,17 @@ Mark each as `required`, `later`, or `disabled`.
 ## Special mechanics
 
 - Standard encounters use one all-day table rather than morning/day/night variants.
+- `Location Data` Method values are the primary wild-encounter subsections in this order: Wild, Tree, Rock, Surf, Fish, Dive. Column D `More Info` remains available as a nested label beneath its method, so floors and distinct areas are preserved without displacing the encounter method.
+- Fishing encounters retain the rod named in `Location Data` column G (`More Info / Evo Method`). Within every Fish subsection they display in acquisition order: Old Rod, Good Rod, then Super Rod.
 - Seasonal Migration is a separate encounter overlay. The workbook supplies Johto/Kanto seasonal species pools and rates: general seasonal pools 4.5%, April baby Pokémon 3%, and July summer migrations 1% after the developer correction. The source describes region-wide outdoor grass rather than individual routes.
 - Fairy type and later-generation moves, evolutions, regional variants and forms are present.
 - Trade evolutions are generally replaced by held-item-plus-level methods; Eevee uses stones.
 - The game uses altered Stat EXP/EV rules, optional level caps, soft Nuzlocke and No EXP modes.
 - The workbook contains standard Johto/Kanto acquisition data through 2026-07-01. Post-workbook Sevii Island content needs structured encounter, item and trainer evidence.
-- Encounter `More Info` values define distinct subareas/floors within a parent location and must remain separate. Trainer rows in `Location Data` supply location, subarea, trainer, VS marker, up to six Pokémon and optional levels; blank VS levels scale to the player's team, while other blanks remain undocumented.
+- Encounter `More Info` values define distinct subareas/floors within a parent location and must remain separate. Trainer rows in `Location Data` supply location, subarea, trainer, VS marker, up to six Pokémon and optional levels. A blank trainer `More Info` cell inherits the preceding explicit value within that parent location; leading blanks are not backfilled, and interleaved rows are collated by sub-location in the guide. Blank VS levels scale to the player's team, while other blanks remain undocumented.
 - The Overview badge tracker contains eight Johto city-labelled badges followed by eight Kanto city-labelled badges. The user-supplied memory identifiers run consecutively from `82003884 018B` through `82003884 019A`; `Eceuteak` and `Celedon` are normalized to the canonical spellings Ecruteak and Celadon.
+- Workbook trainer-name asterisks are treated as major-battle markers and removed from the displayed name. Silver is replaced by the player's configured rival name throughout the guide. Its five staged `SE Starter` slots resolve from the configured starter: Chikorita → Cyndaquil's line, Cyndaquil → Totodile's line, and Totodile → Chikorita's line.
+- The dedicated Trainer page replaces the visible Progress tab for now. It shows trainer details, starter, current team, Pokédex completion and badge tracking; choosing a starter marks that species caught without removing any previously caught starter.
 
 ## Branding
 
@@ -63,6 +68,7 @@ Mark each as `required`, `later`, or `disabled`.
 - Primary colour: `#f13f57`
 - Accent colour: `#f2bb4b`
 - Menu sprite preferences: Pokémon item sprites already used by the guide.
+- Trainer profile artwork: unedited Pokémon Showdown character sprites and a Bulbagarden FRLG Trainer Card reference; see `sources/trainer-profile-art-attribution.md`.
 - Attribution and original asset links: `sources/art-attribution.md`.
 
 ## Deployment

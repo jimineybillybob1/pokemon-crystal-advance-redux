@@ -69,7 +69,10 @@ for (const location of guide.locations) {
   requireValue(location.name && Array.isArray(location.day) && Array.isArray(location.night), `Location requires name, day and night arrays: ${JSON.stringify(location)}`);
   for (const encounter of [...(location.day || []), ...(location.night || [])]) {
     if (!pokemonKeys.has(norm(encounter.pokemon))) errors.push(`${location.name}: unresolved encounter ${encounter.pokemon}.`);
+    requireValue(['Wild', 'Tree', 'Rock', 'Surf', 'Fish', 'Dive'].includes(encounter.method), `${location.name}: invalid encounter method ${encounter.method}.`);
     requireValue(encounter.subarea == null || typeof encounter.subarea === 'string', `${location.name}: encounter subarea must be a string.`);
+    requireValue(encounter.rod == null || ['Old Rod', 'Good Rod', 'Super Rod'].includes(encounter.rod), `${location.name}: invalid fishing rod ${encounter.rod}.`);
+    if (encounter.method === 'Fish') requireValue(['Old Rod', 'Good Rod', 'Super Rod'].includes(encounter.rod), `${location.name}: fishing encounter ${encounter.pokemon} requires a rod.`);
   }
 }
 
@@ -82,9 +85,25 @@ for (const source of eggs) for (const name of source.pokemon || []) if (!pokemon
 for (const battle of battles.battles || []) {
   requireValue(battle.id && battle.trainer && battle.location && battle.category, `${battle.id || 'Unknown battle'}: battle requires id, trainer, location and category.`);
   requireValue(Array.isArray(battle.team) && battle.team.length > 0, `${battle.id}: battle team must be a non-empty array.`);
+  requireValue(typeof battle.subarea === 'string', `${battle.id}: battle subarea must be a string.`);
+  requireValue(typeof battle.boss === 'boolean', `${battle.id}: battle boss flag must be a boolean.`);
+  requireValue(typeof battle.rival === 'boolean', `${battle.id}: battle rival flag must be a boolean.`);
+  if (battle.subarea) {
+    requireValue(typeof battle.subareaInherited === 'boolean', `${battle.id}: documented battle subarea requires an inheritance flag.`);
+    requireValue(Number.isInteger(battle.subareaSourceRow) && battle.subareaSourceRow > 0, `${battle.id}: documented battle subarea requires a positive source row.`);
+    if (battle.subareaInherited) requireValue(battle.subareaSourceRow < battle.source?.row, `${battle.id}: inherited subarea must originate on an earlier source row.`);
+    else requireValue(battle.subareaSourceRow === battle.source?.row, `${battle.id}: explicit subarea must originate on its own source row.`);
+  } else {
+    requireValue(battle.subareaInherited == null && battle.subareaSourceRow == null, `${battle.id}: blank subarea must not carry inheritance metadata.`);
+  }
   for (const member of battle.team || []) {
     requireValue(member.name && Array.isArray(member.moves), `${battle.id}: every team member requires a name and moves array.`);
     requireValue(typeof member.level === 'number' || typeof member.level === 'string', `${battle.id}: ${member.name} requires a numeric or explicit text level.`);
+    if (member.conditionalKey === 'rival-starter') {
+      requireValue(battle.rival, `${battle.id}: rival-starter member must belong to a rival battle.`);
+      requireValue(Number.isInteger(member.evolutionStage) && member.evolutionStage >= 1 && member.evolutionStage <= 3, `${battle.id}: rival-starter member requires evolutionStage 1-3.`);
+      requireValue(/^SE Starter(?: [23])?$/i.test(member.name), `${battle.id}: rival-starter placeholder is malformed: ${member.name}.`);
+    }
     if (!member.conditional && !pokemonKeys.has(norm(member.name))) errors.push(`${battle.id}: unresolved battle Pokémon ${member.name}.`);
   }
 }

@@ -169,6 +169,12 @@ def slug(value: object) -> str:
     return re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")
 
 
+def normalise_trainer_subarea(value: object) -> str:
+    """Clean trainer More Info labels without changing their documented meaning."""
+    text = re.sub(r"\s+", " ", str(value or "")).strip()
+    return re.sub(r",\s*$", "", text).strip()
+
+
 def integer(value: object, default: int | None = None) -> int | None:
     try:
         return int(float(str(value)))
@@ -593,6 +599,11 @@ def encounter_rate(*values: object) -> float | int | None:
     return number(match.group(1)) if match else None
 
 
+def fishing_rod(value: object) -> str:
+    match = re.search(r"\b(Old|Good|Super)\s+Rod\b", str(value or ""), flags=re.I)
+    return f"{match.group(1).title()} Rod" if match else ""
+
+
 def import_locations(rows: dict[int, dict[int, object]], aliases: dict[str, dict]) -> tuple[list[dict], dict[str, list[dict]], list[dict]]:
     wild_methods = {"Wild", "Fish", "Surf", "Dive", "Tree", "Rock"}
     grouped: dict[str, list[dict]] = {}
@@ -622,6 +633,8 @@ def import_locations(rows: dict[int, dict[int, object]], aliases: dict[str, dict
                 "details": str(row.get(7, "")).strip(),
                 "period": "all-day",
             }
+            if method == "Fish":
+                encounter["rod"] = fishing_rod(row.get(7))
             grouped.setdefault(location, []).append(encounter)
             continue
         if method == "Trade":
@@ -651,11 +664,21 @@ def import_battles(rows: dict[int, dict[int, object]], aliases: dict[str, dict])
     slot_columns = (("AI", "AJ"), ("AK", "AL"), ("AM", "AN"), ("AO", "AP"), ("AQ", "AR"), ("AS", "AT"))
     battles = []
     unresolved = []
+    last_subarea_by_location = {}
+    last_subarea_row_by_location = {}
     for row_number, row in sorted(rows.items()):
         location = str(row.get(column_number("AD"), "") or row.get(column_number("AE"), "")).strip()
-        trainer = str(row.get(column_number("AG"), "")).strip()
+        raw_trainer = str(row.get(column_number("AG"), "")).strip()
+        trainer = re.sub(r"\s*\*\s*", " ", raw_trainer).strip()
+        is_boss = "*" in raw_trainer
         if row_number < 2 or not location or not trainer or trainer == "Trainer":
             continue
+        explicit_subarea = normalise_trainer_subarea(row.get(column_number("AF"), ""))
+        if explicit_subarea:
+            last_subarea_by_location[location] = explicit_subarea
+            last_subarea_row_by_location[location] = row_number
+        subarea = explicit_subarea or last_subarea_by_location.get(location, "")
+        subarea_source_row = last_subarea_row_by_location.get(location)
         is_vs = str(row.get(column_number("AH"), "")).strip().lower() == "vs"
         team = []
         for pokemon_column, level_column in slot_columns:
@@ -680,9 +703,12 @@ def import_battles(rows: dict[int, dict[int, object]], aliases: dict[str, dict])
                 "moves": [],
             }
             if not pokemon:
-                if re.fullmatch(r"SE Starter(?: [23])?", source_name, flags=re.I):
+                starter_match = re.fullmatch(r"SE Starter(?: ([23]))?", source_name, flags=re.I)
+                if starter_match:
                     member["conditional"] = True
                     member["condition"] = "Species depends on the player's starter choice."
+                    member["conditionalKey"] = "rival-starter"
+                    member["evolutionStage"] = int(starter_match.group(1) or 1)
                 else:
                     unresolved.append({"row": row_number, "trainer": trainer, "pokemon": source_name})
             team.append(member)
@@ -703,8 +729,10 @@ def import_battles(rows: dict[int, dict[int, object]], aliases: dict[str, dict])
             "mode": "default",
             "category": "VS Seeker Rematch" if is_vs else "Trainer Battle",
             "trainer": trainer,
+            "boss": is_boss,
+            "rival": bool(re.match(r"^Silver(?:\s|$)", trainer, flags=re.I)),
             "location": location,
-            "subarea": str(row.get(column_number("AF"), "")).strip(),
+            "subarea": subarea,
             "rematch": is_vs,
             "team": team,
             "notes": notes,
@@ -714,6 +742,9 @@ def import_battles(rows: dict[int, dict[int, object]], aliases: dict[str, dict])
                 "row": row_number,
             },
         }
+        if subarea:
+            battle["subareaInherited"] = not bool(explicit_subarea)
+            battle["subareaSourceRow"] = subarea_source_row
         if len(numeric_levels) == len(team):
             battle["levelMin"] = min(numeric_levels)
             battle["levelMax"] = max(numeric_levels)
@@ -722,10 +753,13 @@ def import_battles(rows: dict[int, dict[int, object]], aliases: dict[str, dict])
         "meta": {
             "version": "2026-07-01",
             "title": "Crystal Advance Redux community workbook trainer data",
-            "sourceNote": "Trainer, location, subarea, VS marker, species and documented levels are imported from Location Data columns AD:AT.",
+            "sourceNote": "Trainer, location, subarea, boss asterisk, VS marker, species and documented levels are imported from Location Data columns AD:AT. Blank More Info cells inherit the preceding explicit value within the same parent location.",
             "limitations": [
                 "The workbook does not document trainer moves, abilities, held items or natures.",
                 "Blank VS Seeker levels are explicitly shown as team-scaled; other blank levels remain not documented.",
+                "Asterisks beside trainer names are preserved as a major-battle flag rather than as part of the displayed name.",
+                "Silver's SE Starter placeholders are retained with their documented evolution stage and resolved from the player's starter at runtime.",
+                "Leading blank More Info cells are left in the parent location's main area; values are never backfilled from later rows.",
                 "Post-2026-07-01 Sevii trainer data is absent.",
             ],
         },
@@ -856,7 +890,7 @@ def import_workbook(workbook: OpenXmlWorkbook, project_root: Path) -> dict:
             "source": "Crystal Advance Redux community workbook (data current through 2026-07-01), reconciled with official developer changelog through 2026-07-19",
             "limitations": [
                 "Post-2026-07-01 Sevii encounter, item and trainer details are not present in the workbook.",
-                "Location Data More Info values are retained as encounter subareas rather than merged into a parent-location table.",
+                "Location Data Method values drive the primary encounter subsections; More Info values remain nested labels rather than replacing the encounter method.",
                 "July Seasonal Migration uses the official 2026-07-01 changelog correction of a 1% pool trigger.",
                 "Move stubs retain identity where the Scarlet/Violet baseline lacks an older or custom move definition.",
             ],
@@ -883,9 +917,19 @@ def import_workbook(workbook: OpenXmlWorkbook, project_root: Path) -> dict:
             "locations": len(locations),
             "wildEncounterRows": sum(len(location["day"]) for location in locations),
             "wildEncounterSubareas": len({(location["name"], encounter.get("subarea")) for location in locations for encounter in location["day"] if encounter.get("subarea")}),
+            "wildEncounterMethodCounts": {method: sum(1 for location in locations for encounter in location["day"] if encounter.get("method") == method) for method in ("Wild", "Tree", "Rock", "Surf", "Fish", "Dive")},
+            "fishingRodRows": sum(1 for location in locations for encounter in location["day"] if encounter.get("method") == "Fish" and encounter.get("rod")),
+            "oldRodRows": sum(1 for location in locations for encounter in location["day"] if encounter.get("rod") == "Old Rod"),
+            "goodRodRows": sum(1 for location in locations for encounter in location["day"] if encounter.get("rod") == "Good Rod"),
+            "superRodRows": sum(1 for location in locations for encounter in location["day"] if encounter.get("rod") == "Super Rod"),
             "acquisitionRows": sum(len(values) for values in acquisition.values()),
             "trainerBattles": len(battles["battles"]),
             "vsSeekerRematches": sum(1 for battle in battles["battles"] if battle["rematch"]),
+            "bossBattles": sum(1 for battle in battles["battles"] if battle.get("boss")),
+            "rivalBattles": sum(1 for battle in battles["battles"] if battle.get("rival")),
+            "trainerLocationsWithSubareas": len({battle["location"] for battle in battles["battles"] if battle.get("subarea")}),
+            "trainerBattleSubareas": len({(battle["location"], battle["subarea"]) for battle in battles["battles"] if battle.get("subarea")}),
+            "trainerInheritedSubareas": sum(1 for battle in battles["battles"] if battle.get("subareaInherited")),
             "itemOverrides": len(item_patches),
             "customItems": len(custom_items),
         },
