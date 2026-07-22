@@ -68,7 +68,7 @@ Mark each as `required`, `later`, or `disabled`.
 - Primary colour: `#f13f57`
 - Accent colour: `#f2bb4b`
 - Menu sprite preferences: Pokémon item sprites already used by the guide.
-- Trainer profile artwork: unedited Pokémon Showdown character sprites and a Bulbagarden FRLG Trainer Card reference; see `sources/trainer-profile-art-attribution.md`.
+- Trainer profile artwork: unedited Pokémon Showdown character sprites; the former Progress tab's Adventure Guide sprite is reused for Trainer navigation. The Bulbagarden FRLG Trainer Card reference remains attributed but is no longer rendered as the profile-card background; see `sources/trainer-profile-art-attribution.md`.
 - Attribution and original asset links: `sources/art-attribution.md`.
 
 ## Deployment
