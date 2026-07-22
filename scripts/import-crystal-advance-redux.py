@@ -175,6 +175,12 @@ def normalise_trainer_subarea(value: object) -> str:
     return re.sub(r",\s*$", "", text).strip()
 
 
+def normalise_trainer_venue(value: object) -> str:
+    """Clean the trainer Location label while retaining explicit workbook wording."""
+    text = re.sub(r"\s+", " ", str(value or "")).strip()
+    return "" if text == "?" else text
+
+
 def integer(value: object, default: int | None = None) -> int | None:
     try:
         return int(float(str(value)))
@@ -667,21 +673,55 @@ def import_battles(rows: dict[int, dict[int, object]], aliases: dict[str, dict])
     slot_columns = (("AI", "AJ"), ("AK", "AL"), ("AM", "AN"), ("AO", "AP"), ("AQ", "AR"), ("AS", "AT"))
     battles = []
     unresolved = []
+    last_venue_by_location = {}
+    last_venue_row_by_location = {}
     last_subarea_by_location = {}
     last_subarea_row_by_location = {}
     for row_number, row in sorted(rows.items()):
         location = str(row.get(column_number("AD"), "") or row.get(column_number("AE"), "")).strip()
+        if row_number < 2 or not location:
+            continue
+        explicit_venue = normalise_trainer_venue(row.get(column_number("AE"), ""))
+        explicit_subarea = normalise_trainer_subarea(row.get(column_number("AF"), ""))
         raw_trainer = str(row.get(column_number("AG"), "")).strip()
         trainer = re.sub(r"\s*\*\s*", " ", raw_trainer).strip()
         is_boss = "*" in raw_trainer
-        if row_number < 2 or not location or not trainer or trainer == "Trainer":
-            continue
-        explicit_subarea = normalise_trainer_subarea(row.get(column_number("AF"), ""))
+        has_team_data = any(str(row.get(column_number(pokemon_column), "")).strip() for pokemon_column, _ in slot_columns)
+        if explicit_venue:
+            last_venue_by_location[location] = explicit_venue
+            last_venue_row_by_location[location] = row_number
+            # A populated Location cell starts a new workbook block. Do not let
+            # More Info from the previous venue or visit bleed into the new one.
+            last_subarea_by_location.pop(location, None)
+            last_subarea_row_by_location.pop(location, None)
+        elif not raw_trainer and not has_team_data and not explicit_subarea:
+            # Blank separator rows delimit repeat/rematch blocks while the sparse
+            # Location value itself continues to apply below them.
+            last_subarea_by_location.pop(location, None)
+            last_subarea_row_by_location.pop(location, None)
         if explicit_subarea:
             last_subarea_by_location[location] = explicit_subarea
             last_subarea_row_by_location[location] = row_number
-        subarea = explicit_subarea or last_subarea_by_location.get(location, "")
-        subarea_source_row = last_subarea_row_by_location.get(location)
+        effective_venue = last_venue_by_location.get(location, "")
+        venue = effective_venue if normalise(effective_venue) != normalise(location) else ""
+        more_info = last_subarea_by_location.get(location, "")
+        if more_info and venue and normalise(more_info) != "rematch":
+            subarea = f"{venue} · {more_info}"
+            subarea_source_column = "AE+AF"
+        elif more_info:
+            subarea = more_info
+            subarea_source_column = "AF"
+        else:
+            subarea = venue
+            subarea_source_column = "AE" if venue else ""
+        subarea_from_more_info = bool(more_info)
+        subarea_source_row = (
+            last_subarea_row_by_location.get(location)
+            if subarea_from_more_info
+            else last_venue_row_by_location.get(location)
+        )
+        if not trainer or trainer == "Trainer":
+            continue
         is_vs = str(row.get(column_number("AH"), "")).strip().lower() == "vs"
         team = []
         for pokemon_column, level_column in slot_columns:
@@ -745,9 +785,19 @@ def import_battles(rows: dict[int, dict[int, object]], aliases: dict[str, dict])
                 "row": row_number,
             },
         }
+        if venue:
+            battle["venue"] = venue
+            battle["venueInherited"] = not bool(explicit_venue)
+            battle["venueSourceRow"] = last_venue_row_by_location.get(location)
+        if more_info:
+            battle["moreInfo"] = more_info
+            battle["moreInfoInherited"] = not bool(explicit_subarea)
         if subarea:
-            battle["subareaInherited"] = not bool(explicit_subarea)
+            battle["subareaInherited"] = (
+                not bool(explicit_subarea) if subarea_from_more_info else not bool(explicit_venue)
+            )
             battle["subareaSourceRow"] = subarea_source_row
+            battle["subareaSourceColumn"] = subarea_source_column
         if len(numeric_levels) == len(team):
             battle["levelMin"] = min(numeric_levels)
             battle["levelMax"] = max(numeric_levels)
@@ -756,13 +806,13 @@ def import_battles(rows: dict[int, dict[int, object]], aliases: dict[str, dict])
         "meta": {
             "version": "2026-07-01",
             "title": "Crystal Advance Redux community workbook trainer data",
-            "sourceNote": "Trainer, location, subarea, boss asterisk, VS marker, species and documented levels are imported from Location Data columns AD:AT. Blank More Info cells inherit the preceding explicit value within the same parent location.",
+            "sourceNote": "Trainer parent areas come from Location Data column AD, specific venues from column AE, and finer area/floor labels from column AF. Sparse Location and More Info values inherit within their workbook block. Venue and finer detail are combined when both are needed for an unambiguous label; a plain Rematch label remains unchanged.",
             "limitations": [
                 "The workbook does not document trainer moves, abilities, held items or natures.",
                 "Blank VS Seeker levels are explicitly shown as team-scaled; other blank levels remain not documented.",
                 "Asterisks beside trainer names are preserved as a major-battle flag rather than as part of the displayed name.",
                 "Silver's SE Starter placeholders are retained with their documented evolution stage and resolved from the player's starter at runtime.",
-                "Leading blank More Info cells are left in the parent location's main area; values are never backfilled from later rows.",
+                "Workbook question-mark Location placeholders are treated as undocumented and do not replace a known venue.",
                 "Post-2026-07-01 Sevii trainer data is absent.",
             ],
         },
@@ -936,6 +986,10 @@ def import_workbook(workbook: OpenXmlWorkbook, project_root: Path) -> dict:
             "trainerLocationsWithSubareas": len({battle["location"] for battle in battles["battles"] if battle.get("subarea")}),
             "trainerBattleSubareas": len({(battle["location"], battle["subarea"]) for battle in battles["battles"] if battle.get("subarea")}),
             "trainerInheritedSubareas": sum(1 for battle in battles["battles"] if battle.get("subareaInherited")),
+            "trainerBattlesWithSpecificVenues": sum(1 for battle in battles["battles"] if battle.get("venue")),
+            "trainerSpecificVenues": len({(battle["location"], battle["venue"]) for battle in battles["battles"] if battle.get("venue")}),
+            "trainerVenueFallbackSubareas": sum(1 for battle in battles["battles"] if battle.get("subareaSourceColumn") == "AE"),
+            "trainerCompositeVenueSubareas": sum(1 for battle in battles["battles"] if battle.get("subareaSourceColumn") == "AE+AF"),
             "itemOverrides": len(item_patches),
             "customItems": len(custom_items),
         },

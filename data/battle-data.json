@@ -2,13 +2,13 @@
   "meta": {
     "version": "2026-07-01",
     "title": "Crystal Advance Redux community workbook trainer data",
-    "sourceNote": "Trainer, location, subarea, boss asterisk, VS marker, species and documented levels are imported from Location Data columns AD:AT. Blank More Info cells inherit the preceding explicit value within the same parent location.",
+    "sourceNote": "Trainer parent areas come from Location Data column AD, specific venues from column AE, and finer area/floor labels from column AF. Sparse Location and More Info values inherit within their workbook block. Venue and finer detail are combined when both are needed for an unambiguous label; a plain Rematch label remains unchanged.",
     "limitations": [
       "The workbook does not document trainer moves, abilities, held items or natures.",
       "Blank VS Seeker levels are explicitly shown as team-scaled; other blank levels remain not documented.",
       "Asterisks beside trainer names are preserved as a major-battle flag rather than as part of the displayed name.",
       "Silver's SE Starter placeholders are retained with their documented evolution stage and resolved from the player's starter at runtime.",
-      "Leading blank More Info cells are left in the parent location's main area; values are never backfilled from later rows.",
+      "Workbook question-mark Location placeholders are treated as undocumented and do not replace a known venue.",
       "Post-2026-07-01 Sevii trainer data is absent."
     ]
   },
@@ -106,8 +106,11 @@
         "sheet": "Location Data",
         "row": 4
       },
+      "moreInfo": "North",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 4,
+      "subareaSourceColumn": "AF",
       "levelMin": 42,
       "levelMax": 42
     },
@@ -145,8 +148,11 @@
         "sheet": "Location Data",
         "row": 5
       },
+      "moreInfo": "North",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 4,
+      "subareaSourceColumn": "AF",
       "levelMin": 45,
       "levelMax": 45
     },
@@ -184,8 +190,11 @@
         "sheet": "Location Data",
         "row": 6
       },
+      "moreInfo": "North",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 4,
+      "subareaSourceColumn": "AF",
       "levelMin": 44,
       "levelMax": 45
     },
@@ -197,7 +206,7 @@
       "boss": false,
       "rival": false,
       "location": "Route 46",
-      "subarea": "North",
+      "subarea": "",
       "rematch": true,
       "team": [
         {
@@ -249,9 +258,7 @@
         "file": "sources/inbox/Crystal Advance Redux.xlsx",
         "sheet": "Location Data",
         "row": 8
-      },
-      "subareaInherited": true,
-      "subareaSourceRow": 4
+      }
     },
     {
       "id": "location-data-9-route-46-ted",
@@ -261,7 +268,7 @@
       "boss": false,
       "rival": false,
       "location": "Route 46",
-      "subarea": "North",
+      "subarea": "",
       "rematch": true,
       "team": [
         {
@@ -281,9 +288,7 @@
         "file": "sources/inbox/Crystal Advance Redux.xlsx",
         "sheet": "Location Data",
         "row": 9
-      },
-      "subareaInherited": true,
-      "subareaSourceRow": 4
+      }
     },
     {
       "id": "location-data-10-route-46-erin",
@@ -293,7 +298,7 @@
       "boss": false,
       "rival": false,
       "location": "Route 46",
-      "subarea": "North",
+      "subarea": "",
       "rematch": true,
       "team": [
         {
@@ -321,9 +326,7 @@
         "file": "sources/inbox/Crystal Advance Redux.xlsx",
         "sheet": "Location Data",
         "row": 10
-      },
-      "subareaInherited": true,
-      "subareaSourceRow": 4
+      }
     },
     {
       "id": "location-data-12-route-30-joey",
@@ -677,8 +680,11 @@
         "sheet": "Location Data",
         "row": 23
       },
+      "moreInfo": "2F",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 23,
+      "subareaSourceColumn": "AF",
       "levelMin": 6,
       "levelMax": 7
     },
@@ -724,8 +730,11 @@
         "sheet": "Location Data",
         "row": 24
       },
+      "moreInfo": "1F",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 24,
+      "subareaSourceColumn": "AF",
       "levelMin": 7,
       "levelMax": 7
     },
@@ -763,8 +772,11 @@
         "sheet": "Location Data",
         "row": 25
       },
+      "moreInfo": "2F",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 25,
+      "subareaSourceColumn": "AF",
       "levelMin": 8,
       "levelMax": 8
     },
@@ -802,8 +814,11 @@
         "sheet": "Location Data",
         "row": 26
       },
+      "moreInfo": "3F",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 26,
+      "subareaSourceColumn": "AF",
       "levelMin": 8,
       "levelMax": 9
     },
@@ -841,8 +856,11 @@
         "sheet": "Location Data",
         "row": 27
       },
+      "moreInfo": "3F",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 26,
+      "subareaSourceColumn": "AF",
       "levelMin": 9,
       "levelMax": 9
     },
@@ -880,8 +898,11 @@
         "sheet": "Location Data",
         "row": 28
       },
+      "moreInfo": "3F",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 26,
+      "subareaSourceColumn": "AF",
       "levelMin": 9,
       "levelMax": 10
     },
@@ -927,8 +948,11 @@
         "sheet": "Location Data",
         "row": 29
       },
+      "moreInfo": "3F",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 26,
+      "subareaSourceColumn": "AF",
       "levelMin": 10,
       "levelMax": 12
     },
@@ -940,7 +964,7 @@
       "boss": false,
       "rival": false,
       "location": "Violet City",
-      "subarea": "",
+      "subarea": "Violet Gym",
       "rematch": false,
       "team": [
         {
@@ -966,6 +990,12 @@
         "sheet": "Location Data",
         "row": 31
       },
+      "venue": "Violet Gym",
+      "venueInherited": false,
+      "venueSourceRow": 31,
+      "subareaInherited": false,
+      "subareaSourceRow": 31,
+      "subareaSourceColumn": "AE",
       "levelMin": 10,
       "levelMax": 10
     },
@@ -977,7 +1007,7 @@
       "boss": false,
       "rival": false,
       "location": "Violet City",
-      "subarea": "",
+      "subarea": "Violet Gym",
       "rematch": false,
       "team": [
         {
@@ -1011,6 +1041,12 @@
         "sheet": "Location Data",
         "row": 32
       },
+      "venue": "Violet Gym",
+      "venueInherited": true,
+      "venueSourceRow": 31,
+      "subareaInherited": true,
+      "subareaSourceRow": 31,
+      "subareaSourceColumn": "AE",
       "levelMin": 9,
       "levelMax": 10
     },
@@ -1050,8 +1086,14 @@
         "sheet": "Location Data",
         "row": 35
       },
+      "venue": "Violet Gym",
+      "venueInherited": false,
+      "venueSourceRow": 35,
+      "moreInfo": "Rematch",
+      "moreInfoInherited": false,
       "subareaInherited": false,
-      "subareaSourceRow": 35
+      "subareaSourceRow": 35,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-36-violet-city-rod",
@@ -1097,8 +1139,14 @@
         "sheet": "Location Data",
         "row": 36
       },
+      "venue": "Violet Gym",
+      "venueInherited": true,
+      "venueSourceRow": 35,
+      "moreInfo": "Rematch",
+      "moreInfoInherited": true,
       "subareaInherited": true,
-      "subareaSourceRow": 35
+      "subareaSourceRow": 35,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-39-ruins-of-alph-nathan",
@@ -1857,8 +1905,11 @@
         "sheet": "Location Data",
         "row": 61
       },
+      "moreInfo": "1F",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 61,
+      "subareaSourceColumn": "AF",
       "levelMin": 12,
       "levelMax": 13
     },
@@ -1904,8 +1955,11 @@
         "sheet": "Location Data",
         "row": 62
       },
+      "moreInfo": "1F",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 61,
+      "subareaSourceColumn": "AF",
       "levelMin": 9,
       "levelMax": 13
     },
@@ -1943,8 +1997,11 @@
         "sheet": "Location Data",
         "row": 63
       },
+      "moreInfo": "1F",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 61,
+      "subareaSourceColumn": "AF",
       "levelMin": 12,
       "levelMax": 13
     },
@@ -1974,8 +2031,11 @@
         "sheet": "Location Data",
         "row": 64
       },
+      "moreInfo": "1F",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 61,
+      "subareaSourceColumn": "AF",
       "levelMin": 14,
       "levelMax": 14
     },
@@ -2013,8 +2073,11 @@
         "sheet": "Location Data",
         "row": 65
       },
+      "moreInfo": "1F",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 61,
+      "subareaSourceColumn": "AF",
       "levelMin": 12,
       "levelMax": 13
     },
@@ -2055,8 +2118,11 @@
         "sheet": "Location Data",
         "row": 67
       },
+      "moreInfo": "1F",
+      "moreInfoInherited": false,
       "subareaInherited": false,
-      "subareaSourceRow": 67
+      "subareaSourceRow": 67,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-68-union-cave-russell",
@@ -2103,8 +2169,11 @@
         "sheet": "Location Data",
         "row": 68
       },
+      "moreInfo": "1F",
+      "moreInfoInherited": true,
       "subareaInherited": true,
-      "subareaSourceRow": 67
+      "subareaSourceRow": 67,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-69-union-cave-larry",
@@ -2135,8 +2204,11 @@
         "sheet": "Location Data",
         "row": 69
       },
+      "moreInfo": "1F",
+      "moreInfoInherited": true,
       "subareaInherited": true,
-      "subareaSourceRow": 67
+      "subareaSourceRow": 67,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-70-union-cave-ray",
@@ -2175,8 +2247,11 @@
         "sheet": "Location Data",
         "row": 70
       },
+      "moreInfo": "1F",
+      "moreInfoInherited": true,
       "subareaInherited": true,
-      "subareaSourceRow": 67
+      "subareaSourceRow": 67,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-72-union-cave-leonard",
@@ -2186,7 +2261,7 @@
       "boss": false,
       "rival": false,
       "location": "Union Cave",
-      "subarea": "B1F N",
+      "subarea": "Union Cave, Surf · B1F N",
       "rematch": false,
       "team": [
         {
@@ -2212,8 +2287,14 @@
         "sheet": "Location Data",
         "row": 72
       },
+      "venue": "Union Cave, Surf",
+      "venueInherited": false,
+      "venueSourceRow": 72,
+      "moreInfo": "B1F N",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 72,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 27,
       "levelMax": 29
     },
@@ -2225,7 +2306,7 @@
       "boss": false,
       "rival": false,
       "location": "Union Cave",
-      "subarea": "B1F N",
+      "subarea": "Union Cave, Surf · B1F N",
       "rematch": false,
       "team": [
         {
@@ -2259,8 +2340,14 @@
         "sheet": "Location Data",
         "row": 73
       },
+      "venue": "Union Cave, Surf",
+      "venueInherited": true,
+      "venueSourceRow": 72,
+      "moreInfo": "B1F N",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 72,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 27,
       "levelMax": 27
     },
@@ -2272,7 +2359,7 @@
       "boss": false,
       "rival": false,
       "location": "Union Cave",
-      "subarea": "B1F S",
+      "subarea": "Union Cave, Surf · B1F S",
       "rematch": false,
       "team": [
         {
@@ -2298,8 +2385,14 @@
         "sheet": "Location Data",
         "row": 74
       },
+      "venue": "Union Cave, Surf",
+      "venueInherited": true,
+      "venueSourceRow": 72,
+      "moreInfo": "B1F S",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 74,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 28,
       "levelMax": 28
     },
@@ -2311,7 +2404,7 @@
       "boss": false,
       "rival": false,
       "location": "Union Cave",
-      "subarea": "B1F S",
+      "subarea": "Union Cave, Surf · B1F S",
       "rematch": false,
       "team": [
         {
@@ -2329,8 +2422,14 @@
         "sheet": "Location Data",
         "row": 75
       },
+      "venue": "Union Cave, Surf",
+      "venueInherited": true,
+      "venueSourceRow": 72,
+      "moreInfo": "B1F S",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 74,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 30,
       "levelMax": 30
     },
@@ -2342,7 +2441,7 @@
       "boss": false,
       "rival": false,
       "location": "Union Cave",
-      "subarea": "B2F",
+      "subarea": "Union Cave, Surf · B2F",
       "rematch": false,
       "team": [
         {
@@ -2376,8 +2475,14 @@
         "sheet": "Location Data",
         "row": 76
       },
+      "venue": "Union Cave, Surf",
+      "venueInherited": true,
+      "venueSourceRow": 72,
+      "moreInfo": "B2F",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 76,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 31,
       "levelMax": 31
     },
@@ -2389,7 +2494,7 @@
       "boss": false,
       "rival": false,
       "location": "Union Cave",
-      "subarea": "B2F",
+      "subarea": "Union Cave, Surf · B2F",
       "rematch": false,
       "team": [
         {
@@ -2447,8 +2552,14 @@
         "sheet": "Location Data",
         "row": 77
       },
+      "venue": "Union Cave, Surf",
+      "venueInherited": true,
+      "venueSourceRow": 72,
+      "moreInfo": "B2F",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 76,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 28,
       "levelMax": 28
     },
@@ -2460,7 +2571,7 @@
       "boss": false,
       "rival": false,
       "location": "Union Cave",
-      "subarea": "B2F",
+      "subarea": "Union Cave, Surf · B2F",
       "rematch": false,
       "team": [
         {
@@ -2478,8 +2589,14 @@
         "sheet": "Location Data",
         "row": 78
       },
+      "venue": "Union Cave, Surf",
+      "venueInherited": true,
+      "venueSourceRow": 72,
+      "moreInfo": "B2F",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 76,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 32,
       "levelMax": 32
     },
@@ -2491,7 +2608,7 @@
       "boss": false,
       "rival": false,
       "location": "Union Cave",
-      "subarea": "B1F N",
+      "subarea": "Union Cave, Surf · B1F N",
       "rematch": true,
       "team": [
         {
@@ -2520,8 +2637,14 @@
         "sheet": "Location Data",
         "row": 80
       },
+      "venue": "Union Cave, Surf",
+      "venueInherited": true,
+      "venueSourceRow": 72,
+      "moreInfo": "B1F N",
+      "moreInfoInherited": false,
       "subareaInherited": false,
-      "subareaSourceRow": 80
+      "subareaSourceRow": 80,
+      "subareaSourceColumn": "AE+AF"
     },
     {
       "id": "location-data-81-union-cave-phillip",
@@ -2531,7 +2654,7 @@
       "boss": false,
       "rival": false,
       "location": "Union Cave",
-      "subarea": "B1F N",
+      "subarea": "Union Cave, Surf · B1F N",
       "rematch": true,
       "team": [
         {
@@ -2568,8 +2691,14 @@
         "sheet": "Location Data",
         "row": 81
       },
+      "venue": "Union Cave, Surf",
+      "venueInherited": true,
+      "venueSourceRow": 72,
+      "moreInfo": "B1F N",
+      "moreInfoInherited": true,
       "subareaInherited": true,
-      "subareaSourceRow": 80
+      "subareaSourceRow": 80,
+      "subareaSourceColumn": "AE+AF"
     },
     {
       "id": "location-data-82-union-cave-andrew",
@@ -2579,7 +2708,7 @@
       "boss": false,
       "rival": false,
       "location": "Union Cave",
-      "subarea": "B1F S",
+      "subarea": "Union Cave, Surf · B1F S",
       "rematch": true,
       "team": [
         {
@@ -2608,8 +2737,14 @@
         "sheet": "Location Data",
         "row": 82
       },
+      "venue": "Union Cave, Surf",
+      "venueInherited": true,
+      "venueSourceRow": 72,
+      "moreInfo": "B1F S",
+      "moreInfoInherited": false,
       "subareaInherited": false,
-      "subareaSourceRow": 82
+      "subareaSourceRow": 82,
+      "subareaSourceColumn": "AE+AF"
     },
     {
       "id": "location-data-83-union-cave-calvin",
@@ -2619,7 +2754,7 @@
       "boss": false,
       "rival": false,
       "location": "Union Cave",
-      "subarea": "B1F S",
+      "subarea": "Union Cave, Surf · B1F S",
       "rematch": true,
       "team": [
         {
@@ -2640,8 +2775,14 @@
         "sheet": "Location Data",
         "row": 83
       },
+      "venue": "Union Cave, Surf",
+      "venueInherited": true,
+      "venueSourceRow": 72,
+      "moreInfo": "B1F S",
+      "moreInfoInherited": true,
       "subareaInherited": true,
-      "subareaSourceRow": 82
+      "subareaSourceRow": 82,
+      "subareaSourceColumn": "AE+AF"
     },
     {
       "id": "location-data-84-union-cave-nick",
@@ -2651,7 +2792,7 @@
       "boss": false,
       "rival": false,
       "location": "Union Cave",
-      "subarea": "B2F",
+      "subarea": "Union Cave, Surf · B2F",
       "rematch": true,
       "team": [
         {
@@ -2688,8 +2829,14 @@
         "sheet": "Location Data",
         "row": 84
       },
+      "venue": "Union Cave, Surf",
+      "venueInherited": true,
+      "venueSourceRow": 72,
+      "moreInfo": "B2F",
+      "moreInfoInherited": false,
       "subareaInherited": false,
-      "subareaSourceRow": 84
+      "subareaSourceRow": 84,
+      "subareaSourceColumn": "AE+AF"
     },
     {
       "id": "location-data-85-union-cave-gwen",
@@ -2699,7 +2846,7 @@
       "boss": false,
       "rival": false,
       "location": "Union Cave",
-      "subarea": "B2F",
+      "subarea": "Union Cave, Surf · B2F",
       "rematch": true,
       "team": [
         {
@@ -2760,8 +2907,14 @@
         "sheet": "Location Data",
         "row": 85
       },
+      "venue": "Union Cave, Surf",
+      "venueInherited": true,
+      "venueSourceRow": 72,
+      "moreInfo": "B2F",
+      "moreInfoInherited": true,
       "subareaInherited": true,
-      "subareaSourceRow": 84
+      "subareaSourceRow": 84,
+      "subareaSourceColumn": "AE+AF"
     },
     {
       "id": "location-data-86-union-cave-emma",
@@ -2771,7 +2924,7 @@
       "boss": false,
       "rival": false,
       "location": "Union Cave",
-      "subarea": "B2F",
+      "subarea": "Union Cave, Surf · B2F",
       "rematch": true,
       "team": [
         {
@@ -2792,8 +2945,14 @@
         "sheet": "Location Data",
         "row": 86
       },
+      "venue": "Union Cave, Surf",
+      "venueInherited": true,
+      "venueSourceRow": 72,
+      "moreInfo": "B2F",
+      "moreInfoInherited": true,
       "subareaInherited": true,
-      "subareaSourceRow": 84
+      "subareaSourceRow": 84,
+      "subareaSourceColumn": "AE+AF"
     },
     {
       "id": "location-data-88-route-33-anthony",
@@ -2904,8 +3063,11 @@
         "sheet": "Location Data",
         "row": 92
       },
+      "moreInfo": "1F",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 92,
+      "subareaSourceColumn": "AF",
       "levelMin": 12,
       "levelMax": 13
     },
@@ -2943,8 +3105,11 @@
         "sheet": "Location Data",
         "row": 93
       },
+      "moreInfo": "1F",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 92,
+      "subareaSourceColumn": "AF",
       "levelMin": 13,
       "levelMax": 13
     },
@@ -2990,8 +3155,11 @@
         "sheet": "Location Data",
         "row": 94
       },
+      "moreInfo": "1F",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 92,
+      "subareaSourceColumn": "AF",
       "levelMin": 13,
       "levelMax": 14
     },
@@ -3037,8 +3205,11 @@
         "sheet": "Location Data",
         "row": 95
       },
+      "moreInfo": "1F",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 92,
+      "subareaSourceColumn": "AF",
       "levelMin": 14,
       "levelMax": 15
     },
@@ -3101,7 +3272,7 @@
       "boss": false,
       "rival": false,
       "location": "Azalea Town",
-      "subarea": "",
+      "subarea": "Azalea Gym",
       "rematch": false,
       "team": [
         {
@@ -3127,6 +3298,12 @@
         "sheet": "Location Data",
         "row": 99
       },
+      "venue": "Azalea Gym",
+      "venueInherited": false,
+      "venueSourceRow": 99,
+      "subareaInherited": false,
+      "subareaSourceRow": 99,
+      "subareaSourceColumn": "AE",
       "levelMin": 15,
       "levelMax": 15
     },
@@ -3138,7 +3315,7 @@
       "boss": false,
       "rival": false,
       "location": "Azalea Town",
-      "subarea": "",
+      "subarea": "Azalea Gym",
       "rematch": false,
       "team": [
         {
@@ -3180,6 +3357,12 @@
         "sheet": "Location Data",
         "row": 100
       },
+      "venue": "Azalea Gym",
+      "venueInherited": true,
+      "venueSourceRow": 99,
+      "subareaInherited": true,
+      "subareaSourceRow": 99,
+      "subareaSourceColumn": "AE",
       "levelMin": 13,
       "levelMax": 14
     },
@@ -3191,7 +3374,7 @@
       "boss": false,
       "rival": false,
       "location": "Azalea Town",
-      "subarea": "",
+      "subarea": "Azalea Gym",
       "rematch": false,
       "team": [
         {
@@ -3225,6 +3408,12 @@
         "sheet": "Location Data",
         "row": 101
       },
+      "venue": "Azalea Gym",
+      "venueInherited": true,
+      "venueSourceRow": 99,
+      "subareaInherited": true,
+      "subareaSourceRow": 99,
+      "subareaSourceColumn": "AE",
       "levelMin": 11,
       "levelMax": 15
     },
@@ -3236,7 +3425,7 @@
       "boss": false,
       "rival": false,
       "location": "Azalea Town",
-      "subarea": "",
+      "subarea": "Azalea Gym",
       "rematch": false,
       "team": [
         {
@@ -3262,6 +3451,12 @@
         "sheet": "Location Data",
         "row": 102
       },
+      "venue": "Azalea Gym",
+      "venueInherited": true,
+      "venueSourceRow": 99,
+      "subareaInherited": true,
+      "subareaSourceRow": 99,
+      "subareaSourceColumn": "AE",
       "levelMin": 15,
       "levelMax": 16
     },
@@ -3301,8 +3496,14 @@
         "sheet": "Location Data",
         "row": 105
       },
+      "venue": "Azalea Gym",
+      "venueInherited": false,
+      "venueSourceRow": 105,
+      "moreInfo": "Rematch",
+      "moreInfoInherited": false,
       "subareaInherited": false,
-      "subareaSourceRow": 105
+      "subareaSourceRow": 105,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-106-azalea-town-al",
@@ -3356,8 +3557,14 @@
         "sheet": "Location Data",
         "row": 106
       },
+      "venue": "Azalea Gym",
+      "venueInherited": true,
+      "venueSourceRow": 105,
+      "moreInfo": "Rematch",
+      "moreInfoInherited": true,
       "subareaInherited": true,
-      "subareaSourceRow": 105
+      "subareaSourceRow": 105,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-107-azalea-town-benny",
@@ -3403,8 +3610,14 @@
         "sheet": "Location Data",
         "row": 107
       },
+      "venue": "Azalea Gym",
+      "venueInherited": true,
+      "venueSourceRow": 105,
+      "moreInfo": "Rematch",
+      "moreInfoInherited": true,
       "subareaInherited": true,
-      "subareaSourceRow": 105
+      "subareaSourceRow": 105,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-108-azalea-town-josh",
@@ -3450,8 +3663,14 @@
         "sheet": "Location Data",
         "row": 108
       },
+      "venue": "Azalea Gym",
+      "venueInherited": true,
+      "venueSourceRow": 105,
+      "moreInfo": "Rematch",
+      "moreInfoInherited": true,
       "subareaInherited": true,
-      "subareaSourceRow": 105
+      "subareaSourceRow": 105,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-111-ilex-forest-wayne",
@@ -3712,8 +3931,11 @@
         "sheet": "Location Data",
         "row": 117
       },
+      "moreInfo": "Night",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 117,
+      "subareaSourceColumn": "AF",
       "levelMin": 17,
       "levelMax": 17
     },
@@ -3743,8 +3965,11 @@
         "sheet": "Location Data",
         "row": 118
       },
+      "moreInfo": "Night",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 117,
+      "subareaSourceColumn": "AF",
       "levelMin": 19,
       "levelMax": 19
     },
@@ -3756,7 +3981,7 @@
       "boss": false,
       "rival": false,
       "location": "Route 34",
-      "subarea": "Night",
+      "subarea": "",
       "rematch": true,
       "team": [
         {
@@ -3800,9 +4025,7 @@
         "file": "sources/inbox/Crystal Advance Redux.xlsx",
         "sheet": "Location Data",
         "row": 120
-      },
-      "subareaInherited": true,
-      "subareaSourceRow": 117
+      }
     },
     {
       "id": "location-data-121-route-34-brandon",
@@ -3812,7 +4035,7 @@
       "boss": false,
       "rival": false,
       "location": "Route 34",
-      "subarea": "Night",
+      "subarea": "",
       "rematch": true,
       "team": [
         {
@@ -3840,9 +4063,7 @@
         "file": "sources/inbox/Crystal Advance Redux.xlsx",
         "sheet": "Location Data",
         "row": 121
-      },
-      "subareaInherited": true,
-      "subareaSourceRow": 117
+      }
     },
     {
       "id": "location-data-122-route-34-gina",
@@ -3852,7 +4073,7 @@
       "boss": false,
       "rival": false,
       "location": "Route 34",
-      "subarea": "Night",
+      "subarea": "",
       "rematch": true,
       "team": [
         {
@@ -3888,9 +4109,7 @@
         "file": "sources/inbox/Crystal Advance Redux.xlsx",
         "sheet": "Location Data",
         "row": 122
-      },
-      "subareaInherited": true,
-      "subareaSourceRow": 117
+      }
     },
     {
       "id": "location-data-123-route-34-ian",
@@ -3900,7 +4119,7 @@
       "boss": false,
       "rival": false,
       "location": "Route 34",
-      "subarea": "Night",
+      "subarea": "",
       "rematch": true,
       "team": [
         {
@@ -3944,9 +4163,7 @@
         "file": "sources/inbox/Crystal Advance Redux.xlsx",
         "sheet": "Location Data",
         "row": 123
-      },
-      "subareaInherited": true,
-      "subareaSourceRow": 117
+      }
     },
     {
       "id": "location-data-124-route-34-keith-db",
@@ -3985,8 +4202,11 @@
         "sheet": "Location Data",
         "row": 124
       },
+      "moreInfo": "Night",
+      "moreInfoInherited": false,
       "subareaInherited": false,
-      "subareaSourceRow": 124
+      "subareaSourceRow": 124,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-125-route-34-todd",
@@ -4017,8 +4237,11 @@
         "sheet": "Location Data",
         "row": 125
       },
+      "moreInfo": "Night",
+      "moreInfoInherited": true,
       "subareaInherited": true,
-      "subareaSourceRow": 124
+      "subareaSourceRow": 124,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-127-route-34-irene",
@@ -4028,7 +4251,7 @@
       "boss": false,
       "rival": false,
       "location": "Route 34",
-      "subarea": "Gauntlet",
+      "subarea": "Route 34, Surf · Gauntlet",
       "rematch": false,
       "team": [
         {
@@ -4054,8 +4277,14 @@
         "sheet": "Location Data",
         "row": 127
       },
+      "venue": "Route 34, Surf",
+      "venueInherited": false,
+      "venueSourceRow": 127,
+      "moreInfo": "Gauntlet",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 127,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 28,
       "levelMax": 29
     },
@@ -4067,7 +4296,7 @@
       "boss": false,
       "rival": false,
       "location": "Route 34",
-      "subarea": "Gauntlet",
+      "subarea": "Route 34, Surf · Gauntlet",
       "rematch": false,
       "team": [
         {
@@ -4093,8 +4322,14 @@
         "sheet": "Location Data",
         "row": 128
       },
+      "venue": "Route 34, Surf",
+      "venueInherited": true,
+      "venueSourceRow": 127,
+      "moreInfo": "Gauntlet",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 128,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 28,
       "levelMax": 29
     },
@@ -4106,7 +4341,7 @@
       "boss": false,
       "rival": false,
       "location": "Route 34",
-      "subarea": "Gauntlet",
+      "subarea": "Route 34, Surf · Gauntlet",
       "rematch": false,
       "team": [
         {
@@ -4132,8 +4367,14 @@
         "sheet": "Location Data",
         "row": 129
       },
+      "venue": "Route 34, Surf",
+      "venueInherited": true,
+      "venueSourceRow": 127,
+      "moreInfo": "Gauntlet",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 129,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 28,
       "levelMax": 29
     },
@@ -4145,7 +4386,7 @@
       "boss": false,
       "rival": false,
       "location": "Goldenrod City",
-      "subarea": "",
+      "subarea": "Goldenrod Underground",
       "rematch": false,
       "team": [
         {
@@ -4179,6 +4420,12 @@
         "sheet": "Location Data",
         "row": 131
       },
+      "venue": "Goldenrod Underground",
+      "venueInherited": false,
+      "venueSourceRow": 131,
+      "subareaInherited": false,
+      "subareaSourceRow": 131,
+      "subareaSourceColumn": "AE",
       "levelMin": 15,
       "levelMax": 16
     },
@@ -4190,7 +4437,7 @@
       "boss": false,
       "rival": false,
       "location": "Goldenrod City",
-      "subarea": "",
+      "subarea": "Goldenrod Underground",
       "rematch": false,
       "team": [
         {
@@ -4216,6 +4463,12 @@
         "sheet": "Location Data",
         "row": 132
       },
+      "venue": "Goldenrod Underground",
+      "venueInherited": true,
+      "venueSourceRow": 131,
+      "subareaInherited": true,
+      "subareaSourceRow": 131,
+      "subareaSourceColumn": "AE",
       "levelMin": 17,
       "levelMax": 17
     },
@@ -4227,7 +4480,7 @@
       "boss": false,
       "rival": false,
       "location": "Goldenrod City",
-      "subarea": "",
+      "subarea": "Goldenrod Underground",
       "rematch": false,
       "team": [
         {
@@ -4269,6 +4522,12 @@
         "sheet": "Location Data",
         "row": 133
       },
+      "venue": "Goldenrod Underground",
+      "venueInherited": true,
+      "venueSourceRow": 131,
+      "subareaInherited": true,
+      "subareaSourceRow": 131,
+      "subareaSourceColumn": "AE",
       "levelMin": 15,
       "levelMax": 17
     },
@@ -4280,7 +4539,7 @@
       "boss": false,
       "rival": false,
       "location": "Goldenrod City",
-      "subarea": "",
+      "subarea": "Goldenrod Underground",
       "rematch": false,
       "team": [
         {
@@ -4306,6 +4565,12 @@
         "sheet": "Location Data",
         "row": 134
       },
+      "venue": "Goldenrod Underground",
+      "venueInherited": true,
+      "venueSourceRow": 131,
+      "subareaInherited": true,
+      "subareaSourceRow": 131,
+      "subareaSourceColumn": "AE",
       "levelMin": 16,
       "levelMax": 18
     },
@@ -4317,7 +4582,7 @@
       "boss": false,
       "rival": false,
       "location": "Goldenrod City",
-      "subarea": "",
+      "subarea": "Goldenrod Underground",
       "rematch": true,
       "team": [
         {
@@ -4345,7 +4610,13 @@
         "file": "sources/inbox/Crystal Advance Redux.xlsx",
         "sheet": "Location Data",
         "row": 136
-      }
+      },
+      "venue": "Goldenrod Underground",
+      "venueInherited": true,
+      "venueSourceRow": 131,
+      "subareaInherited": true,
+      "subareaSourceRow": 131,
+      "subareaSourceColumn": "AE"
     },
     {
       "id": "location-data-137-goldenrod-city-isaac",
@@ -4355,7 +4626,7 @@
       "boss": false,
       "rival": false,
       "location": "Goldenrod City",
-      "subarea": "",
+      "subarea": "Goldenrod Underground",
       "rematch": true,
       "team": [
         {
@@ -4383,7 +4654,13 @@
         "file": "sources/inbox/Crystal Advance Redux.xlsx",
         "sheet": "Location Data",
         "row": 137
-      }
+      },
+      "venue": "Goldenrod Underground",
+      "venueInherited": true,
+      "venueSourceRow": 131,
+      "subareaInherited": true,
+      "subareaSourceRow": 131,
+      "subareaSourceColumn": "AE"
     },
     {
       "id": "location-data-138-goldenrod-city-teru",
@@ -4393,7 +4670,7 @@
       "boss": false,
       "rival": false,
       "location": "Goldenrod City",
-      "subarea": "",
+      "subarea": "Goldenrod Underground",
       "rematch": true,
       "team": [
         {
@@ -4437,7 +4714,13 @@
         "file": "sources/inbox/Crystal Advance Redux.xlsx",
         "sheet": "Location Data",
         "row": 138
-      }
+      },
+      "venue": "Goldenrod Underground",
+      "venueInherited": true,
+      "venueSourceRow": 131,
+      "subareaInherited": true,
+      "subareaSourceRow": 131,
+      "subareaSourceColumn": "AE"
     },
     {
       "id": "location-data-139-goldenrod-city-donald",
@@ -4447,7 +4730,7 @@
       "boss": false,
       "rival": false,
       "location": "Goldenrod City",
-      "subarea": "",
+      "subarea": "Goldenrod Underground",
       "rematch": true,
       "team": [
         {
@@ -4475,7 +4758,13 @@
         "file": "sources/inbox/Crystal Advance Redux.xlsx",
         "sheet": "Location Data",
         "row": 139
-      }
+      },
+      "venue": "Goldenrod Underground",
+      "venueInherited": true,
+      "venueSourceRow": 131,
+      "subareaInherited": true,
+      "subareaSourceRow": 131,
+      "subareaSourceColumn": "AE"
     },
     {
       "id": "location-data-141-goldenrod-city-victoria",
@@ -4485,7 +4774,7 @@
       "boss": false,
       "rival": false,
       "location": "Goldenrod City",
-      "subarea": "",
+      "subarea": "Goldenrod Gym",
       "rematch": false,
       "team": [
         {
@@ -4519,6 +4808,12 @@
         "sheet": "Location Data",
         "row": 141
       },
+      "venue": "Goldenrod Gym",
+      "venueInherited": false,
+      "venueSourceRow": 141,
+      "subareaInherited": false,
+      "subareaSourceRow": 141,
+      "subareaSourceColumn": "AE",
       "levelMin": 12,
       "levelMax": 20
     },
@@ -4530,7 +4825,7 @@
       "boss": false,
       "rival": false,
       "location": "Goldenrod City",
-      "subarea": "",
+      "subarea": "Goldenrod Gym",
       "rematch": false,
       "team": [
         {
@@ -4556,6 +4851,12 @@
         "sheet": "Location Data",
         "row": 142
       },
+      "venue": "Goldenrod Gym",
+      "venueInherited": true,
+      "venueSourceRow": 141,
+      "subareaInherited": true,
+      "subareaSourceRow": 141,
+      "subareaSourceColumn": "AE",
       "levelMin": 19,
       "levelMax": 20
     },
@@ -4567,7 +4868,7 @@
       "boss": false,
       "rival": false,
       "location": "Goldenrod City",
-      "subarea": "",
+      "subarea": "Goldenrod Gym",
       "rematch": false,
       "team": [
         {
@@ -4593,6 +4894,12 @@
         "sheet": "Location Data",
         "row": 143
       },
+      "venue": "Goldenrod Gym",
+      "venueInherited": true,
+      "venueSourceRow": 141,
+      "subareaInherited": true,
+      "subareaSourceRow": 141,
+      "subareaSourceColumn": "AE",
       "levelMin": 20,
       "levelMax": 21
     },
@@ -4604,7 +4911,7 @@
       "boss": false,
       "rival": false,
       "location": "Goldenrod City",
-      "subarea": "",
+      "subarea": "Goldenrod Gym",
       "rematch": false,
       "team": [
         {
@@ -4638,6 +4945,12 @@
         "sheet": "Location Data",
         "row": 144
       },
+      "venue": "Goldenrod Gym",
+      "venueInherited": true,
+      "venueSourceRow": 141,
+      "subareaInherited": true,
+      "subareaSourceRow": 141,
+      "subareaSourceColumn": "AE",
       "levelMin": 18,
       "levelMax": 20
     },
@@ -4649,7 +4962,7 @@
       "boss": false,
       "rival": false,
       "location": "Goldenrod City",
-      "subarea": "1F",
+      "subarea": "Goldenrod Radio Tower · 1F",
       "rematch": false,
       "team": [
         {
@@ -4675,8 +4988,14 @@
         "sheet": "Location Data",
         "row": 147
       },
+      "venue": "Goldenrod Radio Tower",
+      "venueInherited": false,
+      "venueSourceRow": 147,
+      "moreInfo": "1F",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 147,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 36,
       "levelMax": 36
     },
@@ -4688,7 +5007,7 @@
       "boss": false,
       "rival": false,
       "location": "Goldenrod City",
-      "subarea": "2F",
+      "subarea": "Goldenrod Radio Tower · 2F",
       "rematch": false,
       "team": [
         {
@@ -4706,8 +5025,14 @@
         "sheet": "Location Data",
         "row": 148
       },
+      "venue": "Goldenrod Radio Tower",
+      "venueInherited": true,
+      "venueSourceRow": 147,
+      "moreInfo": "2F",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 148,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 38,
       "levelMax": 38
     },
@@ -4719,7 +5044,7 @@
       "boss": false,
       "rival": false,
       "location": "Goldenrod City",
-      "subarea": "2F",
+      "subarea": "Goldenrod Radio Tower · 2F",
       "rematch": false,
       "team": [
         {
@@ -4769,8 +5094,14 @@
         "sheet": "Location Data",
         "row": 149
       },
+      "venue": "Goldenrod Radio Tower",
+      "venueInherited": true,
+      "venueSourceRow": 147,
+      "moreInfo": "2F",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 148,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 33,
       "levelMax": 33
     },
@@ -4782,7 +5113,7 @@
       "boss": false,
       "rival": false,
       "location": "Goldenrod City",
-      "subarea": "2F",
+      "subarea": "Goldenrod Radio Tower · 2F",
       "rematch": false,
       "team": [
         {
@@ -4808,8 +5139,14 @@
         "sheet": "Location Data",
         "row": 150
       },
+      "venue": "Goldenrod Radio Tower",
+      "venueInherited": true,
+      "venueSourceRow": 147,
+      "moreInfo": "2F",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 148,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 36,
       "levelMax": 37
     },
@@ -4821,7 +5158,7 @@
       "boss": false,
       "rival": false,
       "location": "Goldenrod City",
-      "subarea": "3F West",
+      "subarea": "Goldenrod Radio Tower · 3F West",
       "rematch": false,
       "team": [
         {
@@ -4847,8 +5184,14 @@
         "sheet": "Location Data",
         "row": 151
       },
+      "venue": "Goldenrod Radio Tower",
+      "venueInherited": true,
+      "venueSourceRow": 147,
+      "moreInfo": "3F West",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 151,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 37,
       "levelMax": 38
     },
@@ -4860,7 +5203,7 @@
       "boss": false,
       "rival": false,
       "location": "Goldenrod City",
-      "subarea": "3F West",
+      "subarea": "Goldenrod Radio Tower · 3F West",
       "rematch": false,
       "team": [
         {
@@ -4894,8 +5237,14 @@
         "sheet": "Location Data",
         "row": 152
       },
+      "venue": "Goldenrod Radio Tower",
+      "venueInherited": true,
+      "venueSourceRow": 147,
+      "moreInfo": "3F West",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 151,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 35,
       "levelMax": 35
     },
@@ -4907,7 +5256,7 @@
       "boss": false,
       "rival": false,
       "location": "Goldenrod City",
-      "subarea": "4F West",
+      "subarea": "Goldenrod Radio Tower · 4F West",
       "rematch": false,
       "team": [
         {
@@ -4941,8 +5290,14 @@
         "sheet": "Location Data",
         "row": 153
       },
+      "venue": "Goldenrod Radio Tower",
+      "venueInherited": true,
+      "venueSourceRow": 147,
+      "moreInfo": "4F West",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 153,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 35,
       "levelMax": 35
     },
@@ -4954,7 +5309,7 @@
       "boss": false,
       "rival": false,
       "location": "Goldenrod City",
-      "subarea": "4F West",
+      "subarea": "Goldenrod Radio Tower · 4F West",
       "rematch": false,
       "team": [
         {
@@ -4980,8 +5335,14 @@
         "sheet": "Location Data",
         "row": 154
       },
+      "venue": "Goldenrod Radio Tower",
+      "venueInherited": true,
+      "venueSourceRow": 147,
+      "moreInfo": "4F West",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 153,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 36,
       "levelMax": 36
     },
@@ -4993,7 +5354,7 @@
       "boss": false,
       "rival": false,
       "location": "Goldenrod City",
-      "subarea": "5F West",
+      "subarea": "Goldenrod Radio Tower · 5F West",
       "rematch": false,
       "team": [
         {
@@ -5051,8 +5412,14 @@
         "sheet": "Location Data",
         "row": 155
       },
+      "venue": "Goldenrod Radio Tower",
+      "venueInherited": true,
+      "venueSourceRow": 147,
+      "moreInfo": "5F West",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 155,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 37,
       "levelMax": 39
     },
@@ -5064,7 +5431,7 @@
       "boss": true,
       "rival": true,
       "location": "Goldenrod City",
-      "subarea": "B1F",
+      "subarea": "Goldenrod Basement · B1F",
       "rematch": false,
       "team": [
         {
@@ -5120,8 +5487,14 @@
         "sheet": "Location Data",
         "row": 157
       },
+      "venue": "Goldenrod Basement",
+      "venueInherited": false,
+      "venueSourceRow": 157,
+      "moreInfo": "B1F",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 157,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 37,
       "levelMax": 42
     },
@@ -5133,7 +5506,7 @@
       "boss": false,
       "rival": false,
       "location": "Goldenrod City",
-      "subarea": "B1F",
+      "subarea": "Goldenrod Basement · B1F",
       "rematch": false,
       "team": [
         {
@@ -5151,8 +5524,14 @@
         "sheet": "Location Data",
         "row": 158
       },
+      "venue": "Goldenrod Basement",
+      "venueInherited": true,
+      "venueSourceRow": 157,
+      "moreInfo": "B1F",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 157,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 37,
       "levelMax": 37
     },
@@ -5164,7 +5543,7 @@
       "boss": false,
       "rival": false,
       "location": "Goldenrod City",
-      "subarea": "B1F",
+      "subarea": "Goldenrod Basement · B1F",
       "rematch": false,
       "team": [
         {
@@ -5198,8 +5577,14 @@
         "sheet": "Location Data",
         "row": 159
       },
+      "venue": "Goldenrod Basement",
+      "venueInherited": true,
+      "venueSourceRow": 157,
+      "moreInfo": "B1F",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 157,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 35,
       "levelMax": 35
     },
@@ -5211,7 +5596,7 @@
       "boss": false,
       "rival": false,
       "location": "Goldenrod City",
-      "subarea": "B1F",
+      "subarea": "Goldenrod Basement · B1F",
       "rematch": false,
       "team": [
         {
@@ -5237,8 +5622,14 @@
         "sheet": "Location Data",
         "row": 160
       },
+      "venue": "Goldenrod Basement",
+      "venueInherited": true,
+      "venueSourceRow": 157,
+      "moreInfo": "B1F",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 157,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 36,
       "levelMax": 36
     },
@@ -5250,7 +5641,7 @@
       "boss": false,
       "rival": false,
       "location": "Goldenrod City",
-      "subarea": "B1F",
+      "subarea": "Goldenrod Basement · B1F",
       "rematch": false,
       "team": [
         {
@@ -5284,8 +5675,14 @@
         "sheet": "Location Data",
         "row": 161
       },
+      "venue": "Goldenrod Basement",
+      "venueInherited": true,
+      "venueSourceRow": 157,
+      "moreInfo": "B1F",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 157,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 35,
       "levelMax": 35
     },
@@ -5297,7 +5694,7 @@
       "boss": false,
       "rival": false,
       "location": "Goldenrod City",
-      "subarea": "B1F",
+      "subarea": "Goldenrod Basement · B1F",
       "rematch": false,
       "team": [
         {
@@ -5323,8 +5720,14 @@
         "sheet": "Location Data",
         "row": 162
       },
+      "venue": "Goldenrod Basement",
+      "venueInherited": true,
+      "venueSourceRow": 157,
+      "moreInfo": "B1F",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 157,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 34,
       "levelMax": 36
     },
@@ -5336,7 +5739,7 @@
       "boss": false,
       "rival": false,
       "location": "Goldenrod City",
-      "subarea": "B1F",
+      "subarea": "Goldenrod Basement · B1F",
       "rematch": false,
       "team": [
         {
@@ -5362,8 +5765,14 @@
         "sheet": "Location Data",
         "row": 163
       },
+      "venue": "Goldenrod Basement",
+      "venueInherited": true,
+      "venueSourceRow": 157,
+      "moreInfo": "B1F",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 157,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 37,
       "levelMax": 37
     },
@@ -5375,7 +5784,7 @@
       "boss": false,
       "rival": false,
       "location": "Goldenrod City",
-      "subarea": "B2F",
+      "subarea": "Goldenrod Basement · B2F",
       "rematch": false,
       "team": [
         {
@@ -5401,8 +5810,14 @@
         "sheet": "Location Data",
         "row": 164
       },
+      "venue": "Goldenrod Basement",
+      "venueInherited": true,
+      "venueSourceRow": 157,
+      "moreInfo": "B2F",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 164,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 37,
       "levelMax": 37
     },
@@ -5414,7 +5829,7 @@
       "boss": false,
       "rival": false,
       "location": "Goldenrod City",
-      "subarea": "B2F",
+      "subarea": "Goldenrod Basement · B2F",
       "rematch": false,
       "team": [
         {
@@ -5440,8 +5855,14 @@
         "sheet": "Location Data",
         "row": 165
       },
+      "venue": "Goldenrod Basement",
+      "venueInherited": true,
+      "venueSourceRow": 157,
+      "moreInfo": "B2F",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 164,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 37,
       "levelMax": 37
     },
@@ -5453,7 +5874,7 @@
       "boss": false,
       "rival": false,
       "location": "Goldenrod City",
-      "subarea": "B2F",
+      "subarea": "Goldenrod Basement · B2F",
       "rematch": false,
       "team": [
         {
@@ -5479,8 +5900,14 @@
         "sheet": "Location Data",
         "row": 166
       },
+      "venue": "Goldenrod Basement",
+      "venueInherited": true,
+      "venueSourceRow": 157,
+      "moreInfo": "B2F",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 164,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 38,
       "levelMax": 38
     },
@@ -5492,7 +5919,7 @@
       "boss": false,
       "rival": false,
       "location": "Goldenrod City",
-      "subarea": "3F East",
+      "subarea": "Goldenrod Radio Tower · 3F East",
       "rematch": false,
       "team": [
         {
@@ -5526,8 +5953,14 @@
         "sheet": "Location Data",
         "row": 168
       },
+      "venue": "Goldenrod Radio Tower",
+      "venueInherited": false,
+      "venueSourceRow": 168,
+      "moreInfo": "3F East",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 168,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 38,
       "levelMax": 39
     },
@@ -5539,7 +5972,7 @@
       "boss": false,
       "rival": false,
       "location": "Goldenrod City",
-      "subarea": "4F East",
+      "subarea": "Goldenrod Radio Tower · 4F East",
       "rematch": false,
       "team": [
         {
@@ -5557,8 +5990,14 @@
         "sheet": "Location Data",
         "row": 169
       },
+      "venue": "Goldenrod Radio Tower",
+      "venueInherited": true,
+      "venueSourceRow": 168,
+      "moreInfo": "4F East",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 169,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 40,
       "levelMax": 40
     },
@@ -5570,7 +6009,7 @@
       "boss": false,
       "rival": false,
       "location": "Goldenrod City",
-      "subarea": "4F East",
+      "subarea": "Goldenrod Radio Tower · 4F East",
       "rematch": false,
       "team": [
         {
@@ -5612,8 +6051,14 @@
         "sheet": "Location Data",
         "row": 170
       },
+      "venue": "Goldenrod Radio Tower",
+      "venueInherited": true,
+      "venueSourceRow": 168,
+      "moreInfo": "4F East",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 169,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 36,
       "levelMax": 37
     },
@@ -5625,7 +6070,7 @@
       "boss": true,
       "rival": false,
       "location": "Goldenrod City",
-      "subarea": "5F East",
+      "subarea": "Goldenrod Radio Tower · 5F East",
       "rematch": false,
       "team": [
         {
@@ -5659,8 +6104,14 @@
         "sheet": "Location Data",
         "row": 171
       },
+      "venue": "Goldenrod Radio Tower",
+      "venueInherited": true,
+      "venueSourceRow": 168,
+      "moreInfo": "5F East",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 171,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 39,
       "levelMax": 40
     },
@@ -5672,7 +6123,7 @@
       "boss": true,
       "rival": false,
       "location": "Goldenrod City",
-      "subarea": "5F East",
+      "subarea": "Goldenrod Radio Tower · 5F East",
       "rematch": false,
       "team": [
         {
@@ -5714,8 +6165,14 @@
         "sheet": "Location Data",
         "row": 172
       },
+      "venue": "Goldenrod Radio Tower",
+      "venueInherited": true,
+      "venueSourceRow": 168,
+      "moreInfo": "5F East",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 171,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 40,
       "levelMax": 43
     },
@@ -5763,8 +6220,14 @@
         "sheet": "Location Data",
         "row": 174
       },
+      "venue": "Goldenrod Gym",
+      "venueInherited": false,
+      "venueSourceRow": 174,
+      "moreInfo": "Rematch",
+      "moreInfoInherited": false,
       "subareaInherited": false,
-      "subareaSourceRow": 174
+      "subareaSourceRow": 174,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-175-goldenrod-city-samantha",
@@ -5802,8 +6265,14 @@
         "sheet": "Location Data",
         "row": 175
       },
+      "venue": "Goldenrod Gym",
+      "venueInherited": true,
+      "venueSourceRow": 174,
+      "moreInfo": "Rematch",
+      "moreInfoInherited": true,
       "subareaInherited": true,
-      "subareaSourceRow": 174
+      "subareaSourceRow": 174,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-176-goldenrod-city-carrie",
@@ -5841,8 +6310,14 @@
         "sheet": "Location Data",
         "row": 176
       },
+      "venue": "Goldenrod Gym",
+      "venueInherited": true,
+      "venueSourceRow": 174,
+      "moreInfo": "Rematch",
+      "moreInfoInherited": true,
       "subareaInherited": true,
-      "subareaSourceRow": 174
+      "subareaSourceRow": 174,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-177-goldenrod-city-bridget",
@@ -5888,8 +6363,14 @@
         "sheet": "Location Data",
         "row": 177
       },
+      "venue": "Goldenrod Gym",
+      "venueInherited": true,
+      "venueSourceRow": 174,
+      "moreInfo": "Rematch",
+      "moreInfoInherited": true,
       "subareaInherited": true,
-      "subareaSourceRow": 174
+      "subareaSourceRow": 174,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-180-route-35-kim-db",
@@ -6179,8 +6660,11 @@
         "sheet": "Location Data",
         "row": 186
       },
+      "moreInfo": "Night",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 186,
+      "subareaSourceColumn": "AF",
       "levelMin": 19,
       "levelMax": 19
     },
@@ -6210,8 +6694,11 @@
         "sheet": "Location Data",
         "row": 187
       },
+      "moreInfo": "Night",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 186,
+      "subareaSourceColumn": "AF",
       "levelMin": 20,
       "levelMax": 20
     },
@@ -6249,8 +6736,11 @@
         "sheet": "Location Data",
         "row": 188
       },
+      "moreInfo": "Night",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 186,
+      "subareaSourceColumn": "AF",
       "levelMin": 19,
       "levelMax": 20
     },
@@ -6262,7 +6752,7 @@
       "boss": false,
       "rival": false,
       "location": "Route 35",
-      "subarea": "Night",
+      "subarea": "",
       "rematch": true,
       "team": [
         {
@@ -6290,9 +6780,7 @@
         "file": "sources/inbox/Crystal Advance Redux.xlsx",
         "sheet": "Location Data",
         "row": 190
-      },
-      "subareaInherited": true,
-      "subareaSourceRow": 186
+      }
     },
     {
       "id": "location-data-191-route-35-elliot",
@@ -6302,7 +6790,7 @@
       "boss": false,
       "rival": false,
       "location": "Route 35",
-      "subarea": "Night",
+      "subarea": "",
       "rematch": true,
       "team": [
         {
@@ -6330,9 +6818,7 @@
         "file": "sources/inbox/Crystal Advance Redux.xlsx",
         "sheet": "Location Data",
         "row": 191
-      },
-      "subareaInherited": true,
-      "subareaSourceRow": 186
+      }
     },
     {
       "id": "location-data-192-route-35-brooke",
@@ -6342,7 +6828,7 @@
       "boss": false,
       "rival": false,
       "location": "Route 35",
-      "subarea": "Night",
+      "subarea": "",
       "rematch": true,
       "team": [
         {
@@ -6370,9 +6856,7 @@
         "file": "sources/inbox/Crystal Advance Redux.xlsx",
         "sheet": "Location Data",
         "row": 192
-      },
-      "subareaInherited": true,
-      "subareaSourceRow": 186
+      }
     },
     {
       "id": "location-data-193-route-35-ivan",
@@ -6382,7 +6866,7 @@
       "boss": false,
       "rival": false,
       "location": "Route 35",
-      "subarea": "Night",
+      "subarea": "",
       "rematch": true,
       "team": [
         {
@@ -6418,9 +6902,7 @@
         "file": "sources/inbox/Crystal Advance Redux.xlsx",
         "sheet": "Location Data",
         "row": 193
-      },
-      "subareaInherited": true,
-      "subareaSourceRow": 186
+      }
     },
     {
       "id": "location-data-194-route-35-irwin",
@@ -6430,7 +6912,7 @@
       "boss": false,
       "rival": false,
       "location": "Route 35",
-      "subarea": "Night",
+      "subarea": "",
       "rematch": true,
       "team": [
         {
@@ -6474,9 +6956,7 @@
         "file": "sources/inbox/Crystal Advance Redux.xlsx",
         "sheet": "Location Data",
         "row": 194
-      },
-      "subareaInherited": true,
-      "subareaSourceRow": 186
+      }
     },
     {
       "id": "location-data-195-route-35-walt",
@@ -6486,7 +6966,7 @@
       "boss": false,
       "rival": false,
       "location": "Route 35",
-      "subarea": "Night",
+      "subarea": "",
       "rematch": true,
       "team": [
         {
@@ -6522,9 +7002,7 @@
         "file": "sources/inbox/Crystal Advance Redux.xlsx",
         "sheet": "Location Data",
         "row": 195
-      },
-      "subareaInherited": true,
-      "subareaSourceRow": 186
+      }
     },
     {
       "id": "location-data-196-route-35-dirk-db",
@@ -6563,8 +7041,11 @@
         "sheet": "Location Data",
         "row": 196
       },
+      "moreInfo": "Night",
+      "moreInfoInherited": false,
       "subareaInherited": false,
-      "subareaSourceRow": 196
+      "subareaSourceRow": 196,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-197-route-35-arnie",
@@ -6595,8 +7076,11 @@
         "sheet": "Location Data",
         "row": 197
       },
+      "moreInfo": "Night",
+      "moreInfoInherited": true,
       "subareaInherited": true,
-      "subareaSourceRow": 196
+      "subareaSourceRow": 196,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-198-route-35-bryan-db",
@@ -6635,8 +7119,11 @@
         "sheet": "Location Data",
         "row": 198
       },
+      "moreInfo": "Night",
+      "moreInfoInherited": true,
       "subareaInherited": true,
-      "subareaSourceRow": 196
+      "subareaSourceRow": 196,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-200-national-park-beverly",
@@ -7246,7 +7733,7 @@
       "boss": false,
       "rival": false,
       "location": "Ecruteak City",
-      "subarea": "",
+      "subarea": "Ecruteak Theatre",
       "rematch": false,
       "team": [
         {
@@ -7273,7 +7760,13 @@
         "file": "sources/inbox/Crystal Advance Redux.xlsx",
         "sheet": "Location Data",
         "row": 222
-      }
+      },
+      "venue": "Ecruteak Theatre",
+      "venueInherited": false,
+      "venueSourceRow": 222,
+      "subareaInherited": false,
+      "subareaSourceRow": 222,
+      "subareaSourceColumn": "AE"
     },
     {
       "id": "location-data-223-ecruteak-city-sayo-db",
@@ -7283,7 +7776,7 @@
       "boss": false,
       "rival": false,
       "location": "Ecruteak City",
-      "subarea": "",
+      "subarea": "Ecruteak Theatre",
       "rematch": false,
       "team": [
         {
@@ -7310,7 +7803,13 @@
         "file": "sources/inbox/Crystal Advance Redux.xlsx",
         "sheet": "Location Data",
         "row": 223
-      }
+      },
+      "venue": "Ecruteak Theatre",
+      "venueInherited": true,
+      "venueSourceRow": 222,
+      "subareaInherited": true,
+      "subareaSourceRow": 222,
+      "subareaSourceColumn": "AE"
     },
     {
       "id": "location-data-224-ecruteak-city-zuki-db",
@@ -7320,7 +7819,7 @@
       "boss": false,
       "rival": false,
       "location": "Ecruteak City",
-      "subarea": "",
+      "subarea": "Ecruteak Theatre",
       "rematch": false,
       "team": [
         {
@@ -7347,7 +7846,13 @@
         "file": "sources/inbox/Crystal Advance Redux.xlsx",
         "sheet": "Location Data",
         "row": 224
-      }
+      },
+      "venue": "Ecruteak Theatre",
+      "venueInherited": true,
+      "venueSourceRow": 222,
+      "subareaInherited": true,
+      "subareaSourceRow": 222,
+      "subareaSourceColumn": "AE"
     },
     {
       "id": "location-data-225-ecruteak-city-kuni-db",
@@ -7357,7 +7862,7 @@
       "boss": false,
       "rival": false,
       "location": "Ecruteak City",
-      "subarea": "",
+      "subarea": "Ecruteak Theatre",
       "rematch": false,
       "team": [
         {
@@ -7384,7 +7889,13 @@
         "file": "sources/inbox/Crystal Advance Redux.xlsx",
         "sheet": "Location Data",
         "row": 225
-      }
+      },
+      "venue": "Ecruteak Theatre",
+      "venueInherited": true,
+      "venueSourceRow": 222,
+      "subareaInherited": true,
+      "subareaSourceRow": 222,
+      "subareaSourceColumn": "AE"
     },
     {
       "id": "location-data-226-ecruteak-city-miki-db",
@@ -7394,7 +7905,7 @@
       "boss": false,
       "rival": false,
       "location": "Ecruteak City",
-      "subarea": "",
+      "subarea": "Ecruteak Theatre",
       "rematch": false,
       "team": [
         {
@@ -7421,7 +7932,13 @@
         "file": "sources/inbox/Crystal Advance Redux.xlsx",
         "sheet": "Location Data",
         "row": 226
-      }
+      },
+      "venue": "Ecruteak Theatre",
+      "venueInherited": true,
+      "venueSourceRow": 222,
+      "subareaInherited": true,
+      "subareaSourceRow": 222,
+      "subareaSourceColumn": "AE"
     },
     {
       "id": "location-data-228-ecruteak-city-ping",
@@ -7431,7 +7948,7 @@
       "boss": false,
       "rival": false,
       "location": "Ecruteak City",
-      "subarea": "",
+      "subarea": "Ecruteak Gym",
       "rematch": false,
       "team": [
         {
@@ -7481,6 +7998,12 @@
         "sheet": "Location Data",
         "row": 228
       },
+      "venue": "Ecruteak Gym",
+      "venueInherited": false,
+      "venueSourceRow": 228,
+      "subareaInherited": false,
+      "subareaSourceRow": 228,
+      "subareaSourceColumn": "AE",
       "levelMin": 22,
       "levelMax": 23
     },
@@ -7492,7 +8015,7 @@
       "boss": false,
       "rival": false,
       "location": "Ecruteak City",
-      "subarea": "",
+      "subarea": "Ecruteak Gym",
       "rematch": false,
       "team": [
         {
@@ -7526,6 +8049,12 @@
         "sheet": "Location Data",
         "row": 229
       },
+      "venue": "Ecruteak Gym",
+      "venueInherited": true,
+      "venueSourceRow": 228,
+      "subareaInherited": true,
+      "subareaSourceRow": 228,
+      "subareaSourceColumn": "AE",
       "levelMin": 24,
       "levelMax": 24
     },
@@ -7537,7 +8066,7 @@
       "boss": false,
       "rival": false,
       "location": "Ecruteak City",
-      "subarea": "",
+      "subarea": "Ecruteak Gym",
       "rematch": false,
       "team": [
         {
@@ -7563,6 +8092,12 @@
         "sheet": "Location Data",
         "row": 230
       },
+      "venue": "Ecruteak Gym",
+      "venueInherited": true,
+      "venueSourceRow": 228,
+      "subareaInherited": true,
+      "subareaSourceRow": 228,
+      "subareaSourceColumn": "AE",
       "levelMin": 25,
       "levelMax": 25
     },
@@ -7574,7 +8109,7 @@
       "boss": false,
       "rival": false,
       "location": "Ecruteak City",
-      "subarea": "",
+      "subarea": "Ecruteak Gym",
       "rematch": false,
       "team": [
         {
@@ -7608,6 +8143,12 @@
         "sheet": "Location Data",
         "row": 231
       },
+      "venue": "Ecruteak Gym",
+      "venueInherited": true,
+      "venueSourceRow": 228,
+      "subareaInherited": true,
+      "subareaSourceRow": 228,
+      "subareaSourceColumn": "AE",
       "levelMin": 23,
       "levelMax": 25
     },
@@ -7619,7 +8160,7 @@
       "boss": false,
       "rival": false,
       "location": "Ecruteak City",
-      "subarea": "Gauntlet",
+      "subarea": "Tin Tower · Gauntlet",
       "rematch": false,
       "team": [
         {
@@ -7645,8 +8186,14 @@
         "sheet": "Location Data",
         "row": 234
       },
+      "venue": "Tin Tower",
+      "venueInherited": false,
+      "venueSourceRow": 234,
+      "moreInfo": "Gauntlet",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 234,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 38,
       "levelMax": 38
     },
@@ -7658,7 +8205,7 @@
       "boss": false,
       "rival": false,
       "location": "Ecruteak City",
-      "subarea": "Gauntlet",
+      "subarea": "Tin Tower · Gauntlet",
       "rematch": false,
       "team": [
         {
@@ -7684,8 +8231,14 @@
         "sheet": "Location Data",
         "row": 235
       },
+      "venue": "Tin Tower",
+      "venueInherited": true,
+      "venueSourceRow": 234,
+      "moreInfo": "Gauntlet",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 235,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 38,
       "levelMax": 38
     },
@@ -7697,7 +8250,7 @@
       "boss": false,
       "rival": false,
       "location": "Ecruteak City",
-      "subarea": "Gauntlet",
+      "subarea": "Tin Tower · Gauntlet",
       "rematch": false,
       "team": [
         {
@@ -7723,8 +8276,14 @@
         "sheet": "Location Data",
         "row": 236
       },
+      "venue": "Tin Tower",
+      "venueInherited": true,
+      "venueSourceRow": 234,
+      "moreInfo": "Gauntlet",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 236,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 38,
       "levelMax": 38
     },
@@ -7796,8 +8355,14 @@
         "sheet": "Location Data",
         "row": 238
       },
+      "venue": "Ecruteak Gym",
+      "venueInherited": false,
+      "venueSourceRow": 238,
+      "moreInfo": "Rematch",
+      "moreInfoInherited": false,
       "subareaInherited": false,
-      "subareaSourceRow": 238
+      "subareaSourceRow": 238,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-239-ecruteak-city-grace",
@@ -7835,8 +8400,14 @@
         "sheet": "Location Data",
         "row": 239
       },
+      "venue": "Ecruteak Gym",
+      "venueInherited": true,
+      "venueSourceRow": 238,
+      "moreInfo": "Rematch",
+      "moreInfoInherited": true,
       "subareaInherited": true,
-      "subareaSourceRow": 238
+      "subareaSourceRow": 238,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-240-ecruteak-city-jeffrey",
@@ -7874,8 +8445,14 @@
         "sheet": "Location Data",
         "row": 240
       },
+      "venue": "Ecruteak Gym",
+      "venueInherited": true,
+      "venueSourceRow": 238,
+      "moreInfo": "Rematch",
+      "moreInfoInherited": true,
       "subareaInherited": true,
-      "subareaSourceRow": 238
+      "subareaSourceRow": 238,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-241-ecruteak-city-martha",
@@ -7929,8 +8506,14 @@
         "sheet": "Location Data",
         "row": 241
       },
+      "venue": "Ecruteak Gym",
+      "venueInherited": true,
+      "venueSourceRow": 238,
+      "moreInfo": "Rematch",
+      "moreInfoInherited": true,
       "subareaInherited": true,
-      "subareaSourceRow": 238
+      "subareaSourceRow": 238,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-244-burnt-tower-silver",
@@ -7988,8 +8571,11 @@
         "sheet": "Location Data",
         "row": 244
       },
+      "moreInfo": "1F",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 244,
+      "subareaSourceColumn": "AF",
       "levelMin": 22,
       "levelMax": 26
     },
@@ -8019,8 +8605,11 @@
         "sheet": "Location Data",
         "row": 246
       },
+      "moreInfo": "East",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 246,
+      "subareaSourceColumn": "AF",
       "levelMin": 29,
       "levelMax": 29
     },
@@ -8058,8 +8647,11 @@
         "sheet": "Location Data",
         "row": 247
       },
+      "moreInfo": "East",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 246,
+      "subareaSourceColumn": "AF",
       "levelMin": 27,
       "levelMax": 27
     },
@@ -8105,8 +8697,11 @@
         "sheet": "Location Data",
         "row": 248
       },
+      "moreInfo": "East",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 246,
+      "subareaSourceColumn": "AF",
       "levelMin": 25,
       "levelMax": 27
     },
@@ -8118,7 +8713,7 @@
       "boss": false,
       "rival": false,
       "location": "Route 42",
-      "subarea": "East",
+      "subarea": "",
       "rematch": true,
       "team": [
         {
@@ -8146,9 +8741,7 @@
         "file": "sources/inbox/Crystal Advance Redux.xlsx",
         "sheet": "Location Data",
         "row": 250
-      },
-      "subareaInherited": true,
-      "subareaSourceRow": 246
+      }
     },
     {
       "id": "location-data-251-route-42-benjamin",
@@ -8158,7 +8751,7 @@
       "boss": false,
       "rival": false,
       "location": "Route 42",
-      "subarea": "East",
+      "subarea": "",
       "rematch": true,
       "team": [
         {
@@ -8194,9 +8787,7 @@
         "file": "sources/inbox/Crystal Advance Redux.xlsx",
         "sheet": "Location Data",
         "row": 251
-      },
-      "subareaInherited": true,
-      "subareaSourceRow": 246
+      }
     },
     {
       "id": "location-data-253-mt-mortar-miller",
@@ -8232,8 +8823,11 @@
         "sheet": "Location Data",
         "row": 253
       },
+      "moreInfo": "1F",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 253,
+      "subareaSourceColumn": "AF",
       "levelMin": 28,
       "levelMax": 28
     },
@@ -8263,8 +8857,11 @@
         "sheet": "Location Data",
         "row": 254
       },
+      "moreInfo": "1F",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 253,
+      "subareaSourceColumn": "AF",
       "levelMin": 27,
       "levelMax": 27
     },
@@ -8305,8 +8902,11 @@
         "sheet": "Location Data",
         "row": 256
       },
+      "moreInfo": "1F",
+      "moreInfoInherited": false,
       "subareaInherited": false,
-      "subareaSourceRow": 256
+      "subareaSourceRow": 256,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-257-mt-mortar-markus",
@@ -8337,8 +8937,11 @@
         "sheet": "Location Data",
         "row": 257
       },
+      "moreInfo": "1F",
+      "moreInfoInherited": true,
       "subareaInherited": true,
-      "subareaSourceRow": 256
+      "subareaSourceRow": 256,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-259-mt-mortar-hugh",
@@ -8374,8 +8977,11 @@
         "sheet": "Location Data",
         "row": 259
       },
+      "moreInfo": "2F",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 259,
+      "subareaSourceColumn": "AF",
       "levelMin": 55,
       "levelMax": 55
     },
@@ -8421,8 +9027,11 @@
         "sheet": "Location Data",
         "row": 260
       },
+      "moreInfo": "B1F",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 260,
+      "subareaSourceColumn": "AF",
       "levelMin": 50,
       "levelMax": 50
     },
@@ -8455,8 +9064,11 @@
         "sheet": "Location Data",
         "row": 262
       },
+      "moreInfo": "2F",
+      "moreInfoInherited": false,
       "subareaInherited": false,
-      "subareaSourceRow": 262
+      "subareaSourceRow": 262,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-264-route-38-harry",
@@ -9257,7 +9869,7 @@
       "boss": false,
       "rival": false,
       "location": "Olivine City",
-      "subarea": "2F",
+      "subarea": "Olivine Lighthouse · 2F",
       "rematch": false,
       "team": [
         {
@@ -9275,8 +9887,14 @@
         "sheet": "Location Data",
         "row": 287
       },
+      "venue": "Olivine Lighthouse",
+      "venueInherited": false,
+      "venueSourceRow": 287,
+      "moreInfo": "2F",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 287,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 27,
       "levelMax": 27
     },
@@ -9288,7 +9906,7 @@
       "boss": false,
       "rival": false,
       "location": "Olivine City",
-      "subarea": "2F",
+      "subarea": "Olivine Lighthouse · 2F",
       "rematch": false,
       "team": [
         {
@@ -9314,8 +9932,14 @@
         "sheet": "Location Data",
         "row": 288
       },
+      "venue": "Olivine Lighthouse",
+      "venueInherited": true,
+      "venueSourceRow": 287,
+      "moreInfo": "2F",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 287,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 26,
       "levelMax": 26
     },
@@ -9327,7 +9951,7 @@
       "boss": false,
       "rival": false,
       "location": "Olivine City",
-      "subarea": "3F",
+      "subarea": "Olivine Lighthouse · 3F",
       "rematch": false,
       "team": [
         {
@@ -9361,8 +9985,14 @@
         "sheet": "Location Data",
         "row": 289
       },
+      "venue": "Olivine Lighthouse",
+      "venueInherited": true,
+      "venueSourceRow": 287,
+      "moreInfo": "3F",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 289,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 26,
       "levelMax": 28
     },
@@ -9374,7 +10004,7 @@
       "boss": false,
       "rival": false,
       "location": "Olivine City",
-      "subarea": "3F",
+      "subarea": "Olivine Lighthouse · 3F",
       "rematch": false,
       "team": [
         {
@@ -9400,8 +10030,14 @@
         "sheet": "Location Data",
         "row": 290
       },
+      "venue": "Olivine Lighthouse",
+      "venueInherited": true,
+      "venueSourceRow": 287,
+      "moreInfo": "3F",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 289,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 25,
       "levelMax": 25
     },
@@ -9413,7 +10049,7 @@
       "boss": false,
       "rival": false,
       "location": "Olivine City",
-      "subarea": "4F",
+      "subarea": "Olivine Lighthouse · 4F",
       "rematch": false,
       "team": [
         {
@@ -9447,8 +10083,14 @@
         "sheet": "Location Data",
         "row": 291
       },
+      "venue": "Olivine Lighthouse",
+      "venueInherited": true,
+      "venueSourceRow": 287,
+      "moreInfo": "4F",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 291,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 24,
       "levelMax": 26
     },
@@ -9460,7 +10102,7 @@
       "boss": false,
       "rival": false,
       "location": "Olivine City",
-      "subarea": "4F",
+      "subarea": "Olivine Lighthouse · 4F",
       "rematch": false,
       "team": [
         {
@@ -9486,8 +10128,14 @@
         "sheet": "Location Data",
         "row": 292
       },
+      "venue": "Olivine Lighthouse",
+      "venueInherited": true,
+      "venueSourceRow": 287,
+      "moreInfo": "4F",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 291,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 25,
       "levelMax": 25
     },
@@ -9499,7 +10147,7 @@
       "boss": false,
       "rival": false,
       "location": "Olivine City",
-      "subarea": "5F",
+      "subarea": "Olivine Lighthouse · 5F",
       "rematch": false,
       "team": [
         {
@@ -9533,8 +10181,14 @@
         "sheet": "Location Data",
         "row": 293
       },
+      "venue": "Olivine Lighthouse",
+      "venueInherited": true,
+      "venueSourceRow": 287,
+      "moreInfo": "5F",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 293,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 24,
       "levelMax": 25
     },
@@ -9546,7 +10200,7 @@
       "boss": false,
       "rival": false,
       "location": "Olivine City",
-      "subarea": "3F",
+      "subarea": "Olivine Lighthouse · 3F",
       "rematch": false,
       "team": [
         {
@@ -9564,8 +10218,14 @@
         "sheet": "Location Data",
         "row": 294
       },
+      "venue": "Olivine Lighthouse",
+      "venueInherited": true,
+      "venueSourceRow": 287,
+      "moreInfo": "3F",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 294,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 28,
       "levelMax": 28
     },
@@ -9577,7 +10237,7 @@
       "boss": false,
       "rival": false,
       "location": "Olivine City",
-      "subarea": "5F",
+      "subarea": "Olivine Lighthouse · 5F",
       "rematch": false,
       "team": [
         {
@@ -9611,8 +10271,14 @@
         "sheet": "Location Data",
         "row": 295
       },
+      "venue": "Olivine Lighthouse",
+      "venueInherited": true,
+      "venueSourceRow": 287,
+      "moreInfo": "5F",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 295,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 25,
       "levelMax": 26
     },
@@ -9624,7 +10290,7 @@
       "boss": false,
       "rival": false,
       "location": "Olivine City",
-      "subarea": "2F",
+      "subarea": "Olivine Lighthouse · 2F",
       "rematch": true,
       "team": [
         {
@@ -9645,8 +10311,14 @@
         "sheet": "Location Data",
         "row": 297
       },
+      "venue": "Olivine Lighthouse",
+      "venueInherited": true,
+      "venueSourceRow": 287,
+      "moreInfo": "2F",
+      "moreInfoInherited": false,
       "subareaInherited": false,
-      "subareaSourceRow": 297
+      "subareaSourceRow": 297,
+      "subareaSourceColumn": "AE+AF"
     },
     {
       "id": "location-data-298-olivine-city-huey",
@@ -9656,7 +10328,7 @@
       "boss": false,
       "rival": false,
       "location": "Olivine City",
-      "subarea": "2F",
+      "subarea": "Olivine Lighthouse · 2F",
       "rematch": true,
       "team": [
         {
@@ -9685,8 +10357,14 @@
         "sheet": "Location Data",
         "row": 298
       },
+      "venue": "Olivine Lighthouse",
+      "venueInherited": true,
+      "venueSourceRow": 287,
+      "moreInfo": "2F",
+      "moreInfoInherited": true,
       "subareaInherited": true,
-      "subareaSourceRow": 297
+      "subareaSourceRow": 297,
+      "subareaSourceColumn": "AE+AF"
     },
     {
       "id": "location-data-299-olivine-city-theo",
@@ -9696,7 +10374,7 @@
       "boss": false,
       "rival": false,
       "location": "Olivine City",
-      "subarea": "3F",
+      "subarea": "Olivine Lighthouse · 3F",
       "rematch": true,
       "team": [
         {
@@ -9733,8 +10411,14 @@
         "sheet": "Location Data",
         "row": 299
       },
+      "venue": "Olivine Lighthouse",
+      "venueInherited": true,
+      "venueSourceRow": 287,
+      "moreInfo": "3F",
+      "moreInfoInherited": false,
       "subareaInherited": false,
-      "subareaSourceRow": 299
+      "subareaSourceRow": 299,
+      "subareaSourceColumn": "AE+AF"
     },
     {
       "id": "location-data-300-olivine-city-preston",
@@ -9744,7 +10428,7 @@
       "boss": false,
       "rival": false,
       "location": "Olivine City",
-      "subarea": "3F",
+      "subarea": "Olivine Lighthouse · 3F",
       "rematch": true,
       "team": [
         {
@@ -9773,8 +10457,14 @@
         "sheet": "Location Data",
         "row": 300
       },
+      "venue": "Olivine Lighthouse",
+      "venueInherited": true,
+      "venueSourceRow": 287,
+      "moreInfo": "3F",
+      "moreInfoInherited": true,
       "subareaInherited": true,
-      "subareaSourceRow": 299
+      "subareaSourceRow": 299,
+      "subareaSourceColumn": "AE+AF"
     },
     {
       "id": "location-data-301-olivine-city-connie",
@@ -9784,7 +10474,7 @@
       "boss": false,
       "rival": false,
       "location": "Olivine City",
-      "subarea": "4F",
+      "subarea": "Olivine Lighthouse · 4F",
       "rematch": true,
       "team": [
         {
@@ -9821,8 +10511,14 @@
         "sheet": "Location Data",
         "row": 301
       },
+      "venue": "Olivine Lighthouse",
+      "venueInherited": true,
+      "venueSourceRow": 287,
+      "moreInfo": "4F",
+      "moreInfoInherited": false,
       "subareaInherited": false,
-      "subareaSourceRow": 301
+      "subareaSourceRow": 301,
+      "subareaSourceColumn": "AE+AF"
     },
     {
       "id": "location-data-302-olivine-city-kent",
@@ -9832,7 +10528,7 @@
       "boss": false,
       "rival": false,
       "location": "Olivine City",
-      "subarea": "4F",
+      "subarea": "Olivine Lighthouse · 4F",
       "rematch": true,
       "team": [
         {
@@ -9861,8 +10557,14 @@
         "sheet": "Location Data",
         "row": 302
       },
+      "venue": "Olivine Lighthouse",
+      "venueInherited": true,
+      "venueSourceRow": 287,
+      "moreInfo": "4F",
+      "moreInfoInherited": true,
       "subareaInherited": true,
-      "subareaSourceRow": 301
+      "subareaSourceRow": 301,
+      "subareaSourceColumn": "AE+AF"
     },
     {
       "id": "location-data-303-olivine-city-denis",
@@ -9872,7 +10574,7 @@
       "boss": false,
       "rival": false,
       "location": "Olivine City",
-      "subarea": "5F",
+      "subarea": "Olivine Lighthouse · 5F",
       "rematch": true,
       "team": [
         {
@@ -9909,8 +10611,14 @@
         "sheet": "Location Data",
         "row": 303
       },
+      "venue": "Olivine Lighthouse",
+      "venueInherited": true,
+      "venueSourceRow": 287,
+      "moreInfo": "5F",
+      "moreInfoInherited": false,
       "subareaInherited": false,
-      "subareaSourceRow": 303
+      "subareaSourceRow": 303,
+      "subareaSourceColumn": "AE+AF"
     },
     {
       "id": "location-data-304-olivine-city-terrell",
@@ -9920,7 +10628,7 @@
       "boss": false,
       "rival": false,
       "location": "Olivine City",
-      "subarea": "3F",
+      "subarea": "Olivine Lighthouse · 3F",
       "rematch": true,
       "team": [
         {
@@ -9941,8 +10649,14 @@
         "sheet": "Location Data",
         "row": 304
       },
+      "venue": "Olivine Lighthouse",
+      "venueInherited": true,
+      "venueSourceRow": 287,
+      "moreInfo": "3F",
+      "moreInfoInherited": false,
       "subareaInherited": false,
-      "subareaSourceRow": 304
+      "subareaSourceRow": 304,
+      "subareaSourceColumn": "AE+AF"
     },
     {
       "id": "location-data-305-olivine-city-ernest",
@@ -9952,7 +10666,7 @@
       "boss": false,
       "rival": false,
       "location": "Olivine City",
-      "subarea": "5F",
+      "subarea": "Olivine Lighthouse · 5F",
       "rematch": true,
       "team": [
         {
@@ -9989,8 +10703,14 @@
         "sheet": "Location Data",
         "row": 305
       },
+      "venue": "Olivine Lighthouse",
+      "venueInherited": true,
+      "venueSourceRow": 287,
+      "moreInfo": "5F",
+      "moreInfoInherited": false,
       "subareaInherited": false,
-      "subareaSourceRow": 305
+      "subareaSourceRow": 305,
+      "subareaSourceColumn": "AE+AF"
     },
     {
       "id": "location-data-307-olivine-city-jitou",
@@ -10000,7 +10720,7 @@
       "boss": false,
       "rival": false,
       "location": "Olivine City",
-      "subarea": "Post Cianwood",
+      "subarea": "Olivine Gym · Post Cianwood",
       "rematch": false,
       "team": [
         {
@@ -10034,8 +10754,14 @@
         "sheet": "Location Data",
         "row": 307
       },
+      "venue": "Olivine Gym",
+      "venueInherited": false,
+      "venueSourceRow": 307,
+      "moreInfo": "Post Cianwood",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 307,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 34,
       "levelMax": 35
     },
@@ -10083,8 +10809,14 @@
         "sheet": "Location Data",
         "row": 310
       },
+      "venue": "Olivine Gym",
+      "venueInherited": false,
+      "venueSourceRow": 310,
+      "moreInfo": "Rematch",
+      "moreInfoInherited": false,
       "subareaInherited": false,
-      "subareaSourceRow": 310
+      "subareaSourceRow": 310,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-313-route-40-geraldine",
@@ -10120,8 +10852,11 @@
         "sheet": "Location Data",
         "row": 313
       },
+      "moreInfo": "Beach",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 313,
+      "subareaSourceColumn": "AF",
       "levelMin": 26,
       "levelMax": 26
     },
@@ -10133,7 +10868,7 @@
       "boss": false,
       "rival": false,
       "location": "Route 40",
-      "subarea": "Beach",
+      "subarea": "",
       "rematch": true,
       "team": [
         {
@@ -10161,9 +10896,7 @@
         "file": "sources/inbox/Crystal Advance Redux.xlsx",
         "sheet": "Location Data",
         "row": 315
-      },
-      "subareaInherited": true,
-      "subareaSourceRow": 313
+      }
     },
     {
       "id": "location-data-317-route-40-simon",
@@ -10199,8 +10932,11 @@
         "sheet": "Location Data",
         "row": 317
       },
+      "moreInfo": "Ocean",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 317,
+      "subareaSourceColumn": "AF",
       "levelMin": 26,
       "levelMax": 26
     },
@@ -10238,8 +10974,11 @@
         "sheet": "Location Data",
         "row": 318
       },
+      "moreInfo": "Ocean",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 317,
+      "subareaSourceColumn": "AF",
       "levelMin": 26,
       "levelMax": 27
     },
@@ -10285,8 +11024,11 @@
         "sheet": "Location Data",
         "row": 319
       },
+      "moreInfo": "Ocean",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 317,
+      "subareaSourceColumn": "AF",
       "levelMin": 25,
       "levelMax": 25
     },
@@ -10324,8 +11066,11 @@
         "sheet": "Location Data",
         "row": 320
       },
+      "moreInfo": "Ocean",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 317,
+      "subareaSourceColumn": "AF",
       "levelMin": 25,
       "levelMax": 26
     },
@@ -10371,8 +11116,11 @@
         "sheet": "Location Data",
         "row": 321
       },
+      "moreInfo": "Ocean",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 317,
+      "subareaSourceColumn": "AF",
       "levelMin": 26,
       "levelMax": 27
     },
@@ -10384,7 +11132,7 @@
       "boss": false,
       "rival": false,
       "location": "Route 40",
-      "subarea": "Ocean",
+      "subarea": "",
       "rematch": true,
       "team": [
         {
@@ -10420,9 +11168,7 @@
         "file": "sources/inbox/Crystal Advance Redux.xlsx",
         "sheet": "Location Data",
         "row": 323
-      },
-      "subareaInherited": true,
-      "subareaSourceRow": 317
+      }
     },
     {
       "id": "location-data-324-route-40-paula",
@@ -10432,7 +11178,7 @@
       "boss": false,
       "rival": false,
       "location": "Route 40",
-      "subarea": "Ocean",
+      "subarea": "",
       "rematch": true,
       "team": [
         {
@@ -10460,9 +11206,7 @@
         "file": "sources/inbox/Crystal Advance Redux.xlsx",
         "sheet": "Location Data",
         "row": 324
-      },
-      "subareaInherited": true,
-      "subareaSourceRow": 317
+      }
     },
     {
       "id": "location-data-326-route-41-george",
@@ -11260,8 +12004,11 @@
         "sheet": "Location Data",
         "row": 346
       },
+      "moreInfo": "North",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 346,
+      "subareaSourceColumn": "AF",
       "levelMin": 30,
       "levelMax": 32
     },
@@ -11273,7 +12020,7 @@
       "boss": false,
       "rival": false,
       "location": "Cianwood City",
-      "subarea": "North",
+      "subarea": "Cianwood Gym",
       "rematch": false,
       "team": [
         {
@@ -11299,8 +12046,12 @@
         "sheet": "Location Data",
         "row": 348
       },
-      "subareaInherited": true,
-      "subareaSourceRow": 346,
+      "venue": "Cianwood Gym",
+      "venueInherited": false,
+      "venueSourceRow": 348,
+      "subareaInherited": false,
+      "subareaSourceRow": 348,
+      "subareaSourceColumn": "AE",
       "levelMin": 31,
       "levelMax": 31
     },
@@ -11312,7 +12063,7 @@
       "boss": false,
       "rival": false,
       "location": "Cianwood City",
-      "subarea": "North",
+      "subarea": "Cianwood Gym",
       "rematch": false,
       "team": [
         {
@@ -11338,8 +12089,12 @@
         "sheet": "Location Data",
         "row": 349
       },
+      "venue": "Cianwood Gym",
+      "venueInherited": true,
+      "venueSourceRow": 348,
       "subareaInherited": true,
-      "subareaSourceRow": 346,
+      "subareaSourceRow": 348,
+      "subareaSourceColumn": "AE",
       "levelMin": 31,
       "levelMax": 31
     },
@@ -11351,7 +12106,7 @@
       "boss": false,
       "rival": false,
       "location": "Cianwood City",
-      "subarea": "North",
+      "subarea": "Cianwood Gym",
       "rematch": false,
       "team": [
         {
@@ -11377,8 +12132,12 @@
         "sheet": "Location Data",
         "row": 350
       },
+      "venue": "Cianwood Gym",
+      "venueInherited": true,
+      "venueSourceRow": 348,
       "subareaInherited": true,
-      "subareaSourceRow": 346,
+      "subareaSourceRow": 348,
+      "subareaSourceColumn": "AE",
       "levelMin": 31,
       "levelMax": 31
     },
@@ -11390,7 +12149,7 @@
       "boss": false,
       "rival": false,
       "location": "Cianwood City",
-      "subarea": "North",
+      "subarea": "Cianwood Gym",
       "rematch": false,
       "team": [
         {
@@ -11416,8 +12175,12 @@
         "sheet": "Location Data",
         "row": 351
       },
+      "venue": "Cianwood Gym",
+      "venueInherited": true,
+      "venueSourceRow": 348,
       "subareaInherited": true,
-      "subareaSourceRow": 346,
+      "subareaSourceRow": 348,
+      "subareaSourceColumn": "AE",
       "levelMin": 32,
       "levelMax": 32
     },
@@ -11457,8 +12220,14 @@
         "sheet": "Location Data",
         "row": 354
       },
+      "venue": "Cianwood Gym",
+      "venueInherited": false,
+      "venueSourceRow": 354,
+      "moreInfo": "Rematch",
+      "moreInfoInherited": false,
       "subareaInherited": false,
-      "subareaSourceRow": 354
+      "subareaSourceRow": 354,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-355-cianwood-city-yoshi",
@@ -11496,8 +12265,14 @@
         "sheet": "Location Data",
         "row": 355
       },
+      "venue": "Cianwood Gym",
+      "venueInherited": true,
+      "venueSourceRow": 354,
+      "moreInfo": "Rematch",
+      "moreInfoInherited": true,
       "subareaInherited": true,
-      "subareaSourceRow": 354
+      "subareaSourceRow": 354,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-356-cianwood-city-nob",
@@ -11535,8 +12310,14 @@
         "sheet": "Location Data",
         "row": 356
       },
+      "venue": "Cianwood Gym",
+      "venueInherited": true,
+      "venueSourceRow": 354,
+      "moreInfo": "Rematch",
+      "moreInfoInherited": true,
       "subareaInherited": true,
-      "subareaSourceRow": 354
+      "subareaSourceRow": 354,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-357-cianwood-city-lung",
@@ -11574,8 +12355,14 @@
         "sheet": "Location Data",
         "row": 357
       },
+      "venue": "Cianwood Gym",
+      "venueInherited": true,
+      "venueSourceRow": 354,
+      "moreInfo": "Rematch",
+      "moreInfoInherited": true,
       "subareaInherited": true,
-      "subareaSourceRow": 354
+      "subareaSourceRow": 354,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-360-route-43-spencer",
@@ -12158,8 +12945,11 @@
         "sheet": "Location Data",
         "row": 376
       },
+      "moreInfo": "Maze",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 376,
+      "subareaSourceColumn": "AF",
       "levelMin": 34,
       "levelMax": 34
     },
@@ -12171,7 +12961,7 @@
       "boss": false,
       "rival": false,
       "location": "Lake of Rage",
-      "subarea": "Maze",
+      "subarea": "",
       "rematch": true,
       "team": [
         {
@@ -12215,9 +13005,7 @@
         "file": "sources/inbox/Crystal Advance Redux.xlsx",
         "sheet": "Location Data",
         "row": 378
-      },
-      "subareaInherited": true,
-      "subareaSourceRow": 376
+      }
     },
     {
       "id": "location-data-379-lake-of-rage-andre",
@@ -12227,7 +13015,7 @@
       "boss": false,
       "rival": false,
       "location": "Lake of Rage",
-      "subarea": "Maze",
+      "subarea": "",
       "rematch": true,
       "team": [
         {
@@ -12247,9 +13035,7 @@
         "file": "sources/inbox/Crystal Advance Redux.xlsx",
         "sheet": "Location Data",
         "row": 379
-      },
-      "subareaInherited": true,
-      "subareaSourceRow": 376
+      }
     },
     {
       "id": "location-data-380-lake-of-rage-lois",
@@ -12259,7 +13045,7 @@
       "boss": false,
       "rival": false,
       "location": "Lake of Rage",
-      "subarea": "Maze",
+      "subarea": "",
       "rematch": true,
       "team": [
         {
@@ -12287,9 +13073,7 @@
         "file": "sources/inbox/Crystal Advance Redux.xlsx",
         "sheet": "Location Data",
         "row": 380
-      },
-      "subareaInherited": true,
-      "subareaSourceRow": 376
+      }
     },
     {
       "id": "location-data-381-lake-of-rage-aaron",
@@ -12336,8 +13120,11 @@
         "sheet": "Location Data",
         "row": 381
       },
+      "moreInfo": "Maze",
+      "moreInfoInherited": false,
       "subareaInherited": false,
-      "subareaSourceRow": 381
+      "subareaSourceRow": 381,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-383-rocket-hideout-grunt-1-alarm",
@@ -12373,8 +13160,11 @@
         "sheet": "Location Data",
         "row": 383
       },
+      "moreInfo": "1F",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 383,
+      "subareaSourceColumn": "AF",
       "levelMin": 27,
       "levelMax": 29
     },
@@ -12420,8 +13210,11 @@
         "sheet": "Location Data",
         "row": 384
       },
+      "moreInfo": "1F",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 383,
+      "subareaSourceColumn": "AF",
       "levelMin": 27,
       "levelMax": 27
     },
@@ -12475,8 +13268,11 @@
         "sheet": "Location Data",
         "row": 385
       },
+      "moreInfo": "1F",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 383,
+      "subareaSourceColumn": "AF",
       "levelMin": 27,
       "levelMax": 27
     },
@@ -12522,8 +13318,11 @@
         "sheet": "Location Data",
         "row": 386
       },
+      "moreInfo": "1F",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 383,
+      "subareaSourceColumn": "AF",
       "levelMin": 28,
       "levelMax": 30
     },
@@ -12561,8 +13360,11 @@
         "sheet": "Location Data",
         "row": 387
       },
+      "moreInfo": "B1F",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 387,
+      "subareaSourceColumn": "AF",
       "levelMin": 28,
       "levelMax": 28
     },
@@ -12592,8 +13394,11 @@
         "sheet": "Location Data",
         "row": 388
       },
+      "moreInfo": "B1F",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 387,
+      "subareaSourceColumn": "AF",
       "levelMin": 30,
       "levelMax": 30
     },
@@ -12631,8 +13436,11 @@
         "sheet": "Location Data",
         "row": 389
       },
+      "moreInfo": "B2F",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 389,
+      "subareaSourceColumn": "AF",
       "levelMin": 30,
       "levelMax": 30
     },
@@ -12670,8 +13478,11 @@
         "sheet": "Location Data",
         "row": 390
       },
+      "moreInfo": "B2F",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 389,
+      "subareaSourceColumn": "AF",
       "levelMin": 30,
       "levelMax": 30
     },
@@ -12701,8 +13512,11 @@
         "sheet": "Location Data",
         "row": 391
       },
+      "moreInfo": "B2F",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 389,
+      "subareaSourceColumn": "AF",
       "levelMin": 34,
       "levelMax": 34
     },
@@ -12732,8 +13546,11 @@
         "sheet": "Location Data",
         "row": 392
       },
+      "moreInfo": "B2F",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 389,
+      "subareaSourceColumn": "AF",
       "levelMin": 32,
       "levelMax": 32
     },
@@ -12779,8 +13596,11 @@
         "sheet": "Location Data",
         "row": 393
       },
+      "moreInfo": "B1F",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 393,
+      "subareaSourceColumn": "AF",
       "levelMin": 29,
       "levelMax": 29
     },
@@ -12826,8 +13646,11 @@
         "sheet": "Location Data",
         "row": 394
       },
+      "moreInfo": "B2F",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 394,
+      "subareaSourceColumn": "AF",
       "levelMin": 32,
       "levelMax": 33
     },
@@ -12873,8 +13696,11 @@
         "sheet": "Location Data",
         "row": 395
       },
+      "moreInfo": "B1F",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 395,
+      "subareaSourceColumn": "AF",
       "levelMin": 32,
       "levelMax": 35
     },
@@ -12886,7 +13712,7 @@
       "boss": false,
       "rival": false,
       "location": "Mahogany Town",
-      "subarea": "",
+      "subarea": "Mahogany Gym",
       "rematch": false,
       "team": [
         {
@@ -12920,6 +13746,12 @@
         "sheet": "Location Data",
         "row": 397
       },
+      "venue": "Mahogany Gym",
+      "venueInherited": false,
+      "venueSourceRow": 397,
+      "subareaInherited": false,
+      "subareaSourceRow": 397,
+      "subareaSourceColumn": "AE",
       "levelMin": 36,
       "levelMax": 37
     },
@@ -12931,7 +13763,7 @@
       "boss": false,
       "rival": false,
       "location": "Mahogany Town",
-      "subarea": "",
+      "subarea": "Mahogany Gym",
       "rematch": false,
       "team": [
         {
@@ -12957,6 +13789,12 @@
         "sheet": "Location Data",
         "row": 398
       },
+      "venue": "Mahogany Gym",
+      "venueInherited": true,
+      "venueSourceRow": 397,
+      "subareaInherited": true,
+      "subareaSourceRow": 397,
+      "subareaSourceColumn": "AE",
       "levelMin": 38,
       "levelMax": 40
     },
@@ -12968,7 +13806,7 @@
       "boss": false,
       "rival": false,
       "location": "Mahogany Town",
-      "subarea": "",
+      "subarea": "Mahogany Gym",
       "rematch": false,
       "team": [
         {
@@ -13002,6 +13840,12 @@
         "sheet": "Location Data",
         "row": 399
       },
+      "venue": "Mahogany Gym",
+      "venueInherited": true,
+      "venueSourceRow": 397,
+      "subareaInherited": true,
+      "subareaSourceRow": 397,
+      "subareaSourceColumn": "AE",
       "levelMin": 38,
       "levelMax": 40
     },
@@ -13013,7 +13857,7 @@
       "boss": false,
       "rival": false,
       "location": "Mahogany Town",
-      "subarea": "",
+      "subarea": "Mahogany Gym",
       "rematch": false,
       "team": [
         {
@@ -13039,6 +13883,12 @@
         "sheet": "Location Data",
         "row": 400
       },
+      "venue": "Mahogany Gym",
+      "venueInherited": true,
+      "venueSourceRow": 397,
+      "subareaInherited": true,
+      "subareaSourceRow": 397,
+      "subareaSourceColumn": "AE",
       "levelMin": 39,
       "levelMax": 40
     },
@@ -13050,7 +13900,7 @@
       "boss": false,
       "rival": false,
       "location": "Mahogany Town",
-      "subarea": "",
+      "subarea": "Mahogany Gym",
       "rematch": false,
       "team": [
         {
@@ -13076,6 +13926,12 @@
         "sheet": "Location Data",
         "row": 401
       },
+      "venue": "Mahogany Gym",
+      "venueInherited": true,
+      "venueSourceRow": 397,
+      "subareaInherited": true,
+      "subareaSourceRow": 397,
+      "subareaSourceColumn": "AE",
       "levelMin": 39,
       "levelMax": 41
     },
@@ -13123,8 +13979,14 @@
         "sheet": "Location Data",
         "row": 404
       },
+      "venue": "Mahogany Gym",
+      "venueInherited": false,
+      "venueSourceRow": 404,
+      "moreInfo": "Rematch",
+      "moreInfoInherited": false,
       "subareaInherited": false,
-      "subareaSourceRow": 404
+      "subareaSourceRow": 404,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-405-mahogany-town-clarissa",
@@ -13162,8 +14024,14 @@
         "sheet": "Location Data",
         "row": 405
       },
+      "venue": "Mahogany Gym",
+      "venueInherited": true,
+      "venueSourceRow": 404,
+      "moreInfo": "Rematch",
+      "moreInfoInherited": true,
       "subareaInherited": true,
-      "subareaSourceRow": 404
+      "subareaSourceRow": 404,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-406-mahogany-town-douglas",
@@ -13209,8 +14077,14 @@
         "sheet": "Location Data",
         "row": 406
       },
+      "venue": "Mahogany Gym",
+      "venueInherited": true,
+      "venueSourceRow": 404,
+      "moreInfo": "Rematch",
+      "moreInfoInherited": true,
       "subareaInherited": true,
-      "subareaSourceRow": 404
+      "subareaSourceRow": 404,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-407-mahogany-town-brad",
@@ -13248,8 +14122,14 @@
         "sheet": "Location Data",
         "row": 407
       },
+      "venue": "Mahogany Gym",
+      "venueInherited": true,
+      "venueSourceRow": 404,
+      "moreInfo": "Rematch",
+      "moreInfoInherited": true,
       "subareaInherited": true,
-      "subareaSourceRow": 404
+      "subareaSourceRow": 404,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-408-mahogany-town-roxanne",
@@ -13279,8 +14159,14 @@
         "sheet": "Location Data",
         "row": 408
       },
+      "venue": "Mahogany Gym",
+      "venueInherited": true,
+      "venueSourceRow": 404,
+      "moreInfo": "Rematch",
+      "moreInfoInherited": true,
       "subareaInherited": true,
-      "subareaSourceRow": 404
+      "subareaSourceRow": 404,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-411-route-44-phil",
@@ -13815,7 +14701,7 @@
       "boss": false,
       "rival": false,
       "location": "Blackthorn City",
-      "subarea": "1F",
+      "subarea": "Blackthorn Gym · 1F",
       "rematch": false,
       "team": [
         {
@@ -13849,8 +14735,14 @@
         "sheet": "Location Data",
         "row": 427
       },
+      "venue": "Blackthorn Gym",
+      "venueInherited": false,
+      "venueSourceRow": 427,
+      "moreInfo": "1F",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 427,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 44,
       "levelMax": 44
     },
@@ -13862,7 +14754,7 @@
       "boss": false,
       "rival": false,
       "location": "Blackthorn City",
-      "subarea": "2F",
+      "subarea": "Blackthorn Gym · 2F",
       "rematch": false,
       "team": [
         {
@@ -13880,8 +14772,14 @@
         "sheet": "Location Data",
         "row": 428
       },
+      "venue": "Blackthorn Gym",
+      "venueInherited": true,
+      "venueSourceRow": 427,
+      "moreInfo": "2F",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 428,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 47,
       "levelMax": 47
     },
@@ -13893,7 +14791,7 @@
       "boss": false,
       "rival": false,
       "location": "Blackthorn City",
-      "subarea": "2F",
+      "subarea": "Blackthorn Gym · 2F",
       "rematch": false,
       "team": [
         {
@@ -13927,8 +14825,14 @@
         "sheet": "Location Data",
         "row": 429
       },
+      "venue": "Blackthorn Gym",
+      "venueInherited": true,
+      "venueSourceRow": 427,
+      "moreInfo": "2F",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 428,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 45,
       "levelMax": 46
     },
@@ -13940,7 +14844,7 @@
       "boss": false,
       "rival": false,
       "location": "Blackthorn City",
-      "subarea": "1F",
+      "subarea": "Blackthorn Gym · 1F",
       "rematch": false,
       "team": [
         {
@@ -13958,8 +14862,14 @@
         "sheet": "Location Data",
         "row": 430
       },
+      "venue": "Blackthorn Gym",
+      "venueInherited": true,
+      "venueSourceRow": 427,
+      "moreInfo": "1F",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 430,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 47,
       "levelMax": 47
     },
@@ -13971,7 +14881,7 @@
       "boss": false,
       "rival": false,
       "location": "Blackthorn City",
-      "subarea": "1F",
+      "subarea": "Blackthorn Gym · 1F",
       "rematch": false,
       "team": [
         {
@@ -13997,8 +14907,14 @@
         "sheet": "Location Data",
         "row": 431
       },
+      "venue": "Blackthorn Gym",
+      "venueInherited": true,
+      "venueSourceRow": 427,
+      "moreInfo": "1F",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 430,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 45,
       "levelMax": 46
     },
@@ -14010,7 +14926,7 @@
       "boss": false,
       "rival": false,
       "location": "Blackthorn City",
-      "subarea": "Rematch, 1F",
+      "subarea": "Blackthorn Gym · Rematch, 1F",
       "rematch": false,
       "team": [
         {
@@ -14046,8 +14962,14 @@
         "sheet": "Location Data",
         "row": 434
       },
+      "venue": "Blackthorn Gym",
+      "venueInherited": false,
+      "venueSourceRow": 434,
+      "moreInfo": "Rematch, 1F",
+      "moreInfoInherited": false,
       "subareaInherited": false,
-      "subareaSourceRow": 434
+      "subareaSourceRow": 434,
+      "subareaSourceColumn": "AE+AF"
     },
     {
       "id": "location-data-435-blackthorn-city-fran",
@@ -14057,7 +14979,7 @@
       "boss": false,
       "rival": false,
       "location": "Blackthorn City",
-      "subarea": "2F",
+      "subarea": "Blackthorn Gym · 2F",
       "rematch": false,
       "team": [
         {
@@ -14077,8 +14999,14 @@
         "sheet": "Location Data",
         "row": 435
       },
+      "venue": "Blackthorn Gym",
+      "venueInherited": true,
+      "venueSourceRow": 434,
+      "moreInfo": "2F",
+      "moreInfoInherited": false,
       "subareaInherited": false,
-      "subareaSourceRow": 435
+      "subareaSourceRow": 435,
+      "subareaSourceColumn": "AE+AF"
     },
     {
       "id": "location-data-436-blackthorn-city-cody",
@@ -14088,7 +15016,7 @@
       "boss": false,
       "rival": false,
       "location": "Blackthorn City",
-      "subarea": "2F",
+      "subarea": "Blackthorn Gym · 2F",
       "rematch": false,
       "team": [
         {
@@ -14124,8 +15052,14 @@
         "sheet": "Location Data",
         "row": 436
       },
+      "venue": "Blackthorn Gym",
+      "venueInherited": true,
+      "venueSourceRow": 434,
+      "moreInfo": "2F",
+      "moreInfoInherited": true,
       "subareaInherited": true,
-      "subareaSourceRow": 435
+      "subareaSourceRow": 435,
+      "subareaSourceColumn": "AE+AF"
     },
     {
       "id": "location-data-437-blackthorn-city-mike",
@@ -14135,7 +15069,7 @@
       "boss": false,
       "rival": false,
       "location": "Blackthorn City",
-      "subarea": "1F",
+      "subarea": "Blackthorn Gym · 1F",
       "rematch": false,
       "team": [
         {
@@ -14155,8 +15089,14 @@
         "sheet": "Location Data",
         "row": 437
       },
+      "venue": "Blackthorn Gym",
+      "venueInherited": true,
+      "venueSourceRow": 434,
+      "moreInfo": "1F",
+      "moreInfoInherited": false,
       "subareaInherited": false,
-      "subareaSourceRow": 437
+      "subareaSourceRow": 437,
+      "subareaSourceColumn": "AE+AF"
     },
     {
       "id": "location-data-438-blackthorn-city-lola",
@@ -14166,7 +15106,7 @@
       "boss": false,
       "rival": false,
       "location": "Blackthorn City",
-      "subarea": "1F",
+      "subarea": "Blackthorn Gym · 1F",
       "rematch": false,
       "team": [
         {
@@ -14194,8 +15134,14 @@
         "sheet": "Location Data",
         "row": 438
       },
+      "venue": "Blackthorn Gym",
+      "venueInherited": true,
+      "venueSourceRow": 434,
+      "moreInfo": "1F",
+      "moreInfoInherited": true,
       "subareaInherited": true,
-      "subareaSourceRow": 437
+      "subareaSourceRow": 437,
+      "subareaSourceColumn": "AE+AF"
     },
     {
       "id": "location-data-441-dragons-den-darin",
@@ -14342,8 +15288,11 @@
         "sheet": "Location Data",
         "row": 445
       },
+      "moreInfo": "East",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 445,
+      "subareaSourceColumn": "AF",
       "levelMin": 45,
       "levelMax": 47
     },
@@ -14373,8 +15322,11 @@
         "sheet": "Location Data",
         "row": 446
       },
+      "moreInfo": "East",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 445,
+      "subareaSourceColumn": "AF",
       "levelMin": 48,
       "levelMax": 48
     },
@@ -14420,8 +15372,11 @@
         "sheet": "Location Data",
         "row": 447
       },
+      "moreInfo": "East",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 445,
+      "subareaSourceColumn": "AF",
       "levelMin": 44,
       "levelMax": 46
     },
@@ -14467,8 +15422,11 @@
         "sheet": "Location Data",
         "row": 448
       },
+      "moreInfo": "Center",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 448,
+      "subareaSourceColumn": "AF",
       "levelMin": 44,
       "levelMax": 47
     },
@@ -14506,8 +15464,11 @@
         "sheet": "Location Data",
         "row": 449
       },
+      "moreInfo": "Center",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 448,
+      "subareaSourceColumn": "AF",
       "levelMin": 46,
       "levelMax": 46
     },
@@ -14537,8 +15498,11 @@
         "sheet": "Location Data",
         "row": 450
       },
+      "moreInfo": "West",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 450,
+      "subareaSourceColumn": "AF",
       "levelMin": 48,
       "levelMax": 48
     },
@@ -14584,8 +15548,11 @@
         "sheet": "Location Data",
         "row": 451
       },
+      "moreInfo": "West",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 450,
+      "subareaSourceColumn": "AF",
       "levelMin": 44,
       "levelMax": 46
     },
@@ -14631,8 +15598,11 @@
         "sheet": "Location Data",
         "row": 452
       },
+      "moreInfo": "West",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 450,
+      "subareaSourceColumn": "AF",
       "levelMin": 45,
       "levelMax": 46
     },
@@ -14673,8 +15643,11 @@
         "sheet": "Location Data",
         "row": 454
       },
+      "moreInfo": "East",
+      "moreInfoInherited": false,
       "subareaInherited": false,
-      "subareaSourceRow": 454
+      "subareaSourceRow": 454,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-455-route-45-kenji",
@@ -14705,8 +15678,11 @@
         "sheet": "Location Data",
         "row": 455
       },
+      "moreInfo": "East",
+      "moreInfoInherited": true,
       "subareaInherited": true,
-      "subareaSourceRow": 454
+      "subareaSourceRow": 454,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-456-route-45-michael",
@@ -14753,8 +15729,11 @@
         "sheet": "Location Data",
         "row": 456
       },
+      "moreInfo": "East",
+      "moreInfoInherited": true,
       "subareaInherited": true,
-      "subareaSourceRow": 454
+      "subareaSourceRow": 454,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-457-route-45-erik",
@@ -14801,8 +15780,11 @@
         "sheet": "Location Data",
         "row": 457
       },
+      "moreInfo": "Center",
+      "moreInfoInherited": false,
       "subareaInherited": false,
-      "subareaSourceRow": 457
+      "subareaSourceRow": 457,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-458-route-45-timothy",
@@ -14841,8 +15823,11 @@
         "sheet": "Location Data",
         "row": 458
       },
+      "moreInfo": "Center",
+      "moreInfoInherited": true,
       "subareaInherited": true,
-      "subareaSourceRow": 457
+      "subareaSourceRow": 457,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-459-route-45-parry",
@@ -14873,8 +15858,11 @@
         "sheet": "Location Data",
         "row": 459
       },
+      "moreInfo": "West",
+      "moreInfoInherited": false,
       "subareaInherited": false,
-      "subareaSourceRow": 459
+      "subareaSourceRow": 459,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-460-route-45-kelly",
@@ -14921,8 +15909,11 @@
         "sheet": "Location Data",
         "row": 460
       },
+      "moreInfo": "West",
+      "moreInfoInherited": true,
       "subareaInherited": true,
-      "subareaSourceRow": 459
+      "subareaSourceRow": 459,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-462-route-27-megan",
@@ -15175,8 +16166,11 @@
         "sheet": "Location Data",
         "row": 467
       },
+      "moreInfo": "Whirlpool",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 467,
+      "subareaSourceColumn": "AF",
       "levelMin": 46,
       "levelMax": 47
     },
@@ -15188,7 +16182,7 @@
       "boss": false,
       "rival": false,
       "location": "Route 27",
-      "subarea": "Whirlpool",
+      "subarea": "",
       "rematch": true,
       "team": [
         {
@@ -15224,9 +16218,7 @@
         "file": "sources/inbox/Crystal Advance Redux.xlsx",
         "sheet": "Location Data",
         "row": 469
-      },
-      "subareaInherited": true,
-      "subareaSourceRow": 467
+      }
     },
     {
       "id": "location-data-470-route-27-blake",
@@ -15236,7 +16228,7 @@
       "boss": false,
       "rival": false,
       "location": "Route 27",
-      "subarea": "Whirlpool",
+      "subarea": "",
       "rematch": true,
       "team": [
         {
@@ -15272,9 +16264,7 @@
         "file": "sources/inbox/Crystal Advance Redux.xlsx",
         "sheet": "Location Data",
         "row": 470
-      },
-      "subareaInherited": true,
-      "subareaSourceRow": 467
+      }
     },
     {
       "id": "location-data-471-route-27-brian",
@@ -15284,7 +16274,7 @@
       "boss": false,
       "rival": false,
       "location": "Route 27",
-      "subarea": "Whirlpool",
+      "subarea": "",
       "rematch": true,
       "team": [
         {
@@ -15304,9 +16294,7 @@
         "file": "sources/inbox/Crystal Advance Redux.xlsx",
         "sheet": "Location Data",
         "row": 471
-      },
-      "subareaInherited": true,
-      "subareaSourceRow": 467
+      }
     },
     {
       "id": "location-data-472-route-27-gilbert",
@@ -15316,7 +16304,7 @@
       "boss": false,
       "rival": false,
       "location": "Route 27",
-      "subarea": "Whirlpool",
+      "subarea": "",
       "rematch": true,
       "team": [
         {
@@ -15360,9 +16348,7 @@
         "file": "sources/inbox/Crystal Advance Redux.xlsx",
         "sheet": "Location Data",
         "row": 472
-      },
-      "subareaInherited": true,
-      "subareaSourceRow": 467
+      }
     },
     {
       "id": "location-data-473-route-27-reena",
@@ -15372,7 +16358,7 @@
       "boss": false,
       "rival": false,
       "location": "Route 27",
-      "subarea": "Whirlpool",
+      "subarea": "",
       "rematch": true,
       "team": [
         {
@@ -15408,9 +16394,7 @@
         "file": "sources/inbox/Crystal Advance Redux.xlsx",
         "sheet": "Location Data",
         "row": 473
-      },
-      "subareaInherited": true,
-      "subareaSourceRow": 467
+      }
     },
     {
       "id": "location-data-474-route-27-jose",
@@ -15449,8 +16433,11 @@
         "sheet": "Location Data",
         "row": 474
       },
+      "moreInfo": "Whirlpool",
+      "moreInfoInherited": false,
       "subareaInherited": false,
-      "subareaSourceRow": 474
+      "subareaSourceRow": 474,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-476-route-26-scott",
@@ -15990,8 +16977,11 @@
         "sheet": "Location Data",
         "row": 490
       },
+      "moreInfo": "3F",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 490,
+      "subareaSourceColumn": "AF",
       "levelMin": 49,
       "levelMax": 52
     },
@@ -16003,7 +16993,7 @@
       "boss": false,
       "rival": false,
       "location": "S.S. Aqua",
-      "subarea": "1F, Cabin 3",
+      "subarea": "S.S. Aqua, 1st Trip · 1F, Cabin 3",
       "rematch": false,
       "team": [
         {
@@ -16029,8 +17019,14 @@
         "sheet": "Location Data",
         "row": 504
       },
+      "venue": "S.S. Aqua, 1st Trip",
+      "venueInherited": false,
+      "venueSourceRow": 504,
+      "moreInfo": "1F, Cabin 3",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 504,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 51,
       "levelMax": 52
     },
@@ -16042,7 +17038,7 @@
       "boss": false,
       "rival": false,
       "location": "S.S. Aqua",
-      "subarea": "Cabin 6",
+      "subarea": "S.S. Aqua, 1st Trip · Cabin 6",
       "rematch": false,
       "team": [
         {
@@ -16060,8 +17056,14 @@
         "sheet": "Location Data",
         "row": 505
       },
+      "venue": "S.S. Aqua, 1st Trip",
+      "venueInherited": true,
+      "venueSourceRow": 504,
+      "moreInfo": "Cabin 6",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 505,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 58,
       "levelMax": 58
     },
@@ -16073,7 +17075,7 @@
       "boss": false,
       "rival": false,
       "location": "S.S. Aqua",
-      "subarea": "Cabin 6",
+      "subarea": "S.S. Aqua, 1st Trip · Cabin 6",
       "rematch": false,
       "team": [
         {
@@ -16099,8 +17101,14 @@
         "sheet": "Location Data",
         "row": 506
       },
+      "venue": "S.S. Aqua, 1st Trip",
+      "venueInherited": true,
+      "venueSourceRow": 504,
+      "moreInfo": "Cabin 6",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 505,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 52,
       "levelMax": 53
     },
@@ -16112,7 +17120,7 @@
       "boss": false,
       "rival": false,
       "location": "S.S. Aqua",
-      "subarea": "Cabin 8",
+      "subarea": "S.S. Aqua, 1st Trip · Cabin 8",
       "rematch": false,
       "team": [
         {
@@ -16146,8 +17154,14 @@
         "sheet": "Location Data",
         "row": 507
       },
+      "venue": "S.S. Aqua, 1st Trip",
+      "venueInherited": true,
+      "venueSourceRow": 504,
+      "moreInfo": "Cabin 8",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 507,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 49,
       "levelMax": 51
     },
@@ -16159,7 +17173,7 @@
       "boss": false,
       "rival": false,
       "location": "S.S. Aqua",
-      "subarea": "Cabin 2",
+      "subarea": "S.S. Aqua, 1st Trip · Cabin 2",
       "rematch": false,
       "team": [
         {
@@ -16193,8 +17207,14 @@
         "sheet": "Location Data",
         "row": 508
       },
+      "venue": "S.S. Aqua, 1st Trip",
+      "venueInherited": true,
+      "venueSourceRow": 504,
+      "moreInfo": "Cabin 2",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 508,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 50,
       "levelMax": 51
     },
@@ -16206,7 +17226,7 @@
       "boss": false,
       "rival": false,
       "location": "S.S. Aqua",
-      "subarea": "B1F",
+      "subarea": "S.S. Aqua, 1st Trip · B1F",
       "rematch": false,
       "team": [
         {
@@ -16240,8 +17260,14 @@
         "sheet": "Location Data",
         "row": 510
       },
+      "venue": "S.S. Aqua, 1st Trip",
+      "venueInherited": true,
+      "venueSourceRow": 504,
+      "moreInfo": "B1F",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 510,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 52,
       "levelMax": 54
     },
@@ -16253,7 +17279,7 @@
       "boss": false,
       "rival": false,
       "location": "S.S. Aqua",
-      "subarea": "B1F",
+      "subarea": "S.S. Aqua, 1st Trip · B1F",
       "rematch": false,
       "team": [
         {
@@ -16295,8 +17321,14 @@
         "sheet": "Location Data",
         "row": 511
       },
+      "venue": "S.S. Aqua, 1st Trip",
+      "venueInherited": true,
+      "venueSourceRow": 504,
+      "moreInfo": "B1F",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 510,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 54,
       "levelMax": 54
     },
@@ -16308,7 +17340,7 @@
       "boss": false,
       "rival": false,
       "location": "S.S. Aqua",
-      "subarea": "B1F",
+      "subarea": "S.S. Aqua, 1st Trip · B1F",
       "rematch": false,
       "team": [
         {
@@ -16326,8 +17358,14 @@
         "sheet": "Location Data",
         "row": 512
       },
+      "venue": "S.S. Aqua, 1st Trip",
+      "venueInherited": true,
+      "venueSourceRow": 504,
+      "moreInfo": "B1F",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 510,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 57,
       "levelMax": 57
     },
@@ -16339,7 +17377,7 @@
       "boss": false,
       "rival": false,
       "location": "S.S. Aqua",
-      "subarea": "1F, Cabin 3",
+      "subarea": "S.S. Aqua, 1st Trip · 1F, Cabin 3",
       "rematch": true,
       "team": [
         {
@@ -16360,8 +17398,14 @@
         "sheet": "Location Data",
         "row": 514
       },
+      "venue": "S.S. Aqua, 1st Trip",
+      "venueInherited": true,
+      "venueSourceRow": 504,
+      "moreInfo": "1F, Cabin 3",
+      "moreInfoInherited": false,
       "subareaInherited": false,
-      "subareaSourceRow": 514
+      "subareaSourceRow": 514,
+      "subareaSourceColumn": "AE+AF"
     },
     {
       "id": "location-data-515-s-s-aqua-colin",
@@ -16371,7 +17415,7 @@
       "boss": false,
       "rival": false,
       "location": "S.S. Aqua",
-      "subarea": "Cabin 6",
+      "subarea": "S.S. Aqua, 1st Trip · Cabin 6",
       "rematch": true,
       "team": [
         {
@@ -16392,8 +17436,14 @@
         "sheet": "Location Data",
         "row": 515
       },
+      "venue": "S.S. Aqua, 1st Trip",
+      "venueInherited": true,
+      "venueSourceRow": 504,
+      "moreInfo": "Cabin 6",
+      "moreInfoInherited": false,
       "subareaInherited": false,
-      "subareaSourceRow": 515
+      "subareaSourceRow": 515,
+      "subareaSourceColumn": "AE+AF"
     },
     {
       "id": "location-data-516-s-s-aqua-meg-peg-db",
@@ -16403,7 +17453,7 @@
       "boss": false,
       "rival": false,
       "location": "S.S. Aqua",
-      "subarea": "Cabin 6",
+      "subarea": "S.S. Aqua, 1st Trip · Cabin 6",
       "rematch": true,
       "team": [
         {
@@ -16432,8 +17482,14 @@
         "sheet": "Location Data",
         "row": 516
       },
+      "venue": "S.S. Aqua, 1st Trip",
+      "venueInherited": true,
+      "venueSourceRow": 504,
+      "moreInfo": "Cabin 6",
+      "moreInfoInherited": true,
       "subareaInherited": true,
-      "subareaSourceRow": 515
+      "subareaSourceRow": 515,
+      "subareaSourceColumn": "AE+AF"
     },
     {
       "id": "location-data-517-s-s-aqua-lyle",
@@ -16443,7 +17499,7 @@
       "boss": false,
       "rival": false,
       "location": "S.S. Aqua",
-      "subarea": "Cabin 8",
+      "subarea": "S.S. Aqua, 1st Trip · Cabin 8",
       "rematch": true,
       "team": [
         {
@@ -16480,8 +17536,14 @@
         "sheet": "Location Data",
         "row": 517
       },
+      "venue": "S.S. Aqua, 1st Trip",
+      "venueInherited": true,
+      "venueSourceRow": 504,
+      "moreInfo": "Cabin 8",
+      "moreInfoInherited": false,
       "subareaInherited": false,
-      "subareaSourceRow": 517
+      "subareaSourceRow": 517,
+      "subareaSourceColumn": "AE+AF"
     },
     {
       "id": "location-data-519-s-s-aqua-corey",
@@ -16491,7 +17553,7 @@
       "boss": false,
       "rival": false,
       "location": "S.S. Aqua",
-      "subarea": "1F, Cabin 2",
+      "subarea": "⇒ Olivine, Repeatable · 1F, Cabin 2",
       "rematch": false,
       "team": [
         {
@@ -16533,8 +17595,14 @@
         "sheet": "Location Data",
         "row": 519
       },
+      "venue": "⇒ Olivine, Repeatable",
+      "venueInherited": false,
+      "venueSourceRow": 519,
+      "moreInfo": "1F, Cabin 2",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 519,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 53,
       "levelMax": 55
     },
@@ -16546,7 +17614,7 @@
       "boss": false,
       "rival": false,
       "location": "S.S. Aqua",
-      "subarea": "Cabin 4",
+      "subarea": "⇒ Olivine, Repeatable · Cabin 4",
       "rematch": false,
       "team": [
         {
@@ -16572,8 +17640,14 @@
         "sheet": "Location Data",
         "row": 520
       },
+      "venue": "⇒ Olivine, Repeatable",
+      "venueInherited": true,
+      "venueSourceRow": 519,
+      "moreInfo": "Cabin 4",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 520,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 51,
       "levelMax": 52
     },
@@ -16585,7 +17659,7 @@
       "boss": false,
       "rival": false,
       "location": "S.S. Aqua",
-      "subarea": "Cabin 6",
+      "subarea": "⇒ Olivine, Repeatable · Cabin 6",
       "rematch": false,
       "team": [
         {
@@ -16643,8 +17717,14 @@
         "sheet": "Location Data",
         "row": 521
       },
+      "venue": "⇒ Olivine, Repeatable",
+      "venueInherited": true,
+      "venueSourceRow": 519,
+      "moreInfo": "Cabin 6",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 521,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 50,
       "levelMax": 52
     },
@@ -16656,7 +17736,7 @@
       "boss": false,
       "rival": false,
       "location": "S.S. Aqua",
-      "subarea": "Cabin 6",
+      "subarea": "⇒ Olivine, Repeatable · Cabin 6",
       "rematch": false,
       "team": [
         {
@@ -16690,8 +17770,14 @@
         "sheet": "Location Data",
         "row": 522
       },
+      "venue": "⇒ Olivine, Repeatable",
+      "venueInherited": true,
+      "venueSourceRow": 519,
+      "moreInfo": "Cabin 6",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 521,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 56,
       "levelMax": 56
     },
@@ -16703,7 +17789,7 @@
       "boss": false,
       "rival": false,
       "location": "S.S. Aqua",
-      "subarea": "Cabin 7",
+      "subarea": "⇒ Olivine, Repeatable · Cabin 7",
       "rematch": false,
       "team": [
         {
@@ -16721,8 +17807,14 @@
         "sheet": "Location Data",
         "row": 523
       },
+      "venue": "⇒ Olivine, Repeatable",
+      "venueInherited": true,
+      "venueSourceRow": 519,
+      "moreInfo": "Cabin 7",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 523,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 55,
       "levelMax": 55
     },
@@ -16734,7 +17826,7 @@
       "boss": false,
       "rival": false,
       "location": "S.S. Aqua",
-      "subarea": "Cabin 8",
+      "subarea": "⇒ Olivine, Repeatable · Cabin 8",
       "rematch": false,
       "team": [
         {
@@ -16760,8 +17852,14 @@
         "sheet": "Location Data",
         "row": 524
       },
+      "venue": "⇒ Olivine, Repeatable",
+      "venueInherited": true,
+      "venueSourceRow": 519,
+      "moreInfo": "Cabin 8",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 524,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 50,
       "levelMax": 51
     },
@@ -16773,7 +17871,7 @@
       "boss": false,
       "rival": false,
       "location": "S.S. Aqua",
-      "subarea": "B1F",
+      "subarea": "⇒ Olivine, Repeatable · B1F",
       "rematch": false,
       "team": [
         {
@@ -16815,8 +17913,14 @@
         "sheet": "Location Data",
         "row": 526
       },
+      "venue": "⇒ Olivine, Repeatable",
+      "venueInherited": true,
+      "venueSourceRow": 519,
+      "moreInfo": "B1F",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 526,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 55,
       "levelMax": 57
     },
@@ -16828,7 +17932,7 @@
       "boss": false,
       "rival": false,
       "location": "S.S. Aqua",
-      "subarea": "B1F",
+      "subarea": "⇒ Olivine, Repeatable · B1F",
       "rematch": false,
       "team": [
         {
@@ -16854,8 +17958,14 @@
         "sheet": "Location Data",
         "row": 527
       },
+      "venue": "⇒ Olivine, Repeatable",
+      "venueInherited": true,
+      "venueSourceRow": 519,
+      "moreInfo": "B1F",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 526,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 53,
       "levelMax": 56
     },
@@ -16867,7 +17977,7 @@
       "boss": false,
       "rival": false,
       "location": "S.S. Aqua",
-      "subarea": "B1F",
+      "subarea": "⇒ Olivine, Repeatable · B1F",
       "rematch": false,
       "team": [
         {
@@ -16893,8 +18003,14 @@
         "sheet": "Location Data",
         "row": 528
       },
+      "venue": "⇒ Olivine, Repeatable",
+      "venueInherited": true,
+      "venueSourceRow": 519,
+      "moreInfo": "B1F",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 526,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 55,
       "levelMax": 55
     },
@@ -16906,7 +18022,7 @@
       "boss": false,
       "rival": false,
       "location": "S.S. Aqua",
-      "subarea": "B1F",
+      "subarea": "⇒ Olivine, Repeatable · B1F",
       "rematch": false,
       "team": [
         {
@@ -16932,8 +18048,14 @@
         "sheet": "Location Data",
         "row": 529
       },
+      "venue": "⇒ Olivine, Repeatable",
+      "venueInherited": true,
+      "venueSourceRow": 519,
+      "moreInfo": "B1F",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 526,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 55,
       "levelMax": 58
     },
@@ -16945,7 +18067,7 @@
       "boss": false,
       "rival": false,
       "location": "S.S. Aqua",
-      "subarea": "1F, Cabin 2",
+      "subarea": "⇒ Olivine, Repeatable · 1F, Cabin 2",
       "rematch": true,
       "team": [
         {
@@ -16990,8 +18112,14 @@
         "sheet": "Location Data",
         "row": 531
       },
+      "venue": "⇒ Olivine, Repeatable",
+      "venueInherited": true,
+      "venueSourceRow": 519,
+      "moreInfo": "1F, Cabin 2",
+      "moreInfoInherited": false,
       "subareaInherited": false,
-      "subareaSourceRow": 531
+      "subareaSourceRow": 531,
+      "subareaSourceColumn": "AE+AF"
     },
     {
       "id": "location-data-532-s-s-aqua-ethan",
@@ -17001,7 +18129,7 @@
       "boss": false,
       "rival": false,
       "location": "S.S. Aqua",
-      "subarea": "Cabin 4",
+      "subarea": "⇒ Olivine, Repeatable · Cabin 4",
       "rematch": true,
       "team": [
         {
@@ -17030,8 +18158,14 @@
         "sheet": "Location Data",
         "row": 532
       },
+      "venue": "⇒ Olivine, Repeatable",
+      "venueInherited": true,
+      "venueSourceRow": 519,
+      "moreInfo": "Cabin 4",
+      "moreInfoInherited": false,
       "subareaInherited": false,
-      "subareaSourceRow": 532
+      "subareaSourceRow": 532,
+      "subareaSourceColumn": "AE+AF"
     },
     {
       "id": "location-data-533-s-s-aqua-georgia",
@@ -17041,7 +18175,7 @@
       "boss": false,
       "rival": false,
       "location": "S.S. Aqua",
-      "subarea": "Cabin 6",
+      "subarea": "⇒ Olivine, Repeatable · Cabin 6",
       "rematch": true,
       "team": [
         {
@@ -17102,8 +18236,14 @@
         "sheet": "Location Data",
         "row": 533
       },
+      "venue": "⇒ Olivine, Repeatable",
+      "venueInherited": true,
+      "venueSourceRow": 519,
+      "moreInfo": "Cabin 6",
+      "moreInfoInherited": false,
       "subareaInherited": false,
-      "subareaSourceRow": 533
+      "subareaSourceRow": 533,
+      "subareaSourceColumn": "AE+AF"
     },
     {
       "id": "location-data-534-s-s-aqua-jeremy",
@@ -17113,7 +18253,7 @@
       "boss": false,
       "rival": false,
       "location": "S.S. Aqua",
-      "subarea": "Cabin 6",
+      "subarea": "⇒ Olivine, Repeatable · Cabin 6",
       "rematch": true,
       "team": [
         {
@@ -17150,8 +18290,14 @@
         "sheet": "Location Data",
         "row": 534
       },
+      "venue": "⇒ Olivine, Repeatable",
+      "venueInherited": true,
+      "venueSourceRow": 519,
+      "moreInfo": "Cabin 6",
+      "moreInfoInherited": true,
       "subareaInherited": true,
-      "subareaSourceRow": 533
+      "subareaSourceRow": 533,
+      "subareaSourceColumn": "AE+AF"
     },
     {
       "id": "location-data-535-s-s-aqua-clyde",
@@ -17161,7 +18307,7 @@
       "boss": false,
       "rival": false,
       "location": "S.S. Aqua",
-      "subarea": "Cabin 7",
+      "subarea": "⇒ Olivine, Repeatable · Cabin 7",
       "rematch": true,
       "team": [
         {
@@ -17182,8 +18328,14 @@
         "sheet": "Location Data",
         "row": 535
       },
+      "venue": "⇒ Olivine, Repeatable",
+      "venueInherited": true,
+      "venueSourceRow": 519,
+      "moreInfo": "Cabin 7",
+      "moreInfoInherited": false,
       "subareaInherited": false,
-      "subareaSourceRow": 535
+      "subareaSourceRow": 535,
+      "subareaSourceColumn": "AE+AF"
     },
     {
       "id": "location-data-536-s-s-aqua-ken",
@@ -17193,7 +18345,7 @@
       "boss": false,
       "rival": false,
       "location": "S.S. Aqua",
-      "subarea": "Cabin 8",
+      "subarea": "⇒ Olivine, Repeatable · Cabin 8",
       "rematch": true,
       "team": [
         {
@@ -17222,8 +18374,14 @@
         "sheet": "Location Data",
         "row": 536
       },
+      "venue": "⇒ Olivine, Repeatable",
+      "venueInherited": true,
+      "venueSourceRow": 519,
+      "moreInfo": "Cabin 8",
+      "moreInfoInherited": false,
       "subareaInherited": false,
-      "subareaSourceRow": 536
+      "subareaSourceRow": 536,
+      "subareaSourceColumn": "AE+AF"
     },
     {
       "id": "location-data-538-s-s-aqua-kenneth",
@@ -17233,7 +18391,7 @@
       "boss": false,
       "rival": false,
       "location": "S.S. Aqua",
-      "subarea": "B1F",
+      "subarea": "⇒ Olivine, Repeatable · B1F",
       "rematch": true,
       "team": [
         {
@@ -17278,8 +18436,14 @@
         "sheet": "Location Data",
         "row": 538
       },
+      "venue": "⇒ Olivine, Repeatable",
+      "venueInherited": true,
+      "venueSourceRow": 519,
+      "moreInfo": "B1F",
+      "moreInfoInherited": false,
       "subareaInherited": false,
-      "subareaSourceRow": 538
+      "subareaSourceRow": 538,
+      "subareaSourceColumn": "AE+AF"
     },
     {
       "id": "location-data-539-s-s-aqua-shirley",
@@ -17289,7 +18453,7 @@
       "boss": false,
       "rival": false,
       "location": "S.S. Aqua",
-      "subarea": "B1F",
+      "subarea": "⇒ Olivine, Repeatable · B1F",
       "rematch": true,
       "team": [
         {
@@ -17318,8 +18482,14 @@
         "sheet": "Location Data",
         "row": 539
       },
+      "venue": "⇒ Olivine, Repeatable",
+      "venueInherited": true,
+      "venueSourceRow": 519,
+      "moreInfo": "B1F",
+      "moreInfoInherited": true,
       "subareaInherited": true,
-      "subareaSourceRow": 538
+      "subareaSourceRow": 538,
+      "subareaSourceColumn": "AE+AF"
     },
     {
       "id": "location-data-540-s-s-aqua-nate",
@@ -17329,7 +18499,7 @@
       "boss": false,
       "rival": false,
       "location": "S.S. Aqua",
-      "subarea": "B1F",
+      "subarea": "⇒ Olivine, Repeatable · B1F",
       "rematch": true,
       "team": [
         {
@@ -17358,8 +18528,14 @@
         "sheet": "Location Data",
         "row": 540
       },
+      "venue": "⇒ Olivine, Repeatable",
+      "venueInherited": true,
+      "venueSourceRow": 519,
+      "moreInfo": "B1F",
+      "moreInfoInherited": true,
       "subareaInherited": true,
-      "subareaSourceRow": 538
+      "subareaSourceRow": 538,
+      "subareaSourceColumn": "AE+AF"
     },
     {
       "id": "location-data-541-s-s-aqua-ricky",
@@ -17369,7 +18545,7 @@
       "boss": false,
       "rival": false,
       "location": "S.S. Aqua",
-      "subarea": "B1F",
+      "subarea": "⇒ Olivine, Repeatable · B1F",
       "rematch": true,
       "team": [
         {
@@ -17398,8 +18574,14 @@
         "sheet": "Location Data",
         "row": 541
       },
+      "venue": "⇒ Olivine, Repeatable",
+      "venueInherited": true,
+      "venueSourceRow": 519,
+      "moreInfo": "B1F",
+      "moreInfoInherited": true,
       "subareaInherited": true,
-      "subareaSourceRow": 538
+      "subareaSourceRow": 538,
+      "subareaSourceColumn": "AE+AF"
     },
     {
       "id": "location-data-543-s-s-aqua-edward",
@@ -17409,7 +18591,7 @@
       "boss": false,
       "rival": false,
       "location": "S.S. Aqua",
-      "subarea": "1F, Cabin 2",
+      "subarea": "⇒ Vermilion, Repeatable · 1F, Cabin 2",
       "rematch": false,
       "team": [
         {
@@ -17435,8 +18617,14 @@
         "sheet": "Location Data",
         "row": 543
       },
+      "venue": "⇒ Vermilion, Repeatable",
+      "venueInherited": false,
+      "venueSourceRow": 543,
+      "moreInfo": "1F, Cabin 2",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 543,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 49,
       "levelMax": 50
     },
@@ -17448,7 +18636,7 @@
       "boss": false,
       "rival": false,
       "location": "S.S. Aqua",
-      "subarea": "Cabin 4",
+      "subarea": "⇒ Vermilion, Repeatable · Cabin 4",
       "rematch": false,
       "team": [
         {
@@ -17482,8 +18670,14 @@
         "sheet": "Location Data",
         "row": 544
       },
+      "venue": "⇒ Vermilion, Repeatable",
+      "venueInherited": true,
+      "venueSourceRow": 543,
+      "moreInfo": "Cabin 4",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 544,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 52,
       "levelMax": 53
     },
@@ -17495,7 +18689,7 @@
       "boss": false,
       "rival": false,
       "location": "S.S. Aqua",
-      "subarea": "Cabin 4",
+      "subarea": "⇒ Vermilion, Repeatable · Cabin 4",
       "rematch": false,
       "team": [
         {
@@ -17529,8 +18723,14 @@
         "sheet": "Location Data",
         "row": 545
       },
+      "venue": "⇒ Vermilion, Repeatable",
+      "venueInherited": true,
+      "venueSourceRow": 543,
+      "moreInfo": "Cabin 4",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 544,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 52,
       "levelMax": 53
     },
@@ -17542,7 +18742,7 @@
       "boss": false,
       "rival": false,
       "location": "S.S. Aqua",
-      "subarea": "Cabin 5",
+      "subarea": "⇒ Vermilion, Repeatable · Cabin 5",
       "rematch": false,
       "team": [
         {
@@ -17576,8 +18776,14 @@
         "sheet": "Location Data",
         "row": 546
       },
+      "venue": "⇒ Vermilion, Repeatable",
+      "venueInherited": true,
+      "venueSourceRow": 543,
+      "moreInfo": "Cabin 5",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 546,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 49,
       "levelMax": 53
     },
@@ -17589,7 +18795,7 @@
       "boss": false,
       "rival": false,
       "location": "S.S. Aqua",
-      "subarea": "Cabin 6",
+      "subarea": "⇒ Vermilion, Repeatable · Cabin 6",
       "rematch": false,
       "team": [
         {
@@ -17615,8 +18821,14 @@
         "sheet": "Location Data",
         "row": 547
       },
+      "venue": "⇒ Vermilion, Repeatable",
+      "venueInherited": true,
+      "venueSourceRow": 543,
+      "moreInfo": "Cabin 6",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 547,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 51,
       "levelMax": 52
     },
@@ -17628,7 +18840,7 @@
       "boss": false,
       "rival": false,
       "location": "S.S. Aqua",
-      "subarea": "Cabin 7",
+      "subarea": "⇒ Vermilion, Repeatable · Cabin 7",
       "rematch": false,
       "team": [
         {
@@ -17654,8 +18866,14 @@
         "sheet": "Location Data",
         "row": 548
       },
+      "venue": "⇒ Vermilion, Repeatable",
+      "venueInherited": true,
+      "venueSourceRow": 543,
+      "moreInfo": "Cabin 7",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 548,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 52,
       "levelMax": 53
     },
@@ -17667,7 +18885,7 @@
       "boss": false,
       "rival": false,
       "location": "S.S. Aqua",
-      "subarea": "B1F",
+      "subarea": "⇒ Vermilion, Repeatable · B1F",
       "rematch": false,
       "team": [
         {
@@ -17709,8 +18927,14 @@
         "sheet": "Location Data",
         "row": 550
       },
+      "venue": "⇒ Vermilion, Repeatable",
+      "venueInherited": true,
+      "venueSourceRow": 543,
+      "moreInfo": "B1F",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 550,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 49,
       "levelMax": 54
     },
@@ -17722,7 +18946,7 @@
       "boss": false,
       "rival": false,
       "location": "S.S. Aqua",
-      "subarea": "B1F",
+      "subarea": "⇒ Vermilion, Repeatable · B1F",
       "rematch": false,
       "team": [
         {
@@ -17740,8 +18964,14 @@
         "sheet": "Location Data",
         "row": 551
       },
+      "venue": "⇒ Vermilion, Repeatable",
+      "venueInherited": true,
+      "venueSourceRow": 543,
+      "moreInfo": "B1F",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 550,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 57,
       "levelMax": 57
     },
@@ -17753,7 +18983,7 @@
       "boss": false,
       "rival": false,
       "location": "S.S. Aqua",
-      "subarea": "B1F",
+      "subarea": "⇒ Vermilion, Repeatable · B1F",
       "rematch": false,
       "team": [
         {
@@ -17787,8 +19017,14 @@
         "sheet": "Location Data",
         "row": 552
       },
+      "venue": "⇒ Vermilion, Repeatable",
+      "venueInherited": true,
+      "venueSourceRow": 543,
+      "moreInfo": "B1F",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 550,
+      "subareaSourceColumn": "AE+AF",
       "levelMin": 52,
       "levelMax": 52
     },
@@ -17800,7 +19036,7 @@
       "boss": false,
       "rival": false,
       "location": "S.S. Aqua",
-      "subarea": "1F, Cabin 2",
+      "subarea": "⇒ Vermilion, Repeatable · 1F, Cabin 2",
       "rematch": true,
       "team": [
         {
@@ -17829,8 +19065,14 @@
         "sheet": "Location Data",
         "row": 554
       },
+      "venue": "⇒ Vermilion, Repeatable",
+      "venueInherited": true,
+      "venueSourceRow": 543,
+      "moreInfo": "1F, Cabin 2",
+      "moreInfoInherited": false,
       "subareaInherited": false,
-      "subareaSourceRow": 554
+      "subareaSourceRow": 554,
+      "subareaSourceColumn": "AE+AF"
     },
     {
       "id": "location-data-555-s-s-aqua-sean",
@@ -17840,7 +19082,7 @@
       "boss": false,
       "rival": false,
       "location": "S.S. Aqua",
-      "subarea": "Cabin 4",
+      "subarea": "⇒ Vermilion, Repeatable · Cabin 4",
       "rematch": true,
       "team": [
         {
@@ -17877,8 +19119,14 @@
         "sheet": "Location Data",
         "row": 555
       },
+      "venue": "⇒ Vermilion, Repeatable",
+      "venueInherited": true,
+      "venueSourceRow": 543,
+      "moreInfo": "Cabin 4",
+      "moreInfoInherited": false,
       "subareaInherited": false,
-      "subareaSourceRow": 555
+      "subareaSourceRow": 555,
+      "subareaSourceColumn": "AE+AF"
     },
     {
       "id": "location-data-556-s-s-aqua-carol",
@@ -17888,7 +19136,7 @@
       "boss": false,
       "rival": false,
       "location": "S.S. Aqua",
-      "subarea": "Cabin 4",
+      "subarea": "⇒ Vermilion, Repeatable · Cabin 4",
       "rematch": true,
       "team": [
         {
@@ -17925,8 +19173,14 @@
         "sheet": "Location Data",
         "row": 556
       },
+      "venue": "⇒ Vermilion, Repeatable",
+      "venueInherited": true,
+      "venueSourceRow": 543,
+      "moreInfo": "Cabin 4",
+      "moreInfoInherited": true,
       "subareaInherited": true,
-      "subareaSourceRow": 555
+      "subareaSourceRow": 555,
+      "subareaSourceColumn": "AE+AF"
     },
     {
       "id": "location-data-557-s-s-aqua-shawn",
@@ -17936,7 +19190,7 @@
       "boss": false,
       "rival": false,
       "location": "S.S. Aqua",
-      "subarea": "Cabin 5",
+      "subarea": "⇒ Vermilion, Repeatable · Cabin 5",
       "rematch": true,
       "team": [
         {
@@ -17973,8 +19227,14 @@
         "sheet": "Location Data",
         "row": 557
       },
+      "venue": "⇒ Vermilion, Repeatable",
+      "venueInherited": true,
+      "venueSourceRow": 543,
+      "moreInfo": "Cabin 5",
+      "moreInfoInherited": false,
       "subareaInherited": false,
-      "subareaSourceRow": 557
+      "subareaSourceRow": 557,
+      "subareaSourceColumn": "AE+AF"
     },
     {
       "id": "location-data-558-s-s-aqua-rodney",
@@ -17984,7 +19244,7 @@
       "boss": false,
       "rival": false,
       "location": "S.S. Aqua",
-      "subarea": "Cabin 6",
+      "subarea": "⇒ Vermilion, Repeatable · Cabin 6",
       "rematch": true,
       "team": [
         {
@@ -18013,8 +19273,14 @@
         "sheet": "Location Data",
         "row": 558
       },
+      "venue": "⇒ Vermilion, Repeatable",
+      "venueInherited": true,
+      "venueSourceRow": 543,
+      "moreInfo": "Cabin 6",
+      "moreInfoInherited": false,
       "subareaInherited": false,
-      "subareaSourceRow": 558
+      "subareaSourceRow": 558,
+      "subareaSourceColumn": "AE+AF"
     },
     {
       "id": "location-data-559-s-s-aqua-cassie-db",
@@ -18024,7 +19290,7 @@
       "boss": false,
       "rival": false,
       "location": "S.S. Aqua",
-      "subarea": "Cabin 7",
+      "subarea": "⇒ Vermilion, Repeatable · Cabin 7",
       "rematch": true,
       "team": [
         {
@@ -18053,8 +19319,14 @@
         "sheet": "Location Data",
         "row": 559
       },
+      "venue": "⇒ Vermilion, Repeatable",
+      "venueInherited": true,
+      "venueSourceRow": 543,
+      "moreInfo": "Cabin 7",
+      "moreInfoInherited": false,
       "subareaInherited": false,
-      "subareaSourceRow": 559
+      "subareaSourceRow": 559,
+      "subareaSourceColumn": "AE+AF"
     },
     {
       "id": "location-data-561-s-s-aqua-jonah",
@@ -18064,7 +19336,7 @@
       "boss": false,
       "rival": false,
       "location": "S.S. Aqua",
-      "subarea": "B1F",
+      "subarea": "⇒ Vermilion, Repeatable · B1F",
       "rematch": true,
       "team": [
         {
@@ -18109,8 +19381,14 @@
         "sheet": "Location Data",
         "row": 561
       },
+      "venue": "⇒ Vermilion, Repeatable",
+      "venueInherited": true,
+      "venueSourceRow": 543,
+      "moreInfo": "B1F",
+      "moreInfoInherited": false,
       "subareaInherited": false,
-      "subareaSourceRow": 561
+      "subareaSourceRow": 561,
+      "subareaSourceColumn": "AE+AF"
     },
     {
       "id": "location-data-562-s-s-aqua-garrett",
@@ -18120,7 +19398,7 @@
       "boss": false,
       "rival": false,
       "location": "S.S. Aqua",
-      "subarea": "B1F",
+      "subarea": "⇒ Vermilion, Repeatable · B1F",
       "rematch": true,
       "team": [
         {
@@ -18141,8 +19419,14 @@
         "sheet": "Location Data",
         "row": 562
       },
+      "venue": "⇒ Vermilion, Repeatable",
+      "venueInherited": true,
+      "venueSourceRow": 543,
+      "moreInfo": "B1F",
+      "moreInfoInherited": true,
       "subareaInherited": true,
-      "subareaSourceRow": 561
+      "subareaSourceRow": 561,
+      "subareaSourceColumn": "AE+AF"
     },
     {
       "id": "location-data-563-s-s-aqua-wai",
@@ -18152,7 +19436,7 @@
       "boss": false,
       "rival": false,
       "location": "S.S. Aqua",
-      "subarea": "B1F",
+      "subarea": "⇒ Vermilion, Repeatable · B1F",
       "rematch": true,
       "team": [
         {
@@ -18189,8 +19473,14 @@
         "sheet": "Location Data",
         "row": 563
       },
+      "venue": "⇒ Vermilion, Repeatable",
+      "venueInherited": true,
+      "venueSourceRow": 543,
+      "moreInfo": "B1F",
+      "moreInfoInherited": true,
       "subareaInherited": true,
-      "subareaSourceRow": 561
+      "subareaSourceRow": 561,
+      "subareaSourceColumn": "AE+AF"
     },
     {
       "id": "location-data-565-vermilion-city-dwayne",
@@ -18200,7 +19490,7 @@
       "boss": false,
       "rival": false,
       "location": "Vermilion City",
-      "subarea": "",
+      "subarea": "Vermilion Gym",
       "rematch": false,
       "team": [
         {
@@ -18235,7 +19525,13 @@
         "file": "sources/inbox/Crystal Advance Redux.xlsx",
         "sheet": "Location Data",
         "row": 565
-      }
+      },
+      "venue": "Vermilion Gym",
+      "venueInherited": false,
+      "venueSourceRow": 565,
+      "subareaInherited": false,
+      "subareaSourceRow": 565,
+      "subareaSourceColumn": "AE"
     },
     {
       "id": "location-data-566-vermilion-city-horton",
@@ -18245,7 +19541,7 @@
       "boss": false,
       "rival": false,
       "location": "Vermilion City",
-      "subarea": "",
+      "subarea": "Vermilion Gym",
       "rematch": false,
       "team": [
         {
@@ -18280,7 +19576,13 @@
         "file": "sources/inbox/Crystal Advance Redux.xlsx",
         "sheet": "Location Data",
         "row": 566
-      }
+      },
+      "venue": "Vermilion Gym",
+      "venueInherited": true,
+      "venueSourceRow": 565,
+      "subareaInherited": true,
+      "subareaSourceRow": 565,
+      "subareaSourceColumn": "AE"
     },
     {
       "id": "location-data-567-vermilion-city-gregory",
@@ -18290,7 +19592,7 @@
       "boss": false,
       "rival": false,
       "location": "Vermilion City",
-      "subarea": "",
+      "subarea": "Vermilion Gym",
       "rematch": false,
       "team": [
         {
@@ -18317,7 +19619,13 @@
         "file": "sources/inbox/Crystal Advance Redux.xlsx",
         "sheet": "Location Data",
         "row": 567
-      }
+      },
+      "venue": "Vermilion Gym",
+      "venueInherited": true,
+      "venueSourceRow": 565,
+      "subareaInherited": true,
+      "subareaSourceRow": 565,
+      "subareaSourceColumn": "AE"
     },
     {
       "id": "location-data-570-vermilion-city-dwayne",
@@ -18363,8 +19671,14 @@
         "sheet": "Location Data",
         "row": 570
       },
+      "venue": "Vermilion Gym",
+      "venueInherited": false,
+      "venueSourceRow": 570,
+      "moreInfo": "Rematch",
+      "moreInfoInherited": false,
       "subareaInherited": false,
-      "subareaSourceRow": 570
+      "subareaSourceRow": 570,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-571-vermilion-city-horton",
@@ -18410,8 +19724,14 @@
         "sheet": "Location Data",
         "row": 571
       },
+      "venue": "Vermilion Gym",
+      "venueInherited": true,
+      "venueSourceRow": 570,
+      "moreInfo": "Rematch",
+      "moreInfoInherited": true,
       "subareaInherited": true,
-      "subareaSourceRow": 570
+      "subareaSourceRow": 570,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-572-vermilion-city-gregory",
@@ -18449,8 +19769,14 @@
         "sheet": "Location Data",
         "row": 572
       },
+      "venue": "Vermilion Gym",
+      "venueInherited": true,
+      "venueSourceRow": 570,
+      "moreInfo": "Rematch",
+      "moreInfoInherited": true,
       "subareaInherited": true,
-      "subareaSourceRow": 570
+      "subareaSourceRow": 570,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-575-route-06-rex",
@@ -18578,7 +19904,7 @@
       "boss": false,
       "rival": false,
       "location": "Saffron City",
-      "subarea": "SE",
+      "subarea": "Saffron Gym · SE",
       "rematch": false,
       "team": [
         {
@@ -18606,8 +19932,14 @@
         "sheet": "Location Data",
         "row": 581
       },
+      "venue": "Saffron Gym",
+      "venueInherited": false,
+      "venueSourceRow": 581,
+      "moreInfo": "SE",
+      "moreInfoInherited": false,
       "subareaInherited": false,
-      "subareaSourceRow": 581
+      "subareaSourceRow": 581,
+      "subareaSourceColumn": "AE+AF"
     },
     {
       "id": "location-data-582-saffron-city-franklin",
@@ -18617,7 +19949,7 @@
       "boss": false,
       "rival": false,
       "location": "Saffron City",
-      "subarea": "SW",
+      "subarea": "Saffron Gym · SW",
       "rematch": false,
       "team": [
         {
@@ -18645,8 +19977,14 @@
         "sheet": "Location Data",
         "row": 582
       },
+      "venue": "Saffron Gym",
+      "venueInherited": true,
+      "venueSourceRow": 581,
+      "moreInfo": "SW",
+      "moreInfoInherited": false,
       "subareaInherited": false,
-      "subareaSourceRow": 582
+      "subareaSourceRow": 582,
+      "subareaSourceColumn": "AE+AF"
     },
     {
       "id": "location-data-583-saffron-city-jared",
@@ -18656,7 +19994,7 @@
       "boss": false,
       "rival": false,
       "location": "Saffron City",
-      "subarea": "NE",
+      "subarea": "Saffron Gym · NE",
       "rematch": false,
       "team": [
         {
@@ -18692,8 +20030,14 @@
         "sheet": "Location Data",
         "row": 583
       },
+      "venue": "Saffron Gym",
+      "venueInherited": true,
+      "venueSourceRow": 581,
+      "moreInfo": "NE",
+      "moreInfoInherited": false,
       "subareaInherited": false,
-      "subareaSourceRow": 583
+      "subareaSourceRow": 583,
+      "subareaSourceColumn": "AE+AF"
     },
     {
       "id": "location-data-584-saffron-city-doris-db",
@@ -18703,7 +20047,7 @@
       "boss": false,
       "rival": false,
       "location": "Saffron City",
-      "subarea": "NW",
+      "subarea": "Saffron Gym · NW",
       "rematch": false,
       "team": [
         {
@@ -18731,8 +20075,14 @@
         "sheet": "Location Data",
         "row": 584
       },
+      "venue": "Saffron Gym",
+      "venueInherited": true,
+      "venueSourceRow": 581,
+      "moreInfo": "NW",
+      "moreInfoInherited": false,
       "subareaInherited": false,
-      "subareaSourceRow": 584
+      "subareaSourceRow": 584,
+      "subareaSourceColumn": "AE+AF"
     },
     {
       "id": "location-data-587-saffron-city-rebecca",
@@ -18742,7 +20092,7 @@
       "boss": false,
       "rival": false,
       "location": "Saffron City",
-      "subarea": "SE, Rematch",
+      "subarea": "Saffron Gym · SE, Rematch",
       "rematch": false,
       "team": [
         {
@@ -18770,8 +20120,14 @@
         "sheet": "Location Data",
         "row": 587
       },
+      "venue": "Saffron Gym",
+      "venueInherited": false,
+      "venueSourceRow": 587,
+      "moreInfo": "SE, Rematch",
+      "moreInfoInherited": false,
       "subareaInherited": false,
-      "subareaSourceRow": 587
+      "subareaSourceRow": 587,
+      "subareaSourceColumn": "AE+AF"
     },
     {
       "id": "location-data-588-saffron-city-franklin",
@@ -18781,7 +20137,7 @@
       "boss": false,
       "rival": false,
       "location": "Saffron City",
-      "subarea": "SW",
+      "subarea": "Saffron Gym · SW",
       "rematch": false,
       "team": [
         {
@@ -18809,8 +20165,14 @@
         "sheet": "Location Data",
         "row": 588
       },
+      "venue": "Saffron Gym",
+      "venueInherited": true,
+      "venueSourceRow": 587,
+      "moreInfo": "SW",
+      "moreInfoInherited": false,
       "subareaInherited": false,
-      "subareaSourceRow": 588
+      "subareaSourceRow": 588,
+      "subareaSourceColumn": "AE+AF"
     },
     {
       "id": "location-data-589-saffron-city-jared",
@@ -18820,7 +20182,7 @@
       "boss": false,
       "rival": false,
       "location": "Saffron City",
-      "subarea": "NE",
+      "subarea": "Saffron Gym · NE",
       "rematch": false,
       "team": [
         {
@@ -18856,8 +20218,14 @@
         "sheet": "Location Data",
         "row": 589
       },
+      "venue": "Saffron Gym",
+      "venueInherited": true,
+      "venueSourceRow": 587,
+      "moreInfo": "NE",
+      "moreInfoInherited": false,
       "subareaInherited": false,
-      "subareaSourceRow": 589
+      "subareaSourceRow": 589,
+      "subareaSourceColumn": "AE+AF"
     },
     {
       "id": "location-data-590-saffron-city-doris-db",
@@ -18867,7 +20235,7 @@
       "boss": false,
       "rival": false,
       "location": "Saffron City",
-      "subarea": "NW",
+      "subarea": "Saffron Gym · NW",
       "rematch": false,
       "team": [
         {
@@ -18895,8 +20263,14 @@
         "sheet": "Location Data",
         "row": 590
       },
+      "venue": "Saffron Gym",
+      "venueInherited": true,
+      "venueSourceRow": 587,
+      "moreInfo": "NW",
+      "moreInfoInherited": false,
       "subareaInherited": false,
-      "subareaSourceRow": 590
+      "subareaSourceRow": 590,
+      "subareaSourceColumn": "AE+AF"
     },
     {
       "id": "location-data-593-route-08-dwayne",
@@ -19364,8 +20738,11 @@
         "sheet": "Location Data",
         "row": 605
       },
+      "moreInfo": "2F",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 605,
+      "subareaSourceColumn": "AF",
       "levelMin": 57,
       "levelMax": 59
     },
@@ -19411,8 +20788,11 @@
         "sheet": "Location Data",
         "row": 606
       },
+      "moreInfo": "2F",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 605,
+      "subareaSourceColumn": "AF",
       "levelMin": 57,
       "levelMax": 59
     },
@@ -19450,8 +20830,11 @@
         "sheet": "Location Data",
         "row": 609
       },
+      "moreInfo": "2F, Rematch",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 609,
+      "subareaSourceColumn": "AF",
       "levelMin": 64,
       "levelMax": 68
     },
@@ -19489,8 +20872,11 @@
         "sheet": "Location Data",
         "row": 610
       },
+      "moreInfo": "2F, Rematch",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 609,
+      "subareaSourceColumn": "AF",
       "levelMin": 62,
       "levelMax": 66
     },
@@ -19536,8 +20922,11 @@
         "sheet": "Location Data",
         "row": 613
       },
+      "moreInfo": "B2F",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 613,
+      "subareaSourceColumn": "AF",
       "levelMin": 66,
       "levelMax": 67
     },
@@ -19591,8 +20980,11 @@
         "sheet": "Location Data",
         "row": 614
       },
+      "moreInfo": "B2F",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 613,
+      "subareaSourceColumn": "AF",
       "levelMin": 65,
       "levelMax": 65
     },
@@ -19638,8 +21030,11 @@
         "sheet": "Location Data",
         "row": 615
       },
+      "moreInfo": "B2F",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 613,
+      "subareaSourceColumn": "AF",
       "levelMin": 66,
       "levelMax": 67
     },
@@ -19677,8 +21072,11 @@
         "sheet": "Location Data",
         "row": 616
       },
+      "moreInfo": "B3F",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 616,
+      "subareaSourceColumn": "AF",
       "levelMin": 67,
       "levelMax": 67
     },
@@ -19724,8 +21122,11 @@
         "sheet": "Location Data",
         "row": 617
       },
+      "moreInfo": "B3F",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 616,
+      "subareaSourceColumn": "AF",
       "levelMin": 66,
       "levelMax": 67
     },
@@ -19763,8 +21164,11 @@
         "sheet": "Location Data",
         "row": 618
       },
+      "moreInfo": "B3F",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 616,
+      "subareaSourceColumn": "AF",
       "levelMin": 68,
       "levelMax": 69
     },
@@ -19802,8 +21206,11 @@
         "sheet": "Location Data",
         "row": 619
       },
+      "moreInfo": "B4F",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 619,
+      "subareaSourceColumn": "AF",
       "levelMin": 66,
       "levelMax": 67
     },
@@ -19841,8 +21248,11 @@
         "sheet": "Location Data",
         "row": 620
       },
+      "moreInfo": "B4F",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 619,
+      "subareaSourceColumn": "AF",
       "levelMin": 68,
       "levelMax": 68
     },
@@ -19888,8 +21298,11 @@
         "sheet": "Location Data",
         "row": 621
       },
+      "moreInfo": "B4F",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 619,
+      "subareaSourceColumn": "AF",
       "levelMin": 67,
       "levelMax": 68
     },
@@ -19927,8 +21340,11 @@
         "sheet": "Location Data",
         "row": 622
       },
+      "moreInfo": "B4F",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 619,
+      "subareaSourceColumn": "AF",
       "levelMin": 67,
       "levelMax": 67
     },
@@ -19966,8 +21382,11 @@
         "sheet": "Location Data",
         "row": 624
       },
+      "moreInfo": "South",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 624,
+      "subareaSourceColumn": "AF",
       "levelMin": 55,
       "levelMax": 55
     },
@@ -19997,8 +21416,11 @@
         "sheet": "Location Data",
         "row": 625
       },
+      "moreInfo": "South",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 624,
+      "subareaSourceColumn": "AF",
       "levelMin": 55,
       "levelMax": 55
     },
@@ -20036,8 +21458,11 @@
         "sheet": "Location Data",
         "row": 626
       },
+      "moreInfo": "North",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 626,
+      "subareaSourceColumn": "AF",
       "levelMin": 59,
       "levelMax": 59
     },
@@ -20078,8 +21503,11 @@
         "sheet": "Location Data",
         "row": 628
       },
+      "moreInfo": "South",
+      "moreInfoInherited": false,
       "subareaInherited": false,
-      "subareaSourceRow": 628
+      "subareaSourceRow": 628,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-629-route-10-jim",
@@ -20110,8 +21538,11 @@
         "sheet": "Location Data",
         "row": 629
       },
+      "moreInfo": "South",
+      "moreInfoInherited": true,
       "subareaInherited": true,
-      "subareaSourceRow": 628
+      "subareaSourceRow": 628,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-630-route-10-kieran",
@@ -20150,8 +21581,11 @@
         "sheet": "Location Data",
         "row": 630
       },
+      "moreInfo": "North",
+      "moreInfoInherited": false,
       "subareaInherited": false,
-      "subareaSourceRow": 630
+      "subareaSourceRow": 630,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-632-route-09-heidi-db",
@@ -20644,7 +22078,7 @@
       "boss": false,
       "rival": false,
       "location": "Cerulean City",
-      "subarea": "",
+      "subarea": "Cerulean Gym",
       "rematch": false,
       "team": [
         {
@@ -20671,7 +22105,13 @@
         "file": "sources/inbox/Crystal Advance Redux.xlsx",
         "sheet": "Location Data",
         "row": 646
-      }
+      },
+      "venue": "Cerulean Gym",
+      "venueInherited": false,
+      "venueSourceRow": 646,
+      "subareaInherited": false,
+      "subareaSourceRow": 646,
+      "subareaSourceColumn": "AE"
     },
     {
       "id": "location-data-647-cerulean-city-briana",
@@ -20681,7 +22121,7 @@
       "boss": false,
       "rival": false,
       "location": "Cerulean City",
-      "subarea": "",
+      "subarea": "Cerulean Gym",
       "rematch": false,
       "team": [
         {
@@ -20708,7 +22148,13 @@
         "file": "sources/inbox/Crystal Advance Redux.xlsx",
         "sheet": "Location Data",
         "row": 647
-      }
+      },
+      "venue": "Cerulean Gym",
+      "venueInherited": true,
+      "venueSourceRow": 646,
+      "subareaInherited": true,
+      "subareaSourceRow": 646,
+      "subareaSourceColumn": "AE"
     },
     {
       "id": "location-data-648-cerulean-city-eddie",
@@ -20718,7 +22164,7 @@
       "boss": false,
       "rival": false,
       "location": "Cerulean City",
-      "subarea": "",
+      "subarea": "Cerulean Gym",
       "rematch": false,
       "team": [
         {
@@ -20745,7 +22191,13 @@
         "file": "sources/inbox/Crystal Advance Redux.xlsx",
         "sheet": "Location Data",
         "row": 648
-      }
+      },
+      "venue": "Cerulean Gym",
+      "venueInherited": true,
+      "venueSourceRow": 646,
+      "subareaInherited": true,
+      "subareaSourceRow": 646,
+      "subareaSourceColumn": "AE"
     },
     {
       "id": "location-data-649-cerulean-city-diana",
@@ -20755,7 +22207,7 @@
       "boss": false,
       "rival": false,
       "location": "Cerulean City",
-      "subarea": "",
+      "subarea": "Cerulean Gym",
       "rematch": false,
       "team": [
         {
@@ -20774,7 +22226,13 @@
         "file": "sources/inbox/Crystal Advance Redux.xlsx",
         "sheet": "Location Data",
         "row": 649
-      }
+      },
+      "venue": "Cerulean Gym",
+      "venueInherited": true,
+      "venueSourceRow": 646,
+      "subareaInherited": true,
+      "subareaSourceRow": 646,
+      "subareaSourceColumn": "AE"
     },
     {
       "id": "location-data-652-cerulean-city-parker",
@@ -20812,8 +22270,14 @@
         "sheet": "Location Data",
         "row": 652
       },
+      "venue": "Cerulean Gym",
+      "venueInherited": false,
+      "venueSourceRow": 652,
+      "moreInfo": "Rematch",
+      "moreInfoInherited": false,
       "subareaInherited": false,
-      "subareaSourceRow": 652
+      "subareaSourceRow": 652,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-653-cerulean-city-briana",
@@ -20851,8 +22315,14 @@
         "sheet": "Location Data",
         "row": 653
       },
+      "venue": "Cerulean Gym",
+      "venueInherited": true,
+      "venueSourceRow": 652,
+      "moreInfo": "Rematch",
+      "moreInfoInherited": true,
       "subareaInherited": true,
-      "subareaSourceRow": 652
+      "subareaSourceRow": 652,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-654-cerulean-city-eddie",
@@ -20890,8 +22360,14 @@
         "sheet": "Location Data",
         "row": 654
       },
+      "venue": "Cerulean Gym",
+      "venueInherited": true,
+      "venueSourceRow": 652,
+      "moreInfo": "Rematch",
+      "moreInfoInherited": true,
       "subareaInherited": true,
-      "subareaSourceRow": 652
+      "subareaSourceRow": 652,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-655-cerulean-city-diana",
@@ -20921,8 +22397,14 @@
         "sheet": "Location Data",
         "row": 655
       },
+      "venue": "Cerulean Gym",
+      "venueInherited": true,
+      "venueSourceRow": 652,
+      "moreInfo": "Rematch",
+      "moreInfoInherited": true,
       "subareaInherited": true,
-      "subareaSourceRow": 652
+      "subareaSourceRow": 652,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-658-route-24-grunt",
@@ -20966,8 +22448,11 @@
         "sheet": "Location Data",
         "row": 658
       },
+      "moreInfo": "Post Power Plant",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 658,
+      "subareaSourceColumn": "AF",
       "levelMin": 50,
       "levelMax": 52
     },
@@ -21565,7 +23050,7 @@
       "boss": false,
       "rival": false,
       "location": "Celadon City",
-      "subarea": "",
+      "subarea": "Celadon Gym",
       "rematch": false,
       "team": [
         {
@@ -21592,7 +23077,13 @@
         "file": "sources/inbox/Crystal Advance Redux.xlsx",
         "sheet": "Location Data",
         "row": 680
-      }
+      },
+      "venue": "Celadon Gym",
+      "venueInherited": false,
+      "venueSourceRow": 680,
+      "subareaInherited": false,
+      "subareaSourceRow": 680,
+      "subareaSourceColumn": "AE"
     },
     {
       "id": "location-data-681-celadon-city-tanya-db",
@@ -21602,7 +23093,7 @@
       "boss": false,
       "rival": false,
       "location": "Celadon City",
-      "subarea": "",
+      "subarea": "Celadon Gym",
       "rematch": false,
       "team": [
         {
@@ -21629,7 +23120,13 @@
         "file": "sources/inbox/Crystal Advance Redux.xlsx",
         "sheet": "Location Data",
         "row": 681
-      }
+      },
+      "venue": "Celadon Gym",
+      "venueInherited": true,
+      "venueSourceRow": 680,
+      "subareaInherited": true,
+      "subareaSourceRow": 680,
+      "subareaSourceColumn": "AE"
     },
     {
       "id": "location-data-682-celadon-city-michelle",
@@ -21639,7 +23136,7 @@
       "boss": false,
       "rival": false,
       "location": "Celadon City",
-      "subarea": "",
+      "subarea": "Celadon Gym",
       "rematch": false,
       "team": [
         {
@@ -21674,7 +23171,13 @@
         "file": "sources/inbox/Crystal Advance Redux.xlsx",
         "sheet": "Location Data",
         "row": 682
-      }
+      },
+      "venue": "Celadon Gym",
+      "venueInherited": true,
+      "venueSourceRow": 680,
+      "subareaInherited": true,
+      "subareaSourceRow": 680,
+      "subareaSourceColumn": "AE"
     },
     {
       "id": "location-data-683-celadon-city-julia",
@@ -21684,7 +23187,7 @@
       "boss": false,
       "rival": false,
       "location": "Celadon City",
-      "subarea": "",
+      "subarea": "Celadon Gym",
       "rematch": false,
       "team": [
         {
@@ -21719,7 +23222,13 @@
         "file": "sources/inbox/Crystal Advance Redux.xlsx",
         "sheet": "Location Data",
         "row": 683
-      }
+      },
+      "venue": "Celadon Gym",
+      "venueInherited": true,
+      "venueSourceRow": 680,
+      "subareaInherited": true,
+      "subareaSourceRow": 680,
+      "subareaSourceColumn": "AE"
     },
     {
       "id": "location-data-686-celadon-city-jo-zoe-db",
@@ -21757,8 +23266,14 @@
         "sheet": "Location Data",
         "row": 686
       },
+      "venue": "Celadon Gym",
+      "venueInherited": false,
+      "venueSourceRow": 686,
+      "moreInfo": "Rematch",
+      "moreInfoInherited": false,
       "subareaInherited": false,
-      "subareaSourceRow": 686
+      "subareaSourceRow": 686,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-687-celadon-city-tanya-db",
@@ -21796,8 +23311,14 @@
         "sheet": "Location Data",
         "row": 687
       },
+      "venue": "Celadon Gym",
+      "venueInherited": true,
+      "venueSourceRow": 686,
+      "moreInfo": "Rematch",
+      "moreInfoInherited": true,
       "subareaInherited": true,
-      "subareaSourceRow": 686
+      "subareaSourceRow": 686,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-688-celadon-city-michelle",
@@ -21843,8 +23364,14 @@
         "sheet": "Location Data",
         "row": 688
       },
+      "venue": "Celadon Gym",
+      "venueInherited": true,
+      "venueSourceRow": 686,
+      "moreInfo": "Rematch",
+      "moreInfoInherited": true,
       "subareaInherited": true,
-      "subareaSourceRow": 686
+      "subareaSourceRow": 686,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-689-celadon-city-julia",
@@ -21890,8 +23417,14 @@
         "sheet": "Location Data",
         "row": 689
       },
+      "venue": "Celadon Gym",
+      "venueInherited": true,
+      "venueSourceRow": 686,
+      "moreInfo": "Rematch",
+      "moreInfoInherited": true,
       "subareaInherited": true,
-      "subareaSourceRow": 686
+      "subareaSourceRow": 686,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-692-cycling-road-riley",
@@ -21919,8 +23452,11 @@
         "sheet": "Location Data",
         "row": 692
       },
+      "moreInfo": "N ⇒ S",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 692,
+      "subareaSourceColumn": "AF",
       "levelMin": 60,
       "levelMax": 60
     },
@@ -21958,8 +23494,11 @@
         "sheet": "Location Data",
         "row": 693
       },
+      "moreInfo": "N ⇒ S",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 692,
+      "subareaSourceColumn": "AF",
       "levelMin": 58,
       "levelMax": 58
     },
@@ -22005,8 +23544,11 @@
         "sheet": "Location Data",
         "row": 694
       },
+      "moreInfo": "N ⇒ S",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 692,
+      "subareaSourceColumn": "AF",
       "levelMin": 55,
       "levelMax": 59
     },
@@ -22052,8 +23594,11 @@
         "sheet": "Location Data",
         "row": 695
       },
+      "moreInfo": "N ⇒ S",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 692,
+      "subareaSourceColumn": "AF",
       "levelMin": 58,
       "levelMax": 59
     },
@@ -22086,8 +23631,11 @@
         "sheet": "Location Data",
         "row": 697
       },
+      "moreInfo": "N ⇒ S",
+      "moreInfoInherited": false,
       "subareaInherited": false,
-      "subareaSourceRow": 697
+      "subareaSourceRow": 697,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-698-cycling-road-joel",
@@ -22126,8 +23674,11 @@
         "sheet": "Location Data",
         "row": 698
       },
+      "moreInfo": "N ⇒ S",
+      "moreInfoInherited": true,
       "subareaInherited": true,
-      "subareaSourceRow": 697
+      "subareaSourceRow": 697,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-699-cycling-road-glenn",
@@ -22174,8 +23725,11 @@
         "sheet": "Location Data",
         "row": 699
       },
+      "moreInfo": "N ⇒ S",
+      "moreInfoInherited": true,
       "subareaInherited": true,
-      "subareaSourceRow": 697
+      "subareaSourceRow": 697,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-700-cycling-road-charles",
@@ -22222,8 +23776,11 @@
         "sheet": "Location Data",
         "row": 700
       },
+      "moreInfo": "N ⇒ S",
+      "moreInfoInherited": true,
       "subareaInherited": true,
-      "subareaSourceRow": 697
+      "subareaSourceRow": 697,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-702-route-18-boris",
@@ -22383,7 +23940,7 @@
       "boss": false,
       "rival": false,
       "location": "Fuchsia City",
-      "subarea": "",
+      "subarea": "Fuchsia Gym",
       "rematch": false,
       "team": [
         {
@@ -22418,7 +23975,13 @@
         "file": "sources/inbox/Crystal Advance Redux.xlsx",
         "sheet": "Location Data",
         "row": 708
-      }
+      },
+      "venue": "Fuchsia Gym",
+      "venueInherited": false,
+      "venueSourceRow": 708,
+      "subareaInherited": false,
+      "subareaSourceRow": 708,
+      "subareaSourceColumn": "AE"
     },
     {
       "id": "location-data-709-fuchsia-city-cindy",
@@ -22428,7 +23991,7 @@
       "boss": false,
       "rival": false,
       "location": "Fuchsia City",
-      "subarea": "",
+      "subarea": "Fuchsia Gym",
       "rematch": false,
       "team": [
         {
@@ -22447,7 +24010,13 @@
         "file": "sources/inbox/Crystal Advance Redux.xlsx",
         "sheet": "Location Data",
         "row": 709
-      }
+      },
+      "venue": "Fuchsia Gym",
+      "venueInherited": true,
+      "venueSourceRow": 708,
+      "subareaInherited": true,
+      "subareaSourceRow": 708,
+      "subareaSourceColumn": "AE"
     },
     {
       "id": "location-data-710-fuchsia-city-barry",
@@ -22457,7 +24026,7 @@
       "boss": false,
       "rival": false,
       "location": "Fuchsia City",
-      "subarea": "",
+      "subarea": "Fuchsia Gym",
       "rematch": false,
       "team": [
         {
@@ -22476,7 +24045,13 @@
         "file": "sources/inbox/Crystal Advance Redux.xlsx",
         "sheet": "Location Data",
         "row": 710
-      }
+      },
+      "venue": "Fuchsia Gym",
+      "venueInherited": true,
+      "venueSourceRow": 708,
+      "subareaInherited": true,
+      "subareaSourceRow": 708,
+      "subareaSourceColumn": "AE"
     },
     {
       "id": "location-data-711-fuchsia-city-alice",
@@ -22486,7 +24061,7 @@
       "boss": false,
       "rival": false,
       "location": "Fuchsia City",
-      "subarea": "",
+      "subarea": "Fuchsia Gym",
       "rematch": false,
       "team": [
         {
@@ -22521,7 +24096,13 @@
         "file": "sources/inbox/Crystal Advance Redux.xlsx",
         "sheet": "Location Data",
         "row": 711
-      }
+      },
+      "venue": "Fuchsia Gym",
+      "venueInherited": true,
+      "venueSourceRow": 708,
+      "subareaInherited": true,
+      "subareaSourceRow": 708,
+      "subareaSourceColumn": "AE"
     },
     {
       "id": "location-data-716-safari-zone-nicolas",
@@ -22557,8 +24138,11 @@
         "sheet": "Location Data",
         "row": 716
       },
+      "moreInfo": "Area 1",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 716,
+      "subareaSourceColumn": "AF",
       "levelMin": 60,
       "levelMax": 62
     },
@@ -22596,8 +24180,11 @@
         "sheet": "Location Data",
         "row": 717
       },
+      "moreInfo": "Area 1",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 716,
+      "subareaSourceColumn": "AF",
       "levelMin": 60,
       "levelMax": 62
     },
@@ -22635,8 +24222,11 @@
         "sheet": "Location Data",
         "row": 718
       },
+      "moreInfo": "Area 2",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 718,
+      "subareaSourceColumn": "AF",
       "levelMin": 62,
       "levelMax": 64
     },
@@ -22677,8 +24267,11 @@
         "sheet": "Location Data",
         "row": 720
       },
+      "moreInfo": "Area 1",
+      "moreInfoInherited": false,
       "subareaInherited": false,
-      "subareaSourceRow": 720
+      "subareaSourceRow": 720,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-721-safari-zone-madeline",
@@ -22717,8 +24310,11 @@
         "sheet": "Location Data",
         "row": 721
       },
+      "moreInfo": "Area 1",
+      "moreInfoInherited": true,
       "subareaInherited": true,
-      "subareaSourceRow": 720
+      "subareaSourceRow": 720,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-722-safari-zone-jason",
@@ -22757,8 +24353,11 @@
         "sheet": "Location Data",
         "row": 722
       },
+      "moreInfo": "Area 2",
+      "moreInfoInherited": false,
       "subareaInherited": false,
-      "subareaSourceRow": 722
+      "subareaSourceRow": 722,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-724-route-15-tommy-db",
@@ -25280,8 +26879,11 @@
         "sheet": "Location Data",
         "row": 792
       },
+      "moreInfo": "N ⇒ S",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 792,
+      "subareaSourceColumn": "AF",
       "levelMin": 54,
       "levelMax": 62
     },
@@ -25327,8 +26929,11 @@
         "sheet": "Location Data",
         "row": 793
       },
+      "moreInfo": "N ⇒ S",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 792,
+      "subareaSourceColumn": "AF",
       "levelMin": 59,
       "levelMax": 60
     },
@@ -25358,8 +26963,11 @@
         "sheet": "Location Data",
         "row": 794
       },
+      "moreInfo": "N ⇒ S",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 792,
+      "subareaSourceColumn": "AF",
       "levelMin": 64,
       "levelMax": 64
     },
@@ -25405,8 +27013,11 @@
         "sheet": "Location Data",
         "row": 795
       },
+      "moreInfo": "N ⇒ S",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 792,
+      "subareaSourceColumn": "AF",
       "levelMin": 43,
       "levelMax": 63
     },
@@ -25444,8 +27055,11 @@
         "sheet": "Location Data",
         "row": 796
       },
+      "moreInfo": "N ⇒ S",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 792,
+      "subareaSourceColumn": "AF",
       "levelMin": 58,
       "levelMax": 58
     },
@@ -25494,8 +27108,11 @@
         "sheet": "Location Data",
         "row": 798
       },
+      "moreInfo": "N ⇒ S",
+      "moreInfoInherited": false,
       "subareaInherited": false,
-      "subareaSourceRow": 798
+      "subareaSourceRow": 798,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-799-viridian-forest-abner",
@@ -25542,8 +27159,11 @@
         "sheet": "Location Data",
         "row": 799
       },
+      "moreInfo": "N ⇒ S",
+      "moreInfoInherited": true,
       "subareaInherited": true,
-      "subareaSourceRow": 798
+      "subareaSourceRow": 798,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-800-viridian-forest-dion",
@@ -25574,8 +27194,11 @@
         "sheet": "Location Data",
         "row": 800
       },
+      "moreInfo": "N ⇒ S",
+      "moreInfoInherited": true,
       "subareaInherited": true,
-      "subareaSourceRow": 798
+      "subareaSourceRow": 798,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-801-viridian-forest-ellis",
@@ -25622,8 +27245,11 @@
         "sheet": "Location Data",
         "row": 801
       },
+      "moreInfo": "N ⇒ S",
+      "moreInfoInherited": true,
       "subareaInherited": true,
-      "subareaSourceRow": 798
+      "subareaSourceRow": 798,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-802-viridian-forest-dane-db",
@@ -25662,8 +27288,11 @@
         "sheet": "Location Data",
         "row": 802
       },
+      "moreInfo": "N ⇒ S",
+      "moreInfoInherited": true,
       "subareaInherited": true,
-      "subareaSourceRow": 798
+      "subareaSourceRow": 798,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-804-pewter-city-edwin",
@@ -25673,7 +27302,7 @@
       "boss": false,
       "rival": false,
       "location": "Pewter City",
-      "subarea": "",
+      "subarea": "Pewter Gym",
       "rematch": false,
       "team": [
         {
@@ -25700,7 +27329,13 @@
         "file": "sources/inbox/Crystal Advance Redux.xlsx",
         "sheet": "Location Data",
         "row": 804
-      }
+      },
+      "venue": "Pewter Gym",
+      "venueInherited": false,
+      "venueSourceRow": 804,
+      "subareaInherited": false,
+      "subareaSourceRow": 804,
+      "subareaSourceColumn": "AE"
     },
     {
       "id": "location-data-807-pewter-city-edwin",
@@ -25738,8 +27373,14 @@
         "sheet": "Location Data",
         "row": 807
       },
+      "venue": "Pewter Gym",
+      "venueInherited": false,
+      "venueSourceRow": 807,
+      "moreInfo": "Rematch",
+      "moreInfoInherited": false,
       "subareaInherited": false,
-      "subareaSourceRow": 807
+      "subareaSourceRow": 807,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-810-route-03-warren",
@@ -26307,7 +27948,7 @@
       "boss": false,
       "rival": false,
       "location": "Viridian City",
-      "subarea": "",
+      "subarea": "Viridian Gym",
       "rematch": false,
       "team": [
         {
@@ -26334,7 +27975,13 @@
         "file": "sources/inbox/Crystal Advance Redux.xlsx",
         "sheet": "Location Data",
         "row": 828
-      }
+      },
+      "venue": "Viridian Gym",
+      "venueInherited": false,
+      "venueSourceRow": 828,
+      "subareaInherited": false,
+      "subareaSourceRow": 828,
+      "subareaSourceColumn": "AE"
     },
     {
       "id": "location-data-829-viridian-city-hugh",
@@ -26344,7 +27991,7 @@
       "boss": false,
       "rival": false,
       "location": "Viridian City",
-      "subarea": "",
+      "subarea": "Viridian Gym",
       "rematch": false,
       "team": [
         {
@@ -26379,7 +28026,13 @@
         "file": "sources/inbox/Crystal Advance Redux.xlsx",
         "sheet": "Location Data",
         "row": 829
-      }
+      },
+      "venue": "Viridian Gym",
+      "venueInherited": true,
+      "venueSourceRow": 828,
+      "subareaInherited": true,
+      "subareaSourceRow": 828,
+      "subareaSourceColumn": "AE"
     },
     {
       "id": "location-data-830-viridian-city-keith",
@@ -26389,7 +28042,7 @@
       "boss": false,
       "rival": false,
       "location": "Viridian City",
-      "subarea": "",
+      "subarea": "Viridian Gym",
       "rematch": false,
       "team": [
         {
@@ -26416,7 +28069,13 @@
         "file": "sources/inbox/Crystal Advance Redux.xlsx",
         "sheet": "Location Data",
         "row": 830
-      }
+      },
+      "venue": "Viridian Gym",
+      "venueInherited": true,
+      "venueSourceRow": 828,
+      "subareaInherited": true,
+      "subareaSourceRow": 828,
+      "subareaSourceColumn": "AE"
     },
     {
       "id": "location-data-835-route-01-quinn",
@@ -26833,7 +28492,7 @@
       "boss": false,
       "rival": false,
       "location": "Cinnabar Island",
-      "subarea": "",
+      "subarea": "Cinnabar Gym",
       "rematch": false,
       "team": [
         {
@@ -26860,7 +28519,13 @@
         "file": "sources/inbox/Crystal Advance Redux.xlsx",
         "sheet": "Location Data",
         "row": 849
-      }
+      },
+      "venue": "Cinnabar Gym",
+      "venueInherited": false,
+      "venueSourceRow": 849,
+      "subareaInherited": false,
+      "subareaSourceRow": 849,
+      "subareaSourceColumn": "AE"
     },
     {
       "id": "location-data-850-cinnabar-island-lowell",
@@ -26870,7 +28535,7 @@
       "boss": false,
       "rival": false,
       "location": "Cinnabar Island",
-      "subarea": "",
+      "subarea": "Cinnabar Gym",
       "rematch": false,
       "team": [
         {
@@ -26897,7 +28562,13 @@
         "file": "sources/inbox/Crystal Advance Redux.xlsx",
         "sheet": "Location Data",
         "row": 850
-      }
+      },
+      "venue": "Cinnabar Gym",
+      "venueInherited": true,
+      "venueSourceRow": 849,
+      "subareaInherited": true,
+      "subareaSourceRow": 849,
+      "subareaSourceColumn": "AE"
     },
     {
       "id": "location-data-853-cinnabar-island-linden-db",
@@ -26935,8 +28606,14 @@
         "sheet": "Location Data",
         "row": 853
       },
+      "venue": "Cinnabar Gym",
+      "venueInherited": false,
+      "venueSourceRow": 853,
+      "moreInfo": "Rematch",
+      "moreInfoInherited": false,
       "subareaInherited": false,
-      "subareaSourceRow": 853
+      "subareaSourceRow": 853,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-854-cinnabar-island-lowell",
@@ -26974,8 +28651,14 @@
         "sheet": "Location Data",
         "row": 854
       },
+      "venue": "Cinnabar Gym",
+      "venueInherited": true,
+      "venueSourceRow": 853,
+      "moreInfo": "Rematch",
+      "moreInfoInherited": true,
       "subareaInherited": true,
-      "subareaSourceRow": 853
+      "subareaSourceRow": 853,
+      "subareaSourceColumn": "AF"
     },
     {
       "id": "location-data-857-cinnabar-volcano-alan",
@@ -27342,8 +29025,11 @@
         "sheet": "Location Data",
         "row": 868
       },
+      "moreInfo": "E Cave",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 868,
+      "subareaSourceColumn": "AF",
       "levelMin": 62,
       "levelMax": 66
     },
@@ -27381,8 +29067,11 @@
         "sheet": "Location Data",
         "row": 869
       },
+      "moreInfo": "E Cave",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 868,
+      "subareaSourceColumn": "AF",
       "levelMin": 62,
       "levelMax": 66
     },
@@ -27420,8 +29109,11 @@
         "sheet": "Location Data",
         "row": 872
       },
+      "moreInfo": "E Cave, Rematch",
+      "moreInfoInherited": false,
       "subareaInherited": false,
       "subareaSourceRow": 872,
+      "subareaSourceColumn": "AF",
       "levelMin": 79,
       "levelMax": 81
     },
@@ -27459,8 +29151,11 @@
         "sheet": "Location Data",
         "row": 873
       },
+      "moreInfo": "E Cave, Rematch",
+      "moreInfoInherited": true,
       "subareaInherited": true,
       "subareaSourceRow": 872,
+      "subareaSourceColumn": "AF",
       "levelMin": 81,
       "levelMax": 83
     },
