@@ -38,7 +38,7 @@ Mark each as `required`, `later`, or `disabled`.
 - Moves and learnsets: required
 - Team Builder: required
 - Future Team and Favorites: required
-- Trainer battle guide: required; workbook location trainers and VS Seeker rematches imported 2026-07-22
+- Trainer battle guide: required; workbook location trainers, VS Seeker rematches and intentionally hidden Gym Leader records imported through 2026-07-23
 - Battle Planner: required
 - Trainer profile: required; first-open setup records trainer/rival names, gender, character and starter, and is included in local/export/cloud saves
 - Badges and progress: required
@@ -60,6 +60,8 @@ Mark each as `required`, `later`, or `disabled`.
 - The Overview badge tracker contains eight Johto city-labelled badges followed by eight Kanto city-labelled badges. The user-supplied memory identifiers run consecutively from `82003884 018B` through `82003884 019A`; `Eceuteak` and `Celedon` are normalized to the canonical spellings Ecruteak and Celadon.
 - Workbook trainer-name asterisks are treated as major-battle markers and removed from the displayed name. Silver is replaced by the player's configured rival name throughout the guide. Its five staged `SE Starter` slots resolve from the configured starter: Chikorita → Cyndaquil's line, Cyndaquil → Totodile's line, and Totodile → Chikorita's line.
 - Trainer Battle cards show each Pokémon's six species base stats and BST alongside its documented workbook level. Empty ability, held-item, nature and move placeholders are hidden because the workbook supplies none of those trainer-specific fields.
+- All 16 Johto/Kanto Gym Leaders are retained for their initial and rematch workbook rows. The workbook identifies their names and `(DB)` Double Battle format but deliberately withholds their Pokémon, so those cards show the leader, specialty and badge while clearly leaving the team unknown.
+- Badge progress uses canonical badge names rather than city labels: Zephyr, Hive, Plain, Fog, Storm, Mineral, Glacier, Rising, Boulder, Cascade, Thunder, Rainbow, Soul, Marsh, Volcano and Earth.
 - The dedicated Trainer page replaces the visible Progress tab for now. Its GBA-style Trainer Card is driven by the saved trainer name and character sprite, shows the live Pokédex count, and reveals obtained badges in two eight-slot Johto/Kanto rows. Pokédex completion is also shown as a progress bar below the card/profile area; choosing a starter marks that species caught without removing any previously caught starter.
 
 ## Branding

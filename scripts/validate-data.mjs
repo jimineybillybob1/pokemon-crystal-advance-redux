@@ -92,10 +92,17 @@ for (const [section, entries] of Object.entries(acquisition)) {
 for (const source of eggs) for (const name of source.pokemon || []) if (!pokemonKeys.has(norm(name))) errors.push(`${source.title || source.id}: unresolved egg Pokémon ${name}.`);
 for (const battle of battles.battles || []) {
   requireValue(battle.id && battle.trainer && battle.location && battle.category, `${battle.id || 'Unknown battle'}: battle requires id, trainer, location and category.`);
-  requireValue(Array.isArray(battle.team) && battle.team.length > 0, `${battle.id}: battle team must be a non-empty array.`);
+  requireValue(Array.isArray(battle.team) && (battle.team.length > 0 || battle.hiddenTeam === true), `${battle.id}: battle team must be populated unless the source intentionally hides it.`);
   requireValue(typeof battle.subarea === 'string', `${battle.id}: battle subarea must be a string.`);
   requireValue(typeof battle.boss === 'boolean', `${battle.id}: battle boss flag must be a boolean.`);
   requireValue(typeof battle.rival === 'boolean', `${battle.id}: battle rival flag must be a boolean.`);
+  requireValue(typeof battle.doubleBattle === 'boolean', `${battle.id}: battle double-battle flag must be a boolean.`);
+  if (battle.hiddenTeam) {
+    requireValue(battle.team.length === 0, `${battle.id}: hidden Gym Leader team must remain empty.`);
+    requireValue(battle.gymLeader === true && battle.boss === true, `${battle.id}: hidden team must be a marked Gym Leader battle.`);
+    requireValue(typeof battle.gymRematch === 'boolean', `${battle.id}: hidden Gym Leader requires an initial/rematch flag.`);
+    requireValue(Boolean(battle.specialty && battle.badge), `${battle.id}: hidden Gym Leader requires specialty and badge metadata.`);
+  }
   if (battle.subarea) {
     requireValue(typeof battle.subareaInherited === 'boolean', `${battle.id}: documented battle subarea requires an inheritance flag.`);
     requireValue(Number.isInteger(battle.subareaSourceRow) && battle.subareaSourceRow > 0, `${battle.id}: documented battle subarea requires a positive source row.`);

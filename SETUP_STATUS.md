@@ -3,7 +3,7 @@
 - Status: Provisional guide built, validated and deployed
 - Current phase: Source-gap follow-up
 - Readiness: Core and Planning guide live; location subareas, trainer battles and encrypted cloud sync configured
-- Last updated: 2026-07-22
+- Last updated: 2026-07-23
 - Next step: Obtain version-matched Sevii tables and final custom-form/item assets, then rebuild and redeploy through the existing workflow.
 
 ## Progress
@@ -16,9 +16,9 @@
 | Source inventory | Complete | Community workbook, official forum thread and official developer changelog screenshots inventoried |
 | Core data | Imported and validated | 596 Pokémon forms across 553 numbered in-game Pokédex entries and 43 unnumbered special/Form Changer forms; numbered regional forms track catches separately, while unnumbered same-species forms such as Pikachu Surf/Fly/Partner share their numbered carousel; 95 locations, 2,642 standard encounter rows and 167 other acquisition entries imported; all 648 fishing rows retain their Old/Good/Super Rod requirement; Seasonal Migration is separate; later Sevii content remains a gap |
 | Planning data | Imported and validated | 766 moves and 2,468 item records merged; workbook learnsets imported; 87 older/custom move definitions and 247 custom item records remain provisional |
-| Advanced data | Partial / battles, badges, profile and cloud sync complete | Encrypted Cloudflare Worker/KV sync is configured; all 16 Johto/Kanto badges and 668 workbook trainer battles, including 229 VS Seeker rematches and nine populated major-battle records, are active; trainer/rival configuration is saved and synced; maps remain deferred |
+| Advanced data | Partial / battles, badges, profile and cloud sync complete | Encrypted Cloudflare Worker/KV sync is configured; all 16 Johto/Kanto badges and 700 workbook battle records are active, including 668 populated trainer teams, 229 VS Seeker rematches and 32 intentionally hidden Gym Leader records; trainer/rival configuration is saved and synced; maps remain deferred |
 | Local build | Complete | Baseline fetched and pinned; merge, schema validation, provenance audit, local-asset audit, sync-worker tests, desktop review and 375px mobile review pass |
-| Deployment | Complete | Public repository, GitHub Pages and Cloudflare Worker/KV deployment verified through 2026-07-22 |
+| Deployment | Complete | Public repository, GitHub Pages and Cloudflare Worker/KV deployment verified through 2026-07-23 |
 
 ## Confirmed decisions
 
@@ -37,7 +37,7 @@
 | Moves and learnsets | Strong through 2026-07-01 | `sources/inbox/Crystal Advance Redux.xlsx` | Verify post-2026-07-01 changes and move effects |
 | Wild encounters and other acquisition | Strong through 2026-07-01 | Workbook plus developer changelog screenshots | Seasonal pools are region-wide rather than route-specific; post-2026-07-01 Sevii tables absent |
 | Items and shops | Strong through 2026-07-01 | `sources/inbox/Crystal Advance Redux.xlsx` | Verify Route 31 Potion fix and later Sevii placements |
-| Trainer and boss battles | Strong through 2026-07-01 | Workbook plus official developer thread/changelog | Imported 668 location-based trainer teams, including 229 VS Seeker rematches; moves, abilities, items and natures are absent, and post-workbook teams still need review |
+| Trainer and boss battles | Strong through 2026-07-01 | Workbook plus official developer thread/changelog and canonical Gym references | Imported 668 populated trainer teams plus 32 initial/rematch Gym Leader records whose Pokémon are hidden by design, including 229 VS Seeker rematches; moves, abilities, items and natures are absent, and post-workbook teams still need review |
 | Badges, maps and branding | Partial | Workbook level caps, official developer thread and SteamGridDB | Selected hero, logo and app icon imported with attribution; reusable maps remain unavailable |
 
 ## Open questions
@@ -84,5 +84,6 @@
 - Prevented the installed iPad guide from rendering beneath the clock and battery strip by using the non-overlay Apple status-bar style and reserving the reported top safe area across the sticky header, search overlay and landscape sidebar; bottom navigation also respects the home-indicator inset.
 - Refreshed the Trainer profile fields with dark, touch-sized controls, custom select indicators and clearer focus states. The first-use setup now offers Skip for now, which persists the documented default trainer profile, completes onboarding and leaves every detail editable from Trainer.
 - Rebuilt the Trainer page portrait panel as a dynamic GBA-style Trainer Card: saved name and character choices feed the card, the live Pokédex total replaces generic game-time fields, and two rows of eight empty badge sockets reveal their Johto/Kanto badge artwork as progress is marked. Replaced the separate Trainer badge panel and metric tiles with a focused Pokédex Completion progress bar.
+- Retained all 16 Gym Leaders across their initial and rematch workbook rows even though their Pokémon are deliberately hidden. Battle cards now show the canonical leader name, type specialty, badge and Double Battle format without inventing a roster or matchup advice. Updated Overview and Trainer Card progress to use all 16 canonical badge names.
 - Replaced the blueprint's red-led theme with a Crystal palette sampled from the attributed SteamGridDB artwork: logo blue/yellow, Suicune cyan, aurora aqua, forest teal, violet and lake navy now drive backgrounds, panels, active controls, glows, progress treatments, install metadata and celebration effects.
 - Preserved the focused search field and exact selection synchronously across guide rerenders, preventing touch browsers from dropping the caret after each character. Verified sustained typing in Items, Pokédex, Moves, Locations, Favorites, trainer Battles, Team Builder, held-item, Future Team, Battle Planner and global searches at desktop and 430px mobile widths.

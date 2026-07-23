@@ -22,6 +22,25 @@ MAIN_NS = "http://schemas.openxmlformats.org/spreadsheetml/2006/main"
 REL_NS = "http://schemas.openxmlformats.org/officeDocument/2006/relationships"
 PKG_REL_NS = "http://schemas.openxmlformats.org/package/2006/relationships"
 
+GYM_LEADERS = {
+    "Violet Gym": {"leader": "Falkner", "specialty": "Flying", "badge": "Zephyr Badge"},
+    "Azalea Gym": {"leader": "Bugsy", "specialty": "Bug", "badge": "Hive Badge"},
+    "Goldenrod Gym": {"leader": "Whitney", "specialty": "Normal", "badge": "Plain Badge"},
+    "Ecruteak Gym": {"leader": "Morty", "specialty": "Ghost", "badge": "Fog Badge"},
+    "Cianwood Gym": {"leader": "Chuck", "specialty": "Fighting", "badge": "Storm Badge"},
+    "Olivine Gym": {"leader": "Jasmine", "specialty": "Steel", "badge": "Mineral Badge"},
+    "Mahogany Gym": {"leader": "Pryce", "specialty": "Ice", "badge": "Glacier Badge"},
+    "Blackthorn Gym": {"leader": "Clair", "specialty": "Dragon", "badge": "Rising Badge"},
+    "Pewter Gym": {"leader": "Brock", "specialty": "Rock", "badge": "Boulder Badge"},
+    "Cerulean Gym": {"leader": "Misty", "specialty": "Water", "badge": "Cascade Badge"},
+    "Vermilion Gym": {"leader": "Lt. Surge", "specialty": "Electric", "badge": "Thunder Badge"},
+    "Celadon Gym": {"leader": "Erika", "specialty": "Grass", "badge": "Rainbow Badge"},
+    "Fuchsia Gym": {"leader": "Janine", "specialty": "Poison", "badge": "Soul Badge"},
+    "Saffron Gym": {"leader": "Sabrina", "specialty": "Psychic", "badge": "Marsh Badge"},
+    "Cinnabar Gym": {"leader": "Blaine", "specialty": "Fire", "badge": "Volcano Badge"},
+    "Viridian Gym": {"leader": "Blue", "specialty": "Mixed-type", "badge": "Earth Badge"},
+}
+
 
 def local_name(tag: str) -> str:
     return tag.rsplit("}", 1)[-1]
@@ -677,6 +696,7 @@ def import_battles(rows: dict[int, dict[int, object]], aliases: dict[str, dict])
     last_venue_row_by_location = {}
     last_subarea_by_location = {}
     last_subarea_row_by_location = {}
+    seen_gym_leaders = set()
     for row_number, row in sorted(rows.items()):
         location = str(row.get(column_number("AD"), "") or row.get(column_number("AE"), "")).strip()
         if row_number < 2 or not location:
@@ -684,7 +704,9 @@ def import_battles(rows: dict[int, dict[int, object]], aliases: dict[str, dict])
         explicit_venue = normalise_trainer_venue(row.get(column_number("AE"), ""))
         explicit_subarea = normalise_trainer_subarea(row.get(column_number("AF"), ""))
         raw_trainer = str(row.get(column_number("AG"), "")).strip()
-        trainer = re.sub(r"\s*\*\s*", " ", raw_trainer).strip()
+        legacy_trainer_label = re.sub(r"\s*\*\s*", " ", raw_trainer).strip()
+        is_double_battle = bool(re.search(r"\(\s*DB\s*\)", raw_trainer, flags=re.I))
+        trainer = re.sub(r"\s*\(\s*DB\s*\)\s*", " ", legacy_trainer_label, flags=re.I).strip()
         is_boss = "*" in raw_trainer
         has_team_data = any(str(row.get(column_number(pokemon_column), "")).strip() for pokemon_column, _ in slot_columns)
         if explicit_venue:
@@ -755,7 +777,14 @@ def import_battles(rows: dict[int, dict[int, object]], aliases: dict[str, dict])
                 else:
                     unresolved.append({"row": row_number, "trainer": trainer, "pokemon": source_name})
             team.append(member)
-        if not team:
+        gym_profile = GYM_LEADERS.get(venue)
+        hidden_gym_team = bool(
+            not team
+            and is_boss
+            and gym_profile
+            and normalise(trainer) == normalise(gym_profile["leader"])
+        )
+        if not team and not hidden_gym_team:
             continue
         numeric_levels = [member["level"] for member in team if isinstance(member["level"], (int, float))]
         notes = []
@@ -767,8 +796,13 @@ def import_battles(rows: dict[int, dict[int, object]], aliases: dict[str, dict])
             notes.append("One or more levels are not documented in the workbook")
         if any(member.get("conditional") for member in team):
             notes.append("Conditional starter slot retained from the workbook")
+        if hidden_gym_team:
+            gym_leader_key = (venue, normalise(trainer))
+            notes.append("Gym Leader team is intentionally hidden in the workbook")
+        if is_double_battle:
+            notes.append("Double Battle")
         battle = {
-            "id": f"location-data-{row_number}-{slug(location)}-{slug(trainer)}",
+            "id": f"location-data-{row_number}-{slug(location)}-{slug(legacy_trainer_label)}",
             "mode": "default",
             "category": "VS Seeker Rematch" if is_vs else "Trainer Battle",
             "trainer": trainer,
@@ -779,12 +813,20 @@ def import_battles(rows: dict[int, dict[int, object]], aliases: dict[str, dict])
             "rematch": is_vs,
             "team": team,
             "notes": notes,
+            "doubleBattle": is_double_battle,
             "source": {
                 "file": "sources/inbox/Crystal Advance Redux.xlsx",
                 "sheet": "Location Data",
                 "row": row_number,
             },
         }
+        if hidden_gym_team:
+            battle["hiddenTeam"] = True
+            battle["gymLeader"] = True
+            battle["gymRematch"] = gym_leader_key in seen_gym_leaders
+            battle["specialty"] = gym_profile["specialty"]
+            battle["badge"] = gym_profile["badge"]
+            seen_gym_leaders.add(gym_leader_key)
         if venue:
             battle["venue"] = venue
             battle["venueInherited"] = not bool(explicit_venue)
@@ -798,7 +840,7 @@ def import_battles(rows: dict[int, dict[int, object]], aliases: dict[str, dict])
             )
             battle["subareaSourceRow"] = subarea_source_row
             battle["subareaSourceColumn"] = subarea_source_column
-        if len(numeric_levels) == len(team):
+        if team and len(numeric_levels) == len(team):
             battle["levelMin"] = min(numeric_levels)
             battle["levelMax"] = max(numeric_levels)
         battles.append(battle)
@@ -806,9 +848,10 @@ def import_battles(rows: dict[int, dict[int, object]], aliases: dict[str, dict])
         "meta": {
             "version": "2026-07-01",
             "title": "Crystal Advance Redux community workbook trainer data",
-            "sourceNote": "Trainer parent areas come from Location Data column AD, specific venues from column AE, and finer area/floor labels from column AF. Sparse Location and More Info values inherit within their workbook block. Venue and finer detail are combined when both are needed for an unambiguous label; a plain Rematch label remains unchanged.",
+            "sourceNote": "Trainer parent areas come from Location Data column AD, specific venues from column AE, and finer area/floor labels from column AF. Sparse Location and More Info values inherit within their workbook block. Gym Leaders named by the workbook are retained even when their teams are deliberately hidden; DB markers are represented as Double Battles.",
             "limitations": [
                 "The workbook does not document trainer moves, abilities, held items or natures.",
+                "Gym Leader rows identify the leader and battle format but intentionally omit their Pokémon teams.",
                 "Blank VS Seeker levels are explicitly shown as team-scaled; other blank levels remain not documented.",
                 "Asterisks beside trainer names are preserved as a major-battle flag rather than as part of the displayed name.",
                 "Silver's SE Starter placeholders are retained with their documented evolution stage and resolved from the player's starter at runtime.",
@@ -980,6 +1023,10 @@ def import_workbook(workbook: OpenXmlWorkbook, project_root: Path) -> dict:
             "superRodRows": sum(1 for location in locations for encounter in location["day"] if encounter.get("rod") == "Super Rod"),
             "acquisitionRows": sum(len(values) for values in acquisition.values()),
             "trainerBattles": len(battles["battles"]),
+            "trainerBattlesWithPopulatedTeams": sum(1 for battle in battles["battles"] if battle["team"]),
+            "hiddenGymLeaderBattles": sum(1 for battle in battles["battles"] if battle.get("hiddenTeam")),
+            "gymLeaders": len({battle["trainer"] for battle in battles["battles"] if battle.get("gymLeader")}),
+            "doubleBattles": sum(1 for battle in battles["battles"] if battle.get("doubleBattle")),
             "vsSeekerRematches": sum(1 for battle in battles["battles"] if battle["rematch"]),
             "bossBattles": sum(1 for battle in battles["battles"] if battle.get("boss")),
             "rivalBattles": sum(1 for battle in battles["battles"] if battle.get("rival")),
