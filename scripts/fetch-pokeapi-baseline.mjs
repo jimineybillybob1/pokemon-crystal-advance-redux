@@ -22,6 +22,9 @@ const itemLimit = Number(option('--item-limit')) || null;
 const refresh = flag('--refresh');
 const downloadSprites = flag('--no-download-sprites') ? false : config.downloadSprites !== false;
 const concurrency = Math.max(1, Number(option('--concurrency')) || Number(config.concurrency) || 12);
+const supplementalMoveIds = [...new Set((config.supplementalMoveIds || []).map(Number))]
+  .filter(id => Number.isInteger(id) && id > 0)
+  .sort((a, b) => a - b);
 const cacheRoot = path.join(root, 'work', 'pokeapi-cache');
 const language = config.language || 'en';
 
@@ -163,6 +166,9 @@ for (const { pokemon } of pokemonResources) {
     if ((move.version_group_details || []).some(detail => detail.version_group?.name === config.versionGroup)) moveRefs.set(resourceId(move.move), move.move);
   }
 }
+for (const id of supplementalMoveIds) {
+  moveRefs.set(String(id), { name: `supplemental-move-${id}`, url: `https://pokeapi.co/api/v2/move/${id}/` });
+}
 console.log(`Fetching ${abilityRefs.size} abilities and ${moveRefs.size} learnable moves for ${config.versionGroup}.`);
 const abilityResources = await mapPool([...abilityRefs], async ([id]) => resource('ability', id));
 const moveResources = await mapPool([...moveRefs], async ([id]) => resource('move', id));
@@ -292,6 +298,7 @@ const lock = {
   versionGroup: config.versionGroup,
   maxNationalDex: config.maxNationalDex,
   includeNonDefaultForms: config.includeNonDefaultForms,
+  supplementalMoveIds,
   fetchedAt,
   counts: { species: species.length, pokemonForms: pokemon.length, moves: moves.length, abilities: abilities.length, items: items.length }
 };

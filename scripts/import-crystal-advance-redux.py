@@ -988,7 +988,7 @@ def import_workbook(workbook: OpenXmlWorkbook, project_root: Path) -> dict:
                 "Post-2026-07-01 Sevii encounter, item and trainer details are not present in the workbook.",
                 "Location Data Method values drive the primary encounter subsections; More Info values remain nested labels rather than replacing the encounter method.",
                 "July Seasonal Migration uses the official 2026-07-01 changelog correction of a 1% pool trigger.",
-                "Move stubs retain identity where the Scarlet/Violet baseline lacks an older or custom move definition.",
+                "Older official moves omitted from Scarlet/Violet are supplemented from the pinned PokeAPI revision; hack-specific effect changes remain unverified unless the workbook documents them.",
             ],
         },
         "pokemon": pokemon_patches,

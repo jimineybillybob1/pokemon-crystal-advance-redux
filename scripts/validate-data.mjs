@@ -34,6 +34,8 @@ requireValue(/^[a-z0-9-]+$/.test(config.storageNamespace || ''), 'storageNamespa
 requireValue(baselineConfig.provider === 'pokeapi', 'baseline-config.json currently supports provider "pokeapi".');
 requireValue(Boolean(baselineConfig.versionGroup), 'baseline-config.json requires a mechanics versionGroup.');
 requireValue(baselineLock.versionGroup === baselineConfig.versionGroup, 'baseline.lock.json versionGroup must match baseline-config.json. Re-fetch the baseline.');
+const configuredSupplementalMoveIds = [...new Set((baselineConfig.supplementalMoveIds || []).map(Number))].sort((a, b) => a - b);
+requireValue(JSON.stringify(baselineLock.supplementalMoveIds || []) === JSON.stringify(configuredSupplementalMoveIds), 'baseline.lock.json supplementalMoveIds must match baseline-config.json. Re-fetch the baseline.');
 requireValue(Array.isArray(guide.pokemon) && Array.isArray(guide.moves) && Array.isArray(guide.locations), 'guide-data.json requires pokemon, moves and locations arrays.');
 requireValue(Array.isArray(pokemonOverrides.pokemon) && Array.isArray(pokemonOverrides.moves) && Array.isArray(pokemonOverrides.locations), 'data/overrides/guide-data.json requires pokemon, moves and locations arrays.');
 requireValue(Array.isArray(itemOverrides), 'data/overrides/items-data.json must be an array.');
@@ -59,6 +61,17 @@ for (const badge of config.badges || []) {
 const pokemonIds = new Set(guide.pokemon.map(p => Number(p.id)));
 const pokemonKeys = new Set(guide.pokemon.map(p => norm(p.key)));
 const moveIds = new Set(guide.moves.map(move => Number(move.id)));
+for (const moveId of configuredSupplementalMoveIds) requireValue(moveIds.has(moveId), `Supplemental move ${moveId} is missing from the merged guide.`);
+
+for (const move of guide.moves) {
+  requireValue(move.name && move.type && move.type !== 'Unknown', `${move.id}: move requires a documented name and type.`);
+  requireValue(['Physical', 'Special', 'Status'].includes(move.category), `${move.id} ${move.name}: invalid or missing move category ${move.category}.`);
+  requireValue(Number.isInteger(move.pp) && move.pp > 0, `${move.id} ${move.name}: move PP must be a positive integer.`);
+  requireValue(move.power == null || (Number.isFinite(move.power) && move.power >= 0), `${move.id} ${move.name}: move power must be numeric or explicitly variable.`);
+  requireValue(move.accuracy == null || (Number.isFinite(move.accuracy) && move.accuracy >= 0 && move.accuracy <= 100), `${move.id} ${move.name}: move accuracy must be 0-100 or explicitly bypass checks.`);
+  requireValue(Number.isInteger(move.priority), `${move.id} ${move.name}: move priority must be an integer.`);
+  requireValue(Boolean(String(move.description || '').trim()) && !String(move.description).includes('definition is not supplied'), `${move.id} ${move.name}: move requires a real effect description.`);
+}
 
 for (const pokemon of guide.pokemon) {
   requireValue(pokemon.gameDexId == null || (Number.isInteger(Number(pokemon.gameDexId)) && Number(pokemon.gameDexId) > 0), `${pokemon.key}: gameDexId must be a positive integer or null.`);

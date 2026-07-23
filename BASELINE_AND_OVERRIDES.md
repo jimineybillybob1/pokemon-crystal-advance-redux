@@ -16,6 +16,8 @@ Set `versionGroup` in `config/baseline-config.json` to the closest supported mai
 
 `downloadSprites: true` stores normal and shiny sprites in the project so the deployed guide is not dependent on a live sprite host. Missing or custom forms can be supplied in hack overrides.
 
+`supplementalMoveIds` may list official moves referenced by the hack but omitted from the selected version group's learnsets. Their definitions are fetched from the same pinned PokéAPI revision without adding those moves to any Pokémon's baseline learnset.
+
 ## Fetch and pin the baseline
 
 ```powershell

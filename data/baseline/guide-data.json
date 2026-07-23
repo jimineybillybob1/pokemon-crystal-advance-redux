@@ -2,7 +2,7 @@
   "meta": {
     "version": "0fb5313cb77f46269502e987a53a0bf751ae883d",
     "source": "Pinned PokéAPI api-data snapshot",
-    "fetchedAt": "2026-07-20T22:31:48.436Z",
+    "fetchedAt": "2026-07-23T10:00:50.276Z",
     "versionGroup": "scarlet-violet"
   },
   "pokemon": [
@@ -164351,6 +164351,45 @@
       "description": "Inflicts regular damage with no additional effect."
     },
     {
+      "id": 2,
+      "key": "karate-chop",
+      "name": "Karate Chop",
+      "type": "Fighting",
+      "typeColour": "#C22E28",
+      "category": "Physical",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 25,
+      "priority": 0,
+      "description": "Has an increased chance for a critical hit."
+    },
+    {
+      "id": 3,
+      "key": "double-slap",
+      "name": "Double Slap",
+      "type": "Normal",
+      "typeColour": "#A8A77A",
+      "category": "Physical",
+      "power": 15,
+      "accuracy": 85,
+      "pp": 10,
+      "priority": 0,
+      "description": "Hits 2-5 times in one turn."
+    },
+    {
+      "id": 4,
+      "key": "comet-punch",
+      "name": "Comet Punch",
+      "type": "Normal",
+      "typeColour": "#A8A77A",
+      "category": "Physical",
+      "power": 18,
+      "accuracy": 85,
+      "pp": 15,
+      "priority": 0,
+      "description": "Hits 2-5 times in one turn."
+    },
+    {
       "id": 5,
       "key": "mega-punch",
       "name": "Mega Punch",
@@ -164455,6 +164494,19 @@
       "description": "Causes a one-hit KO."
     },
     {
+      "id": 13,
+      "key": "razor-wind",
+      "name": "Razor Wind",
+      "type": "Normal",
+      "typeColour": "#A8A77A",
+      "category": "Special",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 10,
+      "priority": 0,
+      "description": "Requires a turn to charge before attacking."
+    },
+    {
       "id": 14,
       "key": "swords-dance",
       "name": "Swords Dance",
@@ -164466,6 +164518,19 @@
       "pp": 20,
       "priority": 0,
       "description": "Raises the user’s Attack by two stages."
+    },
+    {
+      "id": 15,
+      "key": "cut",
+      "name": "Cut",
+      "type": "Normal",
+      "typeColour": "#A8A77A",
+      "category": "Physical",
+      "power": 50,
+      "accuracy": 95,
+      "pp": 30,
+      "priority": 0,
+      "description": "Inflicts regular damage with no additional effect."
     },
     {
       "id": 16,
@@ -164596,6 +164661,32 @@
       "pp": 5,
       "priority": 0,
       "description": "Inflicts regular damage with no additional effect."
+    },
+    {
+      "id": 26,
+      "key": "jump-kick",
+      "name": "Jump Kick",
+      "type": "Fighting",
+      "typeColour": "#C22E28",
+      "category": "Physical",
+      "power": 100,
+      "accuracy": 95,
+      "pp": 10,
+      "priority": 0,
+      "description": "If the user misses, it takes half the damage it would have inflicted in recoil."
+    },
+    {
+      "id": 27,
+      "key": "rolling-kick",
+      "name": "Rolling Kick",
+      "type": "Fighting",
+      "typeColour": "#C22E28",
+      "category": "Physical",
+      "power": 60,
+      "accuracy": 85,
+      "pp": 15,
+      "priority": 0,
+      "description": "Has a chance to make the target flinch."
     },
     {
       "id": 28,
@@ -164767,6 +164858,19 @@
       "description": "Has a chance to poison the target."
     },
     {
+      "id": 41,
+      "key": "twineedle",
+      "name": "Twineedle",
+      "type": "Bug",
+      "typeColour": "#A6B91A",
+      "category": "Physical",
+      "power": 25,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "description": "Hits twice in the same turn. Has a chance to poison the target."
+    },
+    {
       "id": 42,
       "key": "pin-missile",
       "name": "Pin Missile",
@@ -164856,6 +164960,19 @@
       "pp": 20,
       "priority": 0,
       "description": "Confuses the target."
+    },
+    {
+      "id": 49,
+      "key": "sonic-boom",
+      "name": "Sonic Boom",
+      "type": "Normal",
+      "typeColour": "#A8A77A",
+      "category": "Special",
+      "power": null,
+      "accuracy": 90,
+      "pp": 20,
+      "priority": 0,
+      "description": "Inflicts 20 points of damage."
     },
     {
       "id": 50,
@@ -165066,6 +165183,19 @@
       "description": "Inflicts regular damage with no additional effect."
     },
     {
+      "id": 66,
+      "key": "submission",
+      "name": "Submission",
+      "type": "Fighting",
+      "typeColour": "#C22E28",
+      "category": "Physical",
+      "power": 80,
+      "accuracy": 80,
+      "pp": 20,
+      "priority": 0,
+      "description": "User receives 1/4 the damage it inflicts in recoil."
+    },
+    {
       "id": 67,
       "key": "low-kick",
       "name": "Low Kick",
@@ -165261,6 +165391,19 @@
       "description": "Lowers the target’s Speed by two stages."
     },
     {
+      "id": 82,
+      "key": "dragon-rage",
+      "name": "Dragon Rage",
+      "type": "Dragon",
+      "typeColour": "#6F35FC",
+      "category": "Special",
+      "power": null,
+      "accuracy": 100,
+      "pp": 10,
+      "priority": 0,
+      "description": "Inflicts 40 points of damage."
+    },
+    {
       "id": 83,
       "key": "fire-spin",
       "name": "Fire Spin",
@@ -165430,6 +165573,19 @@
       "description": "Puts the target to sleep."
     },
     {
+      "id": 96,
+      "key": "meditate",
+      "name": "Meditate",
+      "type": "Psychic",
+      "typeColour": "#F95587",
+      "category": "Status",
+      "power": null,
+      "accuracy": null,
+      "pp": 40,
+      "priority": 0,
+      "description": "Raises the user’s Attack by one stage."
+    },
+    {
       "id": 97,
       "key": "agility",
       "name": "Agility",
@@ -165454,6 +165610,19 @@
       "pp": 30,
       "priority": 1,
       "description": "Inflicts regular damage with no additional effect."
+    },
+    {
+      "id": 99,
+      "key": "rage",
+      "name": "Rage",
+      "type": "Normal",
+      "typeColour": "#A8A77A",
+      "category": "Physical",
+      "power": 20,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "description": "If the user is hit after using this move, its Attack rises by one stage."
     },
     {
       "id": 100,
@@ -165612,6 +165781,19 @@
       "description": "Raises user’s Defense by one stage."
     },
     {
+      "id": 112,
+      "key": "barrier",
+      "name": "Barrier",
+      "type": "Psychic",
+      "typeColour": "#F95587",
+      "category": "Status",
+      "power": null,
+      "accuracy": null,
+      "pp": 20,
+      "priority": 0,
+      "description": "Raises the user’s Defense by two stages."
+    },
+    {
       "id": 113,
       "key": "light-screen",
       "name": "Light Screen",
@@ -165664,6 +165846,19 @@
       "description": "Increases the user’s chance to score a critical hit."
     },
     {
+      "id": 117,
+      "key": "bide",
+      "name": "Bide",
+      "type": "Normal",
+      "typeColour": "#A8A77A",
+      "category": "Physical",
+      "power": null,
+      "accuracy": null,
+      "pp": 10,
+      "priority": 1,
+      "description": "User waits for two turns, then hits back for twice the damage it took."
+    },
+    {
       "id": 118,
       "key": "metronome",
       "name": "Metronome",
@@ -165677,6 +165872,19 @@
       "description": "Randomly selects and uses any move in the game."
     },
     {
+      "id": 119,
+      "key": "mirror-move",
+      "name": "Mirror Move",
+      "type": "Flying",
+      "typeColour": "#A98FF3",
+      "category": "Status",
+      "power": null,
+      "accuracy": null,
+      "pp": 20,
+      "priority": 0,
+      "description": "Uses the target’s last used move."
+    },
+    {
       "id": 120,
       "key": "self-destruct",
       "name": "Self-Destruct",
@@ -165688,6 +165896,19 @@
       "pp": 5,
       "priority": 0,
       "description": "User faints."
+    },
+    {
+      "id": 121,
+      "key": "egg-bomb",
+      "name": "Egg Bomb",
+      "type": "Normal",
+      "typeColour": "#A8A77A",
+      "category": "Physical",
+      "power": 100,
+      "accuracy": 75,
+      "pp": 10,
+      "priority": 0,
+      "description": "Inflicts regular damage with no additional effect."
     },
     {
       "id": 122,
@@ -165729,6 +165950,19 @@
       "description": "Has a chance to poison the target."
     },
     {
+      "id": 125,
+      "key": "bone-club",
+      "name": "Bone Club",
+      "type": "Ground",
+      "typeColour": "#E2BF65",
+      "category": "Physical",
+      "power": 65,
+      "accuracy": 85,
+      "pp": 20,
+      "priority": 0,
+      "description": "Has a chance to make the target flinch."
+    },
+    {
       "id": 126,
       "key": "fire-blast",
       "name": "Fire Blast",
@@ -165755,6 +165989,19 @@
       "description": "Has a chance to make the target flinch."
     },
     {
+      "id": 128,
+      "key": "clamp",
+      "name": "Clamp",
+      "type": "Water",
+      "typeColour": "#6390F0",
+      "category": "Physical",
+      "power": 35,
+      "accuracy": 85,
+      "pp": 15,
+      "priority": 0,
+      "description": "Prevents the target from fleeing and inflicts damage for 2-5 turns."
+    },
+    {
       "id": 129,
       "key": "swift",
       "name": "Swift",
@@ -165768,6 +166015,45 @@
       "description": "Never misses."
     },
     {
+      "id": 130,
+      "key": "skull-bash",
+      "name": "Skull Bash",
+      "type": "Normal",
+      "typeColour": "#A8A77A",
+      "category": "Physical",
+      "power": 130,
+      "accuracy": 100,
+      "pp": 10,
+      "priority": 0,
+      "description": "Raises the user’s Defense by one stage. User charges for one turn before attacking."
+    },
+    {
+      "id": 131,
+      "key": "spike-cannon",
+      "name": "Spike Cannon",
+      "type": "Normal",
+      "typeColour": "#A8A77A",
+      "category": "Physical",
+      "power": 20,
+      "accuracy": 100,
+      "pp": 15,
+      "priority": 0,
+      "description": "Hits 2-5 times in one turn."
+    },
+    {
+      "id": 132,
+      "key": "constrict",
+      "name": "Constrict",
+      "type": "Normal",
+      "typeColour": "#A8A77A",
+      "category": "Physical",
+      "power": 10,
+      "accuracy": 100,
+      "pp": 35,
+      "priority": 0,
+      "description": "Has a chance to lower the target’s Speed by one stage."
+    },
+    {
       "id": 133,
       "key": "amnesia",
       "name": "Amnesia",
@@ -165779,6 +166065,19 @@
       "pp": 20,
       "priority": 0,
       "description": "Raises the user’s Special Defense by two stages."
+    },
+    {
+      "id": 134,
+      "key": "kinesis",
+      "name": "Kinesis",
+      "type": "Psychic",
+      "typeColour": "#F95587",
+      "category": "Status",
+      "power": null,
+      "accuracy": 80,
+      "pp": 15,
+      "priority": 0,
+      "description": "Lowers the target’s accuracy by one stage."
     },
     {
       "id": 135,
@@ -165846,6 +166145,19 @@
       "description": "Poisons the target."
     },
     {
+      "id": 140,
+      "key": "barrage",
+      "name": "Barrage",
+      "type": "Normal",
+      "typeColour": "#A8A77A",
+      "category": "Physical",
+      "power": 15,
+      "accuracy": 85,
+      "pp": 20,
+      "priority": 0,
+      "description": "Hits 2-5 times in one turn."
+    },
+    {
       "id": 141,
       "key": "leech-life",
       "name": "Leech Life",
@@ -165857,6 +166169,19 @@
       "pp": 10,
       "priority": 0,
       "description": "Drains half the damage inflicted to heal the user."
+    },
+    {
+      "id": 142,
+      "key": "lovely-kiss",
+      "name": "Lovely Kiss",
+      "type": "Normal",
+      "typeColour": "#A8A77A",
+      "category": "Status",
+      "power": null,
+      "accuracy": 75,
+      "pp": 10,
+      "priority": 0,
+      "description": "Puts the target to sleep."
     },
     {
       "id": 143,
@@ -165885,6 +166210,32 @@
       "description": "User becomes a copy of the target until it leaves battle."
     },
     {
+      "id": 145,
+      "key": "bubble",
+      "name": "Bubble",
+      "type": "Water",
+      "typeColour": "#6390F0",
+      "category": "Special",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 30,
+      "priority": 0,
+      "description": "Has a chance to lower the target’s Speed by one stage."
+    },
+    {
+      "id": 146,
+      "key": "dizzy-punch",
+      "name": "Dizzy Punch",
+      "type": "Normal",
+      "typeColour": "#A8A77A",
+      "category": "Physical",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 10,
+      "priority": 0,
+      "description": "Has a chance to confuse the target."
+    },
+    {
       "id": 147,
       "key": "spore",
       "name": "Spore",
@@ -165896,6 +166247,32 @@
       "pp": 15,
       "priority": 0,
       "description": "Puts the target to sleep."
+    },
+    {
+      "id": 148,
+      "key": "flash",
+      "name": "Flash",
+      "type": "Normal",
+      "typeColour": "#A8A77A",
+      "category": "Status",
+      "power": null,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "description": "Lowers the target’s accuracy by one stage."
+    },
+    {
+      "id": 149,
+      "key": "psywave",
+      "name": "Psywave",
+      "type": "Psychic",
+      "typeColour": "#F95587",
+      "category": "Special",
+      "power": null,
+      "accuracy": 100,
+      "pp": 15,
+      "priority": 0,
+      "description": "Inflicts damage between 50% and 150% of the user’s level."
     },
     {
       "id": 150,
@@ -165963,6 +166340,19 @@
       "description": "Hits 2-5 times in one turn."
     },
     {
+      "id": 155,
+      "key": "bonemerang",
+      "name": "Bonemerang",
+      "type": "Ground",
+      "typeColour": "#E2BF65",
+      "category": "Physical",
+      "power": 50,
+      "accuracy": 90,
+      "pp": 10,
+      "priority": 0,
+      "description": "Hits twice in one turn."
+    },
+    {
       "id": 156,
       "key": "rest",
       "name": "Rest",
@@ -165987,6 +166377,32 @@
       "pp": 10,
       "priority": 0,
       "description": "Has a chance to make the target flinch."
+    },
+    {
+      "id": 158,
+      "key": "hyper-fang",
+      "name": "Hyper Fang",
+      "type": "Normal",
+      "typeColour": "#A8A77A",
+      "category": "Physical",
+      "power": 80,
+      "accuracy": 90,
+      "pp": 15,
+      "priority": 0,
+      "description": "Has a chance to make the target flinch."
+    },
+    {
+      "id": 159,
+      "key": "sharpen",
+      "name": "Sharpen",
+      "type": "Normal",
+      "typeColour": "#A8A77A",
+      "category": "Status",
+      "power": null,
+      "accuracy": null,
+      "pp": 30,
+      "priority": 0,
+      "description": "Raises the user’s Attack by one stage."
     },
     {
       "id": 160,
@@ -166091,6 +166507,32 @@
       "pp": 25,
       "priority": 0,
       "description": "Takes the target’s item."
+    },
+    {
+      "id": 169,
+      "key": "spider-web",
+      "name": "Spider Web",
+      "type": "Bug",
+      "typeColour": "#A6B91A",
+      "category": "Status",
+      "power": null,
+      "accuracy": null,
+      "pp": 10,
+      "priority": 0,
+      "description": "Prevents the target from leaving battle."
+    },
+    {
+      "id": 170,
+      "key": "mind-reader",
+      "name": "Mind Reader",
+      "type": "Normal",
+      "typeColour": "#A8A77A",
+      "category": "Status",
+      "power": null,
+      "accuracy": null,
+      "pp": 5,
+      "priority": 0,
+      "description": "Ensures that the user’s next move will hit the target."
     },
     {
       "id": 172,
@@ -166262,6 +166704,19 @@
       "description": "Lowers the target’s Speed by two stages."
     },
     {
+      "id": 185,
+      "key": "feint-attack",
+      "name": "Feint Attack",
+      "type": "Dark",
+      "typeColour": "#705746",
+      "category": "Physical",
+      "power": 60,
+      "accuracy": null,
+      "pp": 20,
+      "priority": 0,
+      "description": "Never misses."
+    },
+    {
       "id": 186,
       "key": "sweet-kiss",
       "name": "Sweet Kiss",
@@ -166314,6 +166769,19 @@
       "description": "Has a chance to lower the target’s accuracy by one stage."
     },
     {
+      "id": 190,
+      "key": "octazooka",
+      "name": "Octazooka",
+      "type": "Water",
+      "typeColour": "#6390F0",
+      "category": "Special",
+      "power": 65,
+      "accuracy": 85,
+      "pp": 10,
+      "priority": 0,
+      "description": "Has a chance to lower the target’s accuracy by one stage."
+    },
+    {
       "id": 191,
       "key": "spikes",
       "name": "Spikes",
@@ -166338,6 +166806,19 @@
       "pp": 5,
       "priority": 0,
       "description": "Has a chance to paralyze the target."
+    },
+    {
+      "id": 193,
+      "key": "foresight",
+      "name": "Foresight",
+      "type": "Normal",
+      "typeColour": "#A8A77A",
+      "category": "Status",
+      "power": null,
+      "accuracy": null,
+      "pp": 40,
+      "priority": 0,
+      "description": "Forces the target to have no Evade, and allows it to be hit by Normal and Fighting moves even if it’s a Ghost."
     },
     {
       "id": 194,
@@ -166626,6 +167107,19 @@
       "description": "Cures the entire party of major status effects."
     },
     {
+      "id": 216,
+      "key": "return",
+      "name": "Return",
+      "type": "Normal",
+      "typeColour": "#A8A77A",
+      "category": "Physical",
+      "power": null,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "description": "Power increases with happiness, up to a maximum of 102."
+    },
+    {
       "id": 217,
       "key": "present",
       "name": "Present",
@@ -166676,6 +167170,19 @@
       "pp": 5,
       "priority": 0,
       "description": "Has a chance to burn the target. Lets frozen Pokémon thaw themselves."
+    },
+    {
+      "id": 222,
+      "key": "magnitude",
+      "name": "Magnitude",
+      "type": "Ground",
+      "typeColour": "#E2BF65",
+      "category": "Physical",
+      "power": null,
+      "accuracy": 100,
+      "pp": 30,
+      "priority": 0,
+      "description": "Power varies randomly from 10 to 150."
     },
     {
       "id": 223,
@@ -166743,6 +167250,19 @@
       "description": "Forces the target to repeat its last used move every turn for 2 to 6 turns."
     },
     {
+      "id": 228,
+      "key": "pursuit",
+      "name": "Pursuit",
+      "type": "Dark",
+      "typeColour": "#705746",
+      "category": "Physical",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "description": "Has double power against, and can hit, Pokémon attempting to switch out."
+    },
+    {
       "id": 229,
       "key": "rapid-spin",
       "name": "Rapid Spin",
@@ -166795,6 +167315,19 @@
       "description": "Has a chance to raise the user’s Attack by one stage."
     },
     {
+      "id": 233,
+      "key": "vital-throw",
+      "name": "Vital Throw",
+      "type": "Fighting",
+      "typeColour": "#C22E28",
+      "category": "Physical",
+      "power": 70,
+      "accuracy": null,
+      "pp": 10,
+      "priority": -1,
+      "description": "Never misses."
+    },
+    {
       "id": 234,
       "key": "morning-sun",
       "name": "Morning Sun",
@@ -166832,6 +167365,19 @@
       "pp": 5,
       "priority": 0,
       "description": "Heals the user by half its max HP. Affected by weather."
+    },
+    {
+      "id": 237,
+      "key": "hidden-power",
+      "name": "Hidden Power",
+      "type": "Normal",
+      "typeColour": "#A8A77A",
+      "category": "Special",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 15,
+      "priority": 0,
+      "description": "Power and type depend upon user’s IVs. Power can range from 30 to 70."
     },
     {
       "id": 238,
@@ -167172,6 +167718,19 @@
       "description": "If the user takes damage before attacking, the attack is canceled."
     },
     {
+      "id": 265,
+      "key": "smelling-salts",
+      "name": "Smelling Salts",
+      "type": "Normal",
+      "typeColour": "#A8A77A",
+      "category": "Physical",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 10,
+      "priority": 0,
+      "description": "If the target is paralyzed, inflicts double damage and cures the paralysis."
+    },
+    {
       "id": 266,
       "key": "follow-me",
       "name": "Follow Me",
@@ -167183,6 +167742,19 @@
       "pp": 20,
       "priority": 2,
       "description": "Redirects the target’s single-target effects to the user for this turn."
+    },
+    {
+      "id": 267,
+      "key": "nature-power",
+      "name": "Nature Power",
+      "type": "Normal",
+      "typeColour": "#A8A77A",
+      "category": "Status",
+      "power": null,
+      "accuracy": null,
+      "pp": 20,
+      "priority": 0,
+      "description": "Uses a move which depends upon the terrain."
     },
     {
       "id": 268,
@@ -167263,6 +167835,19 @@
       "description": "User will recover half its max HP at the end of the next turn."
     },
     {
+      "id": 274,
+      "key": "assist",
+      "name": "Assist",
+      "type": "Normal",
+      "typeColour": "#A8A77A",
+      "category": "Status",
+      "power": null,
+      "accuracy": null,
+      "pp": 20,
+      "priority": 0,
+      "description": "Randomly selects and uses one of the trainer’s other Pokémon’s moves."
+    },
+    {
       "id": 275,
       "key": "ingrain",
       "name": "Ingrain",
@@ -167289,6 +167874,19 @@
       "description": "Lowers the user’s Attack and Defense by one stage after inflicting damage."
     },
     {
+      "id": 277,
+      "key": "magic-coat",
+      "name": "Magic Coat",
+      "type": "Psychic",
+      "typeColour": "#F95587",
+      "category": "Status",
+      "power": null,
+      "accuracy": null,
+      "pp": 15,
+      "priority": 4,
+      "description": "Reflects back the first effect move used on the user this turn."
+    },
+    {
       "id": 278,
       "key": "recycle",
       "name": "Recycle",
@@ -167300,6 +167898,19 @@
       "pp": 10,
       "priority": 0,
       "description": "User recovers the item it last used up."
+    },
+    {
+      "id": 279,
+      "key": "revenge",
+      "name": "Revenge",
+      "type": "Fighting",
+      "typeColour": "#C22E28",
+      "category": "Physical",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 10,
+      "priority": -4,
+      "description": "Inflicts double damage if the user takes damage before attacking this turn."
     },
     {
       "id": 280,
@@ -167393,6 +168004,58 @@
       "description": "Prevents the target from using any moves that the user also knows."
     },
     {
+      "id": 287,
+      "key": "refresh",
+      "name": "Refresh",
+      "type": "Normal",
+      "typeColour": "#A8A77A",
+      "category": "Status",
+      "power": null,
+      "accuracy": null,
+      "pp": 20,
+      "priority": 0,
+      "description": "Cleanses the user of a burn, paralysis, or poison."
+    },
+    {
+      "id": 288,
+      "key": "grudge",
+      "name": "Grudge",
+      "type": "Ghost",
+      "typeColour": "#735797",
+      "category": "Status",
+      "power": null,
+      "accuracy": null,
+      "pp": 5,
+      "priority": 0,
+      "description": "If the user faints this turn, the PP of the move that fainted it drops to 0."
+    },
+    {
+      "id": 289,
+      "key": "snatch",
+      "name": "Snatch",
+      "type": "Dark",
+      "typeColour": "#705746",
+      "category": "Status",
+      "power": null,
+      "accuracy": null,
+      "pp": 10,
+      "priority": 4,
+      "description": "Steals the target’s move, if it’s self-targeted."
+    },
+    {
+      "id": 290,
+      "key": "secret-power",
+      "name": "Secret Power",
+      "type": "Normal",
+      "typeColour": "#A8A77A",
+      "category": "Physical",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "description": "Has a chance to inflict a status effect which depends upon the terrain."
+    },
+    {
       "id": 291,
       "key": "dive",
       "name": "Dive",
@@ -167417,6 +168080,19 @@
       "pp": 20,
       "priority": 0,
       "description": "Hits 2-5 times in one turn."
+    },
+    {
+      "id": 293,
+      "key": "camouflage",
+      "name": "Camouflage",
+      "type": "Normal",
+      "typeColour": "#A8A77A",
+      "category": "Status",
+      "power": null,
+      "accuracy": null,
+      "pp": 20,
+      "priority": 0,
+      "description": "User’s type changes to match the terrain."
     },
     {
       "id": 294,
@@ -167495,6 +168171,45 @@
       "pp": 10,
       "priority": 0,
       "description": "Has an increased chance for a critical hit and a chance to burn the target."
+    },
+    {
+      "id": 300,
+      "key": "mud-sport",
+      "name": "Mud Sport",
+      "type": "Ground",
+      "typeColour": "#E2BF65",
+      "category": "Status",
+      "power": null,
+      "accuracy": null,
+      "pp": 15,
+      "priority": 0,
+      "description": "Halves all Electric-type damage."
+    },
+    {
+      "id": 301,
+      "key": "ice-ball",
+      "name": "Ice Ball",
+      "type": "Ice",
+      "typeColour": "#96D9D6",
+      "category": "Physical",
+      "power": 30,
+      "accuracy": 90,
+      "pp": 20,
+      "priority": 0,
+      "description": "Power doubles every turn this move is used in succession after the first, resetting after five turns."
+    },
+    {
+      "id": 302,
+      "key": "needle-arm",
+      "name": "Needle Arm",
+      "type": "Grass",
+      "typeColour": "#7AC74C",
+      "category": "Physical",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 15,
+      "priority": 0,
+      "description": "Has a chance to make the target flinch."
     },
     {
       "id": 303,
@@ -167614,6 +168329,19 @@
       "description": "If there be weather, this move has doubled power and the weather’s type."
     },
     {
+      "id": 312,
+      "key": "aromatherapy",
+      "name": "Aromatherapy",
+      "type": "Grass",
+      "typeColour": "#7AC74C",
+      "category": "Status",
+      "power": null,
+      "accuracy": null,
+      "pp": 5,
+      "priority": 0,
+      "description": "Cures the entire party of major status effects."
+    },
+    {
       "id": 313,
       "key": "fake-tears",
       "name": "Fake Tears",
@@ -167653,6 +168381,19 @@
       "description": "Lowers the user’s Special Attack by two stages after inflicting damage."
     },
     {
+      "id": 316,
+      "key": "odor-sleuth",
+      "name": "Odor Sleuth",
+      "type": "Normal",
+      "typeColour": "#A8A77A",
+      "category": "Status",
+      "power": null,
+      "accuracy": null,
+      "pp": 40,
+      "priority": 0,
+      "description": "Forces the target to have no Evade, and allows it to be hit by Normal and Fighting moves even if it’s a Ghost."
+    },
+    {
       "id": 317,
       "key": "rock-tomb",
       "name": "Rock Tomb",
@@ -167666,6 +168407,19 @@
       "description": "Has a chance to lower the target’s Speed by one stage."
     },
     {
+      "id": 318,
+      "key": "silver-wind",
+      "name": "Silver Wind",
+      "type": "Bug",
+      "typeColour": "#A6B91A",
+      "category": "Special",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 5,
+      "priority": 0,
+      "description": "Has a chance to raise all of the user’s stats by one stage."
+    },
+    {
       "id": 319,
       "key": "metal-sound",
       "name": "Metal Sound",
@@ -167677,6 +168431,19 @@
       "pp": 40,
       "priority": 0,
       "description": "Lowers the target’s Special Defense by two stages."
+    },
+    {
+      "id": 320,
+      "key": "grass-whistle",
+      "name": "Grass Whistle",
+      "type": "Grass",
+      "typeColour": "#7AC74C",
+      "category": "Status",
+      "power": null,
+      "accuracy": 55,
+      "pp": 15,
+      "priority": 0,
+      "description": "Puts the target to sleep."
     },
     {
       "id": 321,
@@ -167718,6 +168485,19 @@
       "description": "Inflicts more damage when the user has more HP remaining, with a maximum of 150 power."
     },
     {
+      "id": 324,
+      "key": "signal-beam",
+      "name": "Signal Beam",
+      "type": "Bug",
+      "typeColour": "#A6B91A",
+      "category": "Special",
+      "power": 75,
+      "accuracy": 100,
+      "pp": 15,
+      "priority": 0,
+      "description": "Has a chance to confuse the target."
+    },
+    {
       "id": 325,
       "key": "shadow-punch",
       "name": "Shadow Punch",
@@ -167742,6 +168522,19 @@
       "pp": 20,
       "priority": 0,
       "description": "Has a chance to make the target flinch."
+    },
+    {
+      "id": 327,
+      "key": "sky-uppercut",
+      "name": "Sky Uppercut",
+      "type": "Fighting",
+      "typeColour": "#C22E28",
+      "category": "Physical",
+      "power": 85,
+      "accuracy": 90,
+      "pp": 15,
+      "priority": 0,
+      "description": "Inflicts regular damage and can hit Bounce and Fly users."
     },
     {
       "id": 328,
@@ -167952,6 +168745,19 @@
       "description": "Takes the target’s item."
     },
     {
+      "id": 344,
+      "key": "volt-tackle",
+      "name": "Volt Tackle",
+      "type": "Electric",
+      "typeColour": "#F7D02C",
+      "category": "Physical",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 15,
+      "priority": 0,
+      "description": "User takes 1/3 the damage inflicted in recoil. Has a chance to paralyze the target."
+    },
+    {
       "id": 345,
       "key": "magical-leaf",
       "name": "Magical Leaf",
@@ -167963,6 +168769,19 @@
       "pp": 20,
       "priority": 0,
       "description": "Never misses."
+    },
+    {
+      "id": 346,
+      "key": "water-sport",
+      "name": "Water Sport",
+      "type": "Water",
+      "typeColour": "#6390F0",
+      "category": "Status",
+      "power": null,
+      "accuracy": null,
+      "pp": 15,
+      "priority": 0,
+      "description": "Halves all Fire-type damage."
     },
     {
       "id": 347,
@@ -168095,6 +168914,32 @@
       "description": "Disables moves and immunities that involve flying or levitating for five turns."
     },
     {
+      "id": 357,
+      "key": "miracle-eye",
+      "name": "Miracle Eye",
+      "type": "Psychic",
+      "typeColour": "#F95587",
+      "category": "Status",
+      "power": null,
+      "accuracy": null,
+      "pp": 40,
+      "priority": 0,
+      "description": "Forces the target to have no evasion, and allows it to be hit by Psychic moves even if it’s Dark."
+    },
+    {
+      "id": 358,
+      "key": "wake-up-slap",
+      "name": "Wake-Up Slap",
+      "type": "Fighting",
+      "typeColour": "#C22E28",
+      "category": "Physical",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 10,
+      "priority": 0,
+      "description": "If the target is asleep, has double power and wakes it up."
+    },
+    {
       "id": 359,
       "key": "hammer-arm",
       "name": "Hammer Arm",
@@ -168145,6 +168990,19 @@
       "pp": 10,
       "priority": 0,
       "description": "Has double power against Pokémon that have less than half their max HP remaining."
+    },
+    {
+      "id": 363,
+      "key": "natural-gift",
+      "name": "Natural Gift",
+      "type": "Normal",
+      "typeColour": "#A8A77A",
+      "category": "Physical",
+      "power": null,
+      "accuracy": 100,
+      "pp": 15,
+      "priority": 0,
+      "description": "Power and type depend on the held berry."
     },
     {
       "id": 364,
@@ -168264,6 +169122,19 @@
       "description": "Power is doubled if the target has already received damage this turn."
     },
     {
+      "id": 373,
+      "key": "embargo",
+      "name": "Embargo",
+      "type": "Dark",
+      "typeColour": "#705746",
+      "category": "Status",
+      "power": null,
+      "accuracy": 100,
+      "pp": 15,
+      "priority": 0,
+      "description": "Target cannot use held items."
+    },
+    {
       "id": 374,
       "key": "fling",
       "name": "Fling",
@@ -168275,6 +169146,58 @@
       "pp": 10,
       "priority": 0,
       "description": "Throws held item at the target; power depends on the item."
+    },
+    {
+      "id": 375,
+      "key": "psycho-shift",
+      "name": "Psycho Shift",
+      "type": "Psychic",
+      "typeColour": "#F95587",
+      "category": "Status",
+      "power": null,
+      "accuracy": 100,
+      "pp": 10,
+      "priority": 0,
+      "description": "Transfers the user’s major status effect to the target."
+    },
+    {
+      "id": 376,
+      "key": "trump-card",
+      "name": "Trump Card",
+      "type": "Normal",
+      "typeColour": "#A8A77A",
+      "category": "Special",
+      "power": null,
+      "accuracy": null,
+      "pp": 5,
+      "priority": 0,
+      "description": "Power increases when this move has less PP, up to a maximum of 200."
+    },
+    {
+      "id": 377,
+      "key": "heal-block",
+      "name": "Heal Block",
+      "type": "Psychic",
+      "typeColour": "#F95587",
+      "category": "Status",
+      "power": null,
+      "accuracy": 100,
+      "pp": 15,
+      "priority": 0,
+      "description": "Prevents target from restoring its HP for five turns."
+    },
+    {
+      "id": 378,
+      "key": "wring-out",
+      "name": "Wring Out",
+      "type": "Normal",
+      "typeColour": "#A8A77A",
+      "category": "Special",
+      "power": null,
+      "accuracy": 100,
+      "pp": 5,
+      "priority": 0,
+      "description": "Power increases against targets with more HP remaining, up to a maximum of 121 power."
     },
     {
       "id": 379,
@@ -168301,6 +169224,32 @@
       "pp": 10,
       "priority": 0,
       "description": "Nullifies target’s ability until it leaves battle."
+    },
+    {
+      "id": 381,
+      "key": "lucky-chant",
+      "name": "Lucky Chant",
+      "type": "Normal",
+      "typeColour": "#A8A77A",
+      "category": "Status",
+      "power": null,
+      "accuracy": null,
+      "pp": 30,
+      "priority": 0,
+      "description": "Prevents the target from scoring critical hits for five turns."
+    },
+    {
+      "id": 382,
+      "key": "me-first",
+      "name": "Me First",
+      "type": "Normal",
+      "typeColour": "#A8A77A",
+      "category": "Status",
+      "power": null,
+      "accuracy": null,
+      "pp": 20,
+      "priority": 0,
+      "description": "Uses the target’s move against it before it attacks, with power increased by half."
     },
     {
       "id": 383,
@@ -168340,6 +169289,19 @@
       "pp": 10,
       "priority": 0,
       "description": "User swaps Defense and Special Defense changes with the target."
+    },
+    {
+      "id": 386,
+      "key": "punishment",
+      "name": "Punishment",
+      "type": "Dark",
+      "typeColour": "#705746",
+      "category": "Physical",
+      "power": null,
+      "accuracy": 100,
+      "pp": 5,
+      "priority": 0,
+      "description": "Power increases against targets with more raised stats, up to a maximum of 200."
     },
     {
       "id": 387,
@@ -168849,6 +169811,19 @@
       "description": "Inflicts regular damage with no additional effect."
     },
     {
+      "id": 426,
+      "key": "mud-bomb",
+      "name": "Mud Bomb",
+      "type": "Ground",
+      "typeColour": "#E2BF65",
+      "category": "Special",
+      "power": 65,
+      "accuracy": 85,
+      "pp": 10,
+      "priority": 0,
+      "description": "Has a chance to lower the target’s accuracy by one stage."
+    },
+    {
       "id": 427,
       "key": "psycho-cut",
       "name": "Psycho Cut",
@@ -168875,6 +169850,19 @@
       "description": "Has a chance to make the target flinch."
     },
     {
+      "id": 429,
+      "key": "mirror-shot",
+      "name": "Mirror Shot",
+      "type": "Steel",
+      "typeColour": "#B7B7CE",
+      "category": "Special",
+      "power": 65,
+      "accuracy": 85,
+      "pp": 10,
+      "priority": 0,
+      "description": "Has a chance to lower the target’s accuracy by one stage."
+    },
+    {
       "id": 430,
       "key": "flash-cannon",
       "name": "Flash Cannon",
@@ -168886,6 +169874,19 @@
       "pp": 10,
       "priority": 0,
       "description": "Has a chance to lower the target’s Special Defense by one stage."
+    },
+    {
+      "id": 431,
+      "key": "rock-climb",
+      "name": "Rock Climb",
+      "type": "Normal",
+      "typeColour": "#A8A77A",
+      "category": "Physical",
+      "power": 90,
+      "accuracy": 85,
+      "pp": 20,
+      "priority": 0,
+      "description": "Has a chance to confuse the target."
     },
     {
       "id": 432,
@@ -169031,6 +170032,19 @@
       "description": "Has a chance to make the target flinch."
     },
     {
+      "id": 443,
+      "key": "magnet-bomb",
+      "name": "Magnet Bomb",
+      "type": "Steel",
+      "typeColour": "#B7B7CE",
+      "category": "Physical",
+      "power": 60,
+      "accuracy": null,
+      "pp": 20,
+      "priority": 0,
+      "description": "Never misses."
+    },
+    {
       "id": 444,
       "key": "stone-edge",
       "name": "Stone Edge",
@@ -169042,6 +170056,19 @@
       "pp": 5,
       "priority": 0,
       "description": "Has an increased chance for a critical hit."
+    },
+    {
+      "id": 445,
+      "key": "captivate",
+      "name": "Captivate",
+      "type": "Normal",
+      "typeColour": "#A8A77A",
+      "category": "Status",
+      "power": null,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "description": "Lowers the target’s Special Attack by two stages if it’s the opposite gender."
     },
     {
       "id": 446,
@@ -169068,6 +170095,19 @@
       "pp": 20,
       "priority": 0,
       "description": "Inflicts more damage to heavier targets, with a maximum of 120 power."
+    },
+    {
+      "id": 448,
+      "key": "chatter",
+      "name": "Chatter",
+      "type": "Flying",
+      "typeColour": "#A98FF3",
+      "category": "Special",
+      "power": 65,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "description": "Has a higher chance to confuse the target when the recorded sound is louder."
     },
     {
       "id": 449,
@@ -169159,6 +170199,19 @@
       "pp": 10,
       "priority": 0,
       "description": "Raises the user’s Defense and Special Defense by one stage."
+    },
+    {
+      "id": 456,
+      "key": "heal-order",
+      "name": "Heal Order",
+      "type": "Bug",
+      "typeColour": "#A6B91A",
+      "category": "Status",
+      "power": null,
+      "accuracy": null,
+      "pp": 10,
+      "priority": 0,
+      "description": "Heals the user by half its max HP."
     },
     {
       "id": 457,
@@ -169276,6 +170329,19 @@
       "pp": 5,
       "priority": 0,
       "description": "Has a chance to lower the target’s Special Defense by two stages."
+    },
+    {
+      "id": 466,
+      "key": "ominous-wind",
+      "name": "Ominous Wind",
+      "type": "Ghost",
+      "typeColour": "#735797",
+      "category": "Special",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 5,
+      "priority": 0,
+      "description": "Has a chance to raise all of the user’s stats by one stage."
     },
     {
       "id": 467,
@@ -169419,6 +170485,19 @@
       "pp": 15,
       "priority": 0,
       "description": "Removes any immunity to Ground damage."
+    },
+    {
+      "id": 481,
+      "key": "flame-burst",
+      "name": "Flame Burst",
+      "type": "Fire",
+      "typeColour": "#EE8130",
+      "category": "Special",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 15,
+      "priority": 0,
+      "description": "Deals splash damage to Pokémon next to the target."
     },
     {
       "id": 482,
@@ -169993,6 +171072,19 @@
       "description": "Has an increased chance for a critical hit."
     },
     {
+      "id": 530,
+      "key": "dual-chop",
+      "name": "Dual Chop",
+      "type": "Dragon",
+      "typeColour": "#6F35FC",
+      "category": "Physical",
+      "power": 40,
+      "accuracy": 90,
+      "pp": 15,
+      "priority": 0,
+      "description": "Hits twice in one turn."
+    },
+    {
       "id": 532,
       "key": "horn-leech",
       "name": "Horn Leech",
@@ -170043,6 +171135,19 @@
       "pp": 10,
       "priority": 0,
       "description": "Power is higher when the user weighs more than the target, up to a maximum of 120."
+    },
+    {
+      "id": 536,
+      "key": "leaf-tornado",
+      "name": "Leaf Tornado",
+      "type": "Grass",
+      "typeColour": "#7AC74C",
+      "category": "Special",
+      "power": 65,
+      "accuracy": 90,
+      "pp": 10,
+      "priority": 0,
+      "description": "Has a chance to lower the target’s accuracy by one stage."
     },
     {
       "id": 538,
@@ -170446,6 +171551,19 @@
       "pp": 10,
       "priority": 0,
       "description": "Drains 75% of the damage inflicted to heal the user."
+    },
+    {
+      "id": 579,
+      "key": "flower-shield",
+      "name": "Flower Shield",
+      "type": "Fairy",
+      "typeColour": "#D685AD",
+      "category": "Status",
+      "power": null,
+      "accuracy": null,
+      "pp": 10,
+      "priority": 0,
+      "description": "Raises the Defense of all Grass Pokémon in battle."
     },
     {
       "id": 580,
@@ -171315,6 +172433,19 @@
       "power": 100,
       "accuracy": 100,
       "pp": 5,
+      "priority": 0,
+      "description": "Inflicts regular damage with no additional effect."
+    },
+    {
+      "id": 739,
+      "key": "freezy-frost",
+      "name": "Freezy Frost",
+      "type": "Ice",
+      "typeColour": "#96D9D6",
+      "category": "Special",
+      "power": 100,
+      "accuracy": 90,
+      "pp": 10,
       "priority": 0,
       "description": "Inflicts regular damage with no additional effect."
     },
