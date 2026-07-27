@@ -18,7 +18,7 @@
 | Planning data | Imported and validated | All 766 workbook-used moves now have complete metadata; 87 older official moves omitted from Scarlet/Violet are supplemented from the pinned PokéAPI revision, while 247 custom item records remain provisional |
 | Advanced data | Partial / battles, badges, profile and cloud sync complete | Encrypted Cloudflare Worker/KV sync is configured; all 16 Johto/Kanto badges and 700 workbook battle records are active, including 668 populated trainer teams, 229 VS Seeker rematches and 32 intentionally hidden Gym Leader records; trainer/rival configuration is saved and synced; maps remain deferred |
 | Local build | Complete | Baseline fetched and pinned; merge, schema validation, provenance audit, local-asset audit, sync-worker tests, desktop review and 375px mobile review pass |
-| Deployment | Complete | Public repository, GitHub Pages and Cloudflare Worker/KV deployment verified through 2026-07-23 |
+| Deployment | Complete | Public repository, GitHub Pages and Cloudflare Worker/KV deployment verified through 2026-07-27 |
 
 ## Confirmed decisions
 
@@ -91,3 +91,4 @@
 - Preserved the focused search field and exact selection synchronously across guide rerenders, preventing touch browsers from dropping the caret after each character. Verified sustained typing in Items, Pokédex, Moves, Locations, Favorites, trainer Battles, Team Builder, held-item, Future Team, Battle Planner and global searches at desktop and 430px mobile widths.
 - Imported user-supplied normal sprites for Armoured Mewtwo and the Venusaur, Charizard and Blastoise clones. The three clone images were centred losslessly on 96×96 transparent canvases; the large far-left 64×92 Armoured Mewtwo component was isolated from the supplied three-palette sheet without resampling. Placeholder forms fell from eight to four; shiny artwork for these four additions remains explicitly unavailable.
 - Imported the user-supplied XD001 normal sprite by isolating the large bottom-left 96×87 component from its seven-pose sheet and centring it losslessly on a transparent 96×96 canvas. Placeholder forms fell from four to three; XD001 shiny artwork remains explicitly unavailable.
+- Added build-preserving evolution and form-change controls to Future Team. Related targets retain nickname, nature, held item and all four planned moves; shiny state is retained when the target has artwork, and abilities keep the same name or map to the equivalent target ability slot. Unrelated species replacements still begin a fresh build.
