@@ -107348,8 +107348,8 @@
       ],
       "catchRate": 3,
       "growthRate": "Slow",
-      "sprite": "assets/art/placeholder-icon.svg",
-      "shinySprite": "assets/art/placeholder-icon.svg"
+      "sprite": "assets/pokemon/armoured-mewtwo.png",
+      "shinySprite": null
     },
     {
       "id": 10169,
@@ -111423,8 +111423,8 @@
       ],
       "catchRate": 45,
       "growthRate": "Medium Slow",
-      "sprite": "assets/art/placeholder-icon.svg",
-      "shinySprite": "assets/art/placeholder-icon.svg"
+      "sprite": "assets/pokemon/venusaur-clone.png",
+      "shinySprite": null
     },
     {
       "id": 200580,
@@ -111641,8 +111641,8 @@
       ],
       "catchRate": 45,
       "growthRate": "Medium Slow",
-      "sprite": "assets/art/placeholder-icon.svg",
-      "shinySprite": "assets/art/placeholder-icon.svg"
+      "sprite": "assets/pokemon/charizard-clone.png",
+      "shinySprite": null
     },
     {
       "id": 200581,
@@ -111851,8 +111851,8 @@
       ],
       "catchRate": 45,
       "growthRate": "Medium Slow",
-      "sprite": "assets/art/placeholder-icon.svg",
-      "shinySprite": "assets/art/placeholder-icon.svg"
+      "sprite": "assets/pokemon/blastoise-clone.png",
+      "shinySprite": null
     },
     {
       "id": 250582,
@@ -112743,8 +112743,8 @@
       ],
       "catchRate": 3,
       "growthRate": "Slow",
-      "sprite": "assets/art/placeholder-icon.svg",
-      "shinySprite": "assets/art/placeholder-icon.svg"
+      "sprite": "assets/pokemon/xd001.png",
+      "shinySprite": null
     },
     {
       "id": 984,

@@ -3,7 +3,7 @@
 - Status: Provisional guide built, validated and deployed
 - Current phase: Source-gap follow-up
 - Readiness: Core and Planning guide live; location subareas, trainer battles and encrypted cloud sync configured
-- Last updated: 2026-07-23
+- Last updated: 2026-07-27
 - Next step: Obtain version-matched Sevii tables and final custom-form/item assets, then rebuild and redeploy through the existing workflow.
 
 ## Progress
@@ -44,7 +44,7 @@
 
 - Obtain post-2026-07-01 Sevii encounter, item and trainer tables when sources become available.
 - Confirm whether Seasonal Migration is intentionally region-wide or has an undisclosed eligible-route list.
-- Verify whether Crystal Advance Redux changes any inherited move effects, and replace provisional custom item details and eight remaining custom-form placeholder sprites with version-matched sources/assets; replace the three provisional Pikachu form sprites if developer assets become available.
+- Verify whether Crystal Advance Redux changes any inherited move effects, and replace provisional custom item details and three remaining custom-form placeholder sprites with version-matched sources/assets; replace the three provisional Pikachu form sprites if developer assets become available.
 - Supply dedicated egg-source pools if the game has them; workbook egg moves are imported, but no hatch-source table was identified.
 - Review the selected community branding if official developer-supplied guide assets become available.
 
@@ -56,7 +56,7 @@
 - Reconciled the 2026-07-01 workbook against developer changes through 2026-07-19; recorded seasonal migration and Sevii gaps.
 - Pinned the PokeAPI baseline to api-data commit `0fb5313cb77f46269502e987a53a0bf751ae883d` and sprites commit `bf4c47ac82c33b330e33d98b8882d1cedb2f53e7`.
 - Added a repeatable workbook importer and generated the Core/Planning override layer.
-- Validated 596 Pokémon forms, 766 moves, 95 locations and 2,468 items; provenance and all 2,548 currently referenced local assets also pass audit.
+- Validated 596 Pokémon forms, 766 moves, 95 locations and 2,468 items; provenance and all 2,543 currently referenced local assets also pass audit.
 - Reviewed the local guide at desktop and 375px mobile widths, corrected the all-day encounter presentation, removed empty/deferred navigation, fixed horizontal overflow and confirmed no browser console errors.
 - Created `jimineybillybob1/pokemon-crystal-advance-redux`, enabled GitHub Pages through Actions, and verified the public page and guide-data asset return HTTP 200.
 - Imported a SteamGridDB hero, official-labelled logo and cartridge icon on 2026-07-21; added creator/source attribution and connected them to the homepage, favicon, install manifest and social-preview metadata.
@@ -89,3 +89,5 @@
 - Replaced the blueprint's red-led theme with a Crystal palette sampled from the attributed SteamGridDB artwork: logo blue/yellow, Suicune cyan, aurora aqua, forest teal, violet and lake navy now drive backgrounds, panels, active controls, glows, progress treatments, install metadata and celebration effects.
 - Preserved the Team Builder and Future Team recommendation accordion state across guide rerenders and tab navigation, so a recommendation panel the user collapses no longer reopens when they return.
 - Preserved the focused search field and exact selection synchronously across guide rerenders, preventing touch browsers from dropping the caret after each character. Verified sustained typing in Items, Pokédex, Moves, Locations, Favorites, trainer Battles, Team Builder, held-item, Future Team, Battle Planner and global searches at desktop and 430px mobile widths.
+- Imported user-supplied normal sprites for Armoured Mewtwo and the Venusaur, Charizard and Blastoise clones. The three clone images were centred losslessly on 96×96 transparent canvases; the large far-left 64×92 Armoured Mewtwo component was isolated from the supplied three-palette sheet without resampling. Placeholder forms fell from eight to four; shiny artwork for these four additions remains explicitly unavailable.
+- Imported the user-supplied XD001 normal sprite by isolating the large bottom-left 96×87 component from its seven-pose sheet and centring it losslessly on a transparent 96×96 canvas. Placeholder forms fell from four to three; XD001 shiny artwork remains explicitly unavailable.
