@@ -5503,7 +5503,7 @@
   {
     "id": 225,
     "key": "twisted-spoon",
-    "name": "Twistedspoon",
+    "name": "Twisted Spoon",
     "description": "Held: Psychic-Type moves from holder do 20% more damage.",
     "category": "Type Enhancement",
     "sprite": "assets/items/default/twisted-spoon.png",
