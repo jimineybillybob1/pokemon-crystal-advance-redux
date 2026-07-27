@@ -300,6 +300,15 @@ CUSTOM_FORM_SPRITES = {
     "pikachu-partner": {"sprite": "assets/pokemon/pikachu-partner.png", "shinySprite": ""},
     "pikachu-surf": {"sprite": "assets/pokemon/pikachu-surf.png", "shinySprite": ""},
     "pikachu-fly": {"sprite": "assets/pokemon/pikachu-fly.png", "shinySprite": ""},
+    # User-supplied custom-form art; originals and processing notes are recorded
+    # in sources/pokemon-sprite-attribution.md.
+    "armoured-mewtwo": {"sprite": "assets/pokemon/armoured-mewtwo.png", "shinySprite": None},
+    "venusaur-clone": {"sprite": "assets/pokemon/venusaur-clone.png", "shinySprite": None},
+    "charizard-clone": {"sprite": "assets/pokemon/charizard-clone.png", "shinySprite": None},
+    "blastoise-clone": {"sprite": "assets/pokemon/blastoise-clone.png", "shinySprite": None},
+    "onix-c": {"sprite": "assets/pokemon/onix-c.png", "shinySprite": None},
+    "steelix-c": {"sprite": "assets/pokemon/steelix-c.png", "shinySprite": None},
+    "xd001": {"sprite": "assets/pokemon/xd001.png", "shinySprite": None},
 }
 
 

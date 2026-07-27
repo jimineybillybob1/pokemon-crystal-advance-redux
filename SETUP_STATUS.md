@@ -44,7 +44,7 @@
 
 - Obtain post-2026-07-01 Sevii encounter, item and trainer tables when sources become available.
 - Confirm whether Seasonal Migration is intentionally region-wide or has an undisclosed eligible-route list.
-- Verify whether Crystal Advance Redux changes any inherited move effects, and replace provisional custom item details and three remaining custom-form placeholder sprites with version-matched sources/assets; replace the three provisional Pikachu form sprites if developer assets become available.
+- Verify whether Crystal Advance Redux changes any inherited move effects, and replace provisional custom item details and the remaining Eevee-Partner placeholder sprite with a version-matched source/asset; replace the three provisional Pikachu form sprites if developer assets become available.
 - Supply dedicated egg-source pools if the game has them; workbook egg moves are imported, but no hatch-source table was identified.
 - Review the selected community branding if official developer-supplied guide assets become available.
 
@@ -96,3 +96,4 @@
 - Added complete Future Team presets beside the path header. A filled six-Pokémon plan can now be named and saved as one unit, then loaded, renamed, duplicated or deleted without losing forms, moves, abilities, natures, held items, nicknames or shiny choices. Saved teams are included in exports and encrypted cloud sync.
 - Extended complete-team presets into Team Builder. Saved teams can now be loaded as editable active parties and deliberately overwritten with all six current builds; individual saved Pokémon builds can also be selected and copied into a chosen Team Builder slot without loading the rest of the preset.
 - Unified complete-team presets across Team Builder and Future Team. Both tabs can create a named six-build preset, load it for editing, overwrite it after changes, and copy one selected saved Pokémon build into a chosen slot in the current tab.
+- Imported user-supplied normal sprites for Onix-C and Steelix-C. Only the left Onix-C pose was retained; both supplied sprites were alpha-cropped, nearest-neighbour scaled, and centred on transparent 96×96 canvases. The custom-form placeholder count fell from three to one (Eevee-Partner), while shiny artwork for both additions remains explicitly unavailable.

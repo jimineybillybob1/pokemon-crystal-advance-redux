@@ -112074,8 +112074,8 @@
       ],
       "catchRate": 45,
       "growthRate": "Medium Fast",
-      "sprite": "assets/art/placeholder-icon.svg",
-      "shinySprite": "assets/art/placeholder-icon.svg"
+      "sprite": "assets/pokemon/onix-c.png",
+      "shinySprite": null
     },
     {
       "id": 200583,
@@ -112299,8 +112299,8 @@
       ],
       "catchRate": 25,
       "growthRate": "Medium Fast",
-      "sprite": "assets/art/placeholder-icon.svg",
-      "shinySprite": "assets/art/placeholder-icon.svg"
+      "sprite": "assets/pokemon/steelix-c.png",
+      "shinySprite": null
     },
     {
       "id": 10272,

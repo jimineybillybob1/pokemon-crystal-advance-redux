@@ -42,3 +42,14 @@ These normal-form sprites were supplied by the user on 2026-07-27 and are preser
 | XD001 | `d3xpjhr-09804149-dbfd-4eed-99ef-f067cecb35a6.png` | `F002CB11D3E45FA70CAE489278250C5745F2F644EAD872355F88444F991AF79E` | Extracted only the large bottom-left component at source bounds `(8, 171)–(104, 258)`, then centred the unchanged 96×87 pixels on a transparent 96×96 canvas | `assets/pokemon/xd001.png` | `5D9A819FD507E79D67B5536203434B7DA0ED210B9C6BB235286574D267BE7081` |
 
 No shiny artwork was supplied for these five forms, so the guide keeps shiny display explicitly unavailable rather than substituting a placeholder or base-form sprite.
+
+## User-supplied Crystal Onix and Steelix sprites
+
+These normal-form sprites were supplied by the user on 2026-07-28 and are preserved in `sources/inbox/custom-form-sprites-2026-07-28/`. No source page URL, creator credit or reuse licence was supplied. Treat both as provisional guide assets and replace them if version-matched developer artwork or clearer permissions become available.
+
+| Guide form | Supplied file | Source SHA-256 | Processing | Local file | Local SHA-256 |
+|---|---|---|---|---|---|
+| Onix-C | `onix-c.png` | `A55461E866F74A3DFD50C21F60D2B368ED1C7C356E6C7BD266E6821A8EB0CA16` | Isolated only the left pose at alpha bounds `(36, 36)–(252, 255)`, scaled the 216×219 visible component with nearest-neighbour sampling to fit within 88×88, then centred it on a transparent 96×96 canvas | `assets/pokemon/onix-c.png` | `D9E1D757FCDBF94F85E46328FA3F6525C86E57865F0FC80D600AB13FCDC22788` |
+| Steelix-C | `steelix-c.webp` | `BCAFE9CD210E0B411D8A904852E52FD0D4D5654FBC9C86FDA113D5780C4738AE` | Cropped the supplied pose to its 148×148 alpha bounds, scaled it with nearest-neighbour sampling to 88×88, then centred it on a transparent 96×96 canvas | `assets/pokemon/steelix-c.png` | `64327AD72146DFFE702C358205BB003005C4C4CE7D2E7318304307C67D459203` |
+
+No shiny artwork was supplied for Onix-C or Steelix-C, so shiny display remains explicitly unavailable rather than substituting another form.
