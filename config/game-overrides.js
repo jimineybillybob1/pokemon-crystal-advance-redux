@@ -11,7 +11,11 @@ window.GUIDE_OVERRIDES = {
     'Nidoran♀': 'Nidoran (Female)',
     'Nidoran♂': 'Nidoran (Male)'
   },
-  formLabels: {},
+  // The workbook abbreviates these forms as -C; the user confirmed that C means Crystal.
+  formLabels: {
+    'Onix-C': 'Crystal',
+    'Steelix-C': 'Crystal'
+  },
   // Workbook SE Starter placeholders plus the documented player-choice relationship supplied for this guide.
   rivalStarterCounters: {
     Chikorita: ['Cyndaquil', 'Quilava', 'Typhlosion'],
