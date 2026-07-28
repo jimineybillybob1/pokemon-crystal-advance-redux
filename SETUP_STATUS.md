@@ -3,7 +3,7 @@
 - Status: Provisional guide built, validated and deployed
 - Current phase: Source-gap follow-up
 - Readiness: Core and Planning guide live; location subareas, trainer battles and encrypted cloud sync configured
-- Last updated: 2026-07-27
+- Last updated: 2026-07-28
 - Next step: Obtain version-matched Sevii tables and final custom-form/item assets, then rebuild and redeploy through the existing workflow.
 
 ## Progress
@@ -98,3 +98,4 @@
 - Unified complete-team presets across Team Builder and Future Team. Both tabs can create a named six-build preset, load it for editing, overwrite it after changes, and copy one selected saved Pokémon build into a chosen slot in the current tab.
 - Imported user-supplied normal sprites for Onix-C and Steelix-C. Only the left Onix-C pose was retained; both supplied sprites were alpha-cropped, nearest-neighbour scaled, and centred on transparent 96×96 canvases. The custom-form placeholder count fell from three to one (Eevee-Partner), while shiny artwork for both additions remains explicitly unavailable.
 - Confirmed that the `-C` suffix on Onix-C and Steelix-C means Crystal form. Their canonical workbook keys remain unchanged, while Pokédex form switchers now show the friendly label `Crystal`.
+- Added an `Evolve caught Pokémon` mode to Suggested Teams. It selects up to six caught early forms whose later Pokédex entries remain uncaught, excludes same-entry form changes, balances safe damaging move types using the current forms' documented learnsets, and loads the training squad into Team Builder so completed evolutions can be marked caught through the existing Evolve controls.
