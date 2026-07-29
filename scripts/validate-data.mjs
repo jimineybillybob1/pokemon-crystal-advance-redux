@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import vm from 'node:vm';
 import { fileURLToPath } from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -29,6 +30,9 @@ const acquisition = read('data/acquisition-data.json');
 const battles = read('data/battle-data.json');
 const eggs = read('data/egg-data.json');
 const moveTutors = read('data/overrides/move-tutor-data.json');
+const overrideContext = { window: {} };
+vm.runInNewContext(fs.readFileSync(path.join(root, 'config/game-overrides.js'), 'utf8'), overrideContext);
+const runtimeOverrides = overrideContext.window.GUIDE_OVERRIDES || {};
 
 requireValue(config.name && config.version, 'Game config requires name and version.');
 requireValue(/^[a-z0-9-]+$/.test(config.storageNamespace || ''), 'storageNamespace must use lowercase letters, numbers and hyphens.');
@@ -65,6 +69,10 @@ for (const badge of config.badges || []) {
 const pokemonIds = new Set(guide.pokemon.map(p => Number(p.id)));
 const pokemonKeys = new Set(guide.pokemon.map(p => norm(p.key)));
 const moveIds = new Set(guide.moves.map(move => Number(move.id)));
+const hiddenPokemonKeys = runtimeOverrides.hiddenPokemonKeys || [];
+requireValue(Array.isArray(hiddenPokemonKeys), 'game-overrides hiddenPokemonKeys must be an array.');
+requireValue(new Set(hiddenPokemonKeys.map(norm)).size === hiddenPokemonKeys.length, 'game-overrides hiddenPokemonKeys must be unique.');
+for (const key of hiddenPokemonKeys) requireValue(pokemonKeys.has(norm(key)), `Hidden Pokémon key does not resolve: ${key}.`);
 for (const moveId of configuredSupplementalMoveIds) requireValue(moveIds.has(moveId), `Supplemental move ${moveId} is missing from the merged guide.`);
 requireValue(Array.isArray(moveTutors.tutors) && Array.isArray(moveTutors.services), 'Move Tutor data requires tutors and services arrays.');
 for (const tutor of moveTutors.tutors || []) {

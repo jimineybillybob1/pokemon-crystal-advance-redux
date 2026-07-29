@@ -1,6 +1,24 @@
 window.GUIDE_OVERRIDES = {
   spriteFallbacks: {},
   formSpriteFallbacks: {},
+  // User audit of the 2026-07-19 build: these workbook Paradox rows are not
+  // available in-game. Keep their imported records for easy restoration while
+  // excluding them from every user-facing Pokemon index.
+  hiddenPokemonKeys: [
+    'Flutter-Mane',
+    'Gouging-Fire',
+    'Great-Tusk',
+    'Iron-Bundle',
+    'Iron-Hands',
+    'Iron-Thorns',
+    'Iron-Treads',
+    'Iron-Valiant',
+    'Raging-Bolt',
+    'Roaring-Moon',
+    'Sandy-Shocks',
+    'Scream-Tail',
+    'Walking-Wake'
+  ],
   // The workbook has separate species rows and learnsets for Dex 29 and 32.
   // Preserve their gender identity in searches, encounters and build pickers.
   pokemonAliases: {

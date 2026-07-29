@@ -5,7 +5,9 @@
   const storageKey = suffix => `${storageNamespace}-${suffix}`;
   const saveFormat = guideConfig.saveFormat || `${storageNamespace}-save`;
   const gameLabel = `${guideConfig.name || 'Pokémon ROM Hack'}${guideConfig.version ? ` v${guideConfig.version}` : ''}`;
-  const data = window.GUIDE_DATA || { pokemon: [], moves: [], locations: [] };
+  const sourceData = window.GUIDE_DATA || { pokemon: [], moves: [], locations: [] };
+  const hiddenPokemonKeys = new Set((guideOverrides.hiddenPokemonKeys||[]).map(key=>String(key).trim().toLowerCase()));
+  const data = {...sourceData,pokemon:(sourceData.pokemon||[]).filter(p=>!hiddenPokemonKeys.has(String(p.key).trim().toLowerCase()))};
   const allDayEncounterModel = Boolean(data.locations.length) && data.locations.every(location=>location.periodModel==='all-day');
   const spriteFallbacks=guideOverrides.spriteFallbacks||{};
   const formSpriteFallbacks=guideOverrides.formSpriteFallbacks||{};
