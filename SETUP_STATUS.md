@@ -3,7 +3,7 @@
 - Status: Provisional guide built, validated and deployed
 - Current phase: Source-gap follow-up
 - Readiness: Core and Planning guide live; location subareas, trainer battles and encrypted cloud sync configured
-- Last updated: 2026-07-28
+- Last updated: 2026-07-29
 - Next step: Obtain version-matched Sevii tables and final custom-form/item assets, then rebuild and redeploy through the existing workflow.
 
 ## Progress
@@ -102,3 +102,4 @@
 - Fixed the Suggested Teams renderer after the evolution-mode release: the preset mapper now passes only each preset into the team builder instead of accidentally forwarding the array index as its candidate pool.
 - Kept all Suggested Teams actions inside Future Team. Evolution-project squads and individual recommendations now populate the Future Team builder and never replace the player's current Team Builder party.
 - Refined evolution-project actions into a two-stage workflow: caught pre-evolutions can be sent to the current Team Builder for training, while their evolved targets can be placed in Future Team as the goal. Both actions are available for a whole suggested squad and for individual Pokémon.
+- Added a `Strongest caught Pokémon` Suggested Teams goal. It evaluates only caught Pokédex entries, favours BST, Attack, Sp. Atk and Speed, then selects learnable damaging moves for broad offensive type coverage. Whole-team and individual actions can send the result to either Team Builder or Future Team.
