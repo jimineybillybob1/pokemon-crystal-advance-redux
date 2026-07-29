@@ -28,6 +28,7 @@ const items = read('data/items-data.json');
 const acquisition = read('data/acquisition-data.json');
 const battles = read('data/battle-data.json');
 const eggs = read('data/egg-data.json');
+const moveTutors = read('data/overrides/move-tutor-data.json');
 
 requireValue(config.name && config.version, 'Game config requires name and version.');
 requireValue(/^[a-z0-9-]+$/.test(config.storageNamespace || ''), 'storageNamespace must use lowercase letters, numbers and hyphens.');
@@ -50,6 +51,9 @@ unique(numberedGameDex, 'gameDexId', 'in-game Pokedex entry');
 unique(guide.moves, 'id', 'move');
 unique(items, 'id', 'item');
 unique(battles.battles || [], 'id', 'battle');
+unique(moveTutors.tutors || [], 'id', 'Move Tutor');
+unique(moveTutors.tutors || [], 'moveId', 'Move Tutor move');
+unique(moveTutors.services || [], 'id', 'move service');
 unique(config.badges || [], 'id', 'badge');
 
 if (config.features?.badges) requireValue(Array.isArray(config.badges) && config.badges.length > 0, 'Badge tracking is enabled but no badges are configured.');
@@ -62,6 +66,14 @@ const pokemonIds = new Set(guide.pokemon.map(p => Number(p.id)));
 const pokemonKeys = new Set(guide.pokemon.map(p => norm(p.key)));
 const moveIds = new Set(guide.moves.map(move => Number(move.id)));
 for (const moveId of configuredSupplementalMoveIds) requireValue(moveIds.has(moveId), `Supplemental move ${moveId} is missing from the merged guide.`);
+requireValue(Array.isArray(moveTutors.tutors) && Array.isArray(moveTutors.services), 'Move Tutor data requires tutors and services arrays.');
+for (const tutor of moveTutors.tutors || []) {
+  requireValue(/^MT\d{2}$/.test(tutor.id || ''), `Move Tutor requires an MT number: ${JSON.stringify(tutor)}`);
+  requireValue(Number.isInteger(tutor.number) && tutor.number > 0, `${tutor.id}: Move Tutor number must be a positive integer.`);
+  requireValue(moveIds.has(Number(tutor.moveId)), `${tutor.id}: unresolved move ${tutor.moveId}.`);
+  requireValue(Boolean(tutor.move && tutor.location && tutor.firstSplit), `${tutor.id}: tutor requires move, location and first progression split.`);
+}
+for (const service of moveTutors.services || []) requireValue(service.name && Array.isArray(service.locations) && service.locations.length > 0, `${service.id || 'Move service'} requires a name and locations.`);
 
 for (const move of guide.moves) {
   requireValue(move.name && move.type && move.type !== 'Unknown', `${move.id}: move requires a documented name and type.`);

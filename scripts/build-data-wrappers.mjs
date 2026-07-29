@@ -11,6 +11,7 @@ const mappings = [
   ['data/acquisition-data.json', 'data/acquisition-data.js', 'ACQUISITION_GUIDE_DATA'],
   ['data/egg-data.json', 'data/egg-data.js', 'EGG_GUIDE_DATA'],
   ['data/battle-data.json', 'data/battle-data.js', 'BATTLE_DATA'],
+  ['data/overrides/move-tutor-data.json', 'data/move-tutor-data.js', 'MOVE_TUTOR_DATA'],
   ['data/curated-builds.json', 'data/curated-builds.js', 'CURATED_BUILD_DATA']
 ];
 

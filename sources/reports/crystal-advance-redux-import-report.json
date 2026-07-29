@@ -41,6 +41,8 @@
     "trainerSpecificVenues": 27,
     "trainerVenueFallbackSubareas": 70,
     "trainerCompositeVenueSubareas": 136,
+    "moveTutors": 38,
+    "moveServices": 3,
     "itemOverrides": 451,
     "customItems": 248
   },
@@ -440,5 +442,6 @@
   "unresolvedEvolutionMethods": [],
   "unresolvedAcquisitionRows": [],
   "unresolvedBattlePokemon": [],
-  "unresolvedSeasonalRows": []
+  "unresolvedSeasonalRows": [],
+  "unresolvedMoveTutors": []
 }

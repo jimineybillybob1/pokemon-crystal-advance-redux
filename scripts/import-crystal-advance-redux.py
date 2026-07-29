@@ -463,6 +463,13 @@ class MoveResolver:
     def custom_moves(self) -> list[dict]:
         return sorted(self.custom_by_alias.values(), key=lambda move: int(move["id"]))
 
+    def name_for(self, move_id: int, fallback: str) -> str:
+        known = self.baseline_by_id.get(int(move_id))
+        if known:
+            return str(known.get("name") or fallback)
+        custom = next((move for move in self.custom_by_alias.values() if int(move["id"]) == int(move_id)), None)
+        return str((custom or {}).get("name") or fallback)
+
 
 def machine_move(value: object) -> str:
     return re.sub(r"^(?:TM|HM|MT|TD)\d+\s*-\s*", "", str(value or "").strip(), flags=re.I)
@@ -900,6 +907,66 @@ def import_seasonal(rows: dict[int, dict[int, object]], aliases: dict[str, dict]
     return unresolved
 
 
+def import_move_tutors(rows: dict[int, dict[int, object]], moves: MoveResolver) -> tuple[dict, list[dict]]:
+    tutors = []
+    services = []
+    unresolved = []
+    for row_number, row in sorted(rows.items()):
+        label = str(row.get(column_number("D"), "")).strip()
+        location = str(row.get(column_number("E"), "")).strip()
+        first_split = str(row.get(column_number("F"), "")).strip()
+        tutor_match = re.match(r"^MT(\d+)\s*-\s*(.+)$", label, flags=re.I)
+        if tutor_match:
+            number_value = int(tutor_match.group(1))
+            source_move_name = tutor_match.group(2).strip()
+            move_id = moves.resolve(source_move_name)
+            if move_id is None:
+                unresolved.append({"row": row_number, "move": source_move_name})
+                continue
+            tutors.append({
+                "id": f"MT{number_value:02d}",
+                "number": number_value,
+                "moveId": move_id,
+                "move": moves.name_for(move_id, source_move_name),
+                "location": location,
+                "firstSplit": first_split,
+                "source": {
+                    "file": "sources/inbox/Crystal Advance Redux.xlsx",
+                    "sheet": "Misc Data",
+                    "row": row_number,
+                    "columns": "D:F",
+                },
+            })
+            continue
+        if label in {"Move Deleter", "Move Reminder", "Egg Move Learner"} and location:
+            services.append({
+                "id": slug(label),
+                "name": label,
+                "locations": [value.strip() for value in location.split(",") if value.strip()],
+                "source": {
+                    "file": "sources/inbox/Crystal Advance Redux.xlsx",
+                    "sheet": "Misc Data",
+                    "row": row_number,
+                    "columns": "D:E",
+                },
+            })
+    return {
+        "meta": {
+            "version": "2026-07-01",
+            "title": "Crystal Advance Redux Move Tutors",
+            "source": "sources/inbox/Crystal Advance Redux.xlsx",
+            "sheet": "Misc Data",
+            "range": "D1:F46",
+            "limitations": [
+                "The workbook documents the move, tutor location and earliest progression split.",
+                "Tutor prices, currencies, repeatability and other requirements are not documented.",
+            ],
+        },
+        "tutors": sorted(tutors, key=lambda tutor: tutor["number"]),
+        "services": services,
+    }, unresolved
+
+
 ITEM_CATEGORIES = {
     "Medicine": "Medicine",
     "TMs/HMs/TDs": "TM & HM",
@@ -915,11 +982,16 @@ ITEM_CATEGORIES = {
     "Battle Items": "Battle Items",
 }
 
+ITEM_NAME_ALIASES = {
+    "twistedspoon": "Twisted Spoon",
+}
+
 
 def import_items(rows: dict[int, dict[int, object]], baseline_items: list[dict]) -> tuple[list[dict], list[str]]:
     grouped: dict[str, dict] = {}
     for row_number, row in sorted(rows.items()):
-        name = str(row.get(12, "")).strip()
+        source_name = str(row.get(12, "")).strip()
+        name = ITEM_NAME_ALIASES.get(normalise(source_name), source_name)
         location = str(row.get(13, "")).strip()
         if row_number < 2 or not name or not location or name == "Item":
             continue
@@ -987,6 +1059,7 @@ def import_workbook(workbook: OpenXmlWorkbook, project_root: Path) -> dict:
     locations, acquisition, unresolved_acquisition = import_locations(location_rows, aliases)
     battles, unresolved_battle_pokemon = import_battles(location_rows, aliases)
     unresolved_seasonal = import_seasonal(misc_rows, aliases, acquisition)
+    move_tutors, unresolved_move_tutors = import_move_tutors(misc_rows, move_resolver)
     item_patches, custom_items = import_items(location_rows, baseline_items)
 
     guide_override = {
@@ -1009,6 +1082,7 @@ def import_workbook(workbook: OpenXmlWorkbook, project_root: Path) -> dict:
     write_json(project_root / "data/overrides/items-data.json", item_patches)
     write_json(project_root / "data/acquisition-data.json", acquisition)
     write_json(project_root / "data/battle-data.json", battles)
+    write_json(project_root / "data/overrides/move-tutor-data.json", move_tutors)
 
     report = {
         "source": str(workbook.path),
@@ -1046,6 +1120,8 @@ def import_workbook(workbook: OpenXmlWorkbook, project_root: Path) -> dict:
             "trainerSpecificVenues": len({(battle["location"], battle["venue"]) for battle in battles["battles"] if battle.get("venue")}),
             "trainerVenueFallbackSubareas": sum(1 for battle in battles["battles"] if battle.get("subareaSourceColumn") == "AE"),
             "trainerCompositeVenueSubareas": sum(1 for battle in battles["battles"] if battle.get("subareaSourceColumn") == "AE+AF"),
+            "moveTutors": len(move_tutors["tutors"]),
+            "moveServices": len(move_tutors["services"]),
             "itemOverrides": len(item_patches),
             "customItems": len(custom_items),
         },
@@ -1056,6 +1132,7 @@ def import_workbook(workbook: OpenXmlWorkbook, project_root: Path) -> dict:
         "unresolvedAcquisitionRows": unresolved_acquisition,
         "unresolvedBattlePokemon": unresolved_battle_pokemon,
         "unresolvedSeasonalRows": unresolved_seasonal,
+        "unresolvedMoveTutors": unresolved_move_tutors,
     }
     write_json(project_root / "sources/reports/crystal-advance-redux-import-report.json", report)
     return report

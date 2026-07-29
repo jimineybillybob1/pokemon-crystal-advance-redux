@@ -1,0 +1,591 @@
+{
+  "meta": {
+    "version": "2026-07-01",
+    "title": "Crystal Advance Redux Move Tutors",
+    "source": "sources/inbox/Crystal Advance Redux.xlsx",
+    "sheet": "Misc Data",
+    "range": "D1:F46",
+    "limitations": [
+      "The workbook documents the move, tutor location and earliest progression split.",
+      "Tutor prices, currencies, repeatability and other requirements are not documented."
+    ]
+  },
+  "tutors": [
+    {
+      "id": "MT01",
+      "number": 1,
+      "moveId": 414,
+      "move": "Earth Power",
+      "location": "Route 3",
+      "firstSplit": "Kanto 1 Split",
+      "source": {
+        "file": "sources/inbox/Crystal Advance Redux.xlsx",
+        "sheet": "Misc Data",
+        "row": 2,
+        "columns": "D:F"
+      }
+    },
+    {
+      "id": "MT02",
+      "number": 2,
+      "moveId": 447,
+      "move": "Grass Knot",
+      "location": "National Park",
+      "firstSplit": "Whitney Split",
+      "source": {
+        "file": "sources/inbox/Crystal Advance Redux.xlsx",
+        "sheet": "Misc Data",
+        "row": 3,
+        "columns": "D:F"
+      }
+    },
+    {
+      "id": "MT03",
+      "number": 3,
+      "moveId": 58,
+      "move": "Ice Beam",
+      "location": "Celadon City",
+      "firstSplit": "Kanto 1 Split",
+      "source": {
+        "file": "sources/inbox/Crystal Advance Redux.xlsx",
+        "sheet": "Misc Data",
+        "row": 4,
+        "columns": "D:F"
+      }
+    },
+    {
+      "id": "MT04",
+      "number": 4,
+      "moveId": 257,
+      "move": "Heat Wave",
+      "location": "Cinnabar Mansion",
+      "firstSplit": "Kanto 1 Split",
+      "source": {
+        "file": "sources/inbox/Crystal Advance Redux.xlsx",
+        "sheet": "Misc Data",
+        "row": 5,
+        "columns": "D:F"
+      }
+    },
+    {
+      "id": "MT05",
+      "number": 5,
+      "moveId": 332,
+      "move": "Aerial Ace",
+      "location": "Pallet Town",
+      "firstSplit": "Kanto 1 Split",
+      "source": {
+        "file": "sources/inbox/Crystal Advance Redux.xlsx",
+        "sheet": "Misc Data",
+        "row": 6,
+        "columns": "D:F"
+      }
+    },
+    {
+      "id": "MT06",
+      "number": 6,
+      "moveId": 411,
+      "move": "Focus Blast",
+      "location": "Route 13",
+      "firstSplit": "Kanto 1 Split",
+      "source": {
+        "file": "sources/inbox/Crystal Advance Redux.xlsx",
+        "sheet": "Misc Data",
+        "row": 7,
+        "columns": "D:F"
+      }
+    },
+    {
+      "id": "MT07",
+      "number": 7,
+      "moveId": 428,
+      "move": "Zen Headbutt",
+      "location": "Route 8",
+      "firstSplit": "Kanto 1 Split",
+      "source": {
+        "file": "sources/inbox/Crystal Advance Redux.xlsx",
+        "sheet": "Misc Data",
+        "row": 8,
+        "columns": "D:F"
+      }
+    },
+    {
+      "id": "MT08",
+      "number": 8,
+      "moveId": 451,
+      "move": "Charge Beam",
+      "location": "Saffron City",
+      "firstSplit": "Kanto 1 Split",
+      "source": {
+        "file": "sources/inbox/Crystal Advance Redux.xlsx",
+        "sheet": "Misc Data",
+        "row": 9,
+        "columns": "D:F"
+      }
+    },
+    {
+      "id": "MT09",
+      "number": 9,
+      "moveId": 85,
+      "move": "Thunderbolt",
+      "location": "Celadon City",
+      "firstSplit": "Kanto 1 Split",
+      "source": {
+        "file": "sources/inbox/Crystal Advance Redux.xlsx",
+        "sheet": "Misc Data",
+        "row": 10,
+        "columns": "D:F"
+      }
+    },
+    {
+      "id": "MT10",
+      "number": 10,
+      "moveId": 404,
+      "move": "X-Scissor",
+      "location": "Route 2",
+      "firstSplit": "Kanto 1 Split",
+      "source": {
+        "file": "sources/inbox/Crystal Advance Redux.xlsx",
+        "sheet": "Misc Data",
+        "row": 11,
+        "columns": "D:F"
+      }
+    },
+    {
+      "id": "MT11",
+      "number": 11,
+      "moveId": 444,
+      "move": "Stone Edge",
+      "location": "Route 5 Gatehouse",
+      "firstSplit": "Kanto 1 Split",
+      "source": {
+        "file": "sources/inbox/Crystal Advance Redux.xlsx",
+        "sheet": "Misc Data",
+        "row": 12,
+        "columns": "D:F"
+      }
+    },
+    {
+      "id": "MT12",
+      "number": 12,
+      "moveId": 398,
+      "move": "Poison Jab",
+      "location": "Safari Zone",
+      "firstSplit": "Kanto 1 Split",
+      "source": {
+        "file": "sources/inbox/Crystal Advance Redux.xlsx",
+        "sheet": "Misc Data",
+        "row": 13,
+        "columns": "D:F"
+      }
+    },
+    {
+      "id": "MT13",
+      "number": 13,
+      "moveId": 53,
+      "move": "Flamethrower",
+      "location": "Celadon City",
+      "firstSplit": "Kanto 1 Split",
+      "source": {
+        "file": "sources/inbox/Crystal Advance Redux.xlsx",
+        "sheet": "Misc Data",
+        "row": 14,
+        "columns": "D:F"
+      }
+    },
+    {
+      "id": "MT14",
+      "number": 14,
+      "moveId": 605,
+      "move": "Dazzling Gleam",
+      "location": "Route 26",
+      "firstSplit": "E4 Split",
+      "source": {
+        "file": "sources/inbox/Crystal Advance Redux.xlsx",
+        "sheet": "Misc Data",
+        "row": 15,
+        "columns": "D:F"
+      }
+    },
+    {
+      "id": "MT15",
+      "number": 15,
+      "moveId": 401,
+      "move": "Aqua Tail",
+      "location": "Route 25",
+      "firstSplit": "Kanto 1 Split",
+      "source": {
+        "file": "sources/inbox/Crystal Advance Redux.xlsx",
+        "sheet": "Misc Data",
+        "row": 16,
+        "columns": "D:F"
+      }
+    },
+    {
+      "id": "MT16",
+      "number": 16,
+      "moveId": 206,
+      "move": "False Swipe",
+      "location": "Ruins of Alph",
+      "firstSplit": "Falkner Split",
+      "source": {
+        "file": "sources/inbox/Crystal Advance Redux.xlsx",
+        "sheet": "Misc Data",
+        "row": 17,
+        "columns": "D:F"
+      }
+    },
+    {
+      "id": "MT17",
+      "number": 17,
+      "moveId": 189,
+      "move": "Mud-Slap",
+      "location": "Violet City Gym",
+      "firstSplit": "Bugsy Split",
+      "source": {
+        "file": "sources/inbox/Crystal Advance Redux.xlsx",
+        "sheet": "Misc Data",
+        "row": 18,
+        "columns": "D:F"
+      }
+    },
+    {
+      "id": "MT18",
+      "number": 18,
+      "moveId": 522,
+      "move": "Struggle Bug",
+      "location": "Azalea Gym",
+      "firstSplit": "Whitney Split",
+      "source": {
+        "file": "sources/inbox/Crystal Advance Redux.xlsx",
+        "sheet": "Misc Data",
+        "row": 19,
+        "columns": "D:F"
+      }
+    },
+    {
+      "id": "MT19",
+      "number": 19,
+      "moveId": 213,
+      "move": "Attract",
+      "location": "Goldenrod Gym",
+      "firstSplit": "Morty Split",
+      "source": {
+        "file": "sources/inbox/Crystal Advance Redux.xlsx",
+        "sheet": "Misc Data",
+        "row": 20,
+        "columns": "D:F"
+      }
+    },
+    {
+      "id": "MT20",
+      "number": 20,
+      "moveId": 214,
+      "move": "Sleep Talk",
+      "location": "Ecruteak Gym",
+      "firstSplit": "Chuck Split",
+      "source": {
+        "file": "sources/inbox/Crystal Advance Redux.xlsx",
+        "sheet": "Misc Data",
+        "row": 21,
+        "columns": "D:F"
+      }
+    },
+    {
+      "id": "MT21",
+      "number": 21,
+      "moveId": 339,
+      "move": "Bulk Up",
+      "location": "Cianwood Gym",
+      "firstSplit": "Jasmine Split",
+      "source": {
+        "file": "sources/inbox/Crystal Advance Redux.xlsx",
+        "sheet": "Misc Data",
+        "row": 22,
+        "columns": "D:F"
+      }
+    },
+    {
+      "id": "MT22",
+      "number": 22,
+      "moveId": 360,
+      "move": "Gyro Ball",
+      "location": "Olivine Gym",
+      "firstSplit": "Pryce Split",
+      "source": {
+        "file": "sources/inbox/Crystal Advance Redux.xlsx",
+        "sheet": "Misc Data",
+        "row": 23,
+        "columns": "D:F"
+      }
+    },
+    {
+      "id": "MT23",
+      "number": 23,
+      "moveId": 362,
+      "move": "Brine",
+      "location": "Mahogany Gym",
+      "firstSplit": "Clair Split",
+      "source": {
+        "file": "sources/inbox/Crystal Advance Redux.xlsx",
+        "sheet": "Misc Data",
+        "row": 24,
+        "columns": "D:F"
+      }
+    },
+    {
+      "id": "MT24",
+      "number": 24,
+      "moveId": 406,
+      "move": "Dragon Pulse",
+      "location": "Blackthorn Gym",
+      "firstSplit": "E4 Split",
+      "source": {
+        "file": "sources/inbox/Crystal Advance Redux.xlsx",
+        "sheet": "Misc Data",
+        "row": 25,
+        "columns": "D:F"
+      }
+    },
+    {
+      "id": "MT25",
+      "number": 25,
+      "moveId": 421,
+      "move": "Shadow Claw",
+      "location": "Soul House 2F",
+      "firstSplit": "Kanto 2 Split",
+      "source": {
+        "file": "sources/inbox/Crystal Advance Redux.xlsx",
+        "sheet": "Misc Data",
+        "row": 26,
+        "columns": "D:F"
+      }
+    },
+    {
+      "id": "MT26",
+      "number": 26,
+      "moveId": 396,
+      "move": "Aura Sphere",
+      "location": "Saffron Dojo",
+      "firstSplit": "Kanto 1 Split",
+      "source": {
+        "file": "sources/inbox/Crystal Advance Redux.xlsx",
+        "sheet": "Misc Data",
+        "row": 27,
+        "columns": "D:F"
+      }
+    },
+    {
+      "id": "MT27",
+      "number": 27,
+      "moveId": 430,
+      "move": "Flash Cannon",
+      "location": "Vermilion Gym",
+      "firstSplit": "Kanto 1 Split",
+      "source": {
+        "file": "sources/inbox/Crystal Advance Redux.xlsx",
+        "sheet": "Misc Data",
+        "row": 28,
+        "columns": "D:F"
+      }
+    },
+    {
+      "id": "MT28",
+      "number": 28,
+      "moveId": 526,
+      "move": "Work Up",
+      "location": "Viridian Gym",
+      "firstSplit": "Kanto 1 Split",
+      "source": {
+        "file": "sources/inbox/Crystal Advance Redux.xlsx",
+        "sheet": "Misc Data",
+        "row": 29,
+        "columns": "D:F"
+      }
+    },
+    {
+      "id": "MT29",
+      "number": 29,
+      "moveId": 441,
+      "move": "Gunk Shot",
+      "location": "Fuchsia Gym",
+      "firstSplit": "Kanto 1 Split",
+      "source": {
+        "file": "sources/inbox/Crystal Advance Redux.xlsx",
+        "sheet": "Misc Data",
+        "row": 30,
+        "columns": "D:F"
+      }
+    },
+    {
+      "id": "MT30",
+      "number": 30,
+      "moveId": 261,
+      "move": "Will-O-Wisp",
+      "location": "Cinnabar Gym",
+      "firstSplit": "Kanto 1 Split",
+      "source": {
+        "file": "sources/inbox/Crystal Advance Redux.xlsx",
+        "sheet": "Misc Data",
+        "row": 31,
+        "columns": "D:F"
+      }
+    },
+    {
+      "id": "MT31",
+      "number": 31,
+      "moveId": 330,
+      "move": "Muddy Water",
+      "location": "Cerulean Gym",
+      "firstSplit": "Kanto 2 Split",
+      "source": {
+        "file": "sources/inbox/Crystal Advance Redux.xlsx",
+        "sheet": "Misc Data",
+        "row": 32,
+        "columns": "D:F"
+      }
+    },
+    {
+      "id": "MT32",
+      "number": 32,
+      "moveId": 7,
+      "move": "Fire Punch",
+      "location": "Goldenrod City",
+      "firstSplit": "Whitney Split",
+      "source": {
+        "file": "sources/inbox/Crystal Advance Redux.xlsx",
+        "sheet": "Misc Data",
+        "row": 33,
+        "columns": "D:F"
+      }
+    },
+    {
+      "id": "MT33",
+      "number": 33,
+      "moveId": 9,
+      "move": "Thunder Punch",
+      "location": "Goldenrod City",
+      "firstSplit": "Whitney Split",
+      "source": {
+        "file": "sources/inbox/Crystal Advance Redux.xlsx",
+        "sheet": "Misc Data",
+        "row": 34,
+        "columns": "D:F"
+      }
+    },
+    {
+      "id": "MT34",
+      "number": 34,
+      "moveId": 8,
+      "move": "Ice Punch",
+      "location": "Goldenrod City",
+      "firstSplit": "Whitney Split",
+      "source": {
+        "file": "sources/inbox/Crystal Advance Redux.xlsx",
+        "sheet": "Misc Data",
+        "row": 35,
+        "columns": "D:F"
+      }
+    },
+    {
+      "id": "MT35",
+      "number": 35,
+      "moveId": 408,
+      "move": "Power Gem",
+      "location": "Pewter Gym",
+      "firstSplit": "Kanto 1 Split",
+      "source": {
+        "file": "sources/inbox/Crystal Advance Redux.xlsx",
+        "sheet": "Misc Data",
+        "row": 36,
+        "columns": "D:F"
+      }
+    },
+    {
+      "id": "MT36",
+      "number": 36,
+      "moveId": 412,
+      "move": "Energy Ball",
+      "location": "Celadon Gym",
+      "firstSplit": "Kanto 1 Split",
+      "source": {
+        "file": "sources/inbox/Crystal Advance Redux.xlsx",
+        "sheet": "Misc Data",
+        "row": 37,
+        "columns": "D:F"
+      }
+    },
+    {
+      "id": "MT37",
+      "number": 37,
+      "moveId": 324,
+      "move": "Signal Beam",
+      "location": "Saffron Gym",
+      "firstSplit": "Kanto 1 Split",
+      "source": {
+        "file": "sources/inbox/Crystal Advance Redux.xlsx",
+        "sheet": "Misc Data",
+        "row": 38,
+        "columns": "D:F"
+      }
+    },
+    {
+      "id": "MT38",
+      "number": 38,
+      "moveId": 220,
+      "move": "Pain Split",
+      "location": "Sprout Tower 3F",
+      "firstSplit": "Falkner Split",
+      "source": {
+        "file": "sources/inbox/Crystal Advance Redux.xlsx",
+        "sheet": "Misc Data",
+        "row": 39,
+        "columns": "D:F"
+      }
+    }
+  ],
+  "services": [
+    {
+      "id": "move-deleter",
+      "name": "Move Deleter",
+      "locations": [
+        "Goldenrod Science Center",
+        "Pewter City Museum"
+      ],
+      "source": {
+        "file": "sources/inbox/Crystal Advance Redux.xlsx",
+        "sheet": "Misc Data",
+        "row": 42,
+        "columns": "D:E"
+      }
+    },
+    {
+      "id": "move-reminder",
+      "name": "Move Reminder",
+      "locations": [
+        "Goldenrod Science Center",
+        "Lavender Town"
+      ],
+      "source": {
+        "file": "sources/inbox/Crystal Advance Redux.xlsx",
+        "sheet": "Misc Data",
+        "row": 44,
+        "columns": "D:E"
+      }
+    },
+    {
+      "id": "egg-move-learner",
+      "name": "Egg Move Learner",
+      "locations": [
+        "Ecruteak City",
+        "Saffron City"
+      ],
+      "source": {
+        "file": "sources/inbox/Crystal Advance Redux.xlsx",
+        "sheet": "Misc Data",
+        "row": 46,
+        "columns": "D:E"
+      }
+    }
+  ]
+}
