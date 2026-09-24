@@ -1,24 +1,24 @@
 # Guide setup status
 
-- Status: Provisional guide built, validated and deployed
-- Current phase: Source-gap follow-up
-- Readiness: Core and Planning guide live; location subareas, trainer battles and encrypted cloud sync configured
-- Last updated: 2026-07-29
-- Next step: Obtain version-matched Sevii tables and final custom-form/item assets, then rebuild and redeploy through the existing workflow.
+- Status: Advanced guide refinement complete locally; deployment pending
+- Current phase: Template-conformance review and source-gap follow-up
+- Readiness: Advanced ready locally; exact source-scoped baseline, recovery controls, offline support and accessibility refinements implemented
+- Last updated: 2026-09-24
+- Next step: Deploy the reviewed refinement only with explicit approval. Continue seeking version-matched Sevii tables and final custom-form/item assets.
 
 ## Progress
 
 | Area | Status | Notes |
 |---|---|---|
 | Identity | Complete | Pokémon Crystal Advance Redux 2026-07-19; Johto and Kanto; Pokémon FireRed v1.0 (GBA) |
-| Baseline profile | Complete | scarlet-violet; Dex 1025; local sprites yes |
+| Baseline profile | Complete | Pinned Scarlet/Violet mechanics definitions; exact 577-form hack allowlist; 766 explicit move fallbacks; 203 explicit item fallbacks; generic baseline learnsets/items/prices disabled; local sprites yes |
 | Feature scope | Complete | Core and Planning required; Cloud save/sync promoted to required; remaining Advanced features later |
 | Source inventory | Complete | Community workbook, official forum thread and official developer changelog screenshots inventoried |
 | Core data | Imported and validated | 596 Pokémon forms imported across 553 numbered in-game Pokédex entries and 43 unnumbered special/Form Changer forms; 13 unavailable Paradox rows are retained only as dormant source records and hidden guide-wide, leaving 583 user-visible forms; numbered regional forms track catches separately, while unnumbered same-species forms such as Pikachu Surf/Fly/Partner share their numbered carousel; 95 locations, 2,642 standard encounter rows and 167 other acquisition entries imported; all 648 fishing rows retain their Old/Good/Super Rod requirement; Seasonal Migration is separate; later Sevii content remains a gap |
-| Planning data | Imported and validated | All 766 workbook-used moves now have complete metadata; 87 older official moves omitted from Scarlet/Violet are supplemented from the pinned PokéAPI revision, while 247 custom item records remain provisional |
+| Planning data | Imported and validated | All 766 workbook-used moves have complete fallback definitions; all 451 workbook items remain visible (203 canonical definitions plus 248 custom records), with no unrelated mainline items or generic prices; custom item details remain provisional |
 | Advanced data | Partial / battles, badges, profile and cloud sync complete | Encrypted Cloudflare Worker/KV sync is configured; all 16 Johto/Kanto badges and 700 workbook battle records are active, including 668 populated trainer teams, 229 VS Seeker rematches and 32 intentionally hidden Gym Leader records; trainer/rival configuration is saved and synced; maps remain deferred |
-| Local build | Complete | Baseline fetched and pinned; merge, schema validation, provenance audit, local-asset audit, sync-worker tests, desktop review and 375px mobile review pass |
-| Deployment | Complete | Public repository, GitHub Pages and Cloudflare Worker/KV deployment verified through 2026-07-27 |
+| Local build | Complete | Baseline rebuilt and merged; validation, provenance, local-asset and Worker tests pass. Desktop, 390×844 touch layout, exact encounter targeting, return navigation, persistent theme and a complete server-offline reload were verified in-browser with no new console errors or horizontal overflow |
+| Deployment | Existing live build; current refinement pending | Public repository, GitHub Pages and Cloudflare Worker/KV were previously verified; the 2026-09-24 refinement is not deployed in this task |
 
 ## Confirmed decisions
 
@@ -50,6 +50,10 @@
 
 ## Activity log
 
+- 2026-09-24 template-conformance refinement: restricted the pinned baseline to 577 reconciled forms, 766 explicitly referenced move definitions and 203 explicitly referenced canonical item definitions; removed 2,017 unrelated baseline-only items and every generic mainline price from the final guide. Added validation that blocks future baseline leakage.
+- Added dimension-preserving Pokémon-to-encounter links carrying period, Method, More Info subarea and fishing rod; the destination encounter is highlighted and a return control reopens the originating Pokémon detail.
+- Promoted recovery from an internal safeguard to a user workflow: Save & Sync now lists and restores the five browser-local pre-replacement snapshots and individual encrypted cloud-history revisions, while preserving the current state before each restore.
+- Added a persistent light/dark preference, configuration-driven starter/profile/method/rod/celebration settings, full reduced-motion handling, an offline indicator and a service worker that precaches the application shell and runtime-caches viewed assets. Verified desktop, 390×844 touch layout, exact encounter navigation and a complete reload with the local server stopped.
 - Project scaffold created; identity and baseline profile recorded.
 - Feature scope set to Core and Planning required, Advanced later.
 - Preserved the community workbook and three official developer changelog screenshots in `sources/inbox/`.

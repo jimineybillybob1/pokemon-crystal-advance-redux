@@ -1,22 +1,22 @@
 # Baseline and overrides
 
-The guide uses a complete-by-default data model:
+The guide uses a source-scoped fallback model:
 
 ```text
-final guide = pinned mainline baseline + hack overrides + hack additions - explicit deletions
+final guide = exact hack roster + pinned fallback definitions + hack overrides and additions
 ```
 
-The baseline supplies ordinary Pokémon identity, National Dex numbers, forms, types, stats, abilities, evolution chains, moves, learnsets, items, and normal/shiny sprites. ROM-hack documentation remains authoritative for anything the hack changes.
+The baseline is deliberately limited to the 577 PokeAPI forms that reconcile with the workbook, the 766 move definitions referenced by hack learnsets, and 203 canonical item definitions referenced by workbook items. It does not provide generic mainline learnsets, item availability or shop prices. The 19 unmatched/custom Pokémon and 248 custom items come only from the hack override layer. ROM-hack documentation remains authoritative.
 
 `dexId` remains the National Dex species identity used for evolution/form relationships. A hack may additionally supply `gameDexId` for its own visible Pokédex ordering and caught-state identity. Numbered forms with the same `dexId` are separate entries; an unnumbered form can share the primary numbered entry for that species.
 
 ## Choose the mechanics profile
 
-Set `versionGroup` in `config/baseline-config.json` to the closest supported mainline mechanics version group. This controls mainline learnset assumptions; it is not simply the base ROM name. Also set `maxNationalDex` if the hack stops at a particular generation. Leave it `null` for all available species.
+Set `versionGroup` in `config/baseline-config.json` to the closest supported mechanics profile for canonical definitions. `pokemonScope: "hack-only"` and `includedPokemonKeys` define the exact reconciled mainline form allowlist. `includeBaselineLearnsets` remains false because the workbook supplies the hack learnsets.
 
 `downloadSprites: true` stores normal and shiny sprites in the project so the deployed guide is not dependent on a live sprite host. Missing or custom forms can be supplied in hack overrides.
 
-`supplementalMoveIds` may list official moves referenced by the hack but omitted from the selected version group's learnsets. Their definitions are fetched from the same pinned PokéAPI revision without adding those moves to any Pokémon's baseline learnset.
+`fallbackMoveIds` and `fallbackItemIds` list canonical records explicitly referenced by the hack sources. They fetch definitions from the pinned PokeAPI revision without claiming mainline availability, prices or learnsets. `includeItems` remains false so unrelated mainline items cannot leak into the guide.
 
 ## Fetch and pin the baseline
 
@@ -80,7 +80,7 @@ Those warnings are review prompts, not proof of an error. Silence in hack docume
 
 - National Dex number and canonical mainline name;
 - a default normal/shiny sprite for an unchanged form;
-- ordinary mainline move/item/ability descriptions as clearly identified fallback data.
+- ordinary mainline move/item/ability descriptions only when the hack source explicitly references that record and the value is clearly identified as fallback data.
 
 ## Data that must be checked against the hack
 

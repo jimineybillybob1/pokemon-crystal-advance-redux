@@ -393,6 +393,20 @@
 body:has(dialog[open]) { overflow:hidden }
 dialog { overscroll-behavior:contain }
 #dialogContent { overscroll-behavior:contain }
+.topbar-actions { justify-self:end;display:flex;align-items:center;gap:8px }
+.theme-toggle { width:43px;height:43px;border:1px solid var(--line);border-radius:13px;background:var(--panel);cursor:pointer;font-size:18px }
+.connection-status { padding:6px 10px;border-radius:999px;background:#bd3b4a;color:#fff;font-size:10px;font-weight:900;letter-spacing:.08em;text-transform:uppercase }
+.location-return-link { position:sticky;top:88px;z-index:12;margin:0 0 16px;padding:10px 14px;border:1px solid var(--line);border-radius:12px;background:color-mix(in srgb,var(--panel) 92%,transparent);box-shadow:var(--shadow);cursor:pointer;font-weight:850 }
+.cross-link-target { outline:3px solid var(--brand-accent);outline-offset:3px;box-shadow:0 0 0 8px color-mix(in srgb,var(--brand-accent) 22%,transparent);transition:outline-color .35s,box-shadow .35s }
+.recovery-help { color:var(--muted);font-size:12px }
+.recovery-version { display:flex;align-items:center;justify-content:space-between;gap:14px;padding:12px 0;border-top:1px solid var(--line) }
+.recovery-version span,.recovery-version small { display:block }
+.recovery-version small { color:var(--muted);margin-top:3px }
+.recovery-version>div { display:flex;gap:7px }
+.recovery-version button { border:1px solid var(--line);border-radius:10px;background:var(--panel2);padding:8px 11px;cursor:pointer }
+.recovery-version button.primary { border-color:transparent;background:var(--red) }
+@media(max-width:900px){.topbar-actions{gap:5px}.theme-toggle{width:38px;height:38px}.connection-status{display:none}.location-return-link{top:74px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
 
 .poke-card.pokemon-type-surface { background-color:var(--panel);background-image:linear-gradient(rgba(2,18,31,.56),rgba(2,18,31,.69)),var(--type-bg);background-size:auto 118%;background-position:center 78%;background-repeat:no-repeat }
 .overview-team button.pokemon-type-surface { background-color:var(--panel);background-image:linear-gradient(rgba(2,18,31,.62),rgba(2,18,31,.78)),var(--type-bg);background-size:cover;background-position:center;background-repeat:no-repeat }

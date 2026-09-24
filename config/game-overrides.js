@@ -52,6 +52,19 @@ window.GUIDE_OVERRIDES = {
     {id:'dawn', name:'Dawn', gender:'female', sprite:'assets/trainers/dawn.png'},
     {id:'ash', name:'Ash', gender:'male', sprite:'assets/trainers/ash.png'}
   ],
+  starterChoices: ['Chikorita', 'Cyndaquil', 'Totodile'],
+  profileDefaults: {
+    name: 'Trainer',
+    gender: 'male',
+    costume: 'red',
+    starter: 'Cyndaquil',
+    rivalName: 'Silver'
+  },
+  encounterMethodOrder: ['Wild', 'Tree', 'Rock', 'Surf', 'Fish', 'Dive'],
+  fishingRodOrder: ['Old Rod', 'Good Rod', 'Super Rod'],
+  requireFishingRod: true,
+  battleSpeciesAliases: {},
+  celebrationColours: ['#3fb7f3', '#52e4d8', '#2fc4af', '#ffca02', '#6c61a1', '#ffffff'],
   sharedLearnsets: [],
   acquisitionNotes: {},
   mapPositions: {}

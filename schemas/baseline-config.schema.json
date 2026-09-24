@@ -14,6 +14,28 @@
     "versionGroup": { "type": "string", "minLength": 1 },
     "maxNationalDex": { "type": ["integer", "null"], "minimum": 1 },
     "includeNonDefaultForms": { "type": "boolean" },
+    "pokemonScope": { "enum": ["hack-only", "mainline-range"] },
+    "includedPokemonKeys": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "uniqueItems": true
+    },
+    "includeBaselineLearnsets": { "type": "boolean" },
+    "supplementalMoveIds": {
+      "type": "array",
+      "items": { "type": "integer", "minimum": 1 },
+      "uniqueItems": true
+    },
+    "fallbackMoveIds": {
+      "type": "array",
+      "items": { "type": "integer", "minimum": 1 },
+      "uniqueItems": true
+    },
+    "fallbackItemIds": {
+      "type": "array",
+      "items": { "type": "integer", "minimum": 1 },
+      "uniqueItems": true
+    },
     "includeItems": { "type": "boolean" },
     "maxItems": { "type": ["integer", "null"], "minimum": 1 },
     "language": { "type": "string", "minLength": 2 },

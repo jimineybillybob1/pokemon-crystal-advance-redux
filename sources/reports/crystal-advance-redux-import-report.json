@@ -6,10 +6,10 @@
     "numberedGameDexEntries": 553,
     "unnumberedForms": 43,
     "uniqueGameDexNumbers": 553,
-    "pokemonOverrideRecordsIncludingDeletions": 1370,
+    "pokemonOverrideRecordsIncludingDeletions": 596,
     "customOrUnmatchedForms": 19,
     "customMoveStubs": 0,
-    "customAbilityStubs": 0,
+    "customAbilityStubs": 2,
     "locations": 95,
     "wildEncounterRows": 2642,
     "wildEncounterSubareas": 81,
@@ -91,78 +91,89 @@
       "row": 557,
       "name": "Armoured Mewtwo",
       "dexId": 150,
-      "id": 200557,
-      "key": "Armoured-Mewtwo"
+      "id": 250557,
+      "key": "Armoured-Mewtwo",
+      "reason": "distinct workbook form not represented by a unique PokeAPI variety"
     },
     {
       "row": 569,
       "name": "Paldean Tauros-A",
       "dexId": 128,
-      "id": 200569,
-      "key": "Paldean-Tauros-A"
+      "id": 250569,
+      "key": "Paldean-Tauros-A",
+      "reason": "distinct workbook form not represented by a unique PokeAPI variety"
     },
     {
       "row": 570,
       "name": "Paldean Tauros-B",
       "dexId": 128,
-      "id": 200570,
-      "key": "Paldean-Tauros-B"
+      "id": 250570,
+      "key": "Paldean-Tauros-B",
+      "reason": "distinct workbook form not represented by a unique PokeAPI variety"
     },
     {
       "row": 571,
       "name": "Paldean Tauros-C",
       "dexId": 128,
-      "id": 200571,
-      "key": "Paldean-Tauros-C"
+      "id": 250571,
+      "key": "Paldean-Tauros-C",
+      "reason": "distinct workbook form not represented by a unique PokeAPI variety"
     },
     {
       "row": 572,
       "name": "Pikachu-Partner",
       "dexId": 25,
-      "id": 200572,
-      "key": "Pikachu-Partner"
+      "id": 250572,
+      "key": "Pikachu-Partner",
+      "reason": "distinct workbook form not represented by a unique PokeAPI variety"
     },
     {
       "row": 573,
       "name": "Pikachu-Surf",
       "dexId": 25,
-      "id": 200573,
-      "key": "Pikachu-Surf"
+      "id": 250573,
+      "key": "Pikachu-Surf",
+      "reason": "distinct workbook form not represented by a unique PokeAPI variety"
     },
     {
       "row": 574,
       "name": "Pikachu-Fly",
       "dexId": 25,
-      "id": 200574,
-      "key": "Pikachu-Fly"
+      "id": 250574,
+      "key": "Pikachu-Fly",
+      "reason": "distinct workbook form not represented by a unique PokeAPI variety"
     },
     {
       "row": 575,
       "name": "Eevee-Partner",
       "dexId": 133,
-      "id": 200575,
-      "key": "Eevee-Partner"
+      "id": 250575,
+      "key": "Eevee-Partner",
+      "reason": "distinct workbook form not represented by a unique PokeAPI variety"
     },
     {
       "row": 579,
       "name": "Venusaur Clone",
       "dexId": 3,
-      "id": 200579,
-      "key": "Venusaur-Clone"
+      "id": 250579,
+      "key": "Venusaur-Clone",
+      "reason": "distinct workbook form not represented by a unique PokeAPI variety"
     },
     {
       "row": 580,
       "name": "Charizard Clone",
       "dexId": 6,
-      "id": 200580,
-      "key": "Charizard-Clone"
+      "id": 250580,
+      "key": "Charizard-Clone",
+      "reason": "distinct workbook form not represented by a unique PokeAPI variety"
     },
     {
       "row": 581,
       "name": "Blastoise Clone",
       "dexId": 9,
-      "id": 200581,
-      "key": "Blastoise-Clone"
+      "id": 250581,
+      "key": "Blastoise-Clone",
+      "reason": "distinct workbook form not represented by a unique PokeAPI variety"
     },
     {
       "row": 582,
@@ -176,8 +187,9 @@
       "row": 583,
       "name": "Steelix-C",
       "dexId": 208,
-      "id": 200583,
-      "key": "Steelix-C"
+      "id": 250583,
+      "key": "Steelix-C",
+      "reason": "distinct workbook form not represented by a unique PokeAPI variety"
     },
     {
       "row": 585,

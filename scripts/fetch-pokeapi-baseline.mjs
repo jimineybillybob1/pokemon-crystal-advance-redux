@@ -22,14 +22,19 @@ const itemLimit = Number(option('--item-limit')) || null;
 const refresh = flag('--refresh');
 const downloadSprites = flag('--no-download-sprites') ? false : config.downloadSprites !== false;
 const concurrency = Math.max(1, Number(option('--concurrency')) || Number(config.concurrency) || 12);
-const supplementalMoveIds = [...new Set((config.supplementalMoveIds || []).map(Number))]
+const configuredSupplementalMoveIds = [...new Set((config.supplementalMoveIds || []).map(Number))]
   .filter(id => Number.isInteger(id) && id > 0)
   .sort((a, b) => a - b);
+const fallbackMoveIds = new Set((config.fallbackMoveIds || []).map(Number));
+const fallbackItemIds = new Set((config.fallbackItemIds || []).map(Number));
+const moveDefinitionIds = [...new Set([...configuredSupplementalMoveIds, ...fallbackMoveIds])].sort((a, b) => a - b);
+const includedPokemonKeys = new Set((config.includedPokemonKeys || []).map(value => String(value).trim().toLowerCase()).filter(Boolean));
 const cacheRoot = path.join(root, 'work', 'pokeapi-cache');
 const language = config.language || 'en';
 
 if (!config.enabled) throw new Error('The baseline is disabled in config/baseline-config.json.');
 if (config.provider !== 'pokeapi') throw new Error(`Unsupported baseline provider: ${config.provider}`);
+if (config.pokemonScope === 'hack-only' && !includedPokemonKeys.size) throw new Error('pokemonScope "hack-only" requires exact PokeAPI form keys in includedPokemonKeys before fetching the baseline.');
 
 async function fetchWithRetry(url, binary = false) {
   let lastError;
@@ -156,17 +161,25 @@ for (const entry of species) {
   for (const variety of varieties) varietyRefs.push({ species: entry, variety });
 }
 console.log(`Fetching ${varietyRefs.length} Pokémon forms.`);
-const pokemonResources = await mapPool(varietyRefs, async entry => ({ ...entry, pokemon: await resource('pokemon', resourceId(entry.variety.pokemon)) }));
+const allPokemonResources = await mapPool(varietyRefs, async entry => ({ ...entry, pokemon: await resource('pokemon', resourceId(entry.variety.pokemon)) }));
+const pokemonResources = config.pokemonScope === 'hack-only'
+  ? allPokemonResources.filter(entry => includedPokemonKeys.has(entry.pokemon.name.toLowerCase()))
+  : allPokemonResources;
+if (config.pokemonScope === 'hack-only' && pokemonResources.length !== includedPokemonKeys.size) {
+  const found = new Set(pokemonResources.map(entry => entry.pokemon.name.toLowerCase()));
+  const unresolved = [...includedPokemonKeys].filter(key => !found.has(key));
+  throw new Error(`includedPokemonKeys contains unresolved PokeAPI form keys: ${unresolved.join(', ')}`);
+}
 
 const abilityRefs = new Map();
 const moveRefs = new Map();
 for (const { pokemon } of pokemonResources) {
   for (const ability of pokemon.abilities || []) if (ability.ability) abilityRefs.set(resourceId(ability.ability), ability.ability);
-  for (const move of pokemon.moves || []) {
+  if (config.includeBaselineLearnsets === true) for (const move of pokemon.moves || []) {
     if ((move.version_group_details || []).some(detail => detail.version_group?.name === config.versionGroup)) moveRefs.set(resourceId(move.move), move.move);
   }
 }
-for (const id of supplementalMoveIds) {
+for (const id of moveDefinitionIds) {
   moveRefs.set(String(id), { name: `supplemental-move-${id}`, url: `https://pokeapi.co/api/v2/move/${id}/` });
 }
 console.log(`Fetching ${abilityRefs.size} abilities and ${moveRefs.size} learnable moves for ${config.versionGroup}.`);
@@ -194,7 +207,8 @@ const moves = moveResources.map(move => ({
   accuracy: move.accuracy,
   pp: move.pp,
   priority: move.priority || 0,
-  description: cleanEffect(english(move.effect_entries, 'short_effect') || english(move.flavor_text_entries, 'flavor_text'))
+  description: cleanEffect(english(move.effect_entries, 'short_effect') || english(move.flavor_text_entries, 'flavor_text')),
+  fallbackDefinition: fallbackMoveIds.has(move.id)
 })).sort((a, b) => a.id - b.id);
 
 const statOrder = ['hp', 'attack', 'defense', 'speed', 'special-attack', 'special-defense'];
@@ -262,9 +276,10 @@ function applyChain(node) {
 chains.forEach(chain => applyChain(chain.chain));
 
 let items = [];
-if (config.includeItems !== false) {
+if (config.includeItems === true || fallbackItemIds.size) {
   const itemIndex = await resource('item');
   let itemRefs = itemIndex.results || [];
+  if (config.includeItems !== true) itemRefs = itemRefs.filter(ref => fallbackItemIds.has(Number(resourceId(ref))));
   const configuredLimit = config.maxItems == null ? null : Number(config.maxItems);
   if (configuredLimit) itemRefs = itemRefs.slice(0, configuredLimit);
   if (itemLimit) itemRefs = itemRefs.slice(0, itemLimit);
@@ -281,8 +296,9 @@ if (config.includeItems !== false) {
       category: title(item.category?.name),
       sprite,
       locations: [],
-      costs: item.cost ? [{ location: 'Mainline baseline', amount: item.cost, currency: 'Pokédollars', display: `₽${item.cost}` }] : [],
-      move: null
+      costs: [],
+      move: null,
+      fallbackDefinition: fallbackItemIds.has(item.id)
     };
   });
 }
@@ -298,7 +314,12 @@ const lock = {
   versionGroup: config.versionGroup,
   maxNationalDex: config.maxNationalDex,
   includeNonDefaultForms: config.includeNonDefaultForms,
-  supplementalMoveIds,
+  pokemonScope: config.pokemonScope || 'mainline-range',
+  includedPokemonKeys: [...includedPokemonKeys].sort(),
+  includeBaselineLearnsets: config.includeBaselineLearnsets === true,
+  supplementalMoveIds: configuredSupplementalMoveIds,
+  fallbackMoveIds: [...fallbackMoveIds].sort((a, b) => a - b),
+  fallbackItemIds: [...fallbackItemIds].sort((a, b) => a - b),
   fetchedAt,
   counts: { species: species.length, pokemonForms: pokemon.length, moves: moves.length, abilities: abilities.length, items: items.length }
 };

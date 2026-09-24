@@ -21,6 +21,8 @@ const unique = (items, key, label) => {
 const config = read('config/game-config.json');
 const baselineConfig = read('config/baseline-config.json');
 const baselineLock = read('baseline.lock.json');
+const baselineGuide = read('data/baseline/guide-data.json');
+const baselineItems = read('data/baseline/items-data.json');
 const pokemonOverrides = read('data/overrides/guide-data.json');
 const itemOverrides = read('data/overrides/items-data.json');
 const abilityOverrides = read('data/overrides/abilities-data.json');
@@ -40,7 +42,17 @@ requireValue(baselineConfig.provider === 'pokeapi', 'baseline-config.json curren
 requireValue(Boolean(baselineConfig.versionGroup), 'baseline-config.json requires a mechanics versionGroup.');
 requireValue(baselineLock.versionGroup === baselineConfig.versionGroup, 'baseline.lock.json versionGroup must match baseline-config.json. Re-fetch the baseline.');
 const configuredSupplementalMoveIds = [...new Set((baselineConfig.supplementalMoveIds || []).map(Number))].sort((a, b) => a - b);
+const configuredFallbackMoveIds = [...new Set((baselineConfig.fallbackMoveIds || []).map(Number))].sort((a, b) => a - b);
+const configuredFallbackItemIds = [...new Set((baselineConfig.fallbackItemIds || []).map(Number))].sort((a, b) => a - b);
+const configuredPokemonKeys = [...new Set((baselineConfig.includedPokemonKeys || []).map(value => String(value).toLowerCase()))].sort();
 requireValue(JSON.stringify(baselineLock.supplementalMoveIds || []) === JSON.stringify(configuredSupplementalMoveIds), 'baseline.lock.json supplementalMoveIds must match baseline-config.json. Re-fetch the baseline.');
+requireValue(JSON.stringify(baselineLock.fallbackMoveIds || []) === JSON.stringify(configuredFallbackMoveIds), 'baseline.lock.json fallbackMoveIds must match baseline-config.json. Re-fetch the baseline.');
+requireValue(JSON.stringify(baselineLock.fallbackItemIds || []) === JSON.stringify(configuredFallbackItemIds), 'baseline.lock.json fallbackItemIds must match baseline-config.json. Re-fetch the baseline.');
+requireValue(baselineConfig.pokemonScope === 'hack-only', 'The guide must use the exact hack-only Pokémon baseline scope.');
+requireValue(configuredPokemonKeys.length > 0, 'Hack-only Pokémon scope requires includedPokemonKeys.');
+requireValue(JSON.stringify((baselineLock.includedPokemonKeys || []).slice().sort()) === JSON.stringify(configuredPokemonKeys), 'baseline.lock.json includedPokemonKeys must match baseline-config.json. Re-fetch the baseline.');
+requireValue(baselineConfig.includeBaselineLearnsets === false, 'Generic mainline learnsets must remain disabled; the workbook supplies the hack learnsets.');
+requireValue(baselineConfig.includeItems === false, 'Generic mainline item availability must remain disabled; only explicit fallback definitions are allowed.');
 requireValue(Array.isArray(guide.pokemon) && Array.isArray(guide.moves) && Array.isArray(guide.locations), 'guide-data.json requires pokemon, moves and locations arrays.');
 requireValue(Array.isArray(pokemonOverrides.pokemon) && Array.isArray(pokemonOverrides.moves) && Array.isArray(pokemonOverrides.locations), 'data/overrides/guide-data.json requires pokemon, moves and locations arrays.');
 requireValue(Array.isArray(itemOverrides), 'data/overrides/items-data.json must be an array.');
@@ -69,11 +81,25 @@ for (const badge of config.badges || []) {
 const pokemonIds = new Set(guide.pokemon.map(p => Number(p.id)));
 const pokemonKeys = new Set(guide.pokemon.map(p => norm(p.key)));
 const moveIds = new Set(guide.moves.map(move => Number(move.id)));
+const fallbackMoveIdSet = new Set(configuredFallbackMoveIds);
+const fallbackItemIdSet = new Set(configuredFallbackItemIds);
+const baselinePokemonKeys = baselineGuide.pokemon.map(pokemon => String(pokemon.sourceKey || '').toLowerCase()).sort();
+requireValue(JSON.stringify(baselinePokemonKeys) === JSON.stringify(configuredPokemonKeys), 'The fetched Pokémon baseline does not exactly match includedPokemonKeys.');
+requireValue(baselineGuide.moves.every(move => fallbackMoveIdSet.has(Number(move.id)) && move.fallbackDefinition === true), 'Every baseline move must be an explicitly scoped fallback definition.');
+requireValue(baselineItems.every(item => fallbackItemIdSet.has(Number(item.id)) && item.fallbackDefinition === true && !(item.costs || []).length), 'Every baseline item must be an explicitly scoped definition without generic prices.');
+requireValue(items.every(item => item._provenance?.origin !== 'baseline'), 'Final item data must not expose baseline-only items as hack availability.');
 const hiddenPokemonKeys = runtimeOverrides.hiddenPokemonKeys || [];
+const configuredEncounterMethods = runtimeOverrides.encounterMethodOrder || [];
+const configuredFishingRods = runtimeOverrides.fishingRodOrder || [];
 requireValue(Array.isArray(hiddenPokemonKeys), 'game-overrides hiddenPokemonKeys must be an array.');
 requireValue(new Set(hiddenPokemonKeys.map(norm)).size === hiddenPokemonKeys.length, 'game-overrides hiddenPokemonKeys must be unique.');
+requireValue(JSON.stringify(configuredEncounterMethods) === JSON.stringify(['Wild', 'Tree', 'Rock', 'Surf', 'Fish', 'Dive']), 'game-overrides encounterMethodOrder must preserve the documented method order.');
+requireValue(JSON.stringify(configuredFishingRods) === JSON.stringify(['Old Rod', 'Good Rod', 'Super Rod']), 'game-overrides fishingRodOrder must preserve the documented rod order.');
+requireValue(runtimeOverrides.requireFishingRod === true, 'This guide requires a documented rod for every fishing encounter.');
+requireValue(config.features?.trainerProfile === true, 'Trainer profile is required for starter and rival-dependent guide behaviour.');
 for (const key of hiddenPokemonKeys) requireValue(pokemonKeys.has(norm(key)), `Hidden Pokémon key does not resolve: ${key}.`);
 for (const moveId of configuredSupplementalMoveIds) requireValue(moveIds.has(moveId), `Supplemental move ${moveId} is missing from the merged guide.`);
+for (const moveId of configuredFallbackMoveIds) requireValue(moveIds.has(moveId), `Fallback move ${moveId} is missing from the merged guide.`);
 requireValue(Array.isArray(moveTutors.tutors) && Array.isArray(moveTutors.services), 'Move Tutor data requires tutors and services arrays.');
 for (const tutor of moveTutors.tutors || []) {
   requireValue(/^MT\d{2}$/.test(tutor.id || ''), `Move Tutor requires an MT number: ${JSON.stringify(tutor)}`);
@@ -110,10 +136,10 @@ for (const location of guide.locations) {
   requireValue(location.name && Array.isArray(location.day) && Array.isArray(location.night), `Location requires name, day and night arrays: ${JSON.stringify(location)}`);
   for (const encounter of [...(location.day || []), ...(location.night || [])]) {
     if (!pokemonKeys.has(norm(encounter.pokemon))) errors.push(`${location.name}: unresolved encounter ${encounter.pokemon}.`);
-    requireValue(['Wild', 'Tree', 'Rock', 'Surf', 'Fish', 'Dive'].includes(encounter.method), `${location.name}: invalid encounter method ${encounter.method}.`);
+    requireValue(configuredEncounterMethods.includes(encounter.method), `${location.name}: invalid encounter method ${encounter.method}.`);
     requireValue(encounter.subarea == null || typeof encounter.subarea === 'string', `${location.name}: encounter subarea must be a string.`);
-    requireValue(encounter.rod == null || ['Old Rod', 'Good Rod', 'Super Rod'].includes(encounter.rod), `${location.name}: invalid fishing rod ${encounter.rod}.`);
-    if (encounter.method === 'Fish') requireValue(['Old Rod', 'Good Rod', 'Super Rod'].includes(encounter.rod), `${location.name}: fishing encounter ${encounter.pokemon} requires a rod.`);
+    requireValue(encounter.rod == null || configuredFishingRods.includes(encounter.rod), `${location.name}: invalid fishing rod ${encounter.rod}.`);
+    if (encounter.method === 'Fish' && runtimeOverrides.requireFishingRod) requireValue(configuredFishingRods.includes(encounter.rod), `${location.name}: fishing encounter ${encounter.pokemon} requires a rod.`);
   }
 }
 

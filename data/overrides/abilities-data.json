@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "id": 60000,
+    "key": "refrigerate",
+    "name": "Refrigerate",
+    "description": "Ability effect is not supplied by the 2026-07-01 community workbook.",
+    "generation": "rom-hack"
+  },
+  {
+    "id": 60001,
+    "key": "iron-barbs",
+    "name": "Iron Barbs",
+    "description": "Ability effect is not supplied by the 2026-07-01 community workbook.",
+    "generation": "rom-hack"
+  }
+]

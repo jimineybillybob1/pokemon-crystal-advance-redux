@@ -6,7 +6,7 @@ This repository is a reusable field-guide engine with a pinned mainline baseline
 
 1. Read `SETUP_STATUS.md`, `GAME_BRIEF.md`, `BASELINE_AND_OVERRIDES.md`, and `sources/source-inventory.md` completely.
 2. Inventory every supplied source before importing. Record provenance, hack version and gaps.
-3. Select the closest mainline mechanics `versionGroup` in `config/baseline-config.json`, then fetch or reuse the pinned baseline.
+3. Select the closest mainline mechanics `versionGroup`, then maintain exact `includedPokemonKeys`, `fallbackMoveIds`, and `fallbackItemIds` allowlists in `config/baseline-config.json`. Generic mainline learnsets, unrelated items and prices must not become hack availability.
 4. Normalize hack changes and additions into `data/overrides/*.json`. Never manually edit `data/baseline/` or generated final `data/guide-data.json`, `items-data.json`, or `abilities-data.json`.
 5. Put exceptional form, move-retention, alias, acquisition, or evolution rules in `config/game-overrides.js`, with a short source note.
 6. Run `npm run build:data`, `npm run validate`, and `npm run audit:assets` after data changes. Review provenance warnings rather than suppressing them blindly.
@@ -35,6 +35,9 @@ Current hack documentation overrides the generic baseline. The PokeAPI-derived b
 - Use `$delete: true` only for documented removals.
 - Keep unavailable or uncertain data explicit rather than inventing values.
 - Keep `baseline.lock.json` under version control so builds are reproducible.
+- Cross-links must preserve the dimensions that identify the record, including form, location, period, encounter method, subarea and fishing rod when applicable.
+- Save changes require a migration path, a pre-replacement local snapshot and a user-visible recovery route. Cloud history is not complete until a user can restore a selected version.
+- Offline claims require a working service worker/application shell and a tested offline reload. Respect `prefers-reduced-motion` and persist user-facing display preferences such as theme.
 
 ## Porting boundaries
 

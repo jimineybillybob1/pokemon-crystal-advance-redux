@@ -4,6 +4,7 @@
   "type": "module",
   "scripts": {
     "import:crystal": "python scripts/import-crystal-advance-redux.py \"sources/inbox/Crystal Advance Redux.xlsx\"",
+    "baseline:scope": "node scripts/migrate-baseline-scope.mjs",
     "baseline:fetch": "node scripts/fetch-pokeapi-baseline.mjs",
     "merge:data": "node scripts/merge-guide-data.mjs",
     "build:data": "node scripts/merge-guide-data.mjs && node scripts/build-data-wrappers.mjs",

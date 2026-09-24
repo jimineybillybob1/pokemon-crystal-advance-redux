@@ -24,6 +24,7 @@
     "favorites": true,
     "battles": true,
     "badges": true,
+    "trainerProfile": true,
     "maps": false,
     "cloudSync": true
   },
