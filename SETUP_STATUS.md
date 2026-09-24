@@ -1,10 +1,10 @@
 # Guide setup status
 
-- Status: Advanced guide refinement complete locally; deployment pending
+- Status: Advanced guide refinement deployed and verified
 - Current phase: Template-conformance review and source-gap follow-up
-- Readiness: Advanced ready locally; exact source-scoped baseline, recovery controls, offline support and accessibility refinements implemented
+- Readiness: Advanced ready and live; exact source-scoped baseline, recovery controls, offline support and accessibility refinements implemented
 - Last updated: 2026-09-24
-- Next step: Deploy the reviewed refinement only with explicit approval. Continue seeking version-matched Sevii tables and final custom-form/item assets.
+- Next step: Continue seeking version-matched Sevii tables and final custom-form/item assets.
 
 ## Progress
 
@@ -18,7 +18,7 @@
 | Planning data | Imported and validated | All 766 workbook-used moves have complete fallback definitions; all 451 workbook items remain visible (203 canonical definitions plus 248 custom records), with no unrelated mainline items or generic prices; custom item details remain provisional |
 | Advanced data | Partial / battles, badges, profile and cloud sync complete | Encrypted Cloudflare Worker/KV sync is configured; all 16 Johto/Kanto badges and 700 workbook battle records are active, including 668 populated trainer teams, 229 VS Seeker rematches and 32 intentionally hidden Gym Leader records; trainer/rival configuration is saved and synced; maps remain deferred |
 | Local build | Complete | Baseline rebuilt and merged; validation, provenance, local-asset and Worker tests pass. Desktop, 390×844 touch layout, exact encounter targeting, return navigation, persistent theme and a complete server-offline reload were verified in-browser with no new console errors or horizontal overflow |
-| Deployment | Existing live build; current refinement pending | Public repository, GitHub Pages and Cloudflare Worker/KV were previously verified; the 2026-09-24 refinement is not deployed in this task |
+| Deployment | Complete and verified | The 2026-09-24 refinement was deployed to GitHub Pages from commit `e5dfec8`; the live guide and service worker returned HTTP 200 over enforced HTTPS. Cloudflare Worker/KV remains configured. |
 
 ## Confirmed decisions
 
@@ -50,6 +50,7 @@
 
 ## Activity log
 
+- Deployed the template-conformance refinement to GitHub Pages on 2026-09-24 from commit `e5dfec8`. The Pages workflow completed successfully, and the public guide plus `service-worker.js` were verified at HTTP 200 over enforced HTTPS.
 - 2026-09-24 template-conformance refinement: restricted the pinned baseline to 577 reconciled forms, 766 explicitly referenced move definitions and 203 explicitly referenced canonical item definitions; removed 2,017 unrelated baseline-only items and every generic mainline price from the final guide. Added validation that blocks future baseline leakage.
 - Added dimension-preserving Pokémon-to-encounter links carrying period, Method, More Info subarea and fishing rod; the destination encounter is highlighted and a return control reopens the originating Pokémon detail.
 - Promoted recovery from an internal safeguard to a user workflow: Save & Sync now lists and restores the five browser-local pre-replacement snapshots and individual encrypted cloud-history revisions, while preserving the current state before each restore.
