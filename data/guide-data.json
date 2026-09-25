@@ -201257,6 +201257,782 @@
       }
     },
     {
+      "name": "Ruins Valley",
+      "day": [
+        {
+          "pokemon": "Zubat",
+          "method": "Wild",
+          "level": "6-12",
+          "rarity": 20,
+          "subarea": "Main area",
+          "details": "20% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,113",
+            "encounterRecordIndex": 124,
+            "slot": 0
+          }
+        },
+        {
+          "pokemon": "Geodude",
+          "method": "Wild",
+          "level": "6-12",
+          "rarity": 20,
+          "subarea": "Main area",
+          "details": "20% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,113",
+            "encounterRecordIndex": 124,
+            "slot": 1
+          }
+        },
+        {
+          "pokemon": "Zubat",
+          "method": "Wild",
+          "level": "6-12",
+          "rarity": 10,
+          "subarea": "Main area",
+          "details": "10% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,113",
+            "encounterRecordIndex": 124,
+            "slot": 2
+          }
+        },
+        {
+          "pokemon": "Geodude",
+          "method": "Wild",
+          "level": "6-12",
+          "rarity": 10,
+          "subarea": "Main area",
+          "details": "10% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,113",
+            "encounterRecordIndex": 124,
+            "slot": 4
+          }
+        },
+        {
+          "pokemon": "Sandshrew",
+          "method": "Wild",
+          "level": "6-12",
+          "rarity": 10,
+          "subarea": "Main area",
+          "details": "10% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,113",
+            "encounterRecordIndex": 124,
+            "slot": 5
+          }
+        },
+        {
+          "pokemon": "Paras",
+          "method": "Wild",
+          "level": "6-12",
+          "rarity": 5,
+          "subarea": "Main area",
+          "details": "5% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,113",
+            "encounterRecordIndex": 124,
+            "slot": 7
+          }
+        },
+        {
+          "pokemon": "Clefairy",
+          "method": "Wild",
+          "level": "6-12",
+          "rarity": 4,
+          "subarea": "Main area",
+          "details": "4% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,113",
+            "encounterRecordIndex": 124,
+            "slot": 8
+          }
+        },
+        {
+          "pokemon": "Sandslash",
+          "method": "Wild",
+          "level": "6-12",
+          "rarity": 4,
+          "subarea": "Main area",
+          "details": "4% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,113",
+            "encounterRecordIndex": 124,
+            "slot": 9
+          }
+        },
+        {
+          "pokemon": "Clefairy",
+          "method": "Wild",
+          "level": "6-12",
+          "rarity": 1,
+          "subarea": "Main area",
+          "details": "1% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,113",
+            "encounterRecordIndex": 124,
+            "slot": 10
+          }
+        },
+        {
+          "pokemon": "Sandslash",
+          "method": "Wild",
+          "level": "6-12",
+          "rarity": 1,
+          "subarea": "Main area",
+          "details": "1% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,113",
+            "encounterRecordIndex": 124,
+            "slot": 11
+          }
+        },
+        {
+          "pokemon": "Golbat",
+          "method": "Wild",
+          "level": "36-39",
+          "rarity": 20,
+          "subarea": "Ruins Cavern",
+          "details": "20% slot; 11% encounter rate",
+          "encounterRate": 11,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,79",
+            "encounterRecordIndex": 190,
+            "slot": 0
+          }
+        },
+        {
+          "pokemon": "Graveler",
+          "method": "Wild",
+          "level": "36-39",
+          "rarity": 20,
+          "subarea": "Ruins Cavern",
+          "details": "20% slot; 11% encounter rate",
+          "encounterRate": 11,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,79",
+            "encounterRecordIndex": 190,
+            "slot": 1
+          }
+        },
+        {
+          "pokemon": "Sandslash",
+          "method": "Wild",
+          "level": "36-39",
+          "rarity": 10,
+          "subarea": "Ruins Cavern",
+          "details": "10% slot; 11% encounter rate",
+          "encounterRate": 11,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,79",
+            "encounterRecordIndex": 190,
+            "slot": 2
+          }
+        },
+        {
+          "pokemon": "Parasect",
+          "method": "Wild",
+          "level": "36-39",
+          "rarity": 10,
+          "subarea": "Ruins Cavern",
+          "details": "10% slot; 11% encounter rate",
+          "encounterRate": 11,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,79",
+            "encounterRecordIndex": 190,
+            "slot": 3
+          }
+        },
+        {
+          "pokemon": "Onix",
+          "method": "Wild",
+          "level": "36-39",
+          "rarity": 10,
+          "subarea": "Ruins Cavern",
+          "details": "10% slot; 11% encounter rate",
+          "encounterRate": 11,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,79",
+            "encounterRecordIndex": 190,
+            "slot": 4
+          }
+        },
+        {
+          "pokemon": "Gligar",
+          "method": "Wild",
+          "level": "36-39",
+          "rarity": 10,
+          "subarea": "Ruins Cavern",
+          "details": "10% slot; 11% encounter rate",
+          "encounterRate": 11,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,79",
+            "encounterRecordIndex": 190,
+            "slot": 5
+          }
+        },
+        {
+          "pokemon": "Cubone",
+          "method": "Wild",
+          "level": "36-39",
+          "rarity": 5,
+          "subarea": "Ruins Cavern",
+          "details": "5% slot; 11% encounter rate",
+          "encounterRate": 11,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,79",
+            "encounterRecordIndex": 190,
+            "slot": 6
+          }
+        },
+        {
+          "pokemon": "Clefairy",
+          "method": "Wild",
+          "level": "36-39",
+          "rarity": 5,
+          "subarea": "Ruins Cavern",
+          "details": "5% slot; 11% encounter rate",
+          "encounterRate": 11,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,79",
+            "encounterRecordIndex": 190,
+            "slot": 7
+          }
+        },
+        {
+          "pokemon": "Baltoy",
+          "method": "Wild",
+          "level": "36-39",
+          "rarity": 4,
+          "subarea": "Ruins Cavern",
+          "details": "4% slot; 11% encounter rate",
+          "encounterRate": 11,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,79",
+            "encounterRecordIndex": 190,
+            "slot": 8
+          }
+        },
+        {
+          "pokemon": "Camerupt",
+          "method": "Wild",
+          "level": "36-39",
+          "rarity": 4,
+          "subarea": "Ruins Cavern",
+          "details": "4% slot; 11% encounter rate",
+          "encounterRate": 11,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,79",
+            "encounterRecordIndex": 190,
+            "slot": 9
+          }
+        },
+        {
+          "pokemon": "Lunatone",
+          "method": "Wild",
+          "level": "36-39",
+          "rarity": 1,
+          "subarea": "Ruins Cavern",
+          "details": "1% slot; 11% encounter rate",
+          "encounterRate": 11,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,79",
+            "encounterRecordIndex": 190,
+            "slot": 10
+          }
+        },
+        {
+          "pokemon": "Gible",
+          "method": "Wild",
+          "level": "36-39",
+          "rarity": 1,
+          "subarea": "Ruins Cavern",
+          "details": "1% slot; 11% encounter rate",
+          "encounterRate": 11,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,79",
+            "encounterRecordIndex": 190,
+            "slot": 11
+          }
+        }
+      ],
+      "night": [
+        {
+          "pokemon": "Zubat",
+          "method": "Wild",
+          "level": "6-12",
+          "rarity": 20,
+          "subarea": "Main area",
+          "details": "20% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,113",
+            "encounterRecordIndex": 124,
+            "slot": 0
+          }
+        },
+        {
+          "pokemon": "Geodude",
+          "method": "Wild",
+          "level": "6-12",
+          "rarity": 20,
+          "subarea": "Main area",
+          "details": "20% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,113",
+            "encounterRecordIndex": 124,
+            "slot": 1
+          }
+        },
+        {
+          "pokemon": "Zubat",
+          "method": "Wild",
+          "level": "6-12",
+          "rarity": 10,
+          "subarea": "Main area",
+          "details": "10% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,113",
+            "encounterRecordIndex": 124,
+            "slot": 2
+          }
+        },
+        {
+          "pokemon": "Geodude",
+          "method": "Wild",
+          "level": "6-12",
+          "rarity": 10,
+          "subarea": "Main area",
+          "details": "10% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,113",
+            "encounterRecordIndex": 124,
+            "slot": 4
+          }
+        },
+        {
+          "pokemon": "Sandshrew",
+          "method": "Wild",
+          "level": "6-12",
+          "rarity": 10,
+          "subarea": "Main area",
+          "details": "10% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,113",
+            "encounterRecordIndex": 124,
+            "slot": 5
+          }
+        },
+        {
+          "pokemon": "Paras",
+          "method": "Wild",
+          "level": "6-12",
+          "rarity": 5,
+          "subarea": "Main area",
+          "details": "5% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,113",
+            "encounterRecordIndex": 124,
+            "slot": 7
+          }
+        },
+        {
+          "pokemon": "Clefairy",
+          "method": "Wild",
+          "level": "6-12",
+          "rarity": 4,
+          "subarea": "Main area",
+          "details": "4% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,113",
+            "encounterRecordIndex": 124,
+            "slot": 8
+          }
+        },
+        {
+          "pokemon": "Sandslash",
+          "method": "Wild",
+          "level": "6-12",
+          "rarity": 4,
+          "subarea": "Main area",
+          "details": "4% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,113",
+            "encounterRecordIndex": 124,
+            "slot": 9
+          }
+        },
+        {
+          "pokemon": "Clefairy",
+          "method": "Wild",
+          "level": "6-12",
+          "rarity": 1,
+          "subarea": "Main area",
+          "details": "1% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,113",
+            "encounterRecordIndex": 124,
+            "slot": 10
+          }
+        },
+        {
+          "pokemon": "Sandslash",
+          "method": "Wild",
+          "level": "6-12",
+          "rarity": 1,
+          "subarea": "Main area",
+          "details": "1% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,113",
+            "encounterRecordIndex": 124,
+            "slot": 11
+          }
+        },
+        {
+          "pokemon": "Golbat",
+          "method": "Wild",
+          "level": "36-39",
+          "rarity": 20,
+          "subarea": "Ruins Cavern",
+          "details": "20% slot; 11% encounter rate",
+          "encounterRate": 11,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,79",
+            "encounterRecordIndex": 190,
+            "slot": 0
+          }
+        },
+        {
+          "pokemon": "Graveler",
+          "method": "Wild",
+          "level": "36-39",
+          "rarity": 20,
+          "subarea": "Ruins Cavern",
+          "details": "20% slot; 11% encounter rate",
+          "encounterRate": 11,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,79",
+            "encounterRecordIndex": 190,
+            "slot": 1
+          }
+        },
+        {
+          "pokemon": "Sandslash",
+          "method": "Wild",
+          "level": "36-39",
+          "rarity": 10,
+          "subarea": "Ruins Cavern",
+          "details": "10% slot; 11% encounter rate",
+          "encounterRate": 11,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,79",
+            "encounterRecordIndex": 190,
+            "slot": 2
+          }
+        },
+        {
+          "pokemon": "Parasect",
+          "method": "Wild",
+          "level": "36-39",
+          "rarity": 10,
+          "subarea": "Ruins Cavern",
+          "details": "10% slot; 11% encounter rate",
+          "encounterRate": 11,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,79",
+            "encounterRecordIndex": 190,
+            "slot": 3
+          }
+        },
+        {
+          "pokemon": "Onix",
+          "method": "Wild",
+          "level": "36-39",
+          "rarity": 10,
+          "subarea": "Ruins Cavern",
+          "details": "10% slot; 11% encounter rate",
+          "encounterRate": 11,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,79",
+            "encounterRecordIndex": 190,
+            "slot": 4
+          }
+        },
+        {
+          "pokemon": "Gligar",
+          "method": "Wild",
+          "level": "36-39",
+          "rarity": 10,
+          "subarea": "Ruins Cavern",
+          "details": "10% slot; 11% encounter rate",
+          "encounterRate": 11,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,79",
+            "encounterRecordIndex": 190,
+            "slot": 5
+          }
+        },
+        {
+          "pokemon": "Cubone",
+          "method": "Wild",
+          "level": "36-39",
+          "rarity": 5,
+          "subarea": "Ruins Cavern",
+          "details": "5% slot; 11% encounter rate",
+          "encounterRate": 11,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,79",
+            "encounterRecordIndex": 190,
+            "slot": 6
+          }
+        },
+        {
+          "pokemon": "Clefairy",
+          "method": "Wild",
+          "level": "36-39",
+          "rarity": 5,
+          "subarea": "Ruins Cavern",
+          "details": "5% slot; 11% encounter rate",
+          "encounterRate": 11,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,79",
+            "encounterRecordIndex": 190,
+            "slot": 7
+          }
+        },
+        {
+          "pokemon": "Baltoy",
+          "method": "Wild",
+          "level": "36-39",
+          "rarity": 4,
+          "subarea": "Ruins Cavern",
+          "details": "4% slot; 11% encounter rate",
+          "encounterRate": 11,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,79",
+            "encounterRecordIndex": 190,
+            "slot": 8
+          }
+        },
+        {
+          "pokemon": "Camerupt",
+          "method": "Wild",
+          "level": "36-39",
+          "rarity": 4,
+          "subarea": "Ruins Cavern",
+          "details": "4% slot; 11% encounter rate",
+          "encounterRate": 11,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,79",
+            "encounterRecordIndex": 190,
+            "slot": 9
+          }
+        },
+        {
+          "pokemon": "Lunatone",
+          "method": "Wild",
+          "level": "36-39",
+          "rarity": 1,
+          "subarea": "Ruins Cavern",
+          "details": "1% slot; 11% encounter rate",
+          "encounterRate": 11,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,79",
+            "encounterRecordIndex": 190,
+            "slot": 10
+          }
+        },
+        {
+          "pokemon": "Gible",
+          "method": "Wild",
+          "level": "36-39",
+          "rarity": 1,
+          "subarea": "Ruins Cavern",
+          "details": "1% slot; 11% encounter rate",
+          "encounterRate": 11,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,79",
+            "encounterRecordIndex": 190,
+            "slot": 11
+          }
+        }
+      ],
+      "periodModel": "all-day",
+      "source": {
+        "kind": "sevii-rom-safe-tranche",
+        "gameVersion": "2026-07-19",
+        "romSha256": "716F2CBFB731E6DC1E014B6B6744B823389262DCC0086A120C1E0FB3D80DD34B",
+        "mapKeys": [
+          "4,113",
+          "4,79"
+        ],
+        "crosswalk": "sources/normalized/sevii-map-crosswalk-2026-09-25.json"
+      },
+      "_provenance": {
+        "origin": "rom-hack",
+        "overriddenFields": [
+          "name",
+          "day",
+          "night",
+          "periodModel",
+          "source"
+        ]
+      }
+    },
+    {
       "name": "Cape Brink",
       "day": [
         {

@@ -1045,7 +1045,8 @@
       "Viridian Forest — N, SE corner of tree that is NE of Abner; Source: Hidden",
       "Mt. Moon — 2F, South cave entrance from Square; Source: Wild",
       "Sevii Waterway — Main area, hidden item at tile (7, 22); Source: 2026-07-19 ROM audit",
-      "Three Island — Cave 3F, item ball at tile (17, 2); Source: 2026-07-19 ROM audit"
+      "Three Island — Cave 3F, item ball at tile (17, 2); Source: 2026-07-19 ROM audit",
+      "Ruins Valley — Ruins Cavern, item ball at tile (37, 35); Source: 2026-07-19 ROM audit"
     ],
     "costs": []
   },
@@ -2834,7 +2835,8 @@
       "Celadon City — Mall, 5F North Assistant - $2000; Source: Shop",
       "Mt. Moon — 1F, take SE ladder up to 2F from X Accuracy; Source: Wild",
       "Mt. Silver — 1F, SE platform; Source: Wild",
-      "Crystal Cavern — Cavern area 1, hidden item at tile (37, 39); Source: 2026-07-19 ROM audit"
+      "Crystal Cavern — Cavern area 1, hidden item at tile (37, 39); Source: 2026-07-19 ROM audit",
+      "Ruins Valley — Ruins Cavern, item ball at tile (21, 7); Source: 2026-07-19 ROM audit"
     ],
     "costs": []
   },
@@ -4037,7 +4039,8 @@
     "sprite": "assets/art/placeholder-icon.svg",
     "locations": [
       "Celadon City — Mall, 3F - $3000; Source: Shop",
-      "Mt. Moon — 2F, W, alcove NW of exit, via E ladder on 1F; Source: Hidden"
+      "Mt. Moon — 2F, W, alcove NW of exit, via E ladder on 1F; Source: Hidden",
+      "Ruins Valley — Ruins Cavern, hidden item at tile (2, 39); Source: 2026-07-19 ROM audit"
     ],
     "costs": [],
     "move": null
@@ -5551,7 +5554,8 @@
       "Sprout Tower — 2F, NW; Source: Wild",
       "Goldenrod City — Mall, 3F North counter - $950; Source: Shop",
       "Celadon City — Mall, 5F South Assistant - $950; Source: Shop",
-      "Mt. Moon — 1F, South cave entrance from Square; Source: Wild"
+      "Mt. Moon — 1F, South cave entrance from Square; Source: Wild",
+      "Ruins Valley — Ruins Cavern, item ball at tile (19, 23); Source: 2026-07-19 ROM audit"
     ],
     "costs": []
   },

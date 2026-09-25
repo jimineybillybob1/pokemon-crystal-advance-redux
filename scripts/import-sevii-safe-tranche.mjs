@@ -178,6 +178,7 @@ const itemNameAliases = new Map([
   // ROM item name table uses the long Technical Disk label; the workbook
   // records the same numbered item with its taught move.
   [normalize("Tech Disk 22"), normalize("TD22 - Frost Breath")],
+  [normalize("Tech Disk 23"), normalize("TD23 - Smart Strike")],
 ]);
 const itemByAlias = new Map();
 for (const item of itemOverride) {

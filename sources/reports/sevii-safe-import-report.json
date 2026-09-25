@@ -1,19 +1,19 @@
 {
   "meta": {
-    "generatedAt": "2026-09-25T15:45:48.277Z",
+    "generatedAt": "2026-09-25T19:49:19.746Z",
     "gameVersion": "2026-07-19",
     "romSha256": "716F2CBFB731E6DC1E014B6B6744B823389262DCC0086A120C1E0FB3D80DD34B",
     "source": "sources/reports/sevii-rom-extraction.json",
     "crosswalk": "sources/normalized/sevii-map-crosswalk-2026-09-25.json"
   },
   "summary": {
-    "readyMapCount": 19,
-    "acceptedEncounterTableCount": 19,
-    "importedLocationCount": 5,
-    "importedEncounterCount": 201,
-    "importedItemPlacementCount": 50,
+    "readyMapCount": 21,
+    "acceptedEncounterTableCount": 21,
+    "importedLocationCount": 6,
+    "importedEncounterCount": 223,
+    "importedItemPlacementCount": 54,
     "removedExactDuplicateTableCount": 3,
-    "skippedUnresolvedMethodGroupCount": 1,
+    "skippedUnresolvedMethodGroupCount": 2,
     "skippedAlternateTableGroupCount": 0,
     "trainerBattleImportCount": 0
   },
@@ -72,6 +72,18 @@
         "1,39",
         "1,40",
         "1,41"
+      ]
+    },
+    {
+      "name": "Ruins Valley",
+      "encounterCount": 22,
+      "subareas": [
+        "Main area",
+        "Ruins Cavern"
+      ],
+      "mapKeys": [
+        "4,113",
+        "4,79"
       ]
     },
     {
@@ -155,6 +167,11 @@
       "item": "Big Mushroom",
       "mapKey": "4,108",
       "location": "Berry Forest — Area 4, hidden item at tile (7, 3); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "TD23 - Smart Strike",
+      "mapKey": "4,79",
+      "location": "Ruins Valley — Ruins Cavern, hidden item at tile (2, 39); Source: 2026-07-19 ROM audit"
     },
     {
       "item": "X Attack",
@@ -335,6 +352,21 @@
       "item": "Spell Tag",
       "mapKey": "4,109",
       "location": "Berry Forest — Area 5, item ball at tile (18, 6); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "X Accuracy",
+      "mapKey": "4,79",
+      "location": "Ruins Valley — Ruins Cavern, item ball at tile (19, 23); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "Protein",
+      "mapKey": "4,79",
+      "location": "Ruins Valley — Ruins Cavern, item ball at tile (21, 7); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "Full Heal",
+      "mapKey": "4,79",
+      "location": "Ruins Valley — Ruins Cavern, item ball at tile (37, 35); Source: 2026-07-19 ROM audit"
     }
   ],
   "acceptedEncounterTables": [
@@ -393,6 +425,12 @@
       "encounterRate": 10
     },
     {
+      "mapKey": "4,113",
+      "encounterRecordIndex": 124,
+      "method": "Wild",
+      "encounterRate": 15
+    },
+    {
       "mapKey": "1,37",
       "encounterRecordIndex": 145,
       "method": "Wild",
@@ -415,6 +453,12 @@
       "encounterRecordIndex": 185,
       "method": "Wild",
       "encounterRate": 4
+    },
+    {
+      "mapKey": "4,79",
+      "encounterRecordIndex": 190,
+      "method": "Wild",
+      "encounterRate": 11
     },
     {
       "mapKey": "4,105",
@@ -482,6 +526,13 @@
       "reason": "Tree-versus-Rock semantics unresolved",
       "recordIndexes": [
         1
+      ]
+    },
+    {
+      "groupKey": "4,79|tree",
+      "reason": "Tree-versus-Rock semantics unresolved",
+      "recordIndexes": [
+        190
       ]
     }
   ],

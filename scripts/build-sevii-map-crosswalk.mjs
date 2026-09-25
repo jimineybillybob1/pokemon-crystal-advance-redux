@@ -30,11 +30,13 @@ const labels = {
   "2,48": ["Cavern area 2", "high"],
   "2,49": ["Cavern area 3", "high"],
   "3,50": ["Exterior", "high"],
+  "4,79": ["Ruins Cavern", "high"],
   "4,105": ["Area 1", "high"],
   "4,106": ["Area 2", "high"],
   "4,107": ["Area 3", "high"],
   "4,108": ["Area 4", "high"],
   "4,109": ["Area 5", "high"],
+  "4,113": ["Main area", "high"],
   "14,13": ["Interior 1F", "high"],
   "14,14": ["Interior 2F", "high"],
   "14,15": ["Interior 3F", "high"],
@@ -54,6 +56,8 @@ const reviewedReadyNotes = new Map([
   ["2,47", "Reviewed Crystal Cavern interior cluster: sequential layouts and reciprocal internal warps support the neutral area label."],
   ["2,48", "Reviewed Crystal Cavern interior cluster: sequential layouts and reciprocal internal warps support the neutral area label."],
   ["2,49", "Reviewed Crystal Cavern interior cluster: sequential layouts and reciprocal internal warps support the neutral area label."],
+  ["4,79", "Reviewed Ruins Cavern: the cave layout, reciprocal link to the outdoor Ruins Valley map and developer changelog establish the interior label."],
+  ["4,113", "Reviewed Ruins Valley main area: the outdoor layout, direct ROM label and reciprocal Ruins Cavern links support the neutral main-area label."],
 ]);
 
 const countsByMap = new Map(extraction.maps.map((map) => [map.key, {
