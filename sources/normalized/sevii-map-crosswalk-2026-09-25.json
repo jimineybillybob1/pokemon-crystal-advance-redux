@@ -1,0 +1,2496 @@
+{
+  "meta": {
+    "gameVersion": "2026-07-19",
+    "romSha256": "716F2CBFB731E6DC1E014B6B6744B823389262DCC0086A120C1E0FB3D80DD34B",
+    "generatedAt": "2026-09-25T09:43:18.366Z",
+    "purpose": "Reviewable map/subarea boundary between ROM extraction and guide overrides.",
+    "rules": [
+      "A direct ROM region label confirms the parent location but not a user-facing floor/subarea name.",
+      "Only blank-labelled maps with a reciprocal one-step link are retained as linked candidates.",
+      "Generic Map bank,map labels preserve uniqueness without inventing a subarea name.",
+      "A ready map has a stable parent/subarea label; encounter variants and battle semantics remain separate import gates."
+    ]
+  },
+  "summary": {
+    "mapCount": 92,
+    "statusCounts": {
+      "exclude-malformed": 8,
+      "needs-linked-map-review": 10,
+      "needs-parent-review": 2,
+      "needs-review": 31,
+      "ready": 15,
+      "reference-only": 26
+    }
+  },
+  "maps": [
+    {
+      "mapKey": "0,12",
+      "parentLocation": "Mt. Ember",
+      "romRegionName": "Mt. Ember",
+      "inferredRegions": [
+        "Mt. Ember"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 489,
+      "dimensions": {
+        "width": 8,
+        "height": 10
+      },
+      "proposedSubarea": "Map 0,12",
+      "subareaConfidence": "unreviewed",
+      "mapStatus": "needs-review",
+      "counts": {
+        "wildMethods": 0,
+        "battleCommands": 6,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 0
+      },
+      "notes": [
+        "User-facing subarea name has not yet been established.",
+        "Rendered layout resembles reused ship/room maps; verify in-game reachability before importing battles."
+      ]
+    },
+    {
+      "mapKey": "0,13",
+      "parentLocation": "Mt. Ember",
+      "romRegionName": "Mt. Ember",
+      "inferredRegions": [
+        "Mt. Ember"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 492,
+      "dimensions": {
+        "width": 8,
+        "height": 11
+      },
+      "proposedSubarea": "Map 0,13",
+      "subareaConfidence": "unreviewed",
+      "mapStatus": "needs-review",
+      "counts": {
+        "wildMethods": 0,
+        "battleCommands": 2,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 0
+      },
+      "notes": [
+        "User-facing subarea name has not yet been established.",
+        "Rendered layout resembles reused ship/room maps; verify in-game reachability before importing battles."
+      ]
+    },
+    {
+      "mapKey": "1,0",
+      "parentLocation": "Sevii Waterway",
+      "romRegionName": "Sevii Waterway",
+      "inferredRegions": [
+        "Sevii Waterway"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 117,
+      "dimensions": {
+        "width": 42,
+        "height": 64
+      },
+      "proposedSubarea": "Map 1,0",
+      "subareaConfidence": "unreviewed",
+      "mapStatus": "needs-review",
+      "counts": {
+        "wildMethods": 4,
+        "battleCommands": 1,
+        "hiddenItems": 7,
+        "visibleItemCandidates": 5
+      },
+      "notes": [
+        "User-facing subarea name has not yet been established."
+      ]
+    },
+    {
+      "mapKey": "1,1",
+      "parentLocation": "One Island",
+      "romRegionName": "One Island",
+      "inferredRegions": [
+        "One Island"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 114,
+      "dimensions": {
+        "width": 43,
+        "height": 36
+      },
+      "proposedSubarea": "Map 1,1",
+      "subareaConfidence": "unreviewed",
+      "mapStatus": "needs-review",
+      "counts": {
+        "wildMethods": 4,
+        "battleCommands": 0,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 6
+      },
+      "notes": [
+        "User-facing subarea name has not yet been established."
+      ]
+    },
+    {
+      "mapKey": "1,2",
+      "parentLocation": "One Island",
+      "romRegionName": null,
+      "inferredRegions": [
+        "One Island"
+      ],
+      "directSeviiLabel": false,
+      "graphDistance": 1,
+      "layoutId": 115,
+      "dimensions": {
+        "width": 25,
+        "height": 26
+      },
+      "proposedSubarea": "Map 1,2",
+      "subareaConfidence": "unreviewed",
+      "mapStatus": "needs-linked-map-review",
+      "counts": {
+        "wildMethods": 1,
+        "battleCommands": 0,
+        "hiddenItems": 4,
+        "visibleItemCandidates": 0
+      },
+      "notes": [
+        "Parent location is inferred from a reciprocal one-step ROM link.",
+        "User-facing subarea name has not yet been established."
+      ]
+    },
+    {
+      "mapKey": "1,3",
+      "parentLocation": "One Island",
+      "romRegionName": "One Island",
+      "inferredRegions": [
+        "One Island"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 116,
+      "dimensions": {
+        "width": 40,
+        "height": 33
+      },
+      "proposedSubarea": "Map 1,3",
+      "subareaConfidence": "unreviewed",
+      "mapStatus": "needs-review",
+      "counts": {
+        "wildMethods": 4,
+        "battleCommands": 0,
+        "hiddenItems": 1,
+        "visibleItemCandidates": 4
+      },
+      "notes": [
+        "User-facing subarea name has not yet been established."
+      ]
+    },
+    {
+      "mapKey": "1,5",
+      "parentLocation": "Mt. Ember",
+      "romRegionName": "Mt. Ember",
+      "inferredRegions": [
+        "Mt. Ember"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 119,
+      "dimensions": {
+        "width": 38,
+        "height": 21
+      },
+      "proposedSubarea": "Map 1,5",
+      "subareaConfidence": "reference-only",
+      "mapStatus": "reference-only",
+      "counts": {
+        "wildMethods": 0,
+        "battleCommands": 0,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 0
+      },
+      "notes": [
+        "User-facing subarea name has not yet been established."
+      ]
+    },
+    {
+      "mapKey": "1,6",
+      "parentLocation": "Mt. Ember",
+      "romRegionName": "Mt. Ember",
+      "inferredRegions": [
+        "Mt. Ember"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 120,
+      "dimensions": {
+        "width": 34,
+        "height": 16
+      },
+      "proposedSubarea": "Map 1,6",
+      "subareaConfidence": "unreviewed",
+      "mapStatus": "needs-review",
+      "counts": {
+        "wildMethods": 0,
+        "battleCommands": 20,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 0
+      },
+      "notes": [
+        "User-facing subarea name has not yet been established.",
+        "Rendered layout resembles reused ship/room maps; verify in-game reachability before importing battles."
+      ]
+    },
+    {
+      "mapKey": "1,7",
+      "parentLocation": "Mt. Ember",
+      "romRegionName": "Mt. Ember",
+      "inferredRegions": [
+        "Mt. Ember"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 121,
+      "dimensions": {
+        "width": 22,
+        "height": 7
+      },
+      "proposedSubarea": "Map 1,7",
+      "subareaConfidence": "reference-only",
+      "mapStatus": "reference-only",
+      "counts": {
+        "wildMethods": 0,
+        "battleCommands": 0,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 0
+      },
+      "notes": [
+        "User-facing subarea name has not yet been established."
+      ]
+    },
+    {
+      "mapKey": "1,8",
+      "parentLocation": "Mt. Ember",
+      "romRegionName": "Mt. Ember",
+      "inferredRegions": [
+        "Mt. Ember"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 122,
+      "dimensions": {
+        "width": 23,
+        "height": 7
+      },
+      "proposedSubarea": "Map 1,8",
+      "subareaConfidence": "reference-only",
+      "mapStatus": "reference-only",
+      "counts": {
+        "wildMethods": 0,
+        "battleCommands": 0,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 0
+      },
+      "notes": [
+        "User-facing subarea name has not yet been established."
+      ]
+    },
+    {
+      "mapKey": "1,9",
+      "parentLocation": "Mt. Ember",
+      "romRegionName": "Mt. Ember",
+      "inferredRegions": [
+        "Mt. Ember"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 123,
+      "dimensions": {
+        "width": 24,
+        "height": 19
+      },
+      "proposedSubarea": "Map 1,9",
+      "subareaConfidence": "reference-only",
+      "mapStatus": "reference-only",
+      "counts": {
+        "wildMethods": 0,
+        "battleCommands": 0,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 0
+      },
+      "notes": [
+        "User-facing subarea name has not yet been established."
+      ]
+    },
+    {
+      "mapKey": "1,10",
+      "parentLocation": "Mt. Ember",
+      "romRegionName": "Mt. Ember",
+      "inferredRegions": [
+        "Mt. Ember"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 170,
+      "dimensions": {
+        "width": 16,
+        "height": 14
+      },
+      "proposedSubarea": "Map 1,10",
+      "subareaConfidence": "unreviewed",
+      "mapStatus": "needs-review",
+      "counts": {
+        "wildMethods": 0,
+        "battleCommands": 0,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 1
+      },
+      "notes": [
+        "User-facing subarea name has not yet been established.",
+        "Rendered layout resembles reused ship/room maps; verify in-game reachability before importing battles."
+      ]
+    },
+    {
+      "mapKey": "1,11",
+      "parentLocation": "Mt. Ember",
+      "romRegionName": "Mt. Ember",
+      "inferredRegions": [
+        "Mt. Ember"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 171,
+      "dimensions": {
+        "width": 9,
+        "height": 10
+      },
+      "proposedSubarea": "Map 1,11",
+      "subareaConfidence": "reference-only",
+      "mapStatus": "reference-only",
+      "counts": {
+        "wildMethods": 0,
+        "battleCommands": 0,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 0
+      },
+      "notes": [
+        "User-facing subarea name has not yet been established."
+      ]
+    },
+    {
+      "mapKey": "1,12",
+      "parentLocation": "Mt. Ember",
+      "romRegionName": "Mt. Ember",
+      "inferredRegions": [
+        "Mt. Ember"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 177,
+      "dimensions": {
+        "width": -1,
+        "height": -1
+      },
+      "proposedSubarea": "Map 1,12",
+      "subareaConfidence": "reference-only",
+      "mapStatus": "exclude-malformed",
+      "counts": {
+        "wildMethods": 0,
+        "battleCommands": 0,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 0
+      },
+      "notes": [
+        "Map header/layout dimensions are invalid and this record must not be imported.",
+        "User-facing subarea name has not yet been established."
+      ]
+    },
+    {
+      "mapKey": "1,13",
+      "parentLocation": "Mt. Ember",
+      "romRegionName": "Mt. Ember",
+      "inferredRegions": [
+        "Mt. Ember"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 177,
+      "dimensions": {
+        "width": -1,
+        "height": -1
+      },
+      "proposedSubarea": "Map 1,13",
+      "subareaConfidence": "reference-only",
+      "mapStatus": "exclude-malformed",
+      "counts": {
+        "wildMethods": 0,
+        "battleCommands": 0,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 0
+      },
+      "notes": [
+        "Map header/layout dimensions are invalid and this record must not be imported.",
+        "User-facing subarea name has not yet been established."
+      ]
+    },
+    {
+      "mapKey": "1,14",
+      "parentLocation": "Mt. Ember",
+      "romRegionName": "Mt. Ember",
+      "inferredRegions": [
+        "Mt. Ember"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 177,
+      "dimensions": {
+        "width": 601891328,
+        "height": 635446496
+      },
+      "proposedSubarea": "Map 1,14",
+      "subareaConfidence": "reference-only",
+      "mapStatus": "exclude-malformed",
+      "counts": {
+        "wildMethods": 0,
+        "battleCommands": 0,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 0
+      },
+      "notes": [
+        "Map header/layout dimensions are invalid and this record must not be imported.",
+        "User-facing subarea name has not yet been established."
+      ]
+    },
+    {
+      "mapKey": "1,15",
+      "parentLocation": "Mt. Ember",
+      "romRegionName": "Mt. Ember",
+      "inferredRegions": [
+        "Mt. Ember"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 177,
+      "dimensions": {
+        "width": -1,
+        "height": -1
+      },
+      "proposedSubarea": "Map 1,15",
+      "subareaConfidence": "reference-only",
+      "mapStatus": "exclude-malformed",
+      "counts": {
+        "wildMethods": 0,
+        "battleCommands": 0,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 0
+      },
+      "notes": [
+        "Map header/layout dimensions are invalid and this record must not be imported.",
+        "User-facing subarea name has not yet been established."
+      ]
+    },
+    {
+      "mapKey": "1,16",
+      "parentLocation": "Mt. Ember",
+      "romRegionName": "Mt. Ember",
+      "inferredRegions": [
+        "Mt. Ember"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 177,
+      "dimensions": {
+        "width": -1,
+        "height": -1
+      },
+      "proposedSubarea": "Map 1,16",
+      "subareaConfidence": "reference-only",
+      "mapStatus": "exclude-malformed",
+      "counts": {
+        "wildMethods": 0,
+        "battleCommands": 0,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 0
+      },
+      "notes": [
+        "Map header/layout dimensions are invalid and this record must not be imported.",
+        "User-facing subarea name has not yet been established."
+      ]
+    },
+    {
+      "mapKey": "1,17",
+      "parentLocation": "Mt. Ember",
+      "romRegionName": "Mt. Ember",
+      "inferredRegions": [
+        "Mt. Ember"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 177,
+      "dimensions": {
+        "width": -1,
+        "height": -1
+      },
+      "proposedSubarea": "Map 1,17",
+      "subareaConfidence": "reference-only",
+      "mapStatus": "exclude-malformed",
+      "counts": {
+        "wildMethods": 0,
+        "battleCommands": 0,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 0
+      },
+      "notes": [
+        "Map header/layout dimensions are invalid and this record must not be imported.",
+        "User-facing subarea name has not yet been established."
+      ]
+    },
+    {
+      "mapKey": "1,18",
+      "parentLocation": "Icefall Cave",
+      "romRegionName": "Icefall Cave",
+      "inferredRegions": [
+        "Icefall Cave"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 178,
+      "dimensions": {
+        "width": 13,
+        "height": 10
+      },
+      "proposedSubarea": "Map 1,18",
+      "subareaConfidence": "reference-only",
+      "mapStatus": "reference-only",
+      "counts": {
+        "wildMethods": 0,
+        "battleCommands": 0,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 0
+      },
+      "notes": [
+        "User-facing subarea name has not yet been established."
+      ]
+    },
+    {
+      "mapKey": "1,34",
+      "parentLocation": "Two Island",
+      "romRegionName": "Two Island",
+      "inferredRegions": [
+        "Two Island"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 173,
+      "dimensions": {
+        "width": 8,
+        "height": 70
+      },
+      "proposedSubarea": "Map 1,34",
+      "subareaConfidence": "unreviewed",
+      "mapStatus": "needs-review",
+      "counts": {
+        "wildMethods": 0,
+        "battleCommands": 0,
+        "hiddenItems": 7,
+        "visibleItemCandidates": 0
+      },
+      "notes": [
+        "User-facing subarea name has not yet been established."
+      ]
+    },
+    {
+      "mapKey": "1,36",
+      "parentLocation": "Cape Brink",
+      "romRegionName": "Cape Brink",
+      "inferredRegions": [
+        "Cape Brink"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 210,
+      "dimensions": {
+        "width": 10,
+        "height": 8
+      },
+      "proposedSubarea": "Cave room 1",
+      "subareaConfidence": "provisional",
+      "mapStatus": "reference-only",
+      "counts": {
+        "wildMethods": 0,
+        "battleCommands": 0,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 0
+      },
+      "notes": []
+    },
+    {
+      "mapKey": "1,37",
+      "parentLocation": "Cape Brink",
+      "romRegionName": "Cape Brink",
+      "inferredRegions": [
+        "Cape Brink"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 124,
+      "dimensions": {
+        "width": 20,
+        "height": 36
+      },
+      "proposedSubarea": "Main path",
+      "subareaConfidence": "high",
+      "mapStatus": "ready",
+      "counts": {
+        "wildMethods": 1,
+        "battleCommands": 0,
+        "hiddenItems": 1,
+        "visibleItemCandidates": 1
+      },
+      "notes": []
+    },
+    {
+      "mapKey": "1,38",
+      "parentLocation": "Cape Brink",
+      "romRegionName": "Cape Brink",
+      "inferredRegions": [
+        "Cape Brink"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 211,
+      "dimensions": {
+        "width": 10,
+        "height": 8
+      },
+      "proposedSubarea": "Cave room 2",
+      "subareaConfidence": "provisional",
+      "mapStatus": "reference-only",
+      "counts": {
+        "wildMethods": 0,
+        "battleCommands": 0,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 0
+      },
+      "notes": []
+    },
+    {
+      "mapKey": "1,39",
+      "parentLocation": "Three Island",
+      "romRegionName": "Three Island",
+      "inferredRegions": [
+        "Three Island"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 125,
+      "dimensions": {
+        "width": 24,
+        "height": 20
+      },
+      "proposedSubarea": "Cave 1F",
+      "subareaConfidence": "high",
+      "mapStatus": "ready",
+      "counts": {
+        "wildMethods": 1,
+        "battleCommands": 0,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 0
+      },
+      "notes": []
+    },
+    {
+      "mapKey": "1,40",
+      "parentLocation": "Three Island",
+      "romRegionName": "Three Island",
+      "inferredRegions": [
+        "Three Island"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 126,
+      "dimensions": {
+        "width": 24,
+        "height": 22
+      },
+      "proposedSubarea": "Cave 2F",
+      "subareaConfidence": "high",
+      "mapStatus": "ready",
+      "counts": {
+        "wildMethods": 1,
+        "battleCommands": 2,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 3
+      },
+      "notes": []
+    },
+    {
+      "mapKey": "1,41",
+      "parentLocation": "Three Island",
+      "romRegionName": "Three Island",
+      "inferredRegions": [
+        "Three Island"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 127,
+      "dimensions": {
+        "width": 24,
+        "height": 26
+      },
+      "proposedSubarea": "Cave 3F",
+      "subareaConfidence": "high",
+      "mapStatus": "ready",
+      "counts": {
+        "wildMethods": 1,
+        "battleCommands": 0,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 2
+      },
+      "notes": []
+    },
+    {
+      "mapKey": "1,47",
+      "parentLocation": "Four Island",
+      "romRegionName": "Four Island",
+      "inferredRegions": [
+        "Four Island"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 132,
+      "dimensions": {
+        "width": 18,
+        "height": 14
+      },
+      "proposedSubarea": "Map 1,47",
+      "subareaConfidence": "reference-only",
+      "mapStatus": "reference-only",
+      "counts": {
+        "wildMethods": 0,
+        "battleCommands": 0,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 0
+      },
+      "notes": [
+        "User-facing subarea name has not yet been established."
+      ]
+    },
+    {
+      "mapKey": "1,56",
+      "parentLocation": "Icefall Cave",
+      "romRegionName": "Icefall Cave",
+      "inferredRegions": [
+        "Icefall Cave"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 856,
+      "dimensions": {
+        "width": 6,
+        "height": 8
+      },
+      "proposedSubarea": "Map 1,56",
+      "subareaConfidence": "reference-only",
+      "mapStatus": "reference-only",
+      "counts": {
+        "wildMethods": 0,
+        "battleCommands": 0,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 0
+      },
+      "notes": [
+        "User-facing subarea name has not yet been established."
+      ]
+    },
+    {
+      "mapKey": "1,75",
+      "parentLocation": "Memorial Pillar",
+      "romRegionName": "Memorial Pillar",
+      "inferredRegions": [
+        "Memorial Pillar"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 213,
+      "dimensions": {
+        "width": 13,
+        "height": 13
+      },
+      "proposedSubarea": "Battle Room 1",
+      "subareaConfidence": "high",
+      "mapStatus": "ready",
+      "counts": {
+        "wildMethods": 0,
+        "battleCommands": 2,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 0
+      },
+      "notes": []
+    },
+    {
+      "mapKey": "1,76",
+      "parentLocation": "Memorial Pillar",
+      "romRegionName": "Memorial Pillar",
+      "inferredRegions": [
+        "Memorial Pillar"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 214,
+      "dimensions": {
+        "width": 13,
+        "height": 13
+      },
+      "proposedSubarea": "Battle Room 2",
+      "subareaConfidence": "high",
+      "mapStatus": "ready",
+      "counts": {
+        "wildMethods": 0,
+        "battleCommands": 2,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 0
+      },
+      "notes": []
+    },
+    {
+      "mapKey": "1,77",
+      "parentLocation": "Memorial Pillar",
+      "romRegionName": "Memorial Pillar",
+      "inferredRegions": [
+        "Memorial Pillar"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 215,
+      "dimensions": {
+        "width": 13,
+        "height": 13
+      },
+      "proposedSubarea": "Battle Room 3",
+      "subareaConfidence": "high",
+      "mapStatus": "ready",
+      "counts": {
+        "wildMethods": 0,
+        "battleCommands": 2,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 0
+      },
+      "notes": []
+    },
+    {
+      "mapKey": "1,78",
+      "parentLocation": "Memorial Pillar",
+      "romRegionName": "Memorial Pillar",
+      "inferredRegions": [
+        "Memorial Pillar"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 216,
+      "dimensions": {
+        "width": 18,
+        "height": 18
+      },
+      "proposedSubarea": "Battle Room 4",
+      "subareaConfidence": "high",
+      "mapStatus": "ready",
+      "counts": {
+        "wildMethods": 0,
+        "battleCommands": 2,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 0
+      },
+      "notes": []
+    },
+    {
+      "mapKey": "1,79",
+      "parentLocation": "Memorial Pillar",
+      "romRegionName": "Memorial Pillar",
+      "inferredRegions": [
+        "Memorial Pillar"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 217,
+      "dimensions": {
+        "width": 13,
+        "height": 20
+      },
+      "proposedSubarea": "Memorial interior 1",
+      "subareaConfidence": "provisional",
+      "mapStatus": "reference-only",
+      "counts": {
+        "wildMethods": 0,
+        "battleCommands": 0,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 0
+      },
+      "notes": []
+    },
+    {
+      "mapKey": "1,80",
+      "parentLocation": "Memorial Pillar",
+      "romRegionName": "Memorial Pillar",
+      "inferredRegions": [
+        "Memorial Pillar"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 218,
+      "dimensions": {
+        "width": 11,
+        "height": 13
+      },
+      "proposedSubarea": "Memorial interior 2",
+      "subareaConfidence": "provisional",
+      "mapStatus": "reference-only",
+      "counts": {
+        "wildMethods": 0,
+        "battleCommands": 0,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 0
+      },
+      "notes": []
+    },
+    {
+      "mapKey": "1,81",
+      "parentLocation": "Resort Gorgeous",
+      "romRegionName": "Resort Gorgeous",
+      "inferredRegions": [
+        "Resort Gorgeous"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 154,
+      "dimensions": {
+        "width": 48,
+        "height": 44
+      },
+      "proposedSubarea": "Map 1,81",
+      "subareaConfidence": "unreviewed",
+      "mapStatus": "needs-review",
+      "counts": {
+        "wildMethods": 1,
+        "battleCommands": 0,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 2
+      },
+      "notes": [
+        "User-facing subarea name has not yet been established."
+      ]
+    },
+    {
+      "mapKey": "1,82",
+      "parentLocation": "Resort Gorgeous",
+      "romRegionName": "Resort Gorgeous",
+      "inferredRegions": [
+        "Resort Gorgeous"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 155,
+      "dimensions": {
+        "width": 64,
+        "height": 40
+      },
+      "proposedSubarea": "Map 1,82",
+      "subareaConfidence": "unreviewed",
+      "mapStatus": "needs-review",
+      "counts": {
+        "wildMethods": 2,
+        "battleCommands": 0,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 3
+      },
+      "notes": [
+        "User-facing subarea name has not yet been established."
+      ]
+    },
+    {
+      "mapKey": "1,88",
+      "parentLocation": "Berry Forest",
+      "romRegionName": null,
+      "inferredRegions": [
+        "Berry Forest"
+      ],
+      "directSeviiLabel": false,
+      "graphDistance": 1,
+      "layoutId": 161,
+      "dimensions": {
+        "width": 24,
+        "height": 20
+      },
+      "proposedSubarea": "Map 1,88",
+      "subareaConfidence": "reference-only",
+      "mapStatus": "reference-only",
+      "counts": {
+        "wildMethods": 0,
+        "battleCommands": 0,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 0
+      },
+      "notes": [
+        "Parent location is inferred from a reciprocal one-step ROM link.",
+        "User-facing subarea name has not yet been established."
+      ]
+    },
+    {
+      "mapKey": "1,115",
+      "parentLocation": "Sevii Waterway",
+      "romRegionName": null,
+      "inferredRegions": [
+        "Sevii Waterway"
+      ],
+      "directSeviiLabel": false,
+      "graphDistance": 1,
+      "layoutId": 309,
+      "dimensions": {
+        "width": 15,
+        "height": 12
+      },
+      "proposedSubarea": "Map 1,115",
+      "subareaConfidence": "reference-only",
+      "mapStatus": "reference-only",
+      "counts": {
+        "wildMethods": 0,
+        "battleCommands": 0,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 0
+      },
+      "notes": [
+        "Parent location is inferred from a reciprocal one-step ROM link.",
+        "User-facing subarea name has not yet been established."
+      ]
+    },
+    {
+      "mapKey": "1,120",
+      "parentLocation": "Sevii Waterway",
+      "romRegionName": null,
+      "inferredRegions": [
+        "Sevii Waterway"
+      ],
+      "directSeviiLabel": false,
+      "graphDistance": 1,
+      "layoutId": 314,
+      "dimensions": {
+        "width": 13,
+        "height": 11
+      },
+      "proposedSubarea": "Map 1,120",
+      "subareaConfidence": "reference-only",
+      "mapStatus": "reference-only",
+      "counts": {
+        "wildMethods": 0,
+        "battleCommands": 0,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 0
+      },
+      "notes": [
+        "Parent location is inferred from a reciprocal one-step ROM link.",
+        "User-facing subarea name has not yet been established."
+      ]
+    },
+    {
+      "mapKey": "1,125",
+      "parentLocation": "Six Island",
+      "romRegionName": "Six Island",
+      "inferredRegions": [
+        "Six Island"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 856,
+      "dimensions": {
+        "width": 6,
+        "height": 8
+      },
+      "proposedSubarea": "Map 1,125",
+      "subareaConfidence": "reference-only",
+      "mapStatus": "reference-only",
+      "counts": {
+        "wildMethods": 0,
+        "battleCommands": 0,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 0
+      },
+      "notes": [
+        "User-facing subarea name has not yet been established."
+      ]
+    },
+    {
+      "mapKey": "1,137",
+      "parentLocation": "Memorial Pillar",
+      "romRegionName": "Memorial Pillar",
+      "inferredRegions": [
+        "Memorial Pillar"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 735,
+      "dimensions": {
+        "width": 13,
+        "height": 20
+      },
+      "proposedSubarea": "Memorial interior 3",
+      "subareaConfidence": "provisional",
+      "mapStatus": "reference-only",
+      "counts": {
+        "wildMethods": 0,
+        "battleCommands": 0,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 0
+      },
+      "notes": []
+    },
+    {
+      "mapKey": "1,138",
+      "parentLocation": "Memorial Pillar",
+      "romRegionName": "Memorial Pillar",
+      "inferredRegions": [
+        "Memorial Pillar"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 736,
+      "dimensions": {
+        "width": 13,
+        "height": 20
+      },
+      "proposedSubarea": "Memorial interior 4",
+      "subareaConfidence": "provisional",
+      "mapStatus": "reference-only",
+      "counts": {
+        "wildMethods": 0,
+        "battleCommands": 0,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 0
+      },
+      "notes": []
+    },
+    {
+      "mapKey": "2,47",
+      "parentLocation": "Crystal Cavern",
+      "romRegionName": null,
+      "inferredRegions": [
+        "Crystal Cavern"
+      ],
+      "directSeviiLabel": false,
+      "graphDistance": 1,
+      "layoutId": 355,
+      "dimensions": {
+        "width": 52,
+        "height": 54
+      },
+      "proposedSubarea": "Cavern area 1",
+      "subareaConfidence": "provisional",
+      "mapStatus": "needs-linked-map-review",
+      "counts": {
+        "wildMethods": 3,
+        "battleCommands": 0,
+        "hiddenItems": 2,
+        "visibleItemCandidates": 2
+      },
+      "notes": [
+        "Parent location is inferred from a reciprocal one-step ROM link."
+      ]
+    },
+    {
+      "mapKey": "2,48",
+      "parentLocation": "Crystal Cavern",
+      "romRegionName": null,
+      "inferredRegions": [
+        "Crystal Cavern"
+      ],
+      "directSeviiLabel": false,
+      "graphDistance": 1,
+      "layoutId": 356,
+      "dimensions": {
+        "width": 40,
+        "height": 50
+      },
+      "proposedSubarea": "Cavern area 2",
+      "subareaConfidence": "provisional",
+      "mapStatus": "needs-linked-map-review",
+      "counts": {
+        "wildMethods": 1,
+        "battleCommands": 4,
+        "hiddenItems": 1,
+        "visibleItemCandidates": 7
+      },
+      "notes": [
+        "Parent location is inferred from a reciprocal one-step ROM link."
+      ]
+    },
+    {
+      "mapKey": "2,49",
+      "parentLocation": "Crystal Cavern",
+      "romRegionName": "Crystal Cavern",
+      "inferredRegions": [
+        "Crystal Cavern"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 357,
+      "dimensions": {
+        "width": 40,
+        "height": 40
+      },
+      "proposedSubarea": "Cavern area 3",
+      "subareaConfidence": "provisional",
+      "mapStatus": "needs-review",
+      "counts": {
+        "wildMethods": 3,
+        "battleCommands": 2,
+        "hiddenItems": 1,
+        "visibleItemCandidates": 6
+      },
+      "notes": []
+    },
+    {
+      "mapKey": "2,120",
+      "parentLocation": "Memorial Pillar",
+      "romRegionName": "Memorial Pillar",
+      "inferredRegions": [
+        "Memorial Pillar"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 739,
+      "dimensions": {
+        "width": 13,
+        "height": 20
+      },
+      "proposedSubarea": "Memorial interior 5",
+      "subareaConfidence": "provisional",
+      "mapStatus": "reference-only",
+      "counts": {
+        "wildMethods": 0,
+        "battleCommands": 0,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 0
+      },
+      "notes": []
+    },
+    {
+      "mapKey": "3,0",
+      "parentLocation": null,
+      "romRegionName": null,
+      "inferredRegions": [
+        "Icefall Cave",
+        "Underwater Sevii"
+      ],
+      "directSeviiLabel": false,
+      "graphDistance": 1,
+      "layoutId": 230,
+      "dimensions": {
+        "width": 26,
+        "height": 20
+      },
+      "proposedSubarea": "Map 3,0",
+      "subareaConfidence": "unreviewed",
+      "mapStatus": "needs-parent-review",
+      "counts": {
+        "wildMethods": 3,
+        "battleCommands": 0,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 0
+      },
+      "notes": [
+        "Parent location is inferred from a reciprocal one-step ROM link.",
+        "Possible parents: Icefall Cave, Underwater Sevii.",
+        "User-facing subarea name has not yet been established."
+      ]
+    },
+    {
+      "mapKey": "3,45",
+      "parentLocation": "Underwater Sevii",
+      "romRegionName": "Underwater Sevii",
+      "inferredRegions": [
+        "Underwater Sevii"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 237,
+      "dimensions": {
+        "width": 58,
+        "height": 28
+      },
+      "proposedSubarea": "Map 3,45",
+      "subareaConfidence": "unreviewed",
+      "mapStatus": "needs-review",
+      "counts": {
+        "wildMethods": 2,
+        "battleCommands": 0,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 1
+      },
+      "notes": [
+        "User-facing subarea name has not yet been established."
+      ]
+    },
+    {
+      "mapKey": "3,46",
+      "parentLocation": null,
+      "romRegionName": null,
+      "inferredRegions": [
+        "One Island",
+        "Underwater Sevii"
+      ],
+      "directSeviiLabel": false,
+      "graphDistance": 1,
+      "layoutId": 238,
+      "dimensions": {
+        "width": 39,
+        "height": 36
+      },
+      "proposedSubarea": "Map 3,46",
+      "subareaConfidence": "unreviewed",
+      "mapStatus": "needs-parent-review",
+      "counts": {
+        "wildMethods": 2,
+        "battleCommands": 6,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 2
+      },
+      "notes": [
+        "Parent location is inferred from a reciprocal one-step ROM link.",
+        "Possible parents: One Island, Underwater Sevii.",
+        "User-facing subarea name has not yet been established."
+      ]
+    },
+    {
+      "mapKey": "3,50",
+      "parentLocation": "Crystal Cavern",
+      "romRegionName": "Crystal Cavern",
+      "inferredRegions": [
+        "Crystal Cavern"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 242,
+      "dimensions": {
+        "width": 40,
+        "height": 23
+      },
+      "proposedSubarea": "Exterior",
+      "subareaConfidence": "high",
+      "mapStatus": "needs-review",
+      "counts": {
+        "wildMethods": 0,
+        "battleCommands": 0,
+        "hiddenItems": 1,
+        "visibleItemCandidates": 3
+      },
+      "notes": []
+    },
+    {
+      "mapKey": "3,51",
+      "parentLocation": "One Island",
+      "romRegionName": null,
+      "inferredRegions": [
+        "One Island"
+      ],
+      "directSeviiLabel": false,
+      "graphDistance": 1,
+      "layoutId": 243,
+      "dimensions": {
+        "width": 46,
+        "height": 20
+      },
+      "proposedSubarea": "Map 3,51",
+      "subareaConfidence": "unreviewed",
+      "mapStatus": "needs-linked-map-review",
+      "counts": {
+        "wildMethods": 4,
+        "battleCommands": 4,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 2
+      },
+      "notes": [
+        "Parent location is inferred from a reciprocal one-step ROM link.",
+        "User-facing subarea name has not yet been established."
+      ]
+    },
+    {
+      "mapKey": "3,65",
+      "parentLocation": "Underwater Sevii",
+      "romRegionName": null,
+      "inferredRegions": [
+        "Underwater Sevii"
+      ],
+      "directSeviiLabel": false,
+      "graphDistance": 1,
+      "layoutId": 257,
+      "dimensions": {
+        "width": 45,
+        "height": 26
+      },
+      "proposedSubarea": "Map 3,65",
+      "subareaConfidence": "unreviewed",
+      "mapStatus": "needs-linked-map-review",
+      "counts": {
+        "wildMethods": 3,
+        "battleCommands": 0,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 0
+      },
+      "notes": [
+        "Parent location is inferred from a reciprocal one-step ROM link.",
+        "User-facing subarea name has not yet been established."
+      ]
+    },
+    {
+      "mapKey": "3,67",
+      "parentLocation": "One Island",
+      "romRegionName": null,
+      "inferredRegions": [
+        "One Island"
+      ],
+      "directSeviiLabel": false,
+      "graphDistance": 1,
+      "layoutId": 445,
+      "dimensions": {
+        "width": 22,
+        "height": 106
+      },
+      "proposedSubarea": "Map 3,67",
+      "subareaConfidence": "unreviewed",
+      "mapStatus": "needs-linked-map-review",
+      "counts": {
+        "wildMethods": 3,
+        "battleCommands": 15,
+        "hiddenItems": 1,
+        "visibleItemCandidates": 5
+      },
+      "notes": [
+        "Parent location is inferred from a reciprocal one-step ROM link.",
+        "User-facing subarea name has not yet been established."
+      ]
+    },
+    {
+      "mapKey": "3,68",
+      "parentLocation": "Icefall Cave",
+      "romRegionName": "Icefall Cave",
+      "inferredRegions": [
+        "Icefall Cave"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 484,
+      "dimensions": {
+        "width": 80,
+        "height": 23
+      },
+      "proposedSubarea": "Map 3,68",
+      "subareaConfidence": "unreviewed",
+      "mapStatus": "needs-review",
+      "counts": {
+        "wildMethods": 4,
+        "battleCommands": 12,
+        "hiddenItems": 1,
+        "visibleItemCandidates": 2
+      },
+      "notes": [
+        "User-facing subarea name has not yet been established."
+      ]
+    },
+    {
+      "mapKey": "3,69",
+      "parentLocation": "Icefall Cave",
+      "romRegionName": null,
+      "inferredRegions": [
+        "Icefall Cave"
+      ],
+      "directSeviiLabel": false,
+      "graphDistance": 1,
+      "layoutId": 485,
+      "dimensions": {
+        "width": 26,
+        "height": 112
+      },
+      "proposedSubarea": "Map 3,69",
+      "subareaConfidence": "unreviewed",
+      "mapStatus": "needs-linked-map-review",
+      "counts": {
+        "wildMethods": 4,
+        "battleCommands": 12,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 1
+      },
+      "notes": [
+        "Parent location is inferred from a reciprocal one-step ROM link.",
+        "User-facing subarea name has not yet been established."
+      ]
+    },
+    {
+      "mapKey": "3,74",
+      "parentLocation": "Six Island",
+      "romRegionName": "Six Island",
+      "inferredRegions": [
+        "Six Island"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 576,
+      "dimensions": {
+        "width": 46,
+        "height": 40
+      },
+      "proposedSubarea": "Map 3,74",
+      "subareaConfidence": "unreviewed",
+      "mapStatus": "needs-review",
+      "counts": {
+        "wildMethods": 3,
+        "battleCommands": 0,
+        "hiddenItems": 1,
+        "visibleItemCandidates": 0
+      },
+      "notes": [
+        "User-facing subarea name has not yet been established."
+      ]
+    },
+    {
+      "mapKey": "3,75",
+      "parentLocation": "Five Island",
+      "romRegionName": "Five Island",
+      "inferredRegions": [
+        "Five Island"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 858,
+      "dimensions": {
+        "width": 44,
+        "height": 27
+      },
+      "proposedSubarea": "Map 3,75",
+      "subareaConfidence": "unreviewed",
+      "mapStatus": "needs-review",
+      "counts": {
+        "wildMethods": 2,
+        "battleCommands": 0,
+        "hiddenItems": 4,
+        "visibleItemCandidates": 0
+      },
+      "notes": [
+        "User-facing subarea name has not yet been established."
+      ]
+    },
+    {
+      "mapKey": "3,78",
+      "parentLocation": "Icefall Cave",
+      "romRegionName": "Icefall Cave",
+      "inferredRegions": [
+        "Icefall Cave"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 651,
+      "dimensions": {
+        "width": 78,
+        "height": 16
+      },
+      "proposedSubarea": "Map 3,78",
+      "subareaConfidence": "unreviewed",
+      "mapStatus": "needs-review",
+      "counts": {
+        "wildMethods": 2,
+        "battleCommands": 0,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 0
+      },
+      "notes": [
+        "User-facing subarea name has not yet been established."
+      ]
+    },
+    {
+      "mapKey": "3,112",
+      "parentLocation": "Five Island",
+      "romRegionName": "Five Island",
+      "inferredRegions": [
+        "Five Island"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 619,
+      "dimensions": {
+        "width": 26,
+        "height": 40
+      },
+      "proposedSubarea": "Map 3,112",
+      "subareaConfidence": "unreviewed",
+      "mapStatus": "needs-review",
+      "counts": {
+        "wildMethods": 2,
+        "battleCommands": 0,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 0
+      },
+      "notes": [
+        "User-facing subarea name has not yet been established."
+      ]
+    },
+    {
+      "mapKey": "3,113",
+      "parentLocation": "Six Island",
+      "romRegionName": null,
+      "inferredRegions": [
+        "Six Island"
+      ],
+      "directSeviiLabel": false,
+      "graphDistance": 1,
+      "layoutId": 845,
+      "dimensions": {
+        "width": 40,
+        "height": 40
+      },
+      "proposedSubarea": "Map 3,113",
+      "subareaConfidence": "unreviewed",
+      "mapStatus": "needs-linked-map-review",
+      "counts": {
+        "wildMethods": 3,
+        "battleCommands": 0,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 0
+      },
+      "notes": [
+        "Parent location is inferred from a reciprocal one-step ROM link.",
+        "User-facing subarea name has not yet been established."
+      ]
+    },
+    {
+      "mapKey": "4,2",
+      "parentLocation": "Underwater Sevii",
+      "romRegionName": "Underwater Sevii",
+      "inferredRegions": [
+        "Underwater Sevii"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 3,
+      "dimensions": {
+        "width": 15,
+        "height": 12
+      },
+      "proposedSubarea": "Map 4,2",
+      "subareaConfidence": "reference-only",
+      "mapStatus": "reference-only",
+      "counts": {
+        "wildMethods": 0,
+        "battleCommands": 0,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 0
+      },
+      "notes": [
+        "User-facing subarea name has not yet been established."
+      ]
+    },
+    {
+      "mapKey": "4,8",
+      "parentLocation": "Icefall Cave",
+      "romRegionName": null,
+      "inferredRegions": [
+        "Icefall Cave"
+      ],
+      "directSeviiLabel": false,
+      "graphDistance": 1,
+      "layoutId": 473,
+      "dimensions": {
+        "width": 48,
+        "height": 30
+      },
+      "proposedSubarea": "Map 4,8",
+      "subareaConfidence": "unreviewed",
+      "mapStatus": "needs-linked-map-review",
+      "counts": {
+        "wildMethods": 3,
+        "battleCommands": 0,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 1
+      },
+      "notes": [
+        "Parent location is inferred from a reciprocal one-step ROM link.",
+        "User-facing subarea name has not yet been established."
+      ]
+    },
+    {
+      "mapKey": "4,14",
+      "parentLocation": "Mt. Ember",
+      "romRegionName": "Mt. Ember",
+      "inferredRegions": [
+        "Mt. Ember"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 487,
+      "dimensions": {
+        "width": 8,
+        "height": 10
+      },
+      "proposedSubarea": "Map 4,14",
+      "subareaConfidence": "reference-only",
+      "mapStatus": "reference-only",
+      "counts": {
+        "wildMethods": 0,
+        "battleCommands": 0,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 0
+      },
+      "notes": [
+        "User-facing subarea name has not yet been established."
+      ]
+    },
+    {
+      "mapKey": "4,15",
+      "parentLocation": "Mt. Ember",
+      "romRegionName": "Mt. Ember",
+      "inferredRegions": [
+        "Mt. Ember"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 488,
+      "dimensions": {
+        "width": 8,
+        "height": 10
+      },
+      "proposedSubarea": "Map 4,15",
+      "subareaConfidence": "unreviewed",
+      "mapStatus": "needs-review",
+      "counts": {
+        "wildMethods": 0,
+        "battleCommands": 5,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 0
+      },
+      "notes": [
+        "User-facing subarea name has not yet been established.",
+        "Rendered layout resembles reused ship/room maps; verify in-game reachability before importing battles."
+      ]
+    },
+    {
+      "mapKey": "4,16",
+      "parentLocation": "Mt. Ember",
+      "romRegionName": "Mt. Ember",
+      "inferredRegions": [
+        "Mt. Ember"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 489,
+      "dimensions": {
+        "width": 8,
+        "height": 10
+      },
+      "proposedSubarea": "Map 4,16",
+      "subareaConfidence": "unreviewed",
+      "mapStatus": "needs-review",
+      "counts": {
+        "wildMethods": 0,
+        "battleCommands": 2,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 0
+      },
+      "notes": [
+        "User-facing subarea name has not yet been established.",
+        "Rendered layout resembles reused ship/room maps; verify in-game reachability before importing battles."
+      ]
+    },
+    {
+      "mapKey": "4,17",
+      "parentLocation": "Mt. Ember",
+      "romRegionName": "Mt. Ember",
+      "inferredRegions": [
+        "Mt. Ember"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 490,
+      "dimensions": {
+        "width": 524296,
+        "height": 524296
+      },
+      "proposedSubarea": "Map 4,17",
+      "subareaConfidence": "unreviewed",
+      "mapStatus": "exclude-malformed",
+      "counts": {
+        "wildMethods": 0,
+        "battleCommands": 1,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 0
+      },
+      "notes": [
+        "Map header/layout dimensions are invalid and this record must not be imported.",
+        "User-facing subarea name has not yet been established.",
+        "Rendered layout resembles reused ship/room maps; verify in-game reachability before importing battles."
+      ]
+    },
+    {
+      "mapKey": "4,19",
+      "parentLocation": "Mt. Ember",
+      "romRegionName": "Mt. Ember",
+      "inferredRegions": [
+        "Mt. Ember"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 492,
+      "dimensions": {
+        "width": 8,
+        "height": 11
+      },
+      "proposedSubarea": "Map 4,19",
+      "subareaConfidence": "unreviewed",
+      "mapStatus": "needs-review",
+      "counts": {
+        "wildMethods": 0,
+        "battleCommands": 12,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 0
+      },
+      "notes": [
+        "User-facing subarea name has not yet been established.",
+        "Rendered layout resembles reused ship/room maps; verify in-game reachability before importing battles."
+      ]
+    },
+    {
+      "mapKey": "4,20",
+      "parentLocation": "Mt. Ember",
+      "romRegionName": "Mt. Ember",
+      "inferredRegions": [
+        "Mt. Ember"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 493,
+      "dimensions": {
+        "width": 8,
+        "height": 11
+      },
+      "proposedSubarea": "Map 4,20",
+      "subareaConfidence": "unreviewed",
+      "mapStatus": "needs-review",
+      "counts": {
+        "wildMethods": 0,
+        "battleCommands": 4,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 0
+      },
+      "notes": [
+        "User-facing subarea name has not yet been established.",
+        "Rendered layout resembles reused ship/room maps; verify in-game reachability before importing battles."
+      ]
+    },
+    {
+      "mapKey": "4,21",
+      "parentLocation": "Mt. Ember",
+      "romRegionName": "Mt. Ember",
+      "inferredRegions": [
+        "Mt. Ember"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 494,
+      "dimensions": {
+        "width": 8,
+        "height": 11
+      },
+      "proposedSubarea": "Map 4,21",
+      "subareaConfidence": "unreviewed",
+      "mapStatus": "needs-review",
+      "counts": {
+        "wildMethods": 0,
+        "battleCommands": 4,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 0
+      },
+      "notes": [
+        "User-facing subarea name has not yet been established.",
+        "Rendered layout resembles reused ship/room maps; verify in-game reachability before importing battles."
+      ]
+    },
+    {
+      "mapKey": "4,47",
+      "parentLocation": "Two Island",
+      "romRegionName": "Two Island",
+      "inferredRegions": [
+        "Two Island"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 533,
+      "dimensions": {
+        "width": 13,
+        "height": 10
+      },
+      "proposedSubarea": "Map 4,47",
+      "subareaConfidence": "unreviewed",
+      "mapStatus": "needs-review",
+      "counts": {
+        "wildMethods": 2,
+        "battleCommands": 0,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 0
+      },
+      "notes": [
+        "User-facing subarea name has not yet been established."
+      ]
+    },
+    {
+      "mapKey": "4,48",
+      "parentLocation": "Two Island",
+      "romRegionName": "Two Island",
+      "inferredRegions": [
+        "Two Island"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 534,
+      "dimensions": {
+        "width": 80,
+        "height": 7
+      },
+      "proposedSubarea": "Map 4,48",
+      "subareaConfidence": "unreviewed",
+      "mapStatus": "needs-review",
+      "counts": {
+        "wildMethods": 2,
+        "battleCommands": 0,
+        "hiddenItems": 7,
+        "visibleItemCandidates": 0
+      },
+      "notes": [
+        "User-facing subarea name has not yet been established."
+      ]
+    },
+    {
+      "mapKey": "4,49",
+      "parentLocation": "Two Island",
+      "romRegionName": "Two Island",
+      "inferredRegions": [
+        "Two Island"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 535,
+      "dimensions": {
+        "width": 13,
+        "height": 10
+      },
+      "proposedSubarea": "Map 4,49",
+      "subareaConfidence": "unreviewed",
+      "mapStatus": "needs-review",
+      "counts": {
+        "wildMethods": 3,
+        "battleCommands": 0,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 0
+      },
+      "notes": [
+        "User-facing subarea name has not yet been established."
+      ]
+    },
+    {
+      "mapKey": "4,79",
+      "parentLocation": "Ruins Valley",
+      "romRegionName": "Ruins Valley",
+      "inferredRegions": [
+        "Ruins Valley"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 565,
+      "dimensions": {
+        "width": 48,
+        "height": 43
+      },
+      "proposedSubarea": "Map 4,79",
+      "subareaConfidence": "unreviewed",
+      "mapStatus": "needs-review",
+      "counts": {
+        "wildMethods": 2,
+        "battleCommands": 0,
+        "hiddenItems": 1,
+        "visibleItemCandidates": 3
+      },
+      "notes": [
+        "User-facing subarea name has not yet been established."
+      ]
+    },
+    {
+      "mapKey": "4,80",
+      "parentLocation": "Ruins Valley",
+      "romRegionName": "Ruins Valley",
+      "inferredRegions": [
+        "Ruins Valley"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 566,
+      "dimensions": {
+        "width": 27,
+        "height": 19
+      },
+      "proposedSubarea": "Map 4,80",
+      "subareaConfidence": "reference-only",
+      "mapStatus": "reference-only",
+      "counts": {
+        "wildMethods": 0,
+        "battleCommands": 0,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 0
+      },
+      "notes": [
+        "User-facing subarea name has not yet been established."
+      ]
+    },
+    {
+      "mapKey": "4,90",
+      "parentLocation": "Six Island",
+      "romRegionName": "Six Island",
+      "inferredRegions": [
+        "Six Island"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 577,
+      "dimensions": {
+        "width": 13,
+        "height": 10
+      },
+      "proposedSubarea": "Map 4,90",
+      "subareaConfidence": "reference-only",
+      "mapStatus": "reference-only",
+      "counts": {
+        "wildMethods": 0,
+        "battleCommands": 0,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 0
+      },
+      "notes": [
+        "User-facing subarea name has not yet been established."
+      ]
+    },
+    {
+      "mapKey": "4,105",
+      "parentLocation": "Berry Forest",
+      "romRegionName": "Berry Forest",
+      "inferredRegions": [
+        "Berry Forest"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 594,
+      "dimensions": {
+        "width": 24,
+        "height": 20
+      },
+      "proposedSubarea": "Area 1",
+      "subareaConfidence": "high",
+      "mapStatus": "ready",
+      "counts": {
+        "wildMethods": 1,
+        "battleCommands": 0,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 0
+      },
+      "notes": []
+    },
+    {
+      "mapKey": "4,106",
+      "parentLocation": "Berry Forest",
+      "romRegionName": "Berry Forest",
+      "inferredRegions": [
+        "Berry Forest"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 595,
+      "dimensions": {
+        "width": 24,
+        "height": 20
+      },
+      "proposedSubarea": "Area 2",
+      "subareaConfidence": "high",
+      "mapStatus": "ready",
+      "counts": {
+        "wildMethods": 2,
+        "battleCommands": 3,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 1
+      },
+      "notes": []
+    },
+    {
+      "mapKey": "4,107",
+      "parentLocation": "Berry Forest",
+      "romRegionName": "Berry Forest",
+      "inferredRegions": [
+        "Berry Forest"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 596,
+      "dimensions": {
+        "width": 24,
+        "height": 20
+      },
+      "proposedSubarea": "Area 3",
+      "subareaConfidence": "high",
+      "mapStatus": "ready",
+      "counts": {
+        "wildMethods": 2,
+        "battleCommands": 3,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 3
+      },
+      "notes": []
+    },
+    {
+      "mapKey": "4,108",
+      "parentLocation": "Berry Forest",
+      "romRegionName": "Berry Forest",
+      "inferredRegions": [
+        "Berry Forest"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 597,
+      "dimensions": {
+        "width": 24,
+        "height": 20
+      },
+      "proposedSubarea": "Area 4",
+      "subareaConfidence": "high",
+      "mapStatus": "ready",
+      "counts": {
+        "wildMethods": 2,
+        "battleCommands": 4,
+        "hiddenItems": 1,
+        "visibleItemCandidates": 2
+      },
+      "notes": []
+    },
+    {
+      "mapKey": "4,109",
+      "parentLocation": "Berry Forest",
+      "romRegionName": "Berry Forest",
+      "inferredRegions": [
+        "Berry Forest"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 598,
+      "dimensions": {
+        "width": 24,
+        "height": 20
+      },
+      "proposedSubarea": "Area 5",
+      "subareaConfidence": "high",
+      "mapStatus": "ready",
+      "counts": {
+        "wildMethods": 1,
+        "battleCommands": 0,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 3
+      },
+      "notes": []
+    },
+    {
+      "mapKey": "4,113",
+      "parentLocation": "Ruins Valley",
+      "romRegionName": "Ruins Valley",
+      "inferredRegions": [
+        "Ruins Valley"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 602,
+      "dimensions": {
+        "width": 40,
+        "height": 20
+      },
+      "proposedSubarea": "Map 4,113",
+      "subareaConfidence": "unreviewed",
+      "mapStatus": "needs-review",
+      "counts": {
+        "wildMethods": 1,
+        "battleCommands": 0,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 0
+      },
+      "notes": [
+        "User-facing subarea name has not yet been established."
+      ]
+    },
+    {
+      "mapKey": "5,36",
+      "parentLocation": "Mt. Ember",
+      "romRegionName": "Mt. Ember",
+      "inferredRegions": [
+        "Mt. Ember"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 663,
+      "dimensions": {
+        "width": 8,
+        "height": 10
+      },
+      "proposedSubarea": "Map 5,36",
+      "subareaConfidence": "reference-only",
+      "mapStatus": "reference-only",
+      "counts": {
+        "wildMethods": 0,
+        "battleCommands": 0,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 0
+      },
+      "notes": [
+        "User-facing subarea name has not yet been established."
+      ]
+    },
+    {
+      "mapKey": "5,75",
+      "parentLocation": "Five Island",
+      "romRegionName": "Five Island",
+      "inferredRegions": [
+        "Five Island"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 805,
+      "dimensions": {
+        "width": 28,
+        "height": 24
+      },
+      "proposedSubarea": "Map 5,75",
+      "subareaConfidence": "unreviewed",
+      "mapStatus": "needs-review",
+      "counts": {
+        "wildMethods": 2,
+        "battleCommands": 0,
+        "hiddenItems": 6,
+        "visibleItemCandidates": 2
+      },
+      "notes": [
+        "User-facing subarea name has not yet been established."
+      ]
+    },
+    {
+      "mapKey": "5,78",
+      "parentLocation": "Five Island",
+      "romRegionName": "Five Island",
+      "inferredRegions": [
+        "Five Island"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 808,
+      "dimensions": {
+        "width": 23,
+        "height": 18
+      },
+      "proposedSubarea": "Map 5,78",
+      "subareaConfidence": "unreviewed",
+      "mapStatus": "needs-review",
+      "counts": {
+        "wildMethods": 2,
+        "battleCommands": 0,
+        "hiddenItems": 2,
+        "visibleItemCandidates": 1
+      },
+      "notes": [
+        "User-facing subarea name has not yet been established."
+      ]
+    },
+    {
+      "mapKey": "6,13",
+      "parentLocation": "Four Island",
+      "romRegionName": "Four Island",
+      "inferredRegions": [
+        "Four Island"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 16259,
+      "dimensions": {
+        "width": -1,
+        "height": -1
+      },
+      "proposedSubarea": "Map 6,13",
+      "subareaConfidence": "reference-only",
+      "mapStatus": "exclude-malformed",
+      "counts": {
+        "wildMethods": 0,
+        "battleCommands": 0,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 0
+      },
+      "notes": [
+        "Map header/layout dimensions are invalid and this record must not be imported.",
+        "User-facing subarea name has not yet been established."
+      ]
+    },
+    {
+      "mapKey": "6,30",
+      "parentLocation": "Icefall Cave",
+      "romRegionName": null,
+      "inferredRegions": [
+        "Icefall Cave"
+      ],
+      "directSeviiLabel": false,
+      "graphDistance": 1,
+      "layoutId": 850,
+      "dimensions": {
+        "width": 55,
+        "height": 40
+      },
+      "proposedSubarea": "Map 6,30",
+      "subareaConfidence": "unreviewed",
+      "mapStatus": "needs-linked-map-review",
+      "counts": {
+        "wildMethods": 2,
+        "battleCommands": 0,
+        "hiddenItems": 6,
+        "visibleItemCandidates": 2
+      },
+      "notes": [
+        "Parent location is inferred from a reciprocal one-step ROM link.",
+        "User-facing subarea name has not yet been established."
+      ]
+    },
+    {
+      "mapKey": "14,13",
+      "parentLocation": "Four Island",
+      "romRegionName": "Four Island",
+      "inferredRegions": [
+        "Four Island"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 528,
+      "dimensions": {
+        "width": 36,
+        "height": 23
+      },
+      "proposedSubarea": "Interior 1F",
+      "subareaConfidence": "high",
+      "mapStatus": "ready",
+      "counts": {
+        "wildMethods": 0,
+        "battleCommands": 0,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 1
+      },
+      "notes": []
+    },
+    {
+      "mapKey": "14,14",
+      "parentLocation": "Four Island",
+      "romRegionName": "Four Island",
+      "inferredRegions": [
+        "Four Island"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 529,
+      "dimensions": {
+        "width": 36,
+        "height": 22
+      },
+      "proposedSubarea": "Interior 2F",
+      "subareaConfidence": "high",
+      "mapStatus": "ready",
+      "counts": {
+        "wildMethods": 0,
+        "battleCommands": 0,
+        "hiddenItems": 1,
+        "visibleItemCandidates": 1
+      },
+      "notes": []
+    },
+    {
+      "mapKey": "14,15",
+      "parentLocation": "Four Island",
+      "romRegionName": "Four Island",
+      "inferredRegions": [
+        "Four Island"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 530,
+      "dimensions": {
+        "width": 17,
+        "height": 20
+      },
+      "proposedSubarea": "Interior 3F",
+      "subareaConfidence": "high",
+      "mapStatus": "reference-only",
+      "counts": {
+        "wildMethods": 0,
+        "battleCommands": 0,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 0
+      },
+      "notes": []
+    },
+    {
+      "mapKey": "15,0",
+      "parentLocation": "Six Island",
+      "romRegionName": "Six Island",
+      "inferredRegions": [
+        "Six Island"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 221,
+      "dimensions": {
+        "width": 16,
+        "height": 10
+      },
+      "proposedSubarea": "Map 15,0",
+      "subareaConfidence": "unreviewed",
+      "mapStatus": "needs-review",
+      "counts": {
+        "wildMethods": 4,
+        "battleCommands": 0,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 0
+      },
+      "notes": [
+        "User-facing subarea name has not yet been established."
+      ]
+    },
+    {
+      "mapKey": "28,0",
+      "parentLocation": "Icefall Cave",
+      "romRegionName": "Icefall Cave",
+      "inferredRegions": [
+        "Icefall Cave"
+      ],
+      "directSeviiLabel": true,
+      "graphDistance": 0,
+      "layoutId": 222,
+      "dimensions": {
+        "width": 12,
+        "height": 9
+      },
+      "proposedSubarea": "Map 28,0",
+      "subareaConfidence": "reference-only",
+      "mapStatus": "reference-only",
+      "counts": {
+        "wildMethods": 0,
+        "battleCommands": 0,
+        "hiddenItems": 0,
+        "visibleItemCandidates": 0
+      },
+      "notes": [
+        "User-facing subarea name has not yet been established."
+      ]
+    }
+  ]
+}

@@ -140,7 +140,8 @@
       "Ilex Forest — Cut, N of Headbutt man in the Center; Source: Hidden",
       "Lake of Rage — Dive, SW rock; Source: Hidden",
       "Soul House Basement — B4F, N, NW of Jody in alcove; Source: Hidden",
-      "Wild Pokémon — Parasect, Breloom; Source: Held"
+      "Wild Pokémon — Parasect, Breloom; Source: Held",
+      "Berry Forest — Area 4, hidden item at tile (7, 3); Source: 2026-07-19 ROM audit"
     ],
     "costs": []
   },
@@ -669,7 +670,9 @@
       "Soul House Basement — B4F, SW alcove; Source: Wild",
       "Celadon City — Game Corner, SE corner, box in Giovanni room; Source: Hidden",
       "Celadon City — Game Corner, Right Assistant - 1500 Coins; Source: Shop",
-      "Wild Pokémon — Porygon2; Source: Held"
+      "Wild Pokémon — Porygon2; Source: Held",
+      "Four Island — Interior 2F, hidden item at tile (2, 2); Source: 2026-07-19 ROM audit",
+      "Berry Forest — Area 4, item ball at tile (6, 16); Source: 2026-07-19 ROM audit"
     ],
     "costs": []
   },
@@ -693,7 +696,8 @@
       "Soul House — 2F, Defeat Agatha; Source: Person",
       "Soul House Basement — B2F, North; Source: Wild",
       "Cinnabar Island — Mart - $2100; Source: Shop",
-      "Wild Pokémon — Murkrow, Misdreavus, Galarian Zigzagoon, Galarian Linoone; Source: Held"
+      "Wild Pokémon — Murkrow, Misdreavus, Galarian Zigzagoon, Galarian Linoone; Source: Held",
+      "Berry Forest — Area 2, item ball at tile (13, 2); Source: 2026-07-19 ROM audit"
     ],
     "costs": []
   },
@@ -778,7 +782,8 @@
       "Soul House Basement — B3F, North; Source: Wild",
       "Rock Tunnel — 1F, Center, access from South; Source: Wild",
       "Power Plant — Rear Room, NE area; Source: Wild",
-      "Route 02 — SE corner; Source: Wild"
+      "Route 02 — SE corner; Source: Wild",
+      "Berry Forest — Area 3, item ball at tile (13, 4); Source: 2026-07-19 ROM audit"
     ],
     "costs": []
   },
@@ -1029,7 +1034,8 @@
       "Power Plant — Rear Room, Center, go past NE area; Source: Wild",
       "Viridian Forest — West, next to 4 red flowers; Source: Wild",
       "Viridian Forest — N, SE corner of tree that is NE of Abner; Source: Hidden",
-      "Mt. Moon — 2F, South cave entrance from Square; Source: Wild"
+      "Mt. Moon — 2F, South cave entrance from Square; Source: Wild",
+      "Three Island — Cave 3F, item ball at tile (17, 2); Source: 2026-07-19 ROM audit"
     ],
     "costs": []
   },
@@ -1051,7 +1057,8 @@
       "Pallet Town — Dive, NE rock; Source: Hidden",
       "Mt. Silver — 2F, NE Cave, NE; Source: Wild",
       "Cerulean Cave — 1F, SW; Source: Wild",
-      "Cerulean Cave — 2F, East, via 1F NE ladder; Source: Wild"
+      "Cerulean Cave — 2F, East, via 1F NE ladder; Source: Wild",
+      "Three Island — Cave 2F, item ball at tile (20, 5); Source: 2026-07-19 ROM audit"
     ],
     "costs": []
   },
@@ -1343,7 +1350,8 @@
       "Victory Road — 2F, S; Source: Wild",
       "Power Plant — Rear Room, Center heading East; Source: Wild",
       "Celadon City — Mall, 5F North Assistant - $2000; Source: Shop",
-      "Route 04 — NE area; Source: Wild"
+      "Route 04 — NE area; Source: Wild",
+      "Three Island — Cave 2F, item ball at tile (9, 14); Source: 2026-07-19 ROM audit"
     ],
     "costs": []
   },
@@ -2061,7 +2069,10 @@
       "Power Plant — Rear Room, S from the Center, SW corner; Source: Wild",
       "Fuchsia City — Cut, East side; Source: Wild",
       "Diglett`s Cave — Rock on its own in the North against wall; Source: Hidden",
-      "Mt. Silver — 2F, C Cave, NE; Source: Wild"
+      "Mt. Silver — 2F, C Cave, NE; Source: Wild",
+      "Cape Brink — Main path, hidden item at tile (7, 10); Source: 2026-07-19 ROM audit",
+      "Three Island — Cave 3F, item ball at tile (14, 2); Source: 2026-07-19 ROM audit",
+      "Berry Forest — Area 4, item ball at tile (11, 9); Source: 2026-07-19 ROM audit"
     ],
     "costs": []
   },
@@ -2784,7 +2795,8 @@
       "Blackthorn City — Man in Move Deleter house - $2100; Source: Shop",
       "Fuchsia City — Man in Central house - $2100; Source: Shop",
       "Safari Zone — Area 3, S, SW of grass; Source: Wild",
-      "Wild Pokémon — Rhyhorn, Rhydon; Source: Held"
+      "Wild Pokémon — Rhyhorn, Rhydon; Source: Held",
+      "Cape Brink — Main path, item ball at tile (15, 14); Source: 2026-07-19 ROM audit"
     ],
     "costs": []
   },
@@ -2827,7 +2839,8 @@
       "Goldenrod City — Radio Tower, 1F, Male Receptionist; Source: Person; Qty: 5",
       "Soul House Basement — B3F, South; Source: Wild",
       "Celadon City — Mall, 4F - $1000; Source: Shop",
-      "Mt. Silver — 2F, C Cave, Rocket Grunt - $1000; Source: Shop"
+      "Mt. Silver — 2F, C Cave, Rocket Grunt - $1000; Source: Shop",
+      "Berry Forest — Area 3, item ball at tile (11, 16); Source: 2026-07-19 ROM audit"
     ],
     "costs": []
   },
@@ -2901,7 +2914,9 @@
       "Cinnabar Island — NW corner on the grass; Source: Hidden",
       "Route 20 — Dive, E, Small rock, corner touching wall; Source: Hidden",
       "Route 28 — NE bush, past house. Access from Mt. Silver; Source: Hidden",
-      "Mt. Silver — 2F, C Cave, Rocket Grunt - $25000; Source: Shop"
+      "Mt. Silver — 2F, C Cave, Rocket Grunt - $25000; Source: Shop",
+      "Four Island — Interior 1F, item ball at tile (25, 2); Source: 2026-07-19 ROM audit",
+      "Berry Forest — Area 5, item ball at tile (9, 14); Source: 2026-07-19 ROM audit"
     ],
     "costs": []
   },
@@ -3455,7 +3470,8 @@
       "Soul House Basement — B3F, Center, slightly West; Source: Wild",
       "Cerulean City — NE corner of sand outside Cerulean Cave; Source: Hidden",
       "Fuchsia City — Man in Central house - $1000; Source: Shop",
-      "Wild Pokémon — Golbat, Pichu, Cleffa, Igglybuff, Wynaut, Budew, Chingling, Riolu; Source: Held"
+      "Wild Pokémon — Golbat, Pichu, Cleffa, Igglybuff, Wynaut, Budew, Chingling, Riolu; Source: Held",
+      "Berry Forest — Area 3, item ball at tile (8, 11); Source: 2026-07-19 ROM audit"
     ],
     "costs": []
   },
@@ -3477,7 +3493,8 @@
       "Blackthorn City — Santos on Saturday, ledge SE of Gym; Source: Person",
       "Soul House Basement — B5F, NE alcove; Source: Wild",
       "Fuchsia City — Man in Central house - $2100; Source: Shop",
-      "Wild Pokémon — Gastly, Haunter, Gengar, Sableye, Shuppet, Banette, Dusclops, Mismagius, Spiritomb; Source: Held"
+      "Wild Pokémon — Gastly, Haunter, Gengar, Sableye, Shuppet, Banette, Dusclops, Mismagius, Spiritomb; Source: Held",
+      "Berry Forest — Area 5, item ball at tile (18, 6); Source: 2026-07-19 ROM audit"
     ],
     "costs": []
   },
@@ -4707,7 +4724,8 @@
     "category": "TM & HM",
     "sprite": "assets/art/placeholder-icon.svg",
     "locations": [
-      "Victory Road — 2F, NW, access from 3F NW hole; Source: Wild"
+      "Victory Road — 2F, NW, access from 3F NW hole; Source: Wild",
+      "Three Island — Cave 2F, item ball at tile (7, 4); Source: 2026-07-19 ROM audit"
     ],
     "costs": [],
     "move": null
@@ -5273,7 +5291,8 @@
       "Mt. Silver — 2F, E, East of 3 stairs; Source: Wild",
       "Cerulean Cave — 1F, Center, rock on its own; Source: Hidden",
       "Cerulean Cave — 2F, SE, via 1F E ladder; Source: Wild",
-      "Cerulean Cave — B1F, Center, slightly East on raised area; Source: Wild"
+      "Cerulean Cave — B1F, Center, slightly East on raised area; Source: Wild",
+      "Four Island — Interior 2F, item ball at tile (34, 3); Source: 2026-07-19 ROM audit"
     ],
     "costs": []
   },
@@ -5454,7 +5473,8 @@
     "category": "Held Items",
     "locations": [
       "Battle Tower — SE Corner - $10000; Source: Shop",
-      "Soul House Basement — B5F, NW alcove; Source: Wild"
+      "Soul House Basement — B5F, NW alcove; Source: Wild",
+      "Berry Forest — Area 5, item ball at tile (6, 4); Source: 2026-07-19 ROM audit"
     ],
     "costs": []
   },

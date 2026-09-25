@@ -1,10 +1,10 @@
 # Guide setup status
 
-- Status: Advanced guide refinement deployed and verified
-- Current phase: Template-conformance review and source-gap follow-up
-- Readiness: Advanced ready and live; exact source-scoped baseline, recovery controls, offline support and accessibility refinements implemented
-- Last updated: 2026-09-24
-- Next step: Continue seeking version-matched Sevii tables and final custom-form/item assets.
+- Status: Advanced guide refinement live; first safe Sevii tranche imported and verified locally
+- Current phase: Sevii source-gap follow-up
+- Readiness: Advanced ready; exact source-scoped baseline, recovery controls, offline support and accessibility refinements implemented; latest Sevii data awaits deployment approval
+- Last updated: 2026-09-25
+- Next step: Runtime-review the remaining 43 active Sevii maps and resolve Tree/Rock, Dive, alternate-table and trainer-stage semantics before a second import tranche.
 
 ## Progress
 
@@ -13,12 +13,12 @@
 | Identity | Complete | Pokémon Crystal Advance Redux 2026-07-19; Johto and Kanto; Pokémon FireRed v1.0 (GBA) |
 | Baseline profile | Complete | Pinned Scarlet/Violet mechanics definitions; exact 577-form hack allowlist; 766 explicit move fallbacks; 203 explicit item fallbacks; generic baseline learnsets/items/prices disabled; local sprites yes |
 | Feature scope | Complete | Core and Planning required; Cloud save/sync promoted to required; remaining Advanced features later |
-| Source inventory | Complete | Community workbook, official forum thread and official developer changelog screenshots inventoried |
-| Core data | Imported and validated | 596 Pokémon forms imported across 553 numbered in-game Pokédex entries and 43 unnumbered special/Form Changer forms; 13 unavailable Paradox rows are retained only as dormant source records and hidden guide-wide, leaving 583 user-visible forms; numbered regional forms track catches separately, while unnumbered same-species forms such as Pikachu Surf/Fly/Partner share their numbered carousel; 95 locations, 2,642 standard encounter rows and 167 other acquisition entries imported; all 648 fishing rows retain their Old/Good/Super Rod requirement; Seasonal Migration is separate; later Sevii content remains a gap |
+| Source inventory | Complete | Community workbook, official forum thread, developer changelog screenshots and a read-only audit of the user's version-matched 2026-07-19 ROM are inventoried |
+| Core data | Imported and validated | 596 Pokémon forms imported across 553 numbered in-game Pokédex entries and 43 unnumbered special/Form Changer forms; 13 unavailable Paradox rows are retained only as dormant source records and hidden guide-wide, leaving 583 user-visible forms; numbered regional forms track catches separately, while unnumbered same-species forms such as Pikachu Surf/Fly/Partner share their numbered carousel; 98 locations and 2,750 standard encounter rows are active, including 108 ROM-derived Sevii rows across Berry Forest, Cape Brink and Three Island; 167 other acquisition entries remain imported; all 648 workbook fishing rows retain their Old/Good/Super Rod requirement; Seasonal Migration is separate |
 | Planning data | Imported and validated | All 766 workbook-used moves have complete fallback definitions; all 451 workbook items remain visible (203 canonical definitions plus 248 custom records), with no unrelated mainline items or generic prices; custom item details remain provisional |
 | Advanced data | Partial / battles, badges, profile and cloud sync complete | Encrypted Cloudflare Worker/KV sync is configured; all 16 Johto/Kanto badges and 700 workbook battle records are active, including 668 populated trainer teams, 229 VS Seeker rematches and 32 intentionally hidden Gym Leader records; trainer/rival configuration is saved and synced; maps remain deferred |
-| Local build | Complete | Baseline rebuilt and merged; validation, provenance, local-asset and Worker tests pass. Desktop, 390×844 touch layout, exact encounter targeting, return navigation, persistent theme and a complete server-offline reload were verified in-browser with no new console errors or horizontal overflow |
-| Deployment | Complete and verified | The 2026-09-24 refinement was deployed to GitHub Pages from commit `e5dfec8`; the live guide and service worker returned HTTP 200 over enforced HTTPS. Cloudflare Worker/KV remains configured. |
+| Local build | Complete | Baseline rebuilt and merged; validation, provenance, local-asset and Worker tests pass. The first safe Sevii tranche was verified at desktop and 390×844 touch width, including area/floor ordering and item detail links, with no console errors or horizontal overflow |
+| Deployment | Previous release verified; latest tranche pending | The 2026-09-24 refinement was deployed to GitHub Pages from commit `e5dfec8`; the live guide and service worker returned HTTP 200 over enforced HTTPS. The 2026-09-25 Sevii tranche is local only and has not been deployed. Cloudflare Worker/KV remains configured. |
 
 ## Confirmed decisions
 
@@ -35,14 +35,14 @@
 |---|---|---|---|
 | Pokédex, forms, stats, abilities and evolutions | Strong through 2026-07-01 | `sources/inbox/Crystal Advance Redux.xlsx` | Verify changes through 2026-07-19 and distinct form assets |
 | Moves and learnsets | Strong through 2026-07-01 | `sources/inbox/Crystal Advance Redux.xlsx` | Verify post-2026-07-01 changes and move effects |
-| Wild encounters and other acquisition | Strong through 2026-07-01 | Workbook plus developer changelog screenshots | Seasonal pools are region-wide rather than route-specific; post-2026-07-01 Sevii tables absent |
-| Items and shops | Strong through 2026-07-01 | `sources/inbox/Crystal Advance Redux.xlsx` | Verify Route 31 Potion fix and later Sevii placements |
-| Trainer and boss battles | Strong through 2026-07-01 | Workbook plus official developer thread/changelog and canonical Gym references | Imported 668 populated trainer teams plus 32 initial/rematch Gym Leader records whose Pokémon are hidden by design, including 229 VS Seeker rematches; moves, abilities, items and natures are absent, and post-workbook teams still need review |
+| Wild encounters and other acquisition | Strong through 2026-07-01; first safe binary-derived Sevii tranche imported | Workbook, developer changelog and version-matched local ROM audit | 108 all-day Wild rows are active across Berry Forest Areas 1-5, Cape Brink Main path and Three Island Cave 1F-3F; Tree/Rock, Dive, alternate tables and remaining map interpretation still gate broader import |
+| Items and shops | Strong through 2026-07-01; first safe binary-derived Sevii placements imported | Workbook plus version-matched local ROM audit | Twenty standard/hidden placements are active across stable mapped areas; verify Route 31 Potion fix, scripted gifts, shops and rewards |
+| Trainer and boss battles | Strong through 2026-07-01; binary-derived Sevii commands/teams captured | Workbook, official developer thread/changelog, canonical Gym references and version-matched local ROM audit | Imported 668 populated trainer teams plus 32 initial/rematch Gym Leader records whose Pokémon are hidden by design, including 229 VS Seeker rematches; ROM-derived Sevii commands need battle-stage and subarea mapping before import |
 | Badges, maps and branding | Partial | Workbook level caps, official developer thread and SteamGridDB | Selected hero, logo and app icon imported with attribution; reusable maps remain unavailable |
 
 ## Open questions
 
-- Obtain post-2026-07-01 Sevii encounter, item and trainer tables when sources become available.
+- Import only the map-stable Sevii encounter/item records that do not depend on unresolved Tree/Rock, repeated-row or trainer-stage semantics. Continue runtime review for 43 active maps not yet marked ready. See `sources/normalized/sevii-map-crosswalk-2026-09-25.json` and `sources/reports/sevii-source-audit-2026-09-25.md`.
 - Confirm whether Seasonal Migration is intentionally region-wide or has an undisclosed eligible-route list.
 - Verify whether Crystal Advance Redux changes any inherited move effects, and replace provisional custom item details and the remaining Eevee-Partner placeholder sprite with a version-matched source/asset; replace the three provisional Pikachu form sprites if developer assets become available.
 - Supply dedicated egg-source pools if the game has them; workbook egg moves are imported, but no hatch-source table was identified.
@@ -50,6 +50,9 @@
 
 ## Activity log
 
+- 2026-09-25 first safe Sevii import: added 108 all-day Wild encounter rows across Berry Forest Areas 1-5, Cape Brink Main path and Three Island Cave 1F-3F, plus 20 standard/hidden item placements across those maps and Four Island Interior 1F-2F. Three byte-identical Berry Forest tables were collapsed while preserving every area label; subareas are naturally ordered. Tree/Rock, Dive, distinct alternate tables and all trainer battles remain explicitly gated. The importer and machine-readable report are repeatable, all build/validation/provenance/asset checks pass, and desktop plus 390×844 touch review found no console errors or horizontal overflow. This tranche is local only and has not been deployed.
+- 2026-09-25 Sevii map reconciliation: extended the ROM audit with dimensions, map-header metadata, reciprocal warp/connection topology and a local-only map renderer. Rejected deeper graph traversal because it entered reused Johto/Kanto networks; retained the 77 directly labelled maps plus 15 reciprocal one-link candidates. Added a normalized 92-map crosswalk: 15 map labels are ready, 43 active maps still need parent/subarea review, 26 inactive maps are reference-only and eight malformed layouts are excluded. No ROM or rendered map artwork was committed, and no guide data was imported or deployed.
+- 2026-09-25 Sevii source audit: searched all 11 workbook sheets (including hidden `Location Data`) and the official thread, ROM Hack Guides, Hackdex and public GitHub results; none supplied structured Sevii tables. Performed a read-only extraction from the user's version-matched 2026-07-19 ROM (SHA-256 `716F2CBFB731E6DC1E014B6B6744B823389262DCC0086A120C1E0FB3D80DD34B`) and preserved 77 Sevii-labelled maps, 32 wild rows/63 method records, 91 trainer-battle commands for 55 unique trainer IDs, 42 hidden items and 55 coordinate-valid standard item-ball candidates in `sources/reports/sevii-rom-extraction.json`. No guide data was imported or deployed because subarea, method, seasonal/alternate-row and trainer-stage semantics still need reconciliation.
 - Deployed the template-conformance refinement to GitHub Pages on 2026-09-24 from commit `e5dfec8`. The Pages workflow completed successfully, and the public guide plus `service-worker.js` were verified at HTTP 200 over enforced HTTPS.
 - 2026-09-24 template-conformance refinement: restricted the pinned baseline to 577 reconciled forms, 766 explicitly referenced move definitions and 203 explicitly referenced canonical item definitions; removed 2,017 unrelated baseline-only items and every generic mainline price from the final guide. Added validation that blocks future baseline leakage.
 - Added dimension-preserving Pokémon-to-encounter links carrying period, Method, More Info subarea and fishing rod; the destination encounter is highlighted and a return control reopens the originating Pokémon detail.

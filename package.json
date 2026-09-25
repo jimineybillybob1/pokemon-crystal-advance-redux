@@ -4,6 +4,7 @@
   "type": "module",
   "scripts": {
     "import:crystal": "python scripts/import-crystal-advance-redux.py \"sources/inbox/Crystal Advance Redux.xlsx\"",
+    "sevii:import": "node scripts/import-sevii-safe-tranche.mjs",
     "baseline:scope": "node scripts/migrate-baseline-scope.mjs",
     "baseline:fetch": "node scripts/fetch-pokeapi-baseline.mjs",
     "merge:data": "node scripts/merge-guide-data.mjs",

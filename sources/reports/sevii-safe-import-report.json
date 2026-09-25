@@ -1,0 +1,255 @@
+{
+  "meta": {
+    "generatedAt": "2026-09-25T15:23:29.143Z",
+    "gameVersion": "2026-07-19",
+    "romSha256": "716F2CBFB731E6DC1E014B6B6744B823389262DCC0086A120C1E0FB3D80DD34B",
+    "source": "sources/reports/sevii-rom-extraction.json",
+    "crosswalk": "sources/normalized/sevii-map-crosswalk-2026-09-25.json"
+  },
+  "summary": {
+    "readyMapCount": 15,
+    "acceptedEncounterTableCount": 9,
+    "importedLocationCount": 3,
+    "importedEncounterCount": 108,
+    "importedItemPlacementCount": 20,
+    "removedExactDuplicateTableCount": 3,
+    "skippedUnresolvedMethodGroupCount": 0,
+    "skippedAlternateTableGroupCount": 0,
+    "trainerBattleImportCount": 0
+  },
+  "importedLocations": [
+    {
+      "name": "Berry Forest",
+      "encounterCount": 60,
+      "subareas": [
+        "Area 1",
+        "Area 2",
+        "Area 3",
+        "Area 4",
+        "Area 5"
+      ],
+      "mapKeys": [
+        "4,105",
+        "4,106",
+        "4,107",
+        "4,108",
+        "4,109"
+      ]
+    },
+    {
+      "name": "Three Island",
+      "encounterCount": 36,
+      "subareas": [
+        "Cave 1F",
+        "Cave 2F",
+        "Cave 3F"
+      ],
+      "mapKeys": [
+        "1,39",
+        "1,40",
+        "1,41"
+      ]
+    },
+    {
+      "name": "Cape Brink",
+      "encounterCount": 12,
+      "subareas": [
+        "Main path"
+      ],
+      "mapKeys": [
+        "1,37"
+      ]
+    }
+  ],
+  "importedItemPlacements": [
+    {
+      "item": "Max Revive",
+      "mapKey": "1,37",
+      "location": "Cape Brink — Main path, hidden item at tile (7, 10); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "Dubious Disc",
+      "mapKey": "14,14",
+      "location": "Four Island — Interior 2F, hidden item at tile (2, 2); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "Big Mushroom",
+      "mapKey": "4,108",
+      "location": "Berry Forest — Area 4, hidden item at tile (7, 3); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "Protector",
+      "mapKey": "1,37",
+      "location": "Cape Brink — Main path, item ball at tile (15, 14); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "TM26 - Earthquake",
+      "mapKey": "1,40",
+      "location": "Three Island — Cave 2F, item ball at tile (7, 4); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "HP Up",
+      "mapKey": "1,40",
+      "location": "Three Island — Cave 2F, item ball at tile (9, 14); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "Full Restore",
+      "mapKey": "1,40",
+      "location": "Three Island — Cave 2F, item ball at tile (20, 5); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "Max Revive",
+      "mapKey": "1,41",
+      "location": "Three Island — Cave 3F, item ball at tile (14, 2); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "Full Heal",
+      "mapKey": "1,41",
+      "location": "Three Island — Cave 3F, item ball at tile (17, 2); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "Rare Candy",
+      "mapKey": "14,13",
+      "location": "Four Island — Interior 1F, item ball at tile (25, 2); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "Ultra Ball",
+      "mapKey": "14,14",
+      "location": "Four Island — Interior 2F, item ball at tile (34, 3); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "Dusk Stone",
+      "mapKey": "4,106",
+      "location": "Berry Forest — Area 2, item ball at tile (13, 2); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "Soothe Bell",
+      "mapKey": "4,107",
+      "location": "Berry Forest — Area 3, item ball at tile (8, 11); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "Quick Ball",
+      "mapKey": "4,107",
+      "location": "Berry Forest — Area 3, item ball at tile (11, 16); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "Elixir",
+      "mapKey": "4,107",
+      "location": "Berry Forest — Area 3, item ball at tile (13, 4); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "Dubious Disc",
+      "mapKey": "4,108",
+      "location": "Berry Forest — Area 4, item ball at tile (6, 16); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "Max Revive",
+      "mapKey": "4,108",
+      "location": "Berry Forest — Area 4, item ball at tile (11, 9); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "Wide Lens",
+      "mapKey": "4,109",
+      "location": "Berry Forest — Area 5, item ball at tile (6, 4); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "Rare Candy",
+      "mapKey": "4,109",
+      "location": "Berry Forest — Area 5, item ball at tile (9, 14); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "Spell Tag",
+      "mapKey": "4,109",
+      "location": "Berry Forest — Area 5, item ball at tile (18, 6); Source: 2026-07-19 ROM audit"
+    }
+  ],
+  "acceptedEncounterTables": [
+    {
+      "mapKey": "4,108",
+      "encounterRecordIndex": 10,
+      "method": "Wild",
+      "encounterRate": 6
+    },
+    {
+      "mapKey": "4,106",
+      "encounterRecordIndex": 63,
+      "method": "Wild",
+      "encounterRate": 2
+    },
+    {
+      "mapKey": "1,40",
+      "encounterRecordIndex": 105,
+      "method": "Wild",
+      "encounterRate": 10
+    },
+    {
+      "mapKey": "1,37",
+      "encounterRecordIndex": 145,
+      "method": "Wild",
+      "encounterRate": 10
+    },
+    {
+      "mapKey": "1,39",
+      "encounterRecordIndex": 159,
+      "method": "Wild",
+      "encounterRate": 10
+    },
+    {
+      "mapKey": "4,107",
+      "encounterRecordIndex": 185,
+      "method": "Wild",
+      "encounterRate": 4
+    },
+    {
+      "mapKey": "4,105",
+      "encounterRecordIndex": 201,
+      "method": "Wild",
+      "encounterRate": 3
+    },
+    {
+      "mapKey": "1,41",
+      "encounterRecordIndex": 232,
+      "method": "Wild",
+      "encounterRate": 10
+    },
+    {
+      "mapKey": "4,109",
+      "encounterRecordIndex": 268,
+      "method": "Wild",
+      "encounterRate": 3
+    }
+  ],
+  "removedExactDuplicateTables": [
+    {
+      "groupKey": "4,108|grass",
+      "keptRecordIndex": 10,
+      "duplicateRecordIndexes": [
+        267
+      ]
+    },
+    {
+      "groupKey": "4,106|grass",
+      "keptRecordIndex": 63,
+      "duplicateRecordIndexes": [
+        265
+      ]
+    },
+    {
+      "groupKey": "4,107|grass",
+      "keptRecordIndex": 185,
+      "duplicateRecordIndexes": [
+        266
+      ]
+    }
+  ],
+  "skippedMethods": [],
+  "skippedAlternateGroups": [],
+  "unresolvedPokemon": [],
+  "unresolvedItems": [],
+  "exclusions": [
+    "All trainer battles remain excluded pending battle-stage semantics.",
+    "Tree/Rock ROM slots remain excluded pending interaction-method semantics.",
+    "Distinct repeated tables remain excluded pending runtime selector semantics.",
+    "Only maps marked ready in the normalized crosswalk are eligible."
+  ]
+}
