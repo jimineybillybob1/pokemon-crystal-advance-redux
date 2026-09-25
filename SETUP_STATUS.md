@@ -1,8 +1,8 @@
 # Guide setup status
 
-- Status: Advanced guide refinement live; first safe Sevii tranche imported and verified locally
+- Status: Advanced guide refinement and first safe Sevii tranche deployed and verified
 - Current phase: Sevii source-gap follow-up
-- Readiness: Advanced ready; exact source-scoped baseline, recovery controls, offline support and accessibility refinements implemented; latest Sevii data awaits deployment approval
+- Readiness: Advanced ready and live; exact source-scoped baseline, recovery controls, offline support, accessibility refinements and the first safe Sevii tranche are deployed
 - Last updated: 2026-09-25
 - Next step: Runtime-review the remaining 43 active Sevii maps and resolve Tree/Rock, Dive, alternate-table and trainer-stage semantics before a second import tranche.
 
@@ -18,7 +18,7 @@
 | Planning data | Imported and validated | All 766 workbook-used moves have complete fallback definitions; all 451 workbook items remain visible (203 canonical definitions plus 248 custom records), with no unrelated mainline items or generic prices; custom item details remain provisional |
 | Advanced data | Partial / battles, badges, profile and cloud sync complete | Encrypted Cloudflare Worker/KV sync is configured; all 16 Johto/Kanto badges and 700 workbook battle records are active, including 668 populated trainer teams, 229 VS Seeker rematches and 32 intentionally hidden Gym Leader records; trainer/rival configuration is saved and synced; maps remain deferred |
 | Local build | Complete | Baseline rebuilt and merged; validation, provenance, local-asset and Worker tests pass. The first safe Sevii tranche was verified at desktop and 390×844 touch width, including area/floor ordering and item detail links, with no console errors or horizontal overflow |
-| Deployment | Previous release verified; latest tranche pending | The 2026-09-24 refinement was deployed to GitHub Pages from commit `e5dfec8`; the live guide and service worker returned HTTP 200 over enforced HTTPS. The 2026-09-25 Sevii tranche is local only and has not been deployed. Cloudflare Worker/KV remains configured. |
+| Deployment | Complete and verified | The first safe Sevii tranche was deployed to GitHub Pages from commit `0a10cb9`; workflow run `36153907163` completed successfully. The public guide, generated data and service worker returned HTTP 200, all three imported location names were present, and cache version `20260925b` was live. Cloudflare Worker/KV remains configured. |
 
 ## Confirmed decisions
 
@@ -50,7 +50,8 @@
 
 ## Activity log
 
-- 2026-09-25 first safe Sevii import: added 108 all-day Wild encounter rows across Berry Forest Areas 1-5, Cape Brink Main path and Three Island Cave 1F-3F, plus 20 standard/hidden item placements across those maps and Four Island Interior 1F-2F. Three byte-identical Berry Forest tables were collapsed while preserving every area label; subareas are naturally ordered. Tree/Rock, Dive, distinct alternate tables and all trainer battles remain explicitly gated. The importer and machine-readable report are repeatable, all build/validation/provenance/asset checks pass, and desktop plus 390×844 touch review found no console errors or horizontal overflow. This tranche is local only and has not been deployed.
+- 2026-09-25 deployment: published the first safe Sevii tranche from commit `0a10cb9`. GitHub Pages workflow `36153907163` completed successfully; the live index, generated guide data and service worker returned HTTP 200, Berry Forest/Cape Brink/Three Island were present, and cache version `crystal-advance-redux-guide-20260925b` was active.
+- 2026-09-25 first safe Sevii import: added 108 all-day Wild encounter rows across Berry Forest Areas 1-5, Cape Brink Main path and Three Island Cave 1F-3F, plus 20 standard/hidden item placements across those maps and Four Island Interior 1F-2F. Three byte-identical Berry Forest tables were collapsed while preserving every area label; subareas are naturally ordered. Tree/Rock, Dive, distinct alternate tables and all trainer battles remain explicitly gated. The importer and machine-readable report are repeatable, all build/validation/provenance/asset checks pass, and desktop plus 390×844 touch review found no console errors or horizontal overflow.
 - 2026-09-25 Sevii map reconciliation: extended the ROM audit with dimensions, map-header metadata, reciprocal warp/connection topology and a local-only map renderer. Rejected deeper graph traversal because it entered reused Johto/Kanto networks; retained the 77 directly labelled maps plus 15 reciprocal one-link candidates. Added a normalized 92-map crosswalk: 15 map labels are ready, 43 active maps still need parent/subarea review, 26 inactive maps are reference-only and eight malformed layouts are excluded. No ROM or rendered map artwork was committed, and no guide data was imported or deployed.
 - 2026-09-25 Sevii source audit: searched all 11 workbook sheets (including hidden `Location Data`) and the official thread, ROM Hack Guides, Hackdex and public GitHub results; none supplied structured Sevii tables. Performed a read-only extraction from the user's version-matched 2026-07-19 ROM (SHA-256 `716F2CBFB731E6DC1E014B6B6744B823389262DCC0086A120C1E0FB3D80DD34B`) and preserved 77 Sevii-labelled maps, 32 wild rows/63 method records, 91 trainer-battle commands for 55 unique trainer IDs, 42 hidden items and 55 coordinate-valid standard item-ball candidates in `sources/reports/sevii-rom-extraction.json`. No guide data was imported or deployed because subarea, method, seasonal/alternate-row and trainer-stage semantics still need reconciliation.
 - Deployed the template-conformance refinement to GitHub Pages on 2026-09-24 from commit `e5dfec8`. The Pages workflow completed successfully, and the public guide plus `service-worker.js` were verified at HTTP 200 over enforced HTTPS.
