@@ -1,10 +1,10 @@
 # Guide setup status
 
-- Status: Advanced guide refinement; first Sevii trainer tranche ready locally
+- Status: Advanced guide refinement; first Sevii trainer tranche deployed and verified
 - Current phase: Sevii source-gap follow-up
-- Readiness: Advanced ready and live; five conservative encounter/item tranches are deployed and 15 reviewed Sevii trainer battles are ready for deployment
+- Readiness: Advanced ready and live; five conservative encounter/item tranches and 15 reviewed Sevii trainer battles are deployed
 - Last updated: 2026-09-25
-- Next step: Deploy the reviewed Sevii trainer tranche when approved, then continue the remaining map and rematch-stage reconciliation.
+- Next step: Continue the remaining Sevii map and rematch-stage reconciliation.
 
 ## Progress
 
@@ -18,7 +18,7 @@
 | Planning data | Imported and validated | All 766 workbook-used moves have complete fallback definitions; all 451 workbook items remain visible (203 canonical definitions plus 248 custom records), with no unrelated mainline items or generic prices; custom item details remain provisional |
 | Advanced data | Partial / battles, badges, profile and cloud sync complete | Encrypted Cloudflare Worker/KV sync is configured; all 16 Johto/Kanto badges, 700 workbook battle records and 15 reviewed ROM-derived Sevii trainer battles are active locally. This includes 683 populated trainer teams, 229 workbook VS Seeker rematches and 32 intentionally hidden Gym Leader records; trainer/rival configuration is saved and synced; maps remain deferred |
 | Local build | Complete | Build, validation, provenance and local-asset checks pass with 715 battle records. Desktop, 820×1180 tablet and 390×844 touch checks confirm the ROM trainer source wording, area grouping, move cards, one-column mobile layout and no browser errors or horizontal overflow |
-| Deployment | Complete and verified | The Six Island extension was deployed to GitHub Pages from commit `3a25546`; workflow run `36186257104` completed successfully. The public guide, generated guide/item data and service worker returned HTTP 200; Six Island's Eastern/Western areas, Sneasler, the hidden Rare Candy and cache version `20260925f` were live. Cloudflare Worker/KV remains configured. |
+| Deployment | Complete and verified | The first Sevii trainer tranche was deployed to GitHub Pages from commit `4576ac5`; workflow run `36191315979` completed successfully. The public index, app, battle data and service worker returned HTTP 200; the 2026-07-19 battle dataset, Berry Forest/Sevii Waterway trainer records and cache version `20260925h` were live. Cloudflare Worker/KV remains configured. |
 
 ## Confirmed decisions
 
@@ -50,7 +50,8 @@
 
 ## Activity log
 
-- 2026-09-25 first safe Sevii trainer import: added 15 regular trainer battles across Sevii Waterway, Three Island Cave 2F, Crystal Cavern areas 2-3 and Berry Forest areas 2-4. The repeatable importer collapsed four duplicate script paths, resolved every Pokémon and move, and preserves exact ROM levels, stored moves, double-battle flags and held items where present. Type 5 commands are not mislabelled as distinct rematches; Memorial Pillar's two Elite Four stages and all trainers on unresolved maps remain held. The ROM does not expose HexManiac's stock rematch-table anchor, so staged rematches remain an explicit gap. Build, validation, provenance and asset checks pass for 715 total battles; desktop, 820×1180 tablet and 390×844 touch review found no browser errors or horizontal overflow. Deployment remains pending approval.
+- 2026-09-25 first Sevii trainer deployment: published the reviewed tranche from commit `4576ac5`. GitHub Pages workflow `36191315979` completed successfully; the public index, app, battle data and service worker returned HTTP 200, with the 2026-07-19 combined battle dataset, Berry Forest/Sevii Waterway trainer records and cache version `crystal-advance-redux-guide-20260925h` confirmed live.
+- 2026-09-25 first safe Sevii trainer import: added 15 regular trainer battles across Sevii Waterway, Three Island Cave 2F, Crystal Cavern areas 2-3 and Berry Forest areas 2-4. The repeatable importer collapsed four duplicate script paths, resolved every Pokémon and move, and preserves exact ROM levels, stored moves, double-battle flags and held items where present. Type 5 commands are not mislabelled as distinct rematches; Memorial Pillar's two Elite Four stages and all trainers on unresolved maps remain held. The ROM does not expose HexManiac's stock rematch-table anchor, so staged rematches remain an explicit gap. Build, validation, provenance and asset checks pass for 715 total battles; desktop, 820×1180 tablet and 390×844 touch review found no browser errors or horizontal overflow. The tranche was subsequently deployed and verified.
 - 2026-09-25 Six Island deployment: published the reviewed extension from commit `3a25546`. GitHub Pages workflow `36186257104` completed successfully; the public index, generated guide/item data and service worker returned HTTP 200, and Six Island's Eastern/Western areas, Sneasler, the hidden Rare Candy plus cache version `crystal-advance-redux-guide-20260925f` were confirmed live.
 - 2026-09-25 Six Island extension: promoted direct ROM map `3,74` and its reciprocal one-step neighbour `3,113` as `Eastern area` and `Western area` after topology and rendered-map review. Imported 54 all-day encounters: 24 Wild, ten Surf and twenty Fish rows, including the 1% Sneasler slot in both areas, plus one hidden Rare Candy at tile `(29, 21)`. The connected `15,0` interior remains explicitly held because its non-zero encounter headers conflict with its building/lab layout. Resort Gorgeous and Five Island were also reviewed but withheld because their candidate maps connect to unrelated/reused Johto and Kanto networks. The guide now contains 277 ROM-derived Sevii encounters and 55 item placements; build, validation, provenance and asset checks pass locally. Desktop and 390×844 touch review confirmed the complete method/subarea hierarchy, fishing-rod ordering, Rare Candy provenance, no horizontal overflow and no console warnings/errors. The tranche was subsequently deployed and verified.
 - 2026-09-25 Ruins Valley deployment: published the reviewed extension from commit `1344e68`. GitHub Pages workflow `36183944657` completed successfully; the public index, generated guide/item data and service worker returned HTTP 200, and Ruins Valley, Ruins Cavern, TD23 - Smart Strike plus cache version `crystal-advance-redux-guide-20260925e` were confirmed live.
