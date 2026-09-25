@@ -1,10 +1,10 @@
 # Guide setup status
 
-- Status: Advanced guide refinement; Ruins Valley tranche imported and validated locally
+- Status: Advanced guide refinement; Ruins Valley tranche deployed and verified
 - Current phase: Sevii source-gap follow-up
-- Readiness: Advanced ready; three conservative Sevii tranches are live and the Ruins Valley extension has passed full local review pending deployment
+- Readiness: Advanced ready and live; all four conservative Sevii encounter/item tranches are deployed
 - Last updated: 2026-09-25
-- Next step: Deploy the reviewed Ruins Valley extension when approved, then continue reconciling the remaining 37 active Sevii maps.
+- Next step: Continue reconciling the remaining 37 active Sevii maps before the next import tranche.
 
 ## Progress
 
@@ -18,7 +18,7 @@
 | Planning data | Imported and validated | All 766 workbook-used moves have complete fallback definitions; all 451 workbook items remain visible (203 canonical definitions plus 248 custom records), with no unrelated mainline items or generic prices; custom item details remain provisional |
 | Advanced data | Partial / battles, badges, profile and cloud sync complete | Encrypted Cloudflare Worker/KV sync is configured; all 16 Johto/Kanto badges and 700 workbook battle records are active, including 668 populated trainer teams, 229 VS Seeker rematches and 32 intentionally hidden Gym Leader records; trainer/rival configuration is saved and synced; maps remain deferred |
 | Local build | Complete | Baseline rebuilt and merged; validation, provenance and local-asset checks pass for the Ruins Valley extension. Desktop and 390×844 touch review confirmed the location/subarea hierarchy and item provenance with no console warnings/errors or horizontal overflow |
-| Deployment | Complete and verified | The Sevii Waterway extension was deployed to GitHub Pages from commit `14d7a09`; workflow run `36181392887` completed successfully. The public guide, generated guide/item data and service worker returned HTTP 200; Sevii Waterway encounter/item data and cache version `20260925d` were live. Cloudflare Worker/KV remains configured. |
+| Deployment | Complete and verified | The Ruins Valley extension was deployed to GitHub Pages from commit `1344e68`; workflow run `36183944657` completed successfully. The public guide, generated guide/item data and service worker returned HTTP 200; Ruins Valley, Ruins Cavern, TD23 - Smart Strike and cache version `20260925e` were live. Cloudflare Worker/KV remains configured. |
 
 ## Confirmed decisions
 
@@ -50,6 +50,7 @@
 
 ## Activity log
 
+- 2026-09-25 Ruins Valley deployment: published the reviewed extension from commit `1344e68`. GitHub Pages workflow `36183944657` completed successfully; the public index, generated guide/item data and service worker returned HTTP 200, and Ruins Valley, Ruins Cavern, TD23 - Smart Strike plus cache version `crystal-advance-redux-guide-20260925e` were confirmed live.
 - 2026-09-25 Ruins Valley extension: promoted direct ROM maps `4,113` and `4,79` as `Main area` and `Ruins Cavern` after topology, rendered-map and developer-changelog review. Imported 22 unique all-day Wild rows plus four coordinate-valid standard/hidden items. Two exact duplicate Main area slots were collapsed; the five-entry combined Tree/Rock slot remains explicitly excluded. The guide now contains 223 ROM-derived Sevii encounters and 54 item placements; build, validation, provenance and asset checks pass locally. Desktop and 390×844 touch review confirmed ten Main area rows, twelve Ruins Cavern rows, TD23 ROM-audit provenance, no horizontal overflow and no console warnings/errors.
 - 2026-09-25 Sevii Waterway deployment: published the reviewed extension from commit `14d7a09`. GitHub Pages workflow `36181392887` completed successfully; the public index, guide data, item data and service worker returned HTTP 200, and Sevii Waterway plus cache version `crystal-advance-redux-guide-20260925d` were confirmed live.
 - 2026-09-25 Sevii Waterway extension: promoted direct ROM map `1,0` as `Main area` after topology and rendered-map review. Imported 27 all-day encounter rows across Wild, Surf and Fish plus 11 coordinate-valid standard/hidden items. The five-entry combined Tree/Rock slot, Bug Catcher Wayne and one out-of-bounds item candidate remain explicitly excluded. The ROM abbreviation `Shellos-W` is mapped only to the workbook's Shellos-West form. The guide now contains 201 ROM-derived Sevii encounters and 50 item placements; build, validation, provenance and asset checks pass locally. Desktop and 390×844 touch review confirmed 12 Wild, five Surf and ten Fish entries, Old/Good/Super Rod ordering, the Leaf Stone ROM-audit placement, no horizontal overflow and no console warnings/errors.
