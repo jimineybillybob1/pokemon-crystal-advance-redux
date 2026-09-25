@@ -1,17 +1,17 @@
 {
   "meta": {
-    "generatedAt": "2026-09-25T19:49:19.746Z",
+    "generatedAt": "2026-09-25T20:17:31.919Z",
     "gameVersion": "2026-07-19",
     "romSha256": "716F2CBFB731E6DC1E014B6B6744B823389262DCC0086A120C1E0FB3D80DD34B",
     "source": "sources/reports/sevii-rom-extraction.json",
     "crosswalk": "sources/normalized/sevii-map-crosswalk-2026-09-25.json"
   },
   "summary": {
-    "readyMapCount": 21,
-    "acceptedEncounterTableCount": 21,
-    "importedLocationCount": 6,
-    "importedEncounterCount": 223,
-    "importedItemPlacementCount": 54,
+    "readyMapCount": 23,
+    "acceptedEncounterTableCount": 27,
+    "importedLocationCount": 7,
+    "importedEncounterCount": 277,
+    "importedItemPlacementCount": 55,
     "removedExactDuplicateTableCount": 3,
     "skippedUnresolvedMethodGroupCount": 2,
     "skippedAlternateTableGroupCount": 0,
@@ -26,6 +26,18 @@
       ],
       "mapKeys": [
         "1,0"
+      ]
+    },
+    {
+      "name": "Six Island",
+      "encounterCount": 54,
+      "subareas": [
+        "Eastern area",
+        "Western area"
+      ],
+      "mapKeys": [
+        "3,74",
+        "3,113"
       ]
     },
     {
@@ -162,6 +174,11 @@
       "item": "Full Restore",
       "mapKey": "2,49",
       "location": "Crystal Cavern — Cavern area 3, hidden item at tile (24, 12); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "Rare Candy",
+      "mapKey": "3,74",
+      "location": "Six Island — Eastern area, hidden item at tile (29, 21); Source: 2026-07-19 ROM audit"
     },
     {
       "item": "Big Mushroom",
@@ -389,10 +406,46 @@
       "encounterRate": 10
     },
     {
+      "mapKey": "3,113",
+      "encounterRecordIndex": 5,
+      "method": "Fish",
+      "encounterRate": 15
+    },
+    {
+      "mapKey": "3,113",
+      "encounterRecordIndex": 5,
+      "method": "Wild",
+      "encounterRate": 15
+    },
+    {
+      "mapKey": "3,113",
+      "encounterRecordIndex": 5,
+      "method": "Surf",
+      "encounterRate": 10
+    },
+    {
       "mapKey": "4,108",
       "encounterRecordIndex": 10,
       "method": "Wild",
       "encounterRate": 6
+    },
+    {
+      "mapKey": "3,74",
+      "encounterRecordIndex": 24,
+      "method": "Fish",
+      "encounterRate": 15
+    },
+    {
+      "mapKey": "3,74",
+      "encounterRecordIndex": 24,
+      "method": "Wild",
+      "encounterRate": 15
+    },
+    {
+      "mapKey": "3,74",
+      "encounterRecordIndex": 24,
+      "method": "Surf",
+      "encounterRate": 10
     },
     {
       "mapKey": "2,49",

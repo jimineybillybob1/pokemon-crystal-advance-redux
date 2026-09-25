@@ -1,4 +1,4 @@
-const CACHE_NAME='crystal-advance-redux-guide-20260925e';
+const CACHE_NAME='crystal-advance-redux-guide-20260925f';
 const CORE=[
   './','./index.html','./styles.css','./refinements.css','./app.js','./site.webmanifest',
   './config/game-config.js','./config/game-overrides.js','./sync-config.js',

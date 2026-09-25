@@ -30,6 +30,8 @@ const labels = {
   "2,48": ["Cavern area 2", "high"],
   "2,49": ["Cavern area 3", "high"],
   "3,50": ["Exterior", "high"],
+  "3,74": ["Eastern area", "high"],
+  "3,113": ["Western area", "high"],
   "4,79": ["Ruins Cavern", "high"],
   "4,105": ["Area 1", "high"],
   "4,106": ["Area 2", "high"],
@@ -37,6 +39,7 @@ const labels = {
   "4,108": ["Area 4", "high"],
   "4,109": ["Area 5", "high"],
   "4,113": ["Main area", "high"],
+  "15,0": ["Building interior", "high"],
   "14,13": ["Interior 1F", "high"],
   "14,14": ["Interior 2F", "high"],
   "14,15": ["Interior 3F", "high"],
@@ -56,8 +59,20 @@ const reviewedReadyNotes = new Map([
   ["2,47", "Reviewed Crystal Cavern interior cluster: sequential layouts and reciprocal internal warps support the neutral area label."],
   ["2,48", "Reviewed Crystal Cavern interior cluster: sequential layouts and reciprocal internal warps support the neutral area label."],
   ["2,49", "Reviewed Crystal Cavern interior cluster: sequential layouts and reciprocal internal warps support the neutral area label."],
+  ["3,74", "Reviewed Six Island outdoor cluster: the direct ROM label, visible grass/water terrain and reciprocal east/west connection support the neutral directional label."],
+  ["3,113", "Reviewed Six Island outdoor cluster: the reciprocal east/west connection, visible grass/water terrain and shared encounter table support the neutral directional label."],
   ["4,79", "Reviewed Ruins Cavern: the cave layout, reciprocal link to the outdoor Ruins Valley map and developer changelog establish the interior label."],
   ["4,113", "Reviewed Ruins Valley main area: the outdoor layout, direct ROM label and reciprocal Ruins Cavern links support the neutral main-area label."],
+]);
+
+const reviewedHoldNotes = new Map([
+  ["1,81", "Held after review: cave-flagged layout warps into maps labelled Radio Tower and Union Cave, so the Resort Gorgeous runtime identity is not established."],
+  ["1,82", "Held after review: cave-flagged layout and mixed self/external warps do not establish a trustworthy Resort Gorgeous subarea."],
+  ["3,75", "Held after review: snowy layout warps into maps labelled Ice Path and Ruins of Alph, so its playable Five Island identity remains unresolved."],
+  ["3,112", "Held after review: snowy layout warps into Seafoam Islands and cannot yet be assigned a trustworthy Five Island subarea."],
+  ["5,75", "Held after review: snowy layout warps into Safari Zone, Celadon Dept. and Route 45 maps, so its playable Five Island identity remains unresolved."],
+  ["5,78", "Held after review: snowy layout warps into Goldenrod Dept. and cannot yet be assigned a trustworthy Five Island subarea."],
+  ["15,0", "Held after review: the building interior has no visible encounter terrain, yet the ROM header contains Wild, Surf and Fish tables; treat those tables as placeholders until runtime-tested."],
 ]);
 
 const countsByMap = new Map(extraction.maps.map((map) => [map.key, {
@@ -100,6 +115,7 @@ const maps = extraction.maps.map((map) => {
     notes.push("Rendered layout resembles reused ship/room maps; verify in-game reachability before importing battles.");
   }
   if (reviewedReadyNotes.has(map.key)) notes.push(reviewedReadyNotes.get(map.key));
+  if (reviewedHoldNotes.has(map.key)) notes.push(reviewedHoldNotes.get(map.key));
 
   return {
     mapKey: map.key,

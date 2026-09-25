@@ -195620,6 +195620,1910 @@
       }
     },
     {
+      "name": "Six Island",
+      "day": [
+        {
+          "pokemon": "Ponyta",
+          "method": "Wild",
+          "level": "49-53",
+          "rarity": 20,
+          "subarea": "Eastern area",
+          "details": "20% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,74",
+            "encounterRecordIndex": 24,
+            "slot": 0
+          }
+        },
+        {
+          "pokemon": "Tangela",
+          "method": "Wild",
+          "level": "49-53",
+          "rarity": 20,
+          "subarea": "Eastern area",
+          "details": "20% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,74",
+            "encounterRecordIndex": 24,
+            "slot": 1
+          }
+        },
+        {
+          "pokemon": "Arbok",
+          "method": "Wild",
+          "level": "49-53",
+          "rarity": 10,
+          "subarea": "Eastern area",
+          "details": "10% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,74",
+            "encounterRecordIndex": 24,
+            "slot": 2
+          }
+        },
+        {
+          "pokemon": "Poliwhirl",
+          "method": "Wild",
+          "level": "49-53",
+          "rarity": 10,
+          "subarea": "Eastern area",
+          "details": "10% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,74",
+            "encounterRecordIndex": 24,
+            "slot": 3
+          }
+        },
+        {
+          "pokemon": "Dodrio",
+          "method": "Wild",
+          "level": "49-53",
+          "rarity": 10,
+          "subarea": "Eastern area",
+          "details": "10% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,74",
+            "encounterRecordIndex": 24,
+            "slot": 4
+          }
+        },
+        {
+          "pokemon": "Slowbro",
+          "method": "Wild",
+          "level": "49-53",
+          "rarity": 10,
+          "subarea": "Eastern area",
+          "details": "10% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,74",
+            "encounterRecordIndex": 24,
+            "slot": 5
+          }
+        },
+        {
+          "pokemon": "Crobat",
+          "method": "Wild",
+          "level": "49-53",
+          "rarity": 5,
+          "subarea": "Eastern area",
+          "details": "5% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,74",
+            "encounterRecordIndex": 24,
+            "slot": 6
+          }
+        },
+        {
+          "pokemon": "Rapidash",
+          "method": "Wild",
+          "level": "49-53",
+          "rarity": 5,
+          "subarea": "Eastern area",
+          "details": "5% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,74",
+            "encounterRecordIndex": 24,
+            "slot": 7
+          }
+        },
+        {
+          "pokemon": "Tangrowth",
+          "method": "Wild",
+          "level": "49-53",
+          "rarity": 4,
+          "subarea": "Eastern area",
+          "details": "4% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,74",
+            "encounterRecordIndex": 24,
+            "slot": 8
+          }
+        },
+        {
+          "pokemon": "Ursaring",
+          "method": "Wild",
+          "level": "49-53",
+          "rarity": 4,
+          "subarea": "Eastern area",
+          "details": "4% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,74",
+            "encounterRecordIndex": 24,
+            "slot": 9
+          }
+        },
+        {
+          "pokemon": "Roserade",
+          "method": "Wild",
+          "level": "49-53",
+          "rarity": 1,
+          "subarea": "Eastern area",
+          "details": "1% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,74",
+            "encounterRecordIndex": 24,
+            "slot": 10
+          }
+        },
+        {
+          "pokemon": "Sneasler",
+          "method": "Wild",
+          "level": "49-53",
+          "rarity": 1,
+          "subarea": "Eastern area",
+          "details": "1% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,74",
+            "encounterRecordIndex": 24,
+            "slot": 11
+          }
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Surf",
+          "level": "35-44",
+          "rarity": 60,
+          "subarea": "Eastern area",
+          "details": "60% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,74",
+            "encounterRecordIndex": 24,
+            "slot": 0
+          }
+        },
+        {
+          "pokemon": "Slowpoke",
+          "method": "Surf",
+          "level": "35-44",
+          "rarity": 30,
+          "subarea": "Eastern area",
+          "details": "30% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,74",
+            "encounterRecordIndex": 24,
+            "slot": 1
+          }
+        },
+        {
+          "pokemon": "Poliwhirl",
+          "method": "Surf",
+          "level": "40-44",
+          "rarity": 5,
+          "subarea": "Eastern area",
+          "details": "5% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,74",
+            "encounterRecordIndex": 24,
+            "slot": 2
+          }
+        },
+        {
+          "pokemon": "Slowbro",
+          "method": "Surf",
+          "level": "40-44",
+          "rarity": 4,
+          "subarea": "Eastern area",
+          "details": "4% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,74",
+            "encounterRecordIndex": 24,
+            "slot": 3
+          }
+        },
+        {
+          "pokemon": "Bibarel",
+          "method": "Surf",
+          "level": "40-44",
+          "rarity": 1,
+          "subarea": "Eastern area",
+          "details": "1% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,74",
+            "encounterRecordIndex": 24,
+            "slot": 4
+          }
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Fish",
+          "level": "10",
+          "rarity": 70,
+          "subarea": "Eastern area",
+          "rod": "Old Rod",
+          "details": "70% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,74",
+            "encounterRecordIndex": 24,
+            "slot": 0
+          }
+        },
+        {
+          "pokemon": "Slowpoke",
+          "method": "Fish",
+          "level": "10",
+          "rarity": 30,
+          "subarea": "Eastern area",
+          "rod": "Old Rod",
+          "details": "30% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,74",
+            "encounterRecordIndex": 24,
+            "slot": 1
+          }
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Fish",
+          "level": "20",
+          "rarity": 60,
+          "subarea": "Eastern area",
+          "rod": "Good Rod",
+          "details": "60% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,74",
+            "encounterRecordIndex": 24,
+            "slot": 2
+          }
+        },
+        {
+          "pokemon": "Slowpoke",
+          "method": "Fish",
+          "level": "20",
+          "rarity": 20,
+          "subarea": "Eastern area",
+          "rod": "Good Rod",
+          "details": "20% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,74",
+            "encounterRecordIndex": 24,
+            "slot": 3
+          }
+        },
+        {
+          "pokemon": "Bidoof",
+          "method": "Fish",
+          "level": "20",
+          "rarity": 20,
+          "subarea": "Eastern area",
+          "rod": "Good Rod",
+          "details": "20% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,74",
+            "encounterRecordIndex": 24,
+            "slot": 4
+          }
+        },
+        {
+          "pokemon": "Poliwhirl",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 40,
+          "subarea": "Eastern area",
+          "rod": "Super Rod",
+          "details": "40% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,74",
+            "encounterRecordIndex": 24,
+            "slot": 5
+          }
+        },
+        {
+          "pokemon": "Slowbro",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 40,
+          "subarea": "Eastern area",
+          "rod": "Super Rod",
+          "details": "40% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,74",
+            "encounterRecordIndex": 24,
+            "slot": 6
+          }
+        },
+        {
+          "pokemon": "Slowking",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 15,
+          "subarea": "Eastern area",
+          "rod": "Super Rod",
+          "details": "15% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,74",
+            "encounterRecordIndex": 24,
+            "slot": 7
+          }
+        },
+        {
+          "pokemon": "Bibarel",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 4,
+          "subarea": "Eastern area",
+          "rod": "Super Rod",
+          "details": "4% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,74",
+            "encounterRecordIndex": 24,
+            "slot": 8
+          }
+        },
+        {
+          "pokemon": "Politoed",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 1,
+          "subarea": "Eastern area",
+          "rod": "Super Rod",
+          "details": "1% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,74",
+            "encounterRecordIndex": 24,
+            "slot": 9
+          }
+        },
+        {
+          "pokemon": "Ponyta",
+          "method": "Wild",
+          "level": "49-53",
+          "rarity": 20,
+          "subarea": "Western area",
+          "details": "20% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,113",
+            "encounterRecordIndex": 5,
+            "slot": 0
+          }
+        },
+        {
+          "pokemon": "Tangela",
+          "method": "Wild",
+          "level": "49-53",
+          "rarity": 20,
+          "subarea": "Western area",
+          "details": "20% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,113",
+            "encounterRecordIndex": 5,
+            "slot": 1
+          }
+        },
+        {
+          "pokemon": "Arbok",
+          "method": "Wild",
+          "level": "49-53",
+          "rarity": 10,
+          "subarea": "Western area",
+          "details": "10% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,113",
+            "encounterRecordIndex": 5,
+            "slot": 2
+          }
+        },
+        {
+          "pokemon": "Poliwhirl",
+          "method": "Wild",
+          "level": "49-53",
+          "rarity": 10,
+          "subarea": "Western area",
+          "details": "10% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,113",
+            "encounterRecordIndex": 5,
+            "slot": 3
+          }
+        },
+        {
+          "pokemon": "Dodrio",
+          "method": "Wild",
+          "level": "49-53",
+          "rarity": 10,
+          "subarea": "Western area",
+          "details": "10% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,113",
+            "encounterRecordIndex": 5,
+            "slot": 4
+          }
+        },
+        {
+          "pokemon": "Slowbro",
+          "method": "Wild",
+          "level": "49-53",
+          "rarity": 10,
+          "subarea": "Western area",
+          "details": "10% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,113",
+            "encounterRecordIndex": 5,
+            "slot": 5
+          }
+        },
+        {
+          "pokemon": "Crobat",
+          "method": "Wild",
+          "level": "49-53",
+          "rarity": 5,
+          "subarea": "Western area",
+          "details": "5% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,113",
+            "encounterRecordIndex": 5,
+            "slot": 6
+          }
+        },
+        {
+          "pokemon": "Rapidash",
+          "method": "Wild",
+          "level": "49-53",
+          "rarity": 5,
+          "subarea": "Western area",
+          "details": "5% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,113",
+            "encounterRecordIndex": 5,
+            "slot": 7
+          }
+        },
+        {
+          "pokemon": "Tangrowth",
+          "method": "Wild",
+          "level": "49-53",
+          "rarity": 4,
+          "subarea": "Western area",
+          "details": "4% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,113",
+            "encounterRecordIndex": 5,
+            "slot": 8
+          }
+        },
+        {
+          "pokemon": "Ursaring",
+          "method": "Wild",
+          "level": "49-53",
+          "rarity": 4,
+          "subarea": "Western area",
+          "details": "4% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,113",
+            "encounterRecordIndex": 5,
+            "slot": 9
+          }
+        },
+        {
+          "pokemon": "Roserade",
+          "method": "Wild",
+          "level": "49-53",
+          "rarity": 1,
+          "subarea": "Western area",
+          "details": "1% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,113",
+            "encounterRecordIndex": 5,
+            "slot": 10
+          }
+        },
+        {
+          "pokemon": "Sneasler",
+          "method": "Wild",
+          "level": "49-53",
+          "rarity": 1,
+          "subarea": "Western area",
+          "details": "1% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,113",
+            "encounterRecordIndex": 5,
+            "slot": 11
+          }
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Surf",
+          "level": "35-44",
+          "rarity": 60,
+          "subarea": "Western area",
+          "details": "60% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,113",
+            "encounterRecordIndex": 5,
+            "slot": 0
+          }
+        },
+        {
+          "pokemon": "Slowpoke",
+          "method": "Surf",
+          "level": "35-44",
+          "rarity": 30,
+          "subarea": "Western area",
+          "details": "30% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,113",
+            "encounterRecordIndex": 5,
+            "slot": 1
+          }
+        },
+        {
+          "pokemon": "Poliwhirl",
+          "method": "Surf",
+          "level": "40-44",
+          "rarity": 5,
+          "subarea": "Western area",
+          "details": "5% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,113",
+            "encounterRecordIndex": 5,
+            "slot": 2
+          }
+        },
+        {
+          "pokemon": "Slowbro",
+          "method": "Surf",
+          "level": "40-44",
+          "rarity": 4,
+          "subarea": "Western area",
+          "details": "4% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,113",
+            "encounterRecordIndex": 5,
+            "slot": 3
+          }
+        },
+        {
+          "pokemon": "Bibarel",
+          "method": "Surf",
+          "level": "40-44",
+          "rarity": 1,
+          "subarea": "Western area",
+          "details": "1% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,113",
+            "encounterRecordIndex": 5,
+            "slot": 4
+          }
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Fish",
+          "level": "10",
+          "rarity": 70,
+          "subarea": "Western area",
+          "rod": "Old Rod",
+          "details": "70% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,113",
+            "encounterRecordIndex": 5,
+            "slot": 0
+          }
+        },
+        {
+          "pokemon": "Slowpoke",
+          "method": "Fish",
+          "level": "10",
+          "rarity": 30,
+          "subarea": "Western area",
+          "rod": "Old Rod",
+          "details": "30% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,113",
+            "encounterRecordIndex": 5,
+            "slot": 1
+          }
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Fish",
+          "level": "20",
+          "rarity": 60,
+          "subarea": "Western area",
+          "rod": "Good Rod",
+          "details": "60% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,113",
+            "encounterRecordIndex": 5,
+            "slot": 2
+          }
+        },
+        {
+          "pokemon": "Slowpoke",
+          "method": "Fish",
+          "level": "20",
+          "rarity": 20,
+          "subarea": "Western area",
+          "rod": "Good Rod",
+          "details": "20% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,113",
+            "encounterRecordIndex": 5,
+            "slot": 3
+          }
+        },
+        {
+          "pokemon": "Bidoof",
+          "method": "Fish",
+          "level": "20",
+          "rarity": 20,
+          "subarea": "Western area",
+          "rod": "Good Rod",
+          "details": "20% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,113",
+            "encounterRecordIndex": 5,
+            "slot": 4
+          }
+        },
+        {
+          "pokemon": "Poliwhirl",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 40,
+          "subarea": "Western area",
+          "rod": "Super Rod",
+          "details": "40% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,113",
+            "encounterRecordIndex": 5,
+            "slot": 5
+          }
+        },
+        {
+          "pokemon": "Slowbro",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 40,
+          "subarea": "Western area",
+          "rod": "Super Rod",
+          "details": "40% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,113",
+            "encounterRecordIndex": 5,
+            "slot": 6
+          }
+        },
+        {
+          "pokemon": "Slowking",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 15,
+          "subarea": "Western area",
+          "rod": "Super Rod",
+          "details": "15% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,113",
+            "encounterRecordIndex": 5,
+            "slot": 7
+          }
+        },
+        {
+          "pokemon": "Bibarel",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 4,
+          "subarea": "Western area",
+          "rod": "Super Rod",
+          "details": "4% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,113",
+            "encounterRecordIndex": 5,
+            "slot": 8
+          }
+        },
+        {
+          "pokemon": "Politoed",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 1,
+          "subarea": "Western area",
+          "rod": "Super Rod",
+          "details": "1% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,113",
+            "encounterRecordIndex": 5,
+            "slot": 9
+          }
+        }
+      ],
+      "night": [
+        {
+          "pokemon": "Ponyta",
+          "method": "Wild",
+          "level": "49-53",
+          "rarity": 20,
+          "subarea": "Eastern area",
+          "details": "20% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,74",
+            "encounterRecordIndex": 24,
+            "slot": 0
+          }
+        },
+        {
+          "pokemon": "Tangela",
+          "method": "Wild",
+          "level": "49-53",
+          "rarity": 20,
+          "subarea": "Eastern area",
+          "details": "20% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,74",
+            "encounterRecordIndex": 24,
+            "slot": 1
+          }
+        },
+        {
+          "pokemon": "Arbok",
+          "method": "Wild",
+          "level": "49-53",
+          "rarity": 10,
+          "subarea": "Eastern area",
+          "details": "10% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,74",
+            "encounterRecordIndex": 24,
+            "slot": 2
+          }
+        },
+        {
+          "pokemon": "Poliwhirl",
+          "method": "Wild",
+          "level": "49-53",
+          "rarity": 10,
+          "subarea": "Eastern area",
+          "details": "10% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,74",
+            "encounterRecordIndex": 24,
+            "slot": 3
+          }
+        },
+        {
+          "pokemon": "Dodrio",
+          "method": "Wild",
+          "level": "49-53",
+          "rarity": 10,
+          "subarea": "Eastern area",
+          "details": "10% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,74",
+            "encounterRecordIndex": 24,
+            "slot": 4
+          }
+        },
+        {
+          "pokemon": "Slowbro",
+          "method": "Wild",
+          "level": "49-53",
+          "rarity": 10,
+          "subarea": "Eastern area",
+          "details": "10% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,74",
+            "encounterRecordIndex": 24,
+            "slot": 5
+          }
+        },
+        {
+          "pokemon": "Crobat",
+          "method": "Wild",
+          "level": "49-53",
+          "rarity": 5,
+          "subarea": "Eastern area",
+          "details": "5% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,74",
+            "encounterRecordIndex": 24,
+            "slot": 6
+          }
+        },
+        {
+          "pokemon": "Rapidash",
+          "method": "Wild",
+          "level": "49-53",
+          "rarity": 5,
+          "subarea": "Eastern area",
+          "details": "5% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,74",
+            "encounterRecordIndex": 24,
+            "slot": 7
+          }
+        },
+        {
+          "pokemon": "Tangrowth",
+          "method": "Wild",
+          "level": "49-53",
+          "rarity": 4,
+          "subarea": "Eastern area",
+          "details": "4% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,74",
+            "encounterRecordIndex": 24,
+            "slot": 8
+          }
+        },
+        {
+          "pokemon": "Ursaring",
+          "method": "Wild",
+          "level": "49-53",
+          "rarity": 4,
+          "subarea": "Eastern area",
+          "details": "4% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,74",
+            "encounterRecordIndex": 24,
+            "slot": 9
+          }
+        },
+        {
+          "pokemon": "Roserade",
+          "method": "Wild",
+          "level": "49-53",
+          "rarity": 1,
+          "subarea": "Eastern area",
+          "details": "1% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,74",
+            "encounterRecordIndex": 24,
+            "slot": 10
+          }
+        },
+        {
+          "pokemon": "Sneasler",
+          "method": "Wild",
+          "level": "49-53",
+          "rarity": 1,
+          "subarea": "Eastern area",
+          "details": "1% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,74",
+            "encounterRecordIndex": 24,
+            "slot": 11
+          }
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Surf",
+          "level": "35-44",
+          "rarity": 60,
+          "subarea": "Eastern area",
+          "details": "60% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,74",
+            "encounterRecordIndex": 24,
+            "slot": 0
+          }
+        },
+        {
+          "pokemon": "Slowpoke",
+          "method": "Surf",
+          "level": "35-44",
+          "rarity": 30,
+          "subarea": "Eastern area",
+          "details": "30% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,74",
+            "encounterRecordIndex": 24,
+            "slot": 1
+          }
+        },
+        {
+          "pokemon": "Poliwhirl",
+          "method": "Surf",
+          "level": "40-44",
+          "rarity": 5,
+          "subarea": "Eastern area",
+          "details": "5% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,74",
+            "encounterRecordIndex": 24,
+            "slot": 2
+          }
+        },
+        {
+          "pokemon": "Slowbro",
+          "method": "Surf",
+          "level": "40-44",
+          "rarity": 4,
+          "subarea": "Eastern area",
+          "details": "4% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,74",
+            "encounterRecordIndex": 24,
+            "slot": 3
+          }
+        },
+        {
+          "pokemon": "Bibarel",
+          "method": "Surf",
+          "level": "40-44",
+          "rarity": 1,
+          "subarea": "Eastern area",
+          "details": "1% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,74",
+            "encounterRecordIndex": 24,
+            "slot": 4
+          }
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Fish",
+          "level": "10",
+          "rarity": 70,
+          "subarea": "Eastern area",
+          "rod": "Old Rod",
+          "details": "70% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,74",
+            "encounterRecordIndex": 24,
+            "slot": 0
+          }
+        },
+        {
+          "pokemon": "Slowpoke",
+          "method": "Fish",
+          "level": "10",
+          "rarity": 30,
+          "subarea": "Eastern area",
+          "rod": "Old Rod",
+          "details": "30% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,74",
+            "encounterRecordIndex": 24,
+            "slot": 1
+          }
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Fish",
+          "level": "20",
+          "rarity": 60,
+          "subarea": "Eastern area",
+          "rod": "Good Rod",
+          "details": "60% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,74",
+            "encounterRecordIndex": 24,
+            "slot": 2
+          }
+        },
+        {
+          "pokemon": "Slowpoke",
+          "method": "Fish",
+          "level": "20",
+          "rarity": 20,
+          "subarea": "Eastern area",
+          "rod": "Good Rod",
+          "details": "20% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,74",
+            "encounterRecordIndex": 24,
+            "slot": 3
+          }
+        },
+        {
+          "pokemon": "Bidoof",
+          "method": "Fish",
+          "level": "20",
+          "rarity": 20,
+          "subarea": "Eastern area",
+          "rod": "Good Rod",
+          "details": "20% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,74",
+            "encounterRecordIndex": 24,
+            "slot": 4
+          }
+        },
+        {
+          "pokemon": "Poliwhirl",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 40,
+          "subarea": "Eastern area",
+          "rod": "Super Rod",
+          "details": "40% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,74",
+            "encounterRecordIndex": 24,
+            "slot": 5
+          }
+        },
+        {
+          "pokemon": "Slowbro",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 40,
+          "subarea": "Eastern area",
+          "rod": "Super Rod",
+          "details": "40% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,74",
+            "encounterRecordIndex": 24,
+            "slot": 6
+          }
+        },
+        {
+          "pokemon": "Slowking",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 15,
+          "subarea": "Eastern area",
+          "rod": "Super Rod",
+          "details": "15% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,74",
+            "encounterRecordIndex": 24,
+            "slot": 7
+          }
+        },
+        {
+          "pokemon": "Bibarel",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 4,
+          "subarea": "Eastern area",
+          "rod": "Super Rod",
+          "details": "4% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,74",
+            "encounterRecordIndex": 24,
+            "slot": 8
+          }
+        },
+        {
+          "pokemon": "Politoed",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 1,
+          "subarea": "Eastern area",
+          "rod": "Super Rod",
+          "details": "1% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,74",
+            "encounterRecordIndex": 24,
+            "slot": 9
+          }
+        },
+        {
+          "pokemon": "Ponyta",
+          "method": "Wild",
+          "level": "49-53",
+          "rarity": 20,
+          "subarea": "Western area",
+          "details": "20% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,113",
+            "encounterRecordIndex": 5,
+            "slot": 0
+          }
+        },
+        {
+          "pokemon": "Tangela",
+          "method": "Wild",
+          "level": "49-53",
+          "rarity": 20,
+          "subarea": "Western area",
+          "details": "20% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,113",
+            "encounterRecordIndex": 5,
+            "slot": 1
+          }
+        },
+        {
+          "pokemon": "Arbok",
+          "method": "Wild",
+          "level": "49-53",
+          "rarity": 10,
+          "subarea": "Western area",
+          "details": "10% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,113",
+            "encounterRecordIndex": 5,
+            "slot": 2
+          }
+        },
+        {
+          "pokemon": "Poliwhirl",
+          "method": "Wild",
+          "level": "49-53",
+          "rarity": 10,
+          "subarea": "Western area",
+          "details": "10% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,113",
+            "encounterRecordIndex": 5,
+            "slot": 3
+          }
+        },
+        {
+          "pokemon": "Dodrio",
+          "method": "Wild",
+          "level": "49-53",
+          "rarity": 10,
+          "subarea": "Western area",
+          "details": "10% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,113",
+            "encounterRecordIndex": 5,
+            "slot": 4
+          }
+        },
+        {
+          "pokemon": "Slowbro",
+          "method": "Wild",
+          "level": "49-53",
+          "rarity": 10,
+          "subarea": "Western area",
+          "details": "10% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,113",
+            "encounterRecordIndex": 5,
+            "slot": 5
+          }
+        },
+        {
+          "pokemon": "Crobat",
+          "method": "Wild",
+          "level": "49-53",
+          "rarity": 5,
+          "subarea": "Western area",
+          "details": "5% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,113",
+            "encounterRecordIndex": 5,
+            "slot": 6
+          }
+        },
+        {
+          "pokemon": "Rapidash",
+          "method": "Wild",
+          "level": "49-53",
+          "rarity": 5,
+          "subarea": "Western area",
+          "details": "5% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,113",
+            "encounterRecordIndex": 5,
+            "slot": 7
+          }
+        },
+        {
+          "pokemon": "Tangrowth",
+          "method": "Wild",
+          "level": "49-53",
+          "rarity": 4,
+          "subarea": "Western area",
+          "details": "4% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,113",
+            "encounterRecordIndex": 5,
+            "slot": 8
+          }
+        },
+        {
+          "pokemon": "Ursaring",
+          "method": "Wild",
+          "level": "49-53",
+          "rarity": 4,
+          "subarea": "Western area",
+          "details": "4% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,113",
+            "encounterRecordIndex": 5,
+            "slot": 9
+          }
+        },
+        {
+          "pokemon": "Roserade",
+          "method": "Wild",
+          "level": "49-53",
+          "rarity": 1,
+          "subarea": "Western area",
+          "details": "1% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,113",
+            "encounterRecordIndex": 5,
+            "slot": 10
+          }
+        },
+        {
+          "pokemon": "Sneasler",
+          "method": "Wild",
+          "level": "49-53",
+          "rarity": 1,
+          "subarea": "Western area",
+          "details": "1% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,113",
+            "encounterRecordIndex": 5,
+            "slot": 11
+          }
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Surf",
+          "level": "35-44",
+          "rarity": 60,
+          "subarea": "Western area",
+          "details": "60% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,113",
+            "encounterRecordIndex": 5,
+            "slot": 0
+          }
+        },
+        {
+          "pokemon": "Slowpoke",
+          "method": "Surf",
+          "level": "35-44",
+          "rarity": 30,
+          "subarea": "Western area",
+          "details": "30% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,113",
+            "encounterRecordIndex": 5,
+            "slot": 1
+          }
+        },
+        {
+          "pokemon": "Poliwhirl",
+          "method": "Surf",
+          "level": "40-44",
+          "rarity": 5,
+          "subarea": "Western area",
+          "details": "5% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,113",
+            "encounterRecordIndex": 5,
+            "slot": 2
+          }
+        },
+        {
+          "pokemon": "Slowbro",
+          "method": "Surf",
+          "level": "40-44",
+          "rarity": 4,
+          "subarea": "Western area",
+          "details": "4% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,113",
+            "encounterRecordIndex": 5,
+            "slot": 3
+          }
+        },
+        {
+          "pokemon": "Bibarel",
+          "method": "Surf",
+          "level": "40-44",
+          "rarity": 1,
+          "subarea": "Western area",
+          "details": "1% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,113",
+            "encounterRecordIndex": 5,
+            "slot": 4
+          }
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Fish",
+          "level": "10",
+          "rarity": 70,
+          "subarea": "Western area",
+          "rod": "Old Rod",
+          "details": "70% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,113",
+            "encounterRecordIndex": 5,
+            "slot": 0
+          }
+        },
+        {
+          "pokemon": "Slowpoke",
+          "method": "Fish",
+          "level": "10",
+          "rarity": 30,
+          "subarea": "Western area",
+          "rod": "Old Rod",
+          "details": "30% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,113",
+            "encounterRecordIndex": 5,
+            "slot": 1
+          }
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Fish",
+          "level": "20",
+          "rarity": 60,
+          "subarea": "Western area",
+          "rod": "Good Rod",
+          "details": "60% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,113",
+            "encounterRecordIndex": 5,
+            "slot": 2
+          }
+        },
+        {
+          "pokemon": "Slowpoke",
+          "method": "Fish",
+          "level": "20",
+          "rarity": 20,
+          "subarea": "Western area",
+          "rod": "Good Rod",
+          "details": "20% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,113",
+            "encounterRecordIndex": 5,
+            "slot": 3
+          }
+        },
+        {
+          "pokemon": "Bidoof",
+          "method": "Fish",
+          "level": "20",
+          "rarity": 20,
+          "subarea": "Western area",
+          "rod": "Good Rod",
+          "details": "20% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,113",
+            "encounterRecordIndex": 5,
+            "slot": 4
+          }
+        },
+        {
+          "pokemon": "Poliwhirl",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 40,
+          "subarea": "Western area",
+          "rod": "Super Rod",
+          "details": "40% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,113",
+            "encounterRecordIndex": 5,
+            "slot": 5
+          }
+        },
+        {
+          "pokemon": "Slowbro",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 40,
+          "subarea": "Western area",
+          "rod": "Super Rod",
+          "details": "40% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,113",
+            "encounterRecordIndex": 5,
+            "slot": 6
+          }
+        },
+        {
+          "pokemon": "Slowking",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 15,
+          "subarea": "Western area",
+          "rod": "Super Rod",
+          "details": "15% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,113",
+            "encounterRecordIndex": 5,
+            "slot": 7
+          }
+        },
+        {
+          "pokemon": "Bibarel",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 4,
+          "subarea": "Western area",
+          "rod": "Super Rod",
+          "details": "4% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,113",
+            "encounterRecordIndex": 5,
+            "slot": 8
+          }
+        },
+        {
+          "pokemon": "Politoed",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 1,
+          "subarea": "Western area",
+          "rod": "Super Rod",
+          "details": "1% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,113",
+            "encounterRecordIndex": 5,
+            "slot": 9
+          }
+        }
+      ],
+      "periodModel": "all-day",
+      "source": {
+        "kind": "sevii-rom-safe-tranche",
+        "gameVersion": "2026-07-19",
+        "romSha256": "716F2CBFB731E6DC1E014B6B6744B823389262DCC0086A120C1E0FB3D80DD34B",
+        "mapKeys": [
+          "3,74",
+          "3,113"
+        ],
+        "crosswalk": "sources/normalized/sevii-map-crosswalk-2026-09-25.json"
+      },
+      "_provenance": {
+        "origin": "rom-hack",
+        "overriddenFields": [
+          "name",
+          "day",
+          "night",
+          "periodModel",
+          "source"
+        ]
+      }
+    },
+    {
       "name": "Berry Forest",
       "day": [
         {
