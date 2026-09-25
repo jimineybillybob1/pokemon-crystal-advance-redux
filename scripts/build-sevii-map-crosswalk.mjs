@@ -10,6 +10,7 @@ const outputPath = path.join(root, "sources", "normalized", "sevii-map-crosswalk
 const extraction = JSON.parse(fs.readFileSync(extractionPath, "utf8"));
 
 const labels = {
+  "1,0": ["Main area", "high"],
   "1,36": ["Cave room 1", "provisional"],
   "1,37": ["Main path", "high"],
   "1,38": ["Cave room 2", "provisional"],
@@ -48,10 +49,12 @@ const regionRules = {
   "Three Island": "ready",
 };
 
-// Reviewed as one connected Crystal Cavern interior cluster. Layouts 355-357
-// are sequential, maps 2,47-2,49 have reciprocal internal warps, and map 2,49
-// carries the direct ROM region label. Neutral area labels avoid claiming floors.
-const reviewedReadyMaps = new Set(["2,47", "2,48", "2,49"]);
+const reviewedReadyNotes = new Map([
+  ["1,0", "Reviewed Sevii Waterway main area: the direct ROM label and single coherent outdoor layout support the neutral label."],
+  ["2,47", "Reviewed Crystal Cavern interior cluster: sequential layouts and reciprocal internal warps support the neutral area label."],
+  ["2,48", "Reviewed Crystal Cavern interior cluster: sequential layouts and reciprocal internal warps support the neutral area label."],
+  ["2,49", "Reviewed Crystal Cavern interior cluster: sequential layouts and reciprocal internal warps support the neutral area label."],
+]);
 
 const countsByMap = new Map(extraction.maps.map((map) => [map.key, {
   wildMethods: 0,
@@ -80,7 +83,7 @@ const maps = extraction.maps.map((map) => {
   if (malformed) mapStatus = "exclude-malformed";
   else if (activeRecordCount === 0) mapStatus = "reference-only";
   else if (ambiguousParent) mapStatus = "needs-parent-review";
-  else if (reviewedReadyMaps.has(map.key)) mapStatus = "ready";
+  else if (reviewedReadyNotes.has(map.key)) mapStatus = "ready";
   else if (!map.directSeviiLabel) mapStatus = "needs-linked-map-review";
   else if (mapStatus === "ready" && subareaConfidence !== "high") mapStatus = "needs-subarea-review";
 
@@ -92,9 +95,7 @@ const maps = extraction.maps.map((map) => {
   if (map.regionName === "Mt. Ember" && activeRecordCount > 0) {
     notes.push("Rendered layout resembles reused ship/room maps; verify in-game reachability before importing battles.");
   }
-  if (reviewedReadyMaps.has(map.key)) {
-    notes.push("Reviewed Crystal Cavern interior cluster: sequential layouts and reciprocal internal warps support the neutral area label.");
-  }
+  if (reviewedReadyNotes.has(map.key)) notes.push(reviewedReadyNotes.get(map.key));
 
   return {
     mapKey: map.key,

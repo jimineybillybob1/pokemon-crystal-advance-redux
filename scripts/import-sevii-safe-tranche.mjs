@@ -39,6 +39,10 @@ for (const pokemon of guideFinal.pokemon) {
   if (pokemon.displayName) pokemonByAlias.set(normalize(pokemon.displayName), pokemon);
 }
 
+// The ROM name table abbreviates West Sea Shellos; the workbook records the
+// same numbered form as Shellos-West with canonical guide key `Shellos`.
+pokemonByAlias.set(normalize("Shellos-W"), guideFinal.pokemon.find((pokemon) => pokemon.key === "Shellos"));
+
 const unresolvedPokemon = [];
 const skippedMethods = [];
 const skippedAlternateGroups = [];

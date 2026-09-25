@@ -304,7 +304,8 @@
       "Goldenrod City — Underground, Plant S of Donald & W of Teru; Source: Hidden",
       "Route 45 — N, rock just S of lampost in NE; Source: Hidden",
       "Underground Path — R5 - R6, Down 4, turn left; Source: Hidden",
-      "Underground Path — R7 - R8, Right 7, down 1; Source: Hidden"
+      "Underground Path — R7 - R8, Right 7, down 1; Source: Hidden",
+      "Sevii Waterway — Main area, item ball at tile (25, 12); Source: 2026-07-19 ROM audit"
     ],
     "costs": [],
     "move": null,
@@ -564,6 +565,7 @@
       "Viridian Forest — West, next to 4 red flowers; Source: Wild",
       "Viridian Forest — N, SE corner of tree that is NE of Abner; Source: Hidden",
       "Mt. Moon — 2F, South cave entrance from Square; Source: Wild",
+      "Sevii Waterway — Main area, hidden item at tile (7, 22); Source: 2026-07-19 ROM audit",
       "Three Island — Cave 3F, item ball at tile (17, 2); Source: 2026-07-19 ROM audit"
     ],
     "costs": [],
@@ -599,6 +601,7 @@
       "Route 45 — SW, W Path, N of Quentin; Source: Wild",
       "Safari Zone — Area 2, N; Source: Wild",
       "Viridian Forest — SE corner, 1 step up from corner of trees; Source: Hidden",
+      "Sevii Waterway — Main area, item ball at tile (29, 37); Source: 2026-07-19 ROM audit",
       "Crystal Cavern — Cavern area 1, item ball at tile (33, 27); Source: 2026-07-19 ROM audit"
     ],
     "costs": [],
@@ -870,7 +873,8 @@
       "Route 09 — SE corner, East of Sidney; Source: Hidden",
       "Underground Path — R5 - R6, Down 3; Source: Hidden",
       "Underground Path — R7 - R8, Right 10, up 1; Source: Hidden",
-      "Viridian Forest — N, E of Abner; Source: Wild"
+      "Viridian Forest — N, E of Abner; Source: Wild",
+      "Sevii Waterway — Main area, item ball at tile (34, 4); Source: 2026-07-19 ROM audit"
     ],
     "costs": [],
     "move": null,
@@ -1376,7 +1380,8 @@
       "Union Cave — 1F, NW; Source: Wild",
       "Ilex Forest — Cut, S of water; Source: Wild",
       "Goldenrod City — Mall, 3F North counter - $500; Source: Shop",
-      "Celadon City — Mall, 5F South Assistant - $500; Source: Shop"
+      "Celadon City — Mall, 5F South Assistant - $500; Source: Shop",
+      "Sevii Waterway — Main area, item ball at tile (17, 21); Source: 2026-07-19 ROM audit"
     ],
     "costs": [],
     "move": null,
@@ -1899,7 +1904,8 @@
       "Route 25 — House, show Oddish to Bill's Grandfather; Source: Person",
       "Safari Zone — Area 1, NW, Rock next to Move Tutor; Source: Hidden",
       "Cinnabar Island — Mart - $2100; Source: Shop",
-      "Wild Pokémon — Oddish, Bellsprout, Weepinbell, Exeggcute, Seedot, Nuzleaf; Source: Held"
+      "Wild Pokémon — Oddish, Bellsprout, Weepinbell, Exeggcute, Seedot, Nuzleaf; Source: Held",
+      "Sevii Waterway — Main area, hidden item at tile (8, 53); Source: 2026-07-19 ROM audit"
     ],
     "costs": [],
     "move": null,
@@ -1929,7 +1935,9 @@
       "Hollow Tunnel — SW, rock in corner; Source: Hidden",
       "Mahogany Town — Shop, Pre Team Rocket Hideout - $500; Source: Shop",
       "Lake of Rage — Dive, West rock, North of Western grass; Source: Hidden",
-      "Wild Pokémon — Paras, Shroomish; Source: Held"
+      "Wild Pokémon — Paras, Shroomish; Source: Held",
+      "Sevii Waterway — Main area, hidden item at tile (3, 52) ×2; Source: 2026-07-19 ROM audit",
+      "Sevii Waterway — Main area, hidden item at tile (15, 28) ×2; Source: 2026-07-19 ROM audit"
     ],
     "costs": [],
     "move": null,
@@ -1958,6 +1966,8 @@
       "Lake of Rage — Dive, SW rock; Source: Hidden",
       "Soul House Basement — B4F, N, NW of Jody in alcove; Source: Hidden",
       "Wild Pokémon — Parasect, Breloom; Source: Held",
+      "Sevii Waterway — Main area, hidden item at tile (20, 29); Source: 2026-07-19 ROM audit",
+      "Sevii Waterway — Main area, hidden item at tile (27, 18); Source: 2026-07-19 ROM audit",
       "Berry Forest — Area 4, hidden item at tile (7, 3); Source: 2026-07-19 ROM audit"
     ],
     "costs": [],
@@ -2232,7 +2242,8 @@
       "Dragons Den — Dive, rock in NE, not touching wall; Source: Hidden",
       "Safari Zone — Area 1, NE, Grass; Source: Wild",
       "Cinnabar Island — Mart - $2100; Source: Shop",
-      "Wild Pokémon — Togepi, Roselia; Source: Held"
+      "Wild Pokémon — Togepi, Roselia; Source: Held",
+      "Sevii Waterway — Main area, hidden item at tile (33, 27); Source: 2026-07-19 ROM audit"
     ],
     "costs": [],
     "move": null,

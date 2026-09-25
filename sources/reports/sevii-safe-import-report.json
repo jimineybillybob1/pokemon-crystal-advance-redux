@@ -1,23 +1,33 @@
 {
   "meta": {
-    "generatedAt": "2026-09-25T15:33:53.323Z",
+    "generatedAt": "2026-09-25T15:45:48.277Z",
     "gameVersion": "2026-07-19",
     "romSha256": "716F2CBFB731E6DC1E014B6B6744B823389262DCC0086A120C1E0FB3D80DD34B",
     "source": "sources/reports/sevii-rom-extraction.json",
     "crosswalk": "sources/normalized/sevii-map-crosswalk-2026-09-25.json"
   },
   "summary": {
-    "readyMapCount": 18,
-    "acceptedEncounterTableCount": 16,
-    "importedLocationCount": 4,
-    "importedEncounterCount": 174,
-    "importedItemPlacementCount": 39,
+    "readyMapCount": 19,
+    "acceptedEncounterTableCount": 19,
+    "importedLocationCount": 5,
+    "importedEncounterCount": 201,
+    "importedItemPlacementCount": 50,
     "removedExactDuplicateTableCount": 3,
-    "skippedUnresolvedMethodGroupCount": 0,
+    "skippedUnresolvedMethodGroupCount": 1,
     "skippedAlternateTableGroupCount": 0,
     "trainerBattleImportCount": 0
   },
   "importedLocations": [
+    {
+      "name": "Sevii Waterway",
+      "encounterCount": 27,
+      "subareas": [
+        "Main area"
+      ],
+      "mapKeys": [
+        "1,0"
+      ]
+    },
     {
       "name": "Berry Forest",
       "encounterCount": 60,
@@ -77,6 +87,41 @@
   ],
   "importedItemPlacements": [
     {
+      "item": "Tinymushroom",
+      "mapKey": "1,0",
+      "location": "Sevii Waterway — Main area, hidden item at tile (3, 52) ×2; Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "Full Heal",
+      "mapKey": "1,0",
+      "location": "Sevii Waterway — Main area, hidden item at tile (7, 22); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "Leaf Stone",
+      "mapKey": "1,0",
+      "location": "Sevii Waterway — Main area, hidden item at tile (8, 53); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "Tinymushroom",
+      "mapKey": "1,0",
+      "location": "Sevii Waterway — Main area, hidden item at tile (15, 28) ×2; Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "Big Mushroom",
+      "mapKey": "1,0",
+      "location": "Sevii Waterway — Main area, hidden item at tile (20, 29); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "Big Mushroom",
+      "mapKey": "1,0",
+      "location": "Sevii Waterway — Main area, hidden item at tile (27, 18); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "Shiny Stone",
+      "mapKey": "1,0",
+      "location": "Sevii Waterway — Main area, hidden item at tile (33, 27); Source: 2026-07-19 ROM audit"
+    },
+    {
       "item": "Max Revive",
       "mapKey": "1,37",
       "location": "Cape Brink — Main path, hidden item at tile (7, 10); Source: 2026-07-19 ROM audit"
@@ -110,6 +155,26 @@
       "item": "Big Mushroom",
       "mapKey": "4,108",
       "location": "Berry Forest — Area 4, hidden item at tile (7, 3); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "X Attack",
+      "mapKey": "1,0",
+      "location": "Sevii Waterway — Main area, item ball at tile (17, 21); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "Antidote",
+      "mapKey": "1,0",
+      "location": "Sevii Waterway — Main area, item ball at tile (25, 12); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "Revive",
+      "mapKey": "1,0",
+      "location": "Sevii Waterway — Main area, item ball at tile (29, 37); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "Ether",
+      "mapKey": "1,0",
+      "location": "Sevii Waterway — Main area, item ball at tile (34, 4); Source: 2026-07-19 ROM audit"
     },
     {
       "item": "Protector",
@@ -274,6 +339,24 @@
   ],
   "acceptedEncounterTables": [
     {
+      "mapKey": "1,0",
+      "encounterRecordIndex": 1,
+      "method": "Fish",
+      "encounterRate": 15
+    },
+    {
+      "mapKey": "1,0",
+      "encounterRecordIndex": 1,
+      "method": "Wild",
+      "encounterRate": 10
+    },
+    {
+      "mapKey": "1,0",
+      "encounterRecordIndex": 1,
+      "method": "Surf",
+      "encounterRate": 10
+    },
+    {
       "mapKey": "4,108",
       "encounterRecordIndex": 10,
       "method": "Wild",
@@ -393,7 +476,15 @@
       ]
     }
   ],
-  "skippedMethods": [],
+  "skippedMethods": [
+    {
+      "groupKey": "1,0|tree",
+      "reason": "Tree-versus-Rock semantics unresolved",
+      "recordIndexes": [
+        1
+      ]
+    }
+  ],
   "skippedAlternateGroups": [],
   "unresolvedPokemon": [],
   "unresolvedItems": [],

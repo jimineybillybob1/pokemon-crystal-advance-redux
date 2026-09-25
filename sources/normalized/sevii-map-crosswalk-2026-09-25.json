@@ -2,7 +2,7 @@
   "meta": {
     "gameVersion": "2026-07-19",
     "romSha256": "716F2CBFB731E6DC1E014B6B6744B823389262DCC0086A120C1E0FB3D80DD34B",
-    "generatedAt": "2026-09-25T15:30:22.551Z",
+    "generatedAt": "2026-09-25T15:44:53.776Z",
     "purpose": "Reviewable map/subarea boundary between ROM extraction and guide overrides.",
     "rules": [
       "A direct ROM region label confirms the parent location but not a user-facing floor/subarea name.",
@@ -18,8 +18,8 @@
       "exclude-malformed": 8,
       "needs-linked-map-review": 8,
       "needs-parent-review": 2,
-      "needs-review": 30,
-      "ready": 18,
+      "needs-review": 29,
+      "ready": 19,
       "reference-only": 26
     }
   },
@@ -94,9 +94,9 @@
         "width": 42,
         "height": 64
       },
-      "proposedSubarea": "Map 1,0",
-      "subareaConfidence": "unreviewed",
-      "mapStatus": "needs-review",
+      "proposedSubarea": "Main area",
+      "subareaConfidence": "high",
+      "mapStatus": "ready",
       "counts": {
         "wildMethods": 4,
         "battleCommands": 1,
@@ -104,7 +104,7 @@
         "visibleItemCandidates": 5
       },
       "notes": [
-        "User-facing subarea name has not yet been established."
+        "Reviewed Sevii Waterway main area: the direct ROM label and single coherent outdoor layout support the neutral label."
       ]
     },
     {
