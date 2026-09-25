@@ -63,6 +63,19 @@ try {
     ))
   }
 
+  function Try-Get-ModelTable([string]$Anchor) {
+    $address = $model.GetAddressFromAnchor($noChange, -1, $Anchor)
+    if ($address -lt 0) {
+      return $null
+    }
+    $run = $model.GetNextRun($address)
+    return Keep-Object ([HavenSoft.HexManiac.Core.Models.ModelTable]::new(
+      [HavenSoft.HexManiac.Core.Models.IDataModel]$model,
+      [HavenSoft.HexManiac.Core.Models.Runs.ITableRun]$run,
+      $null
+    ))
+  }
+
   function Read-Pointer([int]$Address) {
     if ($Address -lt 0 -or $Address + 4 -gt $romBytes.Length) {
       return -1
@@ -246,6 +259,10 @@ try {
     0x02
   )
   $trainerTableStart = $model.GetAddressFromAnchor($noChange, -1, "data.trainers.stats")
+  # Crystal Advance Redux does not expose HexManiac's stock FireRed rematch
+  # anchor. Keep this optional so the reproducible extraction still records
+  # trainer commands without pretending that their staged rematches are known.
+  $trainerRematchTable = Keep-Object (Try-Get-ModelTable "data.trainers.rematches")
 
   $seviiRegionNames = @(
     "Sevii Waterway",
@@ -658,6 +675,38 @@ try {
     }
   }
 
+  $trainerRematches = [Collections.Generic.List[object]]::new()
+  for ($rematchIndex = 0; $trainerRematchTable -ne $null -and $rematchIndex -lt $trainerRematchTable.Count; $rematchIndex++) {
+    $rematchRecord = $trainerRematchTable[$rematchIndex]
+    $mapBank = [int]$rematchRecord.GetValue("mapBank")
+    $mapNum = [int]$rematchRecord.GetValue("mapNum")
+    $mapKey = "$mapBank,$mapNum"
+    if (-not $mapLookup.ContainsKey($mapKey)) {
+      continue
+    }
+
+    $baseTrainerId = [int]$rematchRecord.GetValue("base")
+    $stages = [Collections.Generic.List[object]]::new()
+    for ($stageIndex = 1; $stageIndex -le 4; $stageIndex++) {
+      $trainerId = [int]$rematchRecord.GetValue("rematch$stageIndex")
+      if ($trainerId -le 0 -or $trainerId -eq $baseTrainerId) {
+        continue
+      }
+      $stages.Add([pscustomobject][ordered]@{
+        stage = $stageIndex
+        trainer = Read-Trainer $trainerId
+      })
+    }
+
+    $trainerRematches.Add([pscustomobject][ordered]@{
+      rematchTableIndex = $rematchIndex
+      mapKey = $mapKey
+      regionName = $mapLookup[$mapKey].regionName
+      baseTrainer = Read-Trainer $baseTrainerId
+      stages = $stages
+    })
+  }
+
   $trainerBattles = [Collections.Generic.List[object]]::new()
   $hiddenItems = [Collections.Generic.List[object]]::new()
   $visibleItems = [Collections.Generic.List[object]]::new()
@@ -739,6 +788,10 @@ try {
           y = $objectEvent.Y
           coordinateValid = $objectEvent.X -ge 0 -and $objectEvent.Y -ge 0 -and $objectEvent.X -lt $mapRecord.width -and $objectEvent.Y -lt $mapRecord.height
           elevation = $objectEvent.Elevation
+          objectId = $objectEvent.Element.GetValue("id")
+          objectFlag = $objectEvent.Element.GetValue("flag")
+          trainerType = $objectEvent.Element.GetValue("trainerType")
+          trainerRange = $objectEvent.Element.GetValue("trainerRangeOrBerryID")
           objectScriptAddress = "0x{0:X}" -f $objectEvent.ScriptAddress
           commandAddress = "0x{0:X}" -f $commandAddress
           battleType = [int]$romBytes[$commandAddress + 1]
@@ -770,7 +823,12 @@ try {
         "Linked maps preserve their direct ROM label, inferred seed regions and minimum graph distance. An inferred parent is not treated as a confirmed user-facing subarea name.",
         "The ROM wild-data field named tree can represent tree or rock interactions; it is deliberately left unresolved as Tree/Rock ROM slot.",
         "Repeated bank/map rows in the wild table are preserved. They may represent seasonal or scripted variants and must not be merged without runtime evidence.",
-        "Trainer battle commands reached recursively from an object script are preserved individually, including alternate/rematch trainer IDs.",
+        "Trainer battle commands reached recursively from an object script are preserved individually. Type 5 is the FireRed rematch-capable command and does not by itself identify a distinct rematch team.",
+        $(if ($trainerRematchTable -ne $null) {
+          "Staged rematch teams are extracted separately from data.trainers.rematches and retain their base trainer, stage and map key."
+        } else {
+          "This ROM does not expose HexManiac's stock data.trainers.rematches anchor. Staged rematch teams therefore remain unresolved and are not inferred from type 5 commands."
+        }),
         "Visible item detection covers the standard item-ball script shape; hidden signpost items are read directly. Scripted gifts and shops require separate analysis."
       )
     }
@@ -781,6 +839,8 @@ try {
       mapGraphDepthLimit = $graphDepthLimit
       wildMethodRecordCount = $wildEncounters.Count
       trainerBattleCommandCount = $trainerBattles.Count
+      trainerRematchRecordCount = $trainerRematches.Count
+      trainerRematchStageCount = @($trainerRematches | ForEach-Object { $_.stages }).Count
       hiddenItemCount = $hiddenItems.Count
       hiddenItemCoordinateValidCount = @($hiddenItems | Where-Object coordinateValid).Count
       visibleItemCandidateCount = $visibleItems.Count
@@ -789,6 +849,7 @@ try {
     maps = @($maps | Sort-Object bank, map)
     wildEncounters = @($wildEncounters | Sort-Object encounterRecordIndex, sourceField)
     trainerBattles = $trainerBattles
+    trainerRematches = @($trainerRematches | Sort-Object mapKey, rematchTableIndex)
     hiddenItems = @($hiddenItems | Sort-Object mapKey, x, y)
     visibleItems = @($visibleItems | Sort-Object mapKey, x, y)
   }

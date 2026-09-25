@@ -1,0 +1,442 @@
+{
+  "meta": {
+    "generatedAt": "2026-09-25T21:20:02.763Z",
+    "gameVersion": "2026-07-19",
+    "romSha256": "716F2CBFB731E6DC1E014B6B6744B823389262DCC0086A120C1E0FB3D80DD34B",
+    "source": "sources/reports/sevii-rom-extraction.json",
+    "crosswalk": "sources/normalized/sevii-map-crosswalk-2026-09-25.json"
+  },
+  "summary": {
+    "reviewedMapCount": 7,
+    "candidateCommandCount": 19,
+    "importedBattleCount": 15,
+    "collapsedDuplicateCommandCount": 4,
+    "unresolvedPokemonCount": 0,
+    "unresolvedMoveCount": 0
+  },
+  "importedBattles": [
+    {
+      "id": "sevii-rom-1-0-19-3-wayne-76",
+      "trainer": "Wayne",
+      "trainerClass": "Bug Catcher",
+      "location": "Sevii Waterway",
+      "subarea": "Main area",
+      "mapKey": "1,0",
+      "coordinates": [
+        19,
+        3
+      ],
+      "trainerId": 76,
+      "team": [
+        {
+          "name": "Ledyba",
+          "level": 15
+        },
+        {
+          "name": "Paras",
+          "level": 16
+        }
+      ]
+    },
+    {
+      "id": "sevii-rom-1-40-23-1-nico-496",
+      "trainer": "Nico",
+      "trainerClass": "Sage",
+      "location": "Three Island",
+      "subarea": "Cave 2F",
+      "mapKey": "1,40",
+      "coordinates": [
+        23,
+        1
+      ],
+      "trainerId": 496,
+      "team": [
+        {
+          "name": "Bellsprout",
+          "level": 23
+        },
+        {
+          "name": "Bellsprout",
+          "level": 23
+        },
+        {
+          "name": "Weepinbell",
+          "level": 23
+        }
+      ]
+    },
+    {
+      "id": "sevii-rom-2-48-23-28-markus-296",
+      "trainer": "Markus",
+      "trainerClass": "Super Nerd",
+      "location": "Crystal Cavern",
+      "subarea": "Cavern area 2",
+      "mapKey": "2,48",
+      "coordinates": [
+        23,
+        28
+      ],
+      "trainerId": 296,
+      "team": [
+        {
+          "name": "Slowpoke",
+          "level": 27
+        }
+      ]
+    },
+    {
+      "id": "sevii-rom-2-48-33-44-miller-38",
+      "trainer": "Miller",
+      "trainerClass": "Pokémaniac",
+      "location": "Crystal Cavern",
+      "subarea": "Cavern area 2",
+      "mapKey": "2,48",
+      "coordinates": [
+        33,
+        44
+      ],
+      "trainerId": 38,
+      "team": [
+        {
+          "name": "Nidoking",
+          "level": 28
+        },
+        {
+          "name": "Nidoqueen",
+          "level": 28
+        }
+      ]
+    },
+    {
+      "id": "sevii-rom-2-49-12-29-hugh-444",
+      "trainer": "Hugh",
+      "trainerClass": "Super Nerd",
+      "location": "Crystal Cavern",
+      "subarea": "Cavern area 3",
+      "mapKey": "2,49",
+      "coordinates": [
+        12,
+        29
+      ],
+      "trainerId": 444,
+      "team": [
+        {
+          "name": "Seadra",
+          "level": 55
+        },
+        {
+          "name": "Empoleon",
+          "level": 55
+        }
+      ]
+    },
+    {
+      "id": "sevii-rom-4-106-12-4-laurel-993",
+      "trainer": "Laurel",
+      "trainerClass": "Channeler",
+      "location": "Berry Forest",
+      "subarea": "Area 2",
+      "mapKey": "4,106",
+      "coordinates": [
+        12,
+        4
+      ],
+      "trainerId": 993,
+      "team": [
+        {
+          "name": "Spiritomb",
+          "level": 66
+        },
+        {
+          "name": "Cacturne",
+          "level": 66
+        },
+        {
+          "name": "Shedinja",
+          "level": 67
+        }
+      ]
+    },
+    {
+      "id": "sevii-rom-4-106-9-9-karina-994",
+      "trainer": "Karina",
+      "trainerClass": "Channeler",
+      "location": "Berry Forest",
+      "subarea": "Area 2",
+      "mapKey": "4,106",
+      "coordinates": [
+        9,
+        9
+      ],
+      "trainerId": 994,
+      "team": [
+        {
+          "name": "Rotom-Heat",
+          "level": 65
+        },
+        {
+          "name": "Banette",
+          "level": 65
+        },
+        {
+          "name": "Cursola",
+          "level": 65
+        },
+        {
+          "name": "Gengar",
+          "level": 65
+        }
+      ]
+    },
+    {
+      "id": "sevii-rom-4-106-10-14-janae-995",
+      "trainer": "Janae",
+      "trainerClass": "Channeler",
+      "location": "Berry Forest",
+      "subarea": "Area 2",
+      "mapKey": "4,106",
+      "coordinates": [
+        10,
+        14
+      ],
+      "trainerId": 995,
+      "team": [
+        {
+          "name": "Drifblim",
+          "level": 66
+        },
+        {
+          "name": "Honchkrow",
+          "level": 67
+        },
+        {
+          "name": "Froslass",
+          "level": 67
+        }
+      ]
+    },
+    {
+      "id": "sevii-rom-4-107-17-7-giovanna-996",
+      "trainer": "Giovanna",
+      "trainerClass": "Channeler",
+      "location": "Berry Forest",
+      "subarea": "Area 3",
+      "mapKey": "4,107",
+      "coordinates": [
+        17,
+        7
+      ],
+      "trainerId": 996,
+      "team": [
+        {
+          "name": "Umbreon",
+          "level": 67
+        },
+        {
+          "name": "Mismagius",
+          "level": 67
+        }
+      ]
+    },
+    {
+      "id": "sevii-rom-4-107-4-12-paula-997",
+      "trainer": "Paula",
+      "trainerClass": "Channeler",
+      "location": "Berry Forest",
+      "subarea": "Area 3",
+      "mapKey": "4,107",
+      "coordinates": [
+        4,
+        12
+      ],
+      "trainerId": 997,
+      "team": [
+        {
+          "name": "Dusknoir",
+          "level": 69
+        },
+        {
+          "name": "Rotom-Mow",
+          "level": 68
+        }
+      ]
+    },
+    {
+      "id": "sevii-rom-4-107-15-13-jody-895",
+      "trainer": "Jody",
+      "trainerClass": "Channeler",
+      "location": "Berry Forest",
+      "subarea": "Area 3",
+      "mapKey": "4,107",
+      "coordinates": [
+        15,
+        13
+      ],
+      "trainerId": 895,
+      "team": [
+        {
+          "name": "Persian-Alola",
+          "level": 66
+        },
+        {
+          "name": "Dusclops",
+          "level": 66
+        },
+        {
+          "name": "Rotom-Wash",
+          "level": 67
+        }
+      ]
+    },
+    {
+      "id": "sevii-rom-4-108-11-4-jody-1002",
+      "trainer": "Jody",
+      "trainerClass": "Channeler",
+      "location": "Berry Forest",
+      "subarea": "Area 4",
+      "mapKey": "4,108",
+      "coordinates": [
+        11,
+        4
+      ],
+      "trainerId": 1002,
+      "team": [
+        {
+          "name": "Raticate-Alola",
+          "level": 66
+        },
+        {
+          "name": "Muk-Alola",
+          "level": 67
+        }
+      ]
+    },
+    {
+      "id": "sevii-rom-4-108-19-7-tammy-826",
+      "trainer": "Tammy",
+      "trainerClass": "Channeler",
+      "location": "Berry Forest",
+      "subarea": "Area 4",
+      "mapKey": "4,108",
+      "coordinates": [
+        19,
+        7
+      ],
+      "trainerId": 826,
+      "team": [
+        {
+          "name": "Haunter",
+          "level": 68
+        },
+        {
+          "name": "Rotom-Frost",
+          "level": 68
+        }
+      ]
+    },
+    {
+      "id": "sevii-rom-4-108-6-12-carly-998",
+      "trainer": "Carly",
+      "trainerClass": "Channeler",
+      "location": "Berry Forest",
+      "subarea": "Area 4",
+      "mapKey": "4,108",
+      "coordinates": [
+        6,
+        12
+      ],
+      "trainerId": 998,
+      "team": [
+        {
+          "name": "Banette",
+          "level": 67
+        },
+        {
+          "name": "Gengar",
+          "level": 68
+        },
+        {
+          "name": "Wyrdeer",
+          "level": 67
+        }
+      ]
+    },
+    {
+      "id": "sevii-rom-4-108-11-16-hope-999",
+      "trainer": "Hope",
+      "trainerClass": "Channeler",
+      "location": "Berry Forest",
+      "subarea": "Area 4",
+      "mapKey": "4,108",
+      "coordinates": [
+        11,
+        16
+      ],
+      "trainerId": 999,
+      "team": [
+        {
+          "name": "Dusclops",
+          "level": 67
+        },
+        {
+          "name": "Rotom-Fan",
+          "level": 67
+        }
+      ]
+    }
+  ],
+  "collapsedDuplicates": [
+    {
+      "identity": "1,40|23|1|496",
+      "keptCommandAddress": "0x30E813",
+      "duplicateCommandAddresses": [
+        "0x974A91"
+      ],
+      "battleTypesSeen": [
+        0
+      ]
+    },
+    {
+      "identity": "2,48|23|28|296",
+      "keptCommandAddress": "0x2FDB00",
+      "duplicateCommandAddresses": [
+        "0x2C10B5"
+      ],
+      "battleTypesSeen": [
+        0,
+        5
+      ]
+    },
+    {
+      "identity": "2,48|33|44|38",
+      "keptCommandAddress": "0x2FE220",
+      "duplicateCommandAddresses": [
+        "0x29B4B5"
+      ],
+      "battleTypesSeen": [
+        0,
+        5
+      ]
+    },
+    {
+      "identity": "2,49|12|29|444",
+      "keptCommandAddress": "0x2FEA10",
+      "duplicateCommandAddresses": [
+        "0x2C10DD"
+      ],
+      "battleTypesSeen": [
+        0,
+        5
+      ]
+    }
+  ],
+  "unresolvedPokemon": [],
+  "unresolvedMoves": [],
+  "exclusions": [
+    "Trainer commands outside the reviewed map allowlist are excluded.",
+    "Memorial Pillar Elite Four variants are excluded pending script-condition proof.",
+    "Type 9 special/can-lose battles are excluded.",
+    "Type 5 commands are not interpreted as distinct rematch teams when they resolve to the same trainer record as type 0.",
+    "Staged rematches remain unresolved because this ROM does not expose HexManiac's stock data.trainers.rematches anchor."
+  ]
+}

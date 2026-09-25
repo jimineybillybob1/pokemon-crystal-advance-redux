@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "2026-07-01",
-    "title": "Crystal Advance Redux community workbook trainer data",
-    "sourceNote": "Trainer parent areas come from Location Data column AD, specific venues from column AE, and finer area/floor labels from column AF. Sparse Location and More Info values inherit within their workbook block. Gym Leaders named by the workbook are retained even when their teams are deliberately hidden; DB markers are represented as Double Battles.",
+    "version": "2026-07-19",
+    "title": "Crystal Advance Redux documented trainer data",
+    "sourceNote": "Trainer battles combine the community workbook with a conservative 2026-07-19 ROM audit. Workbook inheritance and intentionally hidden Gym Leader teams remain explicit; ROM-derived Sevii battles are limited to reviewed maps and regular trainer teams.",
     "limitations": [
       "The workbook does not document trainer moves, abilities, held items or natures.",
       "Gym Leader rows identify the leader and battle format but intentionally omit their Pokémon teams.",
@@ -10,7 +10,7 @@
       "Asterisks beside trainer names are preserved as a major-battle flag rather than as part of the displayed name.",
       "Silver's SE Starter placeholders are retained with their documented evolution stage and resolved from the player's starter at runtime.",
       "Workbook question-mark Location placeholders are treated as undocumented and do not replace a known venue.",
-      "Post-2026-07-01 Sevii trainer data is absent."
+      "ROM-derived Sevii rematch stages and Memorial Pillar Elite Four variants remain excluded until their script conditions can be verified."
     ]
   },
   "battles": [
@@ -31391,6 +31391,1033 @@
         "sheet": "Location Data",
         "row": 887
       }
+    },
+    {
+      "id": "sevii-rom-1-0-19-3-wayne-76",
+      "mode": "default",
+      "category": "Trainer Battle",
+      "trainer": "Wayne",
+      "trainerClass": "Bug Catcher",
+      "boss": false,
+      "rival": false,
+      "location": "Sevii Waterway",
+      "subarea": "Main area",
+      "rematch": false,
+      "team": [
+        {
+          "name": "Ledyba",
+          "level": 15,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Tackle",
+            "Supersonic",
+            "Comet Punch",
+            "Bug Bite"
+          ]
+        },
+        {
+          "name": "Paras",
+          "level": 16,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Scratch",
+            "Stun Spore",
+            "Poison Powder",
+            "Cut"
+          ]
+        }
+      ],
+      "notes": [
+        "Bug Catcher · ROM-derived regular trainer battle"
+      ],
+      "doubleBattle": false,
+      "source": {
+        "kind": "rom-audit",
+        "scope": "sevii-safe-trainer-tranche",
+        "gameVersion": "2026-07-19",
+        "romSha256": "716F2CBFB731E6DC1E014B6B6744B823389262DCC0086A120C1E0FB3D80DD34B",
+        "mapKey": "1,0",
+        "x": 19,
+        "y": 3,
+        "objectId": 10,
+        "objectFlag": 0,
+        "objectScriptAddress": "0x2E7E10",
+        "commandAddresses": [
+          "0x2E7E10"
+        ],
+        "trainerId": 76,
+        "partyAddress": "0x13D7614",
+        "structType": 1
+      },
+      "levelMin": 15,
+      "levelMax": 16
+    },
+    {
+      "id": "sevii-rom-1-40-23-1-nico-496",
+      "mode": "default",
+      "category": "Trainer Battle",
+      "trainer": "Nico",
+      "trainerClass": "Sage",
+      "boss": false,
+      "rival": false,
+      "location": "Three Island",
+      "subarea": "Cave 2F",
+      "rematch": false,
+      "team": [
+        {
+          "name": "Bellsprout",
+          "level": 23,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": []
+        },
+        {
+          "name": "Bellsprout",
+          "level": 23,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": []
+        },
+        {
+          "name": "Weepinbell",
+          "level": 23,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": []
+        }
+      ],
+      "notes": [
+        "Sage · ROM-derived regular trainer battle"
+      ],
+      "doubleBattle": false,
+      "source": {
+        "kind": "rom-audit",
+        "scope": "sevii-safe-trainer-tranche",
+        "gameVersion": "2026-07-19",
+        "romSha256": "716F2CBFB731E6DC1E014B6B6744B823389262DCC0086A120C1E0FB3D80DD34B",
+        "mapKey": "1,40",
+        "x": 23,
+        "y": 1,
+        "objectId": 6,
+        "objectFlag": 0,
+        "objectScriptAddress": "0x974A91",
+        "commandAddresses": [
+          "0x30E813",
+          "0x974A91"
+        ],
+        "trainerId": 496,
+        "partyAddress": "0x26E294",
+        "structType": 0
+      },
+      "levelMin": 23,
+      "levelMax": 23
+    },
+    {
+      "id": "sevii-rom-2-48-23-28-markus-296",
+      "mode": "default",
+      "category": "Trainer Battle",
+      "trainer": "Markus",
+      "trainerClass": "Super Nerd",
+      "boss": false,
+      "rival": false,
+      "location": "Crystal Cavern",
+      "subarea": "Cavern area 2",
+      "rematch": false,
+      "team": [
+        {
+          "name": "Slowpoke",
+          "level": 27,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Disable",
+            "Slack Off",
+            "Water Pulse",
+            "Headbutt"
+          ]
+        }
+      ],
+      "notes": [
+        "Super Nerd · ROM-derived regular trainer battle"
+      ],
+      "doubleBattle": false,
+      "source": {
+        "kind": "rom-audit",
+        "scope": "sevii-safe-trainer-tranche",
+        "gameVersion": "2026-07-19",
+        "romSha256": "716F2CBFB731E6DC1E014B6B6744B823389262DCC0086A120C1E0FB3D80DD34B",
+        "mapKey": "2,48",
+        "x": 23,
+        "y": 28,
+        "objectId": 6,
+        "objectFlag": 0,
+        "objectScriptAddress": "0x2FDB00",
+        "commandAddresses": [
+          "0x2C10B5",
+          "0x2FDB00"
+        ],
+        "trainerId": 296,
+        "partyAddress": "0x23B580",
+        "structType": 1
+      },
+      "levelMin": 27,
+      "levelMax": 27
+    },
+    {
+      "id": "sevii-rom-2-48-33-44-miller-38",
+      "mode": "default",
+      "category": "Trainer Battle",
+      "trainer": "Miller",
+      "trainerClass": "Pokémaniac",
+      "boss": false,
+      "rival": false,
+      "location": "Crystal Cavern",
+      "subarea": "Cavern area 2",
+      "rematch": false,
+      "team": [
+        {
+          "name": "Nidoking",
+          "level": 28,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Drill Peck",
+            "Horn Attack",
+            "Poison Fang",
+            "Charm"
+          ]
+        },
+        {
+          "name": "Nidoqueen",
+          "level": 28,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Aerial Ace",
+            "Bite",
+            "Poison Fang",
+            "Charm"
+          ]
+        }
+      ],
+      "notes": [
+        "Pokémaniac · ROM-derived regular trainer battle"
+      ],
+      "doubleBattle": false,
+      "source": {
+        "kind": "rom-audit",
+        "scope": "sevii-safe-trainer-tranche",
+        "gameVersion": "2026-07-19",
+        "romSha256": "716F2CBFB731E6DC1E014B6B6744B823389262DCC0086A120C1E0FB3D80DD34B",
+        "mapKey": "2,48",
+        "x": 33,
+        "y": 44,
+        "objectId": 2,
+        "objectFlag": 0,
+        "objectScriptAddress": "0x2FE220",
+        "commandAddresses": [
+          "0x29B4B5",
+          "0x2FE220"
+        ],
+        "trainerId": 38,
+        "partyAddress": "0x2F1938",
+        "structType": 1
+      },
+      "levelMin": 28,
+      "levelMax": 28
+    },
+    {
+      "id": "sevii-rom-2-49-12-29-hugh-444",
+      "mode": "default",
+      "category": "Trainer Battle",
+      "trainer": "Hugh",
+      "trainerClass": "Super Nerd",
+      "boss": false,
+      "rival": false,
+      "location": "Crystal Cavern",
+      "subarea": "Cavern area 3",
+      "rematch": false,
+      "team": [
+        {
+          "name": "Seadra",
+          "level": 55,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Dragon Dance",
+            "Close Combat",
+            "Muddy Water",
+            "Rain Dance"
+          ]
+        },
+        {
+          "name": "Empoleon",
+          "level": 55,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Roar of Time",
+            "Drill Peck",
+            "Ice Beam",
+            "Incinerate"
+          ]
+        }
+      ],
+      "notes": [
+        "Super Nerd · ROM-derived regular trainer battle"
+      ],
+      "doubleBattle": false,
+      "source": {
+        "kind": "rom-audit",
+        "scope": "sevii-safe-trainer-tranche",
+        "gameVersion": "2026-07-19",
+        "romSha256": "716F2CBFB731E6DC1E014B6B6744B823389262DCC0086A120C1E0FB3D80DD34B",
+        "mapKey": "2,49",
+        "x": 12,
+        "y": 29,
+        "objectId": 1,
+        "objectFlag": 0,
+        "objectScriptAddress": "0x2FEA10",
+        "commandAddresses": [
+          "0x2C10DD",
+          "0x2FEA10"
+        ],
+        "trainerId": 444,
+        "partyAddress": "0x292F8A",
+        "structType": 1
+      },
+      "levelMin": 55,
+      "levelMax": 55
+    },
+    {
+      "id": "sevii-rom-4-106-12-4-laurel-993",
+      "mode": "default",
+      "category": "Trainer Battle",
+      "trainer": "Laurel",
+      "trainerClass": "Channeler",
+      "boss": false,
+      "rival": false,
+      "location": "Berry Forest",
+      "subarea": "Area 2",
+      "rematch": false,
+      "team": [
+        {
+          "name": "Spiritomb",
+          "level": 66,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Shadow Ball",
+            "Acupressure",
+            "Hypnosis",
+            "Dream Eater"
+          ]
+        },
+        {
+          "name": "Cacturne",
+          "level": 66,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Cotton Spore",
+            "Fire Fang",
+            "Destiny Bond",
+            "Synthesis"
+          ]
+        },
+        {
+          "name": "Shedinja",
+          "level": 67,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Confuse Ray",
+            "Night Slash",
+            "Last Resort",
+            "Nasty Plot"
+          ]
+        }
+      ],
+      "notes": [
+        "Channeler · ROM-derived regular trainer battle"
+      ],
+      "doubleBattle": false,
+      "source": {
+        "kind": "rom-audit",
+        "scope": "sevii-safe-trainer-tranche",
+        "gameVersion": "2026-07-19",
+        "romSha256": "716F2CBFB731E6DC1E014B6B6744B823389262DCC0086A120C1E0FB3D80DD34B",
+        "mapKey": "4,106",
+        "x": 12,
+        "y": 4,
+        "objectId": 3,
+        "objectFlag": 0,
+        "objectScriptAddress": "0x1633D5",
+        "commandAddresses": [
+          "0x1633D5"
+        ],
+        "trainerId": 993,
+        "partyAddress": "0x40F8B0",
+        "structType": 1
+      },
+      "levelMin": 66,
+      "levelMax": 67
+    },
+    {
+      "id": "sevii-rom-4-106-9-9-karina-994",
+      "mode": "default",
+      "category": "Trainer Battle",
+      "trainer": "Karina",
+      "trainerClass": "Channeler",
+      "boss": false,
+      "rival": false,
+      "location": "Berry Forest",
+      "subarea": "Area 2",
+      "rematch": false,
+      "team": [
+        {
+          "name": "Rotom-Heat",
+          "level": 65,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Ice Beam",
+            "Uproar",
+            "Zap Cannon",
+            "Blizzard"
+          ]
+        },
+        {
+          "name": "Banette",
+          "level": 65,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Grudge",
+            "Trick",
+            "Wring Out",
+            "Nasty Plot"
+          ]
+        },
+        {
+          "name": "Cursola",
+          "level": 65,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Mirror Coat",
+            "Assurance",
+            "Blizzard",
+            "Nasty Plot"
+          ]
+        },
+        {
+          "name": "Gengar",
+          "level": 65,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Spite",
+            "Ominous Wind",
+            "Curse",
+            "Sludge Bomb"
+          ]
+        }
+      ],
+      "notes": [
+        "Channeler · ROM-derived regular trainer battle"
+      ],
+      "doubleBattle": false,
+      "source": {
+        "kind": "rom-audit",
+        "scope": "sevii-safe-trainer-tranche",
+        "gameVersion": "2026-07-19",
+        "romSha256": "716F2CBFB731E6DC1E014B6B6744B823389262DCC0086A120C1E0FB3D80DD34B",
+        "mapKey": "4,106",
+        "x": 9,
+        "y": 9,
+        "objectId": 2,
+        "objectFlag": 0,
+        "objectScriptAddress": "0x1633BE",
+        "commandAddresses": [
+          "0x1633BE"
+        ],
+        "trainerId": 994,
+        "partyAddress": "0x40F830",
+        "structType": 1
+      },
+      "levelMin": 65,
+      "levelMax": 65
+    },
+    {
+      "id": "sevii-rom-4-106-10-14-janae-995",
+      "mode": "default",
+      "category": "Trainer Battle",
+      "trainer": "Janae",
+      "trainerClass": "Channeler",
+      "boss": false,
+      "rival": false,
+      "location": "Berry Forest",
+      "subarea": "Area 2",
+      "rematch": false,
+      "team": [
+        {
+          "name": "Drifblim",
+          "level": 66,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Rain Dance",
+            "Nasty Plot",
+            "Explosion",
+            "Incinerate"
+          ]
+        },
+        {
+          "name": "Honchkrow",
+          "level": 67,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Double Hit",
+            "Acupressure",
+            "Perish Song",
+            "Healing Wish"
+          ]
+        },
+        {
+          "name": "Froslass",
+          "level": 67,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Shadow Ball",
+            "Double-Edge",
+            "Blizzard",
+            "Destiny Bond"
+          ]
+        }
+      ],
+      "notes": [
+        "Channeler · ROM-derived regular trainer battle"
+      ],
+      "doubleBattle": false,
+      "source": {
+        "kind": "rom-audit",
+        "scope": "sevii-safe-trainer-tranche",
+        "gameVersion": "2026-07-19",
+        "romSha256": "716F2CBFB731E6DC1E014B6B6744B823389262DCC0086A120C1E0FB3D80DD34B",
+        "mapKey": "4,106",
+        "x": 10,
+        "y": 14,
+        "objectId": 1,
+        "objectFlag": 0,
+        "objectScriptAddress": "0x1633A7",
+        "commandAddresses": [
+          "0x1633A7"
+        ],
+        "trainerId": 995,
+        "partyAddress": "0x40F878",
+        "structType": 1
+      },
+      "levelMin": 66,
+      "levelMax": 67
+    },
+    {
+      "id": "sevii-rom-4-107-17-7-giovanna-996",
+      "mode": "default",
+      "category": "Trainer Battle",
+      "trainer": "Giovanna",
+      "trainerClass": "Channeler",
+      "boss": false,
+      "rival": false,
+      "location": "Berry Forest",
+      "subarea": "Area 3",
+      "rematch": false,
+      "team": [
+        {
+          "name": "Umbreon",
+          "level": 67,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Moonlight",
+            "Hidden Power",
+            "Hyper Voice",
+            "Beat Up"
+          ]
+        },
+        {
+          "name": "Mismagius",
+          "level": 67,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Shadow Ball",
+            "Thunderbolt",
+            "Skill Swap",
+            "Uproar"
+          ]
+        }
+      ],
+      "notes": [
+        "Channeler · ROM-derived regular trainer battle"
+      ],
+      "doubleBattle": false,
+      "source": {
+        "kind": "rom-audit",
+        "scope": "sevii-safe-trainer-tranche",
+        "gameVersion": "2026-07-19",
+        "romSha256": "716F2CBFB731E6DC1E014B6B6744B823389262DCC0086A120C1E0FB3D80DD34B",
+        "mapKey": "4,107",
+        "x": 17,
+        "y": 7,
+        "objectId": 1,
+        "objectFlag": 0,
+        "objectScriptAddress": "0x163404",
+        "commandAddresses": [
+          "0x163404"
+        ],
+        "trainerId": 996,
+        "partyAddress": "0x40F7B8",
+        "structType": 1
+      },
+      "levelMin": 67,
+      "levelMax": 67
+    },
+    {
+      "id": "sevii-rom-4-107-4-12-paula-997",
+      "mode": "default",
+      "category": "Trainer Battle",
+      "trainer": "Paula",
+      "trainerClass": "Channeler",
+      "boss": false,
+      "rival": false,
+      "location": "Berry Forest",
+      "subarea": "Area 3",
+      "rematch": false,
+      "team": [
+        {
+          "name": "Dusknoir",
+          "level": 69,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Leech Life",
+            "Curse",
+            "Thunder Punch",
+            "Nasty Plot"
+          ]
+        },
+        {
+          "name": "Rotom-Mow",
+          "level": 68,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Leech Life",
+            "Curse",
+            "Thunder Punch",
+            "Nasty Plot"
+          ]
+        }
+      ],
+      "notes": [
+        "Channeler · ROM-derived regular trainer battle"
+      ],
+      "doubleBattle": false,
+      "source": {
+        "kind": "rom-audit",
+        "scope": "sevii-safe-trainer-tranche",
+        "gameVersion": "2026-07-19",
+        "romSha256": "716F2CBFB731E6DC1E014B6B6744B823389262DCC0086A120C1E0FB3D80DD34B",
+        "mapKey": "4,107",
+        "x": 4,
+        "y": 12,
+        "objectId": 3,
+        "objectFlag": 0,
+        "objectScriptAddress": "0x1633ED",
+        "commandAddresses": [
+          "0x1633ED"
+        ],
+        "trainerId": 997,
+        "partyAddress": "0x40F700",
+        "structType": 1
+      },
+      "levelMin": 68,
+      "levelMax": 69
+    },
+    {
+      "id": "sevii-rom-4-107-15-13-jody-895",
+      "mode": "default",
+      "category": "Trainer Battle",
+      "trainer": "Jody",
+      "trainerClass": "Channeler",
+      "boss": false,
+      "rival": false,
+      "location": "Berry Forest",
+      "subarea": "Area 3",
+      "rematch": false,
+      "team": [
+        {
+          "name": "Persian-Alola",
+          "level": 66,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Icy Wind",
+            "Last Resort",
+            "Hypnosis",
+            "Magma Storm"
+          ]
+        },
+        {
+          "name": "Dusclops",
+          "level": 66,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Leech Life",
+            "Seed Bomb",
+            "Future Sight",
+            "Nasty Plot"
+          ]
+        },
+        {
+          "name": "Rotom-Wash",
+          "level": 67,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Flamethrower",
+            "Uproar",
+            "Zap Cannon",
+            "Sunny Day"
+          ]
+        }
+      ],
+      "notes": [
+        "Channeler · ROM-derived regular trainer battle"
+      ],
+      "doubleBattle": false,
+      "source": {
+        "kind": "rom-audit",
+        "scope": "sevii-safe-trainer-tranche",
+        "gameVersion": "2026-07-19",
+        "romSha256": "716F2CBFB731E6DC1E014B6B6744B823389262DCC0086A120C1E0FB3D80DD34B",
+        "mapKey": "4,107",
+        "x": 15,
+        "y": 13,
+        "objectId": 2,
+        "objectFlag": 0,
+        "objectScriptAddress": "0x16341B",
+        "commandAddresses": [
+          "0x16341B"
+        ],
+        "trainerId": 895,
+        "partyAddress": "0x40FF50",
+        "structType": 1
+      },
+      "levelMin": 66,
+      "levelMax": 67
+    },
+    {
+      "id": "sevii-rom-4-108-11-4-jody-1002",
+      "mode": "default",
+      "category": "Trainer Battle",
+      "trainer": "Jody",
+      "trainerClass": "Channeler",
+      "boss": false,
+      "rival": false,
+      "location": "Berry Forest",
+      "subarea": "Area 4",
+      "rematch": false,
+      "team": [
+        {
+          "name": "Raticate-Alola",
+          "level": 66,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Taunt",
+            "Crunch",
+            "Ice Fang",
+            "Swords Dance"
+          ]
+        },
+        {
+          "name": "Muk-Alola",
+          "level": 67,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Wring Out",
+            "Acid Armor",
+            "Nasty Plot",
+            "Trump Card"
+          ]
+        }
+      ],
+      "notes": [
+        "Channeler · ROM-derived regular trainer battle"
+      ],
+      "doubleBattle": false,
+      "source": {
+        "kind": "rom-audit",
+        "scope": "sevii-safe-trainer-tranche",
+        "gameVersion": "2026-07-19",
+        "romSha256": "716F2CBFB731E6DC1E014B6B6744B823389262DCC0086A120C1E0FB3D80DD34B",
+        "mapKey": "4,108",
+        "x": 11,
+        "y": 4,
+        "objectId": 1,
+        "objectFlag": 0,
+        "objectScriptAddress": "0x163472",
+        "commandAddresses": [
+          "0x163472"
+        ],
+        "trainerId": 1002,
+        "partyAddress": "0x40F6C8",
+        "structType": 1
+      },
+      "levelMin": 66,
+      "levelMax": 67
+    },
+    {
+      "id": "sevii-rom-4-108-19-7-tammy-826",
+      "mode": "default",
+      "category": "Trainer Battle",
+      "trainer": "Tammy",
+      "trainerClass": "Channeler",
+      "boss": false,
+      "rival": false,
+      "location": "Berry Forest",
+      "subarea": "Area 4",
+      "rematch": false,
+      "team": [
+        {
+          "name": "Haunter",
+          "level": 68,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Shadow Ball",
+            "Destiny Bond",
+            "Sludge Bomb",
+            "Fling"
+          ]
+        },
+        {
+          "name": "Rotom-Frost",
+          "level": 68,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Shadow Ball",
+            "Destiny Bond",
+            "Sludge Bomb",
+            "Fling"
+          ]
+        }
+      ],
+      "notes": [
+        "Channeler · ROM-derived regular trainer battle"
+      ],
+      "doubleBattle": false,
+      "source": {
+        "kind": "rom-audit",
+        "scope": "sevii-safe-trainer-tranche",
+        "gameVersion": "2026-07-19",
+        "romSha256": "716F2CBFB731E6DC1E014B6B6744B823389262DCC0086A120C1E0FB3D80DD34B",
+        "mapKey": "4,108",
+        "x": 19,
+        "y": 7,
+        "objectId": 2,
+        "objectFlag": 0,
+        "objectScriptAddress": "0x16345B",
+        "commandAddresses": [
+          "0x16345B"
+        ],
+        "trainerId": 826,
+        "partyAddress": "0x40F698",
+        "structType": 1
+      },
+      "levelMin": 68,
+      "levelMax": 68
+    },
+    {
+      "id": "sevii-rom-4-108-6-12-carly-998",
+      "mode": "default",
+      "category": "Trainer Battle",
+      "trainer": "Carly",
+      "trainerClass": "Channeler",
+      "boss": false,
+      "rival": false,
+      "location": "Berry Forest",
+      "subarea": "Area 4",
+      "rematch": false,
+      "team": [
+        {
+          "name": "Banette",
+          "level": 67,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Grudge",
+            "Trick",
+            "Wring Out",
+            "Nasty Plot"
+          ]
+        },
+        {
+          "name": "Gengar",
+          "level": 68,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Ominous Wind",
+            "Destiny Bond",
+            "Sludge Bomb",
+            "Fling"
+          ]
+        },
+        {
+          "name": "Wyrdeer",
+          "level": 67,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Clear Smog",
+            "Bounce",
+            "Thrash",
+            "Megahorn"
+          ]
+        }
+      ],
+      "notes": [
+        "Channeler · ROM-derived regular trainer battle"
+      ],
+      "doubleBattle": false,
+      "source": {
+        "kind": "rom-audit",
+        "scope": "sevii-safe-trainer-tranche",
+        "gameVersion": "2026-07-19",
+        "romSha256": "716F2CBFB731E6DC1E014B6B6744B823389262DCC0086A120C1E0FB3D80DD34B",
+        "mapKey": "4,108",
+        "x": 6,
+        "y": 12,
+        "objectId": 3,
+        "objectFlag": 0,
+        "objectScriptAddress": "0x163489",
+        "commandAddresses": [
+          "0x163489"
+        ],
+        "trainerId": 998,
+        "partyAddress": "0x40F628",
+        "structType": 1
+      },
+      "levelMin": 67,
+      "levelMax": 68
+    },
+    {
+      "id": "sevii-rom-4-108-11-16-hope-999",
+      "mode": "default",
+      "category": "Trainer Battle",
+      "trainer": "Hope",
+      "trainerClass": "Channeler",
+      "boss": false,
+      "rival": false,
+      "location": "Berry Forest",
+      "subarea": "Area 4",
+      "rematch": false,
+      "team": [
+        {
+          "name": "Dusclops",
+          "level": 67,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Leech Life",
+            "Seed Bomb",
+            "Future Sight",
+            "Nasty Plot"
+          ]
+        },
+        {
+          "name": "Rotom-Fan",
+          "level": 67,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Embargo",
+            "Uproar",
+            "Zap Cannon",
+            "Zen Headbutt"
+          ]
+        }
+      ],
+      "notes": [
+        "Channeler · ROM-derived regular trainer battle"
+      ],
+      "doubleBattle": false,
+      "source": {
+        "kind": "rom-audit",
+        "scope": "sevii-safe-trainer-tranche",
+        "gameVersion": "2026-07-19",
+        "romSha256": "716F2CBFB731E6DC1E014B6B6744B823389262DCC0086A120C1E0FB3D80DD34B",
+        "mapKey": "4,108",
+        "x": 11,
+        "y": 16,
+        "objectId": 4,
+        "objectFlag": 0,
+        "objectScriptAddress": "0x1634A0",
+        "commandAddresses": [
+          "0x1634A0"
+        ],
+        "trainerId": 999,
+        "partyAddress": "0x53B690",
+        "structType": 1
+      },
+      "levelMin": 67,
+      "levelMax": 67
     }
   ]
 }

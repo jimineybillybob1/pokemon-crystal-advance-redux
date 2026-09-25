@@ -163,10 +163,15 @@ for (const battle of battles.battles || []) {
     requireValue(Boolean(battle.specialty && battle.badge), `${battle.id}: hidden Gym Leader requires specialty and badge metadata.`);
   }
   if (battle.subarea) {
-    requireValue(typeof battle.subareaInherited === 'boolean', `${battle.id}: documented battle subarea requires an inheritance flag.`);
-    requireValue(Number.isInteger(battle.subareaSourceRow) && battle.subareaSourceRow > 0, `${battle.id}: documented battle subarea requires a positive source row.`);
-    if (battle.subareaInherited) requireValue(battle.subareaSourceRow < battle.source?.row, `${battle.id}: inherited subarea must originate on an earlier source row.`);
-    else requireValue(battle.subareaSourceRow === battle.source?.row, `${battle.id}: explicit subarea must originate on its own source row.`);
+    if (battle.source?.kind === 'rom-audit') {
+      requireValue(/^\d+,\d+$/.test(battle.source?.mapKey || ''), `${battle.id}: ROM-derived battle subarea requires a canonical map key.`);
+      requireValue(battle.subareaInherited == null && battle.subareaSourceRow == null, `${battle.id}: ROM-derived subarea must not carry workbook inheritance metadata.`);
+    } else {
+      requireValue(typeof battle.subareaInherited === 'boolean', `${battle.id}: documented battle subarea requires an inheritance flag.`);
+      requireValue(Number.isInteger(battle.subareaSourceRow) && battle.subareaSourceRow > 0, `${battle.id}: documented battle subarea requires a positive source row.`);
+      if (battle.subareaInherited) requireValue(battle.subareaSourceRow < battle.source?.row, `${battle.id}: inherited subarea must originate on an earlier source row.`);
+      else requireValue(battle.subareaSourceRow === battle.source?.row, `${battle.id}: explicit subarea must originate on its own source row.`);
+    }
   } else {
     requireValue(battle.subareaInherited == null && battle.subareaSourceRow == null, `${battle.id}: blank subarea must not carry inheritance metadata.`);
   }
