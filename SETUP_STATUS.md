@@ -1,10 +1,10 @@
 # Guide setup status
 
-- Status: Advanced guide refinement; Crystal Cavern tranche imported and validated locally
+- Status: Advanced guide refinement; Crystal Cavern tranche deployed and verified
 - Current phase: Sevii source-gap follow-up
-- Readiness: Advanced ready; the first safe Sevii tranche is live and the Crystal Cavern extension is locally validated pending deployment
+- Readiness: Advanced ready and live; both conservative Sevii encounter/item tranches are deployed
 - Last updated: 2026-09-25
-- Next step: Continue reconciling the remaining 40 active Sevii maps before the next import tranche; deploy the reviewed Crystal Cavern extension when approved.
+- Next step: Continue reconciling the remaining 40 active Sevii maps before the next import tranche.
 
 ## Progress
 
@@ -18,7 +18,7 @@
 | Planning data | Imported and validated | All 766 workbook-used moves have complete fallback definitions; all 451 workbook items remain visible (203 canonical definitions plus 248 custom records), with no unrelated mainline items or generic prices; custom item details remain provisional |
 | Advanced data | Partial / battles, badges, profile and cloud sync complete | Encrypted Cloudflare Worker/KV sync is configured; all 16 Johto/Kanto badges and 700 workbook battle records are active, including 668 populated trainer teams, 229 VS Seeker rematches and 32 intentionally hidden Gym Leader records; trainer/rival configuration is saved and synced; maps remain deferred |
 | Local build | Complete | Baseline rebuilt and merged; validation, provenance and local-asset checks pass for the Crystal Cavern extension. Desktop and 390×844 touch review confirmed the area/method hierarchy, Old/Good/Super Rod ordering, item-detail provenance, no console errors and no horizontal overflow |
-| Deployment | Complete and verified | The first safe Sevii tranche was deployed to GitHub Pages from commit `0a10cb9`; workflow run `36153907163` completed successfully. The public guide, generated data and service worker returned HTTP 200, all three imported location names were present, and cache version `20260925b` was live. Cloudflare Worker/KV remains configured. |
+| Deployment | Complete and verified | The Crystal Cavern extension was deployed to GitHub Pages from commit `3e883a0`; workflow run `36155624395` completed successfully. The public guide, generated guide/item data and service worker returned HTTP 200; Crystal Cavern areas 1-3, Piplup, TD22 - Frost Breath and cache version `20260925c` were live. Cloudflare Worker/KV remains configured. |
 
 ## Confirmed decisions
 
@@ -50,6 +50,7 @@
 
 ## Activity log
 
+- 2026-09-25 Crystal Cavern deployment: published the reviewed extension from commit `3e883a0`. GitHub Pages workflow `36155624395` completed successfully; the public index, guide data, item data and service worker returned HTTP 200, and Crystal Cavern areas 1-3, Piplup, TD22 - Frost Breath and cache version `crystal-advance-redux-guide-20260925c` were confirmed live.
 - 2026-09-25 Crystal Cavern extension: promoted ROM maps `2,47`, `2,48` and `2,49` after topology and rendered-map review, using neutral labels `Cavern area 1`-`3` rather than inventing floor names. Imported 66 all-day encounter rows across Wild, Surf and Fish plus 19 coordinate-valid standard/hidden items. Rod dimensions are preserved, trainers remain gated, and the disconnected `Exterior` map plus its four items remain excluded pending runtime confirmation. The guide now contains 174 ROM-derived Sevii encounters and 39 item placements; build, validation, provenance and asset checks pass. Desktop and 390×844 touch review confirmed the hierarchy and item provenance with no console errors or horizontal overflow.
 - 2026-09-25 deployment: published the first safe Sevii tranche from commit `0a10cb9`. GitHub Pages workflow `36153907163` completed successfully; the live index, generated guide data and service worker returned HTTP 200, Berry Forest/Cape Brink/Three Island were present, and cache version `crystal-advance-redux-guide-20260925b` was active.
 - 2026-09-25 first safe Sevii import: added 108 all-day Wild encounter rows across Berry Forest Areas 1-5, Cape Brink Main path and Three Island Cave 1F-3F, plus 20 standard/hidden item placements across those maps and Four Island Interior 1F-2F. Three byte-identical Berry Forest tables were collapsed while preserving every area label; subareas are naturally ordered. Tree/Rock, Dive, distinct alternate tables and all trainer battles remain explicitly gated. The importer and machine-readable report are repeatable, all build/validation/provenance/asset checks pass, and desktop plus 390×844 touch review found no console errors or horizontal overflow.
