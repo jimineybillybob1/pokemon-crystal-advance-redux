@@ -25,9 +25,9 @@ const labels = {
   "1,137": ["Memorial interior 3", "provisional"],
   "1,138": ["Memorial interior 4", "provisional"],
   "2,120": ["Memorial interior 5", "provisional"],
-  "2,47": ["Cavern area 1", "provisional"],
-  "2,48": ["Cavern area 2", "provisional"],
-  "2,49": ["Cavern area 3", "provisional"],
+  "2,47": ["Cavern area 1", "high"],
+  "2,48": ["Cavern area 2", "high"],
+  "2,49": ["Cavern area 3", "high"],
   "3,50": ["Exterior", "high"],
   "4,105": ["Area 1", "high"],
   "4,106": ["Area 2", "high"],
@@ -47,6 +47,11 @@ const regionRules = {
   "Memorial Pillar": "ready",
   "Three Island": "ready",
 };
+
+// Reviewed as one connected Crystal Cavern interior cluster. Layouts 355-357
+// are sequential, maps 2,47-2,49 have reciprocal internal warps, and map 2,49
+// carries the direct ROM region label. Neutral area labels avoid claiming floors.
+const reviewedReadyMaps = new Set(["2,47", "2,48", "2,49"]);
 
 const countsByMap = new Map(extraction.maps.map((map) => [map.key, {
   wildMethods: 0,
@@ -75,6 +80,7 @@ const maps = extraction.maps.map((map) => {
   if (malformed) mapStatus = "exclude-malformed";
   else if (activeRecordCount === 0) mapStatus = "reference-only";
   else if (ambiguousParent) mapStatus = "needs-parent-review";
+  else if (reviewedReadyMaps.has(map.key)) mapStatus = "ready";
   else if (!map.directSeviiLabel) mapStatus = "needs-linked-map-review";
   else if (mapStatus === "ready" && subareaConfidence !== "high") mapStatus = "needs-subarea-review";
 
@@ -85,6 +91,9 @@ const maps = extraction.maps.map((map) => {
   if (subarea.startsWith("Map ")) notes.push("User-facing subarea name has not yet been established.");
   if (map.regionName === "Mt. Ember" && activeRecordCount > 0) {
     notes.push("Rendered layout resembles reused ship/room maps; verify in-game reachability before importing battles.");
+  }
+  if (reviewedReadyMaps.has(map.key)) {
+    notes.push("Reviewed Crystal Cavern interior cluster: sequential layouts and reciprocal internal warps support the neutral area label.");
   }
 
   return {
@@ -121,6 +130,7 @@ const result = {
       "Only blank-labelled maps with a reciprocal one-step link are retained as linked candidates.",
       "Generic Map bank,map labels preserve uniqueness without inventing a subarea name.",
       "A ready map has a stable parent/subarea label; encounter variants and battle semantics remain separate import gates.",
+      "A linked map may become ready after a documented topology review establishes a stable parent and neutral subarea label.",
     ],
   },
   summary: {

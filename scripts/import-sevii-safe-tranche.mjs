@@ -163,12 +163,17 @@ for (const [locationName, rawRows] of encounterRowsByLocation) {
 }
 
 guideOverride.meta.source = "Crystal Advance Redux community workbook (data current through 2026-07-01), official developer changelog through 2026-07-19, and version-matched 2026-07-19 ROM audit";
-guideOverride.meta.limitations = guideOverride.meta.limitations.filter((note) => !note.startsWith("Post-2026-07-01 Sevii encounter"));
-const safeTrancheNote = "ROM-derived Sevii coverage currently includes only map-stable Wild encounter tables and standard/hidden item placements; Tree/Rock, alternate tables, Dive interpretation and trainer stages remain gated.";
+guideOverride.meta.limitations = guideOverride.meta.limitations.filter((note) =>
+  !note.startsWith("Post-2026-07-01 Sevii encounter")
+  && !note.startsWith("ROM-derived Sevii coverage currently includes only"));
+const safeTrancheNote = "ROM-derived Sevii coverage currently includes only map-stable Wild, Surf and Fish encounter tables plus standard/hidden item placements; Tree/Rock, alternate tables, Dive interpretation and trainer stages remain gated.";
 if (!guideOverride.meta.limitations.includes(safeTrancheNote)) guideOverride.meta.limitations.push(safeTrancheNote);
 
 const itemNameAliases = new Map([
   [normalize("TM26"), normalize("TM26 - Earthquake")],
+  // ROM item name table uses the long Technical Disk label; the workbook
+  // records the same numbered item with its taught move.
+  [normalize("Tech Disk 22"), normalize("TD22 - Frost Breath")],
 ]);
 const itemByAlias = new Map();
 for (const item of itemOverride) {

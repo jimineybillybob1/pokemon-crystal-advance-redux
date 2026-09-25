@@ -1,17 +1,17 @@
 {
   "meta": {
-    "generatedAt": "2026-09-25T15:23:29.143Z",
+    "generatedAt": "2026-09-25T15:33:53.323Z",
     "gameVersion": "2026-07-19",
     "romSha256": "716F2CBFB731E6DC1E014B6B6744B823389262DCC0086A120C1E0FB3D80DD34B",
     "source": "sources/reports/sevii-rom-extraction.json",
     "crosswalk": "sources/normalized/sevii-map-crosswalk-2026-09-25.json"
   },
   "summary": {
-    "readyMapCount": 15,
-    "acceptedEncounterTableCount": 9,
-    "importedLocationCount": 3,
-    "importedEncounterCount": 108,
-    "importedItemPlacementCount": 20,
+    "readyMapCount": 18,
+    "acceptedEncounterTableCount": 16,
+    "importedLocationCount": 4,
+    "importedEncounterCount": 174,
+    "importedItemPlacementCount": 39,
     "removedExactDuplicateTableCount": 3,
     "skippedUnresolvedMethodGroupCount": 0,
     "skippedAlternateTableGroupCount": 0,
@@ -34,6 +34,20 @@
         "4,107",
         "4,108",
         "4,109"
+      ]
+    },
+    {
+      "name": "Crystal Cavern",
+      "encounterCount": 66,
+      "subareas": [
+        "Cavern area 1",
+        "Cavern area 2",
+        "Cavern area 3"
+      ],
+      "mapKeys": [
+        "2,47",
+        "2,48",
+        "2,49"
       ]
     },
     {
@@ -71,6 +85,26 @@
       "item": "Dubious Disc",
       "mapKey": "14,14",
       "location": "Four Island — Interior 2F, hidden item at tile (2, 2); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "Protein",
+      "mapKey": "2,47",
+      "location": "Crystal Cavern — Cavern area 1, hidden item at tile (37, 39); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "TD22 - Frost Breath",
+      "mapKey": "2,47",
+      "location": "Crystal Cavern — Cavern area 1, hidden item at tile (38, 46); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "Max Repel",
+      "mapKey": "2,48",
+      "location": "Crystal Cavern — Cavern area 2, hidden item at tile (30, 11); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "Full Restore",
+      "mapKey": "2,49",
+      "location": "Crystal Cavern — Cavern area 3, hidden item at tile (24, 12); Source: 2026-07-19 ROM audit"
     },
     {
       "item": "Big Mushroom",
@@ -116,6 +150,81 @@
       "item": "Ultra Ball",
       "mapKey": "14,14",
       "location": "Four Island — Interior 2F, item ball at tile (34, 3); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "Gold Cap",
+      "mapKey": "2,47",
+      "location": "Crystal Cavern — Cavern area 1, item ball at tile (15, 33); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "Revive",
+      "mapKey": "2,47",
+      "location": "Crystal Cavern — Cavern area 1, item ball at tile (33, 27); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "Iron",
+      "mapKey": "2,48",
+      "location": "Crystal Cavern — Cavern area 2, item ball at tile (8, 16); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "Hyper Potion",
+      "mapKey": "2,48",
+      "location": "Crystal Cavern — Cavern area 2, item ball at tile (10, 27); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "Max Revive",
+      "mapKey": "2,48",
+      "location": "Crystal Cavern — Cavern area 2, item ball at tile (16, 10); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "Ultra Ball",
+      "mapKey": "2,48",
+      "location": "Crystal Cavern — Cavern area 2, item ball at tile (17, 17); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "Max Potion",
+      "mapKey": "2,48",
+      "location": "Crystal Cavern — Cavern area 2, item ball at tile (22, 20); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "Nugget",
+      "mapKey": "2,48",
+      "location": "Crystal Cavern — Cavern area 2, item ball at tile (35, 19); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "Escape Rope",
+      "mapKey": "2,48",
+      "location": "Crystal Cavern — Cavern area 2, item ball at tile (35, 38); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "Rare Candy",
+      "mapKey": "2,49",
+      "location": "Crystal Cavern — Cavern area 3, item ball at tile (2, 37); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "Elixir",
+      "mapKey": "2,49",
+      "location": "Crystal Cavern — Cavern area 3, item ball at tile (9, 15); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "Dragon Scale",
+      "mapKey": "2,49",
+      "location": "Crystal Cavern — Cavern area 3, item ball at tile (17, 9); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "Big Nugget",
+      "mapKey": "2,49",
+      "location": "Crystal Cavern — Cavern area 3, item ball at tile (19, 21); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "Escape Rope",
+      "mapKey": "2,49",
+      "location": "Crystal Cavern — Cavern area 3, item ball at tile (28, 9); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "Max Potion",
+      "mapKey": "2,49",
+      "location": "Crystal Cavern — Cavern area 3, item ball at tile (28, 26); Source: 2026-07-19 ROM audit"
     },
     {
       "item": "Dusk Stone",
@@ -171,6 +280,24 @@
       "encounterRate": 6
     },
     {
+      "mapKey": "2,49",
+      "encounterRecordIndex": 60,
+      "method": "Fish",
+      "encounterRate": 15
+    },
+    {
+      "mapKey": "2,49",
+      "encounterRecordIndex": 60,
+      "method": "Wild",
+      "encounterRate": 15
+    },
+    {
+      "mapKey": "2,49",
+      "encounterRecordIndex": 60,
+      "method": "Surf",
+      "encounterRate": 15
+    },
+    {
       "mapKey": "4,106",
       "encounterRecordIndex": 63,
       "method": "Wild",
@@ -195,6 +322,12 @@
       "encounterRate": 10
     },
     {
+      "mapKey": "2,48",
+      "encounterRecordIndex": 183,
+      "method": "Wild",
+      "encounterRate": 15
+    },
+    {
       "mapKey": "4,107",
       "encounterRecordIndex": 185,
       "method": "Wild",
@@ -205,6 +338,24 @@
       "encounterRecordIndex": 201,
       "method": "Wild",
       "encounterRate": 3
+    },
+    {
+      "mapKey": "2,47",
+      "encounterRecordIndex": 220,
+      "method": "Fish",
+      "encounterRate": 15
+    },
+    {
+      "mapKey": "2,47",
+      "encounterRecordIndex": 220,
+      "method": "Wild",
+      "encounterRate": 15
+    },
+    {
+      "mapKey": "2,47",
+      "encounterRecordIndex": 220,
+      "method": "Surf",
+      "encounterRate": 10
     },
     {
       "mapKey": "1,41",

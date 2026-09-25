@@ -155,7 +155,8 @@
       "Olivine City — NE of Lighthouse; Source: Wild",
       "Battle Tower — West of entrance, outside; Source: Wild",
       "Route 02 — N, Man in house just below Digletts Cave; Source: Person",
-      "Route 21 — Dive, NE rock; Source: Hidden"
+      "Route 21 — Dive, NE rock; Source: Hidden",
+      "Crystal Cavern — Cavern area 3, item ball at tile (19, 21); Source: 2026-07-19 ROM audit"
     ],
     "costs": []
   },
@@ -658,7 +659,8 @@
       "Blackthorn City — Man in Move Deleter house - $2100; Source: Shop",
       "Dragons Den — Dive, North; Source: Wild",
       "Fuchsia City — Man in Central house - $2100; Source: Shop",
-      "Wild Pokémon — Seadra, Horsea, Dratini, Kingdra; Source: Held"
+      "Wild Pokémon — Seadra, Horsea, Dratini, Kingdra; Source: Held",
+      "Crystal Cavern — Cavern area 3, item ball at tile (17, 9); Source: 2026-07-19 ROM audit"
     ],
     "costs": []
   },
@@ -783,6 +785,7 @@
       "Rock Tunnel — 1F, Center, access from South; Source: Wild",
       "Power Plant — Rear Room, NE area; Source: Wild",
       "Route 02 — SE corner; Source: Wild",
+      "Crystal Cavern — Cavern area 3, item ball at tile (9, 15); Source: 2026-07-19 ROM audit",
       "Berry Forest — Area 3, item ball at tile (13, 4); Source: 2026-07-19 ROM audit"
     ],
     "costs": []
@@ -819,7 +822,9 @@
       "Whirl Islands — B1F, S area, any N & SW island access; Source: Wild",
       "Cinnabar Island — Mansion 2F, SW corner; Source: Wild",
       "Seafoam Islands — W B1F Rear Room, South; Source: Wild",
-      "Mt. Silver — 1F, SW; Source: Wild"
+      "Mt. Silver — 1F, SW; Source: Wild",
+      "Crystal Cavern — Cavern area 2, item ball at tile (35, 38); Source: 2026-07-19 ROM audit",
+      "Crystal Cavern — Cavern area 3, item ball at tile (28, 9); Source: 2026-07-19 ROM audit"
     ],
     "costs": []
   },
@@ -1058,6 +1063,7 @@
       "Mt. Silver — 2F, NE Cave, NE; Source: Wild",
       "Cerulean Cave — 1F, SW; Source: Wild",
       "Cerulean Cave — 2F, East, via 1F NE ladder; Source: Wild",
+      "Crystal Cavern — Cavern area 3, hidden item at tile (24, 12); Source: 2026-07-19 ROM audit",
       "Three Island — Cave 2F, item ball at tile (20, 5); Source: 2026-07-19 ROM audit"
     ],
     "costs": []
@@ -1117,7 +1123,8 @@
     "locations": [
       "Ruins of Alph — Collect 28 Unowns for Unown Report; Source: Person; Qty: 3",
       "Ecruteak City — Box under tree, Daily, 6.7% chance, Dec & Jan only; Source: Wild",
-      "Mt. Silver — 2F, C Cave, Rocket Grunt - $65000; Source: Shop"
+      "Mt. Silver — 2F, C Cave, Rocket Grunt - $65000; Source: Shop",
+      "Crystal Cavern — Cavern area 1, item ball at tile (15, 33); Source: 2026-07-19 ROM audit"
     ],
     "costs": [],
     "move": null
@@ -1458,7 +1465,8 @@
       "Mt. Mortar — B1F, Surf, E area; Source: Wild",
       "Rocket Hideout — 1F, E; Source: Wild",
       "Power Plant — Rear Room, SE from the Center; Source: Wild",
-      "Underground Path — R5 - R6, Down 6, left 1; Source: Hidden"
+      "Underground Path — R5 - R6, Down 6, left 1; Source: Hidden",
+      "Crystal Cavern — Cavern area 2, item ball at tile (10, 27); Source: 2026-07-19 ROM audit"
     ],
     "costs": []
   },
@@ -1511,7 +1519,8 @@
       "Battle Tower — Victory Reward, only if no Pokemon received; Source: Person; Qty: 3",
       "Ice Path — B1F, Blackthorn side, SW corner; Source: Wild",
       "Rock Tunnel — B1F, SW corner; Source: Wild",
-      "Celadon City — Mall, 5F North Assistant - $2000; Source: Shop"
+      "Celadon City — Mall, 5F North Assistant - $2000; Source: Shop",
+      "Crystal Cavern — Cavern area 2, item ball at tile (8, 16); Source: 2026-07-19 ROM audit"
     ],
     "costs": []
   },
@@ -2036,7 +2045,9 @@
       "Route 25 — NW, SE corner of tree next to Move Tutor; Source: Hidden",
       "Safari Zone — Area 3, E; Source: Wild",
       "Viridian Forest — NE area; Source: Wild",
-      "Mt. Silver — 1F, NE, end of S path from NE exit; Source: Hidden"
+      "Mt. Silver — 1F, NE, end of S path from NE exit; Source: Hidden",
+      "Crystal Cavern — Cavern area 2, item ball at tile (22, 20); Source: 2026-07-19 ROM audit",
+      "Crystal Cavern — Cavern area 3, item ball at tile (28, 26); Source: 2026-07-19 ROM audit"
     ],
     "costs": []
   },
@@ -2049,7 +2060,8 @@
       "Route 44 — East, E of Phil; Source: Wild",
       "Power Plant — Rear Room, NW corner; Source: Wild",
       "Safari Zone — Area 2, SE; Source: Wild",
-      "Viridian Forest — S, NE of S entrance in corner of trees; Source: Wild"
+      "Viridian Forest — S, NE of S entrance in corner of trees; Source: Wild",
+      "Crystal Cavern — Cavern area 2, hidden item at tile (30, 11); Source: 2026-07-19 ROM audit"
     ],
     "costs": []
   },
@@ -2072,6 +2084,7 @@
       "Mt. Silver — 2F, C Cave, NE; Source: Wild",
       "Cape Brink — Main path, hidden item at tile (7, 10); Source: 2026-07-19 ROM audit",
       "Three Island — Cave 3F, item ball at tile (14, 2); Source: 2026-07-19 ROM audit",
+      "Crystal Cavern — Cavern area 2, item ball at tile (16, 10); Source: 2026-07-19 ROM audit",
       "Berry Forest — Area 4, item ball at tile (11, 9); Source: 2026-07-19 ROM audit"
     ],
     "costs": []
@@ -2320,7 +2333,8 @@
       "Route 12 — Cut, SW corner; Source: Wild",
       "Route 20 — Dive, W, Small rock between wall & big rock; Source: Hidden",
       "Cerulean Cave — 1F, NW; Source: Wild",
-      "Wild Pokémon — Meowth, Persian, Alolan Meowth; Source: Held"
+      "Wild Pokémon — Meowth, Persian, Alolan Meowth; Source: Held",
+      "Crystal Cavern — Cavern area 2, item ball at tile (35, 19); Source: 2026-07-19 ROM audit"
     ],
     "costs": []
   },
@@ -2813,7 +2827,8 @@
       "Route 25 — North, Cut; Source: Wild",
       "Celadon City — Mall, 5F North Assistant - $2000; Source: Shop",
       "Mt. Moon — 1F, take SE ladder up to 2F from X Accuracy; Source: Wild",
-      "Mt. Silver — 1F, SE platform; Source: Wild"
+      "Mt. Silver — 1F, SE platform; Source: Wild",
+      "Crystal Cavern — Cavern area 1, hidden item at tile (37, 39); Source: 2026-07-19 ROM audit"
     ],
     "costs": []
   },
@@ -2916,6 +2931,7 @@
       "Route 28 — NE bush, past house. Access from Mt. Silver; Source: Hidden",
       "Mt. Silver — 2F, C Cave, Rocket Grunt - $25000; Source: Shop",
       "Four Island — Interior 1F, item ball at tile (25, 2); Source: 2026-07-19 ROM audit",
+      "Crystal Cavern — Cavern area 3, item ball at tile (2, 37); Source: 2026-07-19 ROM audit",
       "Berry Forest — Area 5, item ball at tile (9, 14); Source: 2026-07-19 ROM audit"
     ],
     "costs": []
@@ -3101,7 +3117,8 @@
       "Dragons Den — SE, on SW corner of rock on E ground area; Source: Hidden",
       "Route 45 — SW, W Path, N of Quentin; Source: Wild",
       "Safari Zone — Area 2, N; Source: Wild",
-      "Viridian Forest — SE corner, 1 step up from corner of trees; Source: Hidden"
+      "Viridian Forest — SE corner, 1 step up from corner of trees; Source: Hidden",
+      "Crystal Cavern — Cavern area 1, item ball at tile (33, 27); Source: 2026-07-19 ROM audit"
     ],
     "costs": []
   },
@@ -3997,7 +4014,8 @@
     "sprite": "assets/art/placeholder-icon.svg",
     "locations": [
       "Goldenrod City — Mall, 5F Left Assistant - $3000; Source: Shop",
-      "Mt. Mortar — Entrance SE, rock on its own near entrance (check); Source: Wild"
+      "Mt. Mortar — Entrance SE, rock on its own near entrance (check); Source: Wild",
+      "Crystal Cavern — Cavern area 1, hidden item at tile (38, 46); Source: 2026-07-19 ROM audit"
     ],
     "costs": [],
     "move": null
@@ -5292,7 +5310,8 @@
       "Cerulean Cave — 1F, Center, rock on its own; Source: Hidden",
       "Cerulean Cave — 2F, SE, via 1F E ladder; Source: Wild",
       "Cerulean Cave — B1F, Center, slightly East on raised area; Source: Wild",
-      "Four Island — Interior 2F, item ball at tile (34, 3); Source: 2026-07-19 ROM audit"
+      "Four Island — Interior 2F, item ball at tile (34, 3); Source: 2026-07-19 ROM audit",
+      "Crystal Cavern — Cavern area 2, item ball at tile (17, 17); Source: 2026-07-19 ROM audit"
     ],
     "costs": []
   },

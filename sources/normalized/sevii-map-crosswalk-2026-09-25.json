@@ -2,23 +2,24 @@
   "meta": {
     "gameVersion": "2026-07-19",
     "romSha256": "716F2CBFB731E6DC1E014B6B6744B823389262DCC0086A120C1E0FB3D80DD34B",
-    "generatedAt": "2026-09-25T09:43:18.366Z",
+    "generatedAt": "2026-09-25T15:30:22.551Z",
     "purpose": "Reviewable map/subarea boundary between ROM extraction and guide overrides.",
     "rules": [
       "A direct ROM region label confirms the parent location but not a user-facing floor/subarea name.",
       "Only blank-labelled maps with a reciprocal one-step link are retained as linked candidates.",
       "Generic Map bank,map labels preserve uniqueness without inventing a subarea name.",
-      "A ready map has a stable parent/subarea label; encounter variants and battle semantics remain separate import gates."
+      "A ready map has a stable parent/subarea label; encounter variants and battle semantics remain separate import gates.",
+      "A linked map may become ready after a documented topology review establishes a stable parent and neutral subarea label."
     ]
   },
   "summary": {
     "mapCount": 92,
     "statusCounts": {
       "exclude-malformed": 8,
-      "needs-linked-map-review": 10,
+      "needs-linked-map-review": 8,
       "needs-parent-review": 2,
-      "needs-review": 31,
-      "ready": 15,
+      "needs-review": 30,
+      "ready": 18,
       "reference-only": 26
     }
   },
@@ -1185,8 +1186,8 @@
         "height": 54
       },
       "proposedSubarea": "Cavern area 1",
-      "subareaConfidence": "provisional",
-      "mapStatus": "needs-linked-map-review",
+      "subareaConfidence": "high",
+      "mapStatus": "ready",
       "counts": {
         "wildMethods": 3,
         "battleCommands": 0,
@@ -1194,7 +1195,8 @@
         "visibleItemCandidates": 2
       },
       "notes": [
-        "Parent location is inferred from a reciprocal one-step ROM link."
+        "Parent location is inferred from a reciprocal one-step ROM link.",
+        "Reviewed Crystal Cavern interior cluster: sequential layouts and reciprocal internal warps support the neutral area label."
       ]
     },
     {
@@ -1212,8 +1214,8 @@
         "height": 50
       },
       "proposedSubarea": "Cavern area 2",
-      "subareaConfidence": "provisional",
-      "mapStatus": "needs-linked-map-review",
+      "subareaConfidence": "high",
+      "mapStatus": "ready",
       "counts": {
         "wildMethods": 1,
         "battleCommands": 4,
@@ -1221,7 +1223,8 @@
         "visibleItemCandidates": 7
       },
       "notes": [
-        "Parent location is inferred from a reciprocal one-step ROM link."
+        "Parent location is inferred from a reciprocal one-step ROM link.",
+        "Reviewed Crystal Cavern interior cluster: sequential layouts and reciprocal internal warps support the neutral area label."
       ]
     },
     {
@@ -1239,15 +1242,17 @@
         "height": 40
       },
       "proposedSubarea": "Cavern area 3",
-      "subareaConfidence": "provisional",
-      "mapStatus": "needs-review",
+      "subareaConfidence": "high",
+      "mapStatus": "ready",
       "counts": {
         "wildMethods": 3,
         "battleCommands": 2,
         "hiddenItems": 1,
         "visibleItemCandidates": 6
       },
-      "notes": []
+      "notes": [
+        "Reviewed Crystal Cavern interior cluster: sequential layouts and reciprocal internal warps support the neutral area label."
+      ]
     },
     {
       "mapKey": "2,120",
