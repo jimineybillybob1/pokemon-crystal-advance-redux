@@ -1,10 +1,10 @@
 # Guide setup status
 
-- Status: Advanced guide refinement; Sevii Waterway tranche imported and validated locally
+- Status: Advanced guide refinement; Sevii Waterway tranche deployed and verified
 - Current phase: Sevii source-gap follow-up
-- Readiness: Advanced ready; two conservative Sevii tranches are live and the Sevii Waterway extension has passed full local review pending deployment
+- Readiness: Advanced ready and live; all three conservative Sevii encounter/item tranches are deployed
 - Last updated: 2026-09-25
-- Next step: Deploy the reviewed Sevii Waterway extension when approved, then continue reconciling the remaining 39 active Sevii maps.
+- Next step: Continue reconciling the remaining 39 active Sevii maps before the next import tranche.
 
 ## Progress
 
@@ -18,7 +18,7 @@
 | Planning data | Imported and validated | All 766 workbook-used moves have complete fallback definitions; all 451 workbook items remain visible (203 canonical definitions plus 248 custom records), with no unrelated mainline items or generic prices; custom item details remain provisional |
 | Advanced data | Partial / battles, badges, profile and cloud sync complete | Encrypted Cloudflare Worker/KV sync is configured; all 16 Johto/Kanto badges and 700 workbook battle records are active, including 668 populated trainer teams, 229 VS Seeker rematches and 32 intentionally hidden Gym Leader records; trainer/rival configuration is saved and synced; maps remain deferred |
 | Local build | Complete | Baseline rebuilt and merged; validation, provenance and local-asset checks pass for the Sevii Waterway extension. Desktop and 390×844 touch review confirmed the encounter hierarchy, fishing-rod order and item provenance with no console warnings/errors or horizontal overflow |
-| Deployment | Complete and verified | The Crystal Cavern extension was deployed to GitHub Pages from commit `3e883a0`; workflow run `36155624395` completed successfully. The public guide, generated guide/item data and service worker returned HTTP 200; Crystal Cavern areas 1-3, Piplup, TD22 - Frost Breath and cache version `20260925c` were live. Cloudflare Worker/KV remains configured. |
+| Deployment | Complete and verified | The Sevii Waterway extension was deployed to GitHub Pages from commit `14d7a09`; workflow run `36181392887` completed successfully. The public guide, generated guide/item data and service worker returned HTTP 200; Sevii Waterway encounter/item data and cache version `20260925d` were live. Cloudflare Worker/KV remains configured. |
 
 ## Confirmed decisions
 
@@ -50,6 +50,7 @@
 
 ## Activity log
 
+- 2026-09-25 Sevii Waterway deployment: published the reviewed extension from commit `14d7a09`. GitHub Pages workflow `36181392887` completed successfully; the public index, guide data, item data and service worker returned HTTP 200, and Sevii Waterway plus cache version `crystal-advance-redux-guide-20260925d` were confirmed live.
 - 2026-09-25 Sevii Waterway extension: promoted direct ROM map `1,0` as `Main area` after topology and rendered-map review. Imported 27 all-day encounter rows across Wild, Surf and Fish plus 11 coordinate-valid standard/hidden items. The five-entry combined Tree/Rock slot, Bug Catcher Wayne and one out-of-bounds item candidate remain explicitly excluded. The ROM abbreviation `Shellos-W` is mapped only to the workbook's Shellos-West form. The guide now contains 201 ROM-derived Sevii encounters and 50 item placements; build, validation, provenance and asset checks pass locally. Desktop and 390×844 touch review confirmed 12 Wild, five Surf and ten Fish entries, Old/Good/Super Rod ordering, the Leaf Stone ROM-audit placement, no horizontal overflow and no console warnings/errors.
 - 2026-09-25 Crystal Cavern deployment: published the reviewed extension from commit `3e883a0`. GitHub Pages workflow `36155624395` completed successfully; the public index, guide data, item data and service worker returned HTTP 200, and Crystal Cavern areas 1-3, Piplup, TD22 - Frost Breath and cache version `crystal-advance-redux-guide-20260925c` were confirmed live.
 - 2026-09-25 Crystal Cavern extension: promoted ROM maps `2,47`, `2,48` and `2,49` after topology and rendered-map review, using neutral labels `Cavern area 1`-`3` rather than inventing floor names. Imported 66 all-day encounter rows across Wild, Surf and Fish plus 19 coordinate-valid standard/hidden items. Rod dimensions are preserved, trainers remain gated, and the disconnected `Exterior` map plus its four items remain excluded pending runtime confirmation. The guide now contains 174 ROM-derived Sevii encounters and 39 item placements; build, validation, provenance and asset checks pass. Desktop and 390×844 touch review confirmed the hierarchy and item provenance with no console errors or horizontal overflow.
