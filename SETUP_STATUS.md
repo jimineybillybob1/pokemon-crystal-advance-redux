@@ -1,10 +1,10 @@
 # Guide setup status
 
-- Status: Advanced guide refinement; Memorial Pillar battle stages complete locally
+- Status: Advanced guide refinement; Memorial Pillar battle stages deployed and verified
 - Current phase: Sevii source-gap follow-up
-- Readiness: Advanced ready; five encounter/item tranches and 15 Sevii trainer battles are live, with eight Memorial Pillar battles ready to deploy
-- Last updated: 2026-09-25
-- Next step: Deploy the Memorial Pillar refinement, then continue the remaining Sevii map and VS Seeker-stage reconciliation.
+- Readiness: Advanced ready and live; five encounter/item tranches and 23 reviewed Sevii trainer battles are deployed
+- Last updated: 2026-09-26
+- Next step: Continue the remaining Sevii map and VS Seeker-stage reconciliation.
 
 ## Progress
 
@@ -18,7 +18,7 @@
 | Planning data | Imported and validated | All 766 workbook-used moves plus three ROM-evidenced Memorial Pillar moves have complete fallback definitions; all 451 workbook items remain visible (203 canonical definitions plus 248 custom records), with no unrelated mainline items or generic prices; custom item details remain provisional |
 | Advanced data | Partial / battles, badges, profile and cloud sync complete | Encrypted Cloudflare Worker/KV sync is configured; all 16 Johto/Kanto badges, 700 workbook battle records and 23 reviewed ROM-derived Sevii trainer battles are active locally. This includes 683 populated trainer teams, 229 workbook VS Seeker rematches, 32 intentionally hidden Gym Leader records and eight staged Memorial Pillar Elite Four battles; trainer/rival configuration is saved and synced; maps remain deferred |
 | Local build | Complete | Build, validation, provenance and local-asset checks pass with 723 battle records. Desktop, 820×1180 tablet and 390×844 touch checks confirm the four-room stage ordering, ROM source banner, complete team/move cards, no browser errors and no horizontal overflow |
-| Deployment | Complete and verified | The first Sevii trainer tranche was deployed to GitHub Pages from commit `4576ac5`; workflow run `36191315979` completed successfully. The public index, app, battle data and service worker returned HTTP 200; the 2026-07-19 battle dataset, Berry Forest/Sevii Waterway trainer records and cache version `20260925h` were live. Cloudflare Worker/KV remains configured. |
+| Deployment | Complete and verified | The Memorial Pillar refinement was deployed to GitHub Pages from commit `8549072`; workflow run `36232762689` completed successfully. The public index, app, battle data and service worker returned HTTP 200; Memorial Pillar, its post-Kanto stages, Synchronoise and cache version `20260925i` were confirmed live. Cloudflare Worker/KV remains configured. |
 
 ## Confirmed decisions
 
@@ -50,7 +50,8 @@
 
 ## Activity log
 
-- 2026-09-25 Memorial Pillar battle refinement: decoded the four room scripts and imported Will, Koga, Bruno and Karen as separate initial and post-Kanto stages. The stronger stage is selected when variable `0x4089` equals 2 or progression flag `0x1686` is set; the flag-setting script directly checks the eight Gym-victory flags linked to Lt. Surge, Blue, Brock, Misty, Erika, Sabrina, Blaine and Janine. Added the ROM-evidenced Synchronoise, Chip Away and Sky Drop definitions to the exact pinned baseline allowlist. The repeatable importer now produces 23 ROM battles with zero unresolved Pokémon or moves, and build, validation, provenance and 1,649-asset checks pass for 723 total battles. Desktop, 820×1180 tablet and 390×844 touch review confirms the four-room ordering, expanded ROM cards, no browser errors and no horizontal overflow. Deployment remains pending.
+- 2026-09-26 Memorial Pillar deployment: published the verified refinement from commit `8549072`. GitHub Pages workflow `36232762689` completed successfully; the public index, app, battle data and service worker returned HTTP 200, with Memorial Pillar, post-Kanto stages, Synchronoise and cache version `crystal-advance-redux-guide-20260925i` confirmed live. The ROM remained local and untracked.
+- 2026-09-25 Memorial Pillar battle refinement: decoded the four room scripts and imported Will, Koga, Bruno and Karen as separate initial and post-Kanto stages. The stronger stage is selected when variable `0x4089` equals 2 or progression flag `0x1686` is set; the flag-setting script directly checks the eight Gym-victory flags linked to Lt. Surge, Blue, Brock, Misty, Erika, Sabrina, Blaine and Janine. Added the ROM-evidenced Synchronoise, Chip Away and Sky Drop definitions to the exact pinned baseline allowlist. The repeatable importer now produces 23 ROM battles with zero unresolved Pokémon or moves, and build, validation, provenance and 1,649-asset checks pass for 723 total battles. Desktop, 820×1180 tablet and 390×844 touch review confirms the four-room ordering, expanded ROM cards, no browser errors and no horizontal overflow. The refinement was subsequently deployed and verified.
 - 2026-09-25 first Sevii trainer deployment: published the reviewed tranche from commit `4576ac5`. GitHub Pages workflow `36191315979` completed successfully; the public index, app, battle data and service worker returned HTTP 200, with the 2026-07-19 combined battle dataset, Berry Forest/Sevii Waterway trainer records and cache version `crystal-advance-redux-guide-20260925h` confirmed live.
 - 2026-09-25 first safe Sevii trainer import: added 15 regular trainer battles across Sevii Waterway, Three Island Cave 2F, Crystal Cavern areas 2-3 and Berry Forest areas 2-4. The repeatable importer collapsed four duplicate script paths, resolved every Pokémon and move, and preserves exact ROM levels, stored moves, double-battle flags and held items where present. Type 5 commands are not mislabelled as distinct rematches; Memorial Pillar's two Elite Four stages and all trainers on unresolved maps remain held. The ROM does not expose HexManiac's stock rematch-table anchor, so staged rematches remain an explicit gap. Build, validation, provenance and asset checks pass for 715 total battles; desktop, 820×1180 tablet and 390×844 touch review found no browser errors or horizontal overflow. The tranche was subsequently deployed and verified.
 - 2026-09-25 Six Island deployment: published the reviewed extension from commit `3a25546`. GitHub Pages workflow `36186257104` completed successfully; the public index, generated guide/item data and service worker returned HTTP 200, and Six Island's Eastern/Western areas, Sneasler, the hidden Rare Candy plus cache version `crystal-advance-redux-guide-20260925f` were confirmed live.
