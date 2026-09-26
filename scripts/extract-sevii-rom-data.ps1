@@ -806,6 +806,83 @@ try {
       Sort-Object mapKey, x, y, commandAddress, @{ Expression = { $_.trainer.id } } -Unique
   )
 
+  # Memorial Pillar's stronger Elite Four scripts are gated by 0x1686. Audit
+  # every overworld object that sets it or one of its prerequisite flags so the
+  # progression label can be derived from reachable trainer/map evidence.
+  $progressionFlagIds = @(0x156F, 0x1685, 0x167B, 0x1642, 0x188E, 0x160D, 0x1681, 0x158A, 0x1686)
+  $progressionFlags = [Collections.Generic.List[object]]::new()
+  foreach ($mapEntry in @($allMapIndex.Values | Sort-Object bank, map)) {
+    $mapModel = $allMaps[$mapEntry.bank][$mapEntry.map]
+    if ($null -eq $mapModel) {
+      continue
+    }
+    foreach ($objectEvent in $mapModel.Events.Objects) {
+      if ($objectEvent.ScriptAddress -lt 0) {
+        continue
+      }
+      try {
+        $flagSpots = [HavenSoft.HexManiac.Core.ViewModels.Map.Flags]::GetAllScriptSpots(
+          [HavenSoft.HexManiac.Core.Models.IDataModel]$model,
+          $scriptParser,
+          [int[]]@($objectEvent.ScriptAddress),
+          [byte[]]@(0x29)
+        )
+      } catch {
+        continue
+      }
+      $matchingFlags = @(
+        $flagSpots |
+          ForEach-Object {
+            $flagId = Read-U16 ($_.Address + 1)
+            if ($progressionFlagIds -contains $flagId) {
+              [pscustomobject]@{ address = $_.Address; flagId = $flagId }
+            }
+          } |
+          Sort-Object address, flagId -Unique
+      )
+      if (-not $matchingFlags.Count) {
+        continue
+      }
+
+      $reachableTrainers = [Collections.Generic.List[object]]::new()
+      try {
+        $battleSpots = [HavenSoft.HexManiac.Core.ViewModels.Map.Flags]::GetAllScriptSpots(
+          [HavenSoft.HexManiac.Core.Models.IDataModel]$model,
+          $scriptParser,
+          [int[]]@($objectEvent.ScriptAddress),
+          [byte[]]@(0x5C)
+        )
+        foreach ($battleSpot in @($battleSpots | Sort-Object Address -Unique)) {
+          $trainerId = Read-U16 ($battleSpot.Address + 2)
+          if ($trainerId -ge 0 -and $trainerId -le 2000) {
+            $reachableTrainers.Add([pscustomobject][ordered]@{
+              commandAddress = "0x{0:X}" -f $battleSpot.Address
+              battleType = [int]$romBytes[$battleSpot.Address + 1]
+              trainer = Read-Trainer $trainerId
+            })
+          }
+        }
+      } catch {
+        # The flag setter is still useful even if an adjacent battle script is
+        # malformed or uses a command shape the generic parser cannot follow.
+      }
+
+      foreach ($matchingFlag in $matchingFlags) {
+        $progressionFlags.Add([pscustomobject][ordered]@{
+          flagId = "0x{0:X4}" -f $matchingFlag.flagId
+          mapKey = $mapEntry.key
+          regionName = $mapEntry.regionName
+          x = $objectEvent.X
+          y = $objectEvent.Y
+          objectId = $objectEvent.Element.GetValue("id")
+          objectScriptAddress = "0x{0:X}" -f $objectEvent.ScriptAddress
+          setFlagAddress = "0x{0:X}" -f $matchingFlag.address
+          reachableTrainers = @($reachableTrainers)
+        })
+      }
+    }
+  }
+
   $result = [ordered]@{
     meta = [ordered]@{
       title = "Pokemon Crystal Advance Redux Sevii ROM extraction"
@@ -841,6 +918,7 @@ try {
       trainerBattleCommandCount = $trainerBattles.Count
       trainerRematchRecordCount = $trainerRematches.Count
       trainerRematchStageCount = @($trainerRematches | ForEach-Object { $_.stages }).Count
+      progressionFlagSetterCount = $progressionFlags.Count
       hiddenItemCount = $hiddenItems.Count
       hiddenItemCoordinateValidCount = @($hiddenItems | Where-Object coordinateValid).Count
       visibleItemCandidateCount = $visibleItems.Count
@@ -850,6 +928,7 @@ try {
     wildEncounters = @($wildEncounters | Sort-Object encounterRecordIndex, sourceField)
     trainerBattles = $trainerBattles
     trainerRematches = @($trainerRematches | Sort-Object mapKey, rematchTableIndex)
+    progressionFlags = @($progressionFlags | Sort-Object flagId, mapKey, x, y, setFlagAddress)
     hiddenItems = @($hiddenItems | Sort-Object mapKey, x, y)
     visibleItems = @($visibleItems | Sort-Object mapKey, x, y)
   }

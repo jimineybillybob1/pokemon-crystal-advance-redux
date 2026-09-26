@@ -1,15 +1,18 @@
 {
   "meta": {
-    "generatedAt": "2026-09-25T21:20:02.763Z",
+    "generatedAt": "2026-09-25T21:36:55.645Z",
     "gameVersion": "2026-07-19",
     "romSha256": "716F2CBFB731E6DC1E014B6B6744B823389262DCC0086A120C1E0FB3D80DD34B",
     "source": "sources/reports/sevii-rom-extraction.json",
     "crosswalk": "sources/normalized/sevii-map-crosswalk-2026-09-25.json"
   },
   "summary": {
-    "reviewedMapCount": 7,
-    "candidateCommandCount": 19,
-    "importedBattleCount": 15,
+    "reviewedMapCount": 11,
+    "candidateCommandCount": 27,
+    "importedBattleCount": 23,
+    "regularTrainerCount": 15,
+    "memorialInitialCount": 4,
+    "memorialRematchCount": 4,
     "collapsedDuplicateCommandCount": 4,
     "unresolvedPokemonCount": 0,
     "unresolvedMoveCount": 0
@@ -27,6 +30,7 @@
         3
       ],
       "trainerId": 76,
+      "stageLabel": null,
       "team": [
         {
           "name": "Ledyba",
@@ -50,6 +54,7 @@
         1
       ],
       "trainerId": 496,
+      "stageLabel": null,
       "team": [
         {
           "name": "Bellsprout",
@@ -66,6 +71,310 @@
       ]
     },
     {
+      "id": "sevii-rom-1-75-will-724-initial",
+      "trainer": "Will",
+      "trainerClass": "Elite Four",
+      "location": "Memorial Pillar",
+      "subarea": "Battle Room 1",
+      "mapKey": "1,75",
+      "coordinates": [
+        6,
+        5
+      ],
+      "trainerId": 724,
+      "stageLabel": "Initial challenge",
+      "team": [
+        {
+          "name": "Xatu",
+          "level": 52
+        },
+        {
+          "name": "Exeggutor",
+          "level": 53
+        },
+        {
+          "name": "Slowbro",
+          "level": 53
+        },
+        {
+          "name": "Jynx",
+          "level": 53
+        },
+        {
+          "name": "Xatu",
+          "level": 54
+        }
+      ]
+    },
+    {
+      "id": "sevii-rom-1-75-will-735-post-kanto",
+      "trainer": "Will",
+      "trainerClass": "Elite Four",
+      "location": "Memorial Pillar",
+      "subarea": "Battle Room 1",
+      "mapKey": "1,75",
+      "coordinates": [
+        6,
+        5
+      ],
+      "trainerId": 735,
+      "stageLabel": "Post-Kanto rematch",
+      "team": [
+        {
+          "name": "Xatu",
+          "level": 72
+        },
+        {
+          "name": "Exeggutor-Alola",
+          "level": 73
+        },
+        {
+          "name": "Slowbro",
+          "level": 73
+        },
+        {
+          "name": "Jynx",
+          "level": 73
+        },
+        {
+          "name": "Alakazam",
+          "level": 74
+        },
+        {
+          "name": "Gallade",
+          "level": 74
+        }
+      ]
+    },
+    {
+      "id": "sevii-rom-1-76-koga-726-initial",
+      "trainer": "Koga",
+      "trainerClass": "Elite Four",
+      "location": "Memorial Pillar",
+      "subarea": "Battle Room 2",
+      "mapKey": "1,76",
+      "coordinates": [
+        6,
+        5
+      ],
+      "trainerId": 726,
+      "stageLabel": "Initial challenge",
+      "team": [
+        {
+          "name": "Ariados",
+          "level": 52
+        },
+        {
+          "name": "Venomoth",
+          "level": 53
+        },
+        {
+          "name": "Forretress",
+          "level": 54
+        },
+        {
+          "name": "Muk",
+          "level": 53
+        },
+        {
+          "name": "Crobat",
+          "level": 55
+        }
+      ]
+    },
+    {
+      "id": "sevii-rom-1-76-koga-736-post-kanto",
+      "trainer": "Koga",
+      "trainerClass": "Elite Four",
+      "location": "Memorial Pillar",
+      "subarea": "Battle Room 2",
+      "mapKey": "1,76",
+      "coordinates": [
+        6,
+        5
+      ],
+      "trainerId": 736,
+      "stageLabel": "Post-Kanto rematch",
+      "team": [
+        {
+          "name": "Ariados",
+          "level": 72
+        },
+        {
+          "name": "Weezing-Galar",
+          "level": 72
+        },
+        {
+          "name": "Forretress",
+          "level": 74
+        },
+        {
+          "name": "Swalot",
+          "level": 73
+        },
+        {
+          "name": "Crobat",
+          "level": 75
+        },
+        {
+          "name": "Toxicroak",
+          "level": 75
+        }
+      ]
+    },
+    {
+      "id": "sevii-rom-1-77-bruno-725-initial",
+      "trainer": "Bruno",
+      "trainerClass": "Elite Four",
+      "location": "Memorial Pillar",
+      "subarea": "Battle Room 3",
+      "mapKey": "1,77",
+      "coordinates": [
+        6,
+        5
+      ],
+      "trainerId": 725,
+      "stageLabel": "Initial challenge",
+      "team": [
+        {
+          "name": "Hitmontop",
+          "level": 53
+        },
+        {
+          "name": "Hitmonlee",
+          "level": 53
+        },
+        {
+          "name": "Hitmonchan",
+          "level": 53
+        },
+        {
+          "name": "Onix",
+          "level": 55
+        },
+        {
+          "name": "Machamp",
+          "level": 56
+        }
+      ]
+    },
+    {
+      "id": "sevii-rom-1-77-bruno-737-post-kanto",
+      "trainer": "Bruno",
+      "trainerClass": "Elite Four",
+      "location": "Memorial Pillar",
+      "subarea": "Battle Room 3",
+      "mapKey": "1,77",
+      "coordinates": [
+        6,
+        5
+      ],
+      "trainerId": 737,
+      "stageLabel": "Post-Kanto rematch",
+      "team": [
+        {
+          "name": "Hitmontop",
+          "level": 73
+        },
+        {
+          "name": "Hitmonlee",
+          "level": 73
+        },
+        {
+          "name": "Hitmonchan",
+          "level": 73
+        },
+        {
+          "name": "Steelix",
+          "level": 74
+        },
+        {
+          "name": "Kleavor",
+          "level": 76
+        },
+        {
+          "name": "Machamp",
+          "level": 76
+        }
+      ]
+    },
+    {
+      "id": "sevii-rom-1-78-karen-413-initial",
+      "trainer": "Karen",
+      "trainerClass": "Elite Four",
+      "location": "Memorial Pillar",
+      "subarea": "Battle Room 4",
+      "mapKey": "1,78",
+      "coordinates": [
+        6,
+        5
+      ],
+      "trainerId": 413,
+      "stageLabel": "Initial challenge",
+      "team": [
+        {
+          "name": "Umbreon",
+          "level": 54
+        },
+        {
+          "name": "Vileplume",
+          "level": 54
+        },
+        {
+          "name": "Murkrow",
+          "level": 55
+        },
+        {
+          "name": "Gengar",
+          "level": 56
+        },
+        {
+          "name": "Houndoom",
+          "level": 58
+        }
+      ]
+    },
+    {
+      "id": "sevii-rom-1-78-karen-738-post-kanto",
+      "trainer": "Karen",
+      "trainerClass": "Elite Four",
+      "location": "Memorial Pillar",
+      "subarea": "Battle Room 4",
+      "mapKey": "1,78",
+      "coordinates": [
+        6,
+        5
+      ],
+      "trainerId": 738,
+      "stageLabel": "Post-Kanto rematch",
+      "team": [
+        {
+          "name": "Umbreon",
+          "level": 73
+        },
+        {
+          "name": "Typhlosion-Hisui",
+          "level": 73
+        },
+        {
+          "name": "Honchkrow",
+          "level": 75
+        },
+        {
+          "name": "Gengar",
+          "level": 76
+        },
+        {
+          "name": "Muk-Alola",
+          "level": 76
+        },
+        {
+          "name": "Houndoom",
+          "level": 78
+        }
+      ]
+    },
+    {
       "id": "sevii-rom-2-48-23-28-markus-296",
       "trainer": "Markus",
       "trainerClass": "Super Nerd",
@@ -77,6 +386,7 @@
         28
       ],
       "trainerId": 296,
+      "stageLabel": null,
       "team": [
         {
           "name": "Slowpoke",
@@ -96,6 +406,7 @@
         44
       ],
       "trainerId": 38,
+      "stageLabel": null,
       "team": [
         {
           "name": "Nidoking",
@@ -119,6 +430,7 @@
         29
       ],
       "trainerId": 444,
+      "stageLabel": null,
       "team": [
         {
           "name": "Seadra",
@@ -142,6 +454,7 @@
         4
       ],
       "trainerId": 993,
+      "stageLabel": null,
       "team": [
         {
           "name": "Spiritomb",
@@ -169,6 +482,7 @@
         9
       ],
       "trainerId": 994,
+      "stageLabel": null,
       "team": [
         {
           "name": "Rotom-Heat",
@@ -200,6 +514,7 @@
         14
       ],
       "trainerId": 995,
+      "stageLabel": null,
       "team": [
         {
           "name": "Drifblim",
@@ -227,6 +542,7 @@
         7
       ],
       "trainerId": 996,
+      "stageLabel": null,
       "team": [
         {
           "name": "Umbreon",
@@ -250,6 +566,7 @@
         12
       ],
       "trainerId": 997,
+      "stageLabel": null,
       "team": [
         {
           "name": "Dusknoir",
@@ -273,6 +590,7 @@
         13
       ],
       "trainerId": 895,
+      "stageLabel": null,
       "team": [
         {
           "name": "Persian-Alola",
@@ -300,6 +618,7 @@
         4
       ],
       "trainerId": 1002,
+      "stageLabel": null,
       "team": [
         {
           "name": "Raticate-Alola",
@@ -323,6 +642,7 @@
         7
       ],
       "trainerId": 826,
+      "stageLabel": null,
       "team": [
         {
           "name": "Haunter",
@@ -346,6 +666,7 @@
         12
       ],
       "trainerId": 998,
+      "stageLabel": null,
       "team": [
         {
           "name": "Banette",
@@ -373,6 +694,7 @@
         16
       ],
       "trainerId": 999,
+      "stageLabel": null,
       "team": [
         {
           "name": "Dusclops",
@@ -385,6 +707,47 @@
       ]
     }
   ],
+  "progressionEvidence": {
+    "selectorVariable": "0x4089",
+    "rematchValue": 2,
+    "progressionFlag": "0x1686",
+    "progressionFlagSetterAddress": "0x935FC7",
+    "meaning": "All eight Kanto Gym Leaders defeated",
+    "prerequisites": [
+      {
+        "flagId": "0x156F",
+        "trainer": "Lt. Surge"
+      },
+      {
+        "flagId": "0x1685",
+        "trainer": "Blue"
+      },
+      {
+        "flagId": "0x167B",
+        "trainer": "Brock"
+      },
+      {
+        "flagId": "0x1642",
+        "trainer": "Misty"
+      },
+      {
+        "flagId": "0x188E",
+        "trainer": "Erika"
+      },
+      {
+        "flagId": "0x160D",
+        "trainer": "Sabrina"
+      },
+      {
+        "flagId": "0x1681",
+        "trainer": "Blaine"
+      },
+      {
+        "flagId": "0x158A",
+        "trainer": "Janine"
+      }
+    ]
+  },
   "collapsedDuplicates": [
     {
       "identity": "1,40|23|1|496",
@@ -434,7 +797,6 @@
   "unresolvedMoves": [],
   "exclusions": [
     "Trainer commands outside the reviewed map allowlist are excluded.",
-    "Memorial Pillar Elite Four variants are excluded pending script-condition proof.",
     "Type 9 special/can-lose battles are excluded.",
     "Type 5 commands are not interpreted as distinct rematch teams when they resolve to the same trainer record as type 0.",
     "Staged rematches remain unresolved because this ROM does not expose HexManiac's stock data.trainers.rematches anchor."

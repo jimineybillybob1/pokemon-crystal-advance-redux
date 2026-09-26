@@ -2,6 +2,7 @@ node_modules/
 .wrangler/
 work/
 sources/private/
+*.gba
 data/provenance-report.json
 *.pyc
 __pycache__/

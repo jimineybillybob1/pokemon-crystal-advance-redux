@@ -2,7 +2,7 @@
   "meta": {
     "title": "Pokemon Crystal Advance Redux Sevii ROM extraction",
     "gameVersion": "2026-07-19",
-    "extractedAt": "2026-09-25T21:12:44.6050518Z",
+    "extractedAt": "2026-09-25T21:34:53.1919222Z",
     "romSha256": "716F2CBFB731E6DC1E014B6B6744B823389262DCC0086A120C1E0FB3D80DD34B",
     "romSize": 33554432,
     "romHeaderTitle": "POKEMON FIRE",
@@ -29,6 +29,7 @@
     "trainerBattleCommandCount": 132,
     "trainerRematchRecordCount": 0,
     "trainerRematchStageCount": 0,
+    "progressionFlagSetterCount": 12,
     "hiddenItemCount": 56,
     "hiddenItemCoordinateValidCount": 56,
     "visibleItemCandidateCount": 78,
@@ -15199,7 +15200,7 @@
               },
               {
                 "id": 498,
-                "name": "Unknown move 498"
+                "name": "Chip Away"
               }
             ]
           },
@@ -15306,7 +15307,7 @@
               },
               {
                 "id": 498,
-                "name": "Unknown move 498"
+                "name": "Chip Away"
               }
             ]
           },
@@ -18065,7 +18066,7 @@
               },
               {
                 "id": 498,
-                "name": "Unknown move 498"
+                "name": "Chip Away"
               },
               {
                 "id": 192,
@@ -18642,7 +18643,7 @@
               },
               {
                 "id": 485,
-                "name": "Unknown move 485"
+                "name": "Synchronoise"
               },
               {
                 "id": 36,
@@ -18664,7 +18665,7 @@
             "moves": [
               {
                 "id": 507,
-                "name": "Unknown move 507"
+                "name": "Sky Drop"
               },
               {
                 "id": 53,
@@ -18827,7 +18828,7 @@
               },
               {
                 "id": 507,
-                "name": "Unknown move 507"
+                "name": "Sky Drop"
               },
               {
                 "id": 53,
@@ -20749,7 +20750,7 @@
               },
               {
                 "id": 485,
-                "name": "Unknown move 485"
+                "name": "Synchronoise"
               },
               {
                 "id": 184,
@@ -20830,7 +20831,7 @@
               },
               {
                 "id": 485,
-                "name": "Unknown move 485"
+                "name": "Synchronoise"
               },
               {
                 "id": 184,
@@ -21833,7 +21834,7 @@
               },
               {
                 "id": 498,
-                "name": "Unknown move 498"
+                "name": "Chip Away"
               }
             ]
           },
@@ -21940,7 +21941,7 @@
               },
               {
                 "id": 498,
-                "name": "Unknown move 498"
+                "name": "Chip Away"
               }
             ]
           },
@@ -22359,7 +22360,7 @@
             "moves": [
               {
                 "id": 485,
-                "name": "Unknown move 485"
+                "name": "Synchronoise"
               },
               {
                 "id": 438,
@@ -22492,7 +22493,7 @@
             "moves": [
               {
                 "id": 485,
-                "name": "Unknown move 485"
+                "name": "Synchronoise"
               },
               {
                 "id": 438,
@@ -27306,6 +27307,3489 @@
     }
   ],
   "trainerRematches": [],
+  "progressionFlags": [
+    {
+      "flagId": "0x156F",
+      "mapKey": "9,2",
+      "regionName": "Ruins Of Alph",
+      "x": 5,
+      "y": 2,
+      "objectId": 1,
+      "objectScriptAddress": "0x410870",
+      "setFlagAddress": "0x1E34545",
+      "reachableTrainers": [
+        {
+          "commandAddress": "0x299718",
+          "battleType": 3,
+          "trainer": {
+            "id": 655,
+            "valid": true,
+            "name": "Lt. Surge",
+            "classId": 84,
+            "className": "Leader",
+            "structType": 3,
+            "isDoubleBattle": true,
+            "partySize": 5,
+            "partyAddress": "0x245940",
+            "party": [
+              {
+                "slot": 1,
+                "level": 75,
+                "speciesId": 562,
+                "pokemon": "Raichu-Alola",
+                "heldItemId": 208,
+                "heldItem": "Magnet",
+                "moves": [
+                  {
+                    "id": 281,
+                    "name": "Yawn"
+                  },
+                  {
+                    "id": 231,
+                    "name": "Iron Tail"
+                  },
+                  {
+                    "id": 374,
+                    "name": "Fling"
+                  },
+                  {
+                    "id": 344,
+                    "name": "Volt Tackle"
+                  }
+                ]
+              },
+              {
+                "slot": 2,
+                "level": 76,
+                "speciesId": 82,
+                "pokemon": "Magneton",
+                "heldItemId": 208,
+                "heldItem": "Magnet",
+                "moves": [
+                  {
+                    "id": 449,
+                    "name": "Judgment"
+                  },
+                  {
+                    "id": 368,
+                    "name": "Metal Burst"
+                  },
+                  {
+                    "id": 334,
+                    "name": "Iron Defense"
+                  },
+                  {
+                    "id": 153,
+                    "name": "Explosion"
+                  }
+                ]
+              },
+              {
+                "slot": 3,
+                "level": 77,
+                "speciesId": 101,
+                "pokemon": "Electrode",
+                "heldItemId": 208,
+                "heldItem": "Magnet",
+                "moves": [
+                  {
+                    "id": 324,
+                    "name": "Signal Beam"
+                  },
+                  {
+                    "id": 243,
+                    "name": "Mirror Coat"
+                  },
+                  {
+                    "id": 153,
+                    "name": "Explosion"
+                  },
+                  {
+                    "id": 192,
+                    "name": "Zap Cannon"
+                  }
+                ]
+              },
+              {
+                "slot": 4,
+                "level": 77,
+                "speciesId": 135,
+                "pokemon": "Jolteon",
+                "heldItemId": 208,
+                "heldItem": "Magnet",
+                "moves": [
+                  {
+                    "id": 290,
+                    "name": "Secret Power"
+                  },
+                  {
+                    "id": 273,
+                    "name": "Wish"
+                  },
+                  {
+                    "id": 304,
+                    "name": "Hyper Voice"
+                  },
+                  {
+                    "id": 87,
+                    "name": "Thunder"
+                  }
+                ]
+              },
+              {
+                "slot": 5,
+                "level": 78,
+                "speciesId": 519,
+                "pokemon": "Electivire",
+                "heldItemId": 208,
+                "heldItem": "Magnet",
+                "moves": [
+                  {
+                    "id": 238,
+                    "name": "Cross Chop"
+                  },
+                  {
+                    "id": 240,
+                    "name": "Rain Dance"
+                  },
+                  {
+                    "id": 87,
+                    "name": "Thunder"
+                  },
+                  {
+                    "id": 374,
+                    "name": "Fling"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "commandAddress": "0x4108BD",
+          "battleType": 3,
+          "trainer": {
+            "id": 363,
+            "valid": true,
+            "name": "Lt. Surge",
+            "classId": 84,
+            "className": "Leader",
+            "structType": 3,
+            "isDoubleBattle": false,
+            "partySize": 5,
+            "partyAddress": "0x277DE2",
+            "party": [
+              {
+                "slot": 1,
+                "level": 59,
+                "speciesId": 26,
+                "pokemon": "Raichu",
+                "heldItemId": 0,
+                "heldItem": null,
+                "moves": [
+                  {
+                    "id": 80,
+                    "name": "Petal Dance"
+                  },
+                  {
+                    "id": 281,
+                    "name": "Yawn"
+                  },
+                  {
+                    "id": 231,
+                    "name": "Iron Tail"
+                  },
+                  {
+                    "id": 344,
+                    "name": "Volt Tackle"
+                  }
+                ]
+              },
+              {
+                "slot": 2,
+                "level": 59,
+                "speciesId": 82,
+                "pokemon": "Magneton",
+                "heldItemId": 183,
+                "heldItem": "Quick Claw",
+                "moves": [
+                  {
+                    "id": 449,
+                    "name": "Judgment"
+                  },
+                  {
+                    "id": 192,
+                    "name": "Zap Cannon"
+                  },
+                  {
+                    "id": 334,
+                    "name": "Iron Defense"
+                  },
+                  {
+                    "id": 153,
+                    "name": "Explosion"
+                  }
+                ]
+              },
+              {
+                "slot": 3,
+                "level": 60,
+                "speciesId": 101,
+                "pokemon": "Electrode",
+                "heldItemId": 0,
+                "heldItem": null,
+                "moves": [
+                  {
+                    "id": 36,
+                    "name": "Take Down"
+                  },
+                  {
+                    "id": 449,
+                    "name": "Judgment"
+                  },
+                  {
+                    "id": 153,
+                    "name": "Explosion"
+                  },
+                  {
+                    "id": 192,
+                    "name": "Zap Cannon"
+                  }
+                ]
+              },
+              {
+                "slot": 4,
+                "level": 60,
+                "speciesId": 338,
+                "pokemon": "Manectric",
+                "heldItemId": 0,
+                "heldItem": null,
+                "moves": [
+                  {
+                    "id": 46,
+                    "name": "Roar"
+                  },
+                  {
+                    "id": 242,
+                    "name": "Crunch"
+                  },
+                  {
+                    "id": 268,
+                    "name": "Charge"
+                  },
+                  {
+                    "id": 87,
+                    "name": "Thunder"
+                  }
+                ]
+              },
+              {
+                "slot": 5,
+                "level": 61,
+                "speciesId": 125,
+                "pokemon": "Electabuzz",
+                "heldItemId": 208,
+                "heldItem": "Magnet",
+                "moves": [
+                  {
+                    "id": 368,
+                    "name": "Metal Burst"
+                  },
+                  {
+                    "id": 326,
+                    "name": "Extrasensory"
+                  },
+                  {
+                    "id": 103,
+                    "name": "Screech"
+                  },
+                  {
+                    "id": 115,
+                    "name": "Reflect"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "flagId": "0x158A",
+      "mapKey": "11,10",
+      "regionName": "REGION 4",
+      "x": 3,
+      "y": 7,
+      "objectId": 7,
+      "objectScriptAddress": "0x30A800",
+      "setFlagAddress": "0x1E34F57",
+      "reachableTrainers": [
+        {
+          "commandAddress": "0x30A85C",
+          "battleType": 3,
+          "trainer": {
+            "id": 505,
+            "valid": true,
+            "name": "Janine",
+            "classId": 84,
+            "className": "Leader",
+            "structType": 3,
+            "isDoubleBattle": true,
+            "partySize": 5,
+            "partyAddress": "0x2A2A74",
+            "party": [
+              {
+                "slot": 1,
+                "level": 61,
+                "speciesId": 169,
+                "pokemon": "Crobat",
+                "heldItemId": 0,
+                "heldItem": null,
+                "moves": [
+                  {
+                    "id": 400,
+                    "name": "Night Slash"
+                  },
+                  {
+                    "id": 366,
+                    "name": "Tailwind"
+                  },
+                  {
+                    "id": 395,
+                    "name": "Force Palm"
+                  },
+                  {
+                    "id": 401,
+                    "name": "Aqua Tail"
+                  }
+                ]
+              },
+              {
+                "slot": 2,
+                "level": 60,
+                "speciesId": 110,
+                "pokemon": "Weezing",
+                "heldItemId": 0,
+                "heldItem": null,
+                "moves": [
+                  {
+                    "id": 188,
+                    "name": "Sludge Bomb"
+                  },
+                  {
+                    "id": 194,
+                    "name": "Destiny Bond"
+                  },
+                  {
+                    "id": 38,
+                    "name": "Double-Edge"
+                  },
+                  {
+                    "id": 220,
+                    "name": "Pain Split"
+                  }
+                ]
+              },
+              {
+                "slot": 3,
+                "level": 62,
+                "speciesId": 505,
+                "pokemon": "Drapion",
+                "heldItemId": 0,
+                "heldItem": null,
+                "moves": [
+                  {
+                    "id": 450,
+                    "name": "Bug Bite"
+                  },
+                  {
+                    "id": 305,
+                    "name": "Poison Fang"
+                  },
+                  {
+                    "id": 242,
+                    "name": "Crunch"
+                  },
+                  {
+                    "id": 366,
+                    "name": "Tailwind"
+                  }
+                ]
+              },
+              {
+                "slot": 4,
+                "level": 63,
+                "speciesId": 168,
+                "pokemon": "Ariados",
+                "heldItemId": 0,
+                "heldItem": null,
+                "moves": [
+                  {
+                    "id": 97,
+                    "name": "Agility"
+                  },
+                  {
+                    "id": 141,
+                    "name": "Leech Life"
+                  },
+                  {
+                    "id": 433,
+                    "name": "Trick Room"
+                  },
+                  {
+                    "id": 424,
+                    "name": "Fire Fang"
+                  }
+                ]
+              },
+              {
+                "slot": 5,
+                "level": 65,
+                "speciesId": 49,
+                "pokemon": "Venomoth",
+                "heldItemId": 211,
+                "heldItem": "Poison Barb",
+                "moves": [
+                  {
+                    "id": 92,
+                    "name": "Toxic"
+                  },
+                  {
+                    "id": 94,
+                    "name": "Psychic"
+                  },
+                  {
+                    "id": 415,
+                    "name": "Switcheroo"
+                  },
+                  {
+                    "id": 362,
+                    "name": "Brine"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "commandAddress": "0x30B04B",
+          "battleType": 3,
+          "trainer": {
+            "id": 658,
+            "valid": true,
+            "name": "Janine",
+            "classId": 84,
+            "className": "Leader",
+            "structType": 3,
+            "isDoubleBattle": true,
+            "partySize": 5,
+            "partyAddress": "0x2CD300",
+            "party": [
+              {
+                "slot": 1,
+                "level": 77,
+                "speciesId": 169,
+                "pokemon": "Crobat",
+                "heldItemId": 211,
+                "heldItem": "Poison Barb",
+                "moves": [
+                  {
+                    "id": 366,
+                    "name": "Tailwind"
+                  },
+                  {
+                    "id": 395,
+                    "name": "Force Palm"
+                  },
+                  {
+                    "id": 401,
+                    "name": "Aqua Tail"
+                  },
+                  {
+                    "id": 361,
+                    "name": "Healing Wish"
+                  }
+                ]
+              },
+              {
+                "slot": 2,
+                "level": 76,
+                "speciesId": 565,
+                "pokemon": "Weezing-Galar",
+                "heldItemId": 211,
+                "heldItem": "Poison Barb",
+                "moves": [
+                  {
+                    "id": 466,
+                    "name": "Ominous Wind"
+                  },
+                  {
+                    "id": 220,
+                    "name": "Pain Split"
+                  },
+                  {
+                    "id": 378,
+                    "name": "Wring Out"
+                  },
+                  {
+                    "id": 192,
+                    "name": "Zap Cannon"
+                  }
+                ]
+              },
+              {
+                "slot": 3,
+                "level": 76,
+                "speciesId": 598,
+                "pokemon": "Overqwil",
+                "heldItemId": 211,
+                "heldItem": "Poison Barb",
+                "moves": [
+                  {
+                    "id": 127,
+                    "name": "Waterfall"
+                  },
+                  {
+                    "id": 14,
+                    "name": "Swords Dance"
+                  },
+                  {
+                    "id": 220,
+                    "name": "Pain Split"
+                  },
+                  {
+                    "id": 378,
+                    "name": "Wring Out"
+                  }
+                ]
+              },
+              {
+                "slot": 4,
+                "level": 78,
+                "speciesId": 168,
+                "pokemon": "Ariados",
+                "heldItemId": 211,
+                "heldItem": "Poison Barb",
+                "moves": [
+                  {
+                    "id": 469,
+                    "name": "Wide Guard"
+                  },
+                  {
+                    "id": 91,
+                    "name": "Dig"
+                  },
+                  {
+                    "id": 511,
+                    "name": "Quash"
+                  },
+                  {
+                    "id": 224,
+                    "name": "Megahorn"
+                  }
+                ]
+              },
+              {
+                "slot": 5,
+                "level": 80,
+                "speciesId": 49,
+                "pokemon": "Venomoth",
+                "heldItemId": 211,
+                "heldItem": "Poison Barb",
+                "moves": [
+                  {
+                    "id": 78,
+                    "name": "Stun Spore"
+                  },
+                  {
+                    "id": 94,
+                    "name": "Psychic"
+                  },
+                  {
+                    "id": 415,
+                    "name": "Switcheroo"
+                  },
+                  {
+                    "id": 362,
+                    "name": "Brine"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "flagId": "0x158A",
+      "mapKey": "11,3",
+      "regionName": "Route 45",
+      "x": 1,
+      "y": 11,
+      "objectId": 7,
+      "objectScriptAddress": "0x30A800",
+      "setFlagAddress": "0x1E34F57",
+      "reachableTrainers": [
+        {
+          "commandAddress": "0x30A85C",
+          "battleType": 3,
+          "trainer": {
+            "id": 505,
+            "valid": true,
+            "name": "Janine",
+            "classId": 84,
+            "className": "Leader",
+            "structType": 3,
+            "isDoubleBattle": true,
+            "partySize": 5,
+            "partyAddress": "0x2A2A74",
+            "party": [
+              {
+                "slot": 1,
+                "level": 61,
+                "speciesId": 169,
+                "pokemon": "Crobat",
+                "heldItemId": 0,
+                "heldItem": null,
+                "moves": [
+                  {
+                    "id": 400,
+                    "name": "Night Slash"
+                  },
+                  {
+                    "id": 366,
+                    "name": "Tailwind"
+                  },
+                  {
+                    "id": 395,
+                    "name": "Force Palm"
+                  },
+                  {
+                    "id": 401,
+                    "name": "Aqua Tail"
+                  }
+                ]
+              },
+              {
+                "slot": 2,
+                "level": 60,
+                "speciesId": 110,
+                "pokemon": "Weezing",
+                "heldItemId": 0,
+                "heldItem": null,
+                "moves": [
+                  {
+                    "id": 188,
+                    "name": "Sludge Bomb"
+                  },
+                  {
+                    "id": 194,
+                    "name": "Destiny Bond"
+                  },
+                  {
+                    "id": 38,
+                    "name": "Double-Edge"
+                  },
+                  {
+                    "id": 220,
+                    "name": "Pain Split"
+                  }
+                ]
+              },
+              {
+                "slot": 3,
+                "level": 62,
+                "speciesId": 505,
+                "pokemon": "Drapion",
+                "heldItemId": 0,
+                "heldItem": null,
+                "moves": [
+                  {
+                    "id": 450,
+                    "name": "Bug Bite"
+                  },
+                  {
+                    "id": 305,
+                    "name": "Poison Fang"
+                  },
+                  {
+                    "id": 242,
+                    "name": "Crunch"
+                  },
+                  {
+                    "id": 366,
+                    "name": "Tailwind"
+                  }
+                ]
+              },
+              {
+                "slot": 4,
+                "level": 63,
+                "speciesId": 168,
+                "pokemon": "Ariados",
+                "heldItemId": 0,
+                "heldItem": null,
+                "moves": [
+                  {
+                    "id": 97,
+                    "name": "Agility"
+                  },
+                  {
+                    "id": 141,
+                    "name": "Leech Life"
+                  },
+                  {
+                    "id": 433,
+                    "name": "Trick Room"
+                  },
+                  {
+                    "id": 424,
+                    "name": "Fire Fang"
+                  }
+                ]
+              },
+              {
+                "slot": 5,
+                "level": 65,
+                "speciesId": 49,
+                "pokemon": "Venomoth",
+                "heldItemId": 211,
+                "heldItem": "Poison Barb",
+                "moves": [
+                  {
+                    "id": 92,
+                    "name": "Toxic"
+                  },
+                  {
+                    "id": 94,
+                    "name": "Psychic"
+                  },
+                  {
+                    "id": 415,
+                    "name": "Switcheroo"
+                  },
+                  {
+                    "id": 362,
+                    "name": "Brine"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "commandAddress": "0x30B04B",
+          "battleType": 3,
+          "trainer": {
+            "id": 658,
+            "valid": true,
+            "name": "Janine",
+            "classId": 84,
+            "className": "Leader",
+            "structType": 3,
+            "isDoubleBattle": true,
+            "partySize": 5,
+            "partyAddress": "0x2CD300",
+            "party": [
+              {
+                "slot": 1,
+                "level": 77,
+                "speciesId": 169,
+                "pokemon": "Crobat",
+                "heldItemId": 211,
+                "heldItem": "Poison Barb",
+                "moves": [
+                  {
+                    "id": 366,
+                    "name": "Tailwind"
+                  },
+                  {
+                    "id": 395,
+                    "name": "Force Palm"
+                  },
+                  {
+                    "id": 401,
+                    "name": "Aqua Tail"
+                  },
+                  {
+                    "id": 361,
+                    "name": "Healing Wish"
+                  }
+                ]
+              },
+              {
+                "slot": 2,
+                "level": 76,
+                "speciesId": 565,
+                "pokemon": "Weezing-Galar",
+                "heldItemId": 211,
+                "heldItem": "Poison Barb",
+                "moves": [
+                  {
+                    "id": 466,
+                    "name": "Ominous Wind"
+                  },
+                  {
+                    "id": 220,
+                    "name": "Pain Split"
+                  },
+                  {
+                    "id": 378,
+                    "name": "Wring Out"
+                  },
+                  {
+                    "id": 192,
+                    "name": "Zap Cannon"
+                  }
+                ]
+              },
+              {
+                "slot": 3,
+                "level": 76,
+                "speciesId": 598,
+                "pokemon": "Overqwil",
+                "heldItemId": 211,
+                "heldItem": "Poison Barb",
+                "moves": [
+                  {
+                    "id": 127,
+                    "name": "Waterfall"
+                  },
+                  {
+                    "id": 14,
+                    "name": "Swords Dance"
+                  },
+                  {
+                    "id": 220,
+                    "name": "Pain Split"
+                  },
+                  {
+                    "id": 378,
+                    "name": "Wring Out"
+                  }
+                ]
+              },
+              {
+                "slot": 4,
+                "level": 78,
+                "speciesId": 168,
+                "pokemon": "Ariados",
+                "heldItemId": 211,
+                "heldItem": "Poison Barb",
+                "moves": [
+                  {
+                    "id": 469,
+                    "name": "Wide Guard"
+                  },
+                  {
+                    "id": 91,
+                    "name": "Dig"
+                  },
+                  {
+                    "id": 511,
+                    "name": "Quash"
+                  },
+                  {
+                    "id": 224,
+                    "name": "Megahorn"
+                  }
+                ]
+              },
+              {
+                "slot": 5,
+                "level": 80,
+                "speciesId": 49,
+                "pokemon": "Venomoth",
+                "heldItemId": 211,
+                "heldItem": "Poison Barb",
+                "moves": [
+                  {
+                    "id": 78,
+                    "name": "Stun Spore"
+                  },
+                  {
+                    "id": 94,
+                    "name": "Psychic"
+                  },
+                  {
+                    "id": 415,
+                    "name": "Switcheroo"
+                  },
+                  {
+                    "id": 362,
+                    "name": "Brine"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "flagId": "0x160D",
+      "mapKey": "14,3",
+      "regionName": "Tohjo Falls",
+      "x": 14,
+      "y": 11,
+      "objectId": 7,
+      "objectScriptAddress": "0x30A000",
+      "setFlagAddress": "0x1E35065",
+      "reachableTrainers": [
+        {
+          "commandAddress": "0x30A048",
+          "battleType": 3,
+          "trainer": {
+            "id": 420,
+            "valid": true,
+            "name": "Sabrina",
+            "classId": 84,
+            "className": "Leader",
+            "structType": 3,
+            "isDoubleBattle": true,
+            "partySize": 5,
+            "partyAddress": "0x2A3A20",
+            "party": [
+              {
+                "slot": 1,
+                "level": 61,
+                "speciesId": 196,
+                "pokemon": "Espeon",
+                "heldItemId": 0,
+                "heldItem": null,
+                "moves": [
+                  {
+                    "id": 347,
+                    "name": "Calm Mind"
+                  },
+                  {
+                    "id": 247,
+                    "name": "Shadow Ball"
+                  },
+                  {
+                    "id": 94,
+                    "name": "Psychic"
+                  },
+                  {
+                    "id": 129,
+                    "name": "Swift"
+                  }
+                ]
+              },
+              {
+                "slot": 2,
+                "level": 61,
+                "speciesId": 122,
+                "pokemon": "Mr-Mime",
+                "heldItemId": 0,
+                "heldItem": null,
+                "moves": [
+                  {
+                    "id": 466,
+                    "name": "Ominous Wind"
+                  },
+                  {
+                    "id": 113,
+                    "name": "Light Screen"
+                  },
+                  {
+                    "id": 94,
+                    "name": "Psychic"
+                  },
+                  {
+                    "id": 112,
+                    "name": "Barrier"
+                  }
+                ]
+              },
+              {
+                "slot": 3,
+                "level": 62,
+                "speciesId": 178,
+                "pokemon": "Xatu",
+                "heldItemId": 0,
+                "heldItem": null,
+                "moves": [
+                  {
+                    "id": 94,
+                    "name": "Psychic"
+                  },
+                  {
+                    "id": 143,
+                    "name": "Sky Attack"
+                  },
+                  {
+                    "id": 115,
+                    "name": "Reflect"
+                  },
+                  {
+                    "id": 395,
+                    "name": "Force Palm"
+                  }
+                ]
+              },
+              {
+                "slot": 4,
+                "level": 62,
+                "speciesId": 394,
+                "pokemon": "Gardevoir",
+                "heldItemId": 0,
+                "heldItem": null,
+                "moves": [
+                  {
+                    "id": 94,
+                    "name": "Psychic"
+                  },
+                  {
+                    "id": 464,
+                    "name": "Dark Void"
+                  },
+                  {
+                    "id": 115,
+                    "name": "Reflect"
+                  },
+                  {
+                    "id": 105,
+                    "name": "Recover"
+                  }
+                ]
+              },
+              {
+                "slot": 5,
+                "level": 62,
+                "speciesId": 65,
+                "pokemon": "Alakazam",
+                "heldItemId": 0,
+                "heldItem": null,
+                "moves": [
+                  {
+                    "id": 94,
+                    "name": "Psychic"
+                  },
+                  {
+                    "id": 364,
+                    "name": "Feint"
+                  },
+                  {
+                    "id": 115,
+                    "name": "Reflect"
+                  },
+                  {
+                    "id": 105,
+                    "name": "Recover"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "commandAddress": "0x1EF5210",
+          "battleType": 3,
+          "trainer": {
+            "id": 657,
+            "valid": true,
+            "name": "Sabrina",
+            "classId": 84,
+            "className": "Leader",
+            "structType": 3,
+            "isDoubleBattle": true,
+            "partySize": 5,
+            "partyAddress": "0x245AE0",
+            "party": [
+              {
+                "slot": 1,
+                "level": 75,
+                "speciesId": 196,
+                "pokemon": "Espeon",
+                "heldItemId": 0,
+                "heldItem": null,
+                "moves": [
+                  {
+                    "id": 290,
+                    "name": "Secret Power"
+                  },
+                  {
+                    "id": 237,
+                    "name": "Hidden Power"
+                  },
+                  {
+                    "id": 304,
+                    "name": "Hyper Voice"
+                  },
+                  {
+                    "id": 354,
+                    "name": "Psycho Boost"
+                  }
+                ]
+              },
+              {
+                "slot": 2,
+                "level": 76,
+                "speciesId": 122,
+                "pokemon": "Mr-Mime",
+                "heldItemId": 0,
+                "heldItem": null,
+                "moves": [
+                  {
+                    "id": 94,
+                    "name": "Psychic"
+                  },
+                  {
+                    "id": 219,
+                    "name": "Safeguard"
+                  },
+                  {
+                    "id": 95,
+                    "name": "Hypnosis"
+                  },
+                  {
+                    "id": 171,
+                    "name": "Unknown move 171"
+                  }
+                ]
+              },
+              {
+                "slot": 3,
+                "level": 76,
+                "speciesId": 583,
+                "pokemon": "Rapidash-Galar",
+                "heldItemId": 0,
+                "heldItem": null,
+                "moves": [
+                  {
+                    "id": 463,
+                    "name": "Magma Storm"
+                  },
+                  {
+                    "id": 204,
+                    "name": "Charm"
+                  },
+                  {
+                    "id": 224,
+                    "name": "Megahorn"
+                  },
+                  {
+                    "id": 391,
+                    "name": "Heart Swap"
+                  }
+                ]
+              },
+              {
+                "slot": 4,
+                "level": 77,
+                "speciesId": 394,
+                "pokemon": "Gardevoir",
+                "heldItemId": 0,
+                "heldItem": null,
+                "moves": [
+                  {
+                    "id": 95,
+                    "name": "Hypnosis"
+                  },
+                  {
+                    "id": 138,
+                    "name": "Dream Eater"
+                  },
+                  {
+                    "id": 464,
+                    "name": "Dark Void"
+                  },
+                  {
+                    "id": 247,
+                    "name": "Shadow Ball"
+                  }
+                ]
+              },
+              {
+                "slot": 5,
+                "level": 78,
+                "speciesId": 65,
+                "pokemon": "Alakazam",
+                "heldItemId": 0,
+                "heldItem": null,
+                "moves": [
+                  {
+                    "id": 161,
+                    "name": "Tri Attack"
+                  },
+                  {
+                    "id": 374,
+                    "name": "Fling"
+                  },
+                  {
+                    "id": 170,
+                    "name": "Mind Reader"
+                  },
+                  {
+                    "id": 94,
+                    "name": "Psychic"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "flagId": "0x1642",
+      "mapKey": "7,5",
+      "regionName": "Route 41",
+      "x": 7,
+      "y": 5,
+      "objectId": 3,
+      "objectScriptAddress": "0x308800",
+      "setFlagAddress": "0x1E3439A",
+      "reachableTrainers": [
+        {
+          "commandAddress": "0x308848",
+          "battleType": 3,
+          "trainer": {
+            "id": 555,
+            "valid": true,
+            "name": "Misty",
+            "classId": 84,
+            "className": "Leader",
+            "structType": 3,
+            "isDoubleBattle": true,
+            "partySize": 5,
+            "partyAddress": "0x2A2CAC",
+            "party": [
+              {
+                "slot": 1,
+                "level": 61,
+                "speciesId": 55,
+                "pokemon": "Golduck",
+                "heldItemId": 142,
+                "heldItem": "Sitrus Berry",
+                "moves": [
+                  {
+                    "id": 133,
+                    "name": "Amnesia"
+                  },
+                  {
+                    "id": 94,
+                    "name": "Psychic"
+                  },
+                  {
+                    "id": 374,
+                    "name": "Fling"
+                  },
+                  {
+                    "id": 56,
+                    "name": "Hydro Pump"
+                  }
+                ]
+              },
+              {
+                "slot": 2,
+                "level": 61,
+                "speciesId": 195,
+                "pokemon": "Quagsire",
+                "heldItemId": 183,
+                "heldItem": "Quick Claw",
+                "moves": [
+                  {
+                    "id": 54,
+                    "name": "Mist"
+                  },
+                  {
+                    "id": 303,
+                    "name": "Slack Off"
+                  },
+                  {
+                    "id": 89,
+                    "name": "Earthquake"
+                  },
+                  {
+                    "id": 358,
+                    "name": "Wake-Up Slap"
+                  }
+                ]
+              },
+              {
+                "slot": 3,
+                "level": 62,
+                "speciesId": 119,
+                "pokemon": "Seaking",
+                "heldItemId": 188,
+                "heldItem": "SilverPowder",
+                "moves": [
+                  {
+                    "id": 127,
+                    "name": "Waterfall"
+                  },
+                  {
+                    "id": 30,
+                    "name": "Horn Attack"
+                  },
+                  {
+                    "id": 97,
+                    "name": "Agility"
+                  },
+                  {
+                    "id": 224,
+                    "name": "Megahorn"
+                  }
+                ]
+              },
+              {
+                "slot": 4,
+                "level": 62,
+                "speciesId": 130,
+                "pokemon": "Gyarados",
+                "heldItemId": 209,
+                "heldItem": "Mystic Water",
+                "moves": [
+                  {
+                    "id": 432,
+                    "name": "Defog"
+                  },
+                  {
+                    "id": 127,
+                    "name": "Waterfall"
+                  },
+                  {
+                    "id": 340,
+                    "name": "Bounce"
+                  },
+                  {
+                    "id": 444,
+                    "name": "Stone Edge"
+                  }
+                ]
+              },
+              {
+                "slot": 5,
+                "level": 63,
+                "speciesId": 121,
+                "pokemon": "Starmie",
+                "heldItemId": 116,
+                "heldItem": "Heal Orb",
+                "moves": [
+                  {
+                    "id": 94,
+                    "name": "Psychic"
+                  },
+                  {
+                    "id": 105,
+                    "name": "Recover"
+                  },
+                  {
+                    "id": 58,
+                    "name": "Ice Beam"
+                  },
+                  {
+                    "id": 109,
+                    "name": "Confuse Ray"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "commandAddress": "0x64E040",
+          "battleType": 3,
+          "trainer": {
+            "id": 654,
+            "valid": true,
+            "name": "Misty",
+            "classId": 84,
+            "className": "Leader",
+            "structType": 3,
+            "isDoubleBattle": true,
+            "partySize": 5,
+            "partyAddress": "0x7A3164",
+            "party": [
+              {
+                "slot": 1,
+                "level": 78,
+                "speciesId": 55,
+                "pokemon": "Golduck",
+                "heldItemId": 209,
+                "heldItem": "Mystic Water",
+                "moves": [
+                  {
+                    "id": 133,
+                    "name": "Amnesia"
+                  },
+                  {
+                    "id": 94,
+                    "name": "Psychic"
+                  },
+                  {
+                    "id": 374,
+                    "name": "Fling"
+                  },
+                  {
+                    "id": 56,
+                    "name": "Hydro Pump"
+                  }
+                ]
+              },
+              {
+                "slot": 2,
+                "level": 79,
+                "speciesId": 617,
+                "pokemon": "Rotom-Frost",
+                "heldItemId": 209,
+                "heldItem": "Mystic Water",
+                "moves": [
+                  {
+                    "id": 330,
+                    "name": "Muddy Water"
+                  },
+                  {
+                    "id": 253,
+                    "name": "Uproar"
+                  },
+                  {
+                    "id": 192,
+                    "name": "Zap Cannon"
+                  },
+                  {
+                    "id": 323,
+                    "name": "Water Spout"
+                  }
+                ]
+              },
+              {
+                "slot": 3,
+                "level": 79,
+                "speciesId": 134,
+                "pokemon": "Vaporeon",
+                "heldItemId": 209,
+                "heldItem": "Mystic Water",
+                "moves": [
+                  {
+                    "id": 240,
+                    "name": "Rain Dance"
+                  },
+                  {
+                    "id": 237,
+                    "name": "Hidden Power"
+                  },
+                  {
+                    "id": 304,
+                    "name": "Hyper Voice"
+                  },
+                  {
+                    "id": 56,
+                    "name": "Hydro Pump"
+                  }
+                ]
+              },
+              {
+                "slot": 4,
+                "level": 80,
+                "speciesId": 119,
+                "pokemon": "Seaking",
+                "heldItemId": 209,
+                "heldItem": "Mystic Water",
+                "moves": [
+                  {
+                    "id": 224,
+                    "name": "Megahorn"
+                  },
+                  {
+                    "id": 358,
+                    "name": "Wake-Up Slap"
+                  },
+                  {
+                    "id": 483,
+                    "name": "Quiver Dance"
+                  },
+                  {
+                    "id": 32,
+                    "name": "Horn Drill"
+                  }
+                ]
+              },
+              {
+                "slot": 5,
+                "level": 80,
+                "speciesId": 121,
+                "pokemon": "Starmie",
+                "heldItemId": 209,
+                "heldItem": "Mystic Water",
+                "moves": [
+                  {
+                    "id": 449,
+                    "name": "Judgment"
+                  },
+                  {
+                    "id": 56,
+                    "name": "Hydro Pump"
+                  },
+                  {
+                    "id": 192,
+                    "name": "Zap Cannon"
+                  },
+                  {
+                    "id": 109,
+                    "name": "Confuse Ray"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "flagId": "0x167B",
+      "mapKey": "6,2",
+      "regionName": "Fighting Dojo",
+      "x": 6,
+      "y": 5,
+      "objectId": 1,
+      "objectScriptAddress": "0x64E0E0",
+      "setFlagAddress": "0x299D9D",
+      "reachableTrainers": [
+        {
+          "commandAddress": "0x30863F",
+          "battleType": 3,
+          "trainer": {
+            "id": 653,
+            "valid": true,
+            "name": "Brock",
+            "classId": 84,
+            "className": "Leader",
+            "structType": 3,
+            "isDoubleBattle": true,
+            "partySize": 5,
+            "partyAddress": "0x33EABC",
+            "party": [
+              {
+                "slot": 1,
+                "level": 81,
+                "speciesId": 579,
+                "pokemon": "Golem-Alola",
+                "heldItemId": 204,
+                "heldItem": "Hard Stone",
+                "moves": [
+                  {
+                    "id": 379,
+                    "name": "Power Trick"
+                  },
+                  {
+                    "id": 429,
+                    "name": "Mirror Shot"
+                  },
+                  {
+                    "id": 9,
+                    "name": "Thunder Punch"
+                  },
+                  {
+                    "id": 335,
+                    "name": "Block"
+                  }
+                ]
+              },
+              {
+                "slot": 2,
+                "level": 81,
+                "speciesId": 517,
+                "pokemon": "Rhyperior",
+                "heldItemId": 204,
+                "heldItem": "Hard Stone",
+                "moves": [
+                  {
+                    "id": 89,
+                    "name": "Earthquake"
+                  },
+                  {
+                    "id": 429,
+                    "name": "Mirror Shot"
+                  },
+                  {
+                    "id": 379,
+                    "name": "Power Trick"
+                  },
+                  {
+                    "id": 224,
+                    "name": "Megahorn"
+                  }
+                ]
+              },
+              {
+                "slot": 3,
+                "level": 82,
+                "speciesId": 139,
+                "pokemon": "Omastar",
+                "heldItemId": 204,
+                "heldItem": "Hard Stone",
+                "moves": [
+                  {
+                    "id": 372,
+                    "name": "Assurance"
+                  },
+                  {
+                    "id": 56,
+                    "name": "Hydro Pump"
+                  },
+                  {
+                    "id": 469,
+                    "name": "Wide Guard"
+                  },
+                  {
+                    "id": 63,
+                    "name": "Hyper Beam"
+                  }
+                ]
+              },
+              {
+                "slot": 4,
+                "level": 82,
+                "speciesId": 141,
+                "pokemon": "Kabutops",
+                "heldItemId": 204,
+                "heldItem": "Hard Stone",
+                "moves": [
+                  {
+                    "id": 141,
+                    "name": "Leech Life"
+                  },
+                  {
+                    "id": 387,
+                    "name": "Last Resort"
+                  },
+                  {
+                    "id": 429,
+                    "name": "Mirror Shot"
+                  },
+                  {
+                    "id": 38,
+                    "name": "Double-Edge"
+                  }
+                ]
+              },
+              {
+                "slot": 5,
+                "level": 84,
+                "speciesId": 208,
+                "pokemon": "Steelix",
+                "heldItemId": 204,
+                "heldItem": "Hard Stone",
+                "moves": [
+                  {
+                    "id": 231,
+                    "name": "Iron Tail"
+                  },
+                  {
+                    "id": 174,
+                    "name": "Curse"
+                  },
+                  {
+                    "id": 380,
+                    "name": "Gastro Acid"
+                  },
+                  {
+                    "id": 90,
+                    "name": "Fissure"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "commandAddress": "0x64E128",
+          "battleType": 3,
+          "trainer": {
+            "id": 414,
+            "valid": true,
+            "name": "Brock",
+            "classId": 84,
+            "className": "Leader",
+            "structType": 3,
+            "isDoubleBattle": true,
+            "partySize": 5,
+            "partyAddress": "0x1AB2100",
+            "party": [
+              {
+                "slot": 1,
+                "level": 63,
+                "speciesId": 76,
+                "pokemon": "Golem",
+                "heldItemId": 142,
+                "heldItem": "Sitrus Berry",
+                "moves": [
+                  {
+                    "id": 379,
+                    "name": "Power Trick"
+                  },
+                  {
+                    "id": 7,
+                    "name": "Fire Punch"
+                  },
+                  {
+                    "id": 9,
+                    "name": "Thunder Punch"
+                  },
+                  {
+                    "id": 335,
+                    "name": "Block"
+                  }
+                ]
+              },
+              {
+                "slot": 2,
+                "level": 63,
+                "speciesId": 112,
+                "pokemon": "Rhydon",
+                "heldItemId": 0,
+                "heldItem": null,
+                "moves": [
+                  {
+                    "id": 174,
+                    "name": "Curse"
+                  },
+                  {
+                    "id": 504,
+                    "name": "Shell Smash"
+                  },
+                  {
+                    "id": 89,
+                    "name": "Earthquake"
+                  },
+                  {
+                    "id": 429,
+                    "name": "Mirror Shot"
+                  }
+                ]
+              },
+              {
+                "slot": 3,
+                "level": 64,
+                "speciesId": 139,
+                "pokemon": "Omastar",
+                "heldItemId": 0,
+                "heldItem": null,
+                "moves": [
+                  {
+                    "id": 492,
+                    "name": "Foul Play"
+                  },
+                  {
+                    "id": 58,
+                    "name": "Ice Beam"
+                  },
+                  {
+                    "id": 372,
+                    "name": "Assurance"
+                  },
+                  {
+                    "id": 56,
+                    "name": "Hydro Pump"
+                  }
+                ]
+              },
+              {
+                "slot": 4,
+                "level": 64,
+                "speciesId": 141,
+                "pokemon": "Kabutops",
+                "heldItemId": 0,
+                "heldItem": null,
+                "moves": [
+                  {
+                    "id": 141,
+                    "name": "Leech Life"
+                  },
+                  {
+                    "id": 387,
+                    "name": "Last Resort"
+                  },
+                  {
+                    "id": 429,
+                    "name": "Mirror Shot"
+                  },
+                  {
+                    "id": 38,
+                    "name": "Double-Edge"
+                  }
+                ]
+              },
+              {
+                "slot": 5,
+                "level": 65,
+                "speciesId": 208,
+                "pokemon": "Steelix",
+                "heldItemId": 204,
+                "heldItem": "Hard Stone",
+                "moves": [
+                  {
+                    "id": 429,
+                    "name": "Mirror Shot"
+                  },
+                  {
+                    "id": 231,
+                    "name": "Iron Tail"
+                  },
+                  {
+                    "id": 174,
+                    "name": "Curse"
+                  },
+                  {
+                    "id": 380,
+                    "name": "Gastro Acid"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "flagId": "0x1681",
+      "mapKey": "0,7",
+      "regionName": null,
+      "x": 22,
+      "y": 5,
+      "objectId": 8,
+      "objectScriptAddress": "0x30B500",
+      "setFlagAddress": "0x651F28",
+      "reachableTrainers": [
+        {
+          "commandAddress": "0x30B548",
+          "battleType": 3,
+          "trainer": {
+            "id": 991,
+            "valid": true,
+            "name": "Blaine",
+            "classId": 84,
+            "className": "Leader",
+            "structType": 3,
+            "isDoubleBattle": true,
+            "partySize": 5,
+            "partyAddress": "0x1C29B10",
+            "party": [
+              {
+                "slot": 1,
+                "level": 64,
+                "speciesId": 78,
+                "pokemon": "Rapidash",
+                "heldItemId": 210,
+                "heldItem": "Sharp Beak",
+                "moves": [
+                  {
+                    "id": 423,
+                    "name": "Ice Fang"
+                  },
+                  {
+                    "id": 167,
+                    "name": "Triple Kick"
+                  },
+                  {
+                    "id": 340,
+                    "name": "Bounce"
+                  },
+                  {
+                    "id": 434,
+                    "name": "Draco Meteor"
+                  }
+                ]
+              },
+              {
+                "slot": 2,
+                "level": 65,
+                "speciesId": 126,
+                "pokemon": "Magmar",
+                "heldItemId": 142,
+                "heldItem": "Sitrus Berry",
+                "moves": [
+                  {
+                    "id": 269,
+                    "name": "Taunt"
+                  },
+                  {
+                    "id": 9,
+                    "name": "Thunder Punch"
+                  },
+                  {
+                    "id": 53,
+                    "name": "Flamethrower"
+                  },
+                  {
+                    "id": 238,
+                    "name": "Cross Chop"
+                  }
+                ]
+              },
+              {
+                "slot": 3,
+                "level": 65,
+                "speciesId": 136,
+                "pokemon": "Flareon",
+                "heldItemId": 102,
+                "heldItem": "Expert Belt",
+                "moves": [
+                  {
+                    "id": 299,
+                    "name": "Blaze Kick"
+                  },
+                  {
+                    "id": 167,
+                    "name": "Triple Kick"
+                  },
+                  {
+                    "id": 242,
+                    "name": "Crunch"
+                  },
+                  {
+                    "id": 273,
+                    "name": "Wish"
+                  }
+                ]
+              },
+              {
+                "slot": 4,
+                "level": 67,
+                "speciesId": 59,
+                "pokemon": "Arcanine",
+                "heldItemId": 141,
+                "heldItem": "Lum Berry",
+                "moves": [
+                  {
+                    "id": 242,
+                    "name": "Crunch"
+                  },
+                  {
+                    "id": 53,
+                    "name": "Flamethrower"
+                  },
+                  {
+                    "id": 423,
+                    "name": "Ice Fang"
+                  },
+                  {
+                    "id": 463,
+                    "name": "Magma Storm"
+                  }
+                ]
+              },
+              {
+                "slot": 5,
+                "level": 66,
+                "speciesId": 219,
+                "pokemon": "Magcargo",
+                "heldItemId": 204,
+                "heldItem": "Hard Stone",
+                "moves": [
+                  {
+                    "id": 452,
+                    "name": "Wood Hammer"
+                  },
+                  {
+                    "id": 157,
+                    "name": "Rock Slide"
+                  },
+                  {
+                    "id": 34,
+                    "name": "Body Slam"
+                  },
+                  {
+                    "id": 53,
+                    "name": "Flamethrower"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "commandAddress": "0x412F68",
+          "battleType": 3,
+          "trainer": {
+            "id": 659,
+            "valid": true,
+            "name": "Blaine",
+            "classId": 84,
+            "className": "Leader",
+            "structType": 1,
+            "isDoubleBattle": true,
+            "partySize": 5,
+            "partyAddress": "0x40F948",
+            "party": [
+              {
+                "slot": 1,
+                "level": 76,
+                "speciesId": 219,
+                "pokemon": "Magcargo",
+                "heldItemId": null,
+                "heldItem": null,
+                "moves": [
+                  {
+                    "id": 53,
+                    "name": "Flamethrower"
+                  },
+                  {
+                    "id": 372,
+                    "name": "Assurance"
+                  },
+                  {
+                    "id": 63,
+                    "name": "Hyper Beam"
+                  },
+                  {
+                    "id": 315,
+                    "name": "Overheat"
+                  }
+                ]
+              },
+              {
+                "slot": 2,
+                "level": 76,
+                "speciesId": 520,
+                "pokemon": "Magmortar",
+                "heldItemId": null,
+                "heldItem": null,
+                "moves": [
+                  {
+                    "id": 241,
+                    "name": "Sunny Day"
+                  },
+                  {
+                    "id": 234,
+                    "name": "Morning Sun"
+                  },
+                  {
+                    "id": 126,
+                    "name": "Fire Blast"
+                  },
+                  {
+                    "id": 374,
+                    "name": "Fling"
+                  }
+                ]
+              },
+              {
+                "slot": 3,
+                "level": 78,
+                "speciesId": 587,
+                "pokemon": "Arcanine-Hisui",
+                "heldItemId": null,
+                "heldItem": null,
+                "moves": [
+                  {
+                    "id": 261,
+                    "name": "Will-O-Wisp"
+                  },
+                  {
+                    "id": 200,
+                    "name": "Outrage"
+                  },
+                  {
+                    "id": 434,
+                    "name": "Draco Meteor"
+                  },
+                  {
+                    "id": 245,
+                    "name": "Extreme Speed"
+                  }
+                ]
+              },
+              {
+                "slot": 4,
+                "level": 79,
+                "speciesId": 136,
+                "pokemon": "Flareon",
+                "heldItemId": null,
+                "heldItem": null,
+                "moves": [
+                  {
+                    "id": 290,
+                    "name": "Secret Power"
+                  },
+                  {
+                    "id": 237,
+                    "name": "Hidden Power"
+                  },
+                  {
+                    "id": 304,
+                    "name": "Hyper Voice"
+                  },
+                  {
+                    "id": 434,
+                    "name": "Draco Meteor"
+                  }
+                ]
+              },
+              {
+                "slot": 5,
+                "level": 80,
+                "speciesId": 282,
+                "pokemon": "Blaziken",
+                "heldItemId": null,
+                "heldItem": null,
+                "moves": [
+                  {
+                    "id": 397,
+                    "name": "Rock Polish"
+                  },
+                  {
+                    "id": 261,
+                    "name": "Will-O-Wisp"
+                  },
+                  {
+                    "id": 327,
+                    "name": "Sky Uppercut"
+                  },
+                  {
+                    "id": 434,
+                    "name": "Draco Meteor"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "flagId": "0x1681",
+      "mapKey": "2,117",
+      "regionName": "Tin Tower",
+      "x": 12,
+      "y": 6,
+      "objectId": 1,
+      "objectScriptAddress": "0x30B500",
+      "setFlagAddress": "0x651F28",
+      "reachableTrainers": [
+        {
+          "commandAddress": "0x30B548",
+          "battleType": 3,
+          "trainer": {
+            "id": 991,
+            "valid": true,
+            "name": "Blaine",
+            "classId": 84,
+            "className": "Leader",
+            "structType": 3,
+            "isDoubleBattle": true,
+            "partySize": 5,
+            "partyAddress": "0x1C29B10",
+            "party": [
+              {
+                "slot": 1,
+                "level": 64,
+                "speciesId": 78,
+                "pokemon": "Rapidash",
+                "heldItemId": 210,
+                "heldItem": "Sharp Beak",
+                "moves": [
+                  {
+                    "id": 423,
+                    "name": "Ice Fang"
+                  },
+                  {
+                    "id": 167,
+                    "name": "Triple Kick"
+                  },
+                  {
+                    "id": 340,
+                    "name": "Bounce"
+                  },
+                  {
+                    "id": 434,
+                    "name": "Draco Meteor"
+                  }
+                ]
+              },
+              {
+                "slot": 2,
+                "level": 65,
+                "speciesId": 126,
+                "pokemon": "Magmar",
+                "heldItemId": 142,
+                "heldItem": "Sitrus Berry",
+                "moves": [
+                  {
+                    "id": 269,
+                    "name": "Taunt"
+                  },
+                  {
+                    "id": 9,
+                    "name": "Thunder Punch"
+                  },
+                  {
+                    "id": 53,
+                    "name": "Flamethrower"
+                  },
+                  {
+                    "id": 238,
+                    "name": "Cross Chop"
+                  }
+                ]
+              },
+              {
+                "slot": 3,
+                "level": 65,
+                "speciesId": 136,
+                "pokemon": "Flareon",
+                "heldItemId": 102,
+                "heldItem": "Expert Belt",
+                "moves": [
+                  {
+                    "id": 299,
+                    "name": "Blaze Kick"
+                  },
+                  {
+                    "id": 167,
+                    "name": "Triple Kick"
+                  },
+                  {
+                    "id": 242,
+                    "name": "Crunch"
+                  },
+                  {
+                    "id": 273,
+                    "name": "Wish"
+                  }
+                ]
+              },
+              {
+                "slot": 4,
+                "level": 67,
+                "speciesId": 59,
+                "pokemon": "Arcanine",
+                "heldItemId": 141,
+                "heldItem": "Lum Berry",
+                "moves": [
+                  {
+                    "id": 242,
+                    "name": "Crunch"
+                  },
+                  {
+                    "id": 53,
+                    "name": "Flamethrower"
+                  },
+                  {
+                    "id": 423,
+                    "name": "Ice Fang"
+                  },
+                  {
+                    "id": 463,
+                    "name": "Magma Storm"
+                  }
+                ]
+              },
+              {
+                "slot": 5,
+                "level": 66,
+                "speciesId": 219,
+                "pokemon": "Magcargo",
+                "heldItemId": 204,
+                "heldItem": "Hard Stone",
+                "moves": [
+                  {
+                    "id": 452,
+                    "name": "Wood Hammer"
+                  },
+                  {
+                    "id": 157,
+                    "name": "Rock Slide"
+                  },
+                  {
+                    "id": 34,
+                    "name": "Body Slam"
+                  },
+                  {
+                    "id": 53,
+                    "name": "Flamethrower"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "commandAddress": "0x412F68",
+          "battleType": 3,
+          "trainer": {
+            "id": 659,
+            "valid": true,
+            "name": "Blaine",
+            "classId": 84,
+            "className": "Leader",
+            "structType": 1,
+            "isDoubleBattle": true,
+            "partySize": 5,
+            "partyAddress": "0x40F948",
+            "party": [
+              {
+                "slot": 1,
+                "level": 76,
+                "speciesId": 219,
+                "pokemon": "Magcargo",
+                "heldItemId": null,
+                "heldItem": null,
+                "moves": [
+                  {
+                    "id": 53,
+                    "name": "Flamethrower"
+                  },
+                  {
+                    "id": 372,
+                    "name": "Assurance"
+                  },
+                  {
+                    "id": 63,
+                    "name": "Hyper Beam"
+                  },
+                  {
+                    "id": 315,
+                    "name": "Overheat"
+                  }
+                ]
+              },
+              {
+                "slot": 2,
+                "level": 76,
+                "speciesId": 520,
+                "pokemon": "Magmortar",
+                "heldItemId": null,
+                "heldItem": null,
+                "moves": [
+                  {
+                    "id": 241,
+                    "name": "Sunny Day"
+                  },
+                  {
+                    "id": 234,
+                    "name": "Morning Sun"
+                  },
+                  {
+                    "id": 126,
+                    "name": "Fire Blast"
+                  },
+                  {
+                    "id": 374,
+                    "name": "Fling"
+                  }
+                ]
+              },
+              {
+                "slot": 3,
+                "level": 78,
+                "speciesId": 587,
+                "pokemon": "Arcanine-Hisui",
+                "heldItemId": null,
+                "heldItem": null,
+                "moves": [
+                  {
+                    "id": 261,
+                    "name": "Will-O-Wisp"
+                  },
+                  {
+                    "id": 200,
+                    "name": "Outrage"
+                  },
+                  {
+                    "id": 434,
+                    "name": "Draco Meteor"
+                  },
+                  {
+                    "id": 245,
+                    "name": "Extreme Speed"
+                  }
+                ]
+              },
+              {
+                "slot": 4,
+                "level": 79,
+                "speciesId": 136,
+                "pokemon": "Flareon",
+                "heldItemId": null,
+                "heldItem": null,
+                "moves": [
+                  {
+                    "id": 290,
+                    "name": "Secret Power"
+                  },
+                  {
+                    "id": 237,
+                    "name": "Hidden Power"
+                  },
+                  {
+                    "id": 304,
+                    "name": "Hyper Voice"
+                  },
+                  {
+                    "id": 434,
+                    "name": "Draco Meteor"
+                  }
+                ]
+              },
+              {
+                "slot": 5,
+                "level": 80,
+                "speciesId": 282,
+                "pokemon": "Blaziken",
+                "heldItemId": null,
+                "heldItem": null,
+                "moves": [
+                  {
+                    "id": 397,
+                    "name": "Rock Polish"
+                  },
+                  {
+                    "id": 261,
+                    "name": "Will-O-Wisp"
+                  },
+                  {
+                    "id": 327,
+                    "name": "Sky Uppercut"
+                  },
+                  {
+                    "id": 434,
+                    "name": "Draco Meteor"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "flagId": "0x1685",
+      "mapKey": "3,83",
+      "regionName": null,
+      "x": 9,
+      "y": 2,
+      "objectId": 1,
+      "objectScriptAddress": "0x307200",
+      "setFlagAddress": "0x6510C6",
+      "reachableTrainers": [
+        {
+          "commandAddress": "0x307248",
+          "battleType": 3,
+          "trainer": {
+            "id": 345,
+            "valid": true,
+            "name": "Blue",
+            "classId": 84,
+            "className": "Leader",
+            "structType": 3,
+            "isDoubleBattle": true,
+            "partySize": 6,
+            "partyAddress": "0x30CF34",
+            "party": [
+              {
+                "slot": 1,
+                "level": 69,
+                "speciesId": 18,
+                "pokemon": "Pidgeot",
+                "heldItemId": 210,
+                "heldItem": "Sharp Beak",
+                "moves": [
+                  {
+                    "id": 442,
+                    "name": "Iron Head"
+                  },
+                  {
+                    "id": 395,
+                    "name": "Force Palm"
+                  },
+                  {
+                    "id": 257,
+                    "name": "Heat Wave"
+                  },
+                  {
+                    "id": 412,
+                    "name": "Energy Ball"
+                  }
+                ]
+              },
+              {
+                "slot": 2,
+                "level": 70,
+                "speciesId": 34,
+                "pokemon": "Nidoking",
+                "heldItemId": 211,
+                "heldItem": "Poison Barb",
+                "moves": [
+                  {
+                    "id": 37,
+                    "name": "Thrash"
+                  },
+                  {
+                    "id": 224,
+                    "name": "Megahorn"
+                  },
+                  {
+                    "id": 403,
+                    "name": "Air Slash"
+                  },
+                  {
+                    "id": 32,
+                    "name": "Horn Drill"
+                  }
+                ]
+              },
+              {
+                "slot": 3,
+                "level": 70,
+                "speciesId": 65,
+                "pokemon": "Alakazam",
+                "heldItemId": 214,
+                "heldItem": "Twistedspoon",
+                "moves": [
+                  {
+                    "id": 94,
+                    "name": "Psychic"
+                  },
+                  {
+                    "id": 466,
+                    "name": "Ominous Wind"
+                  },
+                  {
+                    "id": 104,
+                    "name": "Double Team"
+                  },
+                  {
+                    "id": 374,
+                    "name": "Fling"
+                  }
+                ]
+              },
+              {
+                "slot": 4,
+                "level": 72,
+                "speciesId": 130,
+                "pokemon": "Gyarados",
+                "heldItemId": 209,
+                "heldItem": "Mystic Water",
+                "moves": [
+                  {
+                    "id": 63,
+                    "name": "Hyper Beam"
+                  },
+                  {
+                    "id": 360,
+                    "name": "Gyro Ball"
+                  },
+                  {
+                    "id": 56,
+                    "name": "Hydro Pump"
+                  },
+                  {
+                    "id": 390,
+                    "name": "Toxic Spikes"
+                  }
+                ]
+              },
+              {
+                "slot": 5,
+                "level": 72,
+                "speciesId": 103,
+                "pokemon": "Exeggutor",
+                "heldItemId": 205,
+                "heldItem": "Miracle Seed",
+                "moves": [
+                  {
+                    "id": 396,
+                    "name": "Aura Sphere"
+                  },
+                  {
+                    "id": 94,
+                    "name": "Psychic"
+                  },
+                  {
+                    "id": 121,
+                    "name": "Egg Bomb"
+                  },
+                  {
+                    "id": 235,
+                    "name": "Synthesis"
+                  }
+                ]
+              },
+              {
+                "slot": 6,
+                "level": 74,
+                "speciesId": 59,
+                "pokemon": "Arcanine",
+                "heldItemId": 215,
+                "heldItem": "Charcoal",
+                "moves": [
+                  {
+                    "id": 261,
+                    "name": "Will-O-Wisp"
+                  },
+                  {
+                    "id": 200,
+                    "name": "Outrage"
+                  },
+                  {
+                    "id": 434,
+                    "name": "Draco Meteor"
+                  },
+                  {
+                    "id": 245,
+                    "name": "Extreme Speed"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "commandAddress": "0x307E40",
+          "battleType": 3,
+          "trainer": {
+            "id": 616,
+            "valid": true,
+            "name": "Blue",
+            "classId": 84,
+            "className": "Leader",
+            "structType": 3,
+            "isDoubleBattle": true,
+            "partySize": 6,
+            "partyAddress": "0x34006C",
+            "party": [
+              {
+                "slot": 1,
+                "level": 84,
+                "speciesId": 18,
+                "pokemon": "Pidgeot",
+                "heldItemId": 210,
+                "heldItem": "Sharp Beak",
+                "moves": [
+                  {
+                    "id": 253,
+                    "name": "Uproar"
+                  },
+                  {
+                    "id": 257,
+                    "name": "Heat Wave"
+                  },
+                  {
+                    "id": 412,
+                    "name": "Energy Ball"
+                  },
+                  {
+                    "id": 197,
+                    "name": "Detect"
+                  }
+                ]
+              },
+              {
+                "slot": 2,
+                "level": 86,
+                "speciesId": 34,
+                "pokemon": "Nidoking",
+                "heldItemId": 211,
+                "heldItem": "Poison Barb",
+                "moves": [
+                  {
+                    "id": 37,
+                    "name": "Thrash"
+                  },
+                  {
+                    "id": 224,
+                    "name": "Megahorn"
+                  },
+                  {
+                    "id": 403,
+                    "name": "Air Slash"
+                  },
+                  {
+                    "id": 32,
+                    "name": "Horn Drill"
+                  }
+                ]
+              },
+              {
+                "slot": 3,
+                "level": 86,
+                "speciesId": 65,
+                "pokemon": "Alakazam",
+                "heldItemId": 214,
+                "heldItem": "Twistedspoon",
+                "moves": [
+                  {
+                    "id": 94,
+                    "name": "Psychic"
+                  },
+                  {
+                    "id": 466,
+                    "name": "Ominous Wind"
+                  },
+                  {
+                    "id": 271,
+                    "name": "Trick"
+                  },
+                  {
+                    "id": 374,
+                    "name": "Fling"
+                  }
+                ]
+              },
+              {
+                "slot": 4,
+                "level": 88,
+                "speciesId": 130,
+                "pokemon": "Gyarados",
+                "heldItemId": 209,
+                "heldItem": "Mystic Water",
+                "moves": [
+                  {
+                    "id": 63,
+                    "name": "Hyper Beam"
+                  },
+                  {
+                    "id": 360,
+                    "name": "Gyro Ball"
+                  },
+                  {
+                    "id": 56,
+                    "name": "Hydro Pump"
+                  },
+                  {
+                    "id": 390,
+                    "name": "Toxic Spikes"
+                  }
+                ]
+              },
+              {
+                "slot": 5,
+                "level": 88,
+                "speciesId": 103,
+                "pokemon": "Exeggutor",
+                "heldItemId": 205,
+                "heldItem": "Miracle Seed",
+                "moves": [
+                  {
+                    "id": 396,
+                    "name": "Aura Sphere"
+                  },
+                  {
+                    "id": 94,
+                    "name": "Psychic"
+                  },
+                  {
+                    "id": 121,
+                    "name": "Egg Bomb"
+                  },
+                  {
+                    "id": 76,
+                    "name": "Solar Beam"
+                  }
+                ]
+              },
+              {
+                "slot": 6,
+                "level": 90,
+                "speciesId": 59,
+                "pokemon": "Arcanine",
+                "heldItemId": 215,
+                "heldItem": "Charcoal",
+                "moves": [
+                  {
+                    "id": 261,
+                    "name": "Will-O-Wisp"
+                  },
+                  {
+                    "id": 200,
+                    "name": "Outrage"
+                  },
+                  {
+                    "id": 434,
+                    "name": "Draco Meteor"
+                  },
+                  {
+                    "id": 245,
+                    "name": "Extreme Speed"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "flagId": "0x1685",
+      "mapKey": "5,1",
+      "regionName": "Ice Path",
+      "x": 5,
+      "y": 2,
+      "objectId": 1,
+      "objectScriptAddress": "0x307200",
+      "setFlagAddress": "0x6510C6",
+      "reachableTrainers": [
+        {
+          "commandAddress": "0x307248",
+          "battleType": 3,
+          "trainer": {
+            "id": 345,
+            "valid": true,
+            "name": "Blue",
+            "classId": 84,
+            "className": "Leader",
+            "structType": 3,
+            "isDoubleBattle": true,
+            "partySize": 6,
+            "partyAddress": "0x30CF34",
+            "party": [
+              {
+                "slot": 1,
+                "level": 69,
+                "speciesId": 18,
+                "pokemon": "Pidgeot",
+                "heldItemId": 210,
+                "heldItem": "Sharp Beak",
+                "moves": [
+                  {
+                    "id": 442,
+                    "name": "Iron Head"
+                  },
+                  {
+                    "id": 395,
+                    "name": "Force Palm"
+                  },
+                  {
+                    "id": 257,
+                    "name": "Heat Wave"
+                  },
+                  {
+                    "id": 412,
+                    "name": "Energy Ball"
+                  }
+                ]
+              },
+              {
+                "slot": 2,
+                "level": 70,
+                "speciesId": 34,
+                "pokemon": "Nidoking",
+                "heldItemId": 211,
+                "heldItem": "Poison Barb",
+                "moves": [
+                  {
+                    "id": 37,
+                    "name": "Thrash"
+                  },
+                  {
+                    "id": 224,
+                    "name": "Megahorn"
+                  },
+                  {
+                    "id": 403,
+                    "name": "Air Slash"
+                  },
+                  {
+                    "id": 32,
+                    "name": "Horn Drill"
+                  }
+                ]
+              },
+              {
+                "slot": 3,
+                "level": 70,
+                "speciesId": 65,
+                "pokemon": "Alakazam",
+                "heldItemId": 214,
+                "heldItem": "Twistedspoon",
+                "moves": [
+                  {
+                    "id": 94,
+                    "name": "Psychic"
+                  },
+                  {
+                    "id": 466,
+                    "name": "Ominous Wind"
+                  },
+                  {
+                    "id": 104,
+                    "name": "Double Team"
+                  },
+                  {
+                    "id": 374,
+                    "name": "Fling"
+                  }
+                ]
+              },
+              {
+                "slot": 4,
+                "level": 72,
+                "speciesId": 130,
+                "pokemon": "Gyarados",
+                "heldItemId": 209,
+                "heldItem": "Mystic Water",
+                "moves": [
+                  {
+                    "id": 63,
+                    "name": "Hyper Beam"
+                  },
+                  {
+                    "id": 360,
+                    "name": "Gyro Ball"
+                  },
+                  {
+                    "id": 56,
+                    "name": "Hydro Pump"
+                  },
+                  {
+                    "id": 390,
+                    "name": "Toxic Spikes"
+                  }
+                ]
+              },
+              {
+                "slot": 5,
+                "level": 72,
+                "speciesId": 103,
+                "pokemon": "Exeggutor",
+                "heldItemId": 205,
+                "heldItem": "Miracle Seed",
+                "moves": [
+                  {
+                    "id": 396,
+                    "name": "Aura Sphere"
+                  },
+                  {
+                    "id": 94,
+                    "name": "Psychic"
+                  },
+                  {
+                    "id": 121,
+                    "name": "Egg Bomb"
+                  },
+                  {
+                    "id": 235,
+                    "name": "Synthesis"
+                  }
+                ]
+              },
+              {
+                "slot": 6,
+                "level": 74,
+                "speciesId": 59,
+                "pokemon": "Arcanine",
+                "heldItemId": 215,
+                "heldItem": "Charcoal",
+                "moves": [
+                  {
+                    "id": 261,
+                    "name": "Will-O-Wisp"
+                  },
+                  {
+                    "id": 200,
+                    "name": "Outrage"
+                  },
+                  {
+                    "id": 434,
+                    "name": "Draco Meteor"
+                  },
+                  {
+                    "id": 245,
+                    "name": "Extreme Speed"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "commandAddress": "0x307E40",
+          "battleType": 3,
+          "trainer": {
+            "id": 616,
+            "valid": true,
+            "name": "Blue",
+            "classId": 84,
+            "className": "Leader",
+            "structType": 3,
+            "isDoubleBattle": true,
+            "partySize": 6,
+            "partyAddress": "0x34006C",
+            "party": [
+              {
+                "slot": 1,
+                "level": 84,
+                "speciesId": 18,
+                "pokemon": "Pidgeot",
+                "heldItemId": 210,
+                "heldItem": "Sharp Beak",
+                "moves": [
+                  {
+                    "id": 253,
+                    "name": "Uproar"
+                  },
+                  {
+                    "id": 257,
+                    "name": "Heat Wave"
+                  },
+                  {
+                    "id": 412,
+                    "name": "Energy Ball"
+                  },
+                  {
+                    "id": 197,
+                    "name": "Detect"
+                  }
+                ]
+              },
+              {
+                "slot": 2,
+                "level": 86,
+                "speciesId": 34,
+                "pokemon": "Nidoking",
+                "heldItemId": 211,
+                "heldItem": "Poison Barb",
+                "moves": [
+                  {
+                    "id": 37,
+                    "name": "Thrash"
+                  },
+                  {
+                    "id": 224,
+                    "name": "Megahorn"
+                  },
+                  {
+                    "id": 403,
+                    "name": "Air Slash"
+                  },
+                  {
+                    "id": 32,
+                    "name": "Horn Drill"
+                  }
+                ]
+              },
+              {
+                "slot": 3,
+                "level": 86,
+                "speciesId": 65,
+                "pokemon": "Alakazam",
+                "heldItemId": 214,
+                "heldItem": "Twistedspoon",
+                "moves": [
+                  {
+                    "id": 94,
+                    "name": "Psychic"
+                  },
+                  {
+                    "id": 466,
+                    "name": "Ominous Wind"
+                  },
+                  {
+                    "id": 271,
+                    "name": "Trick"
+                  },
+                  {
+                    "id": 374,
+                    "name": "Fling"
+                  }
+                ]
+              },
+              {
+                "slot": 4,
+                "level": 88,
+                "speciesId": 130,
+                "pokemon": "Gyarados",
+                "heldItemId": 209,
+                "heldItem": "Mystic Water",
+                "moves": [
+                  {
+                    "id": 63,
+                    "name": "Hyper Beam"
+                  },
+                  {
+                    "id": 360,
+                    "name": "Gyro Ball"
+                  },
+                  {
+                    "id": 56,
+                    "name": "Hydro Pump"
+                  },
+                  {
+                    "id": 390,
+                    "name": "Toxic Spikes"
+                  }
+                ]
+              },
+              {
+                "slot": 5,
+                "level": 88,
+                "speciesId": 103,
+                "pokemon": "Exeggutor",
+                "heldItemId": 205,
+                "heldItem": "Miracle Seed",
+                "moves": [
+                  {
+                    "id": 396,
+                    "name": "Aura Sphere"
+                  },
+                  {
+                    "id": 94,
+                    "name": "Psychic"
+                  },
+                  {
+                    "id": 121,
+                    "name": "Egg Bomb"
+                  },
+                  {
+                    "id": 76,
+                    "name": "Solar Beam"
+                  }
+                ]
+              },
+              {
+                "slot": 6,
+                "level": 90,
+                "speciesId": 59,
+                "pokemon": "Arcanine",
+                "heldItemId": 215,
+                "heldItem": "Charcoal",
+                "moves": [
+                  {
+                    "id": 261,
+                    "name": "Will-O-Wisp"
+                  },
+                  {
+                    "id": 200,
+                    "name": "Outrage"
+                  },
+                  {
+                    "id": 434,
+                    "name": "Draco Meteor"
+                  },
+                  {
+                    "id": 245,
+                    "name": "Extreme Speed"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "flagId": "0x1686",
+      "mapKey": "3,5",
+      "regionName": "Ruins Of Alph",
+      "x": 38,
+      "y": 17,
+      "objectId": 4,
+      "objectScriptAddress": "0x935F17",
+      "setFlagAddress": "0x935FC7",
+      "reachableTrainers": []
+    },
+    {
+      "flagId": "0x188E",
+      "mapKey": "10,16",
+      "regionName": "Sinjoh Ruins",
+      "x": 6,
+      "y": 4,
+      "objectId": 7,
+      "objectScriptAddress": "0x299770",
+      "setFlagAddress": "0x652EF1",
+      "reachableTrainers": [
+        {
+          "commandAddress": "0x2997B8",
+          "battleType": 3,
+          "trainer": {
+            "id": 417,
+            "valid": true,
+            "name": "Erika",
+            "classId": 84,
+            "className": "Leader",
+            "structType": 3,
+            "isDoubleBattle": true,
+            "partySize": 5,
+            "partyAddress": "0x1720A98",
+            "party": [
+              {
+                "slot": 1,
+                "level": 64,
+                "speciesId": 518,
+                "pokemon": "Tangrowth",
+                "heldItemId": 0,
+                "heldItem": null,
+                "moves": [
+                  {
+                    "id": 22,
+                    "name": "Vine Whip"
+                  },
+                  {
+                    "id": 20,
+                    "name": "Bind"
+                  },
+                  {
+                    "id": 202,
+                    "name": "Giga Drain"
+                  },
+                  {
+                    "id": 79,
+                    "name": "Sleep Powder"
+                  }
+                ]
+              },
+              {
+                "slot": 2,
+                "level": 63,
+                "speciesId": 189,
+                "pokemon": "Jumpluff",
+                "heldItemId": 0,
+                "heldItem": null,
+                "moves": [
+                  {
+                    "id": 241,
+                    "name": "Sunny Day"
+                  },
+                  {
+                    "id": 73,
+                    "name": "Leech Seed"
+                  },
+                  {
+                    "id": 178,
+                    "name": "Cotton Spore"
+                  },
+                  {
+                    "id": 202,
+                    "name": "Giga Drain"
+                  }
+                ]
+              },
+              {
+                "slot": 3,
+                "level": 66,
+                "speciesId": 71,
+                "pokemon": "Victreebel",
+                "heldItemId": 0,
+                "heldItem": null,
+                "moves": [
+                  {
+                    "id": 241,
+                    "name": "Sunny Day"
+                  },
+                  {
+                    "id": 235,
+                    "name": "Synthesis"
+                  },
+                  {
+                    "id": 51,
+                    "name": "Acid"
+                  },
+                  {
+                    "id": 75,
+                    "name": "Razor Leaf"
+                  }
+                ]
+              },
+              {
+                "slot": 4,
+                "level": 66,
+                "speciesId": 45,
+                "pokemon": "Vileplume",
+                "heldItemId": 205,
+                "heldItem": "Miracle Seed",
+                "moves": [
+                  {
+                    "id": 241,
+                    "name": "Sunny Day"
+                  },
+                  {
+                    "id": 235,
+                    "name": "Synthesis"
+                  },
+                  {
+                    "id": 80,
+                    "name": "Petal Dance"
+                  },
+                  {
+                    "id": 76,
+                    "name": "Solar Beam"
+                  }
+                ]
+              },
+              {
+                "slot": 5,
+                "level": 65,
+                "speciesId": 442,
+                "pokemon": "Torterra",
+                "heldItemId": 205,
+                "heldItem": "Miracle Seed",
+                "moves": [
+                  {
+                    "id": 241,
+                    "name": "Sunny Day"
+                  },
+                  {
+                    "id": 235,
+                    "name": "Synthesis"
+                  },
+                  {
+                    "id": 80,
+                    "name": "Petal Dance"
+                  },
+                  {
+                    "id": 76,
+                    "name": "Solar Beam"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "commandAddress": "0x652DA8",
+          "battleType": 3,
+          "trainer": {
+            "id": 656,
+            "valid": true,
+            "name": "Erika",
+            "classId": 84,
+            "className": "Leader",
+            "structType": 3,
+            "isDoubleBattle": true,
+            "partySize": 5,
+            "partyAddress": "0x57D62C",
+            "party": [
+              {
+                "slot": 1,
+                "level": 84,
+                "speciesId": 518,
+                "pokemon": "Tangrowth",
+                "heldItemId": 0,
+                "heldItem": null,
+                "moves": [
+                  {
+                    "id": 22,
+                    "name": "Vine Whip"
+                  },
+                  {
+                    "id": 20,
+                    "name": "Bind"
+                  },
+                  {
+                    "id": 202,
+                    "name": "Giga Drain"
+                  },
+                  {
+                    "id": 79,
+                    "name": "Sleep Powder"
+                  }
+                ]
+              },
+              {
+                "slot": 2,
+                "level": 83,
+                "speciesId": 189,
+                "pokemon": "Jumpluff",
+                "heldItemId": 0,
+                "heldItem": null,
+                "moves": [
+                  {
+                    "id": 241,
+                    "name": "Sunny Day"
+                  },
+                  {
+                    "id": 73,
+                    "name": "Leech Seed"
+                  },
+                  {
+                    "id": 178,
+                    "name": "Cotton Spore"
+                  },
+                  {
+                    "id": 202,
+                    "name": "Giga Drain"
+                  }
+                ]
+              },
+              {
+                "slot": 3,
+                "level": 86,
+                "speciesId": 71,
+                "pokemon": "Victreebel",
+                "heldItemId": 0,
+                "heldItem": null,
+                "moves": [
+                  {
+                    "id": 241,
+                    "name": "Sunny Day"
+                  },
+                  {
+                    "id": 235,
+                    "name": "Synthesis"
+                  },
+                  {
+                    "id": 51,
+                    "name": "Acid"
+                  },
+                  {
+                    "id": 75,
+                    "name": "Razor Leaf"
+                  }
+                ]
+              },
+              {
+                "slot": 4,
+                "level": 86,
+                "speciesId": 45,
+                "pokemon": "Vileplume",
+                "heldItemId": 205,
+                "heldItem": "Miracle Seed",
+                "moves": [
+                  {
+                    "id": 241,
+                    "name": "Sunny Day"
+                  },
+                  {
+                    "id": 235,
+                    "name": "Synthesis"
+                  },
+                  {
+                    "id": 80,
+                    "name": "Petal Dance"
+                  },
+                  {
+                    "id": 76,
+                    "name": "Solar Beam"
+                  }
+                ]
+              },
+              {
+                "slot": 5,
+                "level": 85,
+                "speciesId": 442,
+                "pokemon": "Torterra",
+                "heldItemId": 205,
+                "heldItem": "Miracle Seed",
+                "moves": [
+                  {
+                    "id": 241,
+                    "name": "Sunny Day"
+                  },
+                  {
+                    "id": 235,
+                    "name": "Synthesis"
+                  },
+                  {
+                    "id": 80,
+                    "name": "Petal Dance"
+                  },
+                  {
+                    "id": 76,
+                    "name": "Solar Beam"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
   "hiddenItems": [
     {
       "mapKey": "1,0",

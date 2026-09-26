@@ -2,7 +2,7 @@
   "meta": {
     "version": "2026-07-19",
     "title": "Crystal Advance Redux documented trainer data",
-    "sourceNote": "Trainer battles combine the community workbook with a conservative 2026-07-19 ROM audit. Workbook inheritance and intentionally hidden Gym Leader teams remain explicit; ROM-derived Sevii battles are limited to reviewed maps and regular trainer teams.",
+    "sourceNote": "Trainer battles combine the community workbook with a conservative 2026-07-19 ROM audit. Workbook inheritance and intentionally hidden Gym Leader teams remain explicit; ROM-derived Sevii battles are limited to reviewed maps, including the script-verified Memorial Pillar stages.",
     "limitations": [
       "The workbook does not document trainer moves, abilities, held items or natures.",
       "Gym Leader rows identify the leader and battle format but intentionally omit their Pokémon teams.",
@@ -10,7 +10,7 @@
       "Asterisks beside trainer names are preserved as a major-battle flag rather than as part of the displayed name.",
       "Silver's SE Starter placeholders are retained with their documented evolution stage and resolved from the player's starter at runtime.",
       "Workbook question-mark Location placeholders are treated as undocumented and do not replace a known venue.",
-      "ROM-derived Sevii rematch stages and Memorial Pillar Elite Four variants remain excluded until their script conditions can be verified."
+      "ROM-derived VS Seeker-style staged rematches remain excluded because this ROM does not expose HexManiac's stock rematch-table anchor."
     ]
   },
   "battles": [
@@ -31518,6 +31518,1222 @@
       },
       "levelMin": 23,
       "levelMax": 23
+    },
+    {
+      "id": "sevii-rom-1-75-will-724-initial",
+      "mode": "default",
+      "category": "Trainer Battle",
+      "trainer": "Will",
+      "trainerClass": "Elite Four",
+      "boss": true,
+      "rival": false,
+      "location": "Memorial Pillar",
+      "subarea": "Battle Room 1",
+      "rematch": false,
+      "stageLabel": "Initial challenge",
+      "team": [
+        {
+          "name": "Xatu",
+          "level": 52,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Wish",
+            "Heal Pulse",
+            "Future Sight",
+            "Worry Seed"
+          ]
+        },
+        {
+          "name": "Exeggutor",
+          "level": 53,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Ancient Power",
+            "Aura Sphere",
+            "Psychic",
+            "Egg Bomb"
+          ]
+        },
+        {
+          "name": "Slowbro",
+          "level": 53,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Gyro Ball",
+            "Amnesia",
+            "Psychic",
+            "Surf"
+          ]
+        },
+        {
+          "name": "Jynx",
+          "level": 53,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Gyro Ball",
+            "Body Slam",
+            "Echoed Voice",
+            "Perish Song"
+          ]
+        },
+        {
+          "name": "Xatu",
+          "level": 54,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Gravity",
+            "Worry Seed",
+            "Stored Power",
+            "Quick Guard"
+          ]
+        }
+      ],
+      "notes": [
+        "Elite Four · Initial Memorial Pillar challenge"
+      ],
+      "doubleBattle": false,
+      "source": {
+        "kind": "rom-audit",
+        "scope": "sevii-safe-trainer-tranche",
+        "gameVersion": "2026-07-19",
+        "romSha256": "716F2CBFB731E6DC1E014B6B6744B823389262DCC0086A120C1E0FB3D80DD34B",
+        "mapKey": "1,75",
+        "x": 6,
+        "y": 5,
+        "objectId": 1,
+        "objectFlag": 0,
+        "objectScriptAddress": "0x2882E8",
+        "commandAddresses": [
+          "0x288329"
+        ],
+        "trainerId": 724,
+        "partyAddress": "0x28E828",
+        "structType": 3,
+        "stageSelector": {
+          "variable": "0x4089",
+          "rematchValue": 2,
+          "progressionFlag": "0x1686",
+          "progressionFlagSetterAddress": "0x935FC7",
+          "progressionMeaning": "All eight Kanto Gym Leaders defeated",
+          "prerequisites": [
+            {
+              "flagId": "0x156F",
+              "trainer": "Lt. Surge"
+            },
+            {
+              "flagId": "0x1685",
+              "trainer": "Blue"
+            },
+            {
+              "flagId": "0x167B",
+              "trainer": "Brock"
+            },
+            {
+              "flagId": "0x1642",
+              "trainer": "Misty"
+            },
+            {
+              "flagId": "0x188E",
+              "trainer": "Erika"
+            },
+            {
+              "flagId": "0x160D",
+              "trainer": "Sabrina"
+            },
+            {
+              "flagId": "0x1681",
+              "trainer": "Blaine"
+            },
+            {
+              "flagId": "0x158A",
+              "trainer": "Janine"
+            }
+          ]
+        }
+      },
+      "levelMin": 52,
+      "levelMax": 54
+    },
+    {
+      "id": "sevii-rom-1-75-will-735-post-kanto",
+      "mode": "default",
+      "category": "Trainer Battle",
+      "trainer": "Will",
+      "trainerClass": "Elite Four",
+      "boss": true,
+      "rival": false,
+      "location": "Memorial Pillar",
+      "subarea": "Battle Room 1",
+      "rematch": true,
+      "stageLabel": "Post-Kanto rematch",
+      "rematchLabel": "Post-Kanto rematch",
+      "team": [
+        {
+          "name": "Xatu",
+          "level": 72,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Gravity",
+            "Force Palm",
+            "Psychic",
+            "Confuse Ray"
+          ]
+        },
+        {
+          "name": "Exeggutor-Alola",
+          "level": 73,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Reflect",
+            "Close Combat",
+            "Psychic",
+            "Hypnosis"
+          ]
+        },
+        {
+          "name": "Slowbro",
+          "level": 73,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Curse",
+            "Amnesia",
+            "Body Slam",
+            "Psychic"
+          ]
+        },
+        {
+          "name": "Jynx",
+          "level": 73,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Blizzard",
+            "Dream Eater",
+            "Psychic",
+            "Lovely Kiss"
+          ]
+        },
+        {
+          "name": "Alakazam",
+          "level": 74,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Signal Beam",
+            "Shock Wave",
+            "Psychic",
+            "Confuse Ray"
+          ]
+        },
+        {
+          "name": "Gallade",
+          "level": 74,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Gravity",
+            "Charm",
+            "Heart Swap",
+            "Pluck"
+          ]
+        }
+      ],
+      "notes": [
+        "Elite Four · Unlocked after defeating all eight Kanto Gym Leaders"
+      ],
+      "doubleBattle": false,
+      "source": {
+        "kind": "rom-audit",
+        "scope": "sevii-safe-trainer-tranche",
+        "gameVersion": "2026-07-19",
+        "romSha256": "716F2CBFB731E6DC1E014B6B6744B823389262DCC0086A120C1E0FB3D80DD34B",
+        "mapKey": "1,75",
+        "x": 6,
+        "y": 5,
+        "objectId": 1,
+        "objectFlag": 0,
+        "objectScriptAddress": "0x2882E8",
+        "commandAddresses": [
+          "0x1EE7E3A"
+        ],
+        "trainerId": 735,
+        "partyAddress": "0x1720EA8",
+        "structType": 1,
+        "stageSelector": {
+          "variable": "0x4089",
+          "rematchValue": 2,
+          "progressionFlag": "0x1686",
+          "progressionFlagSetterAddress": "0x935FC7",
+          "progressionMeaning": "All eight Kanto Gym Leaders defeated",
+          "prerequisites": [
+            {
+              "flagId": "0x156F",
+              "trainer": "Lt. Surge"
+            },
+            {
+              "flagId": "0x1685",
+              "trainer": "Blue"
+            },
+            {
+              "flagId": "0x167B",
+              "trainer": "Brock"
+            },
+            {
+              "flagId": "0x1642",
+              "trainer": "Misty"
+            },
+            {
+              "flagId": "0x188E",
+              "trainer": "Erika"
+            },
+            {
+              "flagId": "0x160D",
+              "trainer": "Sabrina"
+            },
+            {
+              "flagId": "0x1681",
+              "trainer": "Blaine"
+            },
+            {
+              "flagId": "0x158A",
+              "trainer": "Janine"
+            }
+          ]
+        }
+      },
+      "levelMin": 72,
+      "levelMax": 74
+    },
+    {
+      "id": "sevii-rom-1-76-koga-726-initial",
+      "mode": "default",
+      "category": "Trainer Battle",
+      "trainer": "Koga",
+      "trainerClass": "Elite Four",
+      "boss": true,
+      "rival": false,
+      "location": "Memorial Pillar",
+      "subarea": "Battle Room 2",
+      "rematch": false,
+      "stageLabel": "Initial challenge",
+      "team": [
+        {
+          "name": "Ariados",
+          "level": 52,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Agility",
+            "Pin Missile",
+            "Psychic",
+            "Fire Fang"
+          ]
+        },
+        {
+          "name": "Venomoth",
+          "level": 53,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Aerial Ace",
+            "Fire Fang",
+            "Leech Life",
+            "Psychic"
+          ]
+        },
+        {
+          "name": "Forretress",
+          "level": 54,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Zap Cannon",
+            "Explosion",
+            "Iron Defense",
+            "Foul Play"
+          ]
+        },
+        {
+          "name": "Muk",
+          "level": 53,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Acid Armor",
+            "Mean Look",
+            "Wring Out",
+            "Mud Shot"
+          ]
+        },
+        {
+          "name": "Crobat",
+          "level": 55,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Gravity",
+            "Night Slash",
+            "Tailwind",
+            "Force Palm"
+          ]
+        }
+      ],
+      "notes": [
+        "Elite Four · Initial Memorial Pillar challenge"
+      ],
+      "doubleBattle": false,
+      "source": {
+        "kind": "rom-audit",
+        "scope": "sevii-safe-trainer-tranche",
+        "gameVersion": "2026-07-19",
+        "romSha256": "716F2CBFB731E6DC1E014B6B6744B823389262DCC0086A120C1E0FB3D80DD34B",
+        "mapKey": "1,76",
+        "x": 6,
+        "y": 5,
+        "objectId": 1,
+        "objectFlag": 0,
+        "objectScriptAddress": "0x6400E0",
+        "commandAddresses": [
+          "0x640121"
+        ],
+        "trainerId": 726,
+        "partyAddress": "0x23E1B0",
+        "structType": 1,
+        "stageSelector": {
+          "variable": "0x4089",
+          "rematchValue": 2,
+          "progressionFlag": "0x1686",
+          "progressionFlagSetterAddress": "0x935FC7",
+          "progressionMeaning": "All eight Kanto Gym Leaders defeated",
+          "prerequisites": [
+            {
+              "flagId": "0x156F",
+              "trainer": "Lt. Surge"
+            },
+            {
+              "flagId": "0x1685",
+              "trainer": "Blue"
+            },
+            {
+              "flagId": "0x167B",
+              "trainer": "Brock"
+            },
+            {
+              "flagId": "0x1642",
+              "trainer": "Misty"
+            },
+            {
+              "flagId": "0x188E",
+              "trainer": "Erika"
+            },
+            {
+              "flagId": "0x160D",
+              "trainer": "Sabrina"
+            },
+            {
+              "flagId": "0x1681",
+              "trainer": "Blaine"
+            },
+            {
+              "flagId": "0x158A",
+              "trainer": "Janine"
+            }
+          ]
+        }
+      },
+      "levelMin": 52,
+      "levelMax": 55
+    },
+    {
+      "id": "sevii-rom-1-76-koga-736-post-kanto",
+      "mode": "default",
+      "category": "Trainer Battle",
+      "trainer": "Koga",
+      "trainerClass": "Elite Four",
+      "boss": true,
+      "rival": false,
+      "location": "Memorial Pillar",
+      "subarea": "Battle Room 2",
+      "rematch": true,
+      "stageLabel": "Post-Kanto rematch",
+      "rematchLabel": "Post-Kanto rematch",
+      "team": [
+        {
+          "name": "Ariados",
+          "level": 72,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Agility",
+            "Pin Missile",
+            "Psychic",
+            "Fire Fang"
+          ]
+        },
+        {
+          "name": "Weezing-Galar",
+          "level": 72,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Pain Split",
+            "Wring Out",
+            "Venoshock",
+            "Ominous Wind"
+          ]
+        },
+        {
+          "name": "Forretress",
+          "level": 74,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Foul Play",
+            "Double-Edge",
+            "Chip Away",
+            "Zap Cannon"
+          ]
+        },
+        {
+          "name": "Swalot",
+          "level": 73,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Shadow Ball",
+            "Rage Powder",
+            "Echoed Voice",
+            "Wring Out"
+          ]
+        },
+        {
+          "name": "Crobat",
+          "level": 75,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Tailwind",
+            "Force Palm",
+            "Aqua Tail",
+            "Healing Wish"
+          ]
+        },
+        {
+          "name": "Toxicroak",
+          "level": 75,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Punishment",
+            "Fire Fang",
+            "Double Hit",
+            "Flatter"
+          ]
+        }
+      ],
+      "notes": [
+        "Elite Four · Unlocked after defeating all eight Kanto Gym Leaders"
+      ],
+      "doubleBattle": false,
+      "source": {
+        "kind": "rom-audit",
+        "scope": "sevii-safe-trainer-tranche",
+        "gameVersion": "2026-07-19",
+        "romSha256": "716F2CBFB731E6DC1E014B6B6744B823389262DCC0086A120C1E0FB3D80DD34B",
+        "mapKey": "1,76",
+        "x": 6,
+        "y": 5,
+        "objectId": 1,
+        "objectFlag": 0,
+        "objectScriptAddress": "0x6400E0",
+        "commandAddresses": [
+          "0x6402E6"
+        ],
+        "trainerId": 736,
+        "partyAddress": "0x1720D48",
+        "structType": 1,
+        "stageSelector": {
+          "variable": "0x4089",
+          "rematchValue": 2,
+          "progressionFlag": "0x1686",
+          "progressionFlagSetterAddress": "0x935FC7",
+          "progressionMeaning": "All eight Kanto Gym Leaders defeated",
+          "prerequisites": [
+            {
+              "flagId": "0x156F",
+              "trainer": "Lt. Surge"
+            },
+            {
+              "flagId": "0x1685",
+              "trainer": "Blue"
+            },
+            {
+              "flagId": "0x167B",
+              "trainer": "Brock"
+            },
+            {
+              "flagId": "0x1642",
+              "trainer": "Misty"
+            },
+            {
+              "flagId": "0x188E",
+              "trainer": "Erika"
+            },
+            {
+              "flagId": "0x160D",
+              "trainer": "Sabrina"
+            },
+            {
+              "flagId": "0x1681",
+              "trainer": "Blaine"
+            },
+            {
+              "flagId": "0x158A",
+              "trainer": "Janine"
+            }
+          ]
+        }
+      },
+      "levelMin": 72,
+      "levelMax": 75
+    },
+    {
+      "id": "sevii-rom-1-77-bruno-725-initial",
+      "mode": "default",
+      "category": "Trainer Battle",
+      "trainer": "Bruno",
+      "trainerClass": "Elite Four",
+      "boss": true,
+      "rival": false,
+      "location": "Memorial Pillar",
+      "subarea": "Battle Room 3",
+      "rematch": false,
+      "stageLabel": "Initial challenge",
+      "team": [
+        {
+          "name": "Hitmontop",
+          "level": 53,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Blaze Kick",
+            "Foul Play",
+            "Detect",
+            "Pluck"
+          ]
+        },
+        {
+          "name": "Hitmonlee",
+          "level": 53,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Blaze Kick",
+            "Endure",
+            "Mega Kick",
+            "Pluck"
+          ]
+        },
+        {
+          "name": "Hitmonchan",
+          "level": 53,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Payback",
+            "Ice Punch",
+            "Agility",
+            "Counter"
+          ]
+        },
+        {
+          "name": "Onix",
+          "level": 55,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Me First",
+            "Earthquake",
+            "Double-Edge",
+            "Mirror Shot"
+          ]
+        },
+        {
+          "name": "Machamp",
+          "level": 56,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Scary Face",
+            "Dynamic Punch",
+            "Bulk Up",
+            "Flare Blitz"
+          ]
+        }
+      ],
+      "notes": [
+        "Elite Four · Initial Memorial Pillar challenge"
+      ],
+      "doubleBattle": false,
+      "source": {
+        "kind": "rom-audit",
+        "scope": "sevii-safe-trainer-tranche",
+        "gameVersion": "2026-07-19",
+        "romSha256": "716F2CBFB731E6DC1E014B6B6744B823389262DCC0086A120C1E0FB3D80DD34B",
+        "mapKey": "1,77",
+        "x": 6,
+        "y": 5,
+        "objectId": 1,
+        "objectFlag": 0,
+        "objectScriptAddress": "0x6585F0",
+        "commandAddresses": [
+          "0x658631"
+        ],
+        "trainerId": 725,
+        "partyAddress": "0x28E87C",
+        "structType": 1,
+        "stageSelector": {
+          "variable": "0x4089",
+          "rematchValue": 2,
+          "progressionFlag": "0x1686",
+          "progressionFlagSetterAddress": "0x935FC7",
+          "progressionMeaning": "All eight Kanto Gym Leaders defeated",
+          "prerequisites": [
+            {
+              "flagId": "0x156F",
+              "trainer": "Lt. Surge"
+            },
+            {
+              "flagId": "0x1685",
+              "trainer": "Blue"
+            },
+            {
+              "flagId": "0x167B",
+              "trainer": "Brock"
+            },
+            {
+              "flagId": "0x1642",
+              "trainer": "Misty"
+            },
+            {
+              "flagId": "0x188E",
+              "trainer": "Erika"
+            },
+            {
+              "flagId": "0x160D",
+              "trainer": "Sabrina"
+            },
+            {
+              "flagId": "0x1681",
+              "trainer": "Blaine"
+            },
+            {
+              "flagId": "0x158A",
+              "trainer": "Janine"
+            }
+          ]
+        }
+      },
+      "levelMin": 53,
+      "levelMax": 56
+    },
+    {
+      "id": "sevii-rom-1-77-bruno-737-post-kanto",
+      "mode": "default",
+      "category": "Trainer Battle",
+      "trainer": "Bruno",
+      "trainerClass": "Elite Four",
+      "boss": true,
+      "rival": false,
+      "location": "Memorial Pillar",
+      "subarea": "Battle Room 3",
+      "rematch": true,
+      "stageLabel": "Post-Kanto rematch",
+      "rematchLabel": "Post-Kanto rematch",
+      "team": [
+        {
+          "name": "Hitmontop",
+          "level": 73,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Detect",
+            "Pluck",
+            "Ice Fang",
+            "Endeavor"
+          ]
+        },
+        {
+          "name": "Hitmonlee",
+          "level": 73,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Mega Kick",
+            "Blaze Kick",
+            "Mirror Shot",
+            "High Jump Kick"
+          ]
+        },
+        {
+          "name": "Hitmonchan",
+          "level": 73,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Thunder Punch",
+            "Agility",
+            "Counter",
+            "Pluck"
+          ]
+        },
+        {
+          "name": "Steelix",
+          "level": 74,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Iron Tail",
+            "Curse",
+            "Gastro Acid",
+            "Fissure"
+          ]
+        },
+        {
+          "name": "Kleavor",
+          "level": 76,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Mirror Shot",
+            "Flame Charge",
+            "Night Slash",
+            "Swords Dance"
+          ]
+        },
+        {
+          "name": "Machamp",
+          "level": 76,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Dynamic Punch",
+            "Bulk Up",
+            "Flare Blitz",
+            "Fissure"
+          ]
+        }
+      ],
+      "notes": [
+        "Elite Four · Unlocked after defeating all eight Kanto Gym Leaders"
+      ],
+      "doubleBattle": false,
+      "source": {
+        "kind": "rom-audit",
+        "scope": "sevii-safe-trainer-tranche",
+        "gameVersion": "2026-07-19",
+        "romSha256": "716F2CBFB731E6DC1E014B6B6744B823389262DCC0086A120C1E0FB3D80DD34B",
+        "mapKey": "1,77",
+        "x": 6,
+        "y": 5,
+        "objectId": 1,
+        "objectFlag": 0,
+        "objectScriptAddress": "0x6585F0",
+        "commandAddresses": [
+          "0x658F22"
+        ],
+        "trainerId": 737,
+        "partyAddress": "0x1721274",
+        "structType": 1,
+        "stageSelector": {
+          "variable": "0x4089",
+          "rematchValue": 2,
+          "progressionFlag": "0x1686",
+          "progressionFlagSetterAddress": "0x935FC7",
+          "progressionMeaning": "All eight Kanto Gym Leaders defeated",
+          "prerequisites": [
+            {
+              "flagId": "0x156F",
+              "trainer": "Lt. Surge"
+            },
+            {
+              "flagId": "0x1685",
+              "trainer": "Blue"
+            },
+            {
+              "flagId": "0x167B",
+              "trainer": "Brock"
+            },
+            {
+              "flagId": "0x1642",
+              "trainer": "Misty"
+            },
+            {
+              "flagId": "0x188E",
+              "trainer": "Erika"
+            },
+            {
+              "flagId": "0x160D",
+              "trainer": "Sabrina"
+            },
+            {
+              "flagId": "0x1681",
+              "trainer": "Blaine"
+            },
+            {
+              "flagId": "0x158A",
+              "trainer": "Janine"
+            }
+          ]
+        }
+      },
+      "levelMin": 73,
+      "levelMax": 76
+    },
+    {
+      "id": "sevii-rom-1-78-karen-413-initial",
+      "mode": "default",
+      "category": "Trainer Battle",
+      "trainer": "Karen",
+      "trainerClass": "Elite Four",
+      "boss": true,
+      "rival": false,
+      "location": "Memorial Pillar",
+      "subarea": "Battle Room 4",
+      "rematch": false,
+      "stageLabel": "Initial challenge",
+      "team": [
+        {
+          "name": "Umbreon",
+          "level": 54,
+          "ability": "",
+          "item": "Lum Berry",
+          "nature": "",
+          "moves": [
+            "Protect",
+            "Feint Attack",
+            "Wish",
+            "Toxic"
+          ]
+        },
+        {
+          "name": "Vileplume",
+          "level": 54,
+          "ability": "",
+          "item": "Quick Claw",
+          "nature": "",
+          "moves": [
+            "Teeter Dance",
+            "Embargo",
+            "Sludge Bomb",
+            "Sunny Day"
+          ]
+        },
+        {
+          "name": "Murkrow",
+          "level": 55,
+          "ability": "",
+          "item": "Blackglasses",
+          "nature": "",
+          "moves": [
+            "Feint Attack",
+            "Mean Look",
+            "Double Hit",
+            "Gravity"
+          ]
+        },
+        {
+          "name": "Gengar",
+          "level": 56,
+          "ability": "",
+          "item": "Destiny Knot",
+          "nature": "",
+          "moves": [
+            "Shadow Ball",
+            "Will-O-Wisp",
+            "Embargo",
+            "Ominous Wind"
+          ]
+        },
+        {
+          "name": "Houndoom",
+          "level": 58,
+          "ability": "",
+          "item": "Charcoal",
+          "nature": "",
+          "moves": [
+            "Feint Attack",
+            "Sky Drop",
+            "Flamethrower",
+            "Crunch"
+          ]
+        }
+      ],
+      "notes": [
+        "Elite Four · Initial Memorial Pillar challenge"
+      ],
+      "doubleBattle": false,
+      "source": {
+        "kind": "rom-audit",
+        "scope": "sevii-safe-trainer-tranche",
+        "gameVersion": "2026-07-19",
+        "romSha256": "716F2CBFB731E6DC1E014B6B6744B823389262DCC0086A120C1E0FB3D80DD34B",
+        "mapKey": "1,78",
+        "x": 6,
+        "y": 5,
+        "objectId": 1,
+        "objectFlag": 0,
+        "objectScriptAddress": "0x640938",
+        "commandAddresses": [
+          "0x640979"
+        ],
+        "trainerId": 413,
+        "partyAddress": "0x23C5C0",
+        "structType": 3,
+        "stageSelector": {
+          "variable": "0x4089",
+          "rematchValue": 2,
+          "progressionFlag": "0x1686",
+          "progressionFlagSetterAddress": "0x935FC7",
+          "progressionMeaning": "All eight Kanto Gym Leaders defeated",
+          "prerequisites": [
+            {
+              "flagId": "0x156F",
+              "trainer": "Lt. Surge"
+            },
+            {
+              "flagId": "0x1685",
+              "trainer": "Blue"
+            },
+            {
+              "flagId": "0x167B",
+              "trainer": "Brock"
+            },
+            {
+              "flagId": "0x1642",
+              "trainer": "Misty"
+            },
+            {
+              "flagId": "0x188E",
+              "trainer": "Erika"
+            },
+            {
+              "flagId": "0x160D",
+              "trainer": "Sabrina"
+            },
+            {
+              "flagId": "0x1681",
+              "trainer": "Blaine"
+            },
+            {
+              "flagId": "0x158A",
+              "trainer": "Janine"
+            }
+          ]
+        }
+      },
+      "levelMin": 54,
+      "levelMax": 58
+    },
+    {
+      "id": "sevii-rom-1-78-karen-738-post-kanto",
+      "mode": "default",
+      "category": "Trainer Battle",
+      "trainer": "Karen",
+      "trainerClass": "Elite Four",
+      "boss": true,
+      "rival": false,
+      "location": "Memorial Pillar",
+      "subarea": "Battle Room 4",
+      "rematch": true,
+      "stageLabel": "Post-Kanto rematch",
+      "rematchLabel": "Post-Kanto rematch",
+      "team": [
+        {
+          "name": "Umbreon",
+          "level": 73,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Feint Attack",
+            "Mean Look",
+            "Screech",
+            "Moonlight"
+          ]
+        },
+        {
+          "name": "Typhlosion-Hisui",
+          "level": 73,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Morning Sun",
+            "Flamethrower",
+            "Thunder Punch",
+            "Shadow Ball"
+          ]
+        },
+        {
+          "name": "Honchkrow",
+          "level": 75,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Swagger",
+            "Punishment",
+            "Last Resort",
+            "Healing Wish"
+          ]
+        },
+        {
+          "name": "Gengar",
+          "level": 76,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Ominous Wind",
+            "Destiny Bond",
+            "Sludge Bomb",
+            "Fling"
+          ]
+        },
+        {
+          "name": "Muk-Alola",
+          "level": 76,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Acid Armor",
+            "Synchronoise",
+            "Take Down",
+            "Nasty Plot"
+          ]
+        },
+        {
+          "name": "Houndoom",
+          "level": 78,
+          "ability": "",
+          "item": "",
+          "nature": "",
+          "moves": [
+            "Sky Drop",
+            "Flamethrower",
+            "Crunch",
+            "Punishment"
+          ]
+        }
+      ],
+      "notes": [
+        "Elite Four · Unlocked after defeating all eight Kanto Gym Leaders"
+      ],
+      "doubleBattle": false,
+      "source": {
+        "kind": "rom-audit",
+        "scope": "sevii-safe-trainer-tranche",
+        "gameVersion": "2026-07-19",
+        "romSha256": "716F2CBFB731E6DC1E014B6B6744B823389262DCC0086A120C1E0FB3D80DD34B",
+        "mapKey": "1,78",
+        "x": 6,
+        "y": 5,
+        "objectId": 1,
+        "objectFlag": 0,
+        "objectScriptAddress": "0x640938",
+        "commandAddresses": [
+          "0x1EE7EAA"
+        ],
+        "trainerId": 738,
+        "partyAddress": "0x17213D4",
+        "structType": 1,
+        "stageSelector": {
+          "variable": "0x4089",
+          "rematchValue": 2,
+          "progressionFlag": "0x1686",
+          "progressionFlagSetterAddress": "0x935FC7",
+          "progressionMeaning": "All eight Kanto Gym Leaders defeated",
+          "prerequisites": [
+            {
+              "flagId": "0x156F",
+              "trainer": "Lt. Surge"
+            },
+            {
+              "flagId": "0x1685",
+              "trainer": "Blue"
+            },
+            {
+              "flagId": "0x167B",
+              "trainer": "Brock"
+            },
+            {
+              "flagId": "0x1642",
+              "trainer": "Misty"
+            },
+            {
+              "flagId": "0x188E",
+              "trainer": "Erika"
+            },
+            {
+              "flagId": "0x160D",
+              "trainer": "Sabrina"
+            },
+            {
+              "flagId": "0x1681",
+              "trainer": "Blaine"
+            },
+            {
+              "flagId": "0x158A",
+              "trainer": "Janine"
+            }
+          ]
+        }
+      },
+      "levelMin": 73,
+      "levelMax": 78
     },
     {
       "id": "sevii-rom-2-48-23-28-markus-296",

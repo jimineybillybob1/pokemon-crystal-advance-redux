@@ -7,7 +7,7 @@
       "apiDataCommit": "0fb5313cb77f46269502e987a53a0bf751ae883d",
       "spriteCommit": "bf4c47ac82c33b330e33d98b8882d1cedb2f53e7",
       "versionGroup": "scarlet-violet",
-      "fetchedAt": "2026-09-24T22:25:19.873Z"
+      "fetchedAt": "2026-09-25T21:34:28.541Z"
     },
     "overrideSource": "Crystal Advance Redux community workbook (data current through 2026-07-01), official developer changelog through 2026-07-19, and version-matched 2026-07-19 ROM audit"
   },
@@ -138984,6 +138984,24 @@
       }
     },
     {
+      "id": 485,
+      "key": "synchronoise",
+      "name": "Synchronoise",
+      "type": "Psychic",
+      "typeColour": "#F95587",
+      "category": "Special",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 10,
+      "priority": 0,
+      "description": "Hits any Pokémon that shares a type with the user.",
+      "fallbackDefinition": true,
+      "_provenance": {
+        "origin": "baseline",
+        "overriddenFields": []
+      }
+    },
+    {
       "id": 486,
       "key": "electro-ball",
       "name": "Electro Ball",
@@ -139200,6 +139218,24 @@
       }
     },
     {
+      "id": 498,
+      "key": "chip-away",
+      "name": "Chip Away",
+      "type": "Normal",
+      "typeColour": "#A8A77A",
+      "category": "Physical",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "description": "Ignores the target’s stat modifiers.",
+      "fallbackDefinition": true,
+      "_provenance": {
+        "origin": "baseline",
+        "overriddenFields": []
+      }
+    },
+    {
       "id": 499,
       "key": "clear-smog",
       "name": "Clear Smog",
@@ -139337,6 +139373,24 @@
       "pp": 10,
       "priority": 0,
       "description": "Has double power if the target has a major status ailment.",
+      "fallbackDefinition": true,
+      "_provenance": {
+        "origin": "baseline",
+        "overriddenFields": []
+      }
+    },
+    {
+      "id": 507,
+      "key": "sky-drop",
+      "name": "Sky Drop",
+      "type": "Flying",
+      "typeColour": "#A98FF3",
+      "category": "Physical",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 10,
+      "priority": 0,
+      "description": "Carries the target high into the air, dodging all attacks against either, and drops it next turn.",
       "fallbackDefinition": true,
       "_provenance": {
         "origin": "baseline",
