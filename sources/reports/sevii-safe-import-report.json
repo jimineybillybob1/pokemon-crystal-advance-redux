@@ -1,19 +1,19 @@
 {
   "meta": {
-    "generatedAt": "2026-09-25T20:17:31.919Z",
+    "generatedAt": "2026-09-27T19:13:07.294Z",
     "gameVersion": "2026-07-19",
     "romSha256": "716F2CBFB731E6DC1E014B6B6744B823389262DCC0086A120C1E0FB3D80DD34B",
     "source": "sources/reports/sevii-rom-extraction.json",
     "crosswalk": "sources/normalized/sevii-map-crosswalk-2026-09-25.json"
   },
   "summary": {
-    "readyMapCount": 23,
-    "acceptedEncounterTableCount": 27,
-    "importedLocationCount": 7,
-    "importedEncounterCount": 277,
-    "importedItemPlacementCount": 55,
+    "readyMapCount": 31,
+    "acceptedEncounterTableCount": 48,
+    "importedLocationCount": 9,
+    "importedEncounterCount": 466,
+    "importedItemPlacementCount": 77,
     "removedExactDuplicateTableCount": 3,
-    "skippedUnresolvedMethodGroupCount": 2,
+    "skippedUnresolvedMethodGroupCount": 7,
     "skippedAlternateTableGroupCount": 0,
     "trainerBattleImportCount": 0
   },
@@ -59,6 +59,22 @@
       ]
     },
     {
+      "name": "One Island",
+      "encounterCount": 93,
+      "subareas": [
+        "Cavern area 1",
+        "Cavern area 2",
+        "Cavern area 3",
+        "Outdoor area"
+      ],
+      "mapKeys": [
+        "1,1",
+        "1,2",
+        "1,3",
+        "3,51"
+      ]
+    },
+    {
       "name": "Crystal Cavern",
       "encounterCount": 66,
       "subareas": [
@@ -70,6 +86,22 @@
         "2,47",
         "2,48",
         "2,49"
+      ]
+    },
+    {
+      "name": "Icefall Cave",
+      "encounterCount": 96,
+      "subareas": [
+        "Cavern",
+        "Eastern area",
+        "Main area",
+        "Northern area"
+      ],
+      "mapKeys": [
+        "4,8",
+        "3,69",
+        "3,68",
+        "3,78"
       ]
     },
     {
@@ -146,6 +178,31 @@
       "location": "Sevii Waterway — Main area, hidden item at tile (33, 27); Source: 2026-07-19 ROM audit"
     },
     {
+      "item": "Big Mushroom",
+      "mapKey": "1,2",
+      "location": "One Island — Cavern area 2, hidden item at tile (12, 7); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "Tinymushroom",
+      "mapKey": "1,2",
+      "location": "One Island — Cavern area 2, hidden item at tile (12, 8); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "Tinymushroom",
+      "mapKey": "1,2",
+      "location": "One Island — Cavern area 2, hidden item at tile (13, 7); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "Big Mushroom",
+      "mapKey": "1,2",
+      "location": "One Island — Cavern area 2, hidden item at tile (13, 8); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "Moon Stone",
+      "mapKey": "1,3",
+      "location": "One Island — Cavern area 3, hidden item at tile (7, 23); Source: 2026-07-19 ROM audit"
+    },
+    {
       "item": "Max Revive",
       "mapKey": "1,37",
       "location": "Cape Brink — Main path, hidden item at tile (7, 10); Source: 2026-07-19 ROM audit"
@@ -174,6 +231,11 @@
       "item": "Full Restore",
       "mapKey": "2,49",
       "location": "Crystal Cavern — Cavern area 3, hidden item at tile (24, 12); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "Elixir",
+      "mapKey": "3,68",
+      "location": "Icefall Cave — Main area, hidden item at tile (21, 4) ×3; Source: 2026-07-19 ROM audit"
     },
     {
       "item": "Rare Candy",
@@ -209,6 +271,56 @@
       "item": "Ether",
       "mapKey": "1,0",
       "location": "Sevii Waterway — Main area, item ball at tile (34, 4); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "Potion",
+      "mapKey": "1,1",
+      "location": "One Island — Cavern area 1, item ball at tile (7, 7); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "Nugget",
+      "mapKey": "1,1",
+      "location": "One Island — Cavern area 1, item ball at tile (14, 15); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "Scope Lens",
+      "mapKey": "1,1",
+      "location": "One Island — Cavern area 1, item ball at tile (28, 3); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "X Dire Hit",
+      "mapKey": "1,1",
+      "location": "One Island — Cavern area 1, item ball at tile (32, 28); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "Hyper Potion",
+      "mapKey": "1,1",
+      "location": "One Island — Cavern area 1, item ball at tile (37, 9); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "Full Heal",
+      "mapKey": "1,1",
+      "location": "One Island — Cavern area 1, item ball at tile (38, 22); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "Light Clay",
+      "mapKey": "1,3",
+      "location": "One Island — Cavern area 3, item ball at tile (10, 25); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "Choice Specs",
+      "mapKey": "1,3",
+      "location": "One Island — Cavern area 3, item ball at tile (14, 7); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "Revive",
+      "mapKey": "1,3",
+      "location": "One Island — Cavern area 3, item ball at tile (24, 23); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "Max Ether",
+      "mapKey": "1,3",
+      "location": "One Island — Cavern area 3, item ball at tile (28, 29); Source: 2026-07-19 ROM audit"
     },
     {
       "item": "Protector",
@@ -326,6 +438,31 @@
       "location": "Crystal Cavern — Cavern area 3, item ball at tile (28, 26); Source: 2026-07-19 ROM audit"
     },
     {
+      "item": "Poke Ball",
+      "mapKey": "3,51",
+      "location": "One Island — Outdoor area, item ball at tile (19, 17); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "PP Max",
+      "mapKey": "3,51",
+      "location": "One Island — Outdoor area, item ball at tile (33, 3); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "Rare Candy",
+      "mapKey": "3,68",
+      "location": "Icefall Cave — Main area, item ball at tile (53, 14); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "TM22 - Solarbeam",
+      "mapKey": "3,68",
+      "location": "Icefall Cave — Main area, item ball at tile (60, 13); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "Max Elixir",
+      "mapKey": "3,69",
+      "location": "Icefall Cave — Eastern area, item ball at tile (9, 16); Source: 2026-07-19 ROM audit"
+    },
+    {
       "item": "Dusk Stone",
       "mapKey": "4,106",
       "location": "Berry Forest — Area 2, item ball at tile (13, 2); Source: 2026-07-19 ROM audit"
@@ -384,6 +521,11 @@
       "item": "Full Heal",
       "mapKey": "4,79",
       "location": "Ruins Valley — Ruins Cavern, item ball at tile (37, 35); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "Moon Stone",
+      "mapKey": "4,8",
+      "location": "Icefall Cave — Cavern, item ball at tile (3, 23); Source: 2026-07-19 ROM audit"
     }
   ],
   "acceptedEncounterTables": [
@@ -430,6 +572,12 @@
       "encounterRate": 6
     },
     {
+      "mapKey": "1,2",
+      "encounterRecordIndex": 16,
+      "method": "Wild",
+      "encounterRate": 8
+    },
+    {
       "mapKey": "3,74",
       "encounterRecordIndex": 24,
       "method": "Fish",
@@ -444,6 +592,24 @@
     {
       "mapKey": "3,74",
       "encounterRecordIndex": 24,
+      "method": "Surf",
+      "encounterRate": 10
+    },
+    {
+      "mapKey": "3,51",
+      "encounterRecordIndex": 44,
+      "method": "Fish",
+      "encounterRate": 15
+    },
+    {
+      "mapKey": "3,51",
+      "encounterRecordIndex": 44,
+      "method": "Wild",
+      "encounterRate": 20
+    },
+    {
+      "mapKey": "3,51",
+      "encounterRecordIndex": 44,
       "method": "Surf",
       "encounterRate": 10
     },
@@ -472,6 +638,54 @@
       "encounterRate": 2
     },
     {
+      "mapKey": "3,78",
+      "encounterRecordIndex": 66,
+      "method": "Fish",
+      "encounterRate": 20
+    },
+    {
+      "mapKey": "3,78",
+      "encounterRecordIndex": 66,
+      "method": "Surf",
+      "encounterRate": 12
+    },
+    {
+      "mapKey": "4,8",
+      "encounterRecordIndex": 78,
+      "method": "Fish",
+      "encounterRate": 15
+    },
+    {
+      "mapKey": "4,8",
+      "encounterRecordIndex": 78,
+      "method": "Wild",
+      "encounterRate": 15
+    },
+    {
+      "mapKey": "4,8",
+      "encounterRecordIndex": 78,
+      "method": "Surf",
+      "encounterRate": 10
+    },
+    {
+      "mapKey": "3,68",
+      "encounterRecordIndex": 103,
+      "method": "Fish",
+      "encounterRate": 15
+    },
+    {
+      "mapKey": "3,68",
+      "encounterRecordIndex": 103,
+      "method": "Wild",
+      "encounterRate": 25
+    },
+    {
+      "mapKey": "3,68",
+      "encounterRecordIndex": 103,
+      "method": "Surf",
+      "encounterRate": 12
+    },
+    {
       "mapKey": "1,40",
       "encounterRecordIndex": 105,
       "method": "Wild",
@@ -484,9 +698,45 @@
       "encounterRate": 15
     },
     {
+      "mapKey": "1,1",
+      "encounterRecordIndex": 144,
+      "method": "Fish",
+      "encounterRate": 15
+    },
+    {
+      "mapKey": "1,1",
+      "encounterRecordIndex": 144,
+      "method": "Wild",
+      "encounterRate": 10
+    },
+    {
+      "mapKey": "1,1",
+      "encounterRecordIndex": 144,
+      "method": "Surf",
+      "encounterRate": 10
+    },
+    {
       "mapKey": "1,37",
       "encounterRecordIndex": 145,
       "method": "Wild",
+      "encounterRate": 10
+    },
+    {
+      "mapKey": "1,3",
+      "encounterRecordIndex": 158,
+      "method": "Fish",
+      "encounterRate": 15
+    },
+    {
+      "mapKey": "1,3",
+      "encounterRecordIndex": 158,
+      "method": "Wild",
+      "encounterRate": 10
+    },
+    {
+      "mapKey": "1,3",
+      "encounterRecordIndex": 158,
+      "method": "Surf",
       "encounterRate": 10
     },
     {
@@ -544,6 +794,24 @@
       "encounterRate": 10
     },
     {
+      "mapKey": "3,69",
+      "encounterRecordIndex": 246,
+      "method": "Fish",
+      "encounterRate": 15
+    },
+    {
+      "mapKey": "3,69",
+      "encounterRecordIndex": 246,
+      "method": "Wild",
+      "encounterRate": 25
+    },
+    {
+      "mapKey": "3,69",
+      "encounterRecordIndex": 246,
+      "method": "Surf",
+      "encounterRate": 10
+    },
+    {
       "mapKey": "4,109",
       "encounterRecordIndex": 268,
       "method": "Wild",
@@ -582,10 +850,45 @@
       ]
     },
     {
+      "groupKey": "3,51|tree",
+      "reason": "Tree-versus-Rock semantics unresolved",
+      "recordIndexes": [
+        44
+      ]
+    },
+    {
+      "groupKey": "3,68|tree",
+      "reason": "Tree-versus-Rock semantics unresolved",
+      "recordIndexes": [
+        103
+      ]
+    },
+    {
+      "groupKey": "1,1|tree",
+      "reason": "Tree-versus-Rock semantics unresolved",
+      "recordIndexes": [
+        144
+      ]
+    },
+    {
+      "groupKey": "1,3|tree",
+      "reason": "Tree-versus-Rock semantics unresolved",
+      "recordIndexes": [
+        158
+      ]
+    },
+    {
       "groupKey": "4,79|tree",
       "reason": "Tree-versus-Rock semantics unresolved",
       "recordIndexes": [
         190
+      ]
+    },
+    {
+      "groupKey": "3,69|tree",
+      "reason": "Tree-versus-Rock semantics unresolved",
+      "recordIndexes": [
+        246
       ]
     }
   ],

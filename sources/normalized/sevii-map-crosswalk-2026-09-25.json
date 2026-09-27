@@ -2,25 +2,32 @@
   "meta": {
     "gameVersion": "2026-07-19",
     "romSha256": "716F2CBFB731E6DC1E014B6B6744B823389262DCC0086A120C1E0FB3D80DD34B",
-    "generatedAt": "2026-09-25T20:17:21.612Z",
+    "generatedAt": "2026-09-27T19:20:05.059Z",
     "purpose": "Reviewable map/subarea boundary between ROM extraction and guide overrides.",
     "rules": [
       "A direct ROM region label confirms the parent location but not a user-facing floor/subarea name.",
       "Only blank-labelled maps with a reciprocal one-step link are retained as linked candidates.",
       "Generic Map bank,map labels preserve uniqueness without inventing a subarea name.",
       "A ready map has a stable parent/subarea label; encounter variants and battle semantics remain separate import gates.",
-      "A linked map may become ready after a documented topology review establishes a stable parent and neutral subarea label."
+      "A linked map may become ready after a documented topology review establishes a stable parent and neutral subarea label.",
+      "A map proven to duplicate an existing Johto/Kanto ordinary or Dive encounter table is retained as excluded audit evidence and cannot be imported as Sevii content."
     ]
   },
   "summary": {
     "mapCount": 92,
     "statusCounts": {
       "exclude-malformed": 8,
-      "needs-linked-map-review": 7,
-      "needs-parent-review": 2,
-      "needs-review": 26,
-      "ready": 23,
+      "exclude-reused-mainline": 9,
+      "needs-linked-map-review": 1,
+      "needs-review": 17,
+      "ready": 31,
       "reference-only": 26
+    },
+    "activeUnresolvedCount": 18,
+    "triageCounts": {
+      "runtime-confirmation-held": 4,
+      "runtime-layout-unrenderable": 1,
+      "runtime-reused-network": 13
     }
   },
   "maps": [
@@ -41,6 +48,12 @@
       "proposedSubarea": "Map 0,12",
       "subareaConfidence": "unreviewed",
       "mapStatus": "needs-review",
+      "unresolvedTriage": {
+        "disposition": "runtime-reused-network",
+        "priority": 3,
+        "reason": "These Mt. Ember and Two Island headers render as bedrooms, ship corridors or narrow building links and connect into reused Johto/Kanto networks. Runtime reachability is required before treating their records as Sevii content."
+      },
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 0,
         "battleCommands": 6,
@@ -69,6 +82,12 @@
       "proposedSubarea": "Map 0,13",
       "subareaConfidence": "unreviewed",
       "mapStatus": "needs-review",
+      "unresolvedTriage": {
+        "disposition": "runtime-reused-network",
+        "priority": 3,
+        "reason": "These Mt. Ember and Two Island headers render as bedrooms, ship corridors or narrow building links and connect into reused Johto/Kanto networks. Runtime reachability is required before treating their records as Sevii content."
+      },
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 0,
         "battleCommands": 2,
@@ -97,6 +116,8 @@
       "proposedSubarea": "Main area",
       "subareaConfidence": "high",
       "mapStatus": "ready",
+      "unresolvedTriage": null,
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 4,
         "battleCommands": 1,
@@ -121,9 +142,11 @@
         "width": 43,
         "height": 36
       },
-      "proposedSubarea": "Map 1,1",
-      "subareaConfidence": "unreviewed",
-      "mapStatus": "needs-review",
+      "proposedSubarea": "Cavern area 1",
+      "subareaConfidence": "high",
+      "mapStatus": "ready",
+      "unresolvedTriage": null,
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 4,
         "battleCommands": 0,
@@ -131,7 +154,7 @@
         "visibleItemCandidates": 6
       },
       "notes": [
-        "User-facing subarea name has not yet been established."
+        "Reviewed One Island cluster: the direct ROM label, rendered cavern and reciprocal links support the neutral first-cavern label."
       ]
     },
     {
@@ -148,9 +171,11 @@
         "width": 25,
         "height": 26
       },
-      "proposedSubarea": "Map 1,2",
-      "subareaConfidence": "unreviewed",
-      "mapStatus": "needs-linked-map-review",
+      "proposedSubarea": "Cavern area 2",
+      "subareaConfidence": "high",
+      "mapStatus": "ready",
+      "unresolvedTriage": null,
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 1,
         "battleCommands": 0,
@@ -159,7 +184,7 @@
       },
       "notes": [
         "Parent location is inferred from a reciprocal one-step ROM link.",
-        "User-facing subarea name has not yet been established."
+        "Reviewed One Island cluster: the reciprocal link to the labelled cavern and rendered self-contained chamber support the neutral second-cavern label."
       ]
     },
     {
@@ -176,9 +201,11 @@
         "width": 40,
         "height": 33
       },
-      "proposedSubarea": "Map 1,3",
-      "subareaConfidence": "unreviewed",
-      "mapStatus": "needs-review",
+      "proposedSubarea": "Cavern area 3",
+      "subareaConfidence": "high",
+      "mapStatus": "ready",
+      "unresolvedTriage": null,
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 4,
         "battleCommands": 0,
@@ -186,7 +213,7 @@
         "visibleItemCandidates": 4
       },
       "notes": [
-        "User-facing subarea name has not yet been established."
+        "Reviewed One Island cluster: the direct ROM label, rendered cavern and reciprocal link to the first cavern support the neutral third-cavern label."
       ]
     },
     {
@@ -206,6 +233,8 @@
       "proposedSubarea": "Map 1,5",
       "subareaConfidence": "reference-only",
       "mapStatus": "reference-only",
+      "unresolvedTriage": null,
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 0,
         "battleCommands": 0,
@@ -233,6 +262,12 @@
       "proposedSubarea": "Map 1,6",
       "subareaConfidence": "unreviewed",
       "mapStatus": "needs-review",
+      "unresolvedTriage": {
+        "disposition": "runtime-reused-network",
+        "priority": 3,
+        "reason": "These Mt. Ember and Two Island headers render as bedrooms, ship corridors or narrow building links and connect into reused Johto/Kanto networks. Runtime reachability is required before treating their records as Sevii content."
+      },
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 0,
         "battleCommands": 20,
@@ -261,6 +296,8 @@
       "proposedSubarea": "Map 1,7",
       "subareaConfidence": "reference-only",
       "mapStatus": "reference-only",
+      "unresolvedTriage": null,
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 0,
         "battleCommands": 0,
@@ -288,6 +325,8 @@
       "proposedSubarea": "Map 1,8",
       "subareaConfidence": "reference-only",
       "mapStatus": "reference-only",
+      "unresolvedTriage": null,
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 0,
         "battleCommands": 0,
@@ -315,6 +354,8 @@
       "proposedSubarea": "Map 1,9",
       "subareaConfidence": "reference-only",
       "mapStatus": "reference-only",
+      "unresolvedTriage": null,
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 0,
         "battleCommands": 0,
@@ -342,6 +383,12 @@
       "proposedSubarea": "Map 1,10",
       "subareaConfidence": "unreviewed",
       "mapStatus": "needs-review",
+      "unresolvedTriage": {
+        "disposition": "runtime-reused-network",
+        "priority": 3,
+        "reason": "These Mt. Ember and Two Island headers render as bedrooms, ship corridors or narrow building links and connect into reused Johto/Kanto networks. Runtime reachability is required before treating their records as Sevii content."
+      },
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 0,
         "battleCommands": 0,
@@ -370,6 +417,8 @@
       "proposedSubarea": "Map 1,11",
       "subareaConfidence": "reference-only",
       "mapStatus": "reference-only",
+      "unresolvedTriage": null,
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 0,
         "battleCommands": 0,
@@ -397,6 +446,8 @@
       "proposedSubarea": "Map 1,12",
       "subareaConfidence": "reference-only",
       "mapStatus": "exclude-malformed",
+      "unresolvedTriage": null,
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 0,
         "battleCommands": 0,
@@ -425,6 +476,8 @@
       "proposedSubarea": "Map 1,13",
       "subareaConfidence": "reference-only",
       "mapStatus": "exclude-malformed",
+      "unresolvedTriage": null,
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 0,
         "battleCommands": 0,
@@ -453,6 +506,8 @@
       "proposedSubarea": "Map 1,14",
       "subareaConfidence": "reference-only",
       "mapStatus": "exclude-malformed",
+      "unresolvedTriage": null,
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 0,
         "battleCommands": 0,
@@ -481,6 +536,8 @@
       "proposedSubarea": "Map 1,15",
       "subareaConfidence": "reference-only",
       "mapStatus": "exclude-malformed",
+      "unresolvedTriage": null,
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 0,
         "battleCommands": 0,
@@ -509,6 +566,8 @@
       "proposedSubarea": "Map 1,16",
       "subareaConfidence": "reference-only",
       "mapStatus": "exclude-malformed",
+      "unresolvedTriage": null,
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 0,
         "battleCommands": 0,
@@ -537,6 +596,8 @@
       "proposedSubarea": "Map 1,17",
       "subareaConfidence": "reference-only",
       "mapStatus": "exclude-malformed",
+      "unresolvedTriage": null,
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 0,
         "battleCommands": 0,
@@ -565,6 +626,8 @@
       "proposedSubarea": "Map 1,18",
       "subareaConfidence": "reference-only",
       "mapStatus": "reference-only",
+      "unresolvedTriage": null,
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 0,
         "battleCommands": 0,
@@ -592,6 +655,12 @@
       "proposedSubarea": "Map 1,34",
       "subareaConfidence": "unreviewed",
       "mapStatus": "needs-review",
+      "unresolvedTriage": {
+        "disposition": "runtime-reused-network",
+        "priority": 3,
+        "reason": "These Mt. Ember and Two Island headers render as bedrooms, ship corridors or narrow building links and connect into reused Johto/Kanto networks. Runtime reachability is required before treating their records as Sevii content."
+      },
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 0,
         "battleCommands": 0,
@@ -619,6 +688,8 @@
       "proposedSubarea": "Cave room 1",
       "subareaConfidence": "provisional",
       "mapStatus": "reference-only",
+      "unresolvedTriage": null,
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 0,
         "battleCommands": 0,
@@ -644,6 +715,8 @@
       "proposedSubarea": "Main path",
       "subareaConfidence": "high",
       "mapStatus": "ready",
+      "unresolvedTriage": null,
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 1,
         "battleCommands": 0,
@@ -669,6 +742,8 @@
       "proposedSubarea": "Cave room 2",
       "subareaConfidence": "provisional",
       "mapStatus": "reference-only",
+      "unresolvedTriage": null,
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 0,
         "battleCommands": 0,
@@ -694,6 +769,8 @@
       "proposedSubarea": "Cave 1F",
       "subareaConfidence": "high",
       "mapStatus": "ready",
+      "unresolvedTriage": null,
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 1,
         "battleCommands": 0,
@@ -719,6 +796,8 @@
       "proposedSubarea": "Cave 2F",
       "subareaConfidence": "high",
       "mapStatus": "ready",
+      "unresolvedTriage": null,
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 1,
         "battleCommands": 2,
@@ -744,6 +823,8 @@
       "proposedSubarea": "Cave 3F",
       "subareaConfidence": "high",
       "mapStatus": "ready",
+      "unresolvedTriage": null,
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 1,
         "battleCommands": 0,
@@ -769,6 +850,8 @@
       "proposedSubarea": "Map 1,47",
       "subareaConfidence": "reference-only",
       "mapStatus": "reference-only",
+      "unresolvedTriage": null,
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 0,
         "battleCommands": 0,
@@ -796,6 +879,8 @@
       "proposedSubarea": "Map 1,56",
       "subareaConfidence": "reference-only",
       "mapStatus": "reference-only",
+      "unresolvedTriage": null,
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 0,
         "battleCommands": 0,
@@ -823,6 +908,8 @@
       "proposedSubarea": "Battle Room 1",
       "subareaConfidence": "high",
       "mapStatus": "ready",
+      "unresolvedTriage": null,
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 0,
         "battleCommands": 2,
@@ -848,6 +935,8 @@
       "proposedSubarea": "Battle Room 2",
       "subareaConfidence": "high",
       "mapStatus": "ready",
+      "unresolvedTriage": null,
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 0,
         "battleCommands": 2,
@@ -873,6 +962,8 @@
       "proposedSubarea": "Battle Room 3",
       "subareaConfidence": "high",
       "mapStatus": "ready",
+      "unresolvedTriage": null,
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 0,
         "battleCommands": 2,
@@ -898,6 +989,8 @@
       "proposedSubarea": "Battle Room 4",
       "subareaConfidence": "high",
       "mapStatus": "ready",
+      "unresolvedTriage": null,
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 0,
         "battleCommands": 2,
@@ -923,6 +1016,8 @@
       "proposedSubarea": "Memorial interior 1",
       "subareaConfidence": "provisional",
       "mapStatus": "reference-only",
+      "unresolvedTriage": null,
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 0,
         "battleCommands": 0,
@@ -948,6 +1043,8 @@
       "proposedSubarea": "Memorial interior 2",
       "subareaConfidence": "provisional",
       "mapStatus": "reference-only",
+      "unresolvedTriage": null,
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 0,
         "battleCommands": 0,
@@ -973,6 +1070,12 @@
       "proposedSubarea": "Map 1,81",
       "subareaConfidence": "unreviewed",
       "mapStatus": "needs-review",
+      "unresolvedTriage": {
+        "disposition": "runtime-confirmation-held",
+        "priority": 4,
+        "reason": "Dedicated review already found insufficient static evidence for the Crystal Cavern exterior, Resort Gorgeous, Five Island, the Icefall-linked snowfield or the Six Island placeholder interior. Keep these maps held until in-game entrances and map-name behaviour are confirmed."
+      },
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 1,
         "battleCommands": 0,
@@ -1001,6 +1104,12 @@
       "proposedSubarea": "Map 1,82",
       "subareaConfidence": "unreviewed",
       "mapStatus": "needs-review",
+      "unresolvedTriage": {
+        "disposition": "runtime-confirmation-held",
+        "priority": 4,
+        "reason": "Dedicated review already found insufficient static evidence for the Crystal Cavern exterior, Resort Gorgeous, Five Island, the Icefall-linked snowfield or the Six Island placeholder interior. Keep these maps held until in-game entrances and map-name behaviour are confirmed."
+      },
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 2,
         "battleCommands": 0,
@@ -1029,6 +1138,8 @@
       "proposedSubarea": "Map 1,88",
       "subareaConfidence": "reference-only",
       "mapStatus": "reference-only",
+      "unresolvedTriage": null,
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 0,
         "battleCommands": 0,
@@ -1057,6 +1168,8 @@
       "proposedSubarea": "Map 1,115",
       "subareaConfidence": "reference-only",
       "mapStatus": "reference-only",
+      "unresolvedTriage": null,
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 0,
         "battleCommands": 0,
@@ -1085,6 +1198,8 @@
       "proposedSubarea": "Map 1,120",
       "subareaConfidence": "reference-only",
       "mapStatus": "reference-only",
+      "unresolvedTriage": null,
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 0,
         "battleCommands": 0,
@@ -1113,6 +1228,8 @@
       "proposedSubarea": "Map 1,125",
       "subareaConfidence": "reference-only",
       "mapStatus": "reference-only",
+      "unresolvedTriage": null,
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 0,
         "battleCommands": 0,
@@ -1140,6 +1257,8 @@
       "proposedSubarea": "Memorial interior 3",
       "subareaConfidence": "provisional",
       "mapStatus": "reference-only",
+      "unresolvedTriage": null,
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 0,
         "battleCommands": 0,
@@ -1165,6 +1284,8 @@
       "proposedSubarea": "Memorial interior 4",
       "subareaConfidence": "provisional",
       "mapStatus": "reference-only",
+      "unresolvedTriage": null,
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 0,
         "battleCommands": 0,
@@ -1190,6 +1311,8 @@
       "proposedSubarea": "Cavern area 1",
       "subareaConfidence": "high",
       "mapStatus": "ready",
+      "unresolvedTriage": null,
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 3,
         "battleCommands": 0,
@@ -1218,6 +1341,8 @@
       "proposedSubarea": "Cavern area 2",
       "subareaConfidence": "high",
       "mapStatus": "ready",
+      "unresolvedTriage": null,
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 1,
         "battleCommands": 4,
@@ -1246,6 +1371,8 @@
       "proposedSubarea": "Cavern area 3",
       "subareaConfidence": "high",
       "mapStatus": "ready",
+      "unresolvedTriage": null,
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 3,
         "battleCommands": 2,
@@ -1273,6 +1400,8 @@
       "proposedSubarea": "Memorial interior 5",
       "subareaConfidence": "provisional",
       "mapStatus": "reference-only",
+      "unresolvedTriage": null,
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 0,
         "battleCommands": 0,
@@ -1298,7 +1427,15 @@
       },
       "proposedSubarea": "Map 3,0",
       "subareaConfidence": "unreviewed",
-      "mapStatus": "needs-parent-review",
+      "mapStatus": "exclude-reused-mainline",
+      "unresolvedTriage": null,
+      "excludedReuse": {
+        "matchedWorkbookLocations": [
+          "New Bark Town"
+        ],
+        "encounterSemantics": "ordinary Surf/Fish/Tree",
+        "reason": "The ROM Tree and species pools match New Bark Town, and its ordinary town map type is not underwater. The Icefall/Underwater graph link is reused metadata."
+      },
       "counts": {
         "wildMethods": 3,
         "battleCommands": 0,
@@ -1308,7 +1445,8 @@
       "notes": [
         "Parent location is inferred from a reciprocal one-step ROM link.",
         "Possible parents: Icefall Cave, Underwater Sevii.",
-        "User-facing subarea name has not yet been established."
+        "User-facing subarea name has not yet been established.",
+        "The ROM Tree and species pools match New Bark Town, and its ordinary town map type is not underwater. The Icefall/Underwater graph link is reused metadata."
       ]
     },
     {
@@ -1327,7 +1465,15 @@
       },
       "proposedSubarea": "Map 3,45",
       "subareaConfidence": "unreviewed",
-      "mapStatus": "needs-review",
+      "mapStatus": "exclude-reused-mainline",
+      "unresolvedTriage": null,
+      "excludedReuse": {
+        "matchedWorkbookLocations": [
+          "Route 29"
+        ],
+        "encounterSemantics": "ordinary Wild",
+        "reason": "All twelve Wild slots match Route 29 exactly. Despite the stale Underwater Sevii region label, this is a normal route map and not a Dive table."
+      },
       "counts": {
         "wildMethods": 2,
         "battleCommands": 0,
@@ -1335,7 +1481,8 @@
         "visibleItemCandidates": 1
       },
       "notes": [
-        "User-facing subarea name has not yet been established."
+        "User-facing subarea name has not yet been established.",
+        "All twelve Wild slots match Route 29 exactly. Despite the stale Underwater Sevii region label, this is a normal route map and not a Dive table."
       ]
     },
     {
@@ -1355,7 +1502,15 @@
       },
       "proposedSubarea": "Map 3,46",
       "subareaConfidence": "unreviewed",
-      "mapStatus": "needs-parent-review",
+      "mapStatus": "exclude-reused-mainline",
+      "unresolvedTriage": null,
+      "excludedReuse": {
+        "matchedWorkbookLocations": [
+          "Route 46"
+        ],
+        "encounterSemantics": "ordinary Wild",
+        "reason": "All twelve Wild slots match Route 46 exactly. Its normal route map type and encounter table are existing Johto data, not Sevii Dive data."
+      },
       "counts": {
         "wildMethods": 2,
         "battleCommands": 6,
@@ -1365,7 +1520,8 @@
       "notes": [
         "Parent location is inferred from a reciprocal one-step ROM link.",
         "Possible parents: One Island, Underwater Sevii.",
-        "User-facing subarea name has not yet been established."
+        "User-facing subarea name has not yet been established.",
+        "All twelve Wild slots match Route 46 exactly. Its normal route map type and encounter table are existing Johto data, not Sevii Dive data."
       ]
     },
     {
@@ -1385,6 +1541,12 @@
       "proposedSubarea": "Exterior",
       "subareaConfidence": "high",
       "mapStatus": "needs-review",
+      "unresolvedTriage": {
+        "disposition": "runtime-confirmation-held",
+        "priority": 4,
+        "reason": "Dedicated review already found insufficient static evidence for the Crystal Cavern exterior, Resort Gorgeous, Five Island, the Icefall-linked snowfield or the Six Island placeholder interior. Keep these maps held until in-game entrances and map-name behaviour are confirmed."
+      },
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 0,
         "battleCommands": 0,
@@ -1407,9 +1569,11 @@
         "width": 46,
         "height": 20
       },
-      "proposedSubarea": "Map 3,51",
-      "subareaConfidence": "unreviewed",
-      "mapStatus": "needs-linked-map-review",
+      "proposedSubarea": "Outdoor area",
+      "subareaConfidence": "high",
+      "mapStatus": "ready",
+      "unresolvedTriage": null,
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 4,
         "battleCommands": 4,
@@ -1418,7 +1582,7 @@
       },
       "notes": [
         "Parent location is inferred from a reciprocal one-step ROM link.",
-        "User-facing subarea name has not yet been established."
+        "Reviewed One Island cluster: the rendered outdoor route and reciprocal cave entrance to map 1,1 support the neutral outdoor-area label."
       ]
     },
     {
@@ -1437,7 +1601,15 @@
       },
       "proposedSubarea": "Map 3,65",
       "subareaConfidence": "unreviewed",
-      "mapStatus": "needs-linked-map-review",
+      "mapStatus": "exclude-reused-mainline",
+      "unresolvedTriage": null,
+      "excludedReuse": {
+        "matchedWorkbookLocations": [
+          "Cherrygrove City"
+        ],
+        "encounterSemantics": "ordinary Wild/Surf/Fish",
+        "reason": "The Surf and Fish tables match Cherrygrove City exactly, while the Wild table matches its Beach pool after resolving the West Sea Shellos alias."
+      },
       "counts": {
         "wildMethods": 3,
         "battleCommands": 0,
@@ -1446,7 +1618,8 @@
       },
       "notes": [
         "Parent location is inferred from a reciprocal one-step ROM link.",
-        "User-facing subarea name has not yet been established."
+        "User-facing subarea name has not yet been established.",
+        "The Surf and Fish tables match Cherrygrove City exactly, while the Wild table matches its Beach pool after resolving the West Sea Shellos alias."
       ]
     },
     {
@@ -1466,6 +1639,12 @@
       "proposedSubarea": "Map 3,67",
       "subareaConfidence": "unreviewed",
       "mapStatus": "needs-linked-map-review",
+      "unresolvedTriage": {
+        "disposition": "runtime-layout-unrenderable",
+        "priority": 4,
+        "reason": "The One Island-linked header has active encounters, trainers and items but no renderable block layout. Static visual review cannot establish a trustworthy subarea or reachability boundary."
+      },
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 3,
         "battleCommands": 15,
@@ -1491,9 +1670,11 @@
         "width": 80,
         "height": 23
       },
-      "proposedSubarea": "Map 3,68",
-      "subareaConfidence": "unreviewed",
-      "mapStatus": "needs-review",
+      "proposedSubarea": "Main area",
+      "subareaConfidence": "high",
+      "mapStatus": "ready",
+      "unresolvedTriage": null,
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 4,
         "battleCommands": 12,
@@ -1501,7 +1682,7 @@
         "visibleItemCandidates": 2
       },
       "notes": [
-        "User-facing subarea name has not yet been established."
+        "Reviewed Icefall Cave cluster: the direct ROM label, rendered waterway and reciprocal links support the neutral main-area label."
       ]
     },
     {
@@ -1518,9 +1699,11 @@
         "width": 26,
         "height": 112
       },
-      "proposedSubarea": "Map 3,69",
-      "subareaConfidence": "unreviewed",
-      "mapStatus": "needs-linked-map-review",
+      "proposedSubarea": "Eastern area",
+      "subareaConfidence": "high",
+      "mapStatus": "ready",
+      "unresolvedTriage": null,
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 4,
         "battleCommands": 12,
@@ -1529,7 +1712,7 @@
       },
       "notes": [
         "Parent location is inferred from a reciprocal one-step ROM link.",
-        "User-facing subarea name has not yet been established."
+        "Reviewed Icefall Cave cluster: reciprocal links to the main and northern maps support the neutral eastern-area label."
       ]
     },
     {
@@ -1549,6 +1732,8 @@
       "proposedSubarea": "Eastern area",
       "subareaConfidence": "high",
       "mapStatus": "ready",
+      "unresolvedTriage": null,
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 3,
         "battleCommands": 0,
@@ -1575,7 +1760,17 @@
       },
       "proposedSubarea": "Map 3,75",
       "subareaConfidence": "unreviewed",
-      "mapStatus": "needs-review",
+      "mapStatus": "exclude-reused-mainline",
+      "unresolvedTriage": null,
+      "excludedReuse": {
+        "matchedWorkbookLocations": [
+          "Route 25",
+          "Vermilion City",
+          "Viridian City"
+        ],
+        "encounterSemantics": "Dive Grass/open-water pool",
+        "reason": "This mapType 5 header contains the exact twelve-slot Huntail/Gorebyss Dive Grass pool and shared five-slot Dive open-water pool already documented for these Kanto locations."
+      },
       "counts": {
         "wildMethods": 2,
         "battleCommands": 0,
@@ -1584,7 +1779,7 @@
       },
       "notes": [
         "User-facing subarea name has not yet been established.",
-        "Held after review: snowy layout warps into maps labelled Ice Path and Ruins of Alph, so its playable Five Island identity remains unresolved."
+        "This mapType 5 header contains the exact twelve-slot Huntail/Gorebyss Dive Grass pool and shared five-slot Dive open-water pool already documented for these Kanto locations."
       ]
     },
     {
@@ -1601,9 +1796,11 @@
         "width": 78,
         "height": 16
       },
-      "proposedSubarea": "Map 3,78",
-      "subareaConfidence": "unreviewed",
-      "mapStatus": "needs-review",
+      "proposedSubarea": "Northern area",
+      "subareaConfidence": "high",
+      "mapStatus": "ready",
+      "unresolvedTriage": null,
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 2,
         "battleCommands": 0,
@@ -1611,7 +1808,7 @@
         "visibleItemCandidates": 0
       },
       "notes": [
-        "User-facing subarea name has not yet been established."
+        "Reviewed Icefall Cave cluster: the direct ROM label and reciprocal north/south connection support the neutral northern-area label."
       ]
     },
     {
@@ -1630,7 +1827,17 @@
       },
       "proposedSubarea": "Map 3,112",
       "subareaConfidence": "unreviewed",
-      "mapStatus": "needs-review",
+      "mapStatus": "exclude-reused-mainline",
+      "unresolvedTriage": null,
+      "excludedReuse": {
+        "matchedWorkbookLocations": [
+          "Route 25",
+          "Vermilion City",
+          "Viridian City"
+        ],
+        "encounterSemantics": "Dive Grass/open-water pool",
+        "reason": "This mapType 5 header duplicates the same documented Kanto Dive pools as map 3,75; its Five Island label is stale reuse rather than Sevii availability evidence."
+      },
       "counts": {
         "wildMethods": 2,
         "battleCommands": 0,
@@ -1639,7 +1846,7 @@
       },
       "notes": [
         "User-facing subarea name has not yet been established.",
-        "Held after review: snowy layout warps into Seafoam Islands and cannot yet be assigned a trustworthy Five Island subarea."
+        "This mapType 5 header duplicates the same documented Kanto Dive pools as map 3,75; its Five Island label is stale reuse rather than Sevii availability evidence."
       ]
     },
     {
@@ -1659,6 +1866,8 @@
       "proposedSubarea": "Western area",
       "subareaConfidence": "high",
       "mapStatus": "ready",
+      "unresolvedTriage": null,
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 3,
         "battleCommands": 0,
@@ -1687,6 +1896,8 @@
       "proposedSubarea": "Map 4,2",
       "subareaConfidence": "reference-only",
       "mapStatus": "reference-only",
+      "unresolvedTriage": null,
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 0,
         "battleCommands": 0,
@@ -1711,9 +1922,11 @@
         "width": 48,
         "height": 30
       },
-      "proposedSubarea": "Map 4,8",
-      "subareaConfidence": "unreviewed",
-      "mapStatus": "needs-linked-map-review",
+      "proposedSubarea": "Cavern",
+      "subareaConfidence": "high",
+      "mapStatus": "ready",
+      "unresolvedTriage": null,
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 3,
         "battleCommands": 0,
@@ -1722,7 +1935,7 @@
       },
       "notes": [
         "Parent location is inferred from a reciprocal one-step ROM link.",
-        "User-facing subarea name has not yet been established."
+        "Reviewed Icefall Cave cluster: the rendered cavern and reciprocal doorway links to the main map establish the interior label."
       ]
     },
     {
@@ -1742,6 +1955,8 @@
       "proposedSubarea": "Map 4,14",
       "subareaConfidence": "reference-only",
       "mapStatus": "reference-only",
+      "unresolvedTriage": null,
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 0,
         "battleCommands": 0,
@@ -1769,6 +1984,12 @@
       "proposedSubarea": "Map 4,15",
       "subareaConfidence": "unreviewed",
       "mapStatus": "needs-review",
+      "unresolvedTriage": {
+        "disposition": "runtime-reused-network",
+        "priority": 3,
+        "reason": "These Mt. Ember and Two Island headers render as bedrooms, ship corridors or narrow building links and connect into reused Johto/Kanto networks. Runtime reachability is required before treating their records as Sevii content."
+      },
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 0,
         "battleCommands": 5,
@@ -1797,6 +2018,12 @@
       "proposedSubarea": "Map 4,16",
       "subareaConfidence": "unreviewed",
       "mapStatus": "needs-review",
+      "unresolvedTriage": {
+        "disposition": "runtime-reused-network",
+        "priority": 3,
+        "reason": "These Mt. Ember and Two Island headers render as bedrooms, ship corridors or narrow building links and connect into reused Johto/Kanto networks. Runtime reachability is required before treating their records as Sevii content."
+      },
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 0,
         "battleCommands": 2,
@@ -1825,6 +2052,8 @@
       "proposedSubarea": "Map 4,17",
       "subareaConfidence": "unreviewed",
       "mapStatus": "exclude-malformed",
+      "unresolvedTriage": null,
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 0,
         "battleCommands": 1,
@@ -1854,6 +2083,12 @@
       "proposedSubarea": "Map 4,19",
       "subareaConfidence": "unreviewed",
       "mapStatus": "needs-review",
+      "unresolvedTriage": {
+        "disposition": "runtime-reused-network",
+        "priority": 3,
+        "reason": "These Mt. Ember and Two Island headers render as bedrooms, ship corridors or narrow building links and connect into reused Johto/Kanto networks. Runtime reachability is required before treating their records as Sevii content."
+      },
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 0,
         "battleCommands": 12,
@@ -1882,6 +2117,12 @@
       "proposedSubarea": "Map 4,20",
       "subareaConfidence": "unreviewed",
       "mapStatus": "needs-review",
+      "unresolvedTriage": {
+        "disposition": "runtime-reused-network",
+        "priority": 3,
+        "reason": "These Mt. Ember and Two Island headers render as bedrooms, ship corridors or narrow building links and connect into reused Johto/Kanto networks. Runtime reachability is required before treating their records as Sevii content."
+      },
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 0,
         "battleCommands": 4,
@@ -1910,6 +2151,12 @@
       "proposedSubarea": "Map 4,21",
       "subareaConfidence": "unreviewed",
       "mapStatus": "needs-review",
+      "unresolvedTriage": {
+        "disposition": "runtime-reused-network",
+        "priority": 3,
+        "reason": "These Mt. Ember and Two Island headers render as bedrooms, ship corridors or narrow building links and connect into reused Johto/Kanto networks. Runtime reachability is required before treating their records as Sevii content."
+      },
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 0,
         "battleCommands": 4,
@@ -1938,6 +2185,12 @@
       "proposedSubarea": "Map 4,47",
       "subareaConfidence": "unreviewed",
       "mapStatus": "needs-review",
+      "unresolvedTriage": {
+        "disposition": "runtime-reused-network",
+        "priority": 3,
+        "reason": "These Mt. Ember and Two Island headers render as bedrooms, ship corridors or narrow building links and connect into reused Johto/Kanto networks. Runtime reachability is required before treating their records as Sevii content."
+      },
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 2,
         "battleCommands": 0,
@@ -1965,6 +2218,12 @@
       "proposedSubarea": "Map 4,48",
       "subareaConfidence": "unreviewed",
       "mapStatus": "needs-review",
+      "unresolvedTriage": {
+        "disposition": "runtime-reused-network",
+        "priority": 3,
+        "reason": "These Mt. Ember and Two Island headers render as bedrooms, ship corridors or narrow building links and connect into reused Johto/Kanto networks. Runtime reachability is required before treating their records as Sevii content."
+      },
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 2,
         "battleCommands": 0,
@@ -1992,6 +2251,12 @@
       "proposedSubarea": "Map 4,49",
       "subareaConfidence": "unreviewed",
       "mapStatus": "needs-review",
+      "unresolvedTriage": {
+        "disposition": "runtime-reused-network",
+        "priority": 3,
+        "reason": "These Mt. Ember and Two Island headers render as bedrooms, ship corridors or narrow building links and connect into reused Johto/Kanto networks. Runtime reachability is required before treating their records as Sevii content."
+      },
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 3,
         "battleCommands": 0,
@@ -2019,6 +2284,8 @@
       "proposedSubarea": "Ruins Cavern",
       "subareaConfidence": "high",
       "mapStatus": "ready",
+      "unresolvedTriage": null,
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 2,
         "battleCommands": 0,
@@ -2046,6 +2313,8 @@
       "proposedSubarea": "Map 4,80",
       "subareaConfidence": "reference-only",
       "mapStatus": "reference-only",
+      "unresolvedTriage": null,
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 0,
         "battleCommands": 0,
@@ -2073,6 +2342,8 @@
       "proposedSubarea": "Map 4,90",
       "subareaConfidence": "reference-only",
       "mapStatus": "reference-only",
+      "unresolvedTriage": null,
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 0,
         "battleCommands": 0,
@@ -2100,6 +2371,8 @@
       "proposedSubarea": "Area 1",
       "subareaConfidence": "high",
       "mapStatus": "ready",
+      "unresolvedTriage": null,
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 1,
         "battleCommands": 0,
@@ -2125,6 +2398,8 @@
       "proposedSubarea": "Area 2",
       "subareaConfidence": "high",
       "mapStatus": "ready",
+      "unresolvedTriage": null,
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 2,
         "battleCommands": 3,
@@ -2150,6 +2425,8 @@
       "proposedSubarea": "Area 3",
       "subareaConfidence": "high",
       "mapStatus": "ready",
+      "unresolvedTriage": null,
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 2,
         "battleCommands": 3,
@@ -2175,6 +2452,8 @@
       "proposedSubarea": "Area 4",
       "subareaConfidence": "high",
       "mapStatus": "ready",
+      "unresolvedTriage": null,
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 2,
         "battleCommands": 4,
@@ -2200,6 +2479,8 @@
       "proposedSubarea": "Area 5",
       "subareaConfidence": "high",
       "mapStatus": "ready",
+      "unresolvedTriage": null,
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 1,
         "battleCommands": 0,
@@ -2225,6 +2506,8 @@
       "proposedSubarea": "Main area",
       "subareaConfidence": "high",
       "mapStatus": "ready",
+      "unresolvedTriage": null,
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 1,
         "battleCommands": 0,
@@ -2252,6 +2535,8 @@
       "proposedSubarea": "Map 5,36",
       "subareaConfidence": "reference-only",
       "mapStatus": "reference-only",
+      "unresolvedTriage": null,
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 0,
         "battleCommands": 0,
@@ -2278,7 +2563,17 @@
       },
       "proposedSubarea": "Map 5,75",
       "subareaConfidence": "unreviewed",
-      "mapStatus": "needs-review",
+      "mapStatus": "exclude-reused-mainline",
+      "unresolvedTriage": null,
+      "excludedReuse": {
+        "matchedWorkbookLocations": [
+          "Pallet Town",
+          "Route 19",
+          "Route 21"
+        ],
+        "encounterSemantics": "Dive Grass/open-water pool",
+        "reason": "This mapType 5 header contains the exact Shellos-East/Clodsire Dive Grass pool and shared Kanto Dive open-water pool already present in the workbook."
+      },
       "counts": {
         "wildMethods": 2,
         "battleCommands": 0,
@@ -2287,7 +2582,7 @@
       },
       "notes": [
         "User-facing subarea name has not yet been established.",
-        "Held after review: snowy layout warps into Safari Zone, Celadon Dept. and Route 45 maps, so its playable Five Island identity remains unresolved."
+        "This mapType 5 header contains the exact Shellos-East/Clodsire Dive Grass pool and shared Kanto Dive open-water pool already present in the workbook."
       ]
     },
     {
@@ -2306,7 +2601,15 @@
       },
       "proposedSubarea": "Map 5,78",
       "subareaConfidence": "unreviewed",
-      "mapStatus": "needs-review",
+      "mapStatus": "exclude-reused-mainline",
+      "unresolvedTriage": null,
+      "excludedReuse": {
+        "matchedWorkbookLocations": [
+          "Route 20"
+        ],
+        "encounterSemantics": "Dive Grass/open-water pool",
+        "reason": "This mapType 5 header contains Route 20's exact Galarian Slowbro/Slowking Dive Grass pool and the shared Kanto Dive open-water pool."
+      },
       "counts": {
         "wildMethods": 2,
         "battleCommands": 0,
@@ -2315,7 +2618,7 @@
       },
       "notes": [
         "User-facing subarea name has not yet been established.",
-        "Held after review: snowy layout warps into Goldenrod Dept. and cannot yet be assigned a trustworthy Five Island subarea."
+        "This mapType 5 header contains Route 20's exact Galarian Slowbro/Slowking Dive Grass pool and the shared Kanto Dive open-water pool."
       ]
     },
     {
@@ -2335,6 +2638,8 @@
       "proposedSubarea": "Map 6,13",
       "subareaConfidence": "reference-only",
       "mapStatus": "exclude-malformed",
+      "unresolvedTriage": null,
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 0,
         "battleCommands": 0,
@@ -2362,7 +2667,20 @@
       },
       "proposedSubarea": "Map 6,30",
       "subareaConfidence": "unreviewed",
-      "mapStatus": "needs-linked-map-review",
+      "mapStatus": "exclude-reused-mainline",
+      "unresolvedTriage": null,
+      "excludedReuse": {
+        "matchedWorkbookLocations": [
+          "Cherrygrove City",
+          "Goldenrod City",
+          "Lake of Rage",
+          "Olivine City",
+          "Route 27",
+          "Route 32"
+        ],
+        "encounterSemantics": "Dive Grass/open-water pool",
+        "reason": "After combining repeated species slots, this mapType 5 header matches the shared Johto Dive Grass pool and its five-slot open-water table matches the workbook exactly; it is not an Icefall Cave encounter map."
+      },
       "counts": {
         "wildMethods": 2,
         "battleCommands": 0,
@@ -2371,7 +2689,8 @@
       },
       "notes": [
         "Parent location is inferred from a reciprocal one-step ROM link.",
-        "User-facing subarea name has not yet been established."
+        "User-facing subarea name has not yet been established.",
+        "After combining repeated species slots, this mapType 5 header matches the shared Johto Dive Grass pool and its five-slot open-water table matches the workbook exactly; it is not an Icefall Cave encounter map."
       ]
     },
     {
@@ -2391,6 +2710,8 @@
       "proposedSubarea": "Interior 1F",
       "subareaConfidence": "high",
       "mapStatus": "ready",
+      "unresolvedTriage": null,
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 0,
         "battleCommands": 0,
@@ -2416,6 +2737,8 @@
       "proposedSubarea": "Interior 2F",
       "subareaConfidence": "high",
       "mapStatus": "ready",
+      "unresolvedTriage": null,
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 0,
         "battleCommands": 0,
@@ -2441,6 +2764,8 @@
       "proposedSubarea": "Interior 3F",
       "subareaConfidence": "high",
       "mapStatus": "reference-only",
+      "unresolvedTriage": null,
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 0,
         "battleCommands": 0,
@@ -2466,6 +2791,12 @@
       "proposedSubarea": "Building interior",
       "subareaConfidence": "high",
       "mapStatus": "needs-review",
+      "unresolvedTriage": {
+        "disposition": "runtime-confirmation-held",
+        "priority": 4,
+        "reason": "Dedicated review already found insufficient static evidence for the Crystal Cavern exterior, Resort Gorgeous, Five Island, the Icefall-linked snowfield or the Six Island placeholder interior. Keep these maps held until in-game entrances and map-name behaviour are confirmed."
+      },
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 4,
         "battleCommands": 0,
@@ -2493,6 +2824,8 @@
       "proposedSubarea": "Map 28,0",
       "subareaConfidence": "reference-only",
       "mapStatus": "reference-only",
+      "unresolvedTriage": null,
+      "excludedReuse": null,
       "counts": {
         "wildMethods": 0,
         "battleCommands": 0,

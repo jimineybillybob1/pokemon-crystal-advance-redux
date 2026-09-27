@@ -2,7 +2,7 @@
   "meta": {
     "title": "Pokemon Crystal Advance Redux Sevii ROM extraction",
     "gameVersion": "2026-07-19",
-    "extractedAt": "2026-09-25T21:34:53.1919222Z",
+    "extractedAt": "2026-09-26T10:14:19.0297840Z",
     "romSha256": "716F2CBFB731E6DC1E014B6B6744B823389262DCC0086A120C1E0FB3D80DD34B",
     "romSize": 33554432,
     "romHeaderTitle": "POKEMON FIRE",
@@ -7161,7 +7161,7 @@
           "minLevel": 3,
           "maxLevel": 5,
           "speciesId": 32,
-          "pokemon": "Nidoran"
+          "pokemon": "Nidoran♂"
         },
         {
           "slot": 5,
@@ -7170,7 +7170,7 @@
           "minLevel": 3,
           "maxLevel": 5,
           "speciesId": 29,
-          "pokemon": "Nidoran"
+          "pokemon": "Nidoran♀"
         },
         {
           "slot": 6,
@@ -11691,7 +11691,7 @@
           "minLevel": 3,
           "maxLevel": 5,
           "speciesId": 32,
-          "pokemon": "Nidoran"
+          "pokemon": "Nidoran♂"
         },
         {
           "slot": 5,
@@ -11700,7 +11700,7 @@
           "minLevel": 3,
           "maxLevel": 5,
           "speciesId": 29,
-          "pokemon": "Nidoran"
+          "pokemon": "Nidoran♀"
         },
         {
           "slot": 6,

@@ -42,6 +42,16 @@ for (const pokemon of guideFinal.pokemon) {
 // The ROM name table abbreviates West Sea Shellos; the workbook records the
 // same numbered form as Shellos-West with canonical guide key `Shellos`.
 pokemonByAlias.set(normalize("Shellos-W"), guideFinal.pokemon.find((pokemon) => pokemon.key === "Shellos"));
+pokemonByAlias.set(normalize("Shellos-E"), guideFinal.pokemon.find((pokemon) => pokemon.key === "Shellos-East"));
+// The ROM control-code decoder leaves a formatting token inside the East Sea
+// Gastrodon label. Species ID 552 is the separately numbered East Sea form.
+pokemonByAlias.set(normalize("Ga\\!41rodon E"), guideFinal.pokemon.find((pokemon) => pokemon.key === "Gastrodon-East"));
+// Gender symbols are removed by the generic alias normalizer, so resolve the
+// two canonical Nidoran species from their unambiguous ROM species IDs first.
+const pokemonByRomSpeciesId = new Map([
+  [29, guideFinal.pokemon.find((pokemon) => pokemon.key === "Nidoran♀")],
+  [32, guideFinal.pokemon.find((pokemon) => pokemon.key === "Nidoran♂")],
+]);
 
 const unresolvedPokemon = [];
 const skippedMethods = [];
@@ -94,7 +104,7 @@ for (const table of acceptedTables) {
   if (!encounterRowsByLocation.has(map.parentLocation)) encounterRowsByLocation.set(map.parentLocation, []);
   const rows = encounterRowsByLocation.get(map.parentLocation);
   for (const entry of table.entries) {
-    const pokemon = pokemonByAlias.get(normalize(entry.pokemon));
+    const pokemon = pokemonByRomSpeciesId.get(entry.speciesId) ?? pokemonByAlias.get(normalize(entry.pokemon));
     if (!pokemon) {
       unresolvedPokemon.push({ mapKey: table.mapKey, speciesId: entry.speciesId, pokemon: entry.pokemon });
       continue;
@@ -170,11 +180,12 @@ guideOverride.meta.source = "Crystal Advance Redux community workbook (data curr
 guideOverride.meta.limitations = guideOverride.meta.limitations.filter((note) =>
   !note.startsWith("Post-2026-07-01 Sevii encounter")
   && !note.startsWith("ROM-derived Sevii coverage currently includes only"));
-const safeTrancheNote = "ROM-derived Sevii coverage currently includes only map-stable Wild, Surf and Fish encounter tables plus standard/hidden item placements; Tree/Rock, alternate tables, Dive interpretation and trainer stages remain gated.";
+const safeTrancheNote = "ROM-derived Sevii coverage currently includes only map-stable Wild, Surf and Fish encounter tables plus standard/hidden item placements; Tree/Rock, alternate tables, trainer stages and maps with unproven runtime identities remain gated. Reviewed mapType 5 records match existing workbook Dive pools and are excluded rather than re-imported as Sevii content.";
 if (!guideOverride.meta.limitations.includes(safeTrancheNote)) guideOverride.meta.limitations.push(safeTrancheNote);
 
 const itemNameAliases = new Map([
   [normalize("TM26"), normalize("TM26 - Earthquake")],
+  [normalize("TM22"), normalize("TM22 - Solarbeam")],
   // ROM item name table uses the long Technical Disk label; the workbook
   // records the same numbered item with its taught move.
   [normalize("Tech Disk 22"), normalize("TD22 - Frost Breath")],

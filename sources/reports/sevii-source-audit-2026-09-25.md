@@ -5,7 +5,7 @@ Target game build: Pokémon Crystal Advance Redux, 2026-07-19 release
 
 ## Outcome
 
-No public or workbook source contains the missing structured Sevii encounter, trainer or item tables. A read-only audit of the user's version-matched ROM does contain recoverable records and is now the strongest available evidence. Five conservative tranches have been imported from only map-stable, method-unambiguous records: 277 Wild/Surf/Fish encounter rows and 55 standard/hidden item placements. Trainers and every unresolved method/map variant remain excluded.
+No public or workbook source contains the missing structured Sevii encounter, trainer or item tables. A read-only audit of the user's version-matched ROM does contain recoverable records and is now the strongest available evidence. Seven conservative encounter/item tranches now supply 466 Wild/Surf/Fish rows and 77 standard/hidden item placements; two reviewed trainer tranches supply 15 regular battles and eight Memorial Pillar stages. Every unresolved method/map variant remains excluded.
 
 The repeatable extraction output is `sources/reports/sevii-rom-extraction.json`. The reviewed map boundary is `sources/normalized/sevii-map-crosswalk-2026-09-25.json`. The import report is `sources/reports/sevii-safe-import-report.json`. The ROM itself is not stored in this repository.
 
@@ -73,14 +73,14 @@ The normalized crosswalk classifies all 92 retained maps:
 
 | Map state | Count | Meaning |
 |---|---:|---|
-| Ready | 23 | Parent and subarea sequence are stable enough for downstream record review. |
-| Needs linked-map review | 7 | Active blank-labelled map with one inferred parent. |
-| Needs parent review | 2 | Active blank-labelled map is linked from more than one possible parent. |
-| Needs review | 26 | Parent label exists, but the user-facing subarea or reachability is unresolved. |
+| Ready | 31 | Parent and subarea sequence are stable enough for downstream record review. |
+| Needs linked-map review | 1 | Active blank-labelled map with one inferred parent. |
+| Needs review | 17 | Parent label exists, but the user-facing subarea or reachability is unresolved. |
 | Reference only | 26 | No extracted encounter, trainer or item record currently depends on the map. |
+| Exclude reused mainline | 9 | Ordinary or mapType 5 tables match existing Johto/Kanto workbook records and cannot establish Sevii availability. |
 | Exclude malformed | 8 | Invalid or unused layout/header; must not be imported. |
 
-The ready map set is Cape Brink's main path; Three Island Cave 1F-3F; Memorial Pillar Battle Rooms 1-4; Berry Forest Areas 1-5; Four Island Interior 1F-2F; Crystal Cavern areas 1-3; Sevii Waterway Main area; Ruins Valley Main area/Ruins Cavern; and Six Island Eastern/Western areas. The reviewed Crystal Cavern, Sevii Waterway, Ruins Valley and Six Island evidence and exclusions are recorded in their dated reports. Resort Gorgeous and Five Island were also reviewed but remain held because their candidate maps connect to unrelated/reused Johto and Kanto networks. “Map ready” applies only to the parent/subarea label. Encounter variants, battle stages and interaction methods still pass their own gates before import.
+The ready map set is Cape Brink's main path; Three Island Cave 1F-3F; Memorial Pillar Battle Rooms 1-4; Berry Forest Areas 1-5; Four Island Interior 1F-2F; Crystal Cavern areas 1-3; Sevii Waterway Main area; Ruins Valley Main area/Ruins Cavern; Six Island Eastern/Western areas; Icefall Cave Main/Eastern/Northern/Cavern areas; and One Island Outdoor/Cavern areas. The reviewed evidence and exclusions are recorded in the dated map reports. Five Island's apparent headers were subsequently proven to reproduce existing Kanto Dive pools, while the Icefall-linked `6,30` header reproduces a shared Johto Dive pool; all are excluded rather than held as Sevii candidates. “Map ready” applies only to the parent/subarea label. Encounter variants, battle stages and interaction methods still pass their own gates before import.
 
 Mt. Ember is specifically held back: several labelled maps render as reused ship corridors or bedrooms, one active header is malformed, and the scripts expose many trainer commands. Runtime reachability must be established before those battles can be shown.
 
@@ -102,22 +102,23 @@ The workbook-driven guide did not conflict with the ROM-derived data; it simply 
 
 | Guide area | Current state | ROM-derived opportunity |
 |---|---|---|
-| Locations | 277 all-day Wild/Surf/Fish rows across Berry Forest Areas 1-5, Cape Brink Main path, Three Island Cave 1F-3F, Crystal Cavern areas 1-3, Sevii Waterway Main area, Ruins Valley and Six Island Eastern/Western areas | Remaining exact slots require method, alternate-table or map reconciliation. |
-| Battle Guide | No ROM-derived Sevii battle cards | Trainer identities and teams are recoverable, but alternate/rematch commands and subareas need mapping. |
-| Items | 55 coordinate-verified standard/hidden placements across stable mapped areas | Scripted gifts/shops remain incomplete, and unresolved maps remain excluded. |
-| Pokédex acquisition links | Imported encounters link automatically to the seven new Sevii location cards | Broader destinations will follow only after stable location/subarea keys are assigned. |
+| Locations | 466 all-day Wild/Surf/Fish rows across nine Sevii parent locations and their reviewed subareas | Remaining exact slots require Tree/Rock, alternate-table or map reconciliation. |
+| Battle Guide | 15 regular ROM-derived Sevii trainers plus eight script-verified Memorial Pillar stages | Unrelated VS Seeker stages and trainers on unresolved maps remain gated. |
+| Items | 77 coordinate-verified standard/hidden placements across stable mapped areas | Scripted gifts/shops remain incomplete, and unresolved maps remain excluded. |
+| Pokédex acquisition links | Imported encounters link automatically to the nine Sevii location cards | Broader destinations will follow only after stable location/subarea keys are assigned. |
 
 ## Blocking interpretation work before import
 
-1. Runtime-check the 35 active maps whose parent/subarea status is not yet ready, especially Mt. Ember, One Island and the remaining linked candidates.
+1. Runtime-check the 18 active maps whose parent/subarea status is not yet ready, especially the Mt. Ember and Two Island reused-network headers.
 2. Determine whether each five-slot `tree` field is used by Tree, Rock Smash, or both on that specific map.
-3. Confirm how Dive encounters are selected. Standard wild headers do not expose a dedicated Dive field, and the underwater map records cannot safely be relabelled without runtime/script evidence.
-4. Classify repeated wild rows as seasonal, alternate or duplicate runtime tables. Preserve them until the selector logic is understood.
-5. Decode trainer battle-type values and map alternate trainer IDs to initial/rematch/progression stages.
-6. Audit non-standard item scripts, gifts and shops if complete item coverage is required.
+3. Classify repeated wild rows as seasonal, alternate or duplicate runtime tables. Preserve them until the selector logic is understood.
+4. Decode remaining trainer battle-type values and map unrelated alternate trainer IDs to initial/rematch/progression stages.
+5. Audit non-standard item scripts, gifts and shops if complete item coverage is required.
+
+Dive interpretation is no longer a blocker. MapType 5 `surf` fields reproduce the workbook's five-slot Dive open-water pools, while `grass` fields reproduce its twelve-slot Dive Grass pools. Nine reused ordinary/Dive headers are excluded from Sevii rather than re-imported. See `sevii-dive-semantics-review-2026-09-27.md`.
 
 ## Import decision
 
-Import only the mechanically unambiguous subset from maps marked `ready`: standard Wild tables with a non-zero encounter rate and one unique runtime signature, plus coordinate-valid standard/hidden items. Collapse only byte-identical duplicate tables. Keep Tree/Rock slots, distinct alternate tables, Dive interpretation and every trainer command out of the guide until their runtime selectors are understood.
+Import only the mechanically unambiguous subset from maps marked `ready`: standard Wild/Surf/Fish tables with a non-zero encounter rate and one unique runtime signature, plus coordinate-valid standard/hidden items. Collapse only byte-identical duplicate tables. Keep Tree/Rock slots, distinct alternate tables, unresolved-map records and unreviewed trainer commands out of the guide until their runtime selectors are understood.
 
-That policy now produces seven location cards, 277 encounter rows and 55 item placements. The fifth tranche adds Six Island's Eastern/Western outdoor areas with 54 Wild/Surf/Fish rows and one hidden Rare Candy; its review explicitly keeps the connected `15,0` building/lab placeholder out. Resort Gorgeous and Five Island remain excluded after dedicated reviews found insufficient identity evidence and links into unrelated/reused map networks. The repeatable importer is `scripts/import-sevii-safe-tranche.mjs`; its machine-readable decision report is `sources/reports/sevii-safe-import-report.json`. Build, validation, provenance and asset audits pass locally. Desktop and 390×844 touch review confirmed the complete Six Island method/subarea hierarchy, Old/Good/Super Rod ordering and imported Rare Candy provenance with no horizontal overflow or console warnings/errors. The first four conservative tranches are deployed and verified on the public guide; the Six Island tranche is complete locally and awaits explicit deployment approval.
+That policy now produces nine location cards, 466 encounter rows and 77 item placements. Resort Gorgeous, Crystal Cavern's exterior and Six Island's `15,0` placeholder remain held, while the apparent Underwater/Five Island/Icefall Dive headers are explicitly excluded as reused Johto/Kanto data. The repeatable importer is `scripts/import-sevii-safe-tranche.mjs`; its machine-readable decision report is `sources/reports/sevii-safe-import-report.json`. Build, validation, provenance and asset audits pass locally. Desktop and 390×844 touch review confirms Dive presentation, the complete imported method/subarea hierarchy and no horizontal overflow or console warnings/errors. The Icefall Cave and One Island encounter/item tranches are complete locally and await explicit deployment approval.

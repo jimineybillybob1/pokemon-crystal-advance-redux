@@ -4,7 +4,10 @@ param(
 
   [string]$HexManiacDirectory = "$env:LOCALAPPDATA\Temp\hma-0.6.1\app",
 
-  [string]$OutputPath = (Join-Path $PSScriptRoot "..\sources\reports\sevii-rom-extraction.json")
+  [string]$OutputPath = (Join-Path $PSScriptRoot "..\sources\reports\sevii-rom-extraction.json"),
+
+  [ValidateRange(1, 4)]
+  [int]$GraphDepthLimit = 1
 )
 
 $ErrorActionPreference = "Stop"
@@ -178,6 +181,10 @@ try {
   $pokemonNameTableStart = $pokemonNameTable[0].Start
   $pokemonNameElementLength = $pokemonNameTable[0].Length
   $romPokemonAliases = @{
+    # HexManiac's text conversion omits the gender glyphs from the two
+    # Nidoran names; their canonical national species IDs are unambiguous.
+    29 = "Nidoran♀"
+    32 = "Nidoran♂"
     562 = "Raichu-Alola"
     563 = "Marowak-Alola"
     564 = "Exeggutor-Alola"
@@ -347,7 +354,6 @@ try {
   # links out from directly labelled Sevii maps so those subareas are not omitted.
   # Named non-Sevii destinations form a hard boundary; blank destinations are retained
   # with their seed region and graph distance for later human reconciliation.
-  $graphDepthLimit = 1
   $includedMapKeys = [Collections.Generic.HashSet[string]]::new([StringComparer]::Ordinal)
   $directMapKeys = [Collections.Generic.HashSet[string]]::new([StringComparer]::Ordinal)
   $distanceByKey = @{}

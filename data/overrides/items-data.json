@@ -144,6 +144,8 @@
       "Wild Pokémon — Parasect, Breloom; Source: Held",
       "Sevii Waterway — Main area, hidden item at tile (20, 29); Source: 2026-07-19 ROM audit",
       "Sevii Waterway — Main area, hidden item at tile (27, 18); Source: 2026-07-19 ROM audit",
+      "One Island — Cavern area 2, hidden item at tile (12, 7); Source: 2026-07-19 ROM audit",
+      "One Island — Cavern area 2, hidden item at tile (13, 8); Source: 2026-07-19 ROM audit",
       "Berry Forest — Area 4, hidden item at tile (7, 3); Source: 2026-07-19 ROM audit"
     ],
     "costs": []
@@ -557,7 +559,8 @@
     "category": "Held Items",
     "locations": [
       "Dark Cave — Blackthorn Side, N; Source: Wild",
-      "Battle Tower — SE Corner - $10000; Source: Shop"
+      "Battle Tower — SE Corner - $10000; Source: Shop",
+      "One Island — Cavern area 3, item ball at tile (14, 7); Source: 2026-07-19 ROM audit"
     ],
     "costs": []
   },
@@ -788,6 +791,7 @@
       "Rock Tunnel — 1F, Center, access from South; Source: Wild",
       "Power Plant — Rear Room, NE area; Source: Wild",
       "Route 02 — SE corner; Source: Wild",
+      "Icefall Cave — Main area, hidden item at tile (21, 4) ×3; Source: 2026-07-19 ROM audit",
       "Crystal Cavern — Cavern area 3, item ball at tile (9, 15); Source: 2026-07-19 ROM audit",
       "Berry Forest — Area 3, item ball at tile (13, 4); Source: 2026-07-19 ROM audit"
     ],
@@ -1045,6 +1049,7 @@
       "Viridian Forest — N, SE corner of tree that is NE of Abner; Source: Hidden",
       "Mt. Moon — 2F, South cave entrance from Square; Source: Wild",
       "Sevii Waterway — Main area, hidden item at tile (7, 22); Source: 2026-07-19 ROM audit",
+      "One Island — Cavern area 1, item ball at tile (38, 22); Source: 2026-07-19 ROM audit",
       "Three Island — Cave 3F, item ball at tile (17, 2); Source: 2026-07-19 ROM audit",
       "Ruins Valley — Ruins Cavern, item ball at tile (37, 35); Source: 2026-07-19 ROM audit"
     ],
@@ -1472,6 +1477,7 @@
       "Rocket Hideout — 1F, E; Source: Wild",
       "Power Plant — Rear Room, SE from the Center; Source: Wild",
       "Underground Path — R5 - R6, Down 6, left 1; Source: Hidden",
+      "One Island — Cavern area 1, item ball at tile (37, 9); Source: 2026-07-19 ROM audit",
       "Crystal Cavern — Cavern area 2, item ball at tile (10, 27); Source: 2026-07-19 ROM audit"
     ],
     "costs": []
@@ -1742,7 +1748,8 @@
       "Goldenrod City — Weather Institute, RH lady behind counter; Source: Person",
       "Rock Tunnel — B2F, East; Source: Wild",
       "Route 09 — Cut, North grass; Source: Wild",
-      "Wild Pokémon — Baltoy, Claydol; Source: Held"
+      "Wild Pokémon — Baltoy, Claydol; Source: Held",
+      "One Island — Cavern area 3, item ball at tile (10, 25); Source: 2026-07-19 ROM audit"
     ],
     "costs": []
   },
@@ -2015,7 +2022,8 @@
       "Power Plant — NE corner machine in Generator room; Source: Hidden",
       "Power Plant — Rear Room, C, past HP Up, Gap in barrels; Source: Hidden",
       "Mt. Silver — 1F, NW; Source: Wild",
-      "Mt. Silver — 2F, C Cave, Rocket Grunt - $10000; Source: Shop"
+      "Mt. Silver — 2F, C Cave, Rocket Grunt - $10000; Source: Shop",
+      "Icefall Cave — Eastern area, item ball at tile (9, 16); Source: 2026-07-19 ROM audit"
     ],
     "costs": []
   },
@@ -2030,7 +2038,8 @@
       "Route 43 — South, next to gatehouse; Source: Wild",
       "Vermilion City — NW corner of beach; Source: Hidden",
       "Route 09 — NW corner; Source: Wild",
-      "Viridian Forest — Center, directly S of Ether in corner of trees; Source: Hidden"
+      "Viridian Forest — Center, directly S of Ether in corner of trees; Source: Hidden",
+      "One Island — Cavern area 3, item ball at tile (28, 29); Source: 2026-07-19 ROM audit"
     ],
     "costs": []
   },
@@ -2170,7 +2179,9 @@
       "Tohjo Falls — SW corner; Source: Wild",
       "Mt. Moon — Square, Rock Smash rock in the middle; Source: Hidden",
       "Cinnabar Island — Mart - $2100; Source: Shop",
-      "Wild Pokémon — Lunatone, Nidoran♀, Nidorina, Nidoran♂, Nidorino, Clefairy, Clefable, Jigglypuff, Ursaring, Skitty; Source: Held"
+      "Wild Pokémon — Lunatone, Nidoran♀, Nidorina, Nidoran♂, Nidorino, Clefairy, Clefable, Jigglypuff, Ursaring, Skitty; Source: Held",
+      "One Island — Cavern area 3, hidden item at tile (7, 23); Source: 2026-07-19 ROM audit",
+      "Icefall Cave — Cavern, item ball at tile (3, 23); Source: 2026-07-19 ROM audit"
     ],
     "costs": []
   },
@@ -2341,6 +2352,7 @@
       "Route 20 — Dive, W, Small rock between wall & big rock; Source: Hidden",
       "Cerulean Cave — 1F, NW; Source: Wild",
       "Wild Pokémon — Meowth, Persian, Alolan Meowth; Source: Held",
+      "One Island — Cavern area 1, item ball at tile (14, 15); Source: 2026-07-19 ROM audit",
       "Crystal Cavern — Cavern area 2, item ball at tile (35, 19); Source: 2026-07-19 ROM audit"
     ],
     "costs": []
@@ -2401,7 +2413,8 @@
       "Route 19 — Dive, SW Spot, East; Source: Wild",
       "Route 22 — Rock Climb, North; Source: Wild",
       "Mt. Silver — 2F, C Cave, Rocket Grunt - $15000; Source: Shop",
-      "Wild Pokémon — Rayquaza; Source: Held"
+      "Wild Pokémon — Rayquaza; Source: Held",
+      "One Island — Outdoor area, item ball at tile (33, 3); Source: 2026-07-19 ROM audit"
     ],
     "costs": []
   },
@@ -2619,7 +2632,8 @@
     "category": "Poké Balls",
     "locations": [
       "New Bark Town — Aide in Elm`s Lab, Returned Mystery Egg; Source: Person; Qty: 10",
-      "Route 31 — S, SW of Wade; Source: Wild"
+      "Route 31 — S, SW of Wade; Source: Wild",
+      "One Island — Outdoor area, item ball at tile (19, 17); Source: 2026-07-19 ROM audit"
     ],
     "costs": []
   },
@@ -2736,7 +2750,8 @@
       "Route 31 — E, next to Dark Cave sign; Source: Wild",
       "Sprout Tower — 3F, South; Source: Wild",
       "Union Cave — 1F, Center, W of Bill; Source: Wild",
-      "Underground Path — R7 - R8, Right 4, turn up; Source: Hidden"
+      "Underground Path — R7 - R8, Right 4, turn up; Source: Hidden",
+      "One Island — Cavern area 1, item ball at tile (7, 7); Source: 2026-07-19 ROM audit"
     ],
     "costs": []
   },
@@ -2941,6 +2956,7 @@
       "Six Island — Eastern area, hidden item at tile (29, 21); Source: 2026-07-19 ROM audit",
       "Four Island — Interior 1F, item ball at tile (25, 2); Source: 2026-07-19 ROM audit",
       "Crystal Cavern — Cavern area 3, item ball at tile (2, 37); Source: 2026-07-19 ROM audit",
+      "Icefall Cave — Main area, item ball at tile (53, 14); Source: 2026-07-19 ROM audit",
       "Berry Forest — Area 5, item ball at tile (9, 14); Source: 2026-07-19 ROM audit"
     ],
     "costs": []
@@ -3128,6 +3144,7 @@
       "Safari Zone — Area 2, N; Source: Wild",
       "Viridian Forest — SE corner, 1 step up from corner of trees; Source: Hidden",
       "Sevii Waterway — Main area, item ball at tile (29, 37); Source: 2026-07-19 ROM audit",
+      "One Island — Cavern area 3, item ball at tile (24, 23); Source: 2026-07-19 ROM audit",
       "Crystal Cavern — Cavern area 1, item ball at tile (33, 27); Source: 2026-07-19 ROM audit"
     ],
     "costs": []
@@ -3208,7 +3225,8 @@
     "name": "Scope Lens",
     "category": "Held Items",
     "locations": [
-      "Dark Cave — Violet Side, Rock Smash, N; Source: Wild"
+      "Dark Cave — Violet Side, Rock Smash, N; Source: Wild",
+      "One Island — Cavern area 1, item ball at tile (28, 3); Source: 2026-07-19 ROM audit"
     ],
     "costs": []
   },
@@ -4702,7 +4720,8 @@
     "category": "TM & HM",
     "sprite": "assets/art/placeholder-icon.svg",
     "locations": [
-      "Route 27 — S, Center, Whirlpool; Source: Wild"
+      "Route 27 — S, Center, Whirlpool; Source: Wild",
+      "Icefall Cave — Main area, item ball at tile (60, 13); Source: 2026-07-19 ROM audit"
     ],
     "costs": [],
     "move": null
@@ -5137,7 +5156,9 @@
       "Lake of Rage — Dive, West rock, North of Western grass; Source: Hidden",
       "Wild Pokémon — Paras, Shroomish; Source: Held",
       "Sevii Waterway — Main area, hidden item at tile (3, 52) ×2; Source: 2026-07-19 ROM audit",
-      "Sevii Waterway — Main area, hidden item at tile (15, 28) ×2; Source: 2026-07-19 ROM audit"
+      "Sevii Waterway — Main area, hidden item at tile (15, 28) ×2; Source: 2026-07-19 ROM audit",
+      "One Island — Cavern area 2, hidden item at tile (12, 8); Source: 2026-07-19 ROM audit",
+      "One Island — Cavern area 2, hidden item at tile (13, 7); Source: 2026-07-19 ROM audit"
     ],
     "costs": []
   },
@@ -5599,7 +5620,8 @@
       "Dark Cave — Violet Side, Rock Smash, SE; Source: Wild",
       "Goldenrod City — Mall, 3F North counter - $650; Source: Shop",
       "Celadon City — Mall, 5F South Assistant - $650; Source: Shop",
-      "Route 02 — NE corner; Source: Wild"
+      "Route 02 — NE corner; Source: Wild",
+      "One Island — Cavern area 1, item ball at tile (32, 28); Source: 2026-07-19 ROM audit"
     ],
     "costs": [],
     "move": null

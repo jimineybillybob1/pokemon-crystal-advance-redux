@@ -6,7 +6,7 @@
       "Location Data Method values drive the primary encounter subsections; More Info values remain nested labels rather than replacing the encounter method.",
       "July Seasonal Migration uses the official 2026-07-01 changelog correction of a 1% pool trigger.",
       "Older official moves omitted from Scarlet/Violet are supplemented from the pinned PokeAPI revision; hack-specific effect changes remain unverified unless the workbook documents them.",
-      "ROM-derived Sevii coverage currently includes only map-stable Wild, Surf and Fish encounter tables plus standard/hidden item placements; Tree/Rock, alternate tables, Dive interpretation and trainer stages remain gated."
+      "ROM-derived Sevii coverage currently includes only map-stable Wild, Surf and Fish encounter tables plus standard/hidden item placements; Tree/Rock, alternate tables, trainer stages and maps with unproven runtime identities remain gated. Reviewed mapType 5 records match existing workbook Dive pools and are excluded rather than re-imported as Sevii content."
     ]
   },
   "pokemon": [
@@ -170019,6 +170019,3248 @@
       }
     },
     {
+      "name": "One Island",
+      "day": [
+        {
+          "pokemon": "Zubat",
+          "method": "Wild",
+          "level": "3-5",
+          "rarity": 20,
+          "subarea": "Cavern area 1",
+          "details": "20% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,1",
+            "encounterRecordIndex": 144,
+            "slot": 0
+          }
+        },
+        {
+          "pokemon": "Geodude",
+          "method": "Wild",
+          "level": "3-5",
+          "rarity": 20,
+          "subarea": "Cavern area 1",
+          "details": "20% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,1",
+            "encounterRecordIndex": 144,
+            "slot": 1
+          }
+        },
+        {
+          "pokemon": "Zubat",
+          "method": "Wild",
+          "level": "3-5",
+          "rarity": 10,
+          "subarea": "Cavern area 1",
+          "details": "10% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,1",
+            "encounterRecordIndex": 144,
+            "slot": 2
+          }
+        },
+        {
+          "pokemon": "Geodude",
+          "method": "Wild",
+          "level": "3-5",
+          "rarity": 10,
+          "subarea": "Cavern area 1",
+          "details": "10% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,1",
+            "encounterRecordIndex": 144,
+            "slot": 3
+          }
+        },
+        {
+          "pokemon": "Sandshrew",
+          "method": "Wild",
+          "level": "3-5",
+          "rarity": 10,
+          "subarea": "Cavern area 1",
+          "details": "10% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,1",
+            "encounterRecordIndex": 144,
+            "slot": 4
+          }
+        },
+        {
+          "pokemon": "Teddiursa",
+          "method": "Wild",
+          "level": "3-5",
+          "rarity": 10,
+          "subarea": "Cavern area 1",
+          "details": "10% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,1",
+            "encounterRecordIndex": 144,
+            "slot": 5
+          }
+        },
+        {
+          "pokemon": "Dunsparce",
+          "method": "Wild",
+          "level": "3-5",
+          "rarity": 5,
+          "subarea": "Cavern area 1",
+          "details": "5% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,1",
+            "encounterRecordIndex": 144,
+            "slot": 6
+          }
+        },
+        {
+          "pokemon": "Shuckle",
+          "method": "Wild",
+          "level": "3-5",
+          "rarity": 5,
+          "subarea": "Cavern area 1",
+          "details": "5% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,1",
+            "encounterRecordIndex": 144,
+            "slot": 7
+          }
+        },
+        {
+          "pokemon": "Whismur",
+          "method": "Wild",
+          "level": "3-5",
+          "rarity": 4,
+          "subarea": "Cavern area 1",
+          "details": "4% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,1",
+            "encounterRecordIndex": 144,
+            "slot": 8
+          }
+        },
+        {
+          "pokemon": "Numel",
+          "method": "Wild",
+          "level": "3-5",
+          "rarity": 4,
+          "subarea": "Cavern area 1",
+          "details": "4% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,1",
+            "encounterRecordIndex": 144,
+            "slot": 9
+          }
+        },
+        {
+          "pokemon": "Trapinch",
+          "method": "Wild",
+          "level": "3-5",
+          "rarity": 1,
+          "subarea": "Cavern area 1",
+          "details": "1% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,1",
+            "encounterRecordIndex": 144,
+            "slot": 10
+          }
+        },
+        {
+          "pokemon": "Wynaut",
+          "method": "Wild",
+          "level": "3-5",
+          "rarity": 1,
+          "subarea": "Cavern area 1",
+          "details": "1% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,1",
+            "encounterRecordIndex": 144,
+            "slot": 11
+          }
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Surf",
+          "level": "15-19",
+          "rarity": 60,
+          "subarea": "Cavern area 1",
+          "details": "60% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,1",
+            "encounterRecordIndex": 144,
+            "slot": 0
+          }
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Surf",
+          "level": "15-19",
+          "rarity": 30,
+          "subarea": "Cavern area 1",
+          "details": "30% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,1",
+            "encounterRecordIndex": 144,
+            "slot": 1
+          }
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Surf",
+          "level": "15-19",
+          "rarity": 5,
+          "subarea": "Cavern area 1",
+          "details": "5% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,1",
+            "encounterRecordIndex": 144,
+            "slot": 2
+          }
+        },
+        {
+          "pokemon": "Psyduck",
+          "method": "Surf",
+          "level": "15-19",
+          "rarity": 4,
+          "subarea": "Cavern area 1",
+          "details": "4% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,1",
+            "encounterRecordIndex": 144,
+            "slot": 3
+          }
+        },
+        {
+          "pokemon": "Shellos",
+          "method": "Surf",
+          "level": "15-19",
+          "rarity": 1,
+          "subarea": "Cavern area 1",
+          "details": "1% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,1",
+            "encounterRecordIndex": 144,
+            "slot": 4
+          }
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Fish",
+          "level": "10",
+          "rarity": 70,
+          "subarea": "Cavern area 1",
+          "rod": "Old Rod",
+          "details": "70% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,1",
+            "encounterRecordIndex": 144,
+            "slot": 0
+          }
+        },
+        {
+          "pokemon": "Psyduck",
+          "method": "Fish",
+          "level": "10",
+          "rarity": 30,
+          "subarea": "Cavern area 1",
+          "rod": "Old Rod",
+          "details": "30% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,1",
+            "encounterRecordIndex": 144,
+            "slot": 1
+          }
+        },
+        {
+          "pokemon": "Goldeen",
+          "method": "Fish",
+          "level": "20",
+          "rarity": 60,
+          "subarea": "Cavern area 1",
+          "rod": "Good Rod",
+          "details": "60% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,1",
+            "encounterRecordIndex": 144,
+            "slot": 2
+          }
+        },
+        {
+          "pokemon": "Psyduck",
+          "method": "Fish",
+          "level": "20",
+          "rarity": 20,
+          "subarea": "Cavern area 1",
+          "rod": "Good Rod",
+          "details": "20% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,1",
+            "encounterRecordIndex": 144,
+            "slot": 3
+          }
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Fish",
+          "level": "20",
+          "rarity": 20,
+          "subarea": "Cavern area 1",
+          "rod": "Good Rod",
+          "details": "20% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,1",
+            "encounterRecordIndex": 144,
+            "slot": 4
+          }
+        },
+        {
+          "pokemon": "Golduck",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 40,
+          "subarea": "Cavern area 1",
+          "rod": "Super Rod",
+          "details": "40% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,1",
+            "encounterRecordIndex": 144,
+            "slot": 5
+          }
+        },
+        {
+          "pokemon": "Seaking",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 40,
+          "subarea": "Cavern area 1",
+          "rod": "Super Rod",
+          "details": "40% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,1",
+            "encounterRecordIndex": 144,
+            "slot": 6
+          }
+        },
+        {
+          "pokemon": "Gyarados",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 15,
+          "subarea": "Cavern area 1",
+          "rod": "Super Rod",
+          "details": "15% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,1",
+            "encounterRecordIndex": 144,
+            "slot": 7
+          }
+        },
+        {
+          "pokemon": "Barboach",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 4,
+          "subarea": "Cavern area 1",
+          "rod": "Super Rod",
+          "details": "4% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,1",
+            "encounterRecordIndex": 144,
+            "slot": 8
+          }
+        },
+        {
+          "pokemon": "Clamperl",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 1,
+          "subarea": "Cavern area 1",
+          "rod": "Super Rod",
+          "details": "1% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,1",
+            "encounterRecordIndex": 144,
+            "slot": 9
+          }
+        },
+        {
+          "pokemon": "Slugma",
+          "method": "Wild",
+          "level": "22-25",
+          "rarity": 20,
+          "subarea": "Cavern area 2",
+          "details": "20% slot; 8% encounter rate",
+          "encounterRate": 8,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,2",
+            "encounterRecordIndex": 16,
+            "slot": 0
+          }
+        },
+        {
+          "pokemon": "Geodude",
+          "method": "Wild",
+          "level": "22-25",
+          "rarity": 20,
+          "subarea": "Cavern area 2",
+          "details": "20% slot; 8% encounter rate",
+          "encounterRate": 8,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,2",
+            "encounterRecordIndex": 16,
+            "slot": 1
+          }
+        },
+        {
+          "pokemon": "Slugma",
+          "method": "Wild",
+          "level": "22-25",
+          "rarity": 10,
+          "subarea": "Cavern area 2",
+          "details": "10% slot; 8% encounter rate",
+          "encounterRate": 8,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,2",
+            "encounterRecordIndex": 16,
+            "slot": 2
+          }
+        },
+        {
+          "pokemon": "Houndour",
+          "method": "Wild",
+          "level": "22-25",
+          "rarity": 10,
+          "subarea": "Cavern area 2",
+          "details": "10% slot; 8% encounter rate",
+          "encounterRate": 8,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,2",
+            "encounterRecordIndex": 16,
+            "slot": 3
+          }
+        },
+        {
+          "pokemon": "Larvitar",
+          "method": "Wild",
+          "level": "22-25",
+          "rarity": 10,
+          "subarea": "Cavern area 2",
+          "details": "10% slot; 8% encounter rate",
+          "encounterRate": 8,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,2",
+            "encounterRecordIndex": 16,
+            "slot": 4
+          }
+        },
+        {
+          "pokemon": "Graveler",
+          "method": "Wild",
+          "level": "22-25",
+          "rarity": 10,
+          "subarea": "Cavern area 2",
+          "details": "10% slot; 8% encounter rate",
+          "encounterRate": 8,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,2",
+            "encounterRecordIndex": 16,
+            "slot": 5
+          }
+        },
+        {
+          "pokemon": "Rhyhorn",
+          "method": "Wild",
+          "level": "22-25",
+          "rarity": 5,
+          "subarea": "Cavern area 2",
+          "details": "5% slot; 8% encounter rate",
+          "encounterRate": 8,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,2",
+            "encounterRecordIndex": 16,
+            "slot": 6
+          }
+        },
+        {
+          "pokemon": "Cleffa",
+          "method": "Wild",
+          "level": "25",
+          "rarity": 5,
+          "subarea": "Cavern area 2",
+          "details": "5% slot; 8% encounter rate",
+          "encounterRate": 8,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,2",
+            "encounterRecordIndex": 16,
+            "slot": 7
+          }
+        },
+        {
+          "pokemon": "Onix",
+          "method": "Wild",
+          "level": "22-25",
+          "rarity": 4,
+          "subarea": "Cavern area 2",
+          "details": "4% slot; 8% encounter rate",
+          "encounterRate": 8,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,2",
+            "encounterRecordIndex": 16,
+            "slot": 8
+          }
+        },
+        {
+          "pokemon": "Houndour",
+          "method": "Wild",
+          "level": "22-25",
+          "rarity": 4,
+          "subarea": "Cavern area 2",
+          "details": "4% slot; 8% encounter rate",
+          "encounterRate": 8,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,2",
+            "encounterRecordIndex": 16,
+            "slot": 9
+          }
+        },
+        {
+          "pokemon": "Magcargo",
+          "method": "Wild",
+          "level": "22-25",
+          "rarity": 1,
+          "subarea": "Cavern area 2",
+          "details": "1% slot; 8% encounter rate",
+          "encounterRate": 8,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,2",
+            "encounterRecordIndex": 16,
+            "slot": 10
+          }
+        },
+        {
+          "pokemon": "Houndoom",
+          "method": "Wild",
+          "level": "22-25",
+          "rarity": 1,
+          "subarea": "Cavern area 2",
+          "details": "1% slot; 8% encounter rate",
+          "encounterRate": 8,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,2",
+            "encounterRecordIndex": 16,
+            "slot": 11
+          }
+        },
+        {
+          "pokemon": "Golbat",
+          "method": "Wild",
+          "level": "30-32",
+          "rarity": 20,
+          "subarea": "Cavern area 3",
+          "details": "20% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,3",
+            "encounterRecordIndex": 158,
+            "slot": 0
+          }
+        },
+        {
+          "pokemon": "Graveler",
+          "method": "Wild",
+          "level": "30-32",
+          "rarity": 20,
+          "subarea": "Cavern area 3",
+          "details": "20% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,3",
+            "encounterRecordIndex": 158,
+            "slot": 1
+          }
+        },
+        {
+          "pokemon": "Sandslash",
+          "method": "Wild",
+          "level": "30-32",
+          "rarity": 10,
+          "subarea": "Cavern area 3",
+          "details": "10% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,3",
+            "encounterRecordIndex": 158,
+            "slot": 2
+          }
+        },
+        {
+          "pokemon": "Dugtrio",
+          "method": "Wild",
+          "level": "30-32",
+          "rarity": 10,
+          "subarea": "Cavern area 3",
+          "details": "10% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,3",
+            "encounterRecordIndex": 158,
+            "slot": 3
+          }
+        },
+        {
+          "pokemon": "Dunsparce",
+          "method": "Wild",
+          "level": "30-32",
+          "rarity": 10,
+          "subarea": "Cavern area 3",
+          "details": "10% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,3",
+            "encounterRecordIndex": 158,
+            "slot": 4
+          }
+        },
+        {
+          "pokemon": "Machoke",
+          "method": "Wild",
+          "level": "30-32",
+          "rarity": 10,
+          "subarea": "Cavern area 3",
+          "details": "10% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,3",
+            "encounterRecordIndex": 158,
+            "slot": 5
+          }
+        },
+        {
+          "pokemon": "Donphan",
+          "method": "Wild",
+          "level": "30-32",
+          "rarity": 5,
+          "subarea": "Cavern area 3",
+          "details": "5% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,3",
+            "encounterRecordIndex": 158,
+            "slot": 6
+          }
+        },
+        {
+          "pokemon": "Ursaring",
+          "method": "Wild",
+          "level": "30-32",
+          "rarity": 5,
+          "subarea": "Cavern area 3",
+          "details": "5% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,3",
+            "encounterRecordIndex": 158,
+            "slot": 7
+          }
+        },
+        {
+          "pokemon": "Camerupt",
+          "method": "Wild",
+          "level": "30-32",
+          "rarity": 4,
+          "subarea": "Cavern area 3",
+          "details": "4% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,3",
+            "encounterRecordIndex": 158,
+            "slot": 8
+          }
+        },
+        {
+          "pokemon": "Loudred",
+          "method": "Wild",
+          "level": "30-32",
+          "rarity": 4,
+          "subarea": "Cavern area 3",
+          "details": "4% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,3",
+            "encounterRecordIndex": 158,
+            "slot": 9
+          }
+        },
+        {
+          "pokemon": "Vibrava",
+          "method": "Wild",
+          "level": "30-32",
+          "rarity": 1,
+          "subarea": "Cavern area 3",
+          "details": "1% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,3",
+            "encounterRecordIndex": 158,
+            "slot": 10
+          }
+        },
+        {
+          "pokemon": "Wobbuffet",
+          "method": "Wild",
+          "level": "30-32",
+          "rarity": 1,
+          "subarea": "Cavern area 3",
+          "details": "1% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,3",
+            "encounterRecordIndex": 158,
+            "slot": 11
+          }
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Surf",
+          "level": "15-19",
+          "rarity": 60,
+          "subarea": "Cavern area 3",
+          "details": "60% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,3",
+            "encounterRecordIndex": 158,
+            "slot": 0
+          }
+        },
+        {
+          "pokemon": "Wooper",
+          "method": "Surf",
+          "level": "15-19",
+          "rarity": 30,
+          "subarea": "Cavern area 3",
+          "details": "30% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,3",
+            "encounterRecordIndex": 158,
+            "slot": 1
+          }
+        },
+        {
+          "pokemon": "Gyarados",
+          "method": "Surf",
+          "level": "24-29",
+          "rarity": 5,
+          "subarea": "Cavern area 3",
+          "details": "5% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,3",
+            "encounterRecordIndex": 158,
+            "slot": 2
+          }
+        },
+        {
+          "pokemon": "Quagsire",
+          "method": "Surf",
+          "level": "24-29",
+          "rarity": 4,
+          "subarea": "Cavern area 3",
+          "details": "4% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,3",
+            "encounterRecordIndex": 158,
+            "slot": 3
+          }
+        },
+        {
+          "pokemon": "Quagsire",
+          "method": "Surf",
+          "level": "24-29",
+          "rarity": 1,
+          "subarea": "Cavern area 3",
+          "details": "1% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,3",
+            "encounterRecordIndex": 158,
+            "slot": 4
+          }
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Fish",
+          "level": "10",
+          "rarity": 70,
+          "subarea": "Cavern area 3",
+          "rod": "Old Rod",
+          "details": "70% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,3",
+            "encounterRecordIndex": 158,
+            "slot": 0
+          }
+        },
+        {
+          "pokemon": "Goldeen",
+          "method": "Fish",
+          "level": "10",
+          "rarity": 30,
+          "subarea": "Cavern area 3",
+          "rod": "Old Rod",
+          "details": "30% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,3",
+            "encounterRecordIndex": 158,
+            "slot": 1
+          }
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Fish",
+          "level": "20",
+          "rarity": 60,
+          "subarea": "Cavern area 3",
+          "rod": "Good Rod",
+          "details": "60% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,3",
+            "encounterRecordIndex": 158,
+            "slot": 2
+          }
+        },
+        {
+          "pokemon": "Goldeen",
+          "method": "Fish",
+          "level": "20",
+          "rarity": 20,
+          "subarea": "Cavern area 3",
+          "rod": "Good Rod",
+          "details": "20% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,3",
+            "encounterRecordIndex": 158,
+            "slot": 3
+          }
+        },
+        {
+          "pokemon": "Wooper",
+          "method": "Fish",
+          "level": "20",
+          "rarity": 20,
+          "subarea": "Cavern area 3",
+          "rod": "Good Rod",
+          "details": "20% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,3",
+            "encounterRecordIndex": 158,
+            "slot": 4
+          }
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 40,
+          "subarea": "Cavern area 3",
+          "rod": "Super Rod",
+          "details": "40% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,3",
+            "encounterRecordIndex": 158,
+            "slot": 5
+          }
+        },
+        {
+          "pokemon": "Goldeen",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 40,
+          "subarea": "Cavern area 3",
+          "rod": "Super Rod",
+          "details": "40% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,3",
+            "encounterRecordIndex": 158,
+            "slot": 6
+          }
+        },
+        {
+          "pokemon": "Gyarados",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 15,
+          "subarea": "Cavern area 3",
+          "rod": "Super Rod",
+          "details": "15% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,3",
+            "encounterRecordIndex": 158,
+            "slot": 7
+          }
+        },
+        {
+          "pokemon": "Seaking",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 4,
+          "subarea": "Cavern area 3",
+          "rod": "Super Rod",
+          "details": "4% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,3",
+            "encounterRecordIndex": 158,
+            "slot": 8
+          }
+        },
+        {
+          "pokemon": "Quagsire",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 1,
+          "subarea": "Cavern area 3",
+          "rod": "Super Rod",
+          "details": "1% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,3",
+            "encounterRecordIndex": 158,
+            "slot": 9
+          }
+        },
+        {
+          "pokemon": "Caterpie",
+          "method": "Wild",
+          "level": "3-5",
+          "rarity": 20,
+          "subarea": "Outdoor area",
+          "details": "20% slot; 20% encounter rate",
+          "encounterRate": 20,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,51",
+            "encounterRecordIndex": 44,
+            "slot": 0
+          }
+        },
+        {
+          "pokemon": "Weedle",
+          "method": "Wild",
+          "level": "3-5",
+          "rarity": 20,
+          "subarea": "Outdoor area",
+          "details": "20% slot; 20% encounter rate",
+          "encounterRate": 20,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,51",
+            "encounterRecordIndex": 44,
+            "slot": 1
+          }
+        },
+        {
+          "pokemon": "Ledyba",
+          "method": "Wild",
+          "level": "3-5",
+          "rarity": 10,
+          "subarea": "Outdoor area",
+          "details": "10% slot; 20% encounter rate",
+          "encounterRate": 20,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,51",
+            "encounterRecordIndex": 44,
+            "slot": 2
+          }
+        },
+        {
+          "pokemon": "Spinarak",
+          "method": "Wild",
+          "level": "3-5",
+          "rarity": 10,
+          "subarea": "Outdoor area",
+          "details": "10% slot; 20% encounter rate",
+          "encounterRate": 20,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,51",
+            "encounterRecordIndex": 44,
+            "slot": 3
+          }
+        },
+        {
+          "pokemon": "Nidoran♂",
+          "method": "Wild",
+          "level": "3-5",
+          "rarity": 10,
+          "subarea": "Outdoor area",
+          "details": "10% slot; 20% encounter rate",
+          "encounterRate": 20,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,51",
+            "encounterRecordIndex": 44,
+            "slot": 4
+          }
+        },
+        {
+          "pokemon": "Nidoran♀",
+          "method": "Wild",
+          "level": "3-5",
+          "rarity": 10,
+          "subarea": "Outdoor area",
+          "details": "10% slot; 20% encounter rate",
+          "encounterRate": 20,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,51",
+            "encounterRecordIndex": 44,
+            "slot": 5
+          }
+        },
+        {
+          "pokemon": "Bellsprout",
+          "method": "Wild",
+          "level": "3-5",
+          "rarity": 5,
+          "subarea": "Outdoor area",
+          "details": "5% slot; 20% encounter rate",
+          "encounterRate": 20,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,51",
+            "encounterRecordIndex": 44,
+            "slot": 6
+          }
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Wild",
+          "level": "3-5",
+          "rarity": 5,
+          "subarea": "Outdoor area",
+          "details": "5% slot; 20% encounter rate",
+          "encounterRate": 20,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,51",
+            "encounterRecordIndex": 44,
+            "slot": 7
+          }
+        },
+        {
+          "pokemon": "Wurmple",
+          "method": "Wild",
+          "level": "3-5",
+          "rarity": 4,
+          "subarea": "Outdoor area",
+          "details": "4% slot; 20% encounter rate",
+          "encounterRate": 20,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,51",
+            "encounterRecordIndex": 44,
+            "slot": 8
+          }
+        },
+        {
+          "pokemon": "Electrike",
+          "method": "Wild",
+          "level": "3-5",
+          "rarity": 4,
+          "subarea": "Outdoor area",
+          "details": "4% slot; 20% encounter rate",
+          "encounterRate": 20,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,51",
+            "encounterRecordIndex": 44,
+            "slot": 9
+          }
+        },
+        {
+          "pokemon": "Ralts",
+          "method": "Wild",
+          "level": "3-5",
+          "rarity": 1,
+          "subarea": "Outdoor area",
+          "details": "1% slot; 20% encounter rate",
+          "encounterRate": 20,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,51",
+            "encounterRecordIndex": 44,
+            "slot": 10
+          }
+        },
+        {
+          "pokemon": "Kricketot",
+          "method": "Wild",
+          "level": "3-5",
+          "rarity": 1,
+          "subarea": "Outdoor area",
+          "details": "1% slot; 20% encounter rate",
+          "encounterRate": 20,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,51",
+            "encounterRecordIndex": 44,
+            "slot": 11
+          }
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Surf",
+          "level": "15-24",
+          "rarity": 60,
+          "subarea": "Outdoor area",
+          "details": "60% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,51",
+            "encounterRecordIndex": 44,
+            "slot": 0
+          }
+        },
+        {
+          "pokemon": "Goldeen",
+          "method": "Surf",
+          "level": "15-24",
+          "rarity": 30,
+          "subarea": "Outdoor area",
+          "details": "30% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,51",
+            "encounterRecordIndex": 44,
+            "slot": 1
+          }
+        },
+        {
+          "pokemon": "Poliwhirl",
+          "method": "Surf",
+          "level": "20-24",
+          "rarity": 5,
+          "subarea": "Outdoor area",
+          "details": "5% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,51",
+            "encounterRecordIndex": 44,
+            "slot": 2
+          }
+        },
+        {
+          "pokemon": "Poliwhirl",
+          "method": "Surf",
+          "level": "20-24",
+          "rarity": 4,
+          "subarea": "Outdoor area",
+          "details": "4% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,51",
+            "encounterRecordIndex": 44,
+            "slot": 3
+          }
+        },
+        {
+          "pokemon": "Seaking",
+          "method": "Surf",
+          "level": "20-24",
+          "rarity": 1,
+          "subarea": "Outdoor area",
+          "details": "1% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,51",
+            "encounterRecordIndex": 44,
+            "slot": 4
+          }
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Fish",
+          "level": "7",
+          "rarity": 70,
+          "subarea": "Outdoor area",
+          "rod": "Old Rod",
+          "details": "70% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,51",
+            "encounterRecordIndex": 44,
+            "slot": 0
+          }
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Fish",
+          "level": "7",
+          "rarity": 30,
+          "subarea": "Outdoor area",
+          "rod": "Old Rod",
+          "details": "30% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,51",
+            "encounterRecordIndex": 44,
+            "slot": 1
+          }
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Fish",
+          "level": "20",
+          "rarity": 60,
+          "subarea": "Outdoor area",
+          "rod": "Good Rod",
+          "details": "60% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,51",
+            "encounterRecordIndex": 44,
+            "slot": 2
+          }
+        },
+        {
+          "pokemon": "Goldeen",
+          "method": "Fish",
+          "level": "20",
+          "rarity": 20,
+          "subarea": "Outdoor area",
+          "rod": "Good Rod",
+          "details": "20% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,51",
+            "encounterRecordIndex": 44,
+            "slot": 3
+          }
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Fish",
+          "level": "20",
+          "rarity": 20,
+          "subarea": "Outdoor area",
+          "rod": "Good Rod",
+          "details": "20% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,51",
+            "encounterRecordIndex": 44,
+            "slot": 4
+          }
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 40,
+          "subarea": "Outdoor area",
+          "rod": "Super Rod",
+          "details": "40% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,51",
+            "encounterRecordIndex": 44,
+            "slot": 5
+          }
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 40,
+          "subarea": "Outdoor area",
+          "rod": "Super Rod",
+          "details": "40% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,51",
+            "encounterRecordIndex": 44,
+            "slot": 6
+          }
+        },
+        {
+          "pokemon": "Goldeen",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 15,
+          "subarea": "Outdoor area",
+          "rod": "Super Rod",
+          "details": "15% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,51",
+            "encounterRecordIndex": 44,
+            "slot": 7
+          }
+        },
+        {
+          "pokemon": "Poliwhirl",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 4,
+          "subarea": "Outdoor area",
+          "rod": "Super Rod",
+          "details": "4% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,51",
+            "encounterRecordIndex": 44,
+            "slot": 8
+          }
+        },
+        {
+          "pokemon": "Seaking",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 1,
+          "subarea": "Outdoor area",
+          "rod": "Super Rod",
+          "details": "1% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,51",
+            "encounterRecordIndex": 44,
+            "slot": 9
+          }
+        }
+      ],
+      "night": [
+        {
+          "pokemon": "Zubat",
+          "method": "Wild",
+          "level": "3-5",
+          "rarity": 20,
+          "subarea": "Cavern area 1",
+          "details": "20% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,1",
+            "encounterRecordIndex": 144,
+            "slot": 0
+          }
+        },
+        {
+          "pokemon": "Geodude",
+          "method": "Wild",
+          "level": "3-5",
+          "rarity": 20,
+          "subarea": "Cavern area 1",
+          "details": "20% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,1",
+            "encounterRecordIndex": 144,
+            "slot": 1
+          }
+        },
+        {
+          "pokemon": "Zubat",
+          "method": "Wild",
+          "level": "3-5",
+          "rarity": 10,
+          "subarea": "Cavern area 1",
+          "details": "10% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,1",
+            "encounterRecordIndex": 144,
+            "slot": 2
+          }
+        },
+        {
+          "pokemon": "Geodude",
+          "method": "Wild",
+          "level": "3-5",
+          "rarity": 10,
+          "subarea": "Cavern area 1",
+          "details": "10% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,1",
+            "encounterRecordIndex": 144,
+            "slot": 3
+          }
+        },
+        {
+          "pokemon": "Sandshrew",
+          "method": "Wild",
+          "level": "3-5",
+          "rarity": 10,
+          "subarea": "Cavern area 1",
+          "details": "10% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,1",
+            "encounterRecordIndex": 144,
+            "slot": 4
+          }
+        },
+        {
+          "pokemon": "Teddiursa",
+          "method": "Wild",
+          "level": "3-5",
+          "rarity": 10,
+          "subarea": "Cavern area 1",
+          "details": "10% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,1",
+            "encounterRecordIndex": 144,
+            "slot": 5
+          }
+        },
+        {
+          "pokemon": "Dunsparce",
+          "method": "Wild",
+          "level": "3-5",
+          "rarity": 5,
+          "subarea": "Cavern area 1",
+          "details": "5% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,1",
+            "encounterRecordIndex": 144,
+            "slot": 6
+          }
+        },
+        {
+          "pokemon": "Shuckle",
+          "method": "Wild",
+          "level": "3-5",
+          "rarity": 5,
+          "subarea": "Cavern area 1",
+          "details": "5% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,1",
+            "encounterRecordIndex": 144,
+            "slot": 7
+          }
+        },
+        {
+          "pokemon": "Whismur",
+          "method": "Wild",
+          "level": "3-5",
+          "rarity": 4,
+          "subarea": "Cavern area 1",
+          "details": "4% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,1",
+            "encounterRecordIndex": 144,
+            "slot": 8
+          }
+        },
+        {
+          "pokemon": "Numel",
+          "method": "Wild",
+          "level": "3-5",
+          "rarity": 4,
+          "subarea": "Cavern area 1",
+          "details": "4% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,1",
+            "encounterRecordIndex": 144,
+            "slot": 9
+          }
+        },
+        {
+          "pokemon": "Trapinch",
+          "method": "Wild",
+          "level": "3-5",
+          "rarity": 1,
+          "subarea": "Cavern area 1",
+          "details": "1% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,1",
+            "encounterRecordIndex": 144,
+            "slot": 10
+          }
+        },
+        {
+          "pokemon": "Wynaut",
+          "method": "Wild",
+          "level": "3-5",
+          "rarity": 1,
+          "subarea": "Cavern area 1",
+          "details": "1% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,1",
+            "encounterRecordIndex": 144,
+            "slot": 11
+          }
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Surf",
+          "level": "15-19",
+          "rarity": 60,
+          "subarea": "Cavern area 1",
+          "details": "60% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,1",
+            "encounterRecordIndex": 144,
+            "slot": 0
+          }
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Surf",
+          "level": "15-19",
+          "rarity": 30,
+          "subarea": "Cavern area 1",
+          "details": "30% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,1",
+            "encounterRecordIndex": 144,
+            "slot": 1
+          }
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Surf",
+          "level": "15-19",
+          "rarity": 5,
+          "subarea": "Cavern area 1",
+          "details": "5% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,1",
+            "encounterRecordIndex": 144,
+            "slot": 2
+          }
+        },
+        {
+          "pokemon": "Psyduck",
+          "method": "Surf",
+          "level": "15-19",
+          "rarity": 4,
+          "subarea": "Cavern area 1",
+          "details": "4% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,1",
+            "encounterRecordIndex": 144,
+            "slot": 3
+          }
+        },
+        {
+          "pokemon": "Shellos",
+          "method": "Surf",
+          "level": "15-19",
+          "rarity": 1,
+          "subarea": "Cavern area 1",
+          "details": "1% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,1",
+            "encounterRecordIndex": 144,
+            "slot": 4
+          }
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Fish",
+          "level": "10",
+          "rarity": 70,
+          "subarea": "Cavern area 1",
+          "rod": "Old Rod",
+          "details": "70% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,1",
+            "encounterRecordIndex": 144,
+            "slot": 0
+          }
+        },
+        {
+          "pokemon": "Psyduck",
+          "method": "Fish",
+          "level": "10",
+          "rarity": 30,
+          "subarea": "Cavern area 1",
+          "rod": "Old Rod",
+          "details": "30% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,1",
+            "encounterRecordIndex": 144,
+            "slot": 1
+          }
+        },
+        {
+          "pokemon": "Goldeen",
+          "method": "Fish",
+          "level": "20",
+          "rarity": 60,
+          "subarea": "Cavern area 1",
+          "rod": "Good Rod",
+          "details": "60% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,1",
+            "encounterRecordIndex": 144,
+            "slot": 2
+          }
+        },
+        {
+          "pokemon": "Psyduck",
+          "method": "Fish",
+          "level": "20",
+          "rarity": 20,
+          "subarea": "Cavern area 1",
+          "rod": "Good Rod",
+          "details": "20% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,1",
+            "encounterRecordIndex": 144,
+            "slot": 3
+          }
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Fish",
+          "level": "20",
+          "rarity": 20,
+          "subarea": "Cavern area 1",
+          "rod": "Good Rod",
+          "details": "20% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,1",
+            "encounterRecordIndex": 144,
+            "slot": 4
+          }
+        },
+        {
+          "pokemon": "Golduck",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 40,
+          "subarea": "Cavern area 1",
+          "rod": "Super Rod",
+          "details": "40% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,1",
+            "encounterRecordIndex": 144,
+            "slot": 5
+          }
+        },
+        {
+          "pokemon": "Seaking",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 40,
+          "subarea": "Cavern area 1",
+          "rod": "Super Rod",
+          "details": "40% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,1",
+            "encounterRecordIndex": 144,
+            "slot": 6
+          }
+        },
+        {
+          "pokemon": "Gyarados",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 15,
+          "subarea": "Cavern area 1",
+          "rod": "Super Rod",
+          "details": "15% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,1",
+            "encounterRecordIndex": 144,
+            "slot": 7
+          }
+        },
+        {
+          "pokemon": "Barboach",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 4,
+          "subarea": "Cavern area 1",
+          "rod": "Super Rod",
+          "details": "4% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,1",
+            "encounterRecordIndex": 144,
+            "slot": 8
+          }
+        },
+        {
+          "pokemon": "Clamperl",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 1,
+          "subarea": "Cavern area 1",
+          "rod": "Super Rod",
+          "details": "1% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,1",
+            "encounterRecordIndex": 144,
+            "slot": 9
+          }
+        },
+        {
+          "pokemon": "Slugma",
+          "method": "Wild",
+          "level": "22-25",
+          "rarity": 20,
+          "subarea": "Cavern area 2",
+          "details": "20% slot; 8% encounter rate",
+          "encounterRate": 8,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,2",
+            "encounterRecordIndex": 16,
+            "slot": 0
+          }
+        },
+        {
+          "pokemon": "Geodude",
+          "method": "Wild",
+          "level": "22-25",
+          "rarity": 20,
+          "subarea": "Cavern area 2",
+          "details": "20% slot; 8% encounter rate",
+          "encounterRate": 8,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,2",
+            "encounterRecordIndex": 16,
+            "slot": 1
+          }
+        },
+        {
+          "pokemon": "Slugma",
+          "method": "Wild",
+          "level": "22-25",
+          "rarity": 10,
+          "subarea": "Cavern area 2",
+          "details": "10% slot; 8% encounter rate",
+          "encounterRate": 8,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,2",
+            "encounterRecordIndex": 16,
+            "slot": 2
+          }
+        },
+        {
+          "pokemon": "Houndour",
+          "method": "Wild",
+          "level": "22-25",
+          "rarity": 10,
+          "subarea": "Cavern area 2",
+          "details": "10% slot; 8% encounter rate",
+          "encounterRate": 8,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,2",
+            "encounterRecordIndex": 16,
+            "slot": 3
+          }
+        },
+        {
+          "pokemon": "Larvitar",
+          "method": "Wild",
+          "level": "22-25",
+          "rarity": 10,
+          "subarea": "Cavern area 2",
+          "details": "10% slot; 8% encounter rate",
+          "encounterRate": 8,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,2",
+            "encounterRecordIndex": 16,
+            "slot": 4
+          }
+        },
+        {
+          "pokemon": "Graveler",
+          "method": "Wild",
+          "level": "22-25",
+          "rarity": 10,
+          "subarea": "Cavern area 2",
+          "details": "10% slot; 8% encounter rate",
+          "encounterRate": 8,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,2",
+            "encounterRecordIndex": 16,
+            "slot": 5
+          }
+        },
+        {
+          "pokemon": "Rhyhorn",
+          "method": "Wild",
+          "level": "22-25",
+          "rarity": 5,
+          "subarea": "Cavern area 2",
+          "details": "5% slot; 8% encounter rate",
+          "encounterRate": 8,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,2",
+            "encounterRecordIndex": 16,
+            "slot": 6
+          }
+        },
+        {
+          "pokemon": "Cleffa",
+          "method": "Wild",
+          "level": "25",
+          "rarity": 5,
+          "subarea": "Cavern area 2",
+          "details": "5% slot; 8% encounter rate",
+          "encounterRate": 8,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,2",
+            "encounterRecordIndex": 16,
+            "slot": 7
+          }
+        },
+        {
+          "pokemon": "Onix",
+          "method": "Wild",
+          "level": "22-25",
+          "rarity": 4,
+          "subarea": "Cavern area 2",
+          "details": "4% slot; 8% encounter rate",
+          "encounterRate": 8,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,2",
+            "encounterRecordIndex": 16,
+            "slot": 8
+          }
+        },
+        {
+          "pokemon": "Houndour",
+          "method": "Wild",
+          "level": "22-25",
+          "rarity": 4,
+          "subarea": "Cavern area 2",
+          "details": "4% slot; 8% encounter rate",
+          "encounterRate": 8,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,2",
+            "encounterRecordIndex": 16,
+            "slot": 9
+          }
+        },
+        {
+          "pokemon": "Magcargo",
+          "method": "Wild",
+          "level": "22-25",
+          "rarity": 1,
+          "subarea": "Cavern area 2",
+          "details": "1% slot; 8% encounter rate",
+          "encounterRate": 8,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,2",
+            "encounterRecordIndex": 16,
+            "slot": 10
+          }
+        },
+        {
+          "pokemon": "Houndoom",
+          "method": "Wild",
+          "level": "22-25",
+          "rarity": 1,
+          "subarea": "Cavern area 2",
+          "details": "1% slot; 8% encounter rate",
+          "encounterRate": 8,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,2",
+            "encounterRecordIndex": 16,
+            "slot": 11
+          }
+        },
+        {
+          "pokemon": "Golbat",
+          "method": "Wild",
+          "level": "30-32",
+          "rarity": 20,
+          "subarea": "Cavern area 3",
+          "details": "20% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,3",
+            "encounterRecordIndex": 158,
+            "slot": 0
+          }
+        },
+        {
+          "pokemon": "Graveler",
+          "method": "Wild",
+          "level": "30-32",
+          "rarity": 20,
+          "subarea": "Cavern area 3",
+          "details": "20% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,3",
+            "encounterRecordIndex": 158,
+            "slot": 1
+          }
+        },
+        {
+          "pokemon": "Sandslash",
+          "method": "Wild",
+          "level": "30-32",
+          "rarity": 10,
+          "subarea": "Cavern area 3",
+          "details": "10% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,3",
+            "encounterRecordIndex": 158,
+            "slot": 2
+          }
+        },
+        {
+          "pokemon": "Dugtrio",
+          "method": "Wild",
+          "level": "30-32",
+          "rarity": 10,
+          "subarea": "Cavern area 3",
+          "details": "10% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,3",
+            "encounterRecordIndex": 158,
+            "slot": 3
+          }
+        },
+        {
+          "pokemon": "Dunsparce",
+          "method": "Wild",
+          "level": "30-32",
+          "rarity": 10,
+          "subarea": "Cavern area 3",
+          "details": "10% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,3",
+            "encounterRecordIndex": 158,
+            "slot": 4
+          }
+        },
+        {
+          "pokemon": "Machoke",
+          "method": "Wild",
+          "level": "30-32",
+          "rarity": 10,
+          "subarea": "Cavern area 3",
+          "details": "10% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,3",
+            "encounterRecordIndex": 158,
+            "slot": 5
+          }
+        },
+        {
+          "pokemon": "Donphan",
+          "method": "Wild",
+          "level": "30-32",
+          "rarity": 5,
+          "subarea": "Cavern area 3",
+          "details": "5% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,3",
+            "encounterRecordIndex": 158,
+            "slot": 6
+          }
+        },
+        {
+          "pokemon": "Ursaring",
+          "method": "Wild",
+          "level": "30-32",
+          "rarity": 5,
+          "subarea": "Cavern area 3",
+          "details": "5% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,3",
+            "encounterRecordIndex": 158,
+            "slot": 7
+          }
+        },
+        {
+          "pokemon": "Camerupt",
+          "method": "Wild",
+          "level": "30-32",
+          "rarity": 4,
+          "subarea": "Cavern area 3",
+          "details": "4% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,3",
+            "encounterRecordIndex": 158,
+            "slot": 8
+          }
+        },
+        {
+          "pokemon": "Loudred",
+          "method": "Wild",
+          "level": "30-32",
+          "rarity": 4,
+          "subarea": "Cavern area 3",
+          "details": "4% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,3",
+            "encounterRecordIndex": 158,
+            "slot": 9
+          }
+        },
+        {
+          "pokemon": "Vibrava",
+          "method": "Wild",
+          "level": "30-32",
+          "rarity": 1,
+          "subarea": "Cavern area 3",
+          "details": "1% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,3",
+            "encounterRecordIndex": 158,
+            "slot": 10
+          }
+        },
+        {
+          "pokemon": "Wobbuffet",
+          "method": "Wild",
+          "level": "30-32",
+          "rarity": 1,
+          "subarea": "Cavern area 3",
+          "details": "1% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,3",
+            "encounterRecordIndex": 158,
+            "slot": 11
+          }
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Surf",
+          "level": "15-19",
+          "rarity": 60,
+          "subarea": "Cavern area 3",
+          "details": "60% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,3",
+            "encounterRecordIndex": 158,
+            "slot": 0
+          }
+        },
+        {
+          "pokemon": "Wooper",
+          "method": "Surf",
+          "level": "15-19",
+          "rarity": 30,
+          "subarea": "Cavern area 3",
+          "details": "30% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,3",
+            "encounterRecordIndex": 158,
+            "slot": 1
+          }
+        },
+        {
+          "pokemon": "Gyarados",
+          "method": "Surf",
+          "level": "24-29",
+          "rarity": 5,
+          "subarea": "Cavern area 3",
+          "details": "5% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,3",
+            "encounterRecordIndex": 158,
+            "slot": 2
+          }
+        },
+        {
+          "pokemon": "Quagsire",
+          "method": "Surf",
+          "level": "24-29",
+          "rarity": 4,
+          "subarea": "Cavern area 3",
+          "details": "4% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,3",
+            "encounterRecordIndex": 158,
+            "slot": 3
+          }
+        },
+        {
+          "pokemon": "Quagsire",
+          "method": "Surf",
+          "level": "24-29",
+          "rarity": 1,
+          "subarea": "Cavern area 3",
+          "details": "1% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,3",
+            "encounterRecordIndex": 158,
+            "slot": 4
+          }
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Fish",
+          "level": "10",
+          "rarity": 70,
+          "subarea": "Cavern area 3",
+          "rod": "Old Rod",
+          "details": "70% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,3",
+            "encounterRecordIndex": 158,
+            "slot": 0
+          }
+        },
+        {
+          "pokemon": "Goldeen",
+          "method": "Fish",
+          "level": "10",
+          "rarity": 30,
+          "subarea": "Cavern area 3",
+          "rod": "Old Rod",
+          "details": "30% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,3",
+            "encounterRecordIndex": 158,
+            "slot": 1
+          }
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Fish",
+          "level": "20",
+          "rarity": 60,
+          "subarea": "Cavern area 3",
+          "rod": "Good Rod",
+          "details": "60% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,3",
+            "encounterRecordIndex": 158,
+            "slot": 2
+          }
+        },
+        {
+          "pokemon": "Goldeen",
+          "method": "Fish",
+          "level": "20",
+          "rarity": 20,
+          "subarea": "Cavern area 3",
+          "rod": "Good Rod",
+          "details": "20% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,3",
+            "encounterRecordIndex": 158,
+            "slot": 3
+          }
+        },
+        {
+          "pokemon": "Wooper",
+          "method": "Fish",
+          "level": "20",
+          "rarity": 20,
+          "subarea": "Cavern area 3",
+          "rod": "Good Rod",
+          "details": "20% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,3",
+            "encounterRecordIndex": 158,
+            "slot": 4
+          }
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 40,
+          "subarea": "Cavern area 3",
+          "rod": "Super Rod",
+          "details": "40% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,3",
+            "encounterRecordIndex": 158,
+            "slot": 5
+          }
+        },
+        {
+          "pokemon": "Goldeen",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 40,
+          "subarea": "Cavern area 3",
+          "rod": "Super Rod",
+          "details": "40% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,3",
+            "encounterRecordIndex": 158,
+            "slot": 6
+          }
+        },
+        {
+          "pokemon": "Gyarados",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 15,
+          "subarea": "Cavern area 3",
+          "rod": "Super Rod",
+          "details": "15% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,3",
+            "encounterRecordIndex": 158,
+            "slot": 7
+          }
+        },
+        {
+          "pokemon": "Seaking",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 4,
+          "subarea": "Cavern area 3",
+          "rod": "Super Rod",
+          "details": "4% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,3",
+            "encounterRecordIndex": 158,
+            "slot": 8
+          }
+        },
+        {
+          "pokemon": "Quagsire",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 1,
+          "subarea": "Cavern area 3",
+          "rod": "Super Rod",
+          "details": "1% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "1,3",
+            "encounterRecordIndex": 158,
+            "slot": 9
+          }
+        },
+        {
+          "pokemon": "Caterpie",
+          "method": "Wild",
+          "level": "3-5",
+          "rarity": 20,
+          "subarea": "Outdoor area",
+          "details": "20% slot; 20% encounter rate",
+          "encounterRate": 20,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,51",
+            "encounterRecordIndex": 44,
+            "slot": 0
+          }
+        },
+        {
+          "pokemon": "Weedle",
+          "method": "Wild",
+          "level": "3-5",
+          "rarity": 20,
+          "subarea": "Outdoor area",
+          "details": "20% slot; 20% encounter rate",
+          "encounterRate": 20,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,51",
+            "encounterRecordIndex": 44,
+            "slot": 1
+          }
+        },
+        {
+          "pokemon": "Ledyba",
+          "method": "Wild",
+          "level": "3-5",
+          "rarity": 10,
+          "subarea": "Outdoor area",
+          "details": "10% slot; 20% encounter rate",
+          "encounterRate": 20,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,51",
+            "encounterRecordIndex": 44,
+            "slot": 2
+          }
+        },
+        {
+          "pokemon": "Spinarak",
+          "method": "Wild",
+          "level": "3-5",
+          "rarity": 10,
+          "subarea": "Outdoor area",
+          "details": "10% slot; 20% encounter rate",
+          "encounterRate": 20,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,51",
+            "encounterRecordIndex": 44,
+            "slot": 3
+          }
+        },
+        {
+          "pokemon": "Nidoran♂",
+          "method": "Wild",
+          "level": "3-5",
+          "rarity": 10,
+          "subarea": "Outdoor area",
+          "details": "10% slot; 20% encounter rate",
+          "encounterRate": 20,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,51",
+            "encounterRecordIndex": 44,
+            "slot": 4
+          }
+        },
+        {
+          "pokemon": "Nidoran♀",
+          "method": "Wild",
+          "level": "3-5",
+          "rarity": 10,
+          "subarea": "Outdoor area",
+          "details": "10% slot; 20% encounter rate",
+          "encounterRate": 20,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,51",
+            "encounterRecordIndex": 44,
+            "slot": 5
+          }
+        },
+        {
+          "pokemon": "Bellsprout",
+          "method": "Wild",
+          "level": "3-5",
+          "rarity": 5,
+          "subarea": "Outdoor area",
+          "details": "5% slot; 20% encounter rate",
+          "encounterRate": 20,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,51",
+            "encounterRecordIndex": 44,
+            "slot": 6
+          }
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Wild",
+          "level": "3-5",
+          "rarity": 5,
+          "subarea": "Outdoor area",
+          "details": "5% slot; 20% encounter rate",
+          "encounterRate": 20,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,51",
+            "encounterRecordIndex": 44,
+            "slot": 7
+          }
+        },
+        {
+          "pokemon": "Wurmple",
+          "method": "Wild",
+          "level": "3-5",
+          "rarity": 4,
+          "subarea": "Outdoor area",
+          "details": "4% slot; 20% encounter rate",
+          "encounterRate": 20,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,51",
+            "encounterRecordIndex": 44,
+            "slot": 8
+          }
+        },
+        {
+          "pokemon": "Electrike",
+          "method": "Wild",
+          "level": "3-5",
+          "rarity": 4,
+          "subarea": "Outdoor area",
+          "details": "4% slot; 20% encounter rate",
+          "encounterRate": 20,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,51",
+            "encounterRecordIndex": 44,
+            "slot": 9
+          }
+        },
+        {
+          "pokemon": "Ralts",
+          "method": "Wild",
+          "level": "3-5",
+          "rarity": 1,
+          "subarea": "Outdoor area",
+          "details": "1% slot; 20% encounter rate",
+          "encounterRate": 20,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,51",
+            "encounterRecordIndex": 44,
+            "slot": 10
+          }
+        },
+        {
+          "pokemon": "Kricketot",
+          "method": "Wild",
+          "level": "3-5",
+          "rarity": 1,
+          "subarea": "Outdoor area",
+          "details": "1% slot; 20% encounter rate",
+          "encounterRate": 20,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,51",
+            "encounterRecordIndex": 44,
+            "slot": 11
+          }
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Surf",
+          "level": "15-24",
+          "rarity": 60,
+          "subarea": "Outdoor area",
+          "details": "60% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,51",
+            "encounterRecordIndex": 44,
+            "slot": 0
+          }
+        },
+        {
+          "pokemon": "Goldeen",
+          "method": "Surf",
+          "level": "15-24",
+          "rarity": 30,
+          "subarea": "Outdoor area",
+          "details": "30% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,51",
+            "encounterRecordIndex": 44,
+            "slot": 1
+          }
+        },
+        {
+          "pokemon": "Poliwhirl",
+          "method": "Surf",
+          "level": "20-24",
+          "rarity": 5,
+          "subarea": "Outdoor area",
+          "details": "5% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,51",
+            "encounterRecordIndex": 44,
+            "slot": 2
+          }
+        },
+        {
+          "pokemon": "Poliwhirl",
+          "method": "Surf",
+          "level": "20-24",
+          "rarity": 4,
+          "subarea": "Outdoor area",
+          "details": "4% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,51",
+            "encounterRecordIndex": 44,
+            "slot": 3
+          }
+        },
+        {
+          "pokemon": "Seaking",
+          "method": "Surf",
+          "level": "20-24",
+          "rarity": 1,
+          "subarea": "Outdoor area",
+          "details": "1% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,51",
+            "encounterRecordIndex": 44,
+            "slot": 4
+          }
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Fish",
+          "level": "7",
+          "rarity": 70,
+          "subarea": "Outdoor area",
+          "rod": "Old Rod",
+          "details": "70% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,51",
+            "encounterRecordIndex": 44,
+            "slot": 0
+          }
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Fish",
+          "level": "7",
+          "rarity": 30,
+          "subarea": "Outdoor area",
+          "rod": "Old Rod",
+          "details": "30% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,51",
+            "encounterRecordIndex": 44,
+            "slot": 1
+          }
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Fish",
+          "level": "20",
+          "rarity": 60,
+          "subarea": "Outdoor area",
+          "rod": "Good Rod",
+          "details": "60% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,51",
+            "encounterRecordIndex": 44,
+            "slot": 2
+          }
+        },
+        {
+          "pokemon": "Goldeen",
+          "method": "Fish",
+          "level": "20",
+          "rarity": 20,
+          "subarea": "Outdoor area",
+          "rod": "Good Rod",
+          "details": "20% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,51",
+            "encounterRecordIndex": 44,
+            "slot": 3
+          }
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Fish",
+          "level": "20",
+          "rarity": 20,
+          "subarea": "Outdoor area",
+          "rod": "Good Rod",
+          "details": "20% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,51",
+            "encounterRecordIndex": 44,
+            "slot": 4
+          }
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 40,
+          "subarea": "Outdoor area",
+          "rod": "Super Rod",
+          "details": "40% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,51",
+            "encounterRecordIndex": 44,
+            "slot": 5
+          }
+        },
+        {
+          "pokemon": "Poliwag",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 40,
+          "subarea": "Outdoor area",
+          "rod": "Super Rod",
+          "details": "40% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,51",
+            "encounterRecordIndex": 44,
+            "slot": 6
+          }
+        },
+        {
+          "pokemon": "Goldeen",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 15,
+          "subarea": "Outdoor area",
+          "rod": "Super Rod",
+          "details": "15% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,51",
+            "encounterRecordIndex": 44,
+            "slot": 7
+          }
+        },
+        {
+          "pokemon": "Poliwhirl",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 4,
+          "subarea": "Outdoor area",
+          "rod": "Super Rod",
+          "details": "4% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,51",
+            "encounterRecordIndex": 44,
+            "slot": 8
+          }
+        },
+        {
+          "pokemon": "Seaking",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 1,
+          "subarea": "Outdoor area",
+          "rod": "Super Rod",
+          "details": "1% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,51",
+            "encounterRecordIndex": 44,
+            "slot": 9
+          }
+        }
+      ],
+      "periodModel": "all-day",
+      "source": {
+        "kind": "sevii-rom-safe-tranche",
+        "gameVersion": "2026-07-19",
+        "romSha256": "716F2CBFB731E6DC1E014B6B6744B823389262DCC0086A120C1E0FB3D80DD34B",
+        "mapKeys": [
+          "1,1",
+          "1,2",
+          "1,3",
+          "3,51"
+        ],
+        "crosswalk": "sources/normalized/sevii-map-crosswalk-2026-09-25.json"
+      }
+    },
+    {
       "name": "Crystal Cavern",
       "day": [
         {
@@ -172317,6 +175559,3370 @@
           "2,47",
           "2,48",
           "2,49"
+        ],
+        "crosswalk": "sources/normalized/sevii-map-crosswalk-2026-09-25.json"
+      }
+    },
+    {
+      "name": "Icefall Cave",
+      "day": [
+        {
+          "pokemon": "Golbat",
+          "method": "Wild",
+          "level": "33-35",
+          "rarity": 20,
+          "subarea": "Cavern",
+          "details": "20% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,8",
+            "encounterRecordIndex": 78,
+            "slot": 0
+          }
+        },
+        {
+          "pokemon": "Raticate",
+          "method": "Wild",
+          "level": "33-35",
+          "rarity": 20,
+          "subarea": "Cavern",
+          "details": "20% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,8",
+            "encounterRecordIndex": 78,
+            "slot": 1
+          }
+        },
+        {
+          "pokemon": "Quagsire",
+          "method": "Wild",
+          "level": "33-35",
+          "rarity": 10,
+          "subarea": "Cavern",
+          "details": "10% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,8",
+            "encounterRecordIndex": 78,
+            "slot": 2
+          }
+        },
+        {
+          "pokemon": "Graveler",
+          "method": "Wild",
+          "level": "33-35",
+          "rarity": 10,
+          "subarea": "Cavern",
+          "details": "10% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,8",
+            "encounterRecordIndex": 78,
+            "slot": 3
+          }
+        },
+        {
+          "pokemon": "Onix",
+          "method": "Wild",
+          "level": "33-35",
+          "rarity": 10,
+          "subarea": "Cavern",
+          "details": "10% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,8",
+            "encounterRecordIndex": 78,
+            "slot": 4
+          }
+        },
+        {
+          "pokemon": "Sandslash",
+          "method": "Wild",
+          "level": "33-35",
+          "rarity": 10,
+          "subarea": "Cavern",
+          "details": "10% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,8",
+            "encounterRecordIndex": 78,
+            "slot": 5
+          }
+        },
+        {
+          "pokemon": "Slowbro",
+          "method": "Wild",
+          "level": "33-35",
+          "rarity": 5,
+          "subarea": "Cavern",
+          "details": "5% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,8",
+            "encounterRecordIndex": 78,
+            "slot": 6
+          }
+        },
+        {
+          "pokemon": "Slowking",
+          "method": "Wild",
+          "level": "33-35",
+          "rarity": 5,
+          "subarea": "Cavern",
+          "details": "5% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,8",
+            "encounterRecordIndex": 78,
+            "slot": 7
+          }
+        },
+        {
+          "pokemon": "Gastrodon-East",
+          "method": "Wild",
+          "level": "33-35",
+          "rarity": 4,
+          "subarea": "Cavern",
+          "details": "4% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,8",
+            "encounterRecordIndex": 78,
+            "slot": 8
+          }
+        },
+        {
+          "pokemon": "Vibrava",
+          "method": "Wild",
+          "level": "33-35",
+          "rarity": 4,
+          "subarea": "Cavern",
+          "details": "4% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,8",
+            "encounterRecordIndex": 78,
+            "slot": 9
+          }
+        },
+        {
+          "pokemon": "Loudred",
+          "method": "Wild",
+          "level": "33-35",
+          "rarity": 1,
+          "subarea": "Cavern",
+          "details": "1% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,8",
+            "encounterRecordIndex": 78,
+            "slot": 10
+          }
+        },
+        {
+          "pokemon": "Bibarel",
+          "method": "Wild",
+          "level": "33-35",
+          "rarity": 1,
+          "subarea": "Cavern",
+          "details": "1% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,8",
+            "encounterRecordIndex": 78,
+            "slot": 11
+          }
+        },
+        {
+          "pokemon": "Goldeen",
+          "method": "Surf",
+          "level": "29-32",
+          "rarity": 60,
+          "subarea": "Cavern",
+          "details": "60% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,8",
+            "encounterRecordIndex": 78,
+            "slot": 0
+          }
+        },
+        {
+          "pokemon": "Seaking",
+          "method": "Surf",
+          "level": "30-34",
+          "rarity": 30,
+          "subarea": "Cavern",
+          "details": "30% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,8",
+            "encounterRecordIndex": 78,
+            "slot": 1
+          }
+        },
+        {
+          "pokemon": "Chinchou",
+          "method": "Surf",
+          "level": "29-32",
+          "rarity": 5,
+          "subarea": "Cavern",
+          "details": "5% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,8",
+            "encounterRecordIndex": 78,
+            "slot": 2
+          }
+        },
+        {
+          "pokemon": "Lanturn",
+          "method": "Surf",
+          "level": "29-32",
+          "rarity": 4,
+          "subarea": "Cavern",
+          "details": "4% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,8",
+            "encounterRecordIndex": 78,
+            "slot": 3
+          }
+        },
+        {
+          "pokemon": "Shellos-East",
+          "method": "Surf",
+          "level": "30-34",
+          "rarity": 1,
+          "subarea": "Cavern",
+          "details": "1% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,8",
+            "encounterRecordIndex": 78,
+            "slot": 4
+          }
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Fish",
+          "level": "10",
+          "rarity": 70,
+          "subarea": "Cavern",
+          "rod": "Old Rod",
+          "details": "70% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,8",
+            "encounterRecordIndex": 78,
+            "slot": 0
+          }
+        },
+        {
+          "pokemon": "Goldeen",
+          "method": "Fish",
+          "level": "10",
+          "rarity": 30,
+          "subarea": "Cavern",
+          "rod": "Old Rod",
+          "details": "30% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,8",
+            "encounterRecordIndex": 78,
+            "slot": 1
+          }
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Fish",
+          "level": "20",
+          "rarity": 60,
+          "subarea": "Cavern",
+          "rod": "Good Rod",
+          "details": "60% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,8",
+            "encounterRecordIndex": 78,
+            "slot": 2
+          }
+        },
+        {
+          "pokemon": "Goldeen",
+          "method": "Fish",
+          "level": "20",
+          "rarity": 20,
+          "subarea": "Cavern",
+          "rod": "Good Rod",
+          "details": "20% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,8",
+            "encounterRecordIndex": 78,
+            "slot": 3
+          }
+        },
+        {
+          "pokemon": "Shellos-East",
+          "method": "Fish",
+          "level": "20",
+          "rarity": 20,
+          "subarea": "Cavern",
+          "rod": "Good Rod",
+          "details": "20% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,8",
+            "encounterRecordIndex": 78,
+            "slot": 4
+          }
+        },
+        {
+          "pokemon": "Goldeen",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 40,
+          "subarea": "Cavern",
+          "rod": "Super Rod",
+          "details": "40% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,8",
+            "encounterRecordIndex": 78,
+            "slot": 5
+          }
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 40,
+          "subarea": "Cavern",
+          "rod": "Super Rod",
+          "details": "40% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,8",
+            "encounterRecordIndex": 78,
+            "slot": 6
+          }
+        },
+        {
+          "pokemon": "Seaking",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 15,
+          "subarea": "Cavern",
+          "rod": "Super Rod",
+          "details": "15% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,8",
+            "encounterRecordIndex": 78,
+            "slot": 7
+          }
+        },
+        {
+          "pokemon": "Gyarados",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 4,
+          "subarea": "Cavern",
+          "rod": "Super Rod",
+          "details": "4% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,8",
+            "encounterRecordIndex": 78,
+            "slot": 8
+          }
+        },
+        {
+          "pokemon": "Gastrodon-East",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 1,
+          "subarea": "Cavern",
+          "rod": "Super Rod",
+          "details": "1% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,8",
+            "encounterRecordIndex": 78,
+            "slot": 9
+          }
+        },
+        {
+          "pokemon": "Arbok",
+          "method": "Wild",
+          "level": "34-36",
+          "rarity": 20,
+          "subarea": "Eastern area",
+          "details": "20% slot; 25% encounter rate",
+          "encounterRate": 25,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,69",
+            "encounterRecordIndex": 246,
+            "slot": 0
+          }
+        },
+        {
+          "pokemon": "Dodrio",
+          "method": "Wild",
+          "level": "34-36",
+          "rarity": 20,
+          "subarea": "Eastern area",
+          "details": "20% slot; 25% encounter rate",
+          "encounterRate": 25,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,69",
+            "encounterRecordIndex": 246,
+            "slot": 1
+          }
+        },
+        {
+          "pokemon": "Sandslash",
+          "method": "Wild",
+          "level": "34-36",
+          "rarity": 10,
+          "subarea": "Eastern area",
+          "details": "10% slot; 25% encounter rate",
+          "encounterRate": 25,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,69",
+            "encounterRecordIndex": 246,
+            "slot": 2
+          }
+        },
+        {
+          "pokemon": "Raticate",
+          "method": "Wild",
+          "level": "34-36",
+          "rarity": 10,
+          "subarea": "Eastern area",
+          "details": "10% slot; 25% encounter rate",
+          "encounterRate": 25,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,69",
+            "encounterRecordIndex": 246,
+            "slot": 3
+          }
+        },
+        {
+          "pokemon": "Ponyta",
+          "method": "Wild",
+          "level": "34-36",
+          "rarity": 10,
+          "subarea": "Eastern area",
+          "details": "10% slot; 25% encounter rate",
+          "encounterRate": 25,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,69",
+            "encounterRecordIndex": 246,
+            "slot": 4
+          }
+        },
+        {
+          "pokemon": "Noctowl",
+          "method": "Wild",
+          "level": "34-36",
+          "rarity": 10,
+          "subarea": "Eastern area",
+          "details": "10% slot; 25% encounter rate",
+          "encounterRate": 25,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,69",
+            "encounterRecordIndex": 246,
+            "slot": 5
+          }
+        },
+        {
+          "pokemon": "Jumpluff",
+          "method": "Wild",
+          "level": "34-36",
+          "rarity": 5,
+          "subarea": "Eastern area",
+          "details": "5% slot; 25% encounter rate",
+          "encounterRate": 25,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,69",
+            "encounterRecordIndex": 246,
+            "slot": 6
+          }
+        },
+        {
+          "pokemon": "Quagsire",
+          "method": "Wild",
+          "level": "34-36",
+          "rarity": 5,
+          "subarea": "Eastern area",
+          "details": "5% slot; 25% encounter rate",
+          "encounterRate": 25,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,69",
+            "encounterRecordIndex": 246,
+            "slot": 7
+          }
+        },
+        {
+          "pokemon": "Linoone",
+          "method": "Wild",
+          "level": "34-36",
+          "rarity": 4,
+          "subarea": "Eastern area",
+          "details": "4% slot; 25% encounter rate",
+          "encounterRate": 25,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,69",
+            "encounterRecordIndex": 246,
+            "slot": 8
+          }
+        },
+        {
+          "pokemon": "Mightyena",
+          "method": "Wild",
+          "level": "34-36",
+          "rarity": 4,
+          "subarea": "Eastern area",
+          "details": "4% slot; 25% encounter rate",
+          "encounterRate": 25,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,69",
+            "encounterRecordIndex": 246,
+            "slot": 9
+          }
+        },
+        {
+          "pokemon": "Kirlia",
+          "method": "Wild",
+          "level": "34-36",
+          "rarity": 1,
+          "subarea": "Eastern area",
+          "details": "1% slot; 25% encounter rate",
+          "encounterRate": 25,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,69",
+            "encounterRecordIndex": 246,
+            "slot": 10
+          }
+        },
+        {
+          "pokemon": "Luxio",
+          "method": "Wild",
+          "level": "34-36",
+          "rarity": 1,
+          "subarea": "Eastern area",
+          "details": "1% slot; 25% encounter rate",
+          "encounterRate": 25,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,69",
+            "encounterRecordIndex": 246,
+            "slot": 11
+          }
+        },
+        {
+          "pokemon": "Tentacool",
+          "method": "Surf",
+          "level": "15-24",
+          "rarity": 60,
+          "subarea": "Eastern area",
+          "details": "60% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,69",
+            "encounterRecordIndex": 246,
+            "slot": 0
+          }
+        },
+        {
+          "pokemon": "Chinchou",
+          "method": "Surf",
+          "level": "15-24",
+          "rarity": 30,
+          "subarea": "Eastern area",
+          "details": "30% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,69",
+            "encounterRecordIndex": 246,
+            "slot": 1
+          }
+        },
+        {
+          "pokemon": "Tentacruel",
+          "method": "Surf",
+          "level": "20-24",
+          "rarity": 5,
+          "subarea": "Eastern area",
+          "details": "5% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,69",
+            "encounterRecordIndex": 246,
+            "slot": 2
+          }
+        },
+        {
+          "pokemon": "Lanturn",
+          "method": "Surf",
+          "level": "20-24",
+          "rarity": 4,
+          "subarea": "Eastern area",
+          "details": "4% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,69",
+            "encounterRecordIndex": 246,
+            "slot": 3
+          }
+        },
+        {
+          "pokemon": "Shellder",
+          "method": "Surf",
+          "level": "20-24",
+          "rarity": 1,
+          "subarea": "Eastern area",
+          "details": "1% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,69",
+            "encounterRecordIndex": 246,
+            "slot": 4
+          }
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Fish",
+          "level": "10",
+          "rarity": 70,
+          "subarea": "Eastern area",
+          "rod": "Old Rod",
+          "details": "70% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,69",
+            "encounterRecordIndex": 246,
+            "slot": 0
+          }
+        },
+        {
+          "pokemon": "Tentacool",
+          "method": "Fish",
+          "level": "10",
+          "rarity": 30,
+          "subarea": "Eastern area",
+          "rod": "Old Rod",
+          "details": "30% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,69",
+            "encounterRecordIndex": 246,
+            "slot": 1
+          }
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Fish",
+          "level": "20",
+          "rarity": 60,
+          "subarea": "Eastern area",
+          "rod": "Good Rod",
+          "details": "60% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,69",
+            "encounterRecordIndex": 246,
+            "slot": 2
+          }
+        },
+        {
+          "pokemon": "Shellder",
+          "method": "Fish",
+          "level": "20",
+          "rarity": 20,
+          "subarea": "Eastern area",
+          "rod": "Good Rod",
+          "details": "20% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,69",
+            "encounterRecordIndex": 246,
+            "slot": 3
+          }
+        },
+        {
+          "pokemon": "Chinchou",
+          "method": "Fish",
+          "level": "20",
+          "rarity": 20,
+          "subarea": "Eastern area",
+          "rod": "Good Rod",
+          "details": "20% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,69",
+            "encounterRecordIndex": 246,
+            "slot": 4
+          }
+        },
+        {
+          "pokemon": "Shellder",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 40,
+          "subarea": "Eastern area",
+          "rod": "Super Rod",
+          "details": "40% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,69",
+            "encounterRecordIndex": 246,
+            "slot": 5
+          }
+        },
+        {
+          "pokemon": "Chinchou",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 40,
+          "subarea": "Eastern area",
+          "rod": "Super Rod",
+          "details": "40% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,69",
+            "encounterRecordIndex": 246,
+            "slot": 6
+          }
+        },
+        {
+          "pokemon": "Tentacruel",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 15,
+          "subarea": "Eastern area",
+          "rod": "Super Rod",
+          "details": "15% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,69",
+            "encounterRecordIndex": 246,
+            "slot": 7
+          }
+        },
+        {
+          "pokemon": "Lanturn",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 4,
+          "subarea": "Eastern area",
+          "rod": "Super Rod",
+          "details": "4% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,69",
+            "encounterRecordIndex": 246,
+            "slot": 8
+          }
+        },
+        {
+          "pokemon": "Shellos-East",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 1,
+          "subarea": "Eastern area",
+          "rod": "Super Rod",
+          "details": "1% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,69",
+            "encounterRecordIndex": 246,
+            "slot": 9
+          }
+        },
+        {
+          "pokemon": "Arbok",
+          "method": "Wild",
+          "level": "34-36",
+          "rarity": 20,
+          "subarea": "Main area",
+          "details": "20% slot; 25% encounter rate",
+          "encounterRate": 25,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,68",
+            "encounterRecordIndex": 103,
+            "slot": 0
+          }
+        },
+        {
+          "pokemon": "Dodrio",
+          "method": "Wild",
+          "level": "34-36",
+          "rarity": 20,
+          "subarea": "Main area",
+          "details": "20% slot; 25% encounter rate",
+          "encounterRate": 25,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,68",
+            "encounterRecordIndex": 103,
+            "slot": 1
+          }
+        },
+        {
+          "pokemon": "Sandslash",
+          "method": "Wild",
+          "level": "34-36",
+          "rarity": 10,
+          "subarea": "Main area",
+          "details": "10% slot; 25% encounter rate",
+          "encounterRate": 25,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,68",
+            "encounterRecordIndex": 103,
+            "slot": 2
+          }
+        },
+        {
+          "pokemon": "Raticate",
+          "method": "Wild",
+          "level": "34-36",
+          "rarity": 10,
+          "subarea": "Main area",
+          "details": "10% slot; 25% encounter rate",
+          "encounterRate": 25,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,68",
+            "encounterRecordIndex": 103,
+            "slot": 3
+          }
+        },
+        {
+          "pokemon": "Ponyta",
+          "method": "Wild",
+          "level": "34-36",
+          "rarity": 10,
+          "subarea": "Main area",
+          "details": "10% slot; 25% encounter rate",
+          "encounterRate": 25,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,68",
+            "encounterRecordIndex": 103,
+            "slot": 4
+          }
+        },
+        {
+          "pokemon": "Noctowl",
+          "method": "Wild",
+          "level": "34-36",
+          "rarity": 10,
+          "subarea": "Main area",
+          "details": "10% slot; 25% encounter rate",
+          "encounterRate": 25,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,68",
+            "encounterRecordIndex": 103,
+            "slot": 5
+          }
+        },
+        {
+          "pokemon": "Jumpluff",
+          "method": "Wild",
+          "level": "34-36",
+          "rarity": 5,
+          "subarea": "Main area",
+          "details": "5% slot; 25% encounter rate",
+          "encounterRate": 25,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,68",
+            "encounterRecordIndex": 103,
+            "slot": 6
+          }
+        },
+        {
+          "pokemon": "Quagsire",
+          "method": "Wild",
+          "level": "34-36",
+          "rarity": 5,
+          "subarea": "Main area",
+          "details": "5% slot; 25% encounter rate",
+          "encounterRate": 25,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,68",
+            "encounterRecordIndex": 103,
+            "slot": 7
+          }
+        },
+        {
+          "pokemon": "Linoone",
+          "method": "Wild",
+          "level": "34-36",
+          "rarity": 4,
+          "subarea": "Main area",
+          "details": "4% slot; 25% encounter rate",
+          "encounterRate": 25,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,68",
+            "encounterRecordIndex": 103,
+            "slot": 8
+          }
+        },
+        {
+          "pokemon": "Mightyena",
+          "method": "Wild",
+          "level": "34-36",
+          "rarity": 4,
+          "subarea": "Main area",
+          "details": "4% slot; 25% encounter rate",
+          "encounterRate": 25,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,68",
+            "encounterRecordIndex": 103,
+            "slot": 9
+          }
+        },
+        {
+          "pokemon": "Kirlia",
+          "method": "Wild",
+          "level": "34-36",
+          "rarity": 1,
+          "subarea": "Main area",
+          "details": "1% slot; 25% encounter rate",
+          "encounterRate": 25,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,68",
+            "encounterRecordIndex": 103,
+            "slot": 10
+          }
+        },
+        {
+          "pokemon": "Luxio",
+          "method": "Wild",
+          "level": "34-36",
+          "rarity": 1,
+          "subarea": "Main area",
+          "details": "1% slot; 25% encounter rate",
+          "encounterRate": 25,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,68",
+            "encounterRecordIndex": 103,
+            "slot": 11
+          }
+        },
+        {
+          "pokemon": "Tentacool",
+          "method": "Surf",
+          "level": "15-24",
+          "rarity": 60,
+          "subarea": "Main area",
+          "details": "60% slot; 12% encounter rate",
+          "encounterRate": 12,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,68",
+            "encounterRecordIndex": 103,
+            "slot": 0
+          }
+        },
+        {
+          "pokemon": "Chinchou",
+          "method": "Surf",
+          "level": "15-24",
+          "rarity": 30,
+          "subarea": "Main area",
+          "details": "30% slot; 12% encounter rate",
+          "encounterRate": 12,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,68",
+            "encounterRecordIndex": 103,
+            "slot": 1
+          }
+        },
+        {
+          "pokemon": "Tentacruel",
+          "method": "Surf",
+          "level": "20-24",
+          "rarity": 5,
+          "subarea": "Main area",
+          "details": "5% slot; 12% encounter rate",
+          "encounterRate": 12,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,68",
+            "encounterRecordIndex": 103,
+            "slot": 2
+          }
+        },
+        {
+          "pokemon": "Lanturn",
+          "method": "Surf",
+          "level": "20-24",
+          "rarity": 4,
+          "subarea": "Main area",
+          "details": "4% slot; 12% encounter rate",
+          "encounterRate": 12,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,68",
+            "encounterRecordIndex": 103,
+            "slot": 3
+          }
+        },
+        {
+          "pokemon": "Shellos-East",
+          "method": "Surf",
+          "level": "20-24",
+          "rarity": 1,
+          "subarea": "Main area",
+          "details": "1% slot; 12% encounter rate",
+          "encounterRate": 12,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,68",
+            "encounterRecordIndex": 103,
+            "slot": 4
+          }
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Fish",
+          "level": "5-9",
+          "rarity": 70,
+          "subarea": "Main area",
+          "rod": "Old Rod",
+          "details": "70% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,68",
+            "encounterRecordIndex": 103,
+            "slot": 0
+          }
+        },
+        {
+          "pokemon": "Tentacool",
+          "method": "Fish",
+          "level": "5-9",
+          "rarity": 30,
+          "subarea": "Main area",
+          "rod": "Old Rod",
+          "details": "30% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,68",
+            "encounterRecordIndex": 103,
+            "slot": 1
+          }
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Fish",
+          "level": "20",
+          "rarity": 60,
+          "subarea": "Main area",
+          "rod": "Good Rod",
+          "details": "60% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,68",
+            "encounterRecordIndex": 103,
+            "slot": 2
+          }
+        },
+        {
+          "pokemon": "Shellder",
+          "method": "Fish",
+          "level": "20",
+          "rarity": 20,
+          "subarea": "Main area",
+          "rod": "Good Rod",
+          "details": "20% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,68",
+            "encounterRecordIndex": 103,
+            "slot": 3
+          }
+        },
+        {
+          "pokemon": "Chinchou",
+          "method": "Fish",
+          "level": "20",
+          "rarity": 20,
+          "subarea": "Main area",
+          "rod": "Good Rod",
+          "details": "20% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,68",
+            "encounterRecordIndex": 103,
+            "slot": 4
+          }
+        },
+        {
+          "pokemon": "Shellder",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 40,
+          "subarea": "Main area",
+          "rod": "Super Rod",
+          "details": "40% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,68",
+            "encounterRecordIndex": 103,
+            "slot": 5
+          }
+        },
+        {
+          "pokemon": "Chinchou",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 40,
+          "subarea": "Main area",
+          "rod": "Super Rod",
+          "details": "40% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,68",
+            "encounterRecordIndex": 103,
+            "slot": 6
+          }
+        },
+        {
+          "pokemon": "Tentacruel",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 15,
+          "subarea": "Main area",
+          "rod": "Super Rod",
+          "details": "15% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,68",
+            "encounterRecordIndex": 103,
+            "slot": 7
+          }
+        },
+        {
+          "pokemon": "Lanturn",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 4,
+          "subarea": "Main area",
+          "rod": "Super Rod",
+          "details": "4% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,68",
+            "encounterRecordIndex": 103,
+            "slot": 8
+          }
+        },
+        {
+          "pokemon": "Shellos-East",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 1,
+          "subarea": "Main area",
+          "rod": "Super Rod",
+          "details": "1% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,68",
+            "encounterRecordIndex": 103,
+            "slot": 9
+          }
+        },
+        {
+          "pokemon": "Carvanha",
+          "method": "Surf",
+          "level": "15-40",
+          "rarity": 60,
+          "subarea": "Northern area",
+          "details": "60% slot; 12% encounter rate",
+          "encounterRate": 12,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,78",
+            "encounterRecordIndex": 66,
+            "slot": 0
+          }
+        },
+        {
+          "pokemon": "Corphish",
+          "method": "Surf",
+          "level": "15-40",
+          "rarity": 30,
+          "subarea": "Northern area",
+          "details": "30% slot; 12% encounter rate",
+          "encounterRate": 12,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,78",
+            "encounterRecordIndex": 66,
+            "slot": 1
+          }
+        },
+        {
+          "pokemon": "Corsola",
+          "method": "Surf",
+          "level": "15-40",
+          "rarity": 5,
+          "subarea": "Northern area",
+          "details": "5% slot; 12% encounter rate",
+          "encounterRate": 12,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,78",
+            "encounterRecordIndex": 66,
+            "slot": 2
+          }
+        },
+        {
+          "pokemon": "Octillery",
+          "method": "Surf",
+          "level": "15-40",
+          "rarity": 4,
+          "subarea": "Northern area",
+          "details": "4% slot; 12% encounter rate",
+          "encounterRate": 12,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,78",
+            "encounterRecordIndex": 66,
+            "slot": 3
+          }
+        },
+        {
+          "pokemon": "Sharpedo",
+          "method": "Surf",
+          "level": "15-40",
+          "rarity": 1,
+          "subarea": "Northern area",
+          "details": "1% slot; 12% encounter rate",
+          "encounterRate": 12,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,78",
+            "encounterRecordIndex": 66,
+            "slot": 4
+          }
+        },
+        {
+          "pokemon": "Luvdisc",
+          "method": "Fish",
+          "level": "10",
+          "rarity": 70,
+          "subarea": "Northern area",
+          "rod": "Old Rod",
+          "details": "70% slot; 20% encounter rate",
+          "encounterRate": 20,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,78",
+            "encounterRecordIndex": 66,
+            "slot": 0
+          }
+        },
+        {
+          "pokemon": "Carvanha",
+          "method": "Fish",
+          "level": "10",
+          "rarity": 30,
+          "subarea": "Northern area",
+          "rod": "Old Rod",
+          "details": "30% slot; 20% encounter rate",
+          "encounterRate": 20,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,78",
+            "encounterRecordIndex": 66,
+            "slot": 1
+          }
+        },
+        {
+          "pokemon": "Huntail",
+          "method": "Fish",
+          "level": "15-25",
+          "rarity": 60,
+          "subarea": "Northern area",
+          "rod": "Good Rod",
+          "details": "60% slot; 20% encounter rate",
+          "encounterRate": 20,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,78",
+            "encounterRecordIndex": 66,
+            "slot": 2
+          }
+        },
+        {
+          "pokemon": "Barboach",
+          "method": "Fish",
+          "level": "20-30",
+          "rarity": 20,
+          "subarea": "Northern area",
+          "rod": "Good Rod",
+          "details": "20% slot; 20% encounter rate",
+          "encounterRate": 20,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,78",
+            "encounterRecordIndex": 66,
+            "slot": 3
+          }
+        },
+        {
+          "pokemon": "Barboach",
+          "method": "Fish",
+          "level": "20-35",
+          "rarity": 20,
+          "subarea": "Northern area",
+          "rod": "Good Rod",
+          "details": "20% slot; 20% encounter rate",
+          "encounterRate": 20,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,78",
+            "encounterRecordIndex": 66,
+            "slot": 4
+          }
+        },
+        {
+          "pokemon": "Tentacruel",
+          "method": "Fish",
+          "level": "35",
+          "rarity": 40,
+          "subarea": "Northern area",
+          "rod": "Super Rod",
+          "details": "40% slot; 20% encounter rate",
+          "encounterRate": 20,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,78",
+            "encounterRecordIndex": 66,
+            "slot": 5
+          }
+        },
+        {
+          "pokemon": "Gorebyss",
+          "method": "Fish",
+          "level": "35-40",
+          "rarity": 40,
+          "subarea": "Northern area",
+          "rod": "Super Rod",
+          "details": "40% slot; 20% encounter rate",
+          "encounterRate": 20,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,78",
+            "encounterRecordIndex": 66,
+            "slot": 6
+          }
+        },
+        {
+          "pokemon": "Whiscash",
+          "method": "Fish",
+          "level": "35-45",
+          "rarity": 15,
+          "subarea": "Northern area",
+          "rod": "Super Rod",
+          "details": "15% slot; 20% encounter rate",
+          "encounterRate": 20,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,78",
+            "encounterRecordIndex": 66,
+            "slot": 7
+          }
+        },
+        {
+          "pokemon": "Clamperl",
+          "method": "Fish",
+          "level": "40-45",
+          "rarity": 4,
+          "subarea": "Northern area",
+          "rod": "Super Rod",
+          "details": "4% slot; 20% encounter rate",
+          "encounterRate": 20,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,78",
+            "encounterRecordIndex": 66,
+            "slot": 8
+          }
+        },
+        {
+          "pokemon": "Relicanth",
+          "method": "Fish",
+          "level": "45-55",
+          "rarity": 1,
+          "subarea": "Northern area",
+          "rod": "Super Rod",
+          "details": "1% slot; 20% encounter rate",
+          "encounterRate": 20,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,78",
+            "encounterRecordIndex": 66,
+            "slot": 9
+          }
+        }
+      ],
+      "night": [
+        {
+          "pokemon": "Golbat",
+          "method": "Wild",
+          "level": "33-35",
+          "rarity": 20,
+          "subarea": "Cavern",
+          "details": "20% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,8",
+            "encounterRecordIndex": 78,
+            "slot": 0
+          }
+        },
+        {
+          "pokemon": "Raticate",
+          "method": "Wild",
+          "level": "33-35",
+          "rarity": 20,
+          "subarea": "Cavern",
+          "details": "20% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,8",
+            "encounterRecordIndex": 78,
+            "slot": 1
+          }
+        },
+        {
+          "pokemon": "Quagsire",
+          "method": "Wild",
+          "level": "33-35",
+          "rarity": 10,
+          "subarea": "Cavern",
+          "details": "10% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,8",
+            "encounterRecordIndex": 78,
+            "slot": 2
+          }
+        },
+        {
+          "pokemon": "Graveler",
+          "method": "Wild",
+          "level": "33-35",
+          "rarity": 10,
+          "subarea": "Cavern",
+          "details": "10% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,8",
+            "encounterRecordIndex": 78,
+            "slot": 3
+          }
+        },
+        {
+          "pokemon": "Onix",
+          "method": "Wild",
+          "level": "33-35",
+          "rarity": 10,
+          "subarea": "Cavern",
+          "details": "10% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,8",
+            "encounterRecordIndex": 78,
+            "slot": 4
+          }
+        },
+        {
+          "pokemon": "Sandslash",
+          "method": "Wild",
+          "level": "33-35",
+          "rarity": 10,
+          "subarea": "Cavern",
+          "details": "10% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,8",
+            "encounterRecordIndex": 78,
+            "slot": 5
+          }
+        },
+        {
+          "pokemon": "Slowbro",
+          "method": "Wild",
+          "level": "33-35",
+          "rarity": 5,
+          "subarea": "Cavern",
+          "details": "5% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,8",
+            "encounterRecordIndex": 78,
+            "slot": 6
+          }
+        },
+        {
+          "pokemon": "Slowking",
+          "method": "Wild",
+          "level": "33-35",
+          "rarity": 5,
+          "subarea": "Cavern",
+          "details": "5% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,8",
+            "encounterRecordIndex": 78,
+            "slot": 7
+          }
+        },
+        {
+          "pokemon": "Gastrodon-East",
+          "method": "Wild",
+          "level": "33-35",
+          "rarity": 4,
+          "subarea": "Cavern",
+          "details": "4% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,8",
+            "encounterRecordIndex": 78,
+            "slot": 8
+          }
+        },
+        {
+          "pokemon": "Vibrava",
+          "method": "Wild",
+          "level": "33-35",
+          "rarity": 4,
+          "subarea": "Cavern",
+          "details": "4% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,8",
+            "encounterRecordIndex": 78,
+            "slot": 9
+          }
+        },
+        {
+          "pokemon": "Loudred",
+          "method": "Wild",
+          "level": "33-35",
+          "rarity": 1,
+          "subarea": "Cavern",
+          "details": "1% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,8",
+            "encounterRecordIndex": 78,
+            "slot": 10
+          }
+        },
+        {
+          "pokemon": "Bibarel",
+          "method": "Wild",
+          "level": "33-35",
+          "rarity": 1,
+          "subarea": "Cavern",
+          "details": "1% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,8",
+            "encounterRecordIndex": 78,
+            "slot": 11
+          }
+        },
+        {
+          "pokemon": "Goldeen",
+          "method": "Surf",
+          "level": "29-32",
+          "rarity": 60,
+          "subarea": "Cavern",
+          "details": "60% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,8",
+            "encounterRecordIndex": 78,
+            "slot": 0
+          }
+        },
+        {
+          "pokemon": "Seaking",
+          "method": "Surf",
+          "level": "30-34",
+          "rarity": 30,
+          "subarea": "Cavern",
+          "details": "30% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,8",
+            "encounterRecordIndex": 78,
+            "slot": 1
+          }
+        },
+        {
+          "pokemon": "Chinchou",
+          "method": "Surf",
+          "level": "29-32",
+          "rarity": 5,
+          "subarea": "Cavern",
+          "details": "5% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,8",
+            "encounterRecordIndex": 78,
+            "slot": 2
+          }
+        },
+        {
+          "pokemon": "Lanturn",
+          "method": "Surf",
+          "level": "29-32",
+          "rarity": 4,
+          "subarea": "Cavern",
+          "details": "4% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,8",
+            "encounterRecordIndex": 78,
+            "slot": 3
+          }
+        },
+        {
+          "pokemon": "Shellos-East",
+          "method": "Surf",
+          "level": "30-34",
+          "rarity": 1,
+          "subarea": "Cavern",
+          "details": "1% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,8",
+            "encounterRecordIndex": 78,
+            "slot": 4
+          }
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Fish",
+          "level": "10",
+          "rarity": 70,
+          "subarea": "Cavern",
+          "rod": "Old Rod",
+          "details": "70% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,8",
+            "encounterRecordIndex": 78,
+            "slot": 0
+          }
+        },
+        {
+          "pokemon": "Goldeen",
+          "method": "Fish",
+          "level": "10",
+          "rarity": 30,
+          "subarea": "Cavern",
+          "rod": "Old Rod",
+          "details": "30% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,8",
+            "encounterRecordIndex": 78,
+            "slot": 1
+          }
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Fish",
+          "level": "20",
+          "rarity": 60,
+          "subarea": "Cavern",
+          "rod": "Good Rod",
+          "details": "60% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,8",
+            "encounterRecordIndex": 78,
+            "slot": 2
+          }
+        },
+        {
+          "pokemon": "Goldeen",
+          "method": "Fish",
+          "level": "20",
+          "rarity": 20,
+          "subarea": "Cavern",
+          "rod": "Good Rod",
+          "details": "20% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,8",
+            "encounterRecordIndex": 78,
+            "slot": 3
+          }
+        },
+        {
+          "pokemon": "Shellos-East",
+          "method": "Fish",
+          "level": "20",
+          "rarity": 20,
+          "subarea": "Cavern",
+          "rod": "Good Rod",
+          "details": "20% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,8",
+            "encounterRecordIndex": 78,
+            "slot": 4
+          }
+        },
+        {
+          "pokemon": "Goldeen",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 40,
+          "subarea": "Cavern",
+          "rod": "Super Rod",
+          "details": "40% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,8",
+            "encounterRecordIndex": 78,
+            "slot": 5
+          }
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 40,
+          "subarea": "Cavern",
+          "rod": "Super Rod",
+          "details": "40% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,8",
+            "encounterRecordIndex": 78,
+            "slot": 6
+          }
+        },
+        {
+          "pokemon": "Seaking",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 15,
+          "subarea": "Cavern",
+          "rod": "Super Rod",
+          "details": "15% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,8",
+            "encounterRecordIndex": 78,
+            "slot": 7
+          }
+        },
+        {
+          "pokemon": "Gyarados",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 4,
+          "subarea": "Cavern",
+          "rod": "Super Rod",
+          "details": "4% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,8",
+            "encounterRecordIndex": 78,
+            "slot": 8
+          }
+        },
+        {
+          "pokemon": "Gastrodon-East",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 1,
+          "subarea": "Cavern",
+          "rod": "Super Rod",
+          "details": "1% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "4,8",
+            "encounterRecordIndex": 78,
+            "slot": 9
+          }
+        },
+        {
+          "pokemon": "Arbok",
+          "method": "Wild",
+          "level": "34-36",
+          "rarity": 20,
+          "subarea": "Eastern area",
+          "details": "20% slot; 25% encounter rate",
+          "encounterRate": 25,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,69",
+            "encounterRecordIndex": 246,
+            "slot": 0
+          }
+        },
+        {
+          "pokemon": "Dodrio",
+          "method": "Wild",
+          "level": "34-36",
+          "rarity": 20,
+          "subarea": "Eastern area",
+          "details": "20% slot; 25% encounter rate",
+          "encounterRate": 25,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,69",
+            "encounterRecordIndex": 246,
+            "slot": 1
+          }
+        },
+        {
+          "pokemon": "Sandslash",
+          "method": "Wild",
+          "level": "34-36",
+          "rarity": 10,
+          "subarea": "Eastern area",
+          "details": "10% slot; 25% encounter rate",
+          "encounterRate": 25,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,69",
+            "encounterRecordIndex": 246,
+            "slot": 2
+          }
+        },
+        {
+          "pokemon": "Raticate",
+          "method": "Wild",
+          "level": "34-36",
+          "rarity": 10,
+          "subarea": "Eastern area",
+          "details": "10% slot; 25% encounter rate",
+          "encounterRate": 25,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,69",
+            "encounterRecordIndex": 246,
+            "slot": 3
+          }
+        },
+        {
+          "pokemon": "Ponyta",
+          "method": "Wild",
+          "level": "34-36",
+          "rarity": 10,
+          "subarea": "Eastern area",
+          "details": "10% slot; 25% encounter rate",
+          "encounterRate": 25,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,69",
+            "encounterRecordIndex": 246,
+            "slot": 4
+          }
+        },
+        {
+          "pokemon": "Noctowl",
+          "method": "Wild",
+          "level": "34-36",
+          "rarity": 10,
+          "subarea": "Eastern area",
+          "details": "10% slot; 25% encounter rate",
+          "encounterRate": 25,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,69",
+            "encounterRecordIndex": 246,
+            "slot": 5
+          }
+        },
+        {
+          "pokemon": "Jumpluff",
+          "method": "Wild",
+          "level": "34-36",
+          "rarity": 5,
+          "subarea": "Eastern area",
+          "details": "5% slot; 25% encounter rate",
+          "encounterRate": 25,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,69",
+            "encounterRecordIndex": 246,
+            "slot": 6
+          }
+        },
+        {
+          "pokemon": "Quagsire",
+          "method": "Wild",
+          "level": "34-36",
+          "rarity": 5,
+          "subarea": "Eastern area",
+          "details": "5% slot; 25% encounter rate",
+          "encounterRate": 25,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,69",
+            "encounterRecordIndex": 246,
+            "slot": 7
+          }
+        },
+        {
+          "pokemon": "Linoone",
+          "method": "Wild",
+          "level": "34-36",
+          "rarity": 4,
+          "subarea": "Eastern area",
+          "details": "4% slot; 25% encounter rate",
+          "encounterRate": 25,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,69",
+            "encounterRecordIndex": 246,
+            "slot": 8
+          }
+        },
+        {
+          "pokemon": "Mightyena",
+          "method": "Wild",
+          "level": "34-36",
+          "rarity": 4,
+          "subarea": "Eastern area",
+          "details": "4% slot; 25% encounter rate",
+          "encounterRate": 25,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,69",
+            "encounterRecordIndex": 246,
+            "slot": 9
+          }
+        },
+        {
+          "pokemon": "Kirlia",
+          "method": "Wild",
+          "level": "34-36",
+          "rarity": 1,
+          "subarea": "Eastern area",
+          "details": "1% slot; 25% encounter rate",
+          "encounterRate": 25,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,69",
+            "encounterRecordIndex": 246,
+            "slot": 10
+          }
+        },
+        {
+          "pokemon": "Luxio",
+          "method": "Wild",
+          "level": "34-36",
+          "rarity": 1,
+          "subarea": "Eastern area",
+          "details": "1% slot; 25% encounter rate",
+          "encounterRate": 25,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,69",
+            "encounterRecordIndex": 246,
+            "slot": 11
+          }
+        },
+        {
+          "pokemon": "Tentacool",
+          "method": "Surf",
+          "level": "15-24",
+          "rarity": 60,
+          "subarea": "Eastern area",
+          "details": "60% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,69",
+            "encounterRecordIndex": 246,
+            "slot": 0
+          }
+        },
+        {
+          "pokemon": "Chinchou",
+          "method": "Surf",
+          "level": "15-24",
+          "rarity": 30,
+          "subarea": "Eastern area",
+          "details": "30% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,69",
+            "encounterRecordIndex": 246,
+            "slot": 1
+          }
+        },
+        {
+          "pokemon": "Tentacruel",
+          "method": "Surf",
+          "level": "20-24",
+          "rarity": 5,
+          "subarea": "Eastern area",
+          "details": "5% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,69",
+            "encounterRecordIndex": 246,
+            "slot": 2
+          }
+        },
+        {
+          "pokemon": "Lanturn",
+          "method": "Surf",
+          "level": "20-24",
+          "rarity": 4,
+          "subarea": "Eastern area",
+          "details": "4% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,69",
+            "encounterRecordIndex": 246,
+            "slot": 3
+          }
+        },
+        {
+          "pokemon": "Shellder",
+          "method": "Surf",
+          "level": "20-24",
+          "rarity": 1,
+          "subarea": "Eastern area",
+          "details": "1% slot; 10% encounter rate",
+          "encounterRate": 10,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,69",
+            "encounterRecordIndex": 246,
+            "slot": 4
+          }
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Fish",
+          "level": "10",
+          "rarity": 70,
+          "subarea": "Eastern area",
+          "rod": "Old Rod",
+          "details": "70% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,69",
+            "encounterRecordIndex": 246,
+            "slot": 0
+          }
+        },
+        {
+          "pokemon": "Tentacool",
+          "method": "Fish",
+          "level": "10",
+          "rarity": 30,
+          "subarea": "Eastern area",
+          "rod": "Old Rod",
+          "details": "30% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,69",
+            "encounterRecordIndex": 246,
+            "slot": 1
+          }
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Fish",
+          "level": "20",
+          "rarity": 60,
+          "subarea": "Eastern area",
+          "rod": "Good Rod",
+          "details": "60% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,69",
+            "encounterRecordIndex": 246,
+            "slot": 2
+          }
+        },
+        {
+          "pokemon": "Shellder",
+          "method": "Fish",
+          "level": "20",
+          "rarity": 20,
+          "subarea": "Eastern area",
+          "rod": "Good Rod",
+          "details": "20% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,69",
+            "encounterRecordIndex": 246,
+            "slot": 3
+          }
+        },
+        {
+          "pokemon": "Chinchou",
+          "method": "Fish",
+          "level": "20",
+          "rarity": 20,
+          "subarea": "Eastern area",
+          "rod": "Good Rod",
+          "details": "20% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,69",
+            "encounterRecordIndex": 246,
+            "slot": 4
+          }
+        },
+        {
+          "pokemon": "Shellder",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 40,
+          "subarea": "Eastern area",
+          "rod": "Super Rod",
+          "details": "40% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,69",
+            "encounterRecordIndex": 246,
+            "slot": 5
+          }
+        },
+        {
+          "pokemon": "Chinchou",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 40,
+          "subarea": "Eastern area",
+          "rod": "Super Rod",
+          "details": "40% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,69",
+            "encounterRecordIndex": 246,
+            "slot": 6
+          }
+        },
+        {
+          "pokemon": "Tentacruel",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 15,
+          "subarea": "Eastern area",
+          "rod": "Super Rod",
+          "details": "15% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,69",
+            "encounterRecordIndex": 246,
+            "slot": 7
+          }
+        },
+        {
+          "pokemon": "Lanturn",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 4,
+          "subarea": "Eastern area",
+          "rod": "Super Rod",
+          "details": "4% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,69",
+            "encounterRecordIndex": 246,
+            "slot": 8
+          }
+        },
+        {
+          "pokemon": "Shellos-East",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 1,
+          "subarea": "Eastern area",
+          "rod": "Super Rod",
+          "details": "1% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,69",
+            "encounterRecordIndex": 246,
+            "slot": 9
+          }
+        },
+        {
+          "pokemon": "Arbok",
+          "method": "Wild",
+          "level": "34-36",
+          "rarity": 20,
+          "subarea": "Main area",
+          "details": "20% slot; 25% encounter rate",
+          "encounterRate": 25,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,68",
+            "encounterRecordIndex": 103,
+            "slot": 0
+          }
+        },
+        {
+          "pokemon": "Dodrio",
+          "method": "Wild",
+          "level": "34-36",
+          "rarity": 20,
+          "subarea": "Main area",
+          "details": "20% slot; 25% encounter rate",
+          "encounterRate": 25,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,68",
+            "encounterRecordIndex": 103,
+            "slot": 1
+          }
+        },
+        {
+          "pokemon": "Sandslash",
+          "method": "Wild",
+          "level": "34-36",
+          "rarity": 10,
+          "subarea": "Main area",
+          "details": "10% slot; 25% encounter rate",
+          "encounterRate": 25,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,68",
+            "encounterRecordIndex": 103,
+            "slot": 2
+          }
+        },
+        {
+          "pokemon": "Raticate",
+          "method": "Wild",
+          "level": "34-36",
+          "rarity": 10,
+          "subarea": "Main area",
+          "details": "10% slot; 25% encounter rate",
+          "encounterRate": 25,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,68",
+            "encounterRecordIndex": 103,
+            "slot": 3
+          }
+        },
+        {
+          "pokemon": "Ponyta",
+          "method": "Wild",
+          "level": "34-36",
+          "rarity": 10,
+          "subarea": "Main area",
+          "details": "10% slot; 25% encounter rate",
+          "encounterRate": 25,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,68",
+            "encounterRecordIndex": 103,
+            "slot": 4
+          }
+        },
+        {
+          "pokemon": "Noctowl",
+          "method": "Wild",
+          "level": "34-36",
+          "rarity": 10,
+          "subarea": "Main area",
+          "details": "10% slot; 25% encounter rate",
+          "encounterRate": 25,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,68",
+            "encounterRecordIndex": 103,
+            "slot": 5
+          }
+        },
+        {
+          "pokemon": "Jumpluff",
+          "method": "Wild",
+          "level": "34-36",
+          "rarity": 5,
+          "subarea": "Main area",
+          "details": "5% slot; 25% encounter rate",
+          "encounterRate": 25,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,68",
+            "encounterRecordIndex": 103,
+            "slot": 6
+          }
+        },
+        {
+          "pokemon": "Quagsire",
+          "method": "Wild",
+          "level": "34-36",
+          "rarity": 5,
+          "subarea": "Main area",
+          "details": "5% slot; 25% encounter rate",
+          "encounterRate": 25,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,68",
+            "encounterRecordIndex": 103,
+            "slot": 7
+          }
+        },
+        {
+          "pokemon": "Linoone",
+          "method": "Wild",
+          "level": "34-36",
+          "rarity": 4,
+          "subarea": "Main area",
+          "details": "4% slot; 25% encounter rate",
+          "encounterRate": 25,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,68",
+            "encounterRecordIndex": 103,
+            "slot": 8
+          }
+        },
+        {
+          "pokemon": "Mightyena",
+          "method": "Wild",
+          "level": "34-36",
+          "rarity": 4,
+          "subarea": "Main area",
+          "details": "4% slot; 25% encounter rate",
+          "encounterRate": 25,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,68",
+            "encounterRecordIndex": 103,
+            "slot": 9
+          }
+        },
+        {
+          "pokemon": "Kirlia",
+          "method": "Wild",
+          "level": "34-36",
+          "rarity": 1,
+          "subarea": "Main area",
+          "details": "1% slot; 25% encounter rate",
+          "encounterRate": 25,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,68",
+            "encounterRecordIndex": 103,
+            "slot": 10
+          }
+        },
+        {
+          "pokemon": "Luxio",
+          "method": "Wild",
+          "level": "34-36",
+          "rarity": 1,
+          "subarea": "Main area",
+          "details": "1% slot; 25% encounter rate",
+          "encounterRate": 25,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,68",
+            "encounterRecordIndex": 103,
+            "slot": 11
+          }
+        },
+        {
+          "pokemon": "Tentacool",
+          "method": "Surf",
+          "level": "15-24",
+          "rarity": 60,
+          "subarea": "Main area",
+          "details": "60% slot; 12% encounter rate",
+          "encounterRate": 12,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,68",
+            "encounterRecordIndex": 103,
+            "slot": 0
+          }
+        },
+        {
+          "pokemon": "Chinchou",
+          "method": "Surf",
+          "level": "15-24",
+          "rarity": 30,
+          "subarea": "Main area",
+          "details": "30% slot; 12% encounter rate",
+          "encounterRate": 12,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,68",
+            "encounterRecordIndex": 103,
+            "slot": 1
+          }
+        },
+        {
+          "pokemon": "Tentacruel",
+          "method": "Surf",
+          "level": "20-24",
+          "rarity": 5,
+          "subarea": "Main area",
+          "details": "5% slot; 12% encounter rate",
+          "encounterRate": 12,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,68",
+            "encounterRecordIndex": 103,
+            "slot": 2
+          }
+        },
+        {
+          "pokemon": "Lanturn",
+          "method": "Surf",
+          "level": "20-24",
+          "rarity": 4,
+          "subarea": "Main area",
+          "details": "4% slot; 12% encounter rate",
+          "encounterRate": 12,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,68",
+            "encounterRecordIndex": 103,
+            "slot": 3
+          }
+        },
+        {
+          "pokemon": "Shellos-East",
+          "method": "Surf",
+          "level": "20-24",
+          "rarity": 1,
+          "subarea": "Main area",
+          "details": "1% slot; 12% encounter rate",
+          "encounterRate": 12,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,68",
+            "encounterRecordIndex": 103,
+            "slot": 4
+          }
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Fish",
+          "level": "5-9",
+          "rarity": 70,
+          "subarea": "Main area",
+          "rod": "Old Rod",
+          "details": "70% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,68",
+            "encounterRecordIndex": 103,
+            "slot": 0
+          }
+        },
+        {
+          "pokemon": "Tentacool",
+          "method": "Fish",
+          "level": "5-9",
+          "rarity": 30,
+          "subarea": "Main area",
+          "rod": "Old Rod",
+          "details": "30% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,68",
+            "encounterRecordIndex": 103,
+            "slot": 1
+          }
+        },
+        {
+          "pokemon": "Magikarp",
+          "method": "Fish",
+          "level": "20",
+          "rarity": 60,
+          "subarea": "Main area",
+          "rod": "Good Rod",
+          "details": "60% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,68",
+            "encounterRecordIndex": 103,
+            "slot": 2
+          }
+        },
+        {
+          "pokemon": "Shellder",
+          "method": "Fish",
+          "level": "20",
+          "rarity": 20,
+          "subarea": "Main area",
+          "rod": "Good Rod",
+          "details": "20% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,68",
+            "encounterRecordIndex": 103,
+            "slot": 3
+          }
+        },
+        {
+          "pokemon": "Chinchou",
+          "method": "Fish",
+          "level": "20",
+          "rarity": 20,
+          "subarea": "Main area",
+          "rod": "Good Rod",
+          "details": "20% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,68",
+            "encounterRecordIndex": 103,
+            "slot": 4
+          }
+        },
+        {
+          "pokemon": "Shellder",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 40,
+          "subarea": "Main area",
+          "rod": "Super Rod",
+          "details": "40% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,68",
+            "encounterRecordIndex": 103,
+            "slot": 5
+          }
+        },
+        {
+          "pokemon": "Chinchou",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 40,
+          "subarea": "Main area",
+          "rod": "Super Rod",
+          "details": "40% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,68",
+            "encounterRecordIndex": 103,
+            "slot": 6
+          }
+        },
+        {
+          "pokemon": "Tentacruel",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 15,
+          "subarea": "Main area",
+          "rod": "Super Rod",
+          "details": "15% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,68",
+            "encounterRecordIndex": 103,
+            "slot": 7
+          }
+        },
+        {
+          "pokemon": "Lanturn",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 4,
+          "subarea": "Main area",
+          "rod": "Super Rod",
+          "details": "4% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,68",
+            "encounterRecordIndex": 103,
+            "slot": 8
+          }
+        },
+        {
+          "pokemon": "Shellos-East",
+          "method": "Fish",
+          "level": "40",
+          "rarity": 1,
+          "subarea": "Main area",
+          "rod": "Super Rod",
+          "details": "1% slot; 15% encounter rate",
+          "encounterRate": 15,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,68",
+            "encounterRecordIndex": 103,
+            "slot": 9
+          }
+        },
+        {
+          "pokemon": "Carvanha",
+          "method": "Surf",
+          "level": "15-40",
+          "rarity": 60,
+          "subarea": "Northern area",
+          "details": "60% slot; 12% encounter rate",
+          "encounterRate": 12,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,78",
+            "encounterRecordIndex": 66,
+            "slot": 0
+          }
+        },
+        {
+          "pokemon": "Corphish",
+          "method": "Surf",
+          "level": "15-40",
+          "rarity": 30,
+          "subarea": "Northern area",
+          "details": "30% slot; 12% encounter rate",
+          "encounterRate": 12,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,78",
+            "encounterRecordIndex": 66,
+            "slot": 1
+          }
+        },
+        {
+          "pokemon": "Corsola",
+          "method": "Surf",
+          "level": "15-40",
+          "rarity": 5,
+          "subarea": "Northern area",
+          "details": "5% slot; 12% encounter rate",
+          "encounterRate": 12,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,78",
+            "encounterRecordIndex": 66,
+            "slot": 2
+          }
+        },
+        {
+          "pokemon": "Octillery",
+          "method": "Surf",
+          "level": "15-40",
+          "rarity": 4,
+          "subarea": "Northern area",
+          "details": "4% slot; 12% encounter rate",
+          "encounterRate": 12,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,78",
+            "encounterRecordIndex": 66,
+            "slot": 3
+          }
+        },
+        {
+          "pokemon": "Sharpedo",
+          "method": "Surf",
+          "level": "15-40",
+          "rarity": 1,
+          "subarea": "Northern area",
+          "details": "1% slot; 12% encounter rate",
+          "encounterRate": 12,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,78",
+            "encounterRecordIndex": 66,
+            "slot": 4
+          }
+        },
+        {
+          "pokemon": "Luvdisc",
+          "method": "Fish",
+          "level": "10",
+          "rarity": 70,
+          "subarea": "Northern area",
+          "rod": "Old Rod",
+          "details": "70% slot; 20% encounter rate",
+          "encounterRate": 20,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,78",
+            "encounterRecordIndex": 66,
+            "slot": 0
+          }
+        },
+        {
+          "pokemon": "Carvanha",
+          "method": "Fish",
+          "level": "10",
+          "rarity": 30,
+          "subarea": "Northern area",
+          "rod": "Old Rod",
+          "details": "30% slot; 20% encounter rate",
+          "encounterRate": 20,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,78",
+            "encounterRecordIndex": 66,
+            "slot": 1
+          }
+        },
+        {
+          "pokemon": "Huntail",
+          "method": "Fish",
+          "level": "15-25",
+          "rarity": 60,
+          "subarea": "Northern area",
+          "rod": "Good Rod",
+          "details": "60% slot; 20% encounter rate",
+          "encounterRate": 20,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,78",
+            "encounterRecordIndex": 66,
+            "slot": 2
+          }
+        },
+        {
+          "pokemon": "Barboach",
+          "method": "Fish",
+          "level": "20-30",
+          "rarity": 20,
+          "subarea": "Northern area",
+          "rod": "Good Rod",
+          "details": "20% slot; 20% encounter rate",
+          "encounterRate": 20,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,78",
+            "encounterRecordIndex": 66,
+            "slot": 3
+          }
+        },
+        {
+          "pokemon": "Barboach",
+          "method": "Fish",
+          "level": "20-35",
+          "rarity": 20,
+          "subarea": "Northern area",
+          "rod": "Good Rod",
+          "details": "20% slot; 20% encounter rate",
+          "encounterRate": 20,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,78",
+            "encounterRecordIndex": 66,
+            "slot": 4
+          }
+        },
+        {
+          "pokemon": "Tentacruel",
+          "method": "Fish",
+          "level": "35",
+          "rarity": 40,
+          "subarea": "Northern area",
+          "rod": "Super Rod",
+          "details": "40% slot; 20% encounter rate",
+          "encounterRate": 20,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,78",
+            "encounterRecordIndex": 66,
+            "slot": 5
+          }
+        },
+        {
+          "pokemon": "Gorebyss",
+          "method": "Fish",
+          "level": "35-40",
+          "rarity": 40,
+          "subarea": "Northern area",
+          "rod": "Super Rod",
+          "details": "40% slot; 20% encounter rate",
+          "encounterRate": 20,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,78",
+            "encounterRecordIndex": 66,
+            "slot": 6
+          }
+        },
+        {
+          "pokemon": "Whiscash",
+          "method": "Fish",
+          "level": "35-45",
+          "rarity": 15,
+          "subarea": "Northern area",
+          "rod": "Super Rod",
+          "details": "15% slot; 20% encounter rate",
+          "encounterRate": 20,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,78",
+            "encounterRecordIndex": 66,
+            "slot": 7
+          }
+        },
+        {
+          "pokemon": "Clamperl",
+          "method": "Fish",
+          "level": "40-45",
+          "rarity": 4,
+          "subarea": "Northern area",
+          "rod": "Super Rod",
+          "details": "4% slot; 20% encounter rate",
+          "encounterRate": 20,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,78",
+            "encounterRecordIndex": 66,
+            "slot": 8
+          }
+        },
+        {
+          "pokemon": "Relicanth",
+          "method": "Fish",
+          "level": "45-55",
+          "rarity": 1,
+          "subarea": "Northern area",
+          "rod": "Super Rod",
+          "details": "1% slot; 20% encounter rate",
+          "encounterRate": 20,
+          "period": "all-day",
+          "source": {
+            "kind": "rom-audit",
+            "gameVersion": "2026-07-19",
+            "mapKey": "3,78",
+            "encounterRecordIndex": 66,
+            "slot": 9
+          }
+        }
+      ],
+      "periodModel": "all-day",
+      "source": {
+        "kind": "sevii-rom-safe-tranche",
+        "gameVersion": "2026-07-19",
+        "romSha256": "716F2CBFB731E6DC1E014B6B6744B823389262DCC0086A120C1E0FB3D80DD34B",
+        "mapKeys": [
+          "4,8",
+          "3,69",
+          "3,68",
+          "3,78"
         ],
         "crosswalk": "sources/normalized/sevii-map-crosswalk-2026-09-25.json"
       }
