@@ -6,7 +6,9 @@ param(
 
   [string]$ExtractionPath = (Join-Path $PSScriptRoot "..\sources\reports\sevii-rom-extraction.json"),
 
-  [string]$OutputDirectory = (Join-Path $PSScriptRoot "..\work\sevii-map-previews")
+  [string]$OutputDirectory = (Join-Path $PSScriptRoot "..\work\sevii-map-previews"),
+
+  [string[]]$TargetMapKeys = @()
 )
 
 $ErrorActionPreference = "Stop"
@@ -31,11 +33,17 @@ if ($actualSha256 -ne $ExpectedSha256) {
 
 $report = Get-Content -LiteralPath $ExtractionPath -Raw | ConvertFrom-Json
 $mapKeys = [Collections.Generic.HashSet[string]]::new([StringComparer]::Ordinal)
-foreach ($map in $report.maps) {
-  $null = $mapKeys.Add($map.key)
-  foreach ($edge in @($map.warps) + @($map.connections)) {
-    if ($null -ne $edge -and -not [string]::IsNullOrWhiteSpace($edge.targetKey)) {
-      $null = $mapKeys.Add($edge.targetKey)
+if ($TargetMapKeys.Count -gt 0) {
+  foreach ($key in $TargetMapKeys) {
+    $null = $mapKeys.Add($key)
+  }
+} else {
+  foreach ($map in $report.maps) {
+    $null = $mapKeys.Add($map.key)
+    foreach ($edge in @($map.warps) + @($map.connections)) {
+      if ($null -ne $edge -and -not [string]::IsNullOrWhiteSpace($edge.targetKey)) {
+        $null = $mapKeys.Add($edge.targetKey)
+      }
     }
   }
 }

@@ -58,15 +58,41 @@ const skippedMethods = [];
 const skippedAlternateGroups = [];
 const removedExactDuplicateTables = [];
 const acceptedTables = [];
+// Hex Maniac exposes one five-slot field for both Gen III interaction methods.
+// These map-level decisions are limited to layouts reviewed against the ROM:
+// outdoor tree-rich maps use the workbook's Headbutt/Tree semantics, while the
+// two One Island caverns contain Rock Smash objects whose script checks move 249.
+const reviewedTreeRockMethods = new Map([
+  ["1,0", { method: "Tree", evidence: "Tree-rich outdoor layout; encounter species align with documented Headbutt pools." }],
+  ["3,51", { method: "Tree", evidence: "Tree-rich outdoor layout; encounter species align with documented Headbutt pools." }],
+  ["3,68", { method: "Tree", evidence: "Tree-rich outdoor layout; encounter species align with documented Headbutt pools." }],
+  ["3,69", { method: "Tree", evidence: "Tree-rich outdoor layout; encounter species align with documented Headbutt pools." }],
+  ["1,1", { method: "Rock", evidence: "Four graphicsId 96 objects call script 0x1BE00C, which checks move 249 (Rock Smash)." }],
+  ["1,3", { method: "Rock", evidence: "Six graphicsId 96 objects call script 0x1BE00C, which checks move 249 (Rock Smash)." }],
+]);
 const encounterGroups = Map.groupBy(
   extraction.wildEncounters.filter((record) => readyMaps.has(record.mapKey)),
   (record) => `${record.mapKey}|${record.sourceField}`,
 );
 
-for (const [groupKey, records] of encounterGroups) {
+for (const [groupKey, sourceRecords] of encounterGroups) {
+  let records = sourceRecords;
   if (records.some((record) => record.method === "Tree/Rock ROM slot")) {
-    skippedMethods.push({ groupKey, reason: "Tree-versus-Rock semantics unresolved", recordIndexes: records.map((record) => record.encounterRecordIndex) });
-    continue;
+    const mapKey = records[0].mapKey;
+    const review = reviewedTreeRockMethods.get(mapKey);
+    if (!review) {
+      skippedMethods.push({
+        groupKey,
+        reason: "No reachable Tree or Rock interaction found in the reviewed layout and object events",
+        recordIndexes: records.map((record) => record.encounterRecordIndex),
+      });
+      continue;
+    }
+    records = records.map((record) => ({
+      ...record,
+      method: review.method,
+      interactionMethodEvidence: review.evidence,
+    }));
   }
   const nonzero = records.filter((record) => record.encounterRate > 0);
   if (!nonzero.length) {
@@ -125,6 +151,7 @@ for (const table of acceptedTables) {
         mapKey: table.mapKey,
         encounterRecordIndex: table.encounterRecordIndex,
         slot: entry.slot,
+        ...(table.interactionMethodEvidence ? { interactionMethodEvidence: table.interactionMethodEvidence } : {}),
       },
     });
   }
@@ -180,7 +207,7 @@ guideOverride.meta.source = "Crystal Advance Redux community workbook (data curr
 guideOverride.meta.limitations = guideOverride.meta.limitations.filter((note) =>
   !note.startsWith("Post-2026-07-01 Sevii encounter")
   && !note.startsWith("ROM-derived Sevii coverage currently includes only"));
-const safeTrancheNote = "ROM-derived Sevii coverage currently includes only map-stable Wild, Surf and Fish encounter tables plus standard/hidden item placements; Tree/Rock, alternate tables, trainer stages and maps with unproven runtime identities remain gated. Reviewed mapType 5 records match existing workbook Dive pools and are excluded rather than re-imported as Sevii content.";
+const safeTrancheNote = "ROM-derived Sevii coverage includes map-stable Wild, Surf and Fish tables, six map-reviewed Tree/Rock interaction tables, and standard/hidden item placements. Alternate tables, trainer stages and maps with unproven runtime identities remain gated; the Ruins Cavern combined slot stays excluded because the reviewed layout exposes neither interaction. Reviewed mapType 5 records match existing workbook Dive pools and are excluded rather than re-imported as Sevii content.";
 if (!guideOverride.meta.limitations.includes(safeTrancheNote)) guideOverride.meta.limitations.push(safeTrancheNote);
 
 const itemNameAliases = new Map([
@@ -253,6 +280,7 @@ const report = {
     encounterRecordIndex: table.encounterRecordIndex,
     method: table.method,
     encounterRate: table.encounterRate,
+    ...(table.interactionMethodEvidence ? { interactionMethodEvidence: table.interactionMethodEvidence } : {}),
   })),
   removedExactDuplicateTables,
   skippedMethods,
@@ -261,7 +289,7 @@ const report = {
   unresolvedItems,
   exclusions: [
     "All trainer battles remain excluded pending battle-stage semantics.",
-    "Tree/Rock ROM slots remain excluded pending interaction-method semantics.",
+    "The Ruins Cavern Tree/Rock ROM slot remains excluded because its reviewed layout and object events expose neither interaction.",
     "Distinct repeated tables remain excluded pending runtime selector semantics.",
     "Only maps marked ready in the normalized crosswalk are eligible.",
   ],

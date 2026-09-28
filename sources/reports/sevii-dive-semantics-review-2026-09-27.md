@@ -55,4 +55,4 @@ The snowy or reused rendered layouts and stale Five Island/Icefall region labels
 - active unresolved maps: 27 → 18
 - remaining unresolved dispositions: 13 reused-network runtime checks, four held runtime checks and one unrenderable layout
 
-The next useful static review target is the Mt. Ember and Two Island reused-network group. Runtime-only maps remain explicitly held.
+The next useful static review target was the Mt. Ember and Two Island reused-network group. That subsequent review excluded nine Mt. Ember-labelled S.S. Aqua headers and four Two Island-labelled Underground Path headers, reducing active unresolved maps from 18 to five. See `mt-ember-two-island-reused-network-review-2026-09-27.md`.

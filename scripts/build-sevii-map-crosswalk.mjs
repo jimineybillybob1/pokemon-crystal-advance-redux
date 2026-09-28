@@ -87,11 +87,57 @@ const reviewedHoldNotes = new Map([
   ["15,0", "Held after review: the building interior has no visible encounter terrain, yet the ROM header contains Wild, Surf and Fish tables; treat those tables as placeholders until runtime-tested."],
 ]);
 
-// Reviewed 2026-09-27 against the workbook encounter tables and raw map-header
-// mapType values. These headers are Johto/Kanto maps or underwater tables that
-// were pulled into the Sevii graph only by stale region labels/reused links.
+// Reviewed 2026-09-27 against the workbook encounter, battle and item tables,
+// rendered layouts and raw map-header mapType values. These headers are
+// Johto/Kanto maps or underwater tables that were pulled into the Sevii graph
+// only by stale region labels/reused links.
 // They must remain visible as audit evidence but cannot become Sevii content.
 const reviewedReusedMainlineMaps = new Map([
+  ["0,12", {
+    matchedWorkbookLocations: ["S.S. Aqua"],
+    encounterSemantics: "S.S. Aqua Cabin 4 trainer variants",
+    reason: "The rendered cabin and every extracted trainer party (Ethan, Carol and Sean) match the workbook's direction-specific S.S. Aqua Cabin 4 records exactly. The Mt. Ember region label is stale reuse.",
+  }],
+  ["0,13", {
+    matchedWorkbookLocations: ["S.S. Aqua"],
+    encounterSemantics: "S.S. Aqua Cabin 5 trainer variant",
+    reason: "The rendered cabin and Shawn's extracted party match the workbook's S.S. Aqua Cabin 5 record exactly. The Mt. Ember region label is stale reuse.",
+  }],
+  ["1,6", {
+    matchedWorkbookLocations: ["S.S. Aqua"],
+    encounterSemantics: "S.S. Aqua B1F trainer set",
+    reason: "The ship-corridor layout and all ten extracted trainer parties match the workbook's S.S. Aqua B1F records exactly across the first and repeatable trips. The Mt. Ember region label is stale reuse.",
+  }],
+  ["1,10", {
+    matchedWorkbookLocations: ["S.S. Aqua"],
+    encounterSemantics: "S.S. Aqua Captain's room item",
+    reason: "The rendered Captain's room contains TM20, matching the workbook's TM20 Dive placement on the table in the S.S. Aqua Captain's room. The Mt. Ember region label is stale reuse.",
+  }],
+  ["4,15", {
+    matchedWorkbookLocations: ["S.S. Aqua"],
+    encounterSemantics: "S.S. Aqua Cabin 2 trainer variants",
+    reason: "The rendered cabin and the extracted Corey, Edward and Stanly parties match the workbook's direction- and trip-specific S.S. Aqua Cabin 2 records exactly. The Mt. Ember region label is stale reuse.",
+  }],
+  ["4,16", {
+    matchedWorkbookLocations: ["S.S. Aqua"],
+    encounterSemantics: "S.S. Aqua Cabin 3 trainer variant",
+    reason: "The rendered cabin and Noland's extracted party match the workbook's S.S. Aqua Cabin 3 record exactly. The Mt. Ember region label is stale reuse.",
+  }],
+  ["4,19", {
+    matchedWorkbookLocations: ["S.S. Aqua"],
+    encounterSemantics: "S.S. Aqua Cabin 6 trainer variants",
+    reason: "The rendered cabin and the extracted Colin, Georgia, Jeremy, Meg & Peg and Rodney parties match the workbook's direction- and trip-specific S.S. Aqua Cabin 6 records exactly. The Mt. Ember region label is stale reuse.",
+  }],
+  ["4,20", {
+    matchedWorkbookLocations: ["S.S. Aqua"],
+    encounterSemantics: "S.S. Aqua Cabin 7 trainer variants",
+    reason: "The rendered cabin and the extracted Cassie and Clyde parties match the workbook's direction-specific S.S. Aqua Cabin 7 records exactly. The Mt. Ember region label is stale reuse.",
+  }],
+  ["4,21", {
+    matchedWorkbookLocations: ["S.S. Aqua"],
+    encounterSemantics: "S.S. Aqua Cabin 8 trainer variants",
+    reason: "The rendered cabin and the extracted Lyle and Ken parties match the workbook's direction- and trip-specific S.S. Aqua Cabin 8 records exactly. The Mt. Ember region label is stale reuse.",
+  }],
   ["3,0", {
     matchedWorkbookLocations: ["New Bark Town"],
     encounterSemantics: "ordinary Surf/Fish/Tree",
@@ -137,15 +183,29 @@ const reviewedReusedMainlineMaps = new Map([
     encounterSemantics: "Dive Grass/open-water pool",
     reason: "After combining repeated species slots, this mapType 5 header matches the shared Johto Dive Grass pool and its five-slot open-water table matches the workbook exactly; it is not an Icefall Cave encounter map.",
   }],
+  ["1,34", {
+    matchedWorkbookLocations: ["Underground Path"],
+    encounterSemantics: "Underground Path R5-R6 hidden-item corridor",
+    reason: "The rendered vertical corridor and all seven hidden items match the workbook's Underground Path R5-R6 placements exactly. Its only entrances are reused Kanto gate maps, so the Two Island region label is stale reuse.",
+  }],
+  ["4,47", {
+    matchedWorkbookLocations: ["Underground Path"],
+    encounterSemantics: "Underground Path gatehouse",
+    reason: "The rendered gatehouse leads to the R7-R8 corridor, and its NPC script talks about the sleeping Pokemon near Celadon. This is Kanto Underground Path content with a stale Two Island label.",
+  }],
+  ["4,48", {
+    matchedWorkbookLocations: ["Underground Path"],
+    encounterSemantics: "Underground Path R7-R8 hidden-item corridor",
+    reason: "The rendered horizontal corridor and all seven hidden items match the workbook's Underground Path R7-R8 placements exactly. Its non-zero Wild/Surf headers are unreachable placeholders rather than Two Island encounters.",
+  }],
+  ["4,49", {
+    matchedWorkbookLocations: ["Underground Path"],
+    encounterSemantics: "Underground Path gatehouse",
+    reason: "The rendered gatehouse leads to the R7-R8 corridor, and its NPC script discusses Celadon Department Store. This is Kanto Underground Path content with a stale Two Island label.",
+  }],
 ]);
 
 const unresolvedTriageGroups = [
-  {
-    disposition: "runtime-reused-network",
-    priority: 3,
-    mapKeys: ["0,12", "0,13", "1,6", "1,10", "1,34", "4,15", "4,16", "4,19", "4,20", "4,21", "4,47", "4,48", "4,49"],
-    reason: "These Mt. Ember and Two Island headers render as bedrooms, ship corridors or narrow building links and connect into reused Johto/Kanto networks. Runtime reachability is required before treating their records as Sevii content.",
-  },
   {
     disposition: "runtime-confirmation-held",
     priority: 4,
@@ -209,7 +269,7 @@ const maps = extraction.maps.map((map) => {
   if (ambiguousParent) notes.push(`Possible parents: ${map.inferredRegions.join(", ")}.`);
   if (malformed) notes.push("Map header/layout dimensions are invalid and this record must not be imported.");
   if (subarea.startsWith("Map ")) notes.push("User-facing subarea name has not yet been established.");
-  if (map.regionName === "Mt. Ember" && activeRecordCount > 0) {
+  if (map.regionName === "Mt. Ember" && activeRecordCount > 0 && !reviewedReusedMainlineMaps.has(map.key)) {
     notes.push("Rendered layout resembles reused ship/room maps; verify in-game reachability before importing battles.");
   }
   if (reviewedReadyNotes.has(map.key)) notes.push(reviewedReadyNotes.get(map.key));

@@ -1,0 +1,356 @@
+{
+  "meta": {
+    "title": "Pokemon Crystal Advance Redux targeted inbound map-link trace",
+    "gameVersion": "2026-07-19",
+    "tracedAt": "2026-09-28T09:08:00.9812248Z",
+    "romSha256": "716F2CBFB731E6DC1E014B6B6744B823389262DCC0086A120C1E0FB3D80DD34B",
+    "extractionTool": "Hex Maniac Advance Core 0.6.1 plus project raw map-link tracer",
+    "notes": [
+      "The ROM itself is not copied into the project.",
+      "This report scans every valid map header but stores only links whose destination is one of the requested target keys.",
+      "A link proves that a map header points at a target; it does not by itself prove that the source map or warp is reachable during normal gameplay."
+    ]
+  },
+  "summary": {
+    "scannedMapCount": 865,
+    "targetMapCount": 4,
+    "inboundLinkCount": 15,
+    "reciprocalInboundLinkCount": 8
+  },
+  "targetMaps": [
+    {
+      "key": "1,34",
+      "regionName": "Two Island",
+      "layoutId": 173,
+      "headerAddress": "0x34F5CC",
+      "eventsAddress": "0x3AF3E4",
+      "eventCounts": {
+        "objects": 1,
+        "warps": 2,
+        "coordinateScripts": 0,
+        "signposts": 7
+      },
+      "objects": [
+        {
+          "index": 0,
+          "localId": 50,
+          "graphicsId": 240,
+          "x": 6,
+          "y": 48,
+          "elevation": 0,
+          "movementType": 0,
+          "trainerType": 0,
+          "scriptAddress": "0x1F4520",
+          "flagId": 0
+        }
+      ],
+      "incomingLinkCount": 2,
+      "outgoingTargetKeys": [
+        "4,93",
+        "4,94"
+      ]
+    },
+    {
+      "key": "4,47",
+      "regionName": "Two Island",
+      "layoutId": 533,
+      "headerAddress": "0x911214",
+      "eventsAddress": "0xAB0F4C",
+      "eventCounts": {
+        "objects": 2,
+        "warps": 4,
+        "coordinateScripts": 0,
+        "signposts": 0
+      },
+      "objects": [
+        {
+          "index": 0,
+          "localId": 1,
+          "graphicsId": 52,
+          "x": 7,
+          "y": 6,
+          "elevation": 3,
+          "movementType": 1,
+          "trainerType": 0,
+          "scriptAddress": "0x160ECA",
+          "flagId": 0
+        },
+        {
+          "index": 1,
+          "localId": 50,
+          "graphicsId": 240,
+          "x": 0,
+          "y": 0,
+          "elevation": 0,
+          "movementType": 0,
+          "trainerType": 0,
+          "scriptAddress": "0x1F4520",
+          "flagId": 0
+        }
+      ],
+      "incomingLinkCount": 4,
+      "outgoingTargetKeys": [
+        "3,25",
+        "4,48"
+      ]
+    },
+    {
+      "key": "4,48",
+      "regionName": "Two Island",
+      "layoutId": 534,
+      "headerAddress": "0x912614",
+      "eventsAddress": "0x91A1FC",
+      "eventCounts": {
+        "objects": 1,
+        "warps": 2,
+        "coordinateScripts": 0,
+        "signposts": 7
+      },
+      "objects": [
+        {
+          "index": 0,
+          "localId": 50,
+          "graphicsId": 240,
+          "x": 0,
+          "y": 3,
+          "elevation": 0,
+          "movementType": 0,
+          "trainerType": 0,
+          "scriptAddress": "0x1F4520",
+          "flagId": 0
+        }
+      ],
+      "incomingLinkCount": 6,
+      "outgoingTargetKeys": [
+        "4,47",
+        "4,49"
+      ]
+    },
+    {
+      "key": "4,49",
+      "regionName": "Two Island",
+      "layoutId": 535,
+      "headerAddress": "0x916528",
+      "eventsAddress": "0x8CD450",
+      "eventCounts": {
+        "objects": 2,
+        "warps": 4,
+        "coordinateScripts": 0,
+        "signposts": 0
+      },
+      "objects": [
+        {
+          "index": 0,
+          "localId": 1,
+          "graphicsId": 52,
+          "x": 5,
+          "y": 6,
+          "elevation": 3,
+          "movementType": 1,
+          "trainerType": 0,
+          "scriptAddress": "0x160EDE",
+          "flagId": 0
+        },
+        {
+          "index": 1,
+          "localId": 50,
+          "graphicsId": 240,
+          "x": 0,
+          "y": 0,
+          "elevation": 0,
+          "movementType": 0,
+          "trainerType": 0,
+          "scriptAddress": "0x1F4520",
+          "flagId": 0
+        }
+      ],
+      "incomingLinkCount": 3,
+      "outgoingTargetKeys": [
+        "3,26",
+        "4,48"
+      ]
+    }
+  ],
+  "inboundLinks": [
+    {
+      "kind": "warp",
+      "sourceKey": "4,93",
+      "sourceRegionName": "Cerulean Cave",
+      "sourceLayoutId": 582,
+      "sourceX": 12,
+      "sourceY": 8,
+      "sourceElevation": 3,
+      "sourceWarpId": 1,
+      "targetKey": "1,34",
+      "reciprocal": true
+    },
+    {
+      "kind": "warp",
+      "sourceKey": "4,94",
+      "sourceRegionName": "(kanto)",
+      "sourceLayoutId": 583,
+      "sourceX": 14,
+      "sourceY": 8,
+      "sourceElevation": 3,
+      "sourceWarpId": 0,
+      "targetKey": "1,34",
+      "reciprocal": true
+    },
+    {
+      "kind": "warp",
+      "sourceKey": "3,25",
+      "sourceRegionName": "Soul House",
+      "sourceLayoutId": 95,
+      "sourceX": 3,
+      "sourceY": 12,
+      "sourceElevation": 0,
+      "sourceWarpId": 1,
+      "targetKey": "4,47",
+      "reciprocal": true
+    },
+    {
+      "kind": "warp",
+      "sourceKey": "4,48",
+      "sourceRegionName": "Two Island",
+      "sourceLayoutId": 534,
+      "sourceX": 3,
+      "sourceY": 4,
+      "sourceElevation": 3,
+      "sourceWarpId": 3,
+      "targetKey": "4,47",
+      "reciprocal": true
+    },
+    {
+      "kind": "warp",
+      "sourceKey": "4,50",
+      "sourceRegionName": null,
+      "sourceLayoutId": 536,
+      "sourceX": 21,
+      "sourceY": 39,
+      "sourceElevation": 0,
+      "sourceWarpId": 5,
+      "targetKey": "4,47",
+      "reciprocal": false
+    },
+    {
+      "kind": "warp",
+      "sourceKey": "5,53",
+      "sourceRegionName": "Route 45",
+      "sourceLayoutId": 685,
+      "sourceX": 40,
+      "sourceY": 24,
+      "sourceElevation": 0,
+      "sourceWarpId": 6,
+      "targetKey": "4,47",
+      "reciprocal": false
+    },
+    {
+      "kind": "warp",
+      "sourceKey": "3,5",
+      "sourceRegionName": "Ruins Of Alph",
+      "sourceLayoutId": 83,
+      "sourceX": 0,
+      "sourceY": 1,
+      "sourceElevation": 0,
+      "sourceWarpId": 14,
+      "targetKey": "4,48",
+      "reciprocal": false
+    },
+    {
+      "kind": "warp",
+      "sourceKey": "4,47",
+      "sourceRegionName": "Two Island",
+      "sourceLayoutId": 533,
+      "sourceX": 5,
+      "sourceY": 4,
+      "sourceElevation": 3,
+      "sourceWarpId": 1,
+      "targetKey": "4,48",
+      "reciprocal": true
+    },
+    {
+      "kind": "warp",
+      "sourceKey": "4,49",
+      "sourceRegionName": "Two Island",
+      "sourceLayoutId": 535,
+      "sourceX": 7,
+      "sourceY": 4,
+      "sourceElevation": 3,
+      "sourceWarpId": 0,
+      "targetKey": "4,48",
+      "reciprocal": true
+    },
+    {
+      "kind": "warp",
+      "sourceKey": "4,5",
+      "sourceRegionName": null,
+      "sourceLayoutId": 421,
+      "sourceX": 7,
+      "sourceY": 24,
+      "sourceElevation": 0,
+      "sourceWarpId": 23,
+      "targetKey": "4,48",
+      "reciprocal": false
+    },
+    {
+      "kind": "warp",
+      "sourceKey": "4,50",
+      "sourceRegionName": null,
+      "sourceLayoutId": 536,
+      "sourceX": 12,
+      "sourceY": 4,
+      "sourceElevation": 0,
+      "sourceWarpId": 6,
+      "targetKey": "4,48",
+      "reciprocal": false
+    },
+    {
+      "kind": "warp",
+      "sourceKey": "4,50",
+      "sourceRegionName": null,
+      "sourceLayoutId": 536,
+      "sourceX": 36,
+      "sourceY": 0,
+      "sourceElevation": 0,
+      "sourceWarpId": 0,
+      "targetKey": "4,48",
+      "reciprocal": false
+    },
+    {
+      "kind": "warp",
+      "sourceKey": "3,26",
+      "sourceRegionName": "Battle Tower",
+      "sourceLayoutId": 96,
+      "sourceX": 8,
+      "sourceY": 8,
+      "sourceElevation": 0,
+      "sourceWarpId": 1,
+      "targetKey": "4,49",
+      "reciprocal": true
+    },
+    {
+      "kind": "warp",
+      "sourceKey": "4,48",
+      "sourceRegionName": "Two Island",
+      "sourceLayoutId": 534,
+      "sourceX": 76,
+      "sourceY": 4,
+      "sourceElevation": 3,
+      "sourceWarpId": 3,
+      "targetKey": "4,49",
+      "reciprocal": true
+    },
+    {
+      "kind": "warp",
+      "sourceKey": "4,50",
+      "sourceRegionName": null,
+      "sourceLayoutId": 536,
+      "sourceX": 14,
+      "sourceY": 43,
+      "sourceElevation": 0,
+      "sourceWarpId": 2,
+      "targetKey": "4,49",
+      "reciprocal": false
+    }
+  ]
+}
