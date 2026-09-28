@@ -1,8 +1,8 @@
 # Guide setup status
 
-- Status: Advanced guide refinement; runtime map boundary closed locally, deployment deferred
-- Current phase: Runtime-evidence closure and Crystal Cavern exterior import
-- Readiness: Advanced ready; 496 reviewed ROM-derived encounter rows, 81 item placements and 23 Sevii trainer battles are validated locally (the live deployment still has 77 item placements)
+- Status: Advanced guide refinement; runtime map boundary deployed and verified
+- Current phase: Post-workbook move and custom-item evidence review
+- Readiness: Advanced ready and live; 496 reviewed ROM-derived encounter rows, 81 item placements and 23 Sevii trainer battles are deployed
 - Last updated: 2026-09-28
 - Next step: Review post-workbook move effects and provisional custom item details against version-matched evidence; the active ROM map boundary is now fully classified.
 
@@ -18,7 +18,7 @@
 | Planning data | Imported and validated | All 766 workbook-used moves plus three ROM-evidenced Memorial Pillar moves have complete fallback definitions; all 451 workbook items remain visible (203 canonical definitions plus 248 custom records), with no unrelated mainline items or generic prices; custom item details remain provisional |
 | Advanced data | Partial / battles, badges, profile and cloud sync complete | Encrypted Cloudflare Worker/KV sync is configured; all 16 Johto/Kanto badges, 700 workbook battle records and 23 reviewed ROM-derived Sevii trainer battles are active locally. This includes 683 populated trainer teams, 229 workbook VS Seeker rematches, 32 intentionally hidden Gym Leader records and eight staged Memorial Pillar Elite Four battles; trainer/rival configuration is saved and synced; maps remain deferred |
 | Local build | Complete | Build, validation, provenance and 1,649-asset checks pass with 104 locations, 3,138 standard encounter rows and 723 battle records. Runtime review closes all five remaining active map blockers and adds four coordinate-valid Crystal Cavern Exterior item placements, bringing the ROM-derived item total to 81. Ruins Cavern's interaction-less encounter slot and the runtime-confirmed `15,0` building placeholder remain excluded. Desktop 1440×900 and touch 390×844 review confirms the new item details, zero horizontal overflow and no console warnings/errors. |
-| Deployment | Complete and verified | The reused-network and Tree/Rock refinement was deployed from commit `27f8783`; GitHub Pages workflow `36407151004` completed successfully. The public index, service worker and guide data returned HTTP 200; Tree evidence, Rock Smash evidence, Sevii Waterway map `1,0`, One Island cavern map `1,1` and cache version `20260928a` were confirmed live. Cloudflare Worker/KV remains configured. |
+| Deployment | Complete and verified | The runtime-map closure was deployed from commit `42aae78`; GitHub Pages workflow `36481546163` completed successfully. The public index, item bundle and service worker returned HTTP 200; the Crystal Cavern Exterior Full Restore placement, item bundle version `20260928b` and cache version `20260928b` were confirmed live. Cloudflare Worker/KV remains configured. |
 
 ## Confirmed decisions
 
@@ -50,6 +50,7 @@
 
 ## Activity log
 
+- 2026-09-28 runtime-map closure deployment: published commit `42aae78`. GitHub Pages workflow `36481546163` completed successfully; the public index, item bundle and service worker returned HTTP 200, with the Crystal Cavern Exterior placement and cache version `crystal-advance-redux-guide-20260928b` confirmed live. The user-supplied save and ROM remained local and untracked.
 - 2026-09-28 late-game runtime save audit: loaded checksum-correct temporary copies of the user-supplied completed save through mGBA 0.10.5 against the exact 2026-07-19 ROM. Crystal Cavern map `3,50` rendered as the expected rocky exterior and is now ready, importing four coordinate-valid items. Maps `1,81` and `1,82` rendered as a stale cave network, map `3,67` reconciled exactly with Route 45, and building map `15,0` exposed no terrain capable of reaching its encounter headers. Those four headers are explicitly excluded, taking the crosswalk to 32 ready maps and zero active unresolved maps. The original save and ROM remain untouched, local and untracked.
 - 2026-09-28 reused-network and Tree/Rock deployment: published the verified refinement from commit `27f8783`. GitHub Pages workflow `36407151004` completed successfully; the public index, service worker and guide data returned HTTP 200, with Tree and Rock Smash evidence, the reviewed Sevii Waterway/One Island records and cache version `crystal-advance-redux-guide-20260928a` confirmed live. The ROM remained local and untracked.
 - 2026-09-28 Tree/Rock semantics review: classified the shared five-slot ROM field on every ready map. Sevii Waterway, One Island Outdoor and Icefall Cave Main/Eastern use Tree because their tree-rich layouts and species pools match the workbook's Headbutt semantics. One Island Cavern areas 1 and 3 use Rock because ten graphics-ID 96 objects call script `0x1BE00C`, which checks move 249 (Rock Smash). Imported 30 exact all-day rows, taking ROM-derived Sevii coverage to 496 and total standard encounters to 3,138. Ruins Cavern remains excluded because its reviewed layout exposes neither interaction.
