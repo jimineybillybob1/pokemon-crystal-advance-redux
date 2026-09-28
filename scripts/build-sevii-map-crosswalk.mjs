@@ -70,6 +70,7 @@ const reviewedReadyNotes = new Map([
   ["2,47", "Reviewed Crystal Cavern interior cluster: sequential layouts and reciprocal internal warps support the neutral area label."],
   ["2,48", "Reviewed Crystal Cavern interior cluster: sequential layouts and reciprocal internal warps support the neutral area label."],
   ["2,49", "Reviewed Crystal Cavern interior cluster: sequential layouts and reciprocal internal warps support the neutral area label."],
+  ["3,50", "Runtime-confirmed Crystal Cavern exterior: the exact 2026-07-19 ROM loads the expected rocky, water-lined outdoor layout from a valid late-game save, matching the direct ROM label, layout and four coordinate-valid item placements."],
   ["3,51", "Reviewed One Island cluster: the rendered outdoor route and reciprocal cave entrance to map 1,1 support the neutral outdoor-area label."],
   ["3,74", "Reviewed Six Island outdoor cluster: the direct ROM label, visible grass/water terrain and reciprocal east/west connection support the neutral directional label."],
   ["3,113", "Reviewed Six Island outdoor cluster: the reciprocal east/west connection, visible grass/water terrain and shared encounter table support the neutral directional label."],
@@ -81,10 +82,11 @@ const reviewedReadyNotes = new Map([
   ["4,113", "Reviewed Ruins Valley main area: the outdoor layout, direct ROM label and reciprocal Ruins Cavern links support the neutral main-area label."],
 ]);
 
-const reviewedHoldNotes = new Map([
-  ["1,81", "Held after review: cave-flagged layout warps into maps labelled Radio Tower and Union Cave, so the Resort Gorgeous runtime identity is not established."],
-  ["1,82", "Held after review: cave-flagged layout and mixed self/external warps do not establish a trustworthy Resort Gorgeous subarea."],
-  ["15,0", "Held after review: the building interior has no visible encounter terrain, yet the ROM header contains Wild, Surf and Fish tables; treat those tables as placeholders until runtime-tested."],
+const reviewedPlaceholderMaps = new Map([
+  ["15,0", {
+    excludedSemantics: "unreachable building-interior Wild/Surf/Fish placeholders",
+    reason: "Runtime loading in the exact 2026-07-19 ROM confirms a small building/lab interior with no grass, water or fishing terrain. Its non-zero Wild, Surf and Fish headers are unreachable placeholders and must not become Six Island encounters.",
+  }],
 ]);
 
 // Reviewed 2026-09-27 against the workbook encounter, battle and item tables,
@@ -93,6 +95,21 @@ const reviewedHoldNotes = new Map([
 // only by stale region labels/reused links.
 // They must remain visible as audit evidence but cannot become Sevii content.
 const reviewedReusedMainlineMaps = new Map([
+  ["1,81", {
+    matchedWorkbookLocations: ["Radio Tower", "Union Cave"],
+    encounterSemantics: "reused cave-network header",
+    reason: "Runtime loading confirms a cave-grid layout rather than Resort Gorgeous. Its cave flag and warps into Radio Tower and Union Cave identify stale/reused mainline map metadata, so it cannot become Sevii content.",
+  }],
+  ["1,82", {
+    matchedWorkbookLocations: [],
+    encounterSemantics: "reused cave-network companion header",
+    reason: "Runtime loading confirms a cave-grid layout with several NPCs rather than Resort Gorgeous. Its only meaningful links are the reused map 1,81 cave network and a blank-labelled map, so the Resort Gorgeous label is stale and the header cannot become Sevii content.",
+  }],
+  ["3,67", {
+    matchedWorkbookLocations: ["Route 45"],
+    encounterSemantics: "Route 45 Wild/Surf/Fish, trainers and items",
+    reason: "Runtime loading confirms a rocky Johto route layout, and the extracted encounter pool, trainers (including Quentin, Kelly and Kenji) and item set reconcile with Route 45. The One Island graph link is stale reuse rather than Sevii availability evidence.",
+  }],
   ["0,12", {
     matchedWorkbookLocations: ["S.S. Aqua"],
     encounterSemantics: "S.S. Aqua Cabin 4 trainer variants",
@@ -205,20 +222,7 @@ const reviewedReusedMainlineMaps = new Map([
   }],
 ]);
 
-const unresolvedTriageGroups = [
-  {
-    disposition: "runtime-confirmation-held",
-    priority: 4,
-    mapKeys: ["1,81", "1,82", "3,50", "15,0"],
-    reason: "Dedicated review already found insufficient static evidence for the Crystal Cavern exterior, Resort Gorgeous, Five Island, the Icefall-linked snowfield or the Six Island placeholder interior. Keep these maps held until in-game entrances and map-name behaviour are confirmed.",
-  },
-  {
-    disposition: "runtime-layout-unrenderable",
-    priority: 4,
-    mapKeys: ["3,67"],
-    reason: "The One Island-linked header has active encounters, trainers and items but no renderable block layout. Static visual review cannot establish a trustworthy subarea or reachability boundary.",
-  },
-];
+const unresolvedTriageGroups = [];
 
 const unresolvedTriageByMap = new Map();
 for (const group of unresolvedTriageGroups) {
@@ -258,6 +262,7 @@ const maps = extraction.maps.map((map) => {
   let mapStatus = regionRules[map.regionName] ?? "needs-review";
   if (malformed) mapStatus = "exclude-malformed";
   else if (activeRecordCount === 0) mapStatus = "reference-only";
+  else if (reviewedPlaceholderMaps.has(map.key)) mapStatus = "exclude-placeholder";
   else if (reviewedReusedMainlineMaps.has(map.key)) mapStatus = "exclude-reused-mainline";
   else if (ambiguousParent) mapStatus = "needs-parent-review";
   else if (reviewedReadyNotes.has(map.key)) mapStatus = "ready";
@@ -273,7 +278,7 @@ const maps = extraction.maps.map((map) => {
     notes.push("Rendered layout resembles reused ship/room maps; verify in-game reachability before importing battles.");
   }
   if (reviewedReadyNotes.has(map.key)) notes.push(reviewedReadyNotes.get(map.key));
-  if (reviewedHoldNotes.has(map.key)) notes.push(reviewedHoldNotes.get(map.key));
+  if (reviewedPlaceholderMaps.has(map.key)) notes.push(reviewedPlaceholderMaps.get(map.key).reason);
   if (reviewedReusedMainlineMaps.has(map.key)) notes.push(reviewedReusedMainlineMaps.get(map.key).reason);
 
   const unresolvedTriage = unresolvedTriageByMap.get(map.key) ?? null;
@@ -291,6 +296,7 @@ const maps = extraction.maps.map((map) => {
     subareaConfidence,
     mapStatus,
     unresolvedTriage,
+    excludedPlaceholder: reviewedPlaceholderMaps.get(map.key) ?? null,
     excludedReuse: reviewedReusedMainlineMaps.get(map.key) ?? null,
     counts,
     notes,
@@ -332,6 +338,8 @@ const result = {
       "A ready map has a stable parent/subarea label; encounter variants and battle semantics remain separate import gates.",
       "A linked map may become ready after a documented topology review establishes a stable parent and neutral subarea label.",
       "A map proven to duplicate an existing Johto/Kanto ordinary or Dive encounter table is retained as excluded audit evidence and cannot be imported as Sevii content.",
+      "A runtime-confirmed interior whose encounter headers cannot be reached from its terrain is retained as excluded placeholder evidence and cannot be imported.",
+      "Runtime checks use temporary checksum-correct save copies; the user-supplied save and ROM remain untouched and outside the repository.",
     ],
   },
   summary: {

@@ -1,17 +1,17 @@
 {
   "meta": {
-    "generatedAt": "2026-09-28T09:49:50.141Z",
+    "generatedAt": "2026-09-28T20:19:39.840Z",
     "gameVersion": "2026-07-19",
     "romSha256": "716F2CBFB731E6DC1E014B6B6744B823389262DCC0086A120C1E0FB3D80DD34B",
     "source": "sources/reports/sevii-rom-extraction.json",
     "crosswalk": "sources/normalized/sevii-map-crosswalk-2026-09-25.json"
   },
   "summary": {
-    "readyMapCount": 31,
+    "readyMapCount": 32,
     "acceptedEncounterTableCount": 54,
     "importedLocationCount": 9,
     "importedEncounterCount": 496,
-    "importedItemPlacementCount": 77,
+    "importedItemPlacementCount": 81,
     "removedExactDuplicateTableCount": 3,
     "skippedUnresolvedMethodGroupCount": 1,
     "skippedAlternateTableGroupCount": 0,
@@ -233,6 +233,11 @@
       "location": "Crystal Cavern — Cavern area 3, hidden item at tile (24, 12); Source: 2026-07-19 ROM audit"
     },
     {
+      "item": "Ultra Ball",
+      "mapKey": "3,50",
+      "location": "Crystal Cavern — Exterior, hidden item at tile (20, 13); Source: 2026-07-19 ROM audit"
+    },
+    {
       "item": "Elixir",
       "mapKey": "3,68",
       "location": "Icefall Cave — Main area, hidden item at tile (21, 4) ×3; Source: 2026-07-19 ROM audit"
@@ -436,6 +441,21 @@
       "item": "Max Potion",
       "mapKey": "2,49",
       "location": "Crystal Cavern — Cavern area 3, item ball at tile (28, 26); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "Nugget",
+      "mapKey": "3,50",
+      "location": "Crystal Cavern — Exterior, item ball at tile (5, 6); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "Full Restore",
+      "mapKey": "3,50",
+      "location": "Crystal Cavern — Exterior, item ball at tile (9, 20); Source: 2026-07-19 ROM audit"
+    },
+    {
+      "item": "X Guard",
+      "mapKey": "3,50",
+      "location": "Crystal Cavern — Exterior, item ball at tile (33, 10); Source: 2026-07-19 ROM audit"
     },
     {
       "item": "Poke Ball",

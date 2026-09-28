@@ -1075,7 +1075,8 @@
       "Cerulean Cave — 1F, SW; Source: Wild",
       "Cerulean Cave — 2F, East, via 1F NE ladder; Source: Wild",
       "Crystal Cavern — Cavern area 3, hidden item at tile (24, 12); Source: 2026-07-19 ROM audit",
-      "Three Island — Cave 2F, item ball at tile (20, 5); Source: 2026-07-19 ROM audit"
+      "Three Island — Cave 2F, item ball at tile (20, 5); Source: 2026-07-19 ROM audit",
+      "Crystal Cavern — Exterior, item ball at tile (9, 20); Source: 2026-07-19 ROM audit"
     ],
     "costs": []
   },
@@ -2353,7 +2354,8 @@
       "Cerulean Cave — 1F, NW; Source: Wild",
       "Wild Pokémon — Meowth, Persian, Alolan Meowth; Source: Held",
       "One Island — Cavern area 1, item ball at tile (14, 15); Source: 2026-07-19 ROM audit",
-      "Crystal Cavern — Cavern area 2, item ball at tile (35, 19); Source: 2026-07-19 ROM audit"
+      "Crystal Cavern — Cavern area 2, item ball at tile (35, 19); Source: 2026-07-19 ROM audit",
+      "Crystal Cavern — Exterior, item ball at tile (5, 6); Source: 2026-07-19 ROM audit"
     ],
     "costs": []
   },
@@ -5345,6 +5347,7 @@
       "Cerulean Cave — 1F, Center, rock on its own; Source: Hidden",
       "Cerulean Cave — 2F, SE, via 1F E ladder; Source: Wild",
       "Cerulean Cave — B1F, Center, slightly East on raised area; Source: Wild",
+      "Crystal Cavern — Exterior, hidden item at tile (20, 13); Source: 2026-07-19 ROM audit",
       "Four Island — Interior 2F, item ball at tile (34, 3); Source: 2026-07-19 ROM audit",
       "Crystal Cavern — Cavern area 2, item ball at tile (17, 17); Source: 2026-07-19 ROM audit"
     ],
@@ -5637,7 +5640,8 @@
       "Goldenrod City — Mall, 3F North counter - $700; Source: Shop",
       "Rocket Hideout — 1F, Next to Jed & Secret Switch; Source: Wild",
       "Celadon City — Mall, 5F South Assistant - $700; Source: Shop",
-      "Cerulean Cave — 1F, East, next to E ladder; Source: Wild"
+      "Cerulean Cave — 1F, East, next to E ladder; Source: Wild",
+      "Crystal Cavern — Exterior, item ball at tile (33, 10); Source: 2026-07-19 ROM audit"
     ],
     "costs": [],
     "move": null
