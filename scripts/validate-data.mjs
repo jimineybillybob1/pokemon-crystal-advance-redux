@@ -110,7 +110,7 @@ for (const tutor of moveTutors.tutors || []) {
 for (const service of moveTutors.services || []) requireValue(service.name && Array.isArray(service.locations) && service.locations.length > 0, `${service.id || 'Move service'} requires a name and locations.`);
 
 for (const move of guide.moves) {
-  requireValue(move.name && move.type && move.type !== 'Unknown', `${move.id}: move requires a documented name and type.`);
+  requireValue(move.name && move.type && !/^Unknown(?:\s|$)/.test(move.type), `${move.id}: move requires a documented name and type.`);
   requireValue(['Physical', 'Special', 'Status'].includes(move.category), `${move.id} ${move.name}: invalid or missing move category ${move.category}.`);
   requireValue(Number.isInteger(move.pp) && move.pp > 0, `${move.id} ${move.name}: move PP must be a positive integer.`);
   requireValue(move.power == null || (Number.isFinite(move.power) && move.power >= 0), `${move.id} ${move.name}: move power must be numeric or explicitly variable.`);

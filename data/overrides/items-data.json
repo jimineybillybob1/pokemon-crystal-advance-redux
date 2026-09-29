@@ -2416,7 +2416,7 @@
       "Route 22 — Rock Climb, North; Source: Wild",
       "Mt. Silver — 2F, C Cave, Rocket Grunt - $15000; Source: Shop",
       "Wild Pokémon — Rayquaza; Source: Held",
-      "One Island — Outdoor area, item ball at tile (33, 3); Source: 2026-07-19 ROM audit"
+      "Route 31 — E, next to Dark Cave sign, item ball at tile (33, 3); Source: 2026-07-19 ROM item audit"
     ],
     "costs": []
   },
@@ -2634,8 +2634,7 @@
     "category": "Poké Balls",
     "locations": [
       "New Bark Town — Aide in Elm`s Lab, Returned Mystery Egg; Source: Person; Qty: 10",
-      "Route 31 — S, SW of Wade; Source: Wild",
-      "One Island — Outdoor area, item ball at tile (19, 17); Source: 2026-07-19 ROM audit"
+      "Route 31 — S, SW of Wade; Source: Wild"
     ],
     "costs": []
   },
@@ -2749,7 +2748,6 @@
       "Route 29 — NE; Source: Wild",
       "Route 30 — N, Mid S flower outside Mr. Pokemon's House; Source: Hidden",
       "Dark Cave — Violet Side; Source: Wild",
-      "Route 31 — E, next to Dark Cave sign; Source: Wild",
       "Sprout Tower — 3F, South; Source: Wild",
       "Union Cave — 1F, Center, W of Bill; Source: Wild",
       "Underground Path — R7 - R8, Right 4, turn up; Source: Hidden",

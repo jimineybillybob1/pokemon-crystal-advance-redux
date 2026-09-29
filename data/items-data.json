@@ -3,7 +3,7 @@
     "id": 1,
     "key": "master-ball",
     "name": "Master Ball",
-    "description": "Catches a wild Pokémon every time.",
+    "description": "The best Ball with the ultimate performance. Wild Pokémon are unable to dodge or escape this.",
     "category": "Poké Balls",
     "sprite": "assets/items/default/master-ball.png",
     "locations": [
@@ -24,15 +24,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 1
   },
   {
     "id": 6,
     "key": "net-ball",
     "name": "Net Ball",
-    "description": "Tries to catch a wild Pokémon. Success rate is 3× for water and bug Pokémon.",
+    "description": "A somewhat different Ball that works especially well on Water- and Bug-type Pokémon.",
     "category": "Poké Balls",
     "sprite": "assets/items/default/net-ball.png",
     "locations": [
@@ -50,15 +53,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 6
   },
   {
     "id": 7,
     "key": "dive-ball",
     "name": "Dive Ball",
-    "description": "Tries to catch a wild Pokémon. Success rate is 3.5× when underwater, fishing, or surfing.",
+    "description": "A somewhat different Ball that works especially well on Pokémon deep in the sea.",
     "category": "Poké Balls",
     "sprite": "assets/items/default/dive-ball.png",
     "locations": [
@@ -76,15 +82,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 7
   },
   {
     "id": 8,
     "key": "nest-ball",
     "name": "Nest Ball",
-    "description": "Tries to catch a wild Pokémon. Success rate is 3.9× for level 1 Pokémon, and drops steadily to 1× at level 30.",
+    "description": "A somewhat different Ball that works especially well on weaker Pokémon.",
     "category": "Poké Balls",
     "sprite": "assets/items/default/nest-ball.png",
     "locations": [
@@ -101,15 +110,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 8
   },
   {
     "id": 9,
     "key": "repeat-ball",
     "name": "Repeat Ball",
-    "description": "Tries to catch a wild Pokémon. Success rate is 3× for previously-caught Pokémon.",
+    "description": "A somewhat different Ball that works especially well on Pokémon caught before.",
     "category": "Poké Balls",
     "sprite": "assets/items/default/repeat-ball.png",
     "locations": [
@@ -127,15 +139,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 9
   },
   {
     "id": 10,
     "key": "timer-ball",
     "name": "Timer Ball",
-    "description": "Tries to catch a wild Pokémon. Success rate increases by 0.1× (Gen V: 0.3×) every turn, to a max of 4×.",
+    "description": "A somewhat different Ball that becomes progressively better the more turns there are in a battle.",
     "category": "Poké Balls",
     "sprite": "assets/items/default/timer-ball.png",
     "locations": [
@@ -153,15 +168,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 10
   },
   {
     "id": 11,
     "key": "luxury-ball",
     "name": "Luxury Ball",
-    "description": "Tries to catch a wild Pokémon. Caught Pokémon start with 200 happiness.",
+    "description": "A comfortable Ball that makes a captured wild Pokémon quickly grow friendly.",
     "category": "Poké Balls",
     "sprite": "assets/items/default/luxury-ball.png",
     "locations": [
@@ -177,15 +195,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 11
   },
   {
     "id": 13,
     "key": "dusk-ball",
     "name": "Dusk Ball",
-    "description": "Tries to catch a wild Pokémon. Success rate is 3.5× at night and in caves.",
+    "description": "A somewhat different Poké Ball that makes it easier to catch wild Pokémon at night.",
     "category": "Poké Balls",
     "sprite": "assets/items/default/dusk-ball.png",
     "locations": [
@@ -202,15 +223,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 250
   },
   {
     "id": 14,
     "key": "heal-ball",
     "name": "Heal Ball",
-    "description": "Tries to catch a wild Pokémon. Caught Pokémon are immediately healed.",
+    "description": "A remedial Poké Ball that heals the caught Pokémon’s HP and any status problems.",
     "category": "Poké Balls",
     "sprite": "assets/items/default/heal-ball.png",
     "locations": [
@@ -226,15 +250,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 248
   },
   {
     "id": 15,
     "key": "quick-ball",
     "name": "Quick Ball",
-    "description": "Tries to catch a wild Pokémon. Success rate is 4× (Gen V: 5×), but only on the first turn.",
+    "description": "A somewhat different Ball that provides a better catch rate if used at the start.",
     "category": "Poké Balls",
     "sprite": "assets/items/default/quick-ball.png",
     "locations": [
@@ -255,15 +282,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 249
   },
   {
     "id": 17,
     "key": "potion",
     "name": "Potion",
-    "description": "Restores 20 HP.",
+    "description": "A spray-type wound medicine. It restores the HP of one Pokémon by 20 points.",
     "category": "Medicine",
     "sprite": "assets/items/default/potion.png",
     "locations": [
@@ -272,7 +302,6 @@
       "Route 29 — NE; Source: Wild",
       "Route 30 — N, Mid S flower outside Mr. Pokemon's House; Source: Hidden",
       "Dark Cave — Violet Side; Source: Wild",
-      "Route 31 — E, next to Dark Cave sign; Source: Wild",
       "Sprout Tower — 3F, South; Source: Wild",
       "Union Cave — 1F, Center, W of Bill; Source: Wild",
       "Underground Path — R7 - R8, Right 4, turn up; Source: Hidden",
@@ -288,15 +317,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 13
   },
   {
     "id": 18,
     "key": "antidote",
     "name": "Antidote",
-    "description": "Cures poison.",
+    "description": "A spray-type medicine. It heals one Pokémon from a poisoning.",
     "category": "Medicine",
     "sprite": "assets/items/default/antidote.png",
     "locations": [
@@ -318,15 +350,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 14
   },
   {
     "id": 19,
     "key": "burn-heal",
     "name": "Burn Heal",
-    "description": "Cures a burn.",
+    "description": "A spray-type medicine. It heals one Pokémon of a burn.",
     "category": "Medicine",
     "sprite": "assets/items/default/burn-heal.png",
     "locations": [
@@ -347,15 +382,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 15
   },
   {
     "id": 20,
     "key": "ice-heal",
     "name": "Ice Heal",
-    "description": "Cures freezing.",
+    "description": "A spray-type medicine. It heals a Pokémon of frostbite.",
     "category": "Medicine",
     "sprite": "assets/items/default/ice-heal.png",
     "locations": [
@@ -375,15 +413,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 16
   },
   {
     "id": 21,
     "key": "awakening",
     "name": "Awakening",
-    "description": "Cures sleep.",
+    "description": "A spray-type medicine. It awakens a sleeping Pokémon.",
     "category": "Medicine",
     "sprite": "assets/items/default/awakening.png",
     "locations": [
@@ -401,15 +442,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 17
   },
   {
     "id": 23,
     "key": "full-restore",
     "name": "Full Restore",
-    "description": "Restores HP to full and cures any status ailment and confusion.",
+    "description": "A medicine that fully restores the HP and heals any status problems of one Pokémon.",
     "category": "Medicine",
     "sprite": "assets/items/default/full-restore.png",
     "locations": [
@@ -441,15 +485,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 19
   },
   {
     "id": 24,
     "key": "max-potion",
     "name": "Max Potion",
-    "description": "Restores HP to full.",
+    "description": "A spray-type wound medicine. It fully restores the HP of one Pokémon.",
     "category": "Medicine",
     "sprite": "assets/items/default/max-potion.png",
     "locations": [
@@ -480,15 +527,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 20
   },
   {
     "id": 25,
     "key": "hyper-potion",
     "name": "Hyper Potion",
-    "description": "Restores 200 HP.",
+    "description": "A spray-type wound medicine. It restores the HP of one Pokémon by 200 points.",
     "category": "Medicine",
     "sprite": "assets/items/default/hyper-potion.png",
     "locations": [
@@ -515,15 +565,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 21
   },
   {
     "id": 26,
     "key": "super-potion",
     "name": "Super Potion",
-    "description": "Restores 50 HP.",
+    "description": "A spray-type wound medicine. It restores the HP of one Pokémon by 50 points.",
     "category": "Medicine",
     "sprite": "assets/items/default/super-potion.png",
     "locations": [
@@ -543,15 +596,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 22
   },
   {
     "id": 27,
     "key": "full-heal",
     "name": "Full Heal",
-    "description": "Cures any status ailment and confusion.",
+    "description": "A spray-type medicine. It heals all the status problems of one Pokémon.",
     "category": "Medicine",
     "sprite": "assets/items/default/full-heal.png",
     "locations": [
@@ -583,15 +639,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 23
   },
   {
     "id": 28,
     "key": "revive",
     "name": "Revive",
-    "description": "Revives with half HP.",
+    "description": "A medicine that revives a fainted Pokémon, restoring HP by half the maximum amount.",
     "category": "Medicine",
     "sprite": "assets/items/default/revive.png",
     "locations": [
@@ -620,15 +679,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 24
   },
   {
     "id": 29,
     "key": "max-revive",
     "name": "Max Revive",
-    "description": "Revives with full HP.",
+    "description": "A medicine that revives a fainted Pokémon, restoring HP fully.",
     "category": "Medicine",
     "sprite": "assets/items/default/max-revive.png",
     "locations": [
@@ -659,15 +721,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 25
   },
   {
     "id": 30,
     "key": "fresh-water",
     "name": "Fresh Water",
-    "description": "Restores 50 HP.",
+    "description": "Water with a high mineral content. It restores the HP of one Pokémon by 50 points.",
     "category": "Medicine",
     "sprite": "assets/items/default/fresh-water.png",
     "locations": [
@@ -685,15 +750,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 26
   },
   {
     "id": 31,
     "key": "soda-pop",
     "name": "Soda Pop",
-    "description": "Restores 60 HP.",
+    "description": "A fizzy soda drink. It restores the HP of one Pokémon by 60 points.",
     "category": "Medicine",
     "sprite": "assets/items/default/soda-pop.png",
     "locations": [
@@ -711,15 +779,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 27
   },
   {
     "id": 32,
     "key": "lemonade",
     "name": "Lemonade",
-    "description": "Restores 80 HP.",
+    "description": "A very sweet drink. It restores the HP of one Pokémon by 80 points.",
     "category": "Medicine",
     "sprite": "assets/items/default/lemonade.png",
     "locations": [
@@ -737,15 +808,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 28
   },
   {
     "id": 33,
     "key": "moomoo-milk",
     "name": "Moomoo Milk",
-    "description": "Restores 100 HP.",
+    "description": "Highly nutritious milk. It restores the HP of one Pokémon by 100 points.",
     "category": "Medicine",
     "sprite": "assets/items/default/moomoo-milk.png",
     "locations": [
@@ -762,15 +836,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 29
   },
   {
     "id": 34,
     "key": "energy-powder",
     "name": "Energypowder",
-    "description": "Restores 50 HP, but lowers happiness.",
+    "description": "A very bitter medicine powder that restores the HP of one Pokémon by 50 points, but reduces Happiness.",
     "category": "Medicine",
     "sprite": "assets/items/default/energy-powder.png",
     "locations": [
@@ -786,15 +863,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 30
   },
   {
     "id": 35,
     "key": "energy-root",
     "name": "Energy Root",
-    "description": "Restores 200 HP, but lowers happiness.",
+    "description": "A very bitter root that restores the HP of a Pokémon by 200 points. Reduces Happiness, however.",
     "category": "Medicine",
     "sprite": "assets/items/default/energy-root.png",
     "locations": [
@@ -811,15 +891,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 31
   },
   {
     "id": 36,
     "key": "heal-powder",
     "name": "Heal Powder",
-    "description": "Cures any status ailment, but lowers happiness.",
+    "description": "A very bitter medicine powder that heals all the status problems of a Pokémon, but reduces Happiness.",
     "category": "Medicine",
     "sprite": "assets/items/default/heal-powder.png",
     "locations": [
@@ -835,15 +918,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 32
   },
   {
     "id": 37,
     "key": "revival-herb",
     "name": "Revival Herb",
-    "description": "Revives with full HP, but lowers happiness.",
+    "description": "A very bitter medicinal herb that fully revives a fainted Pokémon! Reduces Happiness, however.",
     "category": "Medicine",
     "sprite": "assets/items/default/revival-herb.png",
     "locations": [
@@ -859,15 +945,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 33
   },
   {
     "id": 38,
     "key": "ether",
     "name": "Ether",
-    "description": "Restores 10 PP for one move.",
+    "description": "Restores a selected move’s PP by 10 points for one Pokémon.",
     "category": "Medicine",
     "sprite": "assets/items/default/ether.png",
     "locations": [
@@ -892,15 +981,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 34
   },
   {
     "id": 39,
     "key": "max-ether",
     "name": "Max Ether",
-    "description": "Restores PP to full for one move.",
+    "description": "Fully restores a selected move’s PP for one Pokémon.",
     "category": "Medicine",
     "sprite": "assets/items/default/max-ether.png",
     "locations": [
@@ -923,15 +1015,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 35
   },
   {
     "id": 40,
     "key": "elixir",
     "name": "Elixir",
-    "description": "Restores 10 PP for each move.",
+    "description": "Restores the PP of all moves for one Pokémon by 10 points each.",
     "category": "Medicine",
     "sprite": "assets/items/default/elixir.png",
     "locations": [
@@ -962,15 +1057,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 36
   },
   {
     "id": 41,
     "key": "max-elixir",
     "name": "Max Elixir",
-    "description": "Restores PP to full for each move.",
+    "description": "Fully restores the PP of all moves for one Pokémon.",
     "category": "Medicine",
     "sprite": "assets/items/default/max-elixir.png",
     "locations": [
@@ -996,15 +1094,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 37
   },
   {
     "id": 42,
     "key": "lava-cookie",
     "name": "Lava Cookie",
-    "description": "Cures any status ailment and confusion.",
+    "description": "Mahogany Town’s local specialty. It heals all the status problems of one Pokémon.",
     "category": "Medicine",
     "sprite": "assets/items/default/lava-cookie.png",
     "locations": [
@@ -1021,15 +1122,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 38
   },
   {
     "id": 43,
     "key": "berry-juice",
     "name": "Berry Juice",
-    "description": "Restores 20 HP.",
+    "description": "A 100% pure juice. It restores the HP of one Pokémon by 20 points.",
     "category": "Medicine",
     "sprite": "assets/items/default/berry-juice.png",
     "locations": [
@@ -1046,15 +1150,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 44
   },
   {
     "id": 44,
     "key": "sacred-ash",
     "name": "Sacred Ash",
-    "description": "Revives all fainted Pokémon with full HP.",
+    "description": "Revives all fainted Pokémon, restoring HP fully.",
     "category": "Medicine",
     "sprite": "assets/items/default/sacred-ash.png",
     "locations": [
@@ -1074,15 +1181,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 45
   },
   {
     "id": 45,
     "key": "hp-up",
     "name": "HP Up",
-    "description": "Raises HP effort and happiness.",
+    "description": "A nutritious drink for Pokémon. It raises the base HP of one Pokémon.",
     "category": "Medicine",
     "sprite": "assets/items/default/hp-up.png",
     "locations": [
@@ -1107,15 +1217,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 63
   },
   {
     "id": 46,
     "key": "protein",
     "name": "Protein",
-    "description": "Raises Attack effort and happiness.",
+    "description": "A nutritious drink for Pokémon. It raises the base Attack stat of one Pokémon.",
     "category": "Medicine",
     "sprite": "assets/items/default/protein.png",
     "locations": [
@@ -1141,15 +1254,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 64
   },
   {
     "id": 47,
     "key": "iron",
     "name": "Iron",
-    "description": "Raises Defense effort and happiness.",
+    "description": "A nutritious drink for Pokémon. It raises the base Defense stat of one Pokémon.",
     "category": "Medicine",
     "sprite": "assets/items/default/iron.png",
     "locations": [
@@ -1171,15 +1287,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 65
   },
   {
     "id": 48,
     "key": "carbos",
     "name": "Carbos",
-    "description": "Raises Speed effort and happiness.",
+    "description": "A nutritious drink for Pokémon. It raises the base Speed stat of one Pokémon.",
     "category": "Medicine",
     "sprite": "assets/items/default/carbos.png",
     "locations": [
@@ -1200,15 +1319,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 66
   },
   {
     "id": 49,
     "key": "calcium",
     "name": "Calcium",
-    "description": "Raises Special Attack effort and happiness.",
+    "description": "A nutritious drink for Pokémon. It raises the base Sp. Atk stat of one Pokémon.",
     "category": "Medicine",
     "sprite": "assets/items/default/calcium.png",
     "locations": [
@@ -1231,15 +1353,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 67
   },
   {
     "id": 50,
     "key": "rare-candy",
     "name": "Rare Candy",
-    "description": "Causes a level-up and raises happiness.",
+    "description": "A candy that is packed with energy. It raises the level of a Pokémon by one.",
     "category": "Other",
     "sprite": "assets/items/default/rare-candy.png",
     "locations": [
@@ -1284,15 +1409,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 68
   },
   {
     "id": 51,
     "key": "pp-up",
     "name": "PP Up",
-    "description": "Raises a move’s max PP by 20%.",
+    "description": "Slightly raises the maximum PP of a selected move for one Pokémon.",
     "category": "Medicine",
     "sprite": "assets/items/default/pp-up.png",
     "locations": [
@@ -1321,15 +1449,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 69
   },
   {
     "id": 52,
     "key": "zinc",
     "name": "Zinc",
-    "description": "Raises Special Defense and happiness.",
+    "description": "A nutritious drink for Pokémon. It raises the base Sp. Def stat of one Pokémon.",
     "category": "Medicine",
     "sprite": "assets/items/default/zinc.png",
     "locations": [
@@ -1347,15 +1478,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 70
   },
   {
     "id": 53,
     "key": "pp-max",
     "name": "PP Max",
-    "description": "Raises a move’s max PP by 60%.",
+    "description": "Raises the PP of a selected move to its maximum level for one Pokémon.",
     "category": "Medicine",
     "sprite": "assets/items/default/pp-max.png",
     "locations": [
@@ -1366,7 +1500,7 @@
       "Route 22 — Rock Climb, North; Source: Wild",
       "Mt. Silver — 2F, C Cave, Rocket Grunt - $15000; Source: Shop",
       "Wild Pokémon — Rayquaza; Source: Held",
-      "One Island — Outdoor area, item ball at tile (33, 3); Source: 2026-07-19 ROM audit"
+      "Route 31 — E, next to Dark Cave sign, item ball at tile (33, 3); Source: 2026-07-19 ROM item audit"
     ],
     "costs": [],
     "move": null,
@@ -1378,15 +1512,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 71
   },
   {
     "id": 57,
     "key": "x-attack",
     "name": "X Attack",
-    "description": "Raises Attack by one stage in battle. Raises happiness.",
+    "description": "Raises the Attack stat of Pokémon in battle. Wears off if the Pokémon is withdrawn.",
     "category": "Battle Items",
     "sprite": "assets/items/default/x-attack.png",
     "locations": [
@@ -1406,15 +1543,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 75
   },
   {
     "id": 59,
     "key": "x-speed",
     "name": "X Speed",
-    "description": "Raises Speed by one stage in battle. Raises happiness.",
+    "description": "Raises the Speed stat of Pokémon in battle. Wears off if the Pokémon is withdrawn.",
     "category": "Battle Items",
     "sprite": "assets/items/default/x-speed.png",
     "locations": [
@@ -1433,15 +1573,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 77
   },
   {
     "id": 60,
     "key": "x-accuracy",
     "name": "X Accuracy",
-    "description": "Raises accuracy by one stage in battle. Raises happiness.",
+    "description": "Raises the accuracy stat of Pokémon in battle. Wears off if the Pokémon is withdrawn.",
     "category": "Battle Items",
     "sprite": "assets/items/default/x-accuracy.png",
     "locations": [
@@ -1461,15 +1604,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 78
   },
   {
     "id": 63,
     "key": "poke-doll",
     "name": "Poké Doll",
-    "description": "Ends a wild battle.",
+    "description": "An attractive item. Use it to flee from any battle with a wild Pokémon.",
     "category": "Other",
     "sprite": "assets/items/default/poke-doll.png",
     "locations": [
@@ -1485,15 +1631,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 80
   },
   {
     "id": 64,
     "key": "fluffy-tail",
     "name": "Fluffy Tail",
-    "description": "Ends a wild battle.",
+    "description": "An attractive item. Use it to flee from any battle with a wild Pokémon.",
     "category": "Held Items",
     "sprite": "assets/items/default/fluffy-tail.png",
     "locations": [
@@ -1510,15 +1659,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 81
   },
   {
     "id": 65,
     "key": "blue-flute",
     "name": "Blue Flute",
-    "description": "Cures sleep.",
+    "description": "A blue glass flute that awakens a sleeping Pokémon.",
     "category": "Other",
     "sprite": "assets/items/default/blue-flute.png",
     "locations": [
@@ -1534,15 +1686,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 39
   },
   {
     "id": 66,
     "key": "yellow-flute",
     "name": "Yellow Flute",
-    "description": "Cures confusion.",
+    "description": "A yellow glass flute that snaps one Pokémon out of confusion.",
     "category": "Other",
     "sprite": "assets/items/default/yellow-flute.png",
     "locations": [
@@ -1558,15 +1713,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 40
   },
   {
     "id": 67,
     "key": "red-flute",
     "name": "Red Flute",
-    "description": "Cures attraction.",
+    "description": "A red glass flute that snaps one Pokémon out of infatuation.",
     "category": "Other",
     "sprite": "assets/items/default/red-flute.png",
     "locations": [
@@ -1582,15 +1740,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 41
   },
   {
     "id": 68,
     "key": "black-flute",
     "name": "Black Flute",
-    "description": "Halves the wild Pokémon encounter rate.",
+    "description": "A black glass flute. When blown, it makes wild Pokémon less likely to appear.",
     "category": "Other",
     "sprite": "assets/items/default/black-flute.png",
     "locations": [
@@ -1606,15 +1767,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 42
   },
   {
     "id": 69,
     "key": "white-flute",
     "name": "White Flute",
-    "description": "Doubles the wild Pokémon encounter rate.",
+    "description": "A white glass flute. When blown, it makes wild Pokémon more likely to appear.",
     "category": "Other",
     "sprite": "assets/items/default/white-flute.png",
     "locations": [
@@ -1630,15 +1794,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 43
   },
   {
     "id": 76,
     "key": "super-repel",
     "name": "Super Repel",
-    "description": "For 200 steps, prevents wild encounters of level lower than your party’s lead Pokémon.",
+    "description": "Prevents weak wild Pokémon from appearing for 200 steps.",
     "category": "Other",
     "sprite": "assets/items/default/super-repel.png",
     "locations": [
@@ -1655,15 +1822,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 83
   },
   {
     "id": 77,
     "key": "max-repel",
     "name": "Max Repel",
-    "description": "For 250 steps, prevents wild encounters of level lower than your party’s lead Pokémon.",
+    "description": "Prevents weak wild Pokémon from appearing for 250 steps.",
     "category": "Other",
     "sprite": "assets/items/default/max-repel.png",
     "locations": [
@@ -1684,15 +1854,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 84
   },
   {
     "id": 78,
     "key": "escape-rope",
     "name": "Escape Rope",
-    "description": "Transports user to the outside entrance of a cave.",
+    "description": "A long, durable rope. Use it to escape instantly from a cave or a dungeon.",
     "category": "Other",
     "sprite": "assets/items/default/escape-rope.png",
     "locations": [
@@ -1718,15 +1891,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 85
   },
   {
     "id": 79,
     "key": "repel",
     "name": "Repel",
-    "description": "For 100 steps, prevents wild encounters of level lower than your party’s lead Pokémon.",
+    "description": "Prevents weak wild Pokémon from appearing for 100 steps.",
     "category": "Other",
     "sprite": "assets/items/default/repel.png",
     "locations": [
@@ -1742,15 +1918,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 86
   },
   {
     "id": 80,
     "key": "sun-stone",
     "name": "Sun Stone",
-    "description": "Evolves a Cottonee into Whimsicott, a Gloom into Bellossom, a Petilil into Lilligant, or a Sunkern into Sunflora.",
+    "description": "A peculiar stone that makes certain species of Pokémon evolve. It is as red as the sun.",
     "category": "Evolution",
     "sprite": "assets/items/default/sun-stone.png",
     "locations": [
@@ -1771,15 +1950,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 93
   },
   {
     "id": 81,
     "key": "moon-stone",
     "name": "Moon Stone",
-    "description": "Evolves a Clefairy into Clefable, a Jigglypuff into Wigglytuff, a Munna into Musharna, a Nidorina into Nidoqueen, a Nidorino into Nidoking, or a Skitty into Delcatty.",
+    "description": "A peculiar stone that makes certain species of Pokémon evolve. It is as black as the night sky.",
     "category": "Evolution",
     "sprite": "assets/items/default/moon-stone.png",
     "locations": [
@@ -1804,15 +1986,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 94
   },
   {
     "id": 82,
     "key": "fire-stone",
     "name": "Fire Stone",
-    "description": "Evolves an Eevee into Flareon, a Growlithe into Arcanine, a Pansear into Simisear, or a Vulpix into Ninetales.",
+    "description": "A peculiar stone that makes certain species of Pokémon evolve. It is colored orange.",
     "category": "Evolution",
     "sprite": "assets/items/default/fire-stone.png",
     "locations": [
@@ -1835,15 +2020,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 95
   },
   {
     "id": 83,
     "key": "thunder-stone",
     "name": "Thunderstone",
-    "description": "Evolves an Eelektrik into Eelektross, an Eevee into Jolteon, or a Pikachu into Raichu.",
+    "description": "A peculiar stone that makes certain species of Pokémon evolve. It has a thunderbolt pattern.",
     "category": "Evolution",
     "sprite": "assets/items/default/thunder-stone.png",
     "locations": [
@@ -1868,15 +2056,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 96
   },
   {
     "id": 84,
     "key": "water-stone",
     "name": "Water Stone",
-    "description": "Evolves an Eevee into Vaporeon, a Lombre into Ludicolo, a Panpour into Simipour, a Poliwhirl into Poliwrath, a Shellder into Cloyster, or a Staryu into Starmie.",
+    "description": "A peculiar stone that makes certain species of Pokémon evolve. It is a clear light blue.",
     "category": "Evolution",
     "sprite": "assets/items/default/water-stone.png",
     "locations": [
@@ -1900,15 +2091,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 97
   },
   {
     "id": 85,
     "key": "leaf-stone",
     "name": "Leaf Stone",
-    "description": "Evolves an Exeggcute into Exeggutor, a Gloom into Vileplume, a Nuzleaf into Shiftry, a Pansage into Simisage, or a Weepinbell into Victreebel.",
+    "description": "A peculiar stone that makes certain species of Pokémon evolve. It has a leaf pattern.",
     "category": "Evolution",
     "sprite": "assets/items/default/leaf-stone.png",
     "locations": [
@@ -1933,15 +2127,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 98
   },
   {
     "id": 86,
     "key": "tiny-mushroom",
     "name": "Tinymushroom",
-    "description": "Fire Red and Leaf Green: Trade two for prior Level-up moves. Sell for 250 Pokédollars, or to Hungry Maid for 500 Pokédollars.",
+    "description": "A small and rare mushroom. It is quite popular among certain people.",
     "category": "Valuables",
     "sprite": "assets/items/default/tiny-mushroom.png",
     "locations": [
@@ -1967,15 +2164,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 103
   },
   {
     "id": 87,
     "key": "big-mushroom",
     "name": "Big Mushroom",
-    "description": "Fire Red and Leaf Green: Trade for prior Level-up moves. Sell for 2500 Pokédollars, or to Hungry Maid for 5000 Pokédollars.",
+    "description": "A large and rare mushroom. It is very popular among certain people.",
     "category": "Valuables",
     "sprite": "assets/items/default/big-mushroom.png",
     "locations": [
@@ -2000,15 +2200,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 104
   },
   {
     "id": 88,
     "key": "pearl",
     "name": "Pearl",
-    "description": "Sell for 700 Pokédollars, or to Ore Collector for 1400 Pokédollars.",
+    "description": "A relatively small pearl that sparkles in a pretty silver color. It can be sold cheaply.",
     "category": "Valuables",
     "sprite": "assets/items/default/pearl.png",
     "locations": [
@@ -2024,15 +2227,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 106
   },
   {
     "id": 89,
     "key": "big-pearl",
     "name": "Big Pearl",
-    "description": "Sell for 3750 Pokédollars, or to Ore Collector for 7500 Pokédollars.",
+    "description": "A quite-large pearl that sparkles in a pretty silver color. It can be sold at a high price.",
     "category": "Valuables",
     "sprite": "assets/items/default/big-pearl.png",
     "locations": [
@@ -2054,15 +2260,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 107
   },
   {
     "id": 90,
     "key": "stardust",
     "name": "Stardust",
-    "description": "Sell for 1000 Pokédollars, or to Ore Collector for 2000 Pokédollars.",
+    "description": "A pretty red sand with a loose, silky feel. It can be sold at a high price.",
     "category": "Valuables",
     "sprite": "assets/items/default/stardust.png",
     "locations": [
@@ -2079,15 +2288,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 108
   },
   {
     "id": 91,
     "key": "star-piece",
     "name": "Star Piece",
-    "description": "Platinum: Trade for one of each color Shard. Black and White: Trade for PP Up. Sell for 4900 Pokédollars, or to Ore Collector for 9800 Pokédollars.",
+    "description": "A shard of a pretty gem that sparkles in a red color. It can be sold at a high price.",
     "category": "Valuables",
     "sprite": "assets/items/default/star-piece.png",
     "locations": [
@@ -2103,15 +2315,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 109
   },
   {
     "id": 92,
     "key": "nugget",
     "name": "Nugget",
-    "description": "Sell for 5000 Pokédollars, or to Ore Collector for 10000 Pokédollars.",
+    "description": "A nugget of pure gold that gives off a lustrous gleam. It can be sold at a high price.",
     "category": "Valuables",
     "sprite": "assets/items/default/nugget.png",
     "locations": [
@@ -2149,15 +2364,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 110
   },
   {
     "id": 93,
     "key": "heart-scale",
     "name": "Heart Scale",
-    "description": "No effect. Can be traded for prior Level-up moves.",
+    "description": "A pretty, heart-shaped scale that is extremely rare. It glows faintly in the colors of a rainbow.",
     "category": "Valuables",
     "sprite": "assets/items/default/heart-scale.png",
     "locations": [
@@ -2173,15 +2391,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 111
   },
   {
     "id": 101,
     "key": "helix-fossil",
     "name": "Helix Fossil",
-    "description": "Can be revived into an Omanyte.",
+    "description": "A fossil remnant of Omanyte. It sells for a moderate price.",
     "category": "Other",
     "sprite": "assets/items/default/helix-fossil.png",
     "locations": [
@@ -2197,15 +2418,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 357
   },
   {
     "id": 102,
     "key": "dome-fossil",
     "name": "Dome Fossil",
-    "description": "Can be revived into a Kabuto.",
+    "description": "A fossil remnant of Kabuto. It sells for a moderate price.",
     "category": "Other",
     "sprite": "assets/items/default/dome-fossil.png",
     "locations": [
@@ -2221,15 +2445,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 358
   },
   {
     "id": 103,
     "key": "old-amber",
     "name": "Old Amber",
-    "description": "Can be revived into an Aerodactyl.",
+    "description": "A piece of amber that contains the DNA of Aerodactyl. It sells for a high price.",
     "category": "Other",
     "sprite": "assets/items/default/old-amber.png",
     "locations": [
@@ -2245,15 +2472,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 354
   },
   {
     "id": 107,
     "key": "shiny-stone",
     "name": "Shiny Stone",
-    "description": "Evolves a Minccino into Cinccino, a Roselia into Roserade, or a Togetic into Togekiss.",
+    "description": "A peculiar stone that makes certain species of Pokémon evolve. It is as light as the day.",
     "category": "Evolution",
     "sprite": "assets/items/default/shiny-stone.png",
     "locations": [
@@ -2277,15 +2507,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 100
   },
   {
     "id": 108,
     "key": "dusk-stone",
     "name": "Dusk Stone",
-    "description": "Evolves a Lampent into Chandelure, a Misdreavus into Mismagius, or a Murkrow into Honchkrow.",
+    "description": "A peculiar stone that makes certain species of Pokémon evolve. It is as dark as dark can be.",
     "category": "Evolution",
     "sprite": "assets/items/default/dusk-stone.png",
     "locations": [
@@ -2307,15 +2540,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 99
   },
   {
     "id": 126,
     "key": "cheri-berry",
     "name": "Cheri Berry",
-    "description": "Held: Consumed when paralyzed to cure paralysis.",
+    "description": "When held by a Pokémon, it will be used in battle to heal paralysis.",
     "category": "Berries",
     "sprite": "assets/items/default/cheri-berry.png",
     "locations": [
@@ -2334,15 +2570,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 133
   },
   {
     "id": 127,
     "key": "chesto-berry",
     "name": "Chesto Berry",
-    "description": "Held: Consumed when asleep to cure sleep.",
+    "description": "When held by a Pokémon, it will be used in battle to wake up.",
     "category": "Berries",
     "sprite": "assets/items/default/chesto-berry.png",
     "locations": [
@@ -2360,15 +2599,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 134
   },
   {
     "id": 128,
     "key": "pecha-berry",
     "name": "Pecha Berry",
-    "description": "Held: Consumed when poisoned to cure poison.",
+    "description": "When held by a Pokémon, it will be used in battle to cure poison.",
     "category": "Berries",
     "sprite": "assets/items/default/pecha-berry.png",
     "locations": [
@@ -2386,15 +2628,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 135
   },
   {
     "id": 129,
     "key": "rawst-berry",
     "name": "Rawst Berry",
-    "description": "Held: Consumed when burned to cure a burn.",
+    "description": "When held by a Pokémon, it will be used in battle to heal a burn.",
     "category": "Berries",
     "sprite": "assets/items/default/rawst-berry.png",
     "locations": [
@@ -2411,15 +2656,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 136
   },
   {
     "id": 130,
     "key": "aspear-berry",
     "name": "Aspear Berry",
-    "description": "Held: Consumed when frozen to cure frozen.",
+    "description": "When held by a Pokémon, it will be used in battle for defrosting.",
     "category": "Berries",
     "sprite": "assets/items/default/aspear-berry.png",
     "locations": [
@@ -2436,15 +2684,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 137
   },
   {
     "id": 131,
     "key": "leppa-berry",
     "name": "Leppa Berry",
-    "description": "Held: Consumed when a move runs out of PP to restore its PP by 10.",
+    "description": "When held by a Pokémon, it will be used in battle to restore 10 PP.",
     "category": "Berries",
     "sprite": "assets/items/default/leppa-berry.png",
     "locations": [
@@ -2470,15 +2721,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 138
   },
   {
     "id": 132,
     "key": "oran-berry",
     "name": "Oran Berry",
-    "description": "Held: Consumed at 1/2 max HP to recover 10 HP.",
+    "description": "When held by a Pokémon, it will be used in battle to restore 10 HP.",
     "category": "Berries",
     "sprite": "assets/items/default/oran-berry.png",
     "locations": [
@@ -2499,15 +2753,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 139
   },
   {
     "id": 133,
     "key": "persim-berry",
     "name": "Persim Berry",
-    "description": "Held: Consumed when confused to cure confusion.",
+    "description": "When held by a Pokémon, it will be used in battle to lift confusion.",
     "category": "Berries",
     "sprite": "assets/items/default/persim-berry.png",
     "locations": [
@@ -2526,15 +2783,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 140
   },
   {
     "id": 134,
     "key": "lum-berry",
     "name": "Lum Berry",
-    "description": "Held: Consumed to cure any status condition or confusion.",
+    "description": "When held by a Pokémon, it will be used in battle to heal any problem.",
     "category": "Berries",
     "sprite": "assets/items/default/lum-berry.png",
     "locations": [
@@ -2554,15 +2814,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 141
   },
   {
     "id": 135,
     "key": "sitrus-berry",
     "name": "Sitrus Berry",
-    "description": "Held: Consumed at 1/2 max HP to recover 1/4 max HP.",
+    "description": "When held by a Pokémon, it will be used in battle to restore 30 HP.",
     "category": "Berries",
     "sprite": "assets/items/default/sitrus-berry.png",
     "locations": [
@@ -2588,15 +2851,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 142
   },
   {
     "id": 136,
     "key": "figy-berry",
     "name": "Figy Berry",
-    "description": "Held: Consumed at 1/2 max HP to restore 1/8 max HP. Confuses Pokémon that dislike spicy flavor.",
+    "description": "A hold item that restores HP but may cause confusion when used.",
     "category": "Berries",
     "sprite": "assets/items/default/figy-berry.png",
     "locations": [
@@ -2613,15 +2879,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 143
   },
   {
     "id": 137,
     "key": "wiki-berry",
     "name": "Wiki Berry",
-    "description": "Held: Consumed at 1/2 max HP to restore 1/8 max HP. Confuses Pokémon that dislike dry flavor.",
+    "description": "A hold item that restores HP but may cause confusion when used.",
     "category": "Berries",
     "sprite": "assets/items/default/wiki-berry.png",
     "locations": [
@@ -2638,15 +2907,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 144
   },
   {
     "id": 138,
     "key": "mago-berry",
     "name": "Mago Berry",
-    "description": "Held: Consumed at 1/2 max HP to restore 1/8 max HP. Confuses Pokémon that dislike sweet flavor.",
+    "description": "A hold item that restores HP but may cause confusion when used.",
     "category": "Berries",
     "sprite": "assets/items/default/mago-berry.png",
     "locations": [
@@ -2663,15 +2935,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 145
   },
   {
     "id": 139,
     "key": "aguav-berry",
     "name": "Aguav Berry",
-    "description": "Held: Consumed at 1/2 max HP to restore 1/8 max HP. Confuses Pokémon that dislike bitter flavor.",
+    "description": "A hold item that restores HP but may cause confusion when used.",
     "category": "Berries",
     "sprite": "assets/items/default/aguav-berry.png",
     "locations": [
@@ -2688,15 +2963,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 146
   },
   {
     "id": 140,
     "key": "iapapa-berry",
     "name": "Iapapa Berry",
-    "description": "Held: Consumed at 1/2 max HP to restore 1/8 max HP. Confuses Pokémon that dislike sour flavor.",
+    "description": "A hold item that restores HP but may cause confusion when used.",
     "category": "Berries",
     "sprite": "assets/items/default/iapapa-berry.png",
     "locations": [
@@ -2713,15 +2991,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 147
   },
   {
     "id": 178,
     "key": "liechi-berry",
     "name": "Liechi Berry",
-    "description": "Held: Consumed at 1/4 max HP to boost Attack.",
+    "description": "When held by a Pokémon, it raises the Attack stat in a pinch.",
     "category": "Berries",
     "sprite": "assets/items/default/liechi-berry.png",
     "locations": [
@@ -2739,15 +3020,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 148
   },
   {
     "id": 179,
     "key": "ganlon-berry",
     "name": "Ganlon Berry",
-    "description": "Held: Consumed at 1/4 max HP to boost Defense.",
+    "description": "When held by a Pokémon, it raises the Defense stat in a pinch.",
     "category": "Berries",
     "sprite": "assets/items/default/ganlon-berry.png",
     "locations": [
@@ -2764,15 +3048,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 149
   },
   {
     "id": 180,
     "key": "salac-berry",
     "name": "Salac Berry",
-    "description": "Held: Consumed at 1/4 max HP to boost Speed.",
+    "description": "When held by a Pokémon, it raises the Speed stat in a pinch.",
     "category": "Berries",
     "sprite": "assets/items/default/salac-berry.png",
     "locations": [
@@ -2789,15 +3076,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 150
   },
   {
     "id": 181,
     "key": "petaya-berry",
     "name": "Petaya Berry",
-    "description": "Held: Consumed at 1/4 max HP to boost Special Attack.",
+    "description": "When held by a Pokémon, it raises the Sp. Atk stat in a pinch.",
     "category": "Berries",
     "sprite": "assets/items/default/petaya-berry.png",
     "locations": [
@@ -2814,15 +3104,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 151
   },
   {
     "id": 182,
     "key": "apicot-berry",
     "name": "Apicot Berry",
-    "description": "Held: Consumed at 1/4 max HP to boost Special Defense.",
+    "description": "When held by a Pokémon, it raises the Sp. Def stat in a pinch.",
     "category": "Berries",
     "sprite": "assets/items/default/apicot-berry.png",
     "locations": [
@@ -2839,15 +3132,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 152
   },
   {
     "id": 191,
     "key": "white-herb",
     "name": "White Herb",
-    "description": "Held: Resets all lowered stats to normal at end of turn. Consumed after use.",
+    "description": "An item to be held by a Pokémon. It restores any lowered stat in battle. It can be used only once.",
     "category": "Held Items",
     "sprite": "assets/items/default/white-herb.png",
     "locations": [
@@ -2866,15 +3162,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 180
   },
   {
     "id": 192,
     "key": "macho-brace",
     "name": "Macho Brace",
-    "description": "Held: Holder gains double effort values from battles, but has halved Speed in battle.",
+    "description": "An item to be held by a Pokémon. It promotes strong growth but lowers Speed while it is held.",
     "category": "Effort Training",
     "sprite": "assets/items/default/macho-brace.png",
     "locations": [
@@ -2895,15 +3194,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 181
   },
   {
     "id": 193,
     "key": "exp-share",
     "name": "Exp. Share",
-    "description": "Held: Half the experience from a battle is split between Pokémon holding this item.",
+    "description": "An item to be held by a Pokémon. The holder gets a share of EXP. points without having to battle.",
     "category": "Held Items",
     "sprite": "assets/items/default/exp-share.png",
     "locations": [
@@ -2919,15 +3221,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 182
   },
   {
     "id": 194,
     "key": "quick-claw",
     "name": "Quick Claw",
-    "description": "Held: Holder has a 3/16 (18.75%) chance to move first.",
+    "description": "An item to be held by a Pokémon. A light and sharp claw. The holder may be able to strike first.",
     "category": "Held Items",
     "sprite": "assets/items/default/quick-claw.png",
     "locations": [
@@ -2944,15 +3249,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 183
   },
   {
     "id": 195,
     "key": "soothe-bell",
     "name": "Soothe Bell",
-    "description": "Held: Doubles the happiness earned by the holder.",
+    "description": "A held item that helps make the user more friendly. Also helps certain Pokémon evolve.",
     "category": "Training",
     "sprite": "assets/items/default/soothe-bell.png",
     "locations": [
@@ -2975,15 +3283,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 184
   },
   {
     "id": 196,
     "key": "mental-herb",
     "name": "Mental Herb",
-    "description": "Held: Consumed to cure infatuation. Gen V: Also removes Taunt, Encore, Torment, Disable, and Cursed Body.",
+    "description": "An item to be held by a Pokémon. It snaps the holder out of infatuation. It can be used once.",
     "category": "Held Items",
     "sprite": "assets/items/default/mental-herb.png",
     "locations": [
@@ -3000,15 +3311,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 185
   },
   {
     "id": 197,
     "key": "choice-band",
     "name": "Choice Band",
-    "description": "Held: Increases Attack by 50%, but restricts the holder to only one move.",
+    "description": "An item to be held by a Pokémon. This headband ups Attack, but allows the use of only one move.",
     "category": "Held Items",
     "sprite": "assets/items/default/choice-band.png",
     "locations": [
@@ -3026,15 +3340,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 186
   },
   {
     "id": 198,
     "key": "kings-rock",
     "name": "King`s Rock",
-    "description": "Held: Damaging moves gain a 10% chance to make their target flinch. Traded on a Poliwhirl: Holder evolves into Politoed. Traded on a Slowpoke: Holder evolves into Slowking.",
+    "description": "An item to be held by a Pokémon. It may cause the foe to flinch upon taking damage.",
     "category": "Held Items",
     "sprite": "assets/items/default/kings-rock.png",
     "locations": [
@@ -3053,15 +3370,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 187
   },
   {
     "id": 199,
     "key": "silver-powder",
     "name": "SilverPowder",
-    "description": "Held: Bug-Type moves from holder do 20% more damage.",
+    "description": "An item to be held by a Pokémon. A shiny silver powder that boosts the power of Bug-type moves.",
     "category": "Held Items",
     "sprite": "assets/items/default/silver-powder.png",
     "locations": [
@@ -3078,15 +3398,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 188
   },
   {
     "id": 200,
     "key": "amulet-coin",
     "name": "Amulet Coin",
-    "description": "Held: Doubles the money earned from a battle. Does not stack with Luck Incense.",
+    "description": "An item to be held by a Pokémon. It doubles the battle money if the holding Pokémon takes part.",
     "category": "Held Items",
     "sprite": "assets/items/default/amulet-coin.png",
     "locations": [
@@ -3103,15 +3426,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 189
   },
   {
     "id": 201,
     "key": "cleanse-tag",
     "name": "Cleanse Tag",
-    "description": "Prevents wild encounters of level lower than your party’s lead Pokémon.",
+    "description": "An item to be held by a Pokémon. It repels wild Pokémon if the holder is first in the party.",
     "category": "Held Items",
     "sprite": "assets/items/default/cleanse-tag.png",
     "locations": [
@@ -3127,15 +3453,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 190
   },
   {
     "id": 202,
     "key": "soul-dew",
     "name": "Soul Dew",
-    "description": "Raises Latias and Latios’s Special Attack and Special Defense by 50%.",
+    "description": "An orb to be held by a Latios or Latias. It raises the Sp. Atk and Sp. Def stats.",
     "category": "Held Items",
     "sprite": "assets/items/default/soul-dew.png",
     "locations": [
@@ -3151,15 +3480,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 191
   },
   {
     "id": 205,
     "key": "smoke-ball",
     "name": "Smoke Ball",
-    "description": "Held: Allows the Holder to escape from any wild battle.",
+    "description": "An item to be held by a Pokémon. The holding Pokémon can flee from any wild Pokémon for sure.",
     "category": "Held Items",
     "sprite": "assets/items/default/smoke-ball.png",
     "locations": [
@@ -3178,15 +3510,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 194
   },
   {
     "id": 206,
     "key": "everstone",
     "name": "Everstone",
-    "description": "Held: Prevents level-based evolution from occuring.",
+    "description": "An item to be held by a Pokémon. The holding Pokémon is prevented from evolving.",
     "category": "Held Items",
     "sprite": "assets/items/default/everstone.png",
     "locations": [
@@ -3204,15 +3539,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 195
   },
   {
     "id": 207,
     "key": "focus-band",
     "name": "Focus Band",
-    "description": "Held: Holder has 10% chance to survive attacks or self-inflicted damage at 1 HP.",
+    "description": "An item to be held by a Pokémon. The holding Pokémon may endure an attack, leaving just 1 HP.",
     "category": "Held Items",
     "sprite": "assets/items/default/focus-band.png",
     "locations": [
@@ -3231,15 +3569,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 196
   },
   {
     "id": 208,
     "key": "lucky-egg",
     "name": "Lucky Egg",
-    "description": "Held: Increases EXP earned in battle by 50%.",
+    "description": "An item to be held by a Pokémon. An egg filled with happiness that earns extra EXP. points in battle.",
     "category": "Held Items",
     "sprite": "assets/items/default/lucky-egg.png",
     "locations": [
@@ -3255,15 +3596,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 197
   },
   {
     "id": 209,
     "key": "scope-lens",
     "name": "Scope Lens",
-    "description": "Held: Raises the holder’s critical hit ratio by one stage.",
+    "description": "An item to be held by a Pokémon. A lens that boosts the critical-hit ratio of the holding Pokémon.",
     "category": "Held Items",
     "sprite": "assets/items/default/scope-lens.png",
     "locations": [
@@ -3280,15 +3624,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 198
   },
   {
     "id": 210,
     "key": "metal-coat",
     "name": "Metal Coat",
-    "description": "Held: Steel-Type moves from holder do 20% more damage.",
+    "description": "An item to be held by a Pokémon. A special metallic film that boosts the power of Steel-type moves.",
     "category": "Type Enhancement",
     "sprite": "assets/items/default/metal-coat.png",
     "locations": [
@@ -3309,15 +3656,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 199
   },
   {
     "id": 211,
     "key": "leftovers",
     "name": "Leftovers",
-    "description": "Held: Restores 1/16 (6.25%) holder’s max HP at the end of each turn.",
+    "description": "An item to be held by a Pokémon. The holding Pokémon gradually regains HP during battle.",
     "category": "Held Items",
     "sprite": "assets/items/default/leftovers.png",
     "locations": [
@@ -3334,15 +3684,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 200
   },
   {
     "id": 212,
     "key": "dragon-scale",
     "name": "Dragon Scale",
-    "description": "Traded on a Seadra: Holder evolves into Kingdra.",
+    "description": "A thick and tough scale. A Dragon-type Pokémon may be holding it.",
     "category": "Evolution",
     "sprite": "assets/items/default/dragon-scale.png",
     "locations": [
@@ -3363,15 +3716,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 201
   },
   {
     "id": 213,
     "key": "light-ball",
     "name": "Light Ball",
-    "description": "Doubles Pikachu’s Attack and Special Attack. Breed on Pikachu or Raichu: Pichu Egg will have Volt Tackle.",
+    "description": "An item to be held by a Pikachu. It is a puzzling orb that raises the Atk and Sp. Atk stat.",
     "category": "Held Items",
     "sprite": "assets/items/default/light-ball.png",
     "locations": [
@@ -3390,15 +3746,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 202
   },
   {
     "id": 214,
     "key": "soft-sand",
     "name": "Soft Sand",
-    "description": "Held: Ground-Type moves from holder do 20% more damage.",
+    "description": "An item to be held by a Pokémon. A loose, silky sand that boosts the power of Ground-type moves.",
     "category": "Held Items",
     "sprite": "assets/items/default/soft-sand.png",
     "locations": [
@@ -3414,15 +3773,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 203
   },
   {
     "id": 215,
     "key": "hard-stone",
     "name": "Hard Stone",
-    "description": "Held: Rock-Type moves from holder do 20% more damage.",
+    "description": "An item to be held by a Pokémon. An unbreakable stone that boosts the power of Rock-type moves.",
     "category": "Type Enhancement",
     "sprite": "assets/items/default/hard-stone.png",
     "locations": [
@@ -3442,15 +3804,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 204
   },
   {
     "id": 216,
     "key": "miracle-seed",
     "name": "Miracle Seed",
-    "description": "Held: Grass-Type moves from holder do 20% more damage.",
+    "description": "An item to be held by a Pokémon. A seed imbued with life that boosts the power of Grass-type moves.",
     "category": "Held Items",
     "sprite": "assets/items/default/miracle-seed.png",
     "locations": [
@@ -3467,15 +3832,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 205
   },
   {
     "id": 217,
     "key": "black-glasses",
     "name": "Blackglasses",
-    "description": "Held: Dark-Type moves from holder do 20% more damage.",
+    "description": "An item to be held by a Pokémon. A shady-looking pair of glasses that boosts Dark-type moves.",
     "category": "Held Items",
     "sprite": "assets/items/default/black-glasses.png",
     "locations": [
@@ -3492,15 +3860,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 206
   },
   {
     "id": 218,
     "key": "black-belt",
     "name": "Black Belt",
-    "description": "Held: Fighting-Type moves from holder do 20% more damage.",
+    "description": "An item to be held by a Pokémon. A belt that boosts determination and Fighting-type moves.",
     "category": "Held Items",
     "sprite": "assets/items/default/black-belt.png",
     "locations": [
@@ -3517,15 +3888,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 207
   },
   {
     "id": 219,
     "key": "magnet",
     "name": "Magnet",
-    "description": "Held: Electric-Type moves from holder do 20% more damage.",
+    "description": "An item to be held by a Pokémon. A powerful magnet that boosts the power of Electric-type moves.",
     "category": "Held Items",
     "sprite": "assets/items/default/magnet.png",
     "locations": [
@@ -3543,15 +3917,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 208
   },
   {
     "id": 220,
     "key": "mystic-water",
     "name": "Mystic Water",
-    "description": "Held: Water-Type moves from holder do 20% more damage.",
+    "description": "An item to be held by a Pokémon. A teardrop-shaped gem that boosts the power of Water-type moves.",
     "category": "Held Items",
     "sprite": "assets/items/default/mystic-water.png",
     "locations": [
@@ -3568,15 +3945,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 209
   },
   {
     "id": 221,
     "key": "sharp-beak",
     "name": "Sharp Beak",
-    "description": "Held: Flying-Type moves from holder do 20% more damage.",
+    "description": "An item to be held by a Pokémon. A long, sharp beak that boosts the power of Flying-type moves.",
     "category": "Held Items",
     "sprite": "assets/items/default/sharp-beak.png",
     "locations": [
@@ -3593,15 +3973,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 210
   },
   {
     "id": 222,
     "key": "poison-barb",
     "name": "Poison Barb",
-    "description": "Held: Poison-Type moves from holder do 20% more damage.",
+    "description": "An item to be held by a Pokémon. A small, poisonous barb that boosts the power of Poison-type moves.",
     "category": "Held Items",
     "sprite": "assets/items/default/poison-barb.png",
     "locations": [
@@ -3618,15 +4001,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 211
   },
   {
     "id": 223,
     "key": "never-melt-ice",
     "name": "Nevermeltice",
-    "description": "Held: Ice-Type moves from holder do 20% more damage.",
+    "description": "An item to be held by a Pokémon. A piece of ice that repels heat and boosts Ice-type moves.",
     "category": "Held Items",
     "sprite": "assets/items/default/never-melt-ice.png",
     "locations": [
@@ -3643,15 +4029,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 212
   },
   {
     "id": 224,
     "key": "spell-tag",
     "name": "Spell Tag",
-    "description": "Held: Ghost-Type moves from holder do 20% more damage.",
+    "description": "An item to be held by a Pokémon. A sinister, eerie tag that boosts Ghost-type moves.",
     "category": "Type Enhancement",
     "sprite": "assets/items/default/spell-tag.png",
     "locations": [
@@ -3672,15 +4061,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 213
   },
   {
     "id": 225,
     "key": "twisted-spoon",
     "name": "Twisted Spoon",
-    "description": "Held: Psychic-Type moves from holder do 20% more damage.",
+    "description": "An item to be held by a Pokémon. A spoon imbued with telekinetic power boosts Psychic-type moves.",
     "category": "Type Enhancement",
     "sprite": "assets/items/default/twisted-spoon.png",
     "locations": [
@@ -3700,15 +4092,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 214
   },
   {
     "id": 226,
     "key": "charcoal",
     "name": "Charcoal",
-    "description": "Held: Fire-Type moves from holder do 20% more damage.",
+    "description": "An item to be held by a Pokémon. A combustible fuel that boosts the power of Fire-type moves.",
     "category": "Held Items",
     "sprite": "assets/items/default/charcoal.png",
     "locations": [
@@ -3725,15 +4120,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 215
   },
   {
     "id": 227,
     "key": "dragon-fang",
     "name": "Dragon Fang",
-    "description": "Held: Dragon-Type moves from holder do 20% more damage.",
+    "description": "An item to be held by a Pokémon. A hard and sharp fang that boosts the power of Dragon-type moves.",
     "category": "Held Items",
     "sprite": "assets/items/default/dragon-fang.png",
     "locations": [
@@ -3750,15 +4148,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 216
   },
   {
     "id": 228,
     "key": "silk-scarf",
     "name": "Silk Scarf",
-    "description": "Held: Normal-Type moves from holder do 20% more damage.",
+    "description": "An item to be held by a Pokémon. A sumptuous scarf that boosts the power of Normal-type moves.",
     "category": "Held Items",
     "sprite": "assets/items/default/silk-scarf.png",
     "locations": [
@@ -3777,15 +4178,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 217
   },
   {
     "id": 229,
     "key": "up-grade",
     "name": "Up-Grade",
-    "description": "Traded on a Porygon: Holder evolves into Porygon2.",
+    "description": "A transparent device filled with all sorts of data. It is made by Silph Co.",
     "category": "Evolution",
     "sprite": "assets/items/default/up-grade.png",
     "locations": [
@@ -3803,15 +4207,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 218
   },
   {
     "id": 230,
     "key": "shell-bell",
     "name": "Shell Bell",
-    "description": "Held: Holder receives 1/8 of the damage it deals when attacking.",
+    "description": "An item to be held by a Pokémon. The holding Pokémon regains some HP upon striking the foe.",
     "category": "Held Items",
     "sprite": "assets/items/default/shell-bell.png",
     "locations": [
@@ -3828,15 +4235,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 219
   },
   {
     "id": 231,
     "key": "sea-incense",
     "name": "Sea Incense",
-    "description": "Held: Water-Type moves from holder do 20% more damage. Breeding: Marill or Azumarill beget an Azurill Egg.",
+    "description": "An item to be held by a Pokémon. It slightly boosts the power of Water-type moves.",
     "category": "Held Items",
     "sprite": "assets/items/default/sea-incense.png",
     "locations": [
@@ -3852,15 +4262,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 220
   },
   {
     "id": 233,
     "key": "lucky-punch",
     "name": "Lucky Punch",
-    "description": "Raises Chansey’s critical hit ratio by two stages.",
+    "description": "A glove to be held by a CHANSEY. It raises Chansey’s critical-hit ratio.",
     "category": "Held Items",
     "sprite": "assets/items/default/lucky-punch.png",
     "locations": [
@@ -3876,15 +4289,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 222
   },
   {
     "id": 234,
     "key": "metal-powder",
     "name": "Metal Powder",
-    "description": "Raises Ditto’s Defense and Special Defense by 50%. The boost is lost after transforming.",
+    "description": "A fine, hard powder to be held by a Ditto. It raises Ditto’s Defense stat.",
     "category": "Held Items",
     "sprite": "assets/items/default/metal-powder.png",
     "locations": [
@@ -3900,15 +4316,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 223
   },
   {
     "id": 235,
     "key": "thick-club",
     "name": "Thick Club",
-    "description": "Doubles Cubone or Marowak’s Attack.",
+    "description": "A hard bone of some sort to be held by a Cubone or Marowak. It raises the Attack stat.",
     "category": "Held Items",
     "sprite": "assets/items/default/thick-club.png",
     "locations": [
@@ -3925,15 +4344,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 224
   },
   {
     "id": 238,
     "key": "blue-scarf",
     "name": "Blue Scarf",
-    "description": "Raises the holder’s Beauty while in a contest.",
+    "description": "An item to be held by Feebas. Allows it to evolve while increasing its level.",
     "category": "Scarves",
     "sprite": "assets/items/default/blue-scarf.png",
     "locations": [
@@ -3951,15 +4373,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 255
   },
   {
     "id": 242,
     "key": "wide-lens",
     "name": "Wide Lens",
-    "description": "Held: Provides a 1/10 (10%) boost in accuracy to the holder.",
+    "description": "An item to be held by a Pokémon. It is a magnifying lens that boosts the accuracy of moves by 10%.",
     "category": "Held Items",
     "sprite": "assets/items/default/wide-lens.png",
     "locations": [
@@ -3977,15 +4402,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 58
   },
   {
     "id": 245,
     "key": "expert-belt",
     "name": "Expert Belt",
-    "description": "Held: Holder’s Super Effective moves do 20% extra damage.",
+    "description": "A well-worn belt that slightly boosts the power of super- effective moves.",
     "category": "Held Items",
     "sprite": "assets/items/default/expert-belt.png",
     "locations": [
@@ -4001,15 +4429,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 102
   },
   {
     "id": 246,
     "key": "light-clay",
     "name": "Light Clay",
-    "description": "Held: Light Screen and Reflect used by the holder last 8 rounds instead of 5.",
+    "description": "An item to be held by a Pokémon. Protective moves like Light Screen and Reflect will be effective longer.",
     "category": "Held Items",
     "sprite": "assets/items/default/light-clay.png",
     "locations": [
@@ -4030,15 +4461,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 227
   },
   {
     "id": 249,
     "key": "toxic-orb",
     "name": "Toxic Orb",
-    "description": "Held: Inflicts Toxic on the holder at the end of the turn. Activates after Poison damage would occur.",
+    "description": "An item to be held by a Pokémon. It’s a bizzare orb that will badly poison the holder during battle.",
     "category": "Held Items",
     "sprite": "assets/items/default/toxic-orb.png",
     "locations": [
@@ -4054,15 +4488,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 115
   },
   {
     "id": 250,
     "key": "flame-orb",
     "name": "Flame Orb",
-    "description": "Held: Inflicts Burn on the holder at the end of the turn. Activates after Burn damage would occur.",
+    "description": "An item to be held by a Pokémon. It’s a bizzare orb that will afflict the holder with a burn in battle.",
     "category": "Held Items",
     "sprite": "assets/items/default/flame-orb.png",
     "locations": [
@@ -4078,15 +4515,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 114
   },
   {
     "id": 257,
     "key": "destiny-knot",
     "name": "Destiny Knot",
-    "description": "Held: Infatuates opposing Pokémon when holder is inflicted with infatuation.",
+    "description": "When held, it increases the chance to pass heritage to its offspring.",
     "category": "Held Items",
     "sprite": "assets/items/default/destiny-knot.png",
     "locations": [
@@ -4102,15 +4542,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 226
   },
   {
     "id": 258,
     "key": "black-sludge",
     "name": "Black Sludge",
-    "description": "Held: Poison-type holder recovers 1/16 (6.25%) max HP each turn. Non-Poison-Types take 1/8 (12.5%) max HP damage.",
+    "description": "A held item that gradually restores the HP of Poison-type Pokémon. It inflicts damage on all other types.",
     "category": "Held Items",
     "sprite": "assets/items/default/black-sludge.png",
     "locations": [
@@ -4126,15 +4569,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 82
   },
   {
     "id": 264,
     "key": "choice-scarf",
     "name": "Choice Scarf",
-    "description": "Held: Increases Speed by 50%, but restricts the holder to only one move.",
+    "description": "An item to be held by a Pokémon. This scarf boosts Speed, but allows the use of only one move.",
     "category": "Held Items",
     "sprite": "assets/items/default/choice-scarf.png",
     "locations": [
@@ -4151,15 +4597,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 118
   },
   {
     "id": 266,
     "key": "power-bracer",
     "name": "Power Bracer",
-    "description": "Held: Holder gains 4 Attack effort values, but has halved Speed in battle.",
+    "description": "An item that aids in training, promotes strong Attack growth but cuts Speed while held.",
     "category": "Held Items",
     "sprite": "assets/items/default/power-bracer.png",
     "locations": [
@@ -4175,15 +4624,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 230
   },
   {
     "id": 267,
     "key": "power-belt",
     "name": "Power Belt",
-    "description": "Held: Holder gains 4 Defense effort values, but has halved Speed in battle.",
+    "description": "An item that aids in training, promotes strong Defense growth but cuts Speed while held.",
     "category": "Held Items",
     "sprite": "assets/items/default/power-belt.png",
     "locations": [
@@ -4199,15 +4651,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 231
   },
   {
     "id": 268,
     "key": "power-lens",
     "name": "Power Lens",
-    "description": "Held: Holder gains 4 Special Attack effort values, but has halved Speed in battle.",
+    "description": "An item that aids in training, promotes strong SP. Atk growth but cuts Speed while held.",
     "category": "Held Items",
     "sprite": "assets/items/default/power-lens.png",
     "locations": [
@@ -4223,15 +4678,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 233
   },
   {
     "id": 269,
     "key": "power-band",
     "name": "Power Band",
-    "description": "Held: Holder gains 4 Special Defense effort values, but has halved Speed in battle.",
+    "description": "An item that aids in training, promotes strong Sp. Def growth but cuts Speed while held.",
     "category": "Held Items",
     "sprite": "assets/items/default/power-band.png",
     "locations": [
@@ -4247,15 +4705,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 234
   },
   {
     "id": 270,
     "key": "power-anklet",
     "name": "Power Anklet",
-    "description": "Held: Holder gains 4 Speed effort values, but has halved Speed in battle.",
+    "description": "An item that aids in training, promotes strong Speed growth but cuts Speed while held.",
     "category": "Held Items",
     "sprite": "assets/items/default/power-anklet.png",
     "locations": [
@@ -4271,15 +4732,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 232
   },
   {
     "id": 271,
     "key": "power-weight",
     "name": "Power Weight",
-    "description": "Held: Holder gains 4 HP effort values, but has halved Speed in battle.",
+    "description": "An item that aids in training, promotes strong HP growth but cuts Speed while held.",
     "category": "Held Items",
     "sprite": "assets/items/default/power-weight.png",
     "locations": [
@@ -4295,15 +4759,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 229
   },
   {
     "id": 274,
     "key": "choice-specs",
     "name": "Choice Specs",
-    "description": "Held: Increases Special Attack by 50%, but restricts the holder to only one move.",
+    "description": "An item to be held by a Pokémon. These glasses raise Sp. Atk, but allows the use of only one move.",
     "category": "Held Items",
     "sprite": "assets/items/default/choice-specs.png",
     "locations": [
@@ -4321,15 +4788,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 119
   },
   {
     "id": 298,
     "key": "protector",
     "name": "Protector",
-    "description": "Traded on a Rhydon: Holder evolves into Rhyperior.",
+    "description": "A protective item of some sort. It is extremely stiff and heavy. It is loved by a certain Pokémon.",
     "category": "Evolution",
     "sprite": "assets/items/default/protector.png",
     "locations": [
@@ -4350,15 +4820,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 55
   },
   {
     "id": 299,
     "key": "electirizer",
     "name": "Electirizer",
-    "description": "Traded on an Electabuzz: Holder evolves into Electivire.",
+    "description": "A box packed with a tremendous amount of electric energy. It is loved by a certain Pokémon.",
     "category": "Evolution",
     "sprite": "assets/items/default/electirizer.png",
     "locations": [
@@ -4377,15 +4850,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 53
   },
   {
     "id": 300,
     "key": "magmarizer",
     "name": "Magmarizer",
-    "description": "Traded on a Magmar: Holder evolves into Magmortar.",
+    "description": "A box packed with a tremendous amount of magma energy. It is loved by a certain Pokémon.",
     "category": "Evolution",
     "sprite": "assets/items/default/magmarizer.png",
     "locations": [
@@ -4404,15 +4880,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 54
   },
   {
     "id": 301,
     "key": "dubious-disc",
     "name": "Dubious Disc",
-    "description": "Traded on a Porygon2: Holder evolves into Porygon-Z.",
+    "description": "If held, causes certain Pokémon to evolve when leveled up.",
     "category": "Evolution",
     "sprite": "assets/items/default/dubious-disc.png",
     "locations": [
@@ -4433,15 +4912,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 174
   },
   {
     "id": 302,
     "key": "reaper-cloth",
     "name": "Reaper Cloth",
-    "description": "Traded on a Dusclops: Holder evolves into Dusknoir.",
+    "description": "A cloth imbued with horrifyingly strong spiritual energy. It is loved by a certain Pokémon.",
     "category": "Evolution",
     "sprite": "assets/items/default/reaper-cloth.png",
     "locations": [
@@ -4460,15 +4942,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 170
   },
   {
     "id": 303,
     "key": "razor-claw",
     "name": "Razor Claw",
-    "description": "Held: Raises the holder’s critical hit ratio by one stage. Held by a Sneasel while levelling up at night: Holder evolves into Weavile.",
+    "description": "An item to be held by a Pokémon. It is a sharply hooked claw that ups the holder’s critical-hit ratio.",
     "category": "Held Items",
     "sprite": "assets/items/default/razor-claw.png",
     "locations": [
@@ -4486,15 +4971,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 56
   },
   {
     "id": 304,
     "key": "razor-fang",
     "name": "Razor Fang",
-    "description": "Held: Damaging moves gain a 10% chance to make their target flinch. Held by a Gligar while levelling up: Holder evolves into Gliscor.",
+    "description": "An item to be held by a Pokémon. It may cause the foe to flinch when the holder inflicts damage.",
     "category": "Held Items",
     "sprite": "assets/items/default/razor-fang.png",
     "locations": [
@@ -4513,15 +5001,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 57
   },
   {
     "id": 420,
     "key": "vs-seeker",
     "name": "Vs Seeker",
-    "description": "Allows rebattling of on-screen trainers. 100 steps to recharge.",
+    "description": "A device that indicates Trainers who want to battle. Usage is instantaneous.",
     "category": "Key Items",
     "sprite": "assets/items/default/vs-seeker.png",
     "locations": [
@@ -4537,15 +5028,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 362
   },
   {
     "id": 421,
     "key": "coin-case",
     "name": "Coin Case",
-    "description": "Holds coins for the Game Corner.",
+    "description": "A case for holding Coins obtained at the Game Corner. It holds up to 9999 Coins.",
     "category": "Key Items",
     "sprite": "assets/items/default/coin-case.png",
     "locations": [
@@ -4561,15 +5055,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 260
   },
   {
     "id": 422,
     "key": "old-rod",
     "name": "Old Rod",
-    "description": "Used to catch Pokémon in bodies of water.",
+    "description": "An old and beat-up fishing rod. Use it by any body of water to fish for wild Pokémon.",
     "category": "Key Items",
     "sprite": "assets/items/default/old-rod.png",
     "locations": [
@@ -4585,15 +5082,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 262
   },
   {
     "id": 423,
     "key": "good-rod",
     "name": "Good Rod",
-    "description": "Used to catch Pokémon in bodies of water.",
+    "description": "A new, good-quality fishing rod. Use it by any body of water to fish for wild Pokémon.",
     "category": "Key Items",
     "sprite": "assets/items/default/good-rod.png",
     "locations": [
@@ -4609,15 +5109,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 263
   },
   {
     "id": 424,
     "key": "super-rod",
     "name": "Super Rod",
-    "description": "Used to catch Pokémon in bodies of water.",
+    "description": "An awesome, high-tech fishing rod. Use it by any body of water to fish for wild Pokémon.",
     "category": "Key Items",
     "sprite": "assets/items/default/super-rod.png",
     "locations": [
@@ -4633,15 +5136,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 264
   },
   {
     "id": 427,
     "key": "bicycle",
     "name": "Bicycle",
-    "description": "Use for fast transit.",
+    "description": "A folding bicycle that allows faster movement than the Running Shoes.",
     "category": "Key Items",
     "sprite": "assets/items/default/bicycle.png",
     "locations": [
@@ -4657,15 +5163,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 360
   },
   {
     "id": 441,
     "key": "secret-potion",
     "name": "SecretPotion",
-    "description": "Used to heal the Ampharos at the top of Olivine Lighthouse.",
+    "description": "A potion that contains a secret formular only for use in an emergency.",
     "category": "Key Items",
     "sprite": "assets/items/default/secret-potion.png",
     "locations": [
@@ -4681,15 +5190,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 368
   },
   {
     "id": 448,
     "key": "squirt-bottle",
     "name": "Squirtbottle",
-    "description": "Use on Sudowoodo blocking the path on Route 36. Also waters berries.",
+    "description": "A bottle given to you by the flower shop owner. It’s used for watering plants.",
     "category": "Key Items",
     "sprite": "assets/items/default/squirt-bottle.png",
     "locations": [
@@ -4705,15 +5217,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 352
   },
   {
     "id": 449,
     "key": "lure-ball",
     "name": "Lure Ball",
-    "description": "3× effectiveness while fishing. Made from Blu Apricorn.",
+    "description": "A Poké Ball for catching Pokémon hooked by a rod when fishing.",
     "category": "Poké Balls",
     "sprite": "assets/items/default/lure-ball.png",
     "locations": [
@@ -4730,15 +5245,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 242
   },
   {
     "id": 450,
     "key": "level-ball",
     "name": "Level Ball",
-    "description": "Success rate based off of fraction target Pokémon is of user’s Pokémon. Made from Red Apricorn.",
+    "description": "A Poké Ball for catching Pokémon that are a lower level than your own.",
     "category": "Poké Balls",
     "sprite": "assets/items/default/level-ball.png",
     "locations": [
@@ -4754,15 +5272,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 241
   },
   {
     "id": 451,
     "key": "moon-ball",
     "name": "Moon Ball",
-    "description": "4× effectiveness on familes of Pokémon with a Moon Stone evolution. Made from Ylw Apricorn.",
+    "description": "A Poké Ball for catching Pokémon that evolve using the Moon Stone.",
     "category": "Poké Balls",
     "sprite": "assets/items/default/moon-ball.png",
     "locations": [
@@ -4778,15 +5299,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 243
   },
   {
     "id": 453,
     "key": "fast-ball",
     "name": "Fast Ball",
-    "description": "4× effectiveness on Pokémon with 100 or greater base speed. (Gen II: Roaming or Fleeing Pokémon). Made from Wht Apricorn.",
+    "description": "A Poké Ball that makes it easier to catch fast Pokémon.",
     "category": "Poké Balls",
     "sprite": "assets/items/default/fast-ball.png",
     "locations": [
@@ -4802,15 +5326,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 247
   },
   {
     "id": 454,
     "key": "friend-ball",
     "name": "Friend Ball",
-    "description": "Caught Pokémon start with 200 happiness. Made from Grn Apricorn.",
+    "description": "A Poké Ball that makes caught Pokémon more friendly.",
     "category": "Poké Balls",
     "sprite": "assets/items/default/friend-ball.png",
     "locations": [
@@ -4827,15 +5354,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 244
   },
   {
     "id": 455,
     "key": "love-ball",
     "name": "Love Ball",
-    "description": "8× effectiveness on opposite sex, same species targets of the Active Pokémon. Made from Pnk Apricorn.",
+    "description": "Poké Ball for catching Pokémon that are the opposite gender of your Pokémon.",
     "category": "Poké Balls",
     "sprite": "assets/items/default/love-ball.png",
     "locations": [
@@ -4851,15 +5381,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 245
   },
   {
     "id": 457,
     "key": "sport-ball",
     "name": "Sport Ball",
-    "description": "Tries to catch a Pokémon in the Bug-Catching contest in National Park. (Gen II: Park Ball)",
+    "description": "A commemorative Ball given out during the Bug Catching contest and the Safari Zone.",
     "category": "Poké Balls",
     "sprite": "assets/items/default/sport-ball.png",
     "locations": [
@@ -4876,15 +5409,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 252
   },
   {
     "id": 458,
     "key": "red-apricorn",
     "name": "Red Apricorn",
-    "description": "Used to make a Level Ball.",
+    "description": "To be held by a Pokémon for use with the move Fling.",
     "category": "Held Items",
     "sprite": "assets/items/default/red-apricorn.png",
     "locations": [
@@ -4900,15 +5436,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 156
   },
   {
     "id": 466,
     "key": "rage-candy-bar",
     "name": "RageCandyBar",
-    "description": "HS: Traded for TM64. Gen II & Gen V: Acts as a Potion.",
+    "description": "A sour candy that causes a Pokémon to lose a level.",
     "category": "Other",
     "sprite": "assets/items/default/rage-candy-bar.png",
     "locations": [
@@ -4924,15 +5463,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 123
   },
   {
     "id": 471,
     "key": "unown-report",
     "name": "Unown Report",
-    "description": "Keeps track of Unown types caught.",
+    "description": "An item that will let you keep track of caught Unown variants.",
     "category": "Key Items",
     "sprite": "assets/items/default/unown-report.png",
     "locations": [
@@ -4948,15 +5490,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 374
   },
   {
     "id": 474,
     "key": "clear-bell",
     "name": "Clear Bell",
-    "description": "HS: Allows Kimono-girls to summon Ho-oh. C: Summons Suicune to the Tin Tower.",
+    "description": "A Bell that gives off a mystical and soothing ring.",
     "category": "Key Items",
     "sprite": "assets/items/default/clear-bell.png",
     "locations": [
@@ -4972,15 +5517,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 279
   },
   {
     "id": 477,
     "key": "red-scale",
     "name": "Red Scale",
-    "description": "Trade to Mr. Pokémon for an Exp. Share.",
+    "description": "A sparkling red scale left behind by the Red Gyarados.",
     "category": "Key Items",
     "sprite": "assets/items/default/red-scale.png",
     "locations": [
@@ -4996,15 +5544,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 353
   },
   {
     "id": 478,
     "key": "lost-item",
     "name": "Lost Item",
-    "description": "A Poké Doll lost by the Copycat who lives in Saffron City. Trade for a Pass.",
+    "description": "A doll that was lost by the Copycat Girl. It’s right leg is torn.",
     "category": "Key Items",
     "sprite": "assets/items/default/lost-item.png",
     "locations": [
@@ -5020,15 +5571,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 282
   },
   {
     "id": 480,
     "key": "machine-part",
     "name": "Machine Part",
-    "description": "Must be replaced in the Power Plant to power the Magnet Train.",
+    "description": "A Machine Part stolen from the Kanto Power Plant by Team Rocket.",
     "category": "Key Items",
     "sprite": "assets/items/default/machine-part.png",
     "locations": [
@@ -5044,15 +5598,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 371
   },
   {
     "id": 481,
     "key": "silver-wing",
     "name": "Silver Wing",
-    "description": "Summons Lugia to the Whirl Islands.",
+    "description": "A mystical feather of Silver colors. Comes from a legendary Pokémon Lugia!",
     "category": "Key Items",
     "sprite": "assets/items/default/silver-wing.png",
     "locations": [
@@ -5068,15 +5625,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 288
   },
   {
     "id": 482,
     "key": "rainbow-wing",
     "name": "Rainbow Wing",
-    "description": "Summons Ho-Oh at the top of the Bell Tower.",
+    "description": "A mystical feather of Rainbow colors. Comes from a legendary Pokémon Ho-Oh!",
     "category": "Key Items",
     "sprite": "assets/items/default/rainbow-wing.png",
     "locations": [
@@ -5092,15 +5652,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 285
   },
   {
     "id": 483,
     "key": "mystery-egg",
     "name": "Mystery Egg",
-    "description": "Deliver to Professor Elm.",
+    "description": "An Egg obtained from Mr.Pokémon to be delivered to Prof.Elm.",
     "category": "Key Items",
     "sprite": "assets/items/default/mystery-egg.png",
     "locations": [
@@ -5116,15 +5679,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 349
   },
   {
     "id": 484,
     "key": "gb-sounds",
     "name": "GB Sounds",
-    "description": "Use to listen to GameBoy era audio.",
+    "description": "A music player that allows you to listen to nostalgic songs. It’s operated with a single switch.",
     "category": "Key Items",
     "sprite": "assets/items/default/gb-sounds.png",
     "locations": [
@@ -5140,15 +5706,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 121
   },
   {
     "id": 548,
     "key": "silph-scope",
     "name": "Silph Scope",
-    "description": "Used to identify the true forms of ghosts in Pokémon Tower.",
+    "description": "A scope that makes unseeable Pokémon visible. It is made by SILPH CO.",
     "category": "Key Items",
     "sprite": "assets/items/default/silph-scope.png",
     "locations": [
@@ -5164,15 +5733,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 359
   },
   {
     "id": 581,
     "key": "eviolite",
     "name": "Eviolite",
-    "description": "Held: Holder has 1.5× Defense and Special Defense, as long as it’s not fully evolved.",
+    "description": "A mysterious evolutionary lump. It raises the Defense and Sp. Def of a Pokémon that can evolve.",
     "category": "Held Items",
     "sprite": "assets/items/default/eviolite.png",
     "locations": [
@@ -5188,15 +5760,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 105
   },
   {
     "id": 622,
     "key": "big-nugget",
     "name": "Big Nugget",
-    "description": "Sell to Ore Collector for 30000 Pokédollars.",
+    "description": "A large sized Nugget that can be sold for a very high price.",
     "category": "Valuables",
     "sprite": "assets/items/default/big-nugget.png",
     "locations": [
@@ -5218,15 +5793,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 112
   },
   {
     "id": 683,
     "key": "assault-vest",
     "name": "Assault Vest",
-    "description": "Raises the holder’s Special Defense to 1.5×. Prevents the holder from selecting a status move.",
+    "description": "An item to be held by a Pokémon. This vest raises Sp. Def but prevents the use of status moves.",
     "category": "Held Items",
     "sprite": "assets/items/default/assault-vest.png",
     "locations": [
@@ -5243,15 +5821,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 117
   },
   {
     "id": 885,
     "key": "ice-stone",
     "name": "Ice Stone",
-    "description": "Evolves an Alola Sandshrew into Alola Sandslash or an Alola Vulpix into Alola Ninetales.",
+    "description": "A peculiar stone that makes certain species of Pokémon evolve. It has a snowflake pattern.",
     "category": "Evolution",
     "sprite": "assets/items/default/ice-stone.png",
     "locations": [
@@ -5274,15 +5855,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 101
   },
   {
     "id": 931,
     "key": "basement-key--new-mauville",
     "name": "Basement Key",
-    "description": "XXX new effect for basement-key--new-mauville",
+    "description": "A key to unlock the door in the Goldenrod City Underground. It’s very rusty.",
     "category": "Key Items",
     "sprite": "assets/items/default/basement-key--new-mauville.png",
     "locations": [
@@ -5298,15 +5882,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 370
   },
   {
     "id": 1020,
     "key": "secret-key--letsgo",
     "name": "Secret Key",
-    "description": "The key that unlocks the front door of the Pokémon Gym on Cinnabar Island. It has a red decoration.",
+    "description": "The key to CINNABAR ISLAND GYM’s front door. It is colored red and decorated.",
     "category": "Key Items",
     "sprite": "",
     "locations": [
@@ -5322,15 +5909,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 351
   },
   {
     "id": 1021,
     "key": "ss-ticket--letsgo",
     "name": "S.S. Ticket",
-    "description": "The ticket required to board the S.S. Anne. It has a drawing of a ship on it.",
+    "description": "The ticket required for sailing on the ferry S.S. Aqua. It has a drawing of a ship on it.",
     "category": "Key Items",
     "sprite": "",
     "locations": [
@@ -5346,15 +5936,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 265
   },
   {
     "id": 1023,
     "key": "card-key--letsgo",
     "name": "Card Key",
-    "description": "A card key that unlocks doors in Silph Co.’s head office in Saffron City.",
+    "description": "A card-type key that unlocks doors in the Radio Tower in Goldenrod City.",
     "category": "Key Items",
     "sprite": "",
     "locations": [
@@ -5370,21 +5963,23 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 355
   },
   {
     "id": 2220,
     "key": "lapoke-ball",
     "name": "Poke Ball",
-    "description": "",
+    "description": "A Ball thrown to catch a wild Pokémon. It is designed in a capsule style.",
     "category": "Poké Balls",
     "sprite": "assets/items/default/lapoke-ball.png",
     "locations": [
       "New Bark Town — Aide in Elm`s Lab, Returned Mystery Egg; Source: Person; Qty: 10",
-      "Route 31 — S, SW of Wade; Source: Wild",
-      "One Island — Outdoor area, item ball at tile (19, 17); Source: 2026-07-19 ROM audit"
+      "Route 31 — S, SW of Wade; Source: Wild"
     ],
     "costs": [],
     "move": null,
@@ -5396,15 +5991,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 4
   },
   {
     "id": 2221,
     "key": "lagreat-ball",
     "name": "Great Ball",
-    "description": "",
+    "description": "A good, quality Ball that offers a higher Pokémon catch rate than a standard Poké Ball.",
     "category": "Poké Balls",
     "sprite": "assets/items/default/lagreat-ball.png",
     "locations": [
@@ -5422,15 +6020,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 3
   },
   {
     "id": 2222,
     "key": "laultra-ball",
     "name": "Ultra Ball",
-    "description": "",
+    "description": "A very high-grade Ball that offers a higher Pokémon catch rate than a Great Ball.",
     "category": "Poké Balls",
     "sprite": "assets/items/default/laultra-ball.png",
     "locations": [
@@ -5474,15 +6075,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 2
   },
   {
     "id": 2223,
     "key": "laheavy-ball",
     "name": "Heavy Ball",
-    "description": "Doesn't fly far, but is more effective if the Pokémon hasn't noticed the player.",
+    "description": "A Poké Ball for catching very heavy Pokémon.",
     "category": "Poké Balls",
     "sprite": "assets/items/default/laheavy-ball.png",
     "locations": [
@@ -5501,15 +6105,18 @@
         "name",
         "category",
         "locations",
-        "costs"
+        "costs",
+        "romId",
+        "description"
       ]
-    }
+    },
+    "romId": 246
   },
   {
     "id": 50000,
     "key": "ability-pill",
     "name": "Ability Pill",
-    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "description": "A peculiar item that allows most Pokémon to change their Ability.",
     "category": "Other",
     "sprite": "assets/art/placeholder-icon.svg",
     "locations": [
@@ -5521,7 +6128,7 @@
     "costs": [],
     "move": null,
     "_provenance": {
-      "origin": "custom",
+      "origin": "mixed",
       "overriddenFields": [
         "id",
         "key",
@@ -5531,9 +6138,11 @@
         "sprite",
         "locations",
         "costs",
-        "move"
+        "move",
+        "romId"
       ]
-    }
+    },
+    "romId": 113
   },
   {
     "id": 50001,
@@ -5566,7 +6175,7 @@
     "id": 50002,
     "key": "blk-apricorn",
     "name": "Blk Apricorn",
-    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "description": "To be held by a Pokémon for use with the move Fling.",
     "category": "Held Items",
     "sprite": "assets/art/placeholder-icon.svg",
     "locations": [
@@ -5575,7 +6184,7 @@
     "costs": [],
     "move": null,
     "_provenance": {
-      "origin": "custom",
+      "origin": "mixed",
       "overriddenFields": [
         "id",
         "key",
@@ -5585,15 +6194,17 @@
         "sprite",
         "locations",
         "costs",
-        "move"
+        "move",
+        "romId"
       ]
-    }
+    },
+    "romId": 159
   },
   {
     "id": 50003,
     "key": "blu-apricorn",
     "name": "Blu Apricorn",
-    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "description": "To be held by a Pokémon for use with the move Fling.",
     "category": "Held Items",
     "sprite": "assets/art/placeholder-icon.svg",
     "locations": [
@@ -5602,7 +6213,7 @@
     "costs": [],
     "move": null,
     "_provenance": {
-      "origin": "custom",
+      "origin": "mixed",
       "overriddenFields": [
         "id",
         "key",
@@ -5612,9 +6223,11 @@
         "sprite",
         "locations",
         "costs",
-        "move"
+        "move",
+        "romId"
       ]
-    }
+    },
+    "romId": 153
   },
   {
     "id": 50004,
@@ -5701,7 +6314,7 @@
     "id": 50007,
     "key": "bronze-cap",
     "name": "Bronze Cap",
-    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "description": "A Bronze bottle cap. When consumed, it boosts your Pokémon Happiness to its maximum. Reasonably rare.",
     "category": "Valuables",
     "sprite": "assets/art/placeholder-icon.svg",
     "locations": [
@@ -5710,7 +6323,7 @@
     "costs": [],
     "move": null,
     "_provenance": {
-      "origin": "custom",
+      "origin": "mixed",
       "overriddenFields": [
         "id",
         "key",
@@ -5720,9 +6333,11 @@
         "sprite",
         "locations",
         "costs",
-        "move"
+        "move",
+        "romId"
       ]
-    }
+    },
+    "romId": 254
   },
   {
     "id": 50008,
@@ -5998,7 +6613,7 @@
     "id": 50018,
     "key": "coral-stalk",
     "name": "Coral Stalk",
-    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "description": "A piece of Coral discarded from Corsola. Sells for a high price.",
     "category": "Valuables",
     "sprite": "assets/art/placeholder-icon.svg",
     "locations": [
@@ -6007,7 +6622,7 @@
     "costs": [],
     "move": null,
     "_provenance": {
-      "origin": "custom",
+      "origin": "mixed",
       "overriddenFields": [
         "id",
         "key",
@@ -6017,9 +6632,11 @@
         "sprite",
         "locations",
         "costs",
-        "move"
+        "move",
+        "romId"
       ]
-    }
+    },
+    "romId": 46
   },
   {
     "id": 50019,
@@ -6052,7 +6669,7 @@
     "id": 50020,
     "key": "exp-all",
     "name": "EXP. All",
-    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "description": "An item that when enabled allows all Pokémon in party to get some EXP in battle.",
     "category": "Key Items",
     "sprite": "assets/art/placeholder-icon.svg",
     "locations": [
@@ -6061,7 +6678,7 @@
     "costs": [],
     "move": null,
     "_provenance": {
-      "origin": "custom",
+      "origin": "mixed",
       "overriddenFields": [
         "id",
         "key",
@@ -6071,9 +6688,11 @@
         "sprite",
         "locations",
         "costs",
-        "move"
+        "move",
+        "romId"
       ]
-    }
+    },
+    "romId": 124
   },
   {
     "id": 50021,
@@ -6268,7 +6887,7 @@
     "id": 50028,
     "key": "gs-ball",
     "name": "GS Ball",
-    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "description": "A mysterious Poké Ball given to you. It’s rumored to contain a Pokémon!",
     "category": "Key Items",
     "sprite": "assets/art/placeholder-icon.svg",
     "locations": [
@@ -6277,7 +6896,7 @@
     "costs": [],
     "move": null,
     "_provenance": {
-      "origin": "custom",
+      "origin": "mixed",
       "overriddenFields": [
         "id",
         "key",
@@ -6287,9 +6906,11 @@
         "sprite",
         "locations",
         "costs",
-        "move"
+        "move",
+        "romId"
       ]
-    }
+    },
+    "romId": 277
   },
   {
     "id": 50029,
@@ -6322,7 +6943,7 @@
     "id": 50030,
     "key": "gold-cap",
     "name": "Gold Cap",
-    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "description": "A Golden bottle cap. When consumed, it boosts your Pokémon IVs to their maximum. Very rare and sought after.",
     "category": "Other",
     "sprite": "assets/art/placeholder-icon.svg",
     "locations": [
@@ -6334,7 +6955,7 @@
     "costs": [],
     "move": null,
     "_provenance": {
-      "origin": "custom",
+      "origin": "mixed",
       "overriddenFields": [
         "id",
         "key",
@@ -6344,9 +6965,11 @@
         "sprite",
         "locations",
         "costs",
-        "move"
+        "move",
+        "romId"
       ]
-    }
+    },
+    "romId": 173
   },
   {
     "id": 50031,
@@ -6487,7 +7110,7 @@
     "id": 50036,
     "key": "grn-apricorn",
     "name": "Grn Apricorn",
-    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "description": "To be held by a Pokémon for use with the move Fling.",
     "category": "Held Items",
     "sprite": "assets/art/placeholder-icon.svg",
     "locations": [
@@ -6496,7 +7119,7 @@
     "costs": [],
     "move": null,
     "_provenance": {
-      "origin": "custom",
+      "origin": "mixed",
       "overriddenFields": [
         "id",
         "key",
@@ -6506,9 +7129,11 @@
         "sprite",
         "locations",
         "costs",
-        "move"
+        "move",
+        "romId"
       ]
-    }
+    },
+    "romId": 154
   },
   {
     "id": 50037,
@@ -6757,7 +7382,7 @@
     "id": 50046,
     "key": "heal-orb",
     "name": "Heal Orb",
-    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "description": "An item to be held by a Pokémon. A glowing orb that restores some HP at the end of each turn.",
     "category": "Held Items",
     "sprite": "assets/art/placeholder-icon.svg",
     "locations": [
@@ -6768,7 +7393,7 @@
     "costs": [],
     "move": null,
     "_provenance": {
-      "origin": "custom",
+      "origin": "mixed",
       "overriddenFields": [
         "id",
         "key",
@@ -6778,9 +7403,11 @@
         "sprite",
         "locations",
         "costs",
-        "move"
+        "move",
+        "romId"
       ]
-    }
+    },
+    "romId": 116
   },
   {
     "id": 50047,
@@ -6813,7 +7440,7 @@
     "id": 50048,
     "key": "itemfinder",
     "name": "Itemfinder",
-    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "description": "A device used for finding items. If there is a hidden item nearby when it is used, it emits a signal.",
     "category": "Key Items",
     "sprite": "assets/art/placeholder-icon.svg",
     "locations": [
@@ -6822,7 +7449,7 @@
     "costs": [],
     "move": null,
     "_provenance": {
-      "origin": "custom",
+      "origin": "mixed",
       "overriddenFields": [
         "id",
         "key",
@@ -6832,9 +7459,11 @@
         "sprite",
         "locations",
         "costs",
-        "move"
+        "move",
+        "romId"
       ]
-    }
+    },
+    "romId": 261
   },
   {
     "id": 50049,
@@ -7110,7 +7739,7 @@
     "id": 50059,
     "key": "magnet-pass",
     "name": "Magnet Pass",
-    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "description": "A ticket required for riding the Magnet Train. It allows you to ride whenever and homever much you like.",
     "category": "Key Items",
     "sprite": "assets/art/placeholder-icon.svg",
     "locations": [
@@ -7119,7 +7748,7 @@
     "costs": [],
     "move": null,
     "_provenance": {
-      "origin": "custom",
+      "origin": "mixed",
       "overriddenFields": [
         "id",
         "key",
@@ -7129,15 +7758,17 @@
         "sprite",
         "locations",
         "costs",
-        "move"
+        "move",
+        "romId"
       ]
-    }
+    },
+    "romId": 283
   },
   {
     "id": 50060,
     "key": "mail",
     "name": "Mail",
-    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "description": "A Mail to be delivered to the chubby guy on Route 31.",
     "category": "Key Items",
     "sprite": "assets/art/placeholder-icon.svg",
     "locations": [
@@ -7146,7 +7777,7 @@
     "costs": [],
     "move": null,
     "_provenance": {
-      "origin": "custom",
+      "origin": "mixed",
       "overriddenFields": [
         "id",
         "key",
@@ -7156,9 +7787,11 @@
         "sprite",
         "locations",
         "costs",
-        "move"
+        "move",
+        "romId"
       ]
-    }
+    },
+    "romId": 120
   },
   {
     "id": 50061,
@@ -7435,7 +8068,7 @@
     "id": 50071,
     "key": "p-d-a",
     "name": "P.D.A",
-    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "description": "A device that let’s you access Pokémon Box services anywhere.",
     "category": "Key Items",
     "sprite": "assets/art/placeholder-icon.svg",
     "locations": [
@@ -7444,7 +8077,7 @@
     "costs": [],
     "move": null,
     "_provenance": {
-      "origin": "custom",
+      "origin": "mixed",
       "overriddenFields": [
         "id",
         "key",
@@ -7454,9 +8087,11 @@
         "sprite",
         "locations",
         "costs",
-        "move"
+        "move",
+        "romId"
       ]
-    }
+    },
+    "romId": 348
   },
   {
     "id": 50072,
@@ -7489,7 +8124,7 @@
     "id": 50073,
     "key": "parlyz-heal",
     "name": "Parlyz Heal",
-    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "description": "A spray-type medicine. It heals one Pokémon from paralysis.",
     "category": "Medicine",
     "sprite": "assets/art/placeholder-icon.svg",
     "locations": [
@@ -7502,7 +8137,7 @@
     "costs": [],
     "move": null,
     "_provenance": {
-      "origin": "custom",
+      "origin": "mixed",
       "overriddenFields": [
         "id",
         "key",
@@ -7512,9 +8147,11 @@
         "sprite",
         "locations",
         "costs",
-        "move"
+        "move",
+        "romId"
       ]
-    }
+    },
+    "romId": 18
   },
   {
     "id": 50074,
@@ -7655,7 +8292,7 @@
     "id": 50079,
     "key": "pink-bow",
     "name": "Pink Bow",
-    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "description": "An item to be held by a Pokémon. A beautiful bow that boosts the power of Fairy-type moves.",
     "category": "Held Items",
     "sprite": "assets/art/placeholder-icon.svg",
     "locations": [
@@ -7664,7 +8301,7 @@
     "costs": [],
     "move": null,
     "_provenance": {
-      "origin": "custom",
+      "origin": "mixed",
       "overriddenFields": [
         "id",
         "key",
@@ -7674,9 +8311,11 @@
         "sprite",
         "locations",
         "costs",
-        "move"
+        "move",
+        "romId"
       ]
-    }
+    },
+    "romId": 228
   },
   {
     "id": 50080,
@@ -7709,7 +8348,7 @@
     "id": 50081,
     "key": "pnk-apricorn",
     "name": "Pnk Apricorn",
-    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "description": "To be held by a Pokémon for use with the move Fling.",
     "category": "Held Items",
     "sprite": "assets/art/placeholder-icon.svg",
     "locations": [
@@ -7718,7 +8357,7 @@
     "costs": [],
     "move": null,
     "_provenance": {
-      "origin": "custom",
+      "origin": "mixed",
       "overriddenFields": [
         "id",
         "key",
@@ -7728,15 +8367,17 @@
         "sprite",
         "locations",
         "costs",
-        "move"
+        "move",
+        "romId"
       ]
-    }
+    },
+    "romId": 157
   },
   {
     "id": 50082,
     "key": "pokedex",
     "name": "PokeDex",
-    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "description": "A device that allows you to keep an encyclopedia of encountered Pokémon.",
     "category": "Key Items",
     "sprite": "assets/art/placeholder-icon.svg",
     "locations": [
@@ -7745,7 +8386,7 @@
     "costs": [],
     "move": null,
     "_provenance": {
-      "origin": "custom",
+      "origin": "mixed",
       "overriddenFields": [
         "id",
         "key",
@@ -7755,15 +8396,17 @@
         "sprite",
         "locations",
         "costs",
-        "move"
+        "move",
+        "romId"
       ]
-    }
+    },
+    "romId": 253
   },
   {
     "id": 50083,
     "key": "poke-ride",
     "name": "Poké Ride",
-    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "description": "A device that allows you to perform HM actions without needing them. Allows you to travel between regions.",
     "category": "Key Items",
     "sprite": "assets/art/placeholder-icon.svg",
     "locations": [
@@ -7772,7 +8415,7 @@
     "costs": [],
     "move": null,
     "_provenance": {
-      "origin": "custom",
+      "origin": "mixed",
       "overriddenFields": [
         "id",
         "key",
@@ -7782,15 +8425,17 @@
         "sprite",
         "locations",
         "costs",
-        "move"
+        "move",
+        "romId"
       ]
-    }
+    },
+    "romId": 363
   },
   {
     "id": 50084,
     "key": "pokemap",
     "name": "PokéMap",
-    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "description": "A very convenient map that can be viewed anytime. It even shows your present location.",
     "category": "Key Items",
     "sprite": "assets/art/placeholder-icon.svg",
     "locations": [
@@ -7799,7 +8444,7 @@
     "costs": [],
     "move": null,
     "_provenance": {
-      "origin": "custom",
+      "origin": "mixed",
       "overriddenFields": [
         "id",
         "key",
@@ -7809,15 +8454,17 @@
         "sprite",
         "locations",
         "costs",
-        "move"
+        "move",
+        "romId"
       ]
-    }
+    },
+    "romId": 366
   },
   {
     "id": 50085,
     "key": "poketar",
     "name": "PokéTar",
-    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "description": "A guitar that instantly awakens any Pokémon when Played. It has a great tone.",
     "category": "Key Items",
     "sprite": "assets/art/placeholder-icon.svg",
     "locations": [
@@ -7826,7 +8473,7 @@
     "costs": [],
     "move": null,
     "_provenance": {
-      "origin": "custom",
+      "origin": "mixed",
       "overriddenFields": [
         "id",
         "key",
@@ -7836,9 +8483,11 @@
         "sprite",
         "locations",
         "costs",
-        "move"
+        "move",
+        "romId"
       ]
-    }
+    },
+    "romId": 350
   },
   {
     "id": 50086,
@@ -7925,7 +8574,7 @@
     "id": 50089,
     "key": "program",
     "name": "Program",
-    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "description": "A Program of radio shows in Kanto to be given to the Director of the Goldenrod Radio Tower.",
     "category": "Key Items",
     "sprite": "assets/art/placeholder-icon.svg",
     "locations": [
@@ -7934,7 +8583,7 @@
     "costs": [],
     "move": null,
     "_provenance": {
-      "origin": "custom",
+      "origin": "mixed",
       "overriddenFields": [
         "id",
         "key",
@@ -7944,9 +8593,11 @@
         "sprite",
         "locations",
         "costs",
-        "move"
+        "move",
+        "romId"
       ]
-    }
+    },
+    "romId": 281
   },
   {
     "id": 50090,
@@ -8114,7 +8765,7 @@
     "id": 50096,
     "key": "reset-button",
     "name": "Reset Button",
-    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "description": "A button that allows you to soft reset your game. Use only on real GBA, DS or 3DS hardware!",
     "category": "Key Items",
     "sprite": "assets/art/placeholder-icon.svg",
     "locations": [
@@ -8123,7 +8774,7 @@
     "costs": [],
     "move": null,
     "_provenance": {
-      "origin": "custom",
+      "origin": "mixed",
       "overriddenFields": [
         "id",
         "key",
@@ -8133,9 +8784,11 @@
         "sprite",
         "locations",
         "costs",
-        "move"
+        "move",
+        "romId"
       ]
-    }
+    },
+    "romId": 373
   },
   {
     "id": 50097,
@@ -8276,7 +8929,7 @@
     "id": 50102,
     "key": "silver-cap",
     "name": "Silver Cap",
-    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "description": "A Silver bottle cap. When consumed, it boosts your Pokémon EVs to their maximum. Very rare and sought after.",
     "category": "Other",
     "sprite": "assets/art/placeholder-icon.svg",
     "locations": [
@@ -8288,7 +8941,7 @@
     "costs": [],
     "move": null,
     "_provenance": {
-      "origin": "custom",
+      "origin": "mixed",
       "overriddenFields": [
         "id",
         "key",
@@ -8298,9 +8951,11 @@
         "sprite",
         "locations",
         "costs",
-        "move"
+        "move",
+        "romId"
       ]
-    }
+    },
+    "romId": 178
   },
   {
     "id": 50103,
@@ -8522,7 +9177,7 @@
     "id": 50111,
     "key": "stick",
     "name": "Stick",
-    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "description": "A stick of leek to be held by a Farfetch’d. It raises Farfetch’d’s critical-hit ratio.",
     "category": "Held Items",
     "sprite": "assets/art/placeholder-icon.svg",
     "locations": [
@@ -8531,7 +9186,7 @@
     "costs": [],
     "move": null,
     "_provenance": {
-      "origin": "custom",
+      "origin": "mixed",
       "overriddenFields": [
         "id",
         "key",
@@ -8541,9 +9196,11 @@
         "sprite",
         "locations",
         "costs",
-        "move"
+        "move",
+        "romId"
       ]
-    }
+    },
+    "romId": 225
   },
   {
     "id": 50112,
@@ -11957,7 +12614,7 @@
     "id": 50237,
     "key": "wht-apricorn",
     "name": "Wht Apricorn",
-    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "description": "To be held by a Pokémon for use with the move Fling.",
     "category": "Held Items",
     "sprite": "assets/art/placeholder-icon.svg",
     "locations": [
@@ -11966,7 +12623,7 @@
     "costs": [],
     "move": null,
     "_provenance": {
-      "origin": "custom",
+      "origin": "mixed",
       "overriddenFields": [
         "id",
         "key",
@@ -11976,9 +12633,11 @@
         "sprite",
         "locations",
         "costs",
-        "move"
+        "move",
+        "romId"
       ]
-    }
+    },
+    "romId": 158
   },
   {
     "id": 50238,
@@ -12038,7 +12697,7 @@
     "id": 50240,
     "key": "x-defend",
     "name": "X Defend",
-    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "description": "Raises the Defense stat of Pokémon in battle. Wears off if the Pokémon is withdrawn.",
     "category": "Battle Items",
     "sprite": "assets/art/placeholder-icon.svg",
     "locations": [
@@ -12049,7 +12708,7 @@
     "costs": [],
     "move": null,
     "_provenance": {
-      "origin": "custom",
+      "origin": "mixed",
       "overriddenFields": [
         "id",
         "key",
@@ -12059,15 +12718,17 @@
         "sprite",
         "locations",
         "costs",
-        "move"
+        "move",
+        "romId"
       ]
-    }
+    },
+    "romId": 76
   },
   {
     "id": 50241,
     "key": "x-dire-hit",
     "name": "X Dire Hit",
-    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "description": "Raises the critical-hit ratio of Pokémon in battle. Wears off if the Pokémon is withdrawn.",
     "category": "Battle Items",
     "sprite": "assets/art/placeholder-icon.svg",
     "locations": [
@@ -12080,7 +12741,7 @@
     "costs": [],
     "move": null,
     "_provenance": {
-      "origin": "custom",
+      "origin": "mixed",
       "overriddenFields": [
         "id",
         "key",
@@ -12090,15 +12751,17 @@
         "sprite",
         "locations",
         "costs",
-        "move"
+        "move",
+        "romId"
       ]
-    }
+    },
+    "romId": 74
   },
   {
     "id": 50242,
     "key": "x-guard",
     "name": "X Guard",
-    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "description": "An item that prevents stat reduction among party Pokémon for five turns after use.",
     "category": "Battle Items",
     "sprite": "assets/art/placeholder-icon.svg",
     "locations": [
@@ -12111,7 +12774,7 @@
     "costs": [],
     "move": null,
     "_provenance": {
-      "origin": "custom",
+      "origin": "mixed",
       "overriddenFields": [
         "id",
         "key",
@@ -12121,15 +12784,17 @@
         "sprite",
         "locations",
         "costs",
-        "move"
+        "move",
+        "romId"
       ]
-    }
+    },
+    "romId": 73
   },
   {
     "id": 50243,
     "key": "x-sp-attack",
     "name": "X Sp. Attack",
-    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "description": "Raises the Sp. Atk stat of Pokémon in battle. Wears off if the Pokémon is withdrawn.",
     "category": "Battle Items",
     "sprite": "assets/art/placeholder-icon.svg",
     "locations": [
@@ -12141,7 +12806,7 @@
     "costs": [],
     "move": null,
     "_provenance": {
-      "origin": "custom",
+      "origin": "mixed",
       "overriddenFields": [
         "id",
         "key",
@@ -12151,9 +12816,11 @@
         "sprite",
         "locations",
         "costs",
-        "move"
+        "move",
+        "romId"
       ]
-    }
+    },
+    "romId": 79
   },
   {
     "id": 50244,
@@ -12186,7 +12853,7 @@
     "id": 50245,
     "key": "ylw-apricorn",
     "name": "Ylw Apricorn",
-    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "description": "To be held by a Pokémon for use with the move Fling.",
     "category": "Held Items",
     "sprite": "assets/art/placeholder-icon.svg",
     "locations": [
@@ -12195,7 +12862,7 @@
     "costs": [],
     "move": null,
     "_provenance": {
-      "origin": "custom",
+      "origin": "mixed",
       "overriddenFields": [
         "id",
         "key",
@@ -12205,9 +12872,11 @@
         "sprite",
         "locations",
         "costs",
-        "move"
+        "move",
+        "romId"
       ]
-    }
+    },
+    "romId": 155
   },
   {
     "id": 50246,
@@ -12240,7 +12909,7 @@
     "id": 50247,
     "key": "zonal-stone",
     "name": "Zonal Stone",
-    "description": "Hack-specific item documented by the 2026-07-01 community workbook; effect text was not supplied.",
+    "description": "A peculiar stone that allows certain Pokémon to evolve into a regional variant that they may have.",
     "category": "Evolution",
     "sprite": "assets/art/placeholder-icon.svg",
     "locations": [
@@ -12252,7 +12921,7 @@
     "costs": [],
     "move": null,
     "_provenance": {
-      "origin": "custom",
+      "origin": "mixed",
       "overriddenFields": [
         "id",
         "key",
@@ -12262,8 +12931,10 @@
         "sprite",
         "locations",
         "costs",
-        "move"
+        "move",
+        "romId"
       ]
-    }
+    },
+    "romId": 59
   }
 ]

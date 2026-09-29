@@ -2,7 +2,7 @@
   "meta": {
     "title": "Pokemon Crystal Advance Redux Sevii ROM extraction",
     "gameVersion": "2026-07-19",
-    "extractedAt": "2026-09-26T10:14:19.0297840Z",
+    "extractedAt": "2026-09-28T21:16:13.7940856Z",
     "romSha256": "716F2CBFB731E6DC1E014B6B6744B823389262DCC0086A120C1E0FB3D80DD34B",
     "romSize": 33554432,
     "romHeaderTitle": "POKEMON FIRE",
@@ -14598,7 +14598,7 @@
             "moves": [
               {
                 "id": 382,
-                "name": "Me First"
+                "name": "Iron Head"
               },
               {
                 "id": 182,
@@ -14610,7 +14610,7 @@
               },
               {
                 "id": 404,
-                "name": "X-Scissor"
+                "name": "Bulldoze"
               }
             ]
           },
@@ -14624,11 +14624,11 @@
             "moves": [
               {
                 "id": 432,
-                "name": "Defog"
+                "name": "Ice Fang"
               },
               {
                 "id": 431,
-                "name": "Rock Climb"
+                "name": "Fire Fang"
               },
               {
                 "id": 91,
@@ -14705,7 +14705,7 @@
             "moves": [
               {
                 "id": 389,
-                "name": "Sucker Punch"
+                "name": "Power Gem"
               },
               {
                 "id": 113,
@@ -14735,7 +14735,7 @@
               },
               {
                 "id": 466,
-                "name": "Ominous Wind"
+                "name": "Dazzling Gleam"
               },
               {
                 "id": 58,
@@ -14786,7 +14786,7 @@
             "moves": [
               {
                 "id": 382,
-                "name": "Me First"
+                "name": "Iron Head"
               },
               {
                 "id": 182,
@@ -14798,7 +14798,7 @@
               },
               {
                 "id": 404,
-                "name": "X-Scissor"
+                "name": "Bulldoze"
               }
             ]
           },
@@ -14812,11 +14812,11 @@
             "moves": [
               {
                 "id": 432,
-                "name": "Defog"
+                "name": "Ice Fang"
               },
               {
                 "id": 431,
-                "name": "Rock Climb"
+                "name": "Fire Fang"
               },
               {
                 "id": 91,
@@ -14893,7 +14893,7 @@
             "moves": [
               {
                 "id": 389,
-                "name": "Sucker Punch"
+                "name": "Power Gem"
               },
               {
                 "id": 113,
@@ -14923,7 +14923,7 @@
               },
               {
                 "id": 466,
-                "name": "Ominous Wind"
+                "name": "Dazzling Gleam"
               },
               {
                 "id": 58,
@@ -14982,7 +14982,7 @@
               },
               {
                 "id": 434,
-                "name": "Draco Meteor"
+                "name": "Flare Blitz"
               },
               {
                 "id": 237,
@@ -15004,7 +15004,7 @@
               },
               {
                 "id": 454,
-                "name": "Attack Order"
+                "name": "Wake-Up Slap"
               },
               {
                 "id": 79,
@@ -15012,7 +15012,7 @@
               },
               {
                 "id": 390,
-                "name": "Toxic Spikes"
+                "name": "Power Whip"
               }
             ]
           },
@@ -15030,7 +15030,7 @@
               },
               {
                 "id": 413,
-                "name": "Brave Bird"
+                "name": "Icicle Crash"
               },
               {
                 "id": 37,
@@ -15089,7 +15089,7 @@
               },
               {
                 "id": 434,
-                "name": "Draco Meteor"
+                "name": "Flare Blitz"
               },
               {
                 "id": 237,
@@ -15111,7 +15111,7 @@
               },
               {
                 "id": 454,
-                "name": "Attack Order"
+                "name": "Wake-Up Slap"
               },
               {
                 "id": 79,
@@ -15119,7 +15119,7 @@
               },
               {
                 "id": 390,
-                "name": "Toxic Spikes"
+                "name": "Power Whip"
               }
             ]
           },
@@ -15137,7 +15137,7 @@
               },
               {
                 "id": 413,
-                "name": "Brave Bird"
+                "name": "Icicle Crash"
               },
               {
                 "id": 37,
@@ -15192,11 +15192,11 @@
               },
               {
                 "id": 446,
-                "name": "Stealth Rock"
+                "name": "Mirror Shot"
               },
               {
                 "id": 368,
-                "name": "Metal Burst"
+                "name": "Discharge"
               },
               {
                 "id": 498,
@@ -15226,7 +15226,7 @@
               },
               {
                 "id": 378,
-                "name": "Wring Out"
+                "name": "Gunk Shot"
               }
             ]
           },
@@ -15248,7 +15248,7 @@
               },
               {
                 "id": 433,
-                "name": "Trick Room"
+                "name": "Thunder Fang"
               },
               {
                 "id": 46,
@@ -15299,11 +15299,11 @@
               },
               {
                 "id": 446,
-                "name": "Stealth Rock"
+                "name": "Mirror Shot"
               },
               {
                 "id": 368,
-                "name": "Metal Burst"
+                "name": "Discharge"
               },
               {
                 "id": 498,
@@ -15333,7 +15333,7 @@
               },
               {
                 "id": 378,
-                "name": "Wring Out"
+                "name": "Gunk Shot"
               }
             ]
           },
@@ -15355,7 +15355,7 @@
               },
               {
                 "id": 433,
-                "name": "Trick Room"
+                "name": "Thunder Fang"
               },
               {
                 "id": 46,
@@ -15603,7 +15603,7 @@
               },
               {
                 "id": 403,
-                "name": "Air Slash"
+                "name": "Drill Run"
               },
               {
                 "id": 224,
@@ -15658,7 +15658,7 @@
               },
               {
                 "id": 403,
-                "name": "Air Slash"
+                "name": "Drill Run"
               },
               {
                 "id": 224,
@@ -15713,7 +15713,7 @@
               },
               {
                 "id": 463,
-                "name": "Magma Storm"
+                "name": "Play Rough"
               },
               {
                 "id": 50,
@@ -15739,7 +15739,7 @@
               },
               {
                 "id": 463,
-                "name": "Magma Storm"
+                "name": "Play Rough"
               },
               {
                 "id": 38,
@@ -15794,7 +15794,7 @@
               },
               {
                 "id": 423,
-                "name": "Ice Fang"
+                "name": "Wild Charge"
               },
               {
                 "id": 269,
@@ -15824,7 +15824,7 @@
               },
               {
                 "id": 396,
-                "name": "Aura Sphere"
+                "name": "Seed Bomb"
               }
             ]
           },
@@ -15846,7 +15846,7 @@
               },
               {
                 "id": 458,
-                "name": "Double Hit"
+                "name": "Sucker Punch"
               },
               {
                 "id": 269,
@@ -15876,7 +15876,7 @@
               },
               {
                 "id": 396,
-                "name": "Aura Sphere"
+                "name": "Seed Bomb"
               }
             ]
           }
@@ -15927,7 +15927,7 @@
               },
               {
                 "id": 423,
-                "name": "Ice Fang"
+                "name": "Wild Charge"
               },
               {
                 "id": 269,
@@ -15957,7 +15957,7 @@
               },
               {
                 "id": 396,
-                "name": "Aura Sphere"
+                "name": "Seed Bomb"
               }
             ]
           },
@@ -15979,7 +15979,7 @@
               },
               {
                 "id": 458,
-                "name": "Double Hit"
+                "name": "Sucker Punch"
               },
               {
                 "id": 269,
@@ -16009,7 +16009,7 @@
               },
               {
                 "id": 396,
-                "name": "Aura Sphere"
+                "name": "Seed Bomb"
               }
             ]
           }
@@ -16060,7 +16060,7 @@
               },
               {
                 "id": 463,
-                "name": "Magma Storm"
+                "name": "Play Rough"
               },
               {
                 "id": 50,
@@ -16086,7 +16086,7 @@
               },
               {
                 "id": 463,
-                "name": "Magma Storm"
+                "name": "Play Rough"
               },
               {
                 "id": 38,
@@ -16145,7 +16145,7 @@
               },
               {
                 "id": 395,
-                "name": "Force Palm"
+                "name": "Roost"
               }
             ]
           },
@@ -16163,7 +16163,7 @@
               },
               {
                 "id": 475,
-                "name": "Unknown move 475"
+                "name": "Worry Seed"
               },
               {
                 "id": 326,
@@ -16171,7 +16171,7 @@
               },
               {
                 "id": 370,
-                "name": "Close Combat"
+                "name": "Dragon Pulse"
               }
             ]
           }
@@ -16226,7 +16226,7 @@
               },
               {
                 "id": 395,
-                "name": "Force Palm"
+                "name": "Roost"
               }
             ]
           },
@@ -16244,7 +16244,7 @@
               },
               {
                 "id": 475,
-                "name": "Unknown move 475"
+                "name": "Worry Seed"
               },
               {
                 "id": 326,
@@ -16252,7 +16252,7 @@
               },
               {
                 "id": 370,
-                "name": "Close Combat"
+                "name": "Dragon Pulse"
               }
             ]
           }
@@ -16513,7 +16513,7 @@
               },
               {
                 "id": 438,
-                "name": "Power Whip"
+                "name": "Double Hit"
               },
               {
                 "id": 340,
@@ -16521,7 +16521,7 @@
               },
               {
                 "id": 414,
-                "name": "Earth Power"
+                "name": "Work Up"
               }
             ]
           },
@@ -16582,7 +16582,7 @@
               },
               {
                 "id": 438,
-                "name": "Power Whip"
+                "name": "Double Hit"
               },
               {
                 "id": 340,
@@ -16590,7 +16590,7 @@
               },
               {
                 "id": 414,
-                "name": "Earth Power"
+                "name": "Work Up"
               }
             ]
           },
@@ -16647,11 +16647,11 @@
             "moves": [
               {
                 "id": 455,
-                "name": "Defend Order"
+                "name": "Razor Shell"
               },
               {
                 "id": 387,
-                "name": "Last Resort"
+                "name": "Night Slash"
               },
               {
                 "id": 133,
@@ -16702,11 +16702,11 @@
             "moves": [
               {
                 "id": 455,
-                "name": "Defend Order"
+                "name": "Razor Shell"
               },
               {
                 "id": 387,
-                "name": "Last Resort"
+                "name": "Night Slash"
               },
               {
                 "id": 133,
@@ -16769,7 +16769,7 @@
               },
               {
                 "id": 455,
-                "name": "Defend Order"
+                "name": "Razor Shell"
               }
             ]
           },
@@ -16787,7 +16787,7 @@
               },
               {
                 "id": 364,
-                "name": "Feint"
+                "name": "Charge Beam"
               },
               {
                 "id": 352,
@@ -16813,7 +16813,7 @@
               },
               {
                 "id": 364,
-                "name": "Feint"
+                "name": "Charge Beam"
               },
               {
                 "id": 352,
@@ -16843,7 +16843,7 @@
               },
               {
                 "id": 455,
-                "name": "Defend Order"
+                "name": "Razor Shell"
               },
               {
                 "id": 250,
@@ -16902,7 +16902,7 @@
               },
               {
                 "id": 455,
-                "name": "Defend Order"
+                "name": "Razor Shell"
               }
             ]
           },
@@ -16920,7 +16920,7 @@
               },
               {
                 "id": 364,
-                "name": "Feint"
+                "name": "Charge Beam"
               },
               {
                 "id": 352,
@@ -16946,7 +16946,7 @@
               },
               {
                 "id": 364,
-                "name": "Feint"
+                "name": "Charge Beam"
               },
               {
                 "id": 352,
@@ -16976,7 +16976,7 @@
               },
               {
                 "id": 455,
-                "name": "Defend Order"
+                "name": "Razor Shell"
               },
               {
                 "id": 250,
@@ -17061,7 +17061,7 @@
               },
               {
                 "id": 454,
-                "name": "Attack Order"
+                "name": "Wake-Up Slap"
               }
             ]
           },
@@ -17194,7 +17194,7 @@
               },
               {
                 "id": 454,
-                "name": "Attack Order"
+                "name": "Wake-Up Slap"
               }
             ]
           },
@@ -17301,7 +17301,7 @@
               },
               {
                 "id": 466,
-                "name": "Ominous Wind"
+                "name": "Dazzling Gleam"
               }
             ]
           },
@@ -17323,11 +17323,11 @@
               },
               {
                 "id": 437,
-                "name": "Leaf Storm"
+                "name": "Dual Chop"
               },
               {
                 "id": 383,
-                "name": "Copycat"
+                "name": "Lava Plume"
               }
             ]
           },
@@ -17349,7 +17349,7 @@
               },
               {
                 "id": 454,
-                "name": "Attack Order"
+                "name": "Wake-Up Slap"
               },
               {
                 "id": 238,
@@ -17408,7 +17408,7 @@
               },
               {
                 "id": 466,
-                "name": "Ominous Wind"
+                "name": "Dazzling Gleam"
               }
             ]
           },
@@ -17430,11 +17430,11 @@
               },
               {
                 "id": 437,
-                "name": "Leaf Storm"
+                "name": "Dual Chop"
               },
               {
                 "id": 383,
-                "name": "Copycat"
+                "name": "Lava Plume"
               }
             ]
           },
@@ -17456,7 +17456,7 @@
               },
               {
                 "id": 454,
-                "name": "Attack Order"
+                "name": "Wake-Up Slap"
               },
               {
                 "id": 238,
@@ -17503,11 +17503,11 @@
             "moves": [
               {
                 "id": 356,
-                "name": "Gravity"
+                "name": "Air Slash"
               },
               {
                 "id": 395,
-                "name": "Force Palm"
+                "name": "Roost"
               },
               {
                 "id": 94,
@@ -17533,7 +17533,7 @@
               },
               {
                 "id": 370,
-                "name": "Close Combat"
+                "name": "Dragon Pulse"
               },
               {
                 "id": 94,
@@ -17633,7 +17633,7 @@
             "moves": [
               {
                 "id": 356,
-                "name": "Gravity"
+                "name": "Air Slash"
               },
               {
                 "id": 204,
@@ -17641,11 +17641,11 @@
               },
               {
                 "id": 391,
-                "name": "Heart Swap"
+                "name": "Psycho Cut"
               },
               {
                 "id": 365,
-                "name": "Pluck"
+                "name": "Close Combat"
               }
             ]
           }
@@ -17692,7 +17692,7 @@
               },
               {
                 "id": 505,
-                "name": "Heal Pulse"
+                "name": "Psycho Shift"
               },
               {
                 "id": 248,
@@ -17700,7 +17700,7 @@
               },
               {
                 "id": 388,
-                "name": "Worry Seed"
+                "name": "Ominous Wind"
               }
             ]
           },
@@ -17718,7 +17718,7 @@
               },
               {
                 "id": 396,
-                "name": "Aura Sphere"
+                "name": "Seed Bomb"
               },
               {
                 "id": 94,
@@ -17740,7 +17740,7 @@
             "moves": [
               {
                 "id": 360,
-                "name": "Gyro Ball"
+                "name": "Avalanche"
               },
               {
                 "id": 133,
@@ -17766,7 +17766,7 @@
             "moves": [
               {
                 "id": 360,
-                "name": "Gyro Ball"
+                "name": "Avalanche"
               },
               {
                 "id": 34,
@@ -17792,15 +17792,15 @@
             "moves": [
               {
                 "id": 356,
-                "name": "Gravity"
+                "name": "Air Slash"
               },
               {
                 "id": 388,
-                "name": "Worry Seed"
+                "name": "Ominous Wind"
               },
               {
                 "id": 500,
-                "name": "Stored Power"
+                "name": "Power Swap"
               },
               {
                 "id": 501,
@@ -17859,7 +17859,7 @@
               },
               {
                 "id": 424,
-                "name": "Fire Fang"
+                "name": "Poison Jab"
               }
             ]
           },
@@ -17877,7 +17877,7 @@
               },
               {
                 "id": 424,
-                "name": "Fire Fang"
+                "name": "Poison Jab"
               },
               {
                 "id": 141,
@@ -17911,7 +17911,7 @@
               },
               {
                 "id": 492,
-                "name": "Foul Play"
+                "name": "Gyro Ball"
               }
             ]
           },
@@ -17933,7 +17933,7 @@
               },
               {
                 "id": 378,
-                "name": "Wring Out"
+                "name": "Gunk Shot"
               },
               {
                 "id": 341,
@@ -17951,19 +17951,19 @@
             "moves": [
               {
                 "id": 356,
-                "name": "Gravity"
+                "name": "Air Slash"
               },
               {
                 "id": 400,
-                "name": "Night Slash"
+                "name": "X-Scissor"
               },
               {
                 "id": 366,
-                "name": "Tailwind"
+                "name": "Cross Poison"
               },
               {
                 "id": 395,
-                "name": "Force Palm"
+                "name": "Roost"
               }
             ]
           }
@@ -18018,7 +18018,7 @@
               },
               {
                 "id": 424,
-                "name": "Fire Fang"
+                "name": "Poison Jab"
               }
             ]
           },
@@ -18036,15 +18036,15 @@
               },
               {
                 "id": 378,
-                "name": "Wring Out"
+                "name": "Gunk Shot"
               },
               {
                 "id": 474,
-                "name": "Venoshock"
+                "name": "Incinerate"
               },
               {
                 "id": 466,
-                "name": "Ominous Wind"
+                "name": "Dazzling Gleam"
               }
             ]
           },
@@ -18058,7 +18058,7 @@
             "moves": [
               {
                 "id": 492,
-                "name": "Foul Play"
+                "name": "Gyro Ball"
               },
               {
                 "id": 38,
@@ -18088,7 +18088,7 @@
               },
               {
                 "id": 476,
-                "name": "Rage Powder"
+                "name": "Gastro Acid"
               },
               {
                 "id": 497,
@@ -18096,7 +18096,7 @@
               },
               {
                 "id": 378,
-                "name": "Wring Out"
+                "name": "Gunk Shot"
               }
             ]
           },
@@ -18110,19 +18110,19 @@
             "moves": [
               {
                 "id": 366,
-                "name": "Tailwind"
+                "name": "Cross Poison"
               },
               {
                 "id": 395,
-                "name": "Force Palm"
+                "name": "Roost"
               },
               {
                 "id": 401,
-                "name": "Aqua Tail"
+                "name": "Zen Headbutt"
               },
               {
                 "id": 361,
-                "name": "Healing Wish"
+                "name": "Brave Bird"
               }
             ]
           },
@@ -18136,15 +18136,15 @@
             "moves": [
               {
                 "id": 386,
-                "name": "Punishment"
+                "name": "Nasty Plot"
               },
               {
                 "id": 424,
-                "name": "Fire Fang"
+                "name": "Poison Jab"
               },
               {
                 "id": 458,
-                "name": "Double Hit"
+                "name": "Sucker Punch"
               },
               {
                 "id": 260,
@@ -18195,7 +18195,7 @@
               },
               {
                 "id": 492,
-                "name": "Foul Play"
+                "name": "Gyro Ball"
               },
               {
                 "id": 197,
@@ -18203,7 +18203,7 @@
               },
               {
                 "id": 365,
-                "name": "Pluck"
+                "name": "Close Combat"
               }
             ]
           },
@@ -18229,7 +18229,7 @@
               },
               {
                 "id": 365,
-                "name": "Pluck"
+                "name": "Close Combat"
               }
             ]
           },
@@ -18243,7 +18243,7 @@
             "moves": [
               {
                 "id": 371,
-                "name": "Payback"
+                "name": "Drain Punch"
               },
               {
                 "id": 8,
@@ -18269,7 +18269,7 @@
             "moves": [
               {
                 "id": 382,
-                "name": "Me First"
+                "name": "Iron Head"
               },
               {
                 "id": 89,
@@ -18281,7 +18281,7 @@
               },
               {
                 "id": 429,
-                "name": "Mirror Shot"
+                "name": "Stone Edge"
               }
             ]
           },
@@ -18307,7 +18307,7 @@
               },
               {
                 "id": 394,
-                "name": "Flare Blitz"
+                "name": "Rock Wrecker"
               }
             ]
           }
@@ -18354,11 +18354,11 @@
               },
               {
                 "id": 365,
-                "name": "Pluck"
+                "name": "Close Combat"
               },
               {
                 "id": 423,
-                "name": "Ice Fang"
+                "name": "Wild Charge"
               },
               {
                 "id": 283,
@@ -18384,7 +18384,7 @@
               },
               {
                 "id": 429,
-                "name": "Mirror Shot"
+                "name": "Stone Edge"
               },
               {
                 "id": 136,
@@ -18414,7 +18414,7 @@
               },
               {
                 "id": 365,
-                "name": "Pluck"
+                "name": "Close Combat"
               }
             ]
           },
@@ -18436,7 +18436,7 @@
               },
               {
                 "id": 380,
-                "name": "Gastro Acid"
+                "name": "Head Smash"
               },
               {
                 "id": 90,
@@ -18454,15 +18454,15 @@
             "moves": [
               {
                 "id": 429,
-                "name": "Mirror Shot"
+                "name": "Stone Edge"
               },
               {
                 "id": 488,
-                "name": "Flame Charge"
+                "name": "Heal Order"
               },
               {
                 "id": 400,
-                "name": "Night Slash"
+                "name": "X-Scissor"
               },
               {
                 "id": 14,
@@ -18488,7 +18488,7 @@
               },
               {
                 "id": 394,
-                "name": "Flare Blitz"
+                "name": "Rock Wrecker"
               },
               {
                 "id": 90,
@@ -18591,15 +18591,15 @@
               },
               {
                 "id": 386,
-                "name": "Punishment"
+                "name": "Nasty Plot"
               },
               {
                 "id": 387,
-                "name": "Last Resort"
+                "name": "Night Slash"
               },
               {
                 "id": 361,
-                "name": "Healing Wish"
+                "name": "Brave Bird"
               }
             ]
           },
@@ -18613,7 +18613,7 @@
             "moves": [
               {
                 "id": 466,
-                "name": "Ominous Wind"
+                "name": "Dazzling Gleam"
               },
               {
                 "id": 194,
@@ -18625,7 +18625,7 @@
               },
               {
                 "id": 374,
-                "name": "Fling"
+                "name": "Focus Blast"
               }
             ]
           },
@@ -18651,7 +18651,7 @@
               },
               {
                 "id": 417,
-                "name": "Nasty Plot"
+                "name": "Shadow Force"
               }
             ]
           },
@@ -18677,7 +18677,7 @@
               },
               {
                 "id": 386,
-                "name": "Punishment"
+                "name": "Nasty Plot"
               }
             ]
           }
@@ -18750,7 +18750,7 @@
               },
               {
                 "id": 373,
-                "name": "Embargo"
+                "name": "Energy Ball"
               },
               {
                 "id": 188,
@@ -18780,11 +18780,11 @@
               },
               {
                 "id": 458,
-                "name": "Double Hit"
+                "name": "Sucker Punch"
               },
               {
                 "id": 356,
-                "name": "Gravity"
+                "name": "Air Slash"
               }
             ]
           },
@@ -18806,11 +18806,11 @@
               },
               {
                 "id": 373,
-                "name": "Embargo"
+                "name": "Energy Ball"
               },
               {
                 "id": 466,
-                "name": "Ominous Wind"
+                "name": "Dazzling Gleam"
               }
             ]
           },
@@ -19155,7 +19155,7 @@
               },
               {
                 "id": 370,
-                "name": "Close Combat"
+                "name": "Dragon Pulse"
               },
               {
                 "id": 330,
@@ -19177,7 +19177,7 @@
             "moves": [
               {
                 "id": 459,
-                "name": "Roar of Time"
+                "name": "Scald"
               },
               {
                 "id": 65,
@@ -19189,7 +19189,7 @@
               },
               {
                 "id": 510,
-                "name": "Incinerate"
+                "name": "Defog"
               }
             ]
           }
@@ -19236,7 +19236,7 @@
               },
               {
                 "id": 370,
-                "name": "Close Combat"
+                "name": "Dragon Pulse"
               },
               {
                 "id": 330,
@@ -19258,7 +19258,7 @@
             "moves": [
               {
                 "id": 459,
-                "name": "Roar of Time"
+                "name": "Scald"
               },
               {
                 "id": 65,
@@ -19270,7 +19270,7 @@
               },
               {
                 "id": 510,
-                "name": "Incinerate"
+                "name": "Defog"
               }
             ]
           }
@@ -19325,7 +19325,7 @@
               },
               {
                 "id": 365,
-                "name": "Pluck"
+                "name": "Close Combat"
               }
             ]
           },
@@ -19406,7 +19406,7 @@
               },
               {
                 "id": 365,
-                "name": "Pluck"
+                "name": "Close Combat"
               }
             ]
           },
@@ -19509,11 +19509,11 @@
               },
               {
                 "id": 359,
-                "name": "Hammer Arm"
+                "name": "Aura Sphere"
               },
               {
                 "id": 363,
-                "name": "Natural Gift"
+                "name": "Bullet Punch"
               }
             ]
           }
@@ -19590,11 +19590,11 @@
               },
               {
                 "id": 359,
-                "name": "Hammer Arm"
+                "name": "Aura Sphere"
               },
               {
                 "id": 363,
-                "name": "Natural Gift"
+                "name": "Bullet Punch"
               }
             ]
           }
@@ -19649,7 +19649,7 @@
               },
               {
                 "id": 429,
-                "name": "Mirror Shot"
+                "name": "Stone Edge"
               }
             ]
           },
@@ -19675,7 +19675,7 @@
               },
               {
                 "id": 429,
-                "name": "Mirror Shot"
+                "name": "Stone Edge"
               }
             ]
           },
@@ -19701,7 +19701,7 @@
               },
               {
                 "id": 429,
-                "name": "Mirror Shot"
+                "name": "Stone Edge"
               }
             ]
           },
@@ -19727,7 +19727,7 @@
               },
               {
                 "id": 429,
-                "name": "Mirror Shot"
+                "name": "Stone Edge"
               }
             ]
           },
@@ -19753,7 +19753,7 @@
               },
               {
                 "id": 429,
-                "name": "Mirror Shot"
+                "name": "Stone Edge"
               }
             ]
           }
@@ -19808,7 +19808,7 @@
               },
               {
                 "id": 429,
-                "name": "Mirror Shot"
+                "name": "Stone Edge"
               }
             ]
           },
@@ -19834,7 +19834,7 @@
               },
               {
                 "id": 429,
-                "name": "Mirror Shot"
+                "name": "Stone Edge"
               }
             ]
           },
@@ -19860,7 +19860,7 @@
               },
               {
                 "id": 429,
-                "name": "Mirror Shot"
+                "name": "Stone Edge"
               }
             ]
           },
@@ -19886,7 +19886,7 @@
               },
               {
                 "id": 429,
-                "name": "Mirror Shot"
+                "name": "Stone Edge"
               }
             ]
           },
@@ -19912,7 +19912,7 @@
               },
               {
                 "id": 429,
-                "name": "Mirror Shot"
+                "name": "Stone Edge"
               }
             ]
           }
@@ -20049,7 +20049,7 @@
             "moves": [
               {
                 "id": 405,
-                "name": "Bug Buzz"
+                "name": "Electroweb"
               },
               {
                 "id": 81,
@@ -20135,7 +20135,7 @@
               },
               {
                 "id": 405,
-                "name": "Bug Buzz"
+                "name": "Electroweb"
               },
               {
                 "id": 81,
@@ -20182,7 +20182,7 @@
             "moves": [
               {
                 "id": 405,
-                "name": "Bug Buzz"
+                "name": "Electroweb"
               },
               {
                 "id": 81,
@@ -20268,7 +20268,7 @@
               },
               {
                 "id": 405,
-                "name": "Bug Buzz"
+                "name": "Electroweb"
               },
               {
                 "id": 81,
@@ -20315,15 +20315,15 @@
             "moves": [
               {
                 "id": 395,
-                "name": "Force Palm"
+                "name": "Roost"
               },
               {
                 "id": 388,
-                "name": "Worry Seed"
+                "name": "Ominous Wind"
               },
               {
                 "id": 442,
-                "name": "Iron Head"
+                "name": "U-turn"
               },
               {
                 "id": 65,
@@ -20367,11 +20367,11 @@
             "moves": [
               {
                 "id": 430,
-                "name": "Flash Cannon"
+                "name": "Payback"
               },
               {
                 "id": 401,
-                "name": "Aqua Tail"
+                "name": "Zen Headbutt"
               },
               {
                 "id": 36,
@@ -20540,11 +20540,11 @@
               },
               {
                 "id": 358,
-                "name": "Wake-Up Slap"
+                "name": "Aqua Tail"
               },
               {
                 "id": 463,
-                "name": "Magma Storm"
+                "name": "Play Rough"
               }
             ]
           },
@@ -20562,11 +20562,11 @@
               },
               {
                 "id": 489,
-                "name": "Coil"
+                "name": "Aqua Ring"
               },
               {
                 "id": 358,
-                "name": "Wake-Up Slap"
+                "name": "Aqua Tail"
               },
               {
                 "id": 240,
@@ -20584,7 +20584,7 @@
             "moves": [
               {
                 "id": 358,
-                "name": "Wake-Up Slap"
+                "name": "Aqua Tail"
               },
               {
                 "id": 324,
@@ -20647,11 +20647,11 @@
               },
               {
                 "id": 358,
-                "name": "Wake-Up Slap"
+                "name": "Aqua Tail"
               },
               {
                 "id": 463,
-                "name": "Magma Storm"
+                "name": "Play Rough"
               }
             ]
           },
@@ -20669,11 +20669,11 @@
               },
               {
                 "id": 489,
-                "name": "Coil"
+                "name": "Aqua Ring"
               },
               {
                 "id": 358,
-                "name": "Wake-Up Slap"
+                "name": "Aqua Tail"
               },
               {
                 "id": 240,
@@ -20691,7 +20691,7 @@
             "moves": [
               {
                 "id": 358,
-                "name": "Wake-Up Slap"
+                "name": "Aqua Tail"
               },
               {
                 "id": 324,
@@ -20772,7 +20772,7 @@
             "moves": [
               {
                 "id": 414,
-                "name": "Earth Power"
+                "name": "Work Up"
               },
               {
                 "id": 157,
@@ -20780,11 +20780,11 @@
               },
               {
                 "id": 397,
-                "name": "Rock Polish"
+                "name": "Shadow Claw"
               },
               {
                 "id": 468,
-                "name": "Hone Claws"
+                "name": "Stealth Rock"
               }
             ]
           }
@@ -20853,7 +20853,7 @@
             "moves": [
               {
                 "id": 414,
-                "name": "Earth Power"
+                "name": "Work Up"
               },
               {
                 "id": 157,
@@ -20861,11 +20861,11 @@
               },
               {
                 "id": 397,
-                "name": "Rock Polish"
+                "name": "Shadow Claw"
               },
               {
                 "id": 468,
-                "name": "Hone Claws"
+                "name": "Stealth Rock"
               }
             ]
           }
@@ -20912,7 +20912,7 @@
               },
               {
                 "id": 454,
-                "name": "Attack Order"
+                "name": "Wake-Up Slap"
               },
               {
                 "id": 238,
@@ -20934,7 +20934,7 @@
             "moves": [
               {
                 "id": 468,
-                "name": "Hone Claws"
+                "name": "Stealth Rock"
               },
               {
                 "id": 89,
@@ -20964,7 +20964,7 @@
               },
               {
                 "id": 454,
-                "name": "Attack Order"
+                "name": "Wake-Up Slap"
               },
               {
                 "id": 238,
@@ -21019,7 +21019,7 @@
               },
               {
                 "id": 454,
-                "name": "Attack Order"
+                "name": "Wake-Up Slap"
               },
               {
                 "id": 238,
@@ -21041,7 +21041,7 @@
             "moves": [
               {
                 "id": 468,
-                "name": "Hone Claws"
+                "name": "Stealth Rock"
               },
               {
                 "id": 89,
@@ -21071,7 +21071,7 @@
               },
               {
                 "id": 454,
-                "name": "Attack Order"
+                "name": "Wake-Up Slap"
               },
               {
                 "id": 238,
@@ -21126,7 +21126,7 @@
               },
               {
                 "id": 454,
-                "name": "Attack Order"
+                "name": "Wake-Up Slap"
               },
               {
                 "id": 238,
@@ -21181,7 +21181,7 @@
               },
               {
                 "id": 454,
-                "name": "Attack Order"
+                "name": "Wake-Up Slap"
               },
               {
                 "id": 238,
@@ -21244,7 +21244,7 @@
               },
               {
                 "id": 429,
-                "name": "Mirror Shot"
+                "name": "Stone Edge"
               }
             ]
           },
@@ -21258,7 +21258,7 @@
             "moves": [
               {
                 "id": 468,
-                "name": "Hone Claws"
+                "name": "Stealth Rock"
               },
               {
                 "id": 89,
@@ -21284,7 +21284,7 @@
             "moves": [
               {
                 "id": 468,
-                "name": "Hone Claws"
+                "name": "Stealth Rock"
               },
               {
                 "id": 89,
@@ -21292,7 +21292,7 @@
               },
               {
                 "id": 393,
-                "name": "Magnet Rise"
+                "name": "Rock Polish"
               },
               {
                 "id": 38,
@@ -21351,7 +21351,7 @@
               },
               {
                 "id": 429,
-                "name": "Mirror Shot"
+                "name": "Stone Edge"
               }
             ]
           },
@@ -21365,7 +21365,7 @@
             "moves": [
               {
                 "id": 468,
-                "name": "Hone Claws"
+                "name": "Stealth Rock"
               },
               {
                 "id": 89,
@@ -21391,7 +21391,7 @@
             "moves": [
               {
                 "id": 468,
-                "name": "Hone Claws"
+                "name": "Stealth Rock"
               },
               {
                 "id": 89,
@@ -21399,7 +21399,7 @@
               },
               {
                 "id": 393,
-                "name": "Magnet Rise"
+                "name": "Rock Polish"
               },
               {
                 "id": 38,
@@ -21446,7 +21446,7 @@
             "moves": [
               {
                 "id": 395,
-                "name": "Force Palm"
+                "name": "Roost"
               },
               {
                 "id": 197,
@@ -21454,11 +21454,11 @@
               },
               {
                 "id": 388,
-                "name": "Worry Seed"
+                "name": "Ominous Wind"
               },
               {
                 "id": 412,
-                "name": "Energy Ball"
+                "name": "Hurricane"
               }
             ]
           },
@@ -21527,7 +21527,7 @@
             "moves": [
               {
                 "id": 395,
-                "name": "Force Palm"
+                "name": "Roost"
               },
               {
                 "id": 197,
@@ -21535,11 +21535,11 @@
               },
               {
                 "id": 388,
-                "name": "Worry Seed"
+                "name": "Ominous Wind"
               },
               {
                 "id": 412,
-                "name": "Energy Ball"
+                "name": "Hurricane"
               }
             ]
           },
@@ -21608,7 +21608,7 @@
             "moves": [
               {
                 "id": 475,
-                "name": "Unknown move 475"
+                "name": "Worry Seed"
               },
               {
                 "id": 235,
@@ -21616,7 +21616,7 @@
               },
               {
                 "id": 396,
-                "name": "Aura Sphere"
+                "name": "Seed Bomb"
               },
               {
                 "id": 188,
@@ -21638,7 +21638,7 @@
               },
               {
                 "id": 475,
-                "name": "Unknown move 475"
+                "name": "Worry Seed"
               },
               {
                 "id": 235,
@@ -21646,7 +21646,7 @@
               },
               {
                 "id": 396,
-                "name": "Aura Sphere"
+                "name": "Seed Bomb"
               }
             ]
           },
@@ -21664,7 +21664,7 @@
               },
               {
                 "id": 475,
-                "name": "Unknown move 475"
+                "name": "Worry Seed"
               },
               {
                 "id": 235,
@@ -21715,7 +21715,7 @@
             "moves": [
               {
                 "id": 475,
-                "name": "Unknown move 475"
+                "name": "Worry Seed"
               },
               {
                 "id": 235,
@@ -21723,7 +21723,7 @@
               },
               {
                 "id": 396,
-                "name": "Aura Sphere"
+                "name": "Seed Bomb"
               },
               {
                 "id": 188,
@@ -21745,7 +21745,7 @@
               },
               {
                 "id": 475,
-                "name": "Unknown move 475"
+                "name": "Worry Seed"
               },
               {
                 "id": 235,
@@ -21753,7 +21753,7 @@
               },
               {
                 "id": 396,
-                "name": "Aura Sphere"
+                "name": "Seed Bomb"
               }
             ]
           },
@@ -21771,7 +21771,7 @@
               },
               {
                 "id": 475,
-                "name": "Unknown move 475"
+                "name": "Worry Seed"
               },
               {
                 "id": 235,
@@ -21826,11 +21826,11 @@
               },
               {
                 "id": 446,
-                "name": "Stealth Rock"
+                "name": "Mirror Shot"
               },
               {
                 "id": 368,
-                "name": "Metal Burst"
+                "name": "Discharge"
               },
               {
                 "id": 498,
@@ -21874,7 +21874,7 @@
             "moves": [
               {
                 "id": 475,
-                "name": "Unknown move 475"
+                "name": "Worry Seed"
               },
               {
                 "id": 326,
@@ -21933,11 +21933,11 @@
               },
               {
                 "id": 446,
-                "name": "Stealth Rock"
+                "name": "Mirror Shot"
               },
               {
                 "id": 368,
-                "name": "Metal Burst"
+                "name": "Discharge"
               },
               {
                 "id": 498,
@@ -21981,7 +21981,7 @@
             "moves": [
               {
                 "id": 475,
-                "name": "Unknown move 475"
+                "name": "Worry Seed"
               },
               {
                 "id": 326,
@@ -22044,7 +22044,7 @@
               },
               {
                 "id": 368,
-                "name": "Metal Burst"
+                "name": "Discharge"
               },
               {
                 "id": 324,
@@ -22099,7 +22099,7 @@
               },
               {
                 "id": 368,
-                "name": "Metal Burst"
+                "name": "Discharge"
               },
               {
                 "id": 324,
@@ -22146,11 +22146,11 @@
             "moves": [
               {
                 "id": 387,
-                "name": "Last Resort"
+                "name": "Night Slash"
               },
               {
                 "id": 356,
-                "name": "Gravity"
+                "name": "Air Slash"
               },
               {
                 "id": 348,
@@ -22158,7 +22158,7 @@
               },
               {
                 "id": 395,
-                "name": "Force Palm"
+                "name": "Roost"
               }
             ]
           },
@@ -22184,7 +22184,7 @@
               },
               {
                 "id": 372,
-                "name": "Assurance"
+                "name": "Earth Power"
               }
             ]
           }
@@ -22227,11 +22227,11 @@
             "moves": [
               {
                 "id": 387,
-                "name": "Last Resort"
+                "name": "Night Slash"
               },
               {
                 "id": 356,
-                "name": "Gravity"
+                "name": "Air Slash"
               },
               {
                 "id": 348,
@@ -22239,7 +22239,7 @@
               },
               {
                 "id": 395,
-                "name": "Force Palm"
+                "name": "Roost"
               }
             ]
           },
@@ -22265,7 +22265,7 @@
               },
               {
                 "id": 372,
-                "name": "Assurance"
+                "name": "Earth Power"
               }
             ]
           }
@@ -22334,7 +22334,7 @@
             "moves": [
               {
                 "id": 475,
-                "name": "Unknown move 475"
+                "name": "Worry Seed"
               },
               {
                 "id": 326,
@@ -22364,7 +22364,7 @@
               },
               {
                 "id": 438,
-                "name": "Power Whip"
+                "name": "Double Hit"
               },
               {
                 "id": 273,
@@ -22372,7 +22372,7 @@
               },
               {
                 "id": 401,
-                "name": "Aqua Tail"
+                "name": "Zen Headbutt"
               }
             ]
           },
@@ -22386,7 +22386,7 @@
             "moves": [
               {
                 "id": 383,
-                "name": "Copycat"
+                "name": "Lava Plume"
               },
               {
                 "id": 490,
@@ -22467,7 +22467,7 @@
             "moves": [
               {
                 "id": 475,
-                "name": "Unknown move 475"
+                "name": "Worry Seed"
               },
               {
                 "id": 326,
@@ -22497,7 +22497,7 @@
               },
               {
                 "id": 438,
-                "name": "Power Whip"
+                "name": "Double Hit"
               },
               {
                 "id": 273,
@@ -22505,7 +22505,7 @@
               },
               {
                 "id": 401,
-                "name": "Aqua Tail"
+                "name": "Zen Headbutt"
               }
             ]
           },
@@ -22519,7 +22519,7 @@
             "moves": [
               {
                 "id": 383,
-                "name": "Copycat"
+                "name": "Lava Plume"
               },
               {
                 "id": 490,
@@ -22578,7 +22578,7 @@
               },
               {
                 "id": 431,
-                "name": "Rock Climb"
+                "name": "Fire Fang"
               },
               {
                 "id": 36,
@@ -22685,7 +22685,7 @@
               },
               {
                 "id": 431,
-                "name": "Rock Climb"
+                "name": "Fire Fang"
               },
               {
                 "id": 36,
@@ -22796,7 +22796,7 @@
               },
               {
                 "id": 434,
-                "name": "Draco Meteor"
+                "name": "Flare Blitz"
               },
               {
                 "id": 204,
@@ -22851,7 +22851,7 @@
               },
               {
                 "id": 434,
-                "name": "Draco Meteor"
+                "name": "Flare Blitz"
               },
               {
                 "id": 204,
@@ -22898,11 +22898,11 @@
             "moves": [
               {
                 "id": 476,
-                "name": "Rage Powder"
+                "name": "Gastro Acid"
               },
               {
                 "id": 424,
-                "name": "Fire Fang"
+                "name": "Poison Jab"
               },
               {
                 "id": 141,
@@ -22924,7 +22924,7 @@
             "moves": [
               {
                 "id": 357,
-                "name": "Miracle Eye"
+                "name": "Aqua Jet"
               },
               {
                 "id": 21,
@@ -22932,11 +22932,11 @@
               },
               {
                 "id": 455,
-                "name": "Defend Order"
+                "name": "Razor Shell"
               },
               {
                 "id": 387,
-                "name": "Last Resort"
+                "name": "Night Slash"
               }
             ]
           },
@@ -22954,7 +22954,7 @@
               },
               {
                 "id": 462,
-                "name": "Crush Grip"
+                "name": "Baby-Doll Eyes"
               },
               {
                 "id": 247,
@@ -22962,7 +22962,7 @@
               },
               {
                 "id": 431,
-                "name": "Rock Climb"
+                "name": "Fire Fang"
               }
             ]
           }
@@ -23005,11 +23005,11 @@
             "moves": [
               {
                 "id": 476,
-                "name": "Rage Powder"
+                "name": "Gastro Acid"
               },
               {
                 "id": 424,
-                "name": "Fire Fang"
+                "name": "Poison Jab"
               },
               {
                 "id": 141,
@@ -23031,7 +23031,7 @@
             "moves": [
               {
                 "id": 357,
-                "name": "Miracle Eye"
+                "name": "Aqua Jet"
               },
               {
                 "id": 21,
@@ -23039,11 +23039,11 @@
               },
               {
                 "id": 455,
-                "name": "Defend Order"
+                "name": "Razor Shell"
               },
               {
                 "id": 387,
-                "name": "Last Resort"
+                "name": "Night Slash"
               }
             ]
           },
@@ -23061,7 +23061,7 @@
               },
               {
                 "id": 462,
-                "name": "Crush Grip"
+                "name": "Baby-Doll Eyes"
               },
               {
                 "id": 247,
@@ -23069,7 +23069,7 @@
               },
               {
                 "id": 431,
-                "name": "Rock Climb"
+                "name": "Fire Fang"
               }
             ]
           }
@@ -23116,7 +23116,7 @@
               },
               {
                 "id": 460,
-                "name": "Spacial Rend"
+                "name": "Brine"
               },
               {
                 "id": 42,
@@ -23164,11 +23164,11 @@
             "moves": [
               {
                 "id": 403,
-                "name": "Air Slash"
+                "name": "Drill Run"
               },
               {
                 "id": 489,
-                "name": "Coil"
+                "name": "Aqua Ring"
               },
               {
                 "id": 31,
@@ -23223,7 +23223,7 @@
               },
               {
                 "id": 460,
-                "name": "Spacial Rend"
+                "name": "Brine"
               },
               {
                 "id": 42,
@@ -23271,11 +23271,11 @@
             "moves": [
               {
                 "id": 403,
-                "name": "Air Slash"
+                "name": "Drill Run"
               },
               {
                 "id": 489,
-                "name": "Coil"
+                "name": "Aqua Ring"
               },
               {
                 "id": 31,
@@ -23338,7 +23338,7 @@
               },
               {
                 "id": 400,
-                "name": "Night Slash"
+                "name": "X-Scissor"
               }
             ]
           },
@@ -23356,15 +23356,15 @@
               },
               {
                 "id": 459,
-                "name": "Roar of Time"
+                "name": "Scald"
               },
               {
                 "id": 389,
-                "name": "Sucker Punch"
+                "name": "Power Gem"
               },
               {
                 "id": 401,
-                "name": "Aqua Tail"
+                "name": "Zen Headbutt"
               }
             ]
           },
@@ -23378,7 +23378,7 @@
             "moves": [
               {
                 "id": 358,
-                "name": "Wake-Up Slap"
+                "name": "Aqua Tail"
               },
               {
                 "id": 226,
@@ -23445,7 +23445,7 @@
               },
               {
                 "id": 400,
-                "name": "Night Slash"
+                "name": "X-Scissor"
               }
             ]
           },
@@ -23463,15 +23463,15 @@
               },
               {
                 "id": 459,
-                "name": "Roar of Time"
+                "name": "Scald"
               },
               {
                 "id": 389,
-                "name": "Sucker Punch"
+                "name": "Power Gem"
               },
               {
                 "id": 401,
-                "name": "Aqua Tail"
+                "name": "Zen Headbutt"
               }
             ]
           },
@@ -23485,7 +23485,7 @@
             "moves": [
               {
                 "id": 358,
-                "name": "Wake-Up Slap"
+                "name": "Aqua Tail"
               },
               {
                 "id": 226,
@@ -23676,7 +23676,7 @@
             "moves": [
               {
                 "id": 489,
-                "name": "Coil"
+                "name": "Aqua Ring"
               },
               {
                 "id": 449,
@@ -23684,7 +23684,7 @@
               },
               {
                 "id": 358,
-                "name": "Wake-Up Slap"
+                "name": "Aqua Tail"
               },
               {
                 "id": 240,
@@ -23757,7 +23757,7 @@
             "moves": [
               {
                 "id": 489,
-                "name": "Coil"
+                "name": "Aqua Ring"
               },
               {
                 "id": 449,
@@ -23765,7 +23765,7 @@
               },
               {
                 "id": 358,
-                "name": "Wake-Up Slap"
+                "name": "Aqua Tail"
               },
               {
                 "id": 240,
@@ -23846,11 +23846,11 @@
               },
               {
                 "id": 378,
-                "name": "Wring Out"
+                "name": "Gunk Shot"
               },
               {
                 "id": 417,
-                "name": "Nasty Plot"
+                "name": "Shadow Force"
               }
             ]
           },
@@ -23868,7 +23868,7 @@
               },
               {
                 "id": 372,
-                "name": "Assurance"
+                "name": "Earth Power"
               },
               {
                 "id": 59,
@@ -23876,7 +23876,7 @@
               },
               {
                 "id": 417,
-                "name": "Nasty Plot"
+                "name": "Shadow Force"
               }
             ]
           },
@@ -23894,7 +23894,7 @@
               },
               {
                 "id": 466,
-                "name": "Ominous Wind"
+                "name": "Dazzling Gleam"
               },
               {
                 "id": 174,
@@ -23949,7 +23949,7 @@
               },
               {
                 "id": 417,
-                "name": "Nasty Plot"
+                "name": "Shadow Force"
               },
               {
                 "id": 153,
@@ -23957,7 +23957,7 @@
               },
               {
                 "id": 510,
-                "name": "Incinerate"
+                "name": "Defog"
               }
             ]
           },
@@ -23971,11 +23971,11 @@
             "moves": [
               {
                 "id": 458,
-                "name": "Double Hit"
+                "name": "Sucker Punch"
               },
               {
                 "id": 367,
-                "name": "Acupressure"
+                "name": "Dark Pulse"
               },
               {
                 "id": 195,
@@ -23983,7 +23983,7 @@
               },
               {
                 "id": 361,
-                "name": "Healing Wish"
+                "name": "Brave Bird"
               }
             ]
           },
@@ -24056,7 +24056,7 @@
               },
               {
                 "id": 367,
-                "name": "Acupressure"
+                "name": "Dark Pulse"
               },
               {
                 "id": 95,
@@ -24082,7 +24082,7 @@
               },
               {
                 "id": 424,
-                "name": "Fire Fang"
+                "name": "Poison Jab"
               },
               {
                 "id": 194,
@@ -24108,15 +24108,15 @@
               },
               {
                 "id": 400,
-                "name": "Night Slash"
+                "name": "X-Scissor"
               },
               {
                 "id": 387,
-                "name": "Last Resort"
+                "name": "Night Slash"
               },
               {
                 "id": 417,
-                "name": "Nasty Plot"
+                "name": "Shadow Force"
               }
             ]
           }
@@ -24171,7 +24171,7 @@
               },
               {
                 "id": 417,
-                "name": "Nasty Plot"
+                "name": "Shadow Force"
               }
             ]
           },
@@ -24197,7 +24197,7 @@
               },
               {
                 "id": 417,
-                "name": "Nasty Plot"
+                "name": "Shadow Force"
               }
             ]
           }
@@ -24244,7 +24244,7 @@
               },
               {
                 "id": 387,
-                "name": "Last Resort"
+                "name": "Night Slash"
               },
               {
                 "id": 95,
@@ -24252,7 +24252,7 @@
               },
               {
                 "id": 463,
-                "name": "Magma Storm"
+                "name": "Play Rough"
               }
             ]
           },
@@ -24270,7 +24270,7 @@
               },
               {
                 "id": 402,
-                "name": "Seed Bomb"
+                "name": "Switcheroo"
               },
               {
                 "id": 248,
@@ -24278,7 +24278,7 @@
               },
               {
                 "id": 417,
-                "name": "Nasty Plot"
+                "name": "Shadow Force"
               }
             ]
           },
@@ -24436,11 +24436,11 @@
               },
               {
                 "id": 378,
-                "name": "Wring Out"
+                "name": "Gunk Shot"
               },
               {
                 "id": 417,
-                "name": "Nasty Plot"
+                "name": "Shadow Force"
               }
             ]
           },
@@ -24454,7 +24454,7 @@
             "moves": [
               {
                 "id": 466,
-                "name": "Ominous Wind"
+                "name": "Dazzling Gleam"
               },
               {
                 "id": 194,
@@ -24466,7 +24466,7 @@
               },
               {
                 "id": 374,
-                "name": "Fling"
+                "name": "Focus Blast"
               }
             ]
           },
@@ -24543,7 +24543,7 @@
               },
               {
                 "id": 423,
-                "name": "Ice Fang"
+                "name": "Wild Charge"
               },
               {
                 "id": 14,
@@ -24561,7 +24561,7 @@
             "moves": [
               {
                 "id": 378,
-                "name": "Wring Out"
+                "name": "Gunk Shot"
               },
               {
                 "id": 151,
@@ -24569,11 +24569,11 @@
               },
               {
                 "id": 417,
-                "name": "Nasty Plot"
+                "name": "Shadow Force"
               },
               {
                 "id": 376,
-                "name": "Trump Card"
+                "name": "Giga Impact"
               }
             ]
           }
@@ -24620,7 +24620,7 @@
               },
               {
                 "id": 402,
-                "name": "Seed Bomb"
+                "name": "Switcheroo"
               },
               {
                 "id": 248,
@@ -24628,7 +24628,7 @@
               },
               {
                 "id": 417,
-                "name": "Nasty Plot"
+                "name": "Shadow Force"
               }
             ]
           },
@@ -24642,7 +24642,7 @@
             "moves": [
               {
                 "id": 373,
-                "name": "Embargo"
+                "name": "Energy Ball"
               },
               {
                 "id": 253,
@@ -24654,7 +24654,7 @@
               },
               {
                 "id": 428,
-                "name": "Zen Headbutt"
+                "name": "Leaf Storm"
               }
             ]
           }
@@ -24709,7 +24709,7 @@
               },
               {
                 "id": 374,
-                "name": "Fling"
+                "name": "Focus Blast"
               }
             ]
           },
@@ -24735,7 +24735,7 @@
               },
               {
                 "id": 374,
-                "name": "Fling"
+                "name": "Focus Blast"
               }
             ]
           }
@@ -24786,7 +24786,7 @@
               },
               {
                 "id": 474,
-                "name": "Venoshock"
+                "name": "Incinerate"
               },
               {
                 "id": 38,
@@ -24919,7 +24919,7 @@
               },
               {
                 "id": 474,
-                "name": "Venoshock"
+                "name": "Incinerate"
               },
               {
                 "id": 38,
@@ -25044,7 +25044,7 @@
             "moves": [
               {
                 "id": 386,
-                "name": "Punishment"
+                "name": "Nasty Plot"
               },
               {
                 "id": 351,
@@ -25125,7 +25125,7 @@
             "moves": [
               {
                 "id": 386,
-                "name": "Punishment"
+                "name": "Nasty Plot"
               },
               {
                 "id": 351,
@@ -25214,7 +25214,7 @@
               },
               {
                 "id": 454,
-                "name": "Attack Order"
+                "name": "Wake-Up Slap"
               },
               {
                 "id": 238,
@@ -25236,7 +25236,7 @@
               },
               {
                 "id": 454,
-                "name": "Attack Order"
+                "name": "Wake-Up Slap"
               },
               {
                 "id": 238,
@@ -25270,7 +25270,7 @@
               },
               {
                 "id": 459,
-                "name": "Roar of Time"
+                "name": "Scald"
               }
             ]
           }
@@ -25339,11 +25339,11 @@
             "moves": [
               {
                 "id": 393,
-                "name": "Magnet Rise"
+                "name": "Rock Polish"
               },
               {
                 "id": 429,
-                "name": "Mirror Shot"
+                "name": "Stone Edge"
               },
               {
                 "id": 89,
@@ -25351,7 +25351,7 @@
               },
               {
                 "id": 379,
-                "name": "Power Trick"
+                "name": "Hammer Arm"
               }
             ]
           }
@@ -25420,11 +25420,11 @@
             "moves": [
               {
                 "id": 393,
-                "name": "Magnet Rise"
+                "name": "Rock Polish"
               },
               {
                 "id": 429,
-                "name": "Mirror Shot"
+                "name": "Stone Edge"
               },
               {
                 "id": 89,
@@ -25432,7 +25432,7 @@
               },
               {
                 "id": 379,
-                "name": "Power Trick"
+                "name": "Hammer Arm"
               }
             ]
           }
@@ -25513,15 +25513,15 @@
             "moves": [
               {
                 "id": 395,
-                "name": "Force Palm"
+                "name": "Roost"
               },
               {
                 "id": 381,
-                "name": "Lucky Chant"
+                "name": "Ice Shard"
               },
               {
                 "id": 361,
-                "name": "Healing Wish"
+                "name": "Brave Bird"
               },
               {
                 "id": 168,
@@ -25568,15 +25568,15 @@
             "moves": [
               {
                 "id": 395,
-                "name": "Force Palm"
+                "name": "Roost"
               },
               {
                 "id": 381,
-                "name": "Lucky Chant"
+                "name": "Ice Shard"
               },
               {
                 "id": 361,
-                "name": "Healing Wish"
+                "name": "Brave Bird"
               },
               {
                 "id": 168,
@@ -25623,7 +25623,7 @@
             "moves": [
               {
                 "id": 458,
-                "name": "Double Hit"
+                "name": "Sucker Punch"
               },
               {
                 "id": 133,
@@ -25735,7 +25735,7 @@
               },
               {
                 "id": 423,
-                "name": "Ice Fang"
+                "name": "Wild Charge"
               },
               {
                 "id": 269,
@@ -25808,7 +25808,7 @@
             "moves": [
               {
                 "id": 458,
-                "name": "Double Hit"
+                "name": "Sucker Punch"
               },
               {
                 "id": 133,
@@ -25920,7 +25920,7 @@
               },
               {
                 "id": 423,
-                "name": "Ice Fang"
+                "name": "Wild Charge"
               },
               {
                 "id": 269,
@@ -26027,7 +26027,7 @@
               },
               {
                 "id": 387,
-                "name": "Last Resort"
+                "name": "Night Slash"
               },
               {
                 "id": 95,
@@ -26049,7 +26049,7 @@
               },
               {
                 "id": 387,
-                "name": "Last Resort"
+                "name": "Night Slash"
               },
               {
                 "id": 14,
@@ -26057,7 +26057,7 @@
               },
               {
                 "id": 400,
-                "name": "Night Slash"
+                "name": "X-Scissor"
               }
             ]
           }
@@ -26134,7 +26134,7 @@
               },
               {
                 "id": 387,
-                "name": "Last Resort"
+                "name": "Night Slash"
               },
               {
                 "id": 95,
@@ -26156,7 +26156,7 @@
               },
               {
                 "id": 387,
-                "name": "Last Resort"
+                "name": "Night Slash"
               },
               {
                 "id": 14,
@@ -26164,7 +26164,7 @@
               },
               {
                 "id": 400,
-                "name": "Night Slash"
+                "name": "X-Scissor"
               }
             ]
           }
@@ -26211,7 +26211,7 @@
               },
               {
                 "id": 423,
-                "name": "Ice Fang"
+                "name": "Wild Charge"
               },
               {
                 "id": 34,
@@ -26245,7 +26245,7 @@
               },
               {
                 "id": 396,
-                "name": "Aura Sphere"
+                "name": "Seed Bomb"
               }
             ]
           }
@@ -26292,7 +26292,7 @@
               },
               {
                 "id": 423,
-                "name": "Ice Fang"
+                "name": "Wild Charge"
               },
               {
                 "id": 34,
@@ -26326,7 +26326,7 @@
               },
               {
                 "id": 396,
-                "name": "Aura Sphere"
+                "name": "Seed Bomb"
               }
             ]
           }
@@ -26373,7 +26373,7 @@
               },
               {
                 "id": 423,
-                "name": "Ice Fang"
+                "name": "Wild Charge"
               },
               {
                 "id": 34,
@@ -26407,7 +26407,7 @@
               },
               {
                 "id": 396,
-                "name": "Aura Sphere"
+                "name": "Seed Bomb"
               }
             ]
           }
@@ -26454,7 +26454,7 @@
               },
               {
                 "id": 423,
-                "name": "Ice Fang"
+                "name": "Wild Charge"
               },
               {
                 "id": 34,
@@ -26488,7 +26488,7 @@
               },
               {
                 "id": 396,
-                "name": "Aura Sphere"
+                "name": "Seed Bomb"
               }
             ]
           }
@@ -26531,7 +26531,7 @@
             "moves": [
               {
                 "id": 505,
-                "name": "Heal Pulse"
+                "name": "Psycho Shift"
               },
               {
                 "id": 94,
@@ -26539,7 +26539,7 @@
               },
               {
                 "id": 466,
-                "name": "Ominous Wind"
+                "name": "Dazzling Gleam"
               },
               {
                 "id": 271,
@@ -26557,15 +26557,15 @@
             "moves": [
               {
                 "id": 466,
-                "name": "Ominous Wind"
+                "name": "Dazzling Gleam"
               },
               {
                 "id": 386,
-                "name": "Punishment"
+                "name": "Nasty Plot"
               },
               {
                 "id": 391,
-                "name": "Heart Swap"
+                "name": "Psycho Cut"
               },
               {
                 "id": 247,
@@ -26612,7 +26612,7 @@
             "moves": [
               {
                 "id": 505,
-                "name": "Heal Pulse"
+                "name": "Psycho Shift"
               },
               {
                 "id": 94,
@@ -26620,7 +26620,7 @@
               },
               {
                 "id": 466,
-                "name": "Ominous Wind"
+                "name": "Dazzling Gleam"
               },
               {
                 "id": 271,
@@ -26638,15 +26638,15 @@
             "moves": [
               {
                 "id": 466,
-                "name": "Ominous Wind"
+                "name": "Dazzling Gleam"
               },
               {
                 "id": 386,
-                "name": "Punishment"
+                "name": "Nasty Plot"
               },
               {
                 "id": 391,
-                "name": "Heart Swap"
+                "name": "Psycho Cut"
               },
               {
                 "id": 247,
@@ -26701,7 +26701,7 @@
               },
               {
                 "id": 373,
-                "name": "Embargo"
+                "name": "Energy Ball"
               },
               {
                 "id": 188,
@@ -26719,11 +26719,11 @@
             "moves": [
               {
                 "id": 415,
-                "name": "Switcheroo"
+                "name": "Quiver Dance"
               },
               {
                 "id": 362,
-                "name": "Brine"
+                "name": "Bug Buzz"
               },
               {
                 "id": 94,
@@ -26731,7 +26731,7 @@
               },
               {
                 "id": 412,
-                "name": "Energy Ball"
+                "name": "Hurricane"
               }
             ]
           }
@@ -26782,7 +26782,7 @@
               },
               {
                 "id": 373,
-                "name": "Embargo"
+                "name": "Energy Ball"
               },
               {
                 "id": 188,
@@ -26800,11 +26800,11 @@
             "moves": [
               {
                 "id": 415,
-                "name": "Switcheroo"
+                "name": "Quiver Dance"
               },
               {
                 "id": 362,
-                "name": "Brine"
+                "name": "Bug Buzz"
               },
               {
                 "id": 94,
@@ -26812,7 +26812,7 @@
               },
               {
                 "id": 412,
-                "name": "Energy Ball"
+                "name": "Hurricane"
               }
             ]
           }
@@ -26965,7 +26965,7 @@
             "moves": [
               {
                 "id": 474,
-                "name": "Venoshock"
+                "name": "Incinerate"
               },
               {
                 "id": 469,
@@ -27072,7 +27072,7 @@
             "moves": [
               {
                 "id": 474,
-                "name": "Venoshock"
+                "name": "Incinerate"
               },
               {
                 "id": 469,
@@ -27179,7 +27179,7 @@
             "moves": [
               {
                 "id": 391,
-                "name": "Heart Swap"
+                "name": "Psycho Cut"
               },
               {
                 "id": 169,
@@ -27191,7 +27191,7 @@
               },
               {
                 "id": 387,
-                "name": "Last Resort"
+                "name": "Night Slash"
               }
             ]
           },
@@ -27205,7 +27205,7 @@
             "moves": [
               {
                 "id": 400,
-                "name": "Night Slash"
+                "name": "X-Scissor"
               },
               {
                 "id": 157,
@@ -27260,7 +27260,7 @@
             "moves": [
               {
                 "id": 391,
-                "name": "Heart Swap"
+                "name": "Psycho Cut"
               },
               {
                 "id": 169,
@@ -27272,7 +27272,7 @@
               },
               {
                 "id": 387,
-                "name": "Last Resort"
+                "name": "Night Slash"
               }
             ]
           },
@@ -27286,7 +27286,7 @@
             "moves": [
               {
                 "id": 400,
-                "name": "Night Slash"
+                "name": "X-Scissor"
               },
               {
                 "id": 157,
@@ -27350,7 +27350,7 @@
                   },
                   {
                     "id": 374,
-                    "name": "Fling"
+                    "name": "Focus Blast"
                   },
                   {
                     "id": 344,
@@ -27372,7 +27372,7 @@
                   },
                   {
                     "id": 368,
-                    "name": "Metal Burst"
+                    "name": "Discharge"
                   },
                   {
                     "id": 334,
@@ -27458,7 +27458,7 @@
                   },
                   {
                     "id": 374,
-                    "name": "Fling"
+                    "name": "Focus Blast"
                   }
                 ]
               }
@@ -27593,7 +27593,7 @@
                 "moves": [
                   {
                     "id": 368,
-                    "name": "Metal Burst"
+                    "name": "Discharge"
                   },
                   {
                     "id": 326,
@@ -27648,19 +27648,19 @@
                 "moves": [
                   {
                     "id": 400,
-                    "name": "Night Slash"
+                    "name": "X-Scissor"
                   },
                   {
                     "id": 366,
-                    "name": "Tailwind"
+                    "name": "Cross Poison"
                   },
                   {
                     "id": 395,
-                    "name": "Force Palm"
+                    "name": "Roost"
                   },
                   {
                     "id": 401,
-                    "name": "Aqua Tail"
+                    "name": "Zen Headbutt"
                   }
                 ]
               },
@@ -27712,7 +27712,7 @@
                   },
                   {
                     "id": 366,
-                    "name": "Tailwind"
+                    "name": "Cross Poison"
                   }
                 ]
               },
@@ -27734,11 +27734,11 @@
                   },
                   {
                     "id": 433,
-                    "name": "Trick Room"
+                    "name": "Thunder Fang"
                   },
                   {
                     "id": 424,
-                    "name": "Fire Fang"
+                    "name": "Poison Jab"
                   }
                 ]
               },
@@ -27760,11 +27760,11 @@
                   },
                   {
                     "id": 415,
-                    "name": "Switcheroo"
+                    "name": "Quiver Dance"
                   },
                   {
                     "id": 362,
-                    "name": "Brine"
+                    "name": "Bug Buzz"
                   }
                 ]
               }
@@ -27795,19 +27795,19 @@
                 "moves": [
                   {
                     "id": 366,
-                    "name": "Tailwind"
+                    "name": "Cross Poison"
                   },
                   {
                     "id": 395,
-                    "name": "Force Palm"
+                    "name": "Roost"
                   },
                   {
                     "id": 401,
-                    "name": "Aqua Tail"
+                    "name": "Zen Headbutt"
                   },
                   {
                     "id": 361,
-                    "name": "Healing Wish"
+                    "name": "Brave Bird"
                   }
                 ]
               },
@@ -27821,7 +27821,7 @@
                 "moves": [
                   {
                     "id": 466,
-                    "name": "Ominous Wind"
+                    "name": "Dazzling Gleam"
                   },
                   {
                     "id": 220,
@@ -27829,7 +27829,7 @@
                   },
                   {
                     "id": 378,
-                    "name": "Wring Out"
+                    "name": "Gunk Shot"
                   },
                   {
                     "id": 192,
@@ -27859,7 +27859,7 @@
                   },
                   {
                     "id": 378,
-                    "name": "Wring Out"
+                    "name": "Gunk Shot"
                   }
                 ]
               },
@@ -27907,11 +27907,11 @@
                   },
                   {
                     "id": 415,
-                    "name": "Switcheroo"
+                    "name": "Quiver Dance"
                   },
                   {
                     "id": 362,
-                    "name": "Brine"
+                    "name": "Bug Buzz"
                   }
                 ]
               }
@@ -27954,19 +27954,19 @@
                 "moves": [
                   {
                     "id": 400,
-                    "name": "Night Slash"
+                    "name": "X-Scissor"
                   },
                   {
                     "id": 366,
-                    "name": "Tailwind"
+                    "name": "Cross Poison"
                   },
                   {
                     "id": 395,
-                    "name": "Force Palm"
+                    "name": "Roost"
                   },
                   {
                     "id": 401,
-                    "name": "Aqua Tail"
+                    "name": "Zen Headbutt"
                   }
                 ]
               },
@@ -28018,7 +28018,7 @@
                   },
                   {
                     "id": 366,
-                    "name": "Tailwind"
+                    "name": "Cross Poison"
                   }
                 ]
               },
@@ -28040,11 +28040,11 @@
                   },
                   {
                     "id": 433,
-                    "name": "Trick Room"
+                    "name": "Thunder Fang"
                   },
                   {
                     "id": 424,
-                    "name": "Fire Fang"
+                    "name": "Poison Jab"
                   }
                 ]
               },
@@ -28066,11 +28066,11 @@
                   },
                   {
                     "id": 415,
-                    "name": "Switcheroo"
+                    "name": "Quiver Dance"
                   },
                   {
                     "id": 362,
-                    "name": "Brine"
+                    "name": "Bug Buzz"
                   }
                 ]
               }
@@ -28101,19 +28101,19 @@
                 "moves": [
                   {
                     "id": 366,
-                    "name": "Tailwind"
+                    "name": "Cross Poison"
                   },
                   {
                     "id": 395,
-                    "name": "Force Palm"
+                    "name": "Roost"
                   },
                   {
                     "id": 401,
-                    "name": "Aqua Tail"
+                    "name": "Zen Headbutt"
                   },
                   {
                     "id": 361,
-                    "name": "Healing Wish"
+                    "name": "Brave Bird"
                   }
                 ]
               },
@@ -28127,7 +28127,7 @@
                 "moves": [
                   {
                     "id": 466,
-                    "name": "Ominous Wind"
+                    "name": "Dazzling Gleam"
                   },
                   {
                     "id": 220,
@@ -28135,7 +28135,7 @@
                   },
                   {
                     "id": 378,
-                    "name": "Wring Out"
+                    "name": "Gunk Shot"
                   },
                   {
                     "id": 192,
@@ -28165,7 +28165,7 @@
                   },
                   {
                     "id": 378,
-                    "name": "Wring Out"
+                    "name": "Gunk Shot"
                   }
                 ]
               },
@@ -28213,11 +28213,11 @@
                   },
                   {
                     "id": 415,
-                    "name": "Switcheroo"
+                    "name": "Quiver Dance"
                   },
                   {
                     "id": 362,
-                    "name": "Brine"
+                    "name": "Bug Buzz"
                   }
                 ]
               }
@@ -28286,7 +28286,7 @@
                 "moves": [
                   {
                     "id": 466,
-                    "name": "Ominous Wind"
+                    "name": "Dazzling Gleam"
                   },
                   {
                     "id": 113,
@@ -28324,7 +28324,7 @@
                   },
                   {
                     "id": 395,
-                    "name": "Force Palm"
+                    "name": "Roost"
                   }
                 ]
               },
@@ -28342,7 +28342,7 @@
                   },
                   {
                     "id": 464,
-                    "name": "Dark Void"
+                    "name": "Moonblast"
                   },
                   {
                     "id": 115,
@@ -28368,7 +28368,7 @@
                   },
                   {
                     "id": 364,
-                    "name": "Feint"
+                    "name": "Charge Beam"
                   },
                   {
                     "id": 115,
@@ -28445,7 +28445,7 @@
                   },
                   {
                     "id": 171,
-                    "name": "Unknown move 171"
+                    "name": "Freezy Frost"
                   }
                 ]
               },
@@ -28459,7 +28459,7 @@
                 "moves": [
                   {
                     "id": 463,
-                    "name": "Magma Storm"
+                    "name": "Play Rough"
                   },
                   {
                     "id": 204,
@@ -28471,7 +28471,7 @@
                   },
                   {
                     "id": 391,
-                    "name": "Heart Swap"
+                    "name": "Psycho Cut"
                   }
                 ]
               },
@@ -28493,7 +28493,7 @@
                   },
                   {
                     "id": 464,
-                    "name": "Dark Void"
+                    "name": "Moonblast"
                   },
                   {
                     "id": 247,
@@ -28515,7 +28515,7 @@
                   },
                   {
                     "id": 374,
-                    "name": "Fling"
+                    "name": "Focus Blast"
                   },
                   {
                     "id": 170,
@@ -28574,7 +28574,7 @@
                   },
                   {
                     "id": 374,
-                    "name": "Fling"
+                    "name": "Focus Blast"
                   },
                   {
                     "id": 56,
@@ -28604,7 +28604,7 @@
                   },
                   {
                     "id": 358,
-                    "name": "Wake-Up Slap"
+                    "name": "Aqua Tail"
                   }
                 ]
               },
@@ -28644,7 +28644,7 @@
                 "moves": [
                   {
                     "id": 432,
-                    "name": "Defog"
+                    "name": "Ice Fang"
                   },
                   {
                     "id": 127,
@@ -28656,7 +28656,7 @@
                   },
                   {
                     "id": 444,
-                    "name": "Stone Edge"
+                    "name": "Triple Swipe"
                   }
                 ]
               },
@@ -28721,7 +28721,7 @@
                   },
                   {
                     "id": 374,
-                    "name": "Fling"
+                    "name": "Focus Blast"
                   },
                   {
                     "id": 56,
@@ -28795,11 +28795,11 @@
                   },
                   {
                     "id": 358,
-                    "name": "Wake-Up Slap"
+                    "name": "Aqua Tail"
                   },
                   {
                     "id": 483,
-                    "name": "Quiver Dance"
+                    "name": "Acupressure"
                   },
                   {
                     "id": 32,
@@ -28872,11 +28872,11 @@
                 "moves": [
                   {
                     "id": 379,
-                    "name": "Power Trick"
+                    "name": "Hammer Arm"
                   },
                   {
                     "id": 429,
-                    "name": "Mirror Shot"
+                    "name": "Stone Edge"
                   },
                   {
                     "id": 9,
@@ -28902,11 +28902,11 @@
                   },
                   {
                     "id": 429,
-                    "name": "Mirror Shot"
+                    "name": "Stone Edge"
                   },
                   {
                     "id": 379,
-                    "name": "Power Trick"
+                    "name": "Hammer Arm"
                   },
                   {
                     "id": 224,
@@ -28924,7 +28924,7 @@
                 "moves": [
                   {
                     "id": 372,
-                    "name": "Assurance"
+                    "name": "Earth Power"
                   },
                   {
                     "id": 56,
@@ -28954,11 +28954,11 @@
                   },
                   {
                     "id": 387,
-                    "name": "Last Resort"
+                    "name": "Night Slash"
                   },
                   {
                     "id": 429,
-                    "name": "Mirror Shot"
+                    "name": "Stone Edge"
                   },
                   {
                     "id": 38,
@@ -28984,7 +28984,7 @@
                   },
                   {
                     "id": 380,
-                    "name": "Gastro Acid"
+                    "name": "Head Smash"
                   },
                   {
                     "id": 90,
@@ -29019,7 +29019,7 @@
                 "moves": [
                   {
                     "id": 379,
-                    "name": "Power Trick"
+                    "name": "Hammer Arm"
                   },
                   {
                     "id": 7,
@@ -29049,7 +29049,7 @@
                   },
                   {
                     "id": 504,
-                    "name": "Shell Smash"
+                    "name": "Dragon Rush"
                   },
                   {
                     "id": 89,
@@ -29057,7 +29057,7 @@
                   },
                   {
                     "id": 429,
-                    "name": "Mirror Shot"
+                    "name": "Stone Edge"
                   }
                 ]
               },
@@ -29071,7 +29071,7 @@
                 "moves": [
                   {
                     "id": 492,
-                    "name": "Foul Play"
+                    "name": "Gyro Ball"
                   },
                   {
                     "id": 58,
@@ -29079,7 +29079,7 @@
                   },
                   {
                     "id": 372,
-                    "name": "Assurance"
+                    "name": "Earth Power"
                   },
                   {
                     "id": 56,
@@ -29101,11 +29101,11 @@
                   },
                   {
                     "id": 387,
-                    "name": "Last Resort"
+                    "name": "Night Slash"
                   },
                   {
                     "id": 429,
-                    "name": "Mirror Shot"
+                    "name": "Stone Edge"
                   },
                   {
                     "id": 38,
@@ -29123,7 +29123,7 @@
                 "moves": [
                   {
                     "id": 429,
-                    "name": "Mirror Shot"
+                    "name": "Stone Edge"
                   },
                   {
                     "id": 231,
@@ -29135,7 +29135,7 @@
                   },
                   {
                     "id": 380,
-                    "name": "Gastro Acid"
+                    "name": "Head Smash"
                   }
                 ]
               }
@@ -29178,7 +29178,7 @@
                 "moves": [
                   {
                     "id": 423,
-                    "name": "Ice Fang"
+                    "name": "Wild Charge"
                   },
                   {
                     "id": 167,
@@ -29190,7 +29190,7 @@
                   },
                   {
                     "id": 434,
-                    "name": "Draco Meteor"
+                    "name": "Flare Blitz"
                   }
                 ]
               },
@@ -29264,11 +29264,11 @@
                   },
                   {
                     "id": 423,
-                    "name": "Ice Fang"
+                    "name": "Wild Charge"
                   },
                   {
                     "id": 463,
-                    "name": "Magma Storm"
+                    "name": "Play Rough"
                   }
                 ]
               },
@@ -29282,7 +29282,7 @@
                 "moves": [
                   {
                     "id": 452,
-                    "name": "Wood Hammer"
+                    "name": "Shell Smash"
                   },
                   {
                     "id": 157,
@@ -29329,7 +29329,7 @@
                   },
                   {
                     "id": 372,
-                    "name": "Assurance"
+                    "name": "Earth Power"
                   },
                   {
                     "id": 63,
@@ -29363,7 +29363,7 @@
                   },
                   {
                     "id": 374,
-                    "name": "Fling"
+                    "name": "Focus Blast"
                   }
                 ]
               },
@@ -29385,7 +29385,7 @@
                   },
                   {
                     "id": 434,
-                    "name": "Draco Meteor"
+                    "name": "Flare Blitz"
                   },
                   {
                     "id": 245,
@@ -29415,7 +29415,7 @@
                   },
                   {
                     "id": 434,
-                    "name": "Draco Meteor"
+                    "name": "Flare Blitz"
                   }
                 ]
               },
@@ -29429,7 +29429,7 @@
                 "moves": [
                   {
                     "id": 397,
-                    "name": "Rock Polish"
+                    "name": "Shadow Claw"
                   },
                   {
                     "id": 261,
@@ -29441,7 +29441,7 @@
                   },
                   {
                     "id": 434,
-                    "name": "Draco Meteor"
+                    "name": "Flare Blitz"
                   }
                 ]
               }
@@ -29484,7 +29484,7 @@
                 "moves": [
                   {
                     "id": 423,
-                    "name": "Ice Fang"
+                    "name": "Wild Charge"
                   },
                   {
                     "id": 167,
@@ -29496,7 +29496,7 @@
                   },
                   {
                     "id": 434,
-                    "name": "Draco Meteor"
+                    "name": "Flare Blitz"
                   }
                 ]
               },
@@ -29570,11 +29570,11 @@
                   },
                   {
                     "id": 423,
-                    "name": "Ice Fang"
+                    "name": "Wild Charge"
                   },
                   {
                     "id": 463,
-                    "name": "Magma Storm"
+                    "name": "Play Rough"
                   }
                 ]
               },
@@ -29588,7 +29588,7 @@
                 "moves": [
                   {
                     "id": 452,
-                    "name": "Wood Hammer"
+                    "name": "Shell Smash"
                   },
                   {
                     "id": 157,
@@ -29635,7 +29635,7 @@
                   },
                   {
                     "id": 372,
-                    "name": "Assurance"
+                    "name": "Earth Power"
                   },
                   {
                     "id": 63,
@@ -29669,7 +29669,7 @@
                   },
                   {
                     "id": 374,
-                    "name": "Fling"
+                    "name": "Focus Blast"
                   }
                 ]
               },
@@ -29691,7 +29691,7 @@
                   },
                   {
                     "id": 434,
-                    "name": "Draco Meteor"
+                    "name": "Flare Blitz"
                   },
                   {
                     "id": 245,
@@ -29721,7 +29721,7 @@
                   },
                   {
                     "id": 434,
-                    "name": "Draco Meteor"
+                    "name": "Flare Blitz"
                   }
                 ]
               },
@@ -29735,7 +29735,7 @@
                 "moves": [
                   {
                     "id": 397,
-                    "name": "Rock Polish"
+                    "name": "Shadow Claw"
                   },
                   {
                     "id": 261,
@@ -29747,7 +29747,7 @@
                   },
                   {
                     "id": 434,
-                    "name": "Draco Meteor"
+                    "name": "Flare Blitz"
                   }
                 ]
               }
@@ -29790,11 +29790,11 @@
                 "moves": [
                   {
                     "id": 442,
-                    "name": "Iron Head"
+                    "name": "U-turn"
                   },
                   {
                     "id": 395,
-                    "name": "Force Palm"
+                    "name": "Roost"
                   },
                   {
                     "id": 257,
@@ -29802,7 +29802,7 @@
                   },
                   {
                     "id": 412,
-                    "name": "Energy Ball"
+                    "name": "Hurricane"
                   }
                 ]
               },
@@ -29824,7 +29824,7 @@
                   },
                   {
                     "id": 403,
-                    "name": "Air Slash"
+                    "name": "Drill Run"
                   },
                   {
                     "id": 32,
@@ -29846,7 +29846,7 @@
                   },
                   {
                     "id": 466,
-                    "name": "Ominous Wind"
+                    "name": "Dazzling Gleam"
                   },
                   {
                     "id": 104,
@@ -29854,7 +29854,7 @@
                   },
                   {
                     "id": 374,
-                    "name": "Fling"
+                    "name": "Focus Blast"
                   }
                 ]
               },
@@ -29872,7 +29872,7 @@
                   },
                   {
                     "id": 360,
-                    "name": "Gyro Ball"
+                    "name": "Avalanche"
                   },
                   {
                     "id": 56,
@@ -29880,7 +29880,7 @@
                   },
                   {
                     "id": 390,
-                    "name": "Toxic Spikes"
+                    "name": "Power Whip"
                   }
                 ]
               },
@@ -29894,7 +29894,7 @@
                 "moves": [
                   {
                     "id": 396,
-                    "name": "Aura Sphere"
+                    "name": "Seed Bomb"
                   },
                   {
                     "id": 94,
@@ -29928,7 +29928,7 @@
                   },
                   {
                     "id": 434,
-                    "name": "Draco Meteor"
+                    "name": "Flare Blitz"
                   },
                   {
                     "id": 245,
@@ -29971,7 +29971,7 @@
                   },
                   {
                     "id": 412,
-                    "name": "Energy Ball"
+                    "name": "Hurricane"
                   },
                   {
                     "id": 197,
@@ -29997,7 +29997,7 @@
                   },
                   {
                     "id": 403,
-                    "name": "Air Slash"
+                    "name": "Drill Run"
                   },
                   {
                     "id": 32,
@@ -30019,7 +30019,7 @@
                   },
                   {
                     "id": 466,
-                    "name": "Ominous Wind"
+                    "name": "Dazzling Gleam"
                   },
                   {
                     "id": 271,
@@ -30027,7 +30027,7 @@
                   },
                   {
                     "id": 374,
-                    "name": "Fling"
+                    "name": "Focus Blast"
                   }
                 ]
               },
@@ -30045,7 +30045,7 @@
                   },
                   {
                     "id": 360,
-                    "name": "Gyro Ball"
+                    "name": "Avalanche"
                   },
                   {
                     "id": 56,
@@ -30053,7 +30053,7 @@
                   },
                   {
                     "id": 390,
-                    "name": "Toxic Spikes"
+                    "name": "Power Whip"
                   }
                 ]
               },
@@ -30067,7 +30067,7 @@
                 "moves": [
                   {
                     "id": 396,
-                    "name": "Aura Sphere"
+                    "name": "Seed Bomb"
                   },
                   {
                     "id": 94,
@@ -30101,7 +30101,7 @@
                   },
                   {
                     "id": 434,
-                    "name": "Draco Meteor"
+                    "name": "Flare Blitz"
                   },
                   {
                     "id": 245,
@@ -30148,11 +30148,11 @@
                 "moves": [
                   {
                     "id": 442,
-                    "name": "Iron Head"
+                    "name": "U-turn"
                   },
                   {
                     "id": 395,
-                    "name": "Force Palm"
+                    "name": "Roost"
                   },
                   {
                     "id": 257,
@@ -30160,7 +30160,7 @@
                   },
                   {
                     "id": 412,
-                    "name": "Energy Ball"
+                    "name": "Hurricane"
                   }
                 ]
               },
@@ -30182,7 +30182,7 @@
                   },
                   {
                     "id": 403,
-                    "name": "Air Slash"
+                    "name": "Drill Run"
                   },
                   {
                     "id": 32,
@@ -30204,7 +30204,7 @@
                   },
                   {
                     "id": 466,
-                    "name": "Ominous Wind"
+                    "name": "Dazzling Gleam"
                   },
                   {
                     "id": 104,
@@ -30212,7 +30212,7 @@
                   },
                   {
                     "id": 374,
-                    "name": "Fling"
+                    "name": "Focus Blast"
                   }
                 ]
               },
@@ -30230,7 +30230,7 @@
                   },
                   {
                     "id": 360,
-                    "name": "Gyro Ball"
+                    "name": "Avalanche"
                   },
                   {
                     "id": 56,
@@ -30238,7 +30238,7 @@
                   },
                   {
                     "id": 390,
-                    "name": "Toxic Spikes"
+                    "name": "Power Whip"
                   }
                 ]
               },
@@ -30252,7 +30252,7 @@
                 "moves": [
                   {
                     "id": 396,
-                    "name": "Aura Sphere"
+                    "name": "Seed Bomb"
                   },
                   {
                     "id": 94,
@@ -30286,7 +30286,7 @@
                   },
                   {
                     "id": 434,
-                    "name": "Draco Meteor"
+                    "name": "Flare Blitz"
                   },
                   {
                     "id": 245,
@@ -30329,7 +30329,7 @@
                   },
                   {
                     "id": 412,
-                    "name": "Energy Ball"
+                    "name": "Hurricane"
                   },
                   {
                     "id": 197,
@@ -30355,7 +30355,7 @@
                   },
                   {
                     "id": 403,
-                    "name": "Air Slash"
+                    "name": "Drill Run"
                   },
                   {
                     "id": 32,
@@ -30377,7 +30377,7 @@
                   },
                   {
                     "id": 466,
-                    "name": "Ominous Wind"
+                    "name": "Dazzling Gleam"
                   },
                   {
                     "id": 271,
@@ -30385,7 +30385,7 @@
                   },
                   {
                     "id": 374,
-                    "name": "Fling"
+                    "name": "Focus Blast"
                   }
                 ]
               },
@@ -30403,7 +30403,7 @@
                   },
                   {
                     "id": 360,
-                    "name": "Gyro Ball"
+                    "name": "Avalanche"
                   },
                   {
                     "id": 56,
@@ -30411,7 +30411,7 @@
                   },
                   {
                     "id": 390,
-                    "name": "Toxic Spikes"
+                    "name": "Power Whip"
                   }
                 ]
               },
@@ -30425,7 +30425,7 @@
                 "moves": [
                   {
                     "id": 396,
-                    "name": "Aura Sphere"
+                    "name": "Seed Bomb"
                   },
                   {
                     "id": 94,
@@ -30459,7 +30459,7 @@
                   },
                   {
                     "id": 434,
-                    "name": "Draco Meteor"
+                    "name": "Flare Blitz"
                   },
                   {
                     "id": 245,

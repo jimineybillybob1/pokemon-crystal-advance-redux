@@ -31540,9 +31540,9 @@
           "nature": "",
           "moves": [
             "Wish",
-            "Heal Pulse",
+            "Psycho Shift",
             "Future Sight",
-            "Worry Seed"
+            "Ominous Wind"
           ]
         },
         {
@@ -31553,7 +31553,7 @@
           "nature": "",
           "moves": [
             "Ancient Power",
-            "Aura Sphere",
+            "Seed Bomb",
             "Psychic",
             "Egg Bomb"
           ]
@@ -31565,7 +31565,7 @@
           "item": "",
           "nature": "",
           "moves": [
-            "Gyro Ball",
+            "Avalanche",
             "Amnesia",
             "Psychic",
             "Surf"
@@ -31578,7 +31578,7 @@
           "item": "",
           "nature": "",
           "moves": [
-            "Gyro Ball",
+            "Avalanche",
             "Body Slam",
             "Echoed Voice",
             "Perish Song"
@@ -31591,9 +31591,9 @@
           "item": "",
           "nature": "",
           "moves": [
-            "Gravity",
-            "Worry Seed",
-            "Stored Power",
+            "Air Slash",
+            "Ominous Wind",
+            "Power Swap",
             "Quick Guard"
           ]
         }
@@ -31685,8 +31685,8 @@
           "item": "",
           "nature": "",
           "moves": [
-            "Gravity",
-            "Force Palm",
+            "Air Slash",
+            "Roost",
             "Psychic",
             "Confuse Ray"
           ]
@@ -31699,7 +31699,7 @@
           "nature": "",
           "moves": [
             "Reflect",
-            "Close Combat",
+            "Dragon Pulse",
             "Psychic",
             "Hypnosis"
           ]
@@ -31750,10 +31750,10 @@
           "item": "",
           "nature": "",
           "moves": [
-            "Gravity",
+            "Air Slash",
             "Charm",
-            "Heart Swap",
-            "Pluck"
+            "Psycho Cut",
+            "Close Combat"
           ]
         }
       ],
@@ -31846,7 +31846,7 @@
             "Agility",
             "Pin Missile",
             "Psychic",
-            "Fire Fang"
+            "Poison Jab"
           ]
         },
         {
@@ -31857,7 +31857,7 @@
           "nature": "",
           "moves": [
             "Aerial Ace",
-            "Fire Fang",
+            "Poison Jab",
             "Leech Life",
             "Psychic"
           ]
@@ -31872,7 +31872,7 @@
             "Zap Cannon",
             "Explosion",
             "Iron Defense",
-            "Foul Play"
+            "Gyro Ball"
           ]
         },
         {
@@ -31884,7 +31884,7 @@
           "moves": [
             "Acid Armor",
             "Mean Look",
-            "Wring Out",
+            "Gunk Shot",
             "Mud Shot"
           ]
         },
@@ -31895,10 +31895,10 @@
           "item": "",
           "nature": "",
           "moves": [
-            "Gravity",
-            "Night Slash",
-            "Tailwind",
-            "Force Palm"
+            "Air Slash",
+            "X-Scissor",
+            "Cross Poison",
+            "Roost"
           ]
         }
       ],
@@ -31992,7 +31992,7 @@
             "Agility",
             "Pin Missile",
             "Psychic",
-            "Fire Fang"
+            "Poison Jab"
           ]
         },
         {
@@ -32003,9 +32003,9 @@
           "nature": "",
           "moves": [
             "Pain Split",
-            "Wring Out",
-            "Venoshock",
-            "Ominous Wind"
+            "Gunk Shot",
+            "Incinerate",
+            "Dazzling Gleam"
           ]
         },
         {
@@ -32015,7 +32015,7 @@
           "item": "",
           "nature": "",
           "moves": [
-            "Foul Play",
+            "Gyro Ball",
             "Double-Edge",
             "Chip Away",
             "Zap Cannon"
@@ -32029,9 +32029,9 @@
           "nature": "",
           "moves": [
             "Shadow Ball",
-            "Rage Powder",
+            "Gastro Acid",
             "Echoed Voice",
-            "Wring Out"
+            "Gunk Shot"
           ]
         },
         {
@@ -32041,10 +32041,10 @@
           "item": "",
           "nature": "",
           "moves": [
-            "Tailwind",
-            "Force Palm",
-            "Aqua Tail",
-            "Healing Wish"
+            "Cross Poison",
+            "Roost",
+            "Zen Headbutt",
+            "Brave Bird"
           ]
         },
         {
@@ -32054,9 +32054,9 @@
           "item": "",
           "nature": "",
           "moves": [
-            "Punishment",
-            "Fire Fang",
-            "Double Hit",
+            "Nasty Plot",
+            "Poison Jab",
+            "Sucker Punch",
             "Flatter"
           ]
         }
@@ -32148,9 +32148,9 @@
           "nature": "",
           "moves": [
             "Blaze Kick",
-            "Foul Play",
+            "Gyro Ball",
             "Detect",
-            "Pluck"
+            "Close Combat"
           ]
         },
         {
@@ -32163,7 +32163,7 @@
             "Blaze Kick",
             "Endure",
             "Mega Kick",
-            "Pluck"
+            "Close Combat"
           ]
         },
         {
@@ -32173,7 +32173,7 @@
           "item": "",
           "nature": "",
           "moves": [
-            "Payback",
+            "Drain Punch",
             "Ice Punch",
             "Agility",
             "Counter"
@@ -32186,10 +32186,10 @@
           "item": "",
           "nature": "",
           "moves": [
-            "Me First",
+            "Iron Head",
             "Earthquake",
             "Double-Edge",
-            "Mirror Shot"
+            "Stone Edge"
           ]
         },
         {
@@ -32202,7 +32202,7 @@
             "Scary Face",
             "Dynamic Punch",
             "Bulk Up",
-            "Flare Blitz"
+            "Rock Wrecker"
           ]
         }
       ],
@@ -32294,8 +32294,8 @@
           "nature": "",
           "moves": [
             "Detect",
-            "Pluck",
-            "Ice Fang",
+            "Close Combat",
+            "Wild Charge",
             "Endeavor"
           ]
         },
@@ -32308,7 +32308,7 @@
           "moves": [
             "Mega Kick",
             "Blaze Kick",
-            "Mirror Shot",
+            "Stone Edge",
             "High Jump Kick"
           ]
         },
@@ -32322,7 +32322,7 @@
             "Thunder Punch",
             "Agility",
             "Counter",
-            "Pluck"
+            "Close Combat"
           ]
         },
         {
@@ -32334,7 +32334,7 @@
           "moves": [
             "Iron Tail",
             "Curse",
-            "Gastro Acid",
+            "Head Smash",
             "Fissure"
           ]
         },
@@ -32345,9 +32345,9 @@
           "item": "",
           "nature": "",
           "moves": [
-            "Mirror Shot",
-            "Flame Charge",
-            "Night Slash",
+            "Stone Edge",
+            "Heal Order",
+            "X-Scissor",
             "Swords Dance"
           ]
         },
@@ -32360,7 +32360,7 @@
           "moves": [
             "Dynamic Punch",
             "Bulk Up",
-            "Flare Blitz",
+            "Rock Wrecker",
             "Fissure"
           ]
         }
@@ -32465,7 +32465,7 @@
           "nature": "",
           "moves": [
             "Teeter Dance",
-            "Embargo",
+            "Energy Ball",
             "Sludge Bomb",
             "Sunny Day"
           ]
@@ -32479,8 +32479,8 @@
           "moves": [
             "Feint Attack",
             "Mean Look",
-            "Double Hit",
-            "Gravity"
+            "Sucker Punch",
+            "Air Slash"
           ]
         },
         {
@@ -32492,8 +32492,8 @@
           "moves": [
             "Shadow Ball",
             "Will-O-Wisp",
-            "Embargo",
-            "Ominous Wind"
+            "Energy Ball",
+            "Dazzling Gleam"
           ]
         },
         {
@@ -32624,9 +32624,9 @@
           "nature": "",
           "moves": [
             "Swagger",
-            "Punishment",
-            "Last Resort",
-            "Healing Wish"
+            "Nasty Plot",
+            "Night Slash",
+            "Brave Bird"
           ]
         },
         {
@@ -32636,10 +32636,10 @@
           "item": "",
           "nature": "",
           "moves": [
-            "Ominous Wind",
+            "Dazzling Gleam",
             "Destiny Bond",
             "Sludge Bomb",
-            "Fling"
+            "Focus Blast"
           ]
         },
         {
@@ -32652,7 +32652,7 @@
             "Acid Armor",
             "Synchronoise",
             "Take Down",
-            "Nasty Plot"
+            "Shadow Force"
           ]
         },
         {
@@ -32665,7 +32665,7 @@
             "Sky Drop",
             "Flamethrower",
             "Crunch",
-            "Punishment"
+            "Nasty Plot"
           ]
         }
       ],
@@ -32872,7 +32872,7 @@
           "nature": "",
           "moves": [
             "Dragon Dance",
-            "Close Combat",
+            "Dragon Pulse",
             "Muddy Water",
             "Rain Dance"
           ]
@@ -32884,10 +32884,10 @@
           "item": "",
           "nature": "",
           "moves": [
-            "Roar of Time",
+            "Scald",
             "Drill Peck",
             "Ice Beam",
-            "Incinerate"
+            "Defog"
           ]
         }
       ],
@@ -32937,7 +32937,7 @@
           "nature": "",
           "moves": [
             "Shadow Ball",
-            "Acupressure",
+            "Dark Pulse",
             "Hypnosis",
             "Dream Eater"
           ]
@@ -32950,7 +32950,7 @@
           "nature": "",
           "moves": [
             "Cotton Spore",
-            "Fire Fang",
+            "Poison Jab",
             "Destiny Bond",
             "Synthesis"
           ]
@@ -32963,9 +32963,9 @@
           "nature": "",
           "moves": [
             "Confuse Ray",
+            "X-Scissor",
             "Night Slash",
-            "Last Resort",
-            "Nasty Plot"
+            "Shadow Force"
           ]
         }
       ],
@@ -33028,8 +33028,8 @@
           "moves": [
             "Grudge",
             "Trick",
-            "Wring Out",
-            "Nasty Plot"
+            "Gunk Shot",
+            "Shadow Force"
           ]
         },
         {
@@ -33040,9 +33040,9 @@
           "nature": "",
           "moves": [
             "Mirror Coat",
-            "Assurance",
+            "Earth Power",
             "Blizzard",
-            "Nasty Plot"
+            "Shadow Force"
           ]
         },
         {
@@ -33053,7 +33053,7 @@
           "nature": "",
           "moves": [
             "Spite",
-            "Ominous Wind",
+            "Dazzling Gleam",
             "Curse",
             "Sludge Bomb"
           ]
@@ -33104,9 +33104,9 @@
           "nature": "",
           "moves": [
             "Rain Dance",
-            "Nasty Plot",
+            "Shadow Force",
             "Explosion",
-            "Incinerate"
+            "Defog"
           ]
         },
         {
@@ -33116,10 +33116,10 @@
           "item": "",
           "nature": "",
           "moves": [
-            "Double Hit",
-            "Acupressure",
+            "Sucker Punch",
+            "Dark Pulse",
             "Perish Song",
-            "Healing Wish"
+            "Brave Bird"
           ]
         },
         {
@@ -33247,7 +33247,7 @@
             "Leech Life",
             "Curse",
             "Thunder Punch",
-            "Nasty Plot"
+            "Shadow Force"
           ]
         },
         {
@@ -33260,7 +33260,7 @@
             "Leech Life",
             "Curse",
             "Thunder Punch",
-            "Nasty Plot"
+            "Shadow Force"
           ]
         }
       ],
@@ -33309,9 +33309,9 @@
           "nature": "",
           "moves": [
             "Icy Wind",
-            "Last Resort",
+            "Night Slash",
             "Hypnosis",
-            "Magma Storm"
+            "Play Rough"
           ]
         },
         {
@@ -33322,9 +33322,9 @@
           "nature": "",
           "moves": [
             "Leech Life",
-            "Seed Bomb",
+            "Switcheroo",
             "Future Sight",
-            "Nasty Plot"
+            "Shadow Force"
           ]
         },
         {
@@ -33387,7 +33387,7 @@
           "moves": [
             "Taunt",
             "Crunch",
-            "Ice Fang",
+            "Wild Charge",
             "Swords Dance"
           ]
         },
@@ -33398,10 +33398,10 @@
           "item": "",
           "nature": "",
           "moves": [
-            "Wring Out",
+            "Gunk Shot",
             "Acid Armor",
-            "Nasty Plot",
-            "Trump Card"
+            "Shadow Force",
+            "Giga Impact"
           ]
         }
       ],
@@ -33452,7 +33452,7 @@
             "Shadow Ball",
             "Destiny Bond",
             "Sludge Bomb",
-            "Fling"
+            "Focus Blast"
           ]
         },
         {
@@ -33465,7 +33465,7 @@
             "Shadow Ball",
             "Destiny Bond",
             "Sludge Bomb",
-            "Fling"
+            "Focus Blast"
           ]
         }
       ],
@@ -33515,8 +33515,8 @@
           "moves": [
             "Grudge",
             "Trick",
-            "Wring Out",
-            "Nasty Plot"
+            "Gunk Shot",
+            "Shadow Force"
           ]
         },
         {
@@ -33526,10 +33526,10 @@
           "item": "",
           "nature": "",
           "moves": [
-            "Ominous Wind",
+            "Dazzling Gleam",
             "Destiny Bond",
             "Sludge Bomb",
-            "Fling"
+            "Focus Blast"
           ]
         },
         {
@@ -33591,9 +33591,9 @@
           "nature": "",
           "moves": [
             "Leech Life",
-            "Seed Bomb",
+            "Switcheroo",
             "Future Sight",
-            "Nasty Plot"
+            "Shadow Force"
           ]
         },
         {
@@ -33603,10 +33603,10 @@
           "item": "",
           "nature": "",
           "moves": [
-            "Embargo",
+            "Energy Ball",
             "Uproar",
             "Zap Cannon",
-            "Zen Headbutt"
+            "Leaf Storm"
           ]
         }
       ],

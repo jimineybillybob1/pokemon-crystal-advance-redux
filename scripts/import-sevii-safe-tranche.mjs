@@ -64,7 +64,6 @@ const acceptedTables = [];
 // two One Island caverns contain Rock Smash objects whose script checks move 249.
 const reviewedTreeRockMethods = new Map([
   ["1,0", { method: "Tree", evidence: "Tree-rich outdoor layout; encounter species align with documented Headbutt pools." }],
-  ["3,51", { method: "Tree", evidence: "Tree-rich outdoor layout; encounter species align with documented Headbutt pools." }],
   ["3,68", { method: "Tree", evidence: "Tree-rich outdoor layout; encounter species align with documented Headbutt pools." }],
   ["3,69", { method: "Tree", evidence: "Tree-rich outdoor layout; encounter species align with documented Headbutt pools." }],
   ["1,1", { method: "Rock", evidence: "Four graphicsId 96 objects call script 0x1BE00C, which checks move 249 (Rock Smash)." }],
@@ -226,6 +225,30 @@ for (const item of itemOverride) {
 const itemMarker = "Source: 2026-07-19 ROM audit";
 for (const item of itemOverride) item.locations = (item.locations || []).filter((location) => !location.includes(itemMarker));
 
+// The workbook predates the developer's 2026-07-19 "Fixed a Potion on Route
+// 31" change. Map 3,51 retains Wade, the documented Route 31 Poke Ball and 27
+// of 32 ordered encounter slots; its eastern item ball is item 71 (PP Max) in
+// the target ROM. Keep this mainline correction separate from Sevii imports so
+// rebuilding the safe tranche cannot restore the stale workbook Potion row.
+const mainlineItemCorrectionMarker = "Source: 2026-07-19 ROM item audit";
+for (const item of itemOverride) {
+  item.locations = (item.locations || []).filter((location) => !location.includes(mainlineItemCorrectionMarker));
+}
+const route31PotionLocation = "Route 31 — E, next to Dark Cave sign; Source: Wild";
+const potion = itemByAlias.get(normalize("Potion"));
+const ppMax = itemByAlias.get(normalize("PP Max"));
+if (!potion || !ppMax) throw new Error("Route 31 item correction could not resolve Potion or PP Max.");
+potion.locations = potion.locations.filter((location) => location !== route31PotionLocation);
+const correctedRoute31Location = `Route 31 — E, next to Dark Cave sign, item ball at tile (33, 3); ${mainlineItemCorrectionMarker}`;
+if (!ppMax.locations.includes(correctedRoute31Location)) ppMax.locations.push(correctedRoute31Location);
+const correctedMainlineItemPlacements = [{
+  mapKey: "3,51",
+  removedItem: "Potion",
+  item: "PP Max",
+  location: correctedRoute31Location,
+  evidence: "Wade, the Route 31 Poke Ball and 27/32 ordered workbook encounter slots identify the map; the exact 2026-07-19 ROM stores item 71 at tile (33, 3).",
+}];
+
 const itemPlacements = [
   ...extraction.hiddenItems
     .filter((entry) => readyMaps.has(entry.mapKey) && entry.coordinateValid)
@@ -268,6 +291,7 @@ const report = {
     importedLocationCount: importedLocations.length,
     importedEncounterCount: importedLocations.reduce((sum, location) => sum + location.encounterCount, 0),
     importedItemPlacementCount: importedItemPlacements.length,
+    correctedMainlineItemPlacementCount: correctedMainlineItemPlacements.length,
     removedExactDuplicateTableCount: removedExactDuplicateTables.length,
     skippedUnresolvedMethodGroupCount: skippedMethods.length,
     skippedAlternateTableGroupCount: skippedAlternateGroups.length,
@@ -275,6 +299,7 @@ const report = {
   },
   importedLocations,
   importedItemPlacements,
+  correctedMainlineItemPlacements,
   acceptedEncounterTables: acceptedTables.map((table) => ({
     mapKey: table.mapKey,
     encounterRecordIndex: table.encounterRecordIndex,

@@ -1,0 +1,1177 @@
+[
+  {
+    "id": 1,
+    "romId": 1,
+    "description": "The best Ball with the ultimate performance. Wild Pokémon are unable to dodge or escape this."
+  },
+  {
+    "id": 2222,
+    "romId": 2,
+    "description": "A very high-grade Ball that offers a higher Pokémon catch rate than a Great Ball."
+  },
+  {
+    "id": 2221,
+    "romId": 3,
+    "description": "A good, quality Ball that offers a higher Pokémon catch rate than a standard Poké Ball."
+  },
+  {
+    "id": 2220,
+    "romId": 4,
+    "description": "A Ball thrown to catch a wild Pokémon. It is designed in a capsule style."
+  },
+  {
+    "id": 6,
+    "romId": 6,
+    "description": "A somewhat different Ball that works especially well on Water- and Bug-type Pokémon."
+  },
+  {
+    "id": 7,
+    "romId": 7,
+    "description": "A somewhat different Ball that works especially well on Pokémon deep in the sea."
+  },
+  {
+    "id": 8,
+    "romId": 8,
+    "description": "A somewhat different Ball that works especially well on weaker Pokémon."
+  },
+  {
+    "id": 9,
+    "romId": 9,
+    "description": "A somewhat different Ball that works especially well on Pokémon caught before."
+  },
+  {
+    "id": 10,
+    "romId": 10,
+    "description": "A somewhat different Ball that becomes progressively better the more turns there are in a battle."
+  },
+  {
+    "id": 11,
+    "romId": 11,
+    "description": "A comfortable Ball that makes a captured wild Pokémon quickly grow friendly."
+  },
+  {
+    "id": 17,
+    "romId": 13,
+    "description": "A spray-type wound medicine. It restores the HP of one Pokémon by 20 points."
+  },
+  {
+    "id": 18,
+    "romId": 14,
+    "description": "A spray-type medicine. It heals one Pokémon from a poisoning."
+  },
+  {
+    "id": 19,
+    "romId": 15,
+    "description": "A spray-type medicine. It heals one Pokémon of a burn."
+  },
+  {
+    "id": 20,
+    "romId": 16,
+    "description": "A spray-type medicine. It heals a Pokémon of frostbite."
+  },
+  {
+    "id": 21,
+    "romId": 17,
+    "description": "A spray-type medicine. It awakens a sleeping Pokémon."
+  },
+  {
+    "id": 50073,
+    "romId": 18,
+    "description": "A spray-type medicine. It heals one Pokémon from paralysis."
+  },
+  {
+    "id": 23,
+    "romId": 19,
+    "description": "A medicine that fully restores the HP and heals any status problems of one Pokémon."
+  },
+  {
+    "id": 24,
+    "romId": 20,
+    "description": "A spray-type wound medicine. It fully restores the HP of one Pokémon."
+  },
+  {
+    "id": 25,
+    "romId": 21,
+    "description": "A spray-type wound medicine. It restores the HP of one Pokémon by 200 points."
+  },
+  {
+    "id": 26,
+    "romId": 22,
+    "description": "A spray-type wound medicine. It restores the HP of one Pokémon by 50 points."
+  },
+  {
+    "id": 27,
+    "romId": 23,
+    "description": "A spray-type medicine. It heals all the status problems of one Pokémon."
+  },
+  {
+    "id": 28,
+    "romId": 24,
+    "description": "A medicine that revives a fainted Pokémon, restoring HP by half the maximum amount."
+  },
+  {
+    "id": 29,
+    "romId": 25,
+    "description": "A medicine that revives a fainted Pokémon, restoring HP fully."
+  },
+  {
+    "id": 30,
+    "romId": 26,
+    "description": "Water with a high mineral content. It restores the HP of one Pokémon by 50 points."
+  },
+  {
+    "id": 31,
+    "romId": 27,
+    "description": "A fizzy soda drink. It restores the HP of one Pokémon by 60 points."
+  },
+  {
+    "id": 32,
+    "romId": 28,
+    "description": "A very sweet drink. It restores the HP of one Pokémon by 80 points."
+  },
+  {
+    "id": 33,
+    "romId": 29,
+    "description": "Highly nutritious milk. It restores the HP of one Pokémon by 100 points."
+  },
+  {
+    "id": 34,
+    "romId": 30,
+    "description": "A very bitter medicine powder that restores the HP of one Pokémon by 50 points, but reduces Happiness."
+  },
+  {
+    "id": 35,
+    "romId": 31,
+    "description": "A very bitter root that restores the HP of a Pokémon by 200 points. Reduces Happiness, however."
+  },
+  {
+    "id": 36,
+    "romId": 32,
+    "description": "A very bitter medicine powder that heals all the status problems of a Pokémon, but reduces Happiness."
+  },
+  {
+    "id": 37,
+    "romId": 33,
+    "description": "A very bitter medicinal herb that fully revives a fainted Pokémon! Reduces Happiness, however."
+  },
+  {
+    "id": 38,
+    "romId": 34,
+    "description": "Restores a selected move’s PP by 10 points for one Pokémon."
+  },
+  {
+    "id": 39,
+    "romId": 35,
+    "description": "Fully restores a selected move’s PP for one Pokémon."
+  },
+  {
+    "id": 40,
+    "romId": 36,
+    "description": "Restores the PP of all moves for one Pokémon by 10 points each."
+  },
+  {
+    "id": 41,
+    "romId": 37,
+    "description": "Fully restores the PP of all moves for one Pokémon."
+  },
+  {
+    "id": 42,
+    "romId": 38,
+    "description": "Mahogany Town’s local specialty. It heals all the status problems of one Pokémon."
+  },
+  {
+    "id": 65,
+    "romId": 39,
+    "description": "A blue glass flute that awakens a sleeping Pokémon."
+  },
+  {
+    "id": 66,
+    "romId": 40,
+    "description": "A yellow glass flute that snaps one Pokémon out of confusion."
+  },
+  {
+    "id": 67,
+    "romId": 41,
+    "description": "A red glass flute that snaps one Pokémon out of infatuation."
+  },
+  {
+    "id": 68,
+    "romId": 42,
+    "description": "A black glass flute. When blown, it makes wild Pokémon less likely to appear."
+  },
+  {
+    "id": 69,
+    "romId": 43,
+    "description": "A white glass flute. When blown, it makes wild Pokémon more likely to appear."
+  },
+  {
+    "id": 43,
+    "romId": 44,
+    "description": "A 100% pure juice. It restores the HP of one Pokémon by 20 points."
+  },
+  {
+    "id": 44,
+    "romId": 45,
+    "description": "Revives all fainted Pokémon, restoring HP fully."
+  },
+  {
+    "id": 50018,
+    "romId": 46,
+    "description": "A piece of Coral discarded from Corsola. Sells for a high price."
+  },
+  {
+    "id": 299,
+    "romId": 53,
+    "description": "A box packed with a tremendous amount of electric energy. It is loved by a certain Pokémon."
+  },
+  {
+    "id": 300,
+    "romId": 54,
+    "description": "A box packed with a tremendous amount of magma energy. It is loved by a certain Pokémon."
+  },
+  {
+    "id": 298,
+    "romId": 55,
+    "description": "A protective item of some sort. It is extremely stiff and heavy. It is loved by a certain Pokémon."
+  },
+  {
+    "id": 303,
+    "romId": 56,
+    "description": "An item to be held by a Pokémon. It is a sharply hooked claw that ups the holder’s critical-hit ratio."
+  },
+  {
+    "id": 304,
+    "romId": 57,
+    "description": "An item to be held by a Pokémon. It may cause the foe to flinch when the holder inflicts damage."
+  },
+  {
+    "id": 242,
+    "romId": 58,
+    "description": "An item to be held by a Pokémon. It is a magnifying lens that boosts the accuracy of moves by 10%."
+  },
+  {
+    "id": 50247,
+    "romId": 59,
+    "description": "A peculiar stone that allows certain Pokémon to evolve into a regional variant that they may have."
+  },
+  {
+    "id": 45,
+    "romId": 63,
+    "description": "A nutritious drink for Pokémon. It raises the base HP of one Pokémon."
+  },
+  {
+    "id": 46,
+    "romId": 64,
+    "description": "A nutritious drink for Pokémon. It raises the base Attack stat of one Pokémon."
+  },
+  {
+    "id": 47,
+    "romId": 65,
+    "description": "A nutritious drink for Pokémon. It raises the base Defense stat of one Pokémon."
+  },
+  {
+    "id": 48,
+    "romId": 66,
+    "description": "A nutritious drink for Pokémon. It raises the base Speed stat of one Pokémon."
+  },
+  {
+    "id": 49,
+    "romId": 67,
+    "description": "A nutritious drink for Pokémon. It raises the base Sp. Atk stat of one Pokémon."
+  },
+  {
+    "id": 50,
+    "romId": 68,
+    "description": "A candy that is packed with energy. It raises the level of a Pokémon by one."
+  },
+  {
+    "id": 51,
+    "romId": 69,
+    "description": "Slightly raises the maximum PP of a selected move for one Pokémon."
+  },
+  {
+    "id": 52,
+    "romId": 70,
+    "description": "A nutritious drink for Pokémon. It raises the base Sp. Def stat of one Pokémon."
+  },
+  {
+    "id": 53,
+    "romId": 71,
+    "description": "Raises the PP of a selected move to its maximum level for one Pokémon."
+  },
+  {
+    "id": 50242,
+    "romId": 73,
+    "description": "An item that prevents stat reduction among party Pokémon for five turns after use."
+  },
+  {
+    "id": 50241,
+    "romId": 74,
+    "description": "Raises the critical-hit ratio of Pokémon in battle. Wears off if the Pokémon is withdrawn."
+  },
+  {
+    "id": 57,
+    "romId": 75,
+    "description": "Raises the Attack stat of Pokémon in battle. Wears off if the Pokémon is withdrawn."
+  },
+  {
+    "id": 50240,
+    "romId": 76,
+    "description": "Raises the Defense stat of Pokémon in battle. Wears off if the Pokémon is withdrawn."
+  },
+  {
+    "id": 59,
+    "romId": 77,
+    "description": "Raises the Speed stat of Pokémon in battle. Wears off if the Pokémon is withdrawn."
+  },
+  {
+    "id": 60,
+    "romId": 78,
+    "description": "Raises the accuracy stat of Pokémon in battle. Wears off if the Pokémon is withdrawn."
+  },
+  {
+    "id": 50243,
+    "romId": 79,
+    "description": "Raises the Sp. Atk stat of Pokémon in battle. Wears off if the Pokémon is withdrawn."
+  },
+  {
+    "id": 63,
+    "romId": 80,
+    "description": "An attractive item. Use it to flee from any battle with a wild Pokémon."
+  },
+  {
+    "id": 64,
+    "romId": 81,
+    "description": "An attractive item. Use it to flee from any battle with a wild Pokémon."
+  },
+  {
+    "id": 258,
+    "romId": 82,
+    "description": "A held item that gradually restores the HP of Poison-type Pokémon. It inflicts damage on all other types."
+  },
+  {
+    "id": 76,
+    "romId": 83,
+    "description": "Prevents weak wild Pokémon from appearing for 200 steps."
+  },
+  {
+    "id": 77,
+    "romId": 84,
+    "description": "Prevents weak wild Pokémon from appearing for 250 steps."
+  },
+  {
+    "id": 78,
+    "romId": 85,
+    "description": "A long, durable rope. Use it to escape instantly from a cave or a dungeon."
+  },
+  {
+    "id": 79,
+    "romId": 86,
+    "description": "Prevents weak wild Pokémon from appearing for 100 steps."
+  },
+  {
+    "id": 80,
+    "romId": 93,
+    "description": "A peculiar stone that makes certain species of Pokémon evolve. It is as red as the sun."
+  },
+  {
+    "id": 81,
+    "romId": 94,
+    "description": "A peculiar stone that makes certain species of Pokémon evolve. It is as black as the night sky."
+  },
+  {
+    "id": 82,
+    "romId": 95,
+    "description": "A peculiar stone that makes certain species of Pokémon evolve. It is colored orange."
+  },
+  {
+    "id": 83,
+    "romId": 96,
+    "description": "A peculiar stone that makes certain species of Pokémon evolve. It has a thunderbolt pattern."
+  },
+  {
+    "id": 84,
+    "romId": 97,
+    "description": "A peculiar stone that makes certain species of Pokémon evolve. It is a clear light blue."
+  },
+  {
+    "id": 85,
+    "romId": 98,
+    "description": "A peculiar stone that makes certain species of Pokémon evolve. It has a leaf pattern."
+  },
+  {
+    "id": 108,
+    "romId": 99,
+    "description": "A peculiar stone that makes certain species of Pokémon evolve. It is as dark as dark can be."
+  },
+  {
+    "id": 107,
+    "romId": 100,
+    "description": "A peculiar stone that makes certain species of Pokémon evolve. It is as light as the day."
+  },
+  {
+    "id": 885,
+    "romId": 101,
+    "description": "A peculiar stone that makes certain species of Pokémon evolve. It has a snowflake pattern."
+  },
+  {
+    "id": 245,
+    "romId": 102,
+    "description": "A well-worn belt that slightly boosts the power of super- effective moves."
+  },
+  {
+    "id": 86,
+    "romId": 103,
+    "description": "A small and rare mushroom. It is quite popular among certain people."
+  },
+  {
+    "id": 87,
+    "romId": 104,
+    "description": "A large and rare mushroom. It is very popular among certain people."
+  },
+  {
+    "id": 581,
+    "romId": 105,
+    "description": "A mysterious evolutionary lump. It raises the Defense and Sp. Def of a Pokémon that can evolve."
+  },
+  {
+    "id": 88,
+    "romId": 106,
+    "description": "A relatively small pearl that sparkles in a pretty silver color. It can be sold cheaply."
+  },
+  {
+    "id": 89,
+    "romId": 107,
+    "description": "A quite-large pearl that sparkles in a pretty silver color. It can be sold at a high price."
+  },
+  {
+    "id": 90,
+    "romId": 108,
+    "description": "A pretty red sand with a loose, silky feel. It can be sold at a high price."
+  },
+  {
+    "id": 91,
+    "romId": 109,
+    "description": "A shard of a pretty gem that sparkles in a red color. It can be sold at a high price."
+  },
+  {
+    "id": 92,
+    "romId": 110,
+    "description": "A nugget of pure gold that gives off a lustrous gleam. It can be sold at a high price."
+  },
+  {
+    "id": 93,
+    "romId": 111,
+    "description": "A pretty, heart-shaped scale that is extremely rare. It glows faintly in the colors of a rainbow."
+  },
+  {
+    "id": 622,
+    "romId": 112,
+    "description": "A large sized Nugget that can be sold for a very high price."
+  },
+  {
+    "id": 50000,
+    "romId": 113,
+    "description": "A peculiar item that allows most Pokémon to change their Ability."
+  },
+  {
+    "id": 250,
+    "romId": 114,
+    "description": "An item to be held by a Pokémon. It’s a bizzare orb that will afflict the holder with a burn in battle."
+  },
+  {
+    "id": 249,
+    "romId": 115,
+    "description": "An item to be held by a Pokémon. It’s a bizzare orb that will badly poison the holder during battle."
+  },
+  {
+    "id": 50046,
+    "romId": 116,
+    "description": "An item to be held by a Pokémon. A glowing orb that restores some HP at the end of each turn."
+  },
+  {
+    "id": 683,
+    "romId": 117,
+    "description": "An item to be held by a Pokémon. This vest raises Sp. Def but prevents the use of status moves."
+  },
+  {
+    "id": 264,
+    "romId": 118,
+    "description": "An item to be held by a Pokémon. This scarf boosts Speed, but allows the use of only one move."
+  },
+  {
+    "id": 274,
+    "romId": 119,
+    "description": "An item to be held by a Pokémon. These glasses raise Sp. Atk, but allows the use of only one move."
+  },
+  {
+    "id": 50060,
+    "romId": 120,
+    "description": "A Mail to be delivered to the chubby guy on Route 31."
+  },
+  {
+    "id": 484,
+    "romId": 121,
+    "description": "A music player that allows you to listen to nostalgic songs. It’s operated with a single switch."
+  },
+  {
+    "id": 466,
+    "romId": 123,
+    "description": "A sour candy that causes a Pokémon to lose a level."
+  },
+  {
+    "id": 50020,
+    "romId": 124,
+    "description": "An item that when enabled allows all Pokémon in party to get some EXP in battle."
+  },
+  {
+    "id": 126,
+    "romId": 133,
+    "description": "When held by a Pokémon, it will be used in battle to heal paralysis."
+  },
+  {
+    "id": 127,
+    "romId": 134,
+    "description": "When held by a Pokémon, it will be used in battle to wake up."
+  },
+  {
+    "id": 128,
+    "romId": 135,
+    "description": "When held by a Pokémon, it will be used in battle to cure poison."
+  },
+  {
+    "id": 129,
+    "romId": 136,
+    "description": "When held by a Pokémon, it will be used in battle to heal a burn."
+  },
+  {
+    "id": 130,
+    "romId": 137,
+    "description": "When held by a Pokémon, it will be used in battle for defrosting."
+  },
+  {
+    "id": 131,
+    "romId": 138,
+    "description": "When held by a Pokémon, it will be used in battle to restore 10 PP."
+  },
+  {
+    "id": 132,
+    "romId": 139,
+    "description": "When held by a Pokémon, it will be used in battle to restore 10 HP."
+  },
+  {
+    "id": 133,
+    "romId": 140,
+    "description": "When held by a Pokémon, it will be used in battle to lift confusion."
+  },
+  {
+    "id": 134,
+    "romId": 141,
+    "description": "When held by a Pokémon, it will be used in battle to heal any problem."
+  },
+  {
+    "id": 135,
+    "romId": 142,
+    "description": "When held by a Pokémon, it will be used in battle to restore 30 HP."
+  },
+  {
+    "id": 136,
+    "romId": 143,
+    "description": "A hold item that restores HP but may cause confusion when used."
+  },
+  {
+    "id": 137,
+    "romId": 144,
+    "description": "A hold item that restores HP but may cause confusion when used."
+  },
+  {
+    "id": 138,
+    "romId": 145,
+    "description": "A hold item that restores HP but may cause confusion when used."
+  },
+  {
+    "id": 139,
+    "romId": 146,
+    "description": "A hold item that restores HP but may cause confusion when used."
+  },
+  {
+    "id": 140,
+    "romId": 147,
+    "description": "A hold item that restores HP but may cause confusion when used."
+  },
+  {
+    "id": 178,
+    "romId": 148,
+    "description": "When held by a Pokémon, it raises the Attack stat in a pinch."
+  },
+  {
+    "id": 179,
+    "romId": 149,
+    "description": "When held by a Pokémon, it raises the Defense stat in a pinch."
+  },
+  {
+    "id": 180,
+    "romId": 150,
+    "description": "When held by a Pokémon, it raises the Speed stat in a pinch."
+  },
+  {
+    "id": 181,
+    "romId": 151,
+    "description": "When held by a Pokémon, it raises the Sp. Atk stat in a pinch."
+  },
+  {
+    "id": 182,
+    "romId": 152,
+    "description": "When held by a Pokémon, it raises the Sp. Def stat in a pinch."
+  },
+  {
+    "id": 50003,
+    "romId": 153,
+    "description": "To be held by a Pokémon for use with the move Fling."
+  },
+  {
+    "id": 50036,
+    "romId": 154,
+    "description": "To be held by a Pokémon for use with the move Fling."
+  },
+  {
+    "id": 50245,
+    "romId": 155,
+    "description": "To be held by a Pokémon for use with the move Fling."
+  },
+  {
+    "id": 458,
+    "romId": 156,
+    "description": "To be held by a Pokémon for use with the move Fling."
+  },
+  {
+    "id": 50081,
+    "romId": 157,
+    "description": "To be held by a Pokémon for use with the move Fling."
+  },
+  {
+    "id": 50237,
+    "romId": 158,
+    "description": "To be held by a Pokémon for use with the move Fling."
+  },
+  {
+    "id": 50002,
+    "romId": 159,
+    "description": "To be held by a Pokémon for use with the move Fling."
+  },
+  {
+    "id": 302,
+    "romId": 170,
+    "description": "A cloth imbued with horrifyingly strong spiritual energy. It is loved by a certain Pokémon."
+  },
+  {
+    "id": 50030,
+    "romId": 173,
+    "description": "A Golden bottle cap. When consumed, it boosts your Pokémon IVs to their maximum. Very rare and sought after."
+  },
+  {
+    "id": 301,
+    "romId": 174,
+    "description": "If held, causes certain Pokémon to evolve when leveled up."
+  },
+  {
+    "id": 50102,
+    "romId": 178,
+    "description": "A Silver bottle cap. When consumed, it boosts your Pokémon EVs to their maximum. Very rare and sought after."
+  },
+  {
+    "id": 191,
+    "romId": 180,
+    "description": "An item to be held by a Pokémon. It restores any lowered stat in battle. It can be used only once."
+  },
+  {
+    "id": 192,
+    "romId": 181,
+    "description": "An item to be held by a Pokémon. It promotes strong growth but lowers Speed while it is held."
+  },
+  {
+    "id": 193,
+    "romId": 182,
+    "description": "An item to be held by a Pokémon. The holder gets a share of EXP. points without having to battle."
+  },
+  {
+    "id": 194,
+    "romId": 183,
+    "description": "An item to be held by a Pokémon. A light and sharp claw. The holder may be able to strike first."
+  },
+  {
+    "id": 195,
+    "romId": 184,
+    "description": "A held item that helps make the user more friendly. Also helps certain Pokémon evolve."
+  },
+  {
+    "id": 196,
+    "romId": 185,
+    "description": "An item to be held by a Pokémon. It snaps the holder out of infatuation. It can be used once."
+  },
+  {
+    "id": 197,
+    "romId": 186,
+    "description": "An item to be held by a Pokémon. This headband ups Attack, but allows the use of only one move."
+  },
+  {
+    "id": 198,
+    "romId": 187,
+    "description": "An item to be held by a Pokémon. It may cause the foe to flinch upon taking damage."
+  },
+  {
+    "id": 199,
+    "romId": 188,
+    "description": "An item to be held by a Pokémon. A shiny silver powder that boosts the power of Bug-type moves."
+  },
+  {
+    "id": 200,
+    "romId": 189,
+    "description": "An item to be held by a Pokémon. It doubles the battle money if the holding Pokémon takes part."
+  },
+  {
+    "id": 201,
+    "romId": 190,
+    "description": "An item to be held by a Pokémon. It repels wild Pokémon if the holder is first in the party."
+  },
+  {
+    "id": 202,
+    "romId": 191,
+    "description": "An orb to be held by a Latios or Latias. It raises the Sp. Atk and Sp. Def stats."
+  },
+  {
+    "id": 205,
+    "romId": 194,
+    "description": "An item to be held by a Pokémon. The holding Pokémon can flee from any wild Pokémon for sure."
+  },
+  {
+    "id": 206,
+    "romId": 195,
+    "description": "An item to be held by a Pokémon. The holding Pokémon is prevented from evolving."
+  },
+  {
+    "id": 207,
+    "romId": 196,
+    "description": "An item to be held by a Pokémon. The holding Pokémon may endure an attack, leaving just 1 HP."
+  },
+  {
+    "id": 208,
+    "romId": 197,
+    "description": "An item to be held by a Pokémon. An egg filled with happiness that earns extra EXP. points in battle."
+  },
+  {
+    "id": 209,
+    "romId": 198,
+    "description": "An item to be held by a Pokémon. A lens that boosts the critical-hit ratio of the holding Pokémon."
+  },
+  {
+    "id": 210,
+    "romId": 199,
+    "description": "An item to be held by a Pokémon. A special metallic film that boosts the power of Steel-type moves."
+  },
+  {
+    "id": 211,
+    "romId": 200,
+    "description": "An item to be held by a Pokémon. The holding Pokémon gradually regains HP during battle."
+  },
+  {
+    "id": 212,
+    "romId": 201,
+    "description": "A thick and tough scale. A Dragon-type Pokémon may be holding it."
+  },
+  {
+    "id": 213,
+    "romId": 202,
+    "description": "An item to be held by a Pikachu. It is a puzzling orb that raises the Atk and Sp. Atk stat."
+  },
+  {
+    "id": 214,
+    "romId": 203,
+    "description": "An item to be held by a Pokémon. A loose, silky sand that boosts the power of Ground-type moves."
+  },
+  {
+    "id": 215,
+    "romId": 204,
+    "description": "An item to be held by a Pokémon. An unbreakable stone that boosts the power of Rock-type moves."
+  },
+  {
+    "id": 216,
+    "romId": 205,
+    "description": "An item to be held by a Pokémon. A seed imbued with life that boosts the power of Grass-type moves."
+  },
+  {
+    "id": 217,
+    "romId": 206,
+    "description": "An item to be held by a Pokémon. A shady-looking pair of glasses that boosts Dark-type moves."
+  },
+  {
+    "id": 218,
+    "romId": 207,
+    "description": "An item to be held by a Pokémon. A belt that boosts determination and Fighting-type moves."
+  },
+  {
+    "id": 219,
+    "romId": 208,
+    "description": "An item to be held by a Pokémon. A powerful magnet that boosts the power of Electric-type moves."
+  },
+  {
+    "id": 220,
+    "romId": 209,
+    "description": "An item to be held by a Pokémon. A teardrop-shaped gem that boosts the power of Water-type moves."
+  },
+  {
+    "id": 221,
+    "romId": 210,
+    "description": "An item to be held by a Pokémon. A long, sharp beak that boosts the power of Flying-type moves."
+  },
+  {
+    "id": 222,
+    "romId": 211,
+    "description": "An item to be held by a Pokémon. A small, poisonous barb that boosts the power of Poison-type moves."
+  },
+  {
+    "id": 223,
+    "romId": 212,
+    "description": "An item to be held by a Pokémon. A piece of ice that repels heat and boosts Ice-type moves."
+  },
+  {
+    "id": 224,
+    "romId": 213,
+    "description": "An item to be held by a Pokémon. A sinister, eerie tag that boosts Ghost-type moves."
+  },
+  {
+    "id": 225,
+    "romId": 214,
+    "description": "An item to be held by a Pokémon. A spoon imbued with telekinetic power boosts Psychic-type moves."
+  },
+  {
+    "id": 226,
+    "romId": 215,
+    "description": "An item to be held by a Pokémon. A combustible fuel that boosts the power of Fire-type moves."
+  },
+  {
+    "id": 227,
+    "romId": 216,
+    "description": "An item to be held by a Pokémon. A hard and sharp fang that boosts the power of Dragon-type moves."
+  },
+  {
+    "id": 228,
+    "romId": 217,
+    "description": "An item to be held by a Pokémon. A sumptuous scarf that boosts the power of Normal-type moves."
+  },
+  {
+    "id": 229,
+    "romId": 218,
+    "description": "A transparent device filled with all sorts of data. It is made by Silph Co."
+  },
+  {
+    "id": 230,
+    "romId": 219,
+    "description": "An item to be held by a Pokémon. The holding Pokémon regains some HP upon striking the foe."
+  },
+  {
+    "id": 231,
+    "romId": 220,
+    "description": "An item to be held by a Pokémon. It slightly boosts the power of Water-type moves."
+  },
+  {
+    "id": 233,
+    "romId": 222,
+    "description": "A glove to be held by a CHANSEY. It raises Chansey’s critical-hit ratio."
+  },
+  {
+    "id": 234,
+    "romId": 223,
+    "description": "A fine, hard powder to be held by a Ditto. It raises Ditto’s Defense stat."
+  },
+  {
+    "id": 235,
+    "romId": 224,
+    "description": "A hard bone of some sort to be held by a Cubone or Marowak. It raises the Attack stat."
+  },
+  {
+    "id": 50111,
+    "romId": 225,
+    "description": "A stick of leek to be held by a Farfetch’d. It raises Farfetch’d’s critical-hit ratio."
+  },
+  {
+    "id": 257,
+    "romId": 226,
+    "description": "When held, it increases the chance to pass heritage to its offspring."
+  },
+  {
+    "id": 246,
+    "romId": 227,
+    "description": "An item to be held by a Pokémon. Protective moves like Light Screen and Reflect will be effective longer."
+  },
+  {
+    "id": 50079,
+    "romId": 228,
+    "description": "An item to be held by a Pokémon. A beautiful bow that boosts the power of Fairy-type moves."
+  },
+  {
+    "id": 271,
+    "romId": 229,
+    "description": "An item that aids in training, promotes strong HP growth but cuts Speed while held."
+  },
+  {
+    "id": 266,
+    "romId": 230,
+    "description": "An item that aids in training, promotes strong Attack growth but cuts Speed while held."
+  },
+  {
+    "id": 267,
+    "romId": 231,
+    "description": "An item that aids in training, promotes strong Defense growth but cuts Speed while held."
+  },
+  {
+    "id": 270,
+    "romId": 232,
+    "description": "An item that aids in training, promotes strong Speed growth but cuts Speed while held."
+  },
+  {
+    "id": 268,
+    "romId": 233,
+    "description": "An item that aids in training, promotes strong SP. Atk growth but cuts Speed while held."
+  },
+  {
+    "id": 269,
+    "romId": 234,
+    "description": "An item that aids in training, promotes strong Sp. Def growth but cuts Speed while held."
+  },
+  {
+    "id": 450,
+    "romId": 241,
+    "description": "A Poké Ball for catching Pokémon that are a lower level than your own."
+  },
+  {
+    "id": 449,
+    "romId": 242,
+    "description": "A Poké Ball for catching Pokémon hooked by a rod when fishing."
+  },
+  {
+    "id": 451,
+    "romId": 243,
+    "description": "A Poké Ball for catching Pokémon that evolve using the Moon Stone."
+  },
+  {
+    "id": 454,
+    "romId": 244,
+    "description": "A Poké Ball that makes caught Pokémon more friendly."
+  },
+  {
+    "id": 455,
+    "romId": 245,
+    "description": "Poké Ball for catching Pokémon that are the opposite gender of your Pokémon."
+  },
+  {
+    "id": 2223,
+    "romId": 246,
+    "description": "A Poké Ball for catching very heavy Pokémon."
+  },
+  {
+    "id": 453,
+    "romId": 247,
+    "description": "A Poké Ball that makes it easier to catch fast Pokémon."
+  },
+  {
+    "id": 14,
+    "romId": 248,
+    "description": "A remedial Poké Ball that heals the caught Pokémon’s HP and any status problems."
+  },
+  {
+    "id": 15,
+    "romId": 249,
+    "description": "A somewhat different Ball that provides a better catch rate if used at the start."
+  },
+  {
+    "id": 13,
+    "romId": 250,
+    "description": "A somewhat different Poké Ball that makes it easier to catch wild Pokémon at night."
+  },
+  {
+    "id": 457,
+    "romId": 252,
+    "description": "A commemorative Ball given out during the Bug Catching contest and the Safari Zone."
+  },
+  {
+    "id": 50082,
+    "romId": 253,
+    "description": "A device that allows you to keep an encyclopedia of encountered Pokémon."
+  },
+  {
+    "id": 50007,
+    "romId": 254,
+    "description": "A Bronze bottle cap. When consumed, it boosts your Pokémon Happiness to its maximum. Reasonably rare."
+  },
+  {
+    "id": 238,
+    "romId": 255,
+    "description": "An item to be held by Feebas. Allows it to evolve while increasing its level."
+  },
+  {
+    "id": 421,
+    "romId": 260,
+    "description": "A case for holding Coins obtained at the Game Corner. It holds up to 9999 Coins."
+  },
+  {
+    "id": 50048,
+    "romId": 261,
+    "description": "A device used for finding items. If there is a hidden item nearby when it is used, it emits a signal."
+  },
+  {
+    "id": 422,
+    "romId": 262,
+    "description": "An old and beat-up fishing rod. Use it by any body of water to fish for wild Pokémon."
+  },
+  {
+    "id": 423,
+    "romId": 263,
+    "description": "A new, good-quality fishing rod. Use it by any body of water to fish for wild Pokémon."
+  },
+  {
+    "id": 424,
+    "romId": 264,
+    "description": "An awesome, high-tech fishing rod. Use it by any body of water to fish for wild Pokémon."
+  },
+  {
+    "id": 1021,
+    "romId": 265,
+    "description": "The ticket required for sailing on the ferry S.S. Aqua. It has a drawing of a ship on it."
+  },
+  {
+    "id": 50028,
+    "romId": 277,
+    "description": "A mysterious Poké Ball given to you. It’s rumored to contain a Pokémon!"
+  },
+  {
+    "id": 474,
+    "romId": 279,
+    "description": "A Bell that gives off a mystical and soothing ring."
+  },
+  {
+    "id": 50089,
+    "romId": 281,
+    "description": "A Program of radio shows in Kanto to be given to the Director of the Goldenrod Radio Tower."
+  },
+  {
+    "id": 478,
+    "romId": 282,
+    "description": "A doll that was lost by the Copycat Girl. It’s right leg is torn."
+  },
+  {
+    "id": 50059,
+    "romId": 283,
+    "description": "A ticket required for riding the Magnet Train. It allows you to ride whenever and homever much you like."
+  },
+  {
+    "id": 482,
+    "romId": 285,
+    "description": "A mystical feather of Rainbow colors. Comes from a legendary Pokémon Ho-Oh!"
+  },
+  {
+    "id": 481,
+    "romId": 288,
+    "description": "A mystical feather of Silver colors. Comes from a legendary Pokémon Lugia!"
+  },
+  {
+    "id": 50071,
+    "romId": 348,
+    "description": "A device that let’s you access Pokémon Box services anywhere."
+  },
+  {
+    "id": 483,
+    "romId": 349,
+    "description": "An Egg obtained from Mr.Pokémon to be delivered to Prof.Elm."
+  },
+  {
+    "id": 50085,
+    "romId": 350,
+    "description": "A guitar that instantly awakens any Pokémon when Played. It has a great tone."
+  },
+  {
+    "id": 1020,
+    "romId": 351,
+    "description": "The key to CINNABAR ISLAND GYM’s front door. It is colored red and decorated."
+  },
+  {
+    "id": 448,
+    "romId": 352,
+    "description": "A bottle given to you by the flower shop owner. It’s used for watering plants."
+  },
+  {
+    "id": 477,
+    "romId": 353,
+    "description": "A sparkling red scale left behind by the Red Gyarados."
+  },
+  {
+    "id": 103,
+    "romId": 354,
+    "description": "A piece of amber that contains the DNA of Aerodactyl. It sells for a high price."
+  },
+  {
+    "id": 1023,
+    "romId": 355,
+    "description": "A card-type key that unlocks doors in the Radio Tower in Goldenrod City."
+  },
+  {
+    "id": 101,
+    "romId": 357,
+    "description": "A fossil remnant of Omanyte. It sells for a moderate price."
+  },
+  {
+    "id": 102,
+    "romId": 358,
+    "description": "A fossil remnant of Kabuto. It sells for a moderate price."
+  },
+  {
+    "id": 548,
+    "romId": 359,
+    "description": "A scope that makes unseeable Pokémon visible. It is made by SILPH CO."
+  },
+  {
+    "id": 427,
+    "romId": 360,
+    "description": "A folding bicycle that allows faster movement than the Running Shoes."
+  },
+  {
+    "id": 420,
+    "romId": 362,
+    "description": "A device that indicates Trainers who want to battle. Usage is instantaneous."
+  },
+  {
+    "id": 50083,
+    "romId": 363,
+    "description": "A device that allows you to perform HM actions without needing them. Allows you to travel between regions."
+  },
+  {
+    "id": 50084,
+    "romId": 366,
+    "description": "A very convenient map that can be viewed anytime. It even shows your present location."
+  },
+  {
+    "id": 441,
+    "romId": 368,
+    "description": "A potion that contains a secret formular only for use in an emergency."
+  },
+  {
+    "id": 931,
+    "romId": 370,
+    "description": "A key to unlock the door in the Goldenrod City Underground. It’s very rusty."
+  },
+  {
+    "id": 480,
+    "romId": 371,
+    "description": "A Machine Part stolen from the Kanto Power Plant by Team Rocket."
+  },
+  {
+    "id": 50096,
+    "romId": 373,
+    "description": "A button that allows you to soft reset your game. Use only on real GBA, DS or 3DS hardware!"
+  },
+  {
+    "id": 471,
+    "romId": 374,
+    "description": "An item that will let you keep track of caught Unown variants."
+  }
+]

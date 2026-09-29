@@ -1,17 +1,18 @@
 {
   "meta": {
-    "generatedAt": "2026-09-28T20:19:39.840Z",
+    "generatedAt": "2026-09-29T20:33:19.621Z",
     "gameVersion": "2026-07-19",
     "romSha256": "716F2CBFB731E6DC1E014B6B6744B823389262DCC0086A120C1E0FB3D80DD34B",
     "source": "sources/reports/sevii-rom-extraction.json",
     "crosswalk": "sources/normalized/sevii-map-crosswalk-2026-09-25.json"
   },
   "summary": {
-    "readyMapCount": 32,
-    "acceptedEncounterTableCount": 54,
+    "readyMapCount": 31,
+    "acceptedEncounterTableCount": 50,
     "importedLocationCount": 9,
-    "importedEncounterCount": 496,
-    "importedItemPlacementCount": 81,
+    "importedEncounterCount": 464,
+    "importedItemPlacementCount": 79,
+    "correctedMainlineItemPlacementCount": 1,
     "removedExactDuplicateTableCount": 3,
     "skippedUnresolvedMethodGroupCount": 1,
     "skippedAlternateTableGroupCount": 0,
@@ -60,18 +61,16 @@
     },
     {
       "name": "One Island",
-      "encounterCount": 108,
+      "encounterCount": 76,
       "subareas": [
         "Cavern area 1",
         "Cavern area 2",
-        "Cavern area 3",
-        "Outdoor area"
+        "Cavern area 3"
       ],
       "mapKeys": [
         "1,1",
         "1,2",
-        "1,3",
-        "3,51"
+        "1,3"
       ]
     },
     {
@@ -458,16 +457,6 @@
       "location": "Crystal Cavern — Exterior, item ball at tile (33, 10); Source: 2026-07-19 ROM audit"
     },
     {
-      "item": "Poke Ball",
-      "mapKey": "3,51",
-      "location": "One Island — Outdoor area, item ball at tile (19, 17); Source: 2026-07-19 ROM audit"
-    },
-    {
-      "item": "PP Max",
-      "mapKey": "3,51",
-      "location": "One Island — Outdoor area, item ball at tile (33, 3); Source: 2026-07-19 ROM audit"
-    },
-    {
       "item": "Rare Candy",
       "mapKey": "3,68",
       "location": "Icefall Cave — Main area, item ball at tile (53, 14); Source: 2026-07-19 ROM audit"
@@ -548,6 +537,15 @@
       "location": "Icefall Cave — Cavern, item ball at tile (3, 23); Source: 2026-07-19 ROM audit"
     }
   ],
+  "correctedMainlineItemPlacements": [
+    {
+      "mapKey": "3,51",
+      "removedItem": "Potion",
+      "item": "PP Max",
+      "location": "Route 31 — E, next to Dark Cave sign, item ball at tile (33, 3); Source: 2026-07-19 ROM item audit",
+      "evidence": "Wade, the Route 31 Poke Ball and 27/32 ordered workbook encounter slots identify the map; the exact 2026-07-19 ROM stores item 71 at tile (33, 3)."
+    }
+  ],
   "acceptedEncounterTables": [
     {
       "mapKey": "1,0",
@@ -621,31 +619,6 @@
       "encounterRecordIndex": 24,
       "method": "Surf",
       "encounterRate": 10
-    },
-    {
-      "mapKey": "3,51",
-      "encounterRecordIndex": 44,
-      "method": "Fish",
-      "encounterRate": 15
-    },
-    {
-      "mapKey": "3,51",
-      "encounterRecordIndex": 44,
-      "method": "Wild",
-      "encounterRate": 20
-    },
-    {
-      "mapKey": "3,51",
-      "encounterRecordIndex": 44,
-      "method": "Surf",
-      "encounterRate": 10
-    },
-    {
-      "mapKey": "3,51",
-      "encounterRecordIndex": 44,
-      "method": "Tree",
-      "encounterRate": 20,
-      "interactionMethodEvidence": "Tree-rich outdoor layout; encounter species align with documented Headbutt pools."
     },
     {
       "mapKey": "2,49",

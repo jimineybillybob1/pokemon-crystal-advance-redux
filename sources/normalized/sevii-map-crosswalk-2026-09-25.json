@@ -2,7 +2,7 @@
   "meta": {
     "gameVersion": "2026-07-19",
     "romSha256": "716F2CBFB731E6DC1E014B6B6744B823389262DCC0086A120C1E0FB3D80DD34B",
-    "generatedAt": "2026-09-28T20:19:39.654Z",
+    "generatedAt": "2026-09-29T20:33:19.476Z",
     "purpose": "Reviewable map/subarea boundary between ROM extraction and guide overrides.",
     "rules": [
       "A direct ROM region label confirms the parent location but not a user-facing floor/subarea name.",
@@ -20,8 +20,8 @@
     "statusCounts": {
       "exclude-malformed": 8,
       "exclude-placeholder": 1,
-      "exclude-reused-mainline": 25,
-      "ready": 32,
+      "exclude-reused-mainline": 26,
+      "ready": 31,
       "reference-only": 26
     },
     "activeUnresolvedCount": 0,
@@ -1631,10 +1631,16 @@
       },
       "proposedSubarea": "Outdoor area",
       "subareaConfidence": "high",
-      "mapStatus": "ready",
+      "mapStatus": "exclude-reused-mainline",
       "unresolvedTriage": null,
       "excludedPlaceholder": null,
-      "excludedReuse": null,
+      "excludedReuse": {
+        "matchedWorkbookLocations": [
+          "Route 31"
+        ],
+        "encounterSemantics": "Route 31 Wild/Tree/Surf/Fish, Wade and field items",
+        "reason": "The exact ROM record retains Bug Catcher Wade, Route 31's documented Poke Ball and 27 of 32 ordered encounter slots from the workbook; the five differences are rare seasonal/custom slots. The eastern workbook Potion is a PP Max in the 2026-07-19 ROM, matching the July 19 developer fix. The inferred One Island cave link is reused metadata, so this map cannot be imported as One Island content."
+      },
       "counts": {
         "wildMethods": 4,
         "battleCommands": 4,
@@ -1643,7 +1649,7 @@
       },
       "notes": [
         "Parent location is inferred from a reciprocal one-step ROM link.",
-        "Reviewed One Island cluster: the rendered outdoor route and reciprocal cave entrance to map 1,1 support the neutral outdoor-area label."
+        "The exact ROM record retains Bug Catcher Wade, Route 31's documented Poke Ball and 27 of 32 ordered encounter slots from the workbook; the five differences are rare seasonal/custom slots. The eastern workbook Potion is a PP Max in the 2026-07-19 ROM, matching the July 19 developer fix. The inferred One Island cave link is reused metadata, so this map cannot be imported as One Island content."
       ]
     },
     {

@@ -71,7 +71,6 @@ const reviewedReadyNotes = new Map([
   ["2,48", "Reviewed Crystal Cavern interior cluster: sequential layouts and reciprocal internal warps support the neutral area label."],
   ["2,49", "Reviewed Crystal Cavern interior cluster: sequential layouts and reciprocal internal warps support the neutral area label."],
   ["3,50", "Runtime-confirmed Crystal Cavern exterior: the exact 2026-07-19 ROM loads the expected rocky, water-lined outdoor layout from a valid late-game save, matching the direct ROM label, layout and four coordinate-valid item placements."],
-  ["3,51", "Reviewed One Island cluster: the rendered outdoor route and reciprocal cave entrance to map 1,1 support the neutral outdoor-area label."],
   ["3,74", "Reviewed Six Island outdoor cluster: the direct ROM label, visible grass/water terrain and reciprocal east/west connection support the neutral directional label."],
   ["3,113", "Reviewed Six Island outdoor cluster: the reciprocal east/west connection, visible grass/water terrain and shared encounter table support the neutral directional label."],
   ["3,68", "Reviewed Icefall Cave cluster: the direct ROM label, rendered waterway and reciprocal links support the neutral main-area label."],
@@ -95,6 +94,11 @@ const reviewedPlaceholderMaps = new Map([
 // only by stale region labels/reused links.
 // They must remain visible as audit evidence but cannot become Sevii content.
 const reviewedReusedMainlineMaps = new Map([
+  ["3,51", {
+    matchedWorkbookLocations: ["Route 31"],
+    encounterSemantics: "Route 31 Wild/Tree/Surf/Fish, Wade and field items",
+    reason: "The exact ROM record retains Bug Catcher Wade, Route 31's documented Poke Ball and 27 of 32 ordered encounter slots from the workbook; the five differences are rare seasonal/custom slots. The eastern workbook Potion is a PP Max in the 2026-07-19 ROM, matching the July 19 developer fix. The inferred One Island cave link is reused metadata, so this map cannot be imported as One Island content.",
+  }],
   ["1,81", {
     matchedWorkbookLocations: ["Radio Tower", "Union Cave"],
     encounterSemantics: "reused cave-network header",

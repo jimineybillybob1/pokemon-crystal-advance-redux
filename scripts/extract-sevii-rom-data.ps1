@@ -133,7 +133,8 @@ try {
 
   $moveById = @{}
   foreach ($move in $guideData.moves) {
-    $moveById[[int]$move.id] = $move.name
+    $romMoveId = if ($null -ne $move.romId) { [int]$move.romId } else { [int]$move.id }
+    $moveById[$romMoveId] = $move.name
   }
 
   function Resolve-Pokemon([int]$Id) {

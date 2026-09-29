@@ -15,7 +15,7 @@ After completing the Dive-semantics and reused-network reviews, all five active 
 ## Completed static cluster reviews
 
 - Icefall Cave maps `3,68`, `3,69`, `3,78` and `4,8` are ready. Map `6,30` was subsequently proven to contain an existing shared Johto Dive pool and is excluded from Sevii. See `icefall-cave-map-review-2026-09-26.md` and `sevii-dive-semantics-review-2026-09-27.md`.
-- One Island maps `1,1`, `1,2`, `1,3` and `3,51` are ready. The subsequent interaction audit classifies `1,1`/`1,3` as Rock Smash and `3,51` as Tree; trainer commands and deeper reused or unrenderable links remain gated. See `one-island-map-review-2026-09-26.md` and `sevii-tree-rock-semantics-review-2026-09-28.md`.
+- One Island maps `1,1`, `1,2` and `1,3` are ready; `1,1`/`1,3` use Rock Smash. The 2026-09-29 scripted-item audit reclassifies `3,51` as Route 31 reuse and removes its former One Island rows. See `one-island-map-review-2026-09-26.md`, `sevii-tree-rock-semantics-review-2026-09-28.md` and `rom-scripted-item-review-2026-09-29.md`.
 
 ## Completed: encounter-method semantics
 

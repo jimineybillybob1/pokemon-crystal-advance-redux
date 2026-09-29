@@ -5,12 +5,12 @@ Target game build: Pokémon Crystal Advance Redux, 2026-07-19
 
 ## Outcome
 
-The ROM stores Tree and Rock Smash encounters in one five-slot field, so the extraction cannot label the interaction by address alone. Map layouts, object scripts and the workbook's established method/species patterns resolve six ready-map tables without guesswork. Those 30 encounters are imported with their exact Tree or Rock method. The remaining Ruins Cavern table is not imported because the reviewed map exposes neither interaction.
+The ROM stores Tree and Rock Smash encounters in one five-slot field, so the extraction cannot label the interaction by address alone. Map layouts, object scripts and the workbook's established method/species patterns resolve five ready-map tables without guesswork. Those 25 encounters are imported with their exact Tree or Rock method. The remaining Ruins Cavern table is not imported because the reviewed map exposes neither interaction. The 2026-09-29 item audit reclassified `3,51` as Route 31 reuse, so its former One Island Tree import is removed.
 
 | Map | Guide destination | Decision | Evidence |
 |---|---|---|---|
 | `1,0` | Sevii Waterway — Main area | Tree | Tree-rich outdoor layout; Hoothoot/Pineco-led pool follows the workbook's Headbutt pattern. |
-| `3,51` | One Island — Outdoor area | Tree | Tree-rich outdoor layout; Hoothoot/Pineco/Spinarak/Exeggcute/Budew match documented Tree species. |
+| `3,51` | Route 31 reuse | Excluded from Sevii | Wade, the Route 31 Poké Ball, 27/32 ordered workbook encounter slots and the corrected eastern PP Max identify the map as mainline reuse. |
 | `3,68` | Icefall Cave — Main area | Tree | Outdoor tree layout; Hoothoot/Pineco/Ekans/Exeggcute/Burmy-T match documented Tree species. |
 | `3,69` | Icefall Cave — Eastern area | Tree | Outdoor tree layout and the same Tree-species pool as the connected main area. |
 | `1,1` | One Island — Cavern area 1 | Rock | Four graphics-ID 96 objects call script `0x1BE00C`; that script checks move 249, Rock Smash. |
@@ -19,10 +19,10 @@ The ROM stores Tree and Rock Smash encounters in one five-slot field, so the ext
 
 ## Imported effect
 
-- Four Tree tables add 20 all-day rows.
+- Three Tree tables add 15 all-day rows.
 - Two Rock tables add 10 all-day rows.
-- ROM-derived Sevii encounter coverage increases from 466 to 496 rows.
-- Standard guide encounters increase from 3,108 to 3,138 rows.
+- ROM-derived Sevii encounter coverage is 464 rows after removing the 32 misattributed `3,51` rows.
+- Standard guide encounters are 3,106 rows.
 - The exact method is preserved in encounter identity, sorting, filtering and Pokémon cross-links.
 
 The repeatable decision is encoded in `scripts/import-sevii-safe-tranche.mjs`. Machine-readable object evidence is preserved in `sources/reports/sevii-tree-rock-object-trace-2026-09-28.json`, and the generated import decisions are in `sources/reports/sevii-safe-import-report.json`.

@@ -4,9 +4,13 @@ Review date: 2026-09-26
 Target build: Pokémon Crystal Advance Redux, 2026-07-19  
 ROM SHA-256: `716F2CBFB731E6DC1E014B6B6744B823389262DCC0086A120C1E0FB3D80DD34B`
 
+## 2026-09-29 correction
+
+The scripted-item audit supersedes this report's original `3,51` decision. Wade, the documented Route 31 Poké Ball, 27 of 32 ordered Route 31 encounter slots and the post-workbook eastern PP Max identify `3,51` as reused Route 31 data. It is now `exclude-reused-mainline`, and its 32 encounter rows and two item placements are removed from One Island. Maps `1,1`, `1,2` and `1,3` remain ready, contributing 76 encounter rows after the later Rock Smash classification and 15 item placements. See `rom-scripted-item-review-2026-09-29.md`.
+
 ## Decision
 
-Promote maps `1,1`, `1,2`, `1,3` and `3,51` to `ready` under `One Island`, using the neutral labels `Cavern area 1`, `Cavern area 2`, `Cavern area 3` and `Outdoor area`. The labels distinguish the four records without claiming undocumented floor names, Kindle Road boundaries or an Ember Cavern identity.
+The original review promoted maps `1,1`, `1,2`, `1,3` and `3,51`. The 2026-09-29 correction above supersedes the `3,51` portion; only the three cavern maps remain ready under One Island.
 
 Do not extend the import through their external exits. The next linked maps enter the mixed Underwater network, an unrenderable active header, or deeper reused networks whose playable One Island identity is not established.
 

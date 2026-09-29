@@ -38,7 +38,9 @@ function recordKeys(record, kind) {
 function mergeCollection(baseline, overrides, kind) {
   const result = baseline.map(record => ({
     ...structuredClone(record),
-    _provenance: { origin: 'baseline', overriddenFields: [] }
+    _provenance: record._provenance
+      ? structuredClone(record._provenance)
+      : { origin: 'baseline', overriddenFields: [] }
   }));
   const positions = new Map();
   result.forEach((record, index) => recordKeys(record, kind).forEach(key => positions.set(key, index)));
@@ -76,6 +78,8 @@ const baselineAbilities = read('data/baseline/abilities-data.json');
 const overrideGuide = read('data/overrides/guide-data.json');
 const overrideItems = read('data/overrides/items-data.json');
 const overrideAbilities = read('data/overrides/abilities-data.json');
+const romMoveOverrides = read('data/overrides/rom-move-data.json');
+const romItemOverrides = read('data/overrides/rom-item-data.json');
 const config = read('config/game-config.json');
 const lock = read('baseline.lock.json');
 
@@ -89,8 +93,16 @@ const pokemon = mergeCollection(baselineGuide.pokemon || [], overrideGuide.pokem
     return definition ? { ...ability, name: definition.name || ability.name, description: definition.description ?? ability.description } : ability;
   })
 }));
-const moves = mergeCollection(baselineGuide.moves || [], overrideGuide.moves || [], 'move');
-const items = mergeCollection(baselineItems || [], overrideItems || [], 'item');
+const moves = mergeCollection(
+  mergeCollection(baselineGuide.moves || [], overrideGuide.moves || [], 'move'),
+  romMoveOverrides,
+  'move',
+);
+const items = mergeCollection(
+  mergeCollection(baselineItems || [], overrideItems || [], 'item'),
+  romItemOverrides,
+  'item',
+);
 const locations = (overrideGuide.locations || []).filter(location => location.$delete !== true).map(location => ({
   ...location,
   _provenance: { origin: 'rom-hack', overriddenFields: Object.keys(location).filter(key => !key.startsWith('$')) }
